@@ -1,0 +1,203 @@
+{
+  "dialog_id": "esconv_train_15",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses significant distress and exhaustion due to insomnia, stating 'Capek banget, bener-bener capek!!' and 'aku udah putus asa', indicating a high level of frustration with their situation.",
+    "emotion_trajectory": "The user shifts from a state of frustration and desperation to feeling more hopeful and grateful, expressing thanks for the support provided by the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot operates as a reactive listener that jumps into solution-mode almost immediately. After only one exchange about the user's insomnia, it prematurely offers suggestions (schedule, 'quiet time', buying a lamp) before exploring the 'thoughts that keep spinning' (pikiran penuh banget) that the user explicitly mentions. It ignores the deeper emotional distress (feeling disliked by others, loneliness) by bypassing these topics to suggest podcasts or give surface-level clichés ('you just haven't found the right person'). The conversation flow is linear and predictable: brief validation followed by a technical fix or a generic tip, characteristic of the suis-generis 'basic_counseling' style.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses high frustration ('capek banget', 'putus asa') and loneliness ('nggak punya teman dekat', 'bukan tipe orang yang disukai'), which requires mild support through active listening and clarification. The bot successfully employs reflective listening ('Jadi kamu merasa sangat lelah karena pikiran yang terus berputar...') and normalising, though it leans heavily into problem-solving. There are no indicators of self-harm or suicide (crisis signals), despite the word 'putus asa' being used in the context of wanting to try any sleep remedy, not as a general expression of hopelessness towards life."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Kesulitan tidur akibat pikiran berputar dan merasa terisolasi secara sosial",
+    "reasoning": "User mentions sleep issues caused by 'pikiran penuh banget' and emotional instability ('gampang marah'), but the conversation shifts towards सामाजिक isolation and low self-worth ('aku bukan tipe orang yang disukai', 'mereka selalu pergi'). This falls under Level 2 (mild) because it involves interpersonal conflict and emotional distress that requires careful framing to avoid making the user feel more misunderstood, though no active crisis is present."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow, though it occasionally pivots to new suggestions (like exercise or mattresses) a bit abruptly."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot is warm, validates the user's feelings of frustration and fatigue, and offers encouragement."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot accurately summarizes the user's complex situation: insomnia caused by racing thoughts, which leads to fatigue and irritability."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (sleep hygiene, relaxation podcasts, and professional counseling) are realistic and safe for an adolescent."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: extreme fatigue and desperation. Final emotion: feeling supported and more optimistic ('Makasih banyak atas dukungannya :-)'). Significant positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The bot correctly identifies the need for professional help (counseling) and does not suggest any risky behaviors."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural, uses an appropriate register for Indonesian adolescents, and avoids being overly clinical or formal."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot encourages the user to open up about their social life and thoughts, though it occasionally provides too many solutions at once."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot is entirely accepting, especially when the user expresses feelings of being unlikeable, countering those negative self-beliefs without judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_15",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Capek banget, bener-bener capek!!"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh ya? Kenapa bisa capek banget?"
+      },
+      {
+        "role": "user",
+        "content": "Karena aku nggak bisa tidur... Aku nggak tau kenapa, aku cuma terbaring sambil melek berjam-jam!"
+      },
+      {
+        "role": "assistant",
+        "content": "Masalah tidur seperti itu memang bikin frustasi. Aku bisa bantu berikan beberapa saran, kalau kamu bersedia mencoba?"
+      },
+      {
+        "role": "user",
+        "content": "Iya banget... aku udah putus asa, aku bakal cobain apa aja!"
+      },
+      {
+        "role": "assistant",
+        "content": "Yang pertama, coba tentukan jadwal tidur dan bangun yang tetap setiap hari. Walaupun kamu nggak bisa tidur langsung, tetap bangun di waktu yang sama. Lama-lama tubuhmu akan beradaptasi dan tidur jadi lebih mudah."
+      },
+      {
+        "role": "user",
+        "content": "Aku memang punya jadwal tetap karena harus sekolah tiap pagi, tapi di malam hari pikiranku penuh banget, muter terus nggak bisa berhenti, jadi susah banget buat tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba buat 'waktu tenang' sebelum tidur. Misalnya, satu jam sebelum tidur tidak ngerjain tugas, denger musik tenang, nonton film ringan, atau baca buku. Lampu juga diredam. Aktivitas ini bisa bantu menenangkan pikiran kamu sebelum tidur."
+      },
+      {
+        "role": "user",
+        "content": "Aku tadi malam sempat coba baca buku, tapi di kamarku cuma ada lampu terang banget, nggak ada lampu yang bisa diredam."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, bisa coba beli lampu tidur kecil yang cahayanya lembut. Kalau dana terbatas, kamu bisa cari yang bekas tapi masih bagus."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, soalnya rasanya ganggu banget dan besoknya aku jadi capek dan gampang marah ke orang lain."
+      },
+      {
+        "role": "assistant",
+        "content": "Cahaya terang memang bisa bikin otak kita tetap aktif dan susah rileks."
+      },
+      {
+        "role": "user",
+        "content": "Aku bisa aja beli lampu kecil kayaknya, mungkin bisa bantu ya? Tapi aku juga sering melek gelap-gelapan sih, jadi aku bingung apakah lampunya berpengaruh juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa sangat lelah karena pikiran yang terus berputar dan kurang tidur, lalu akhirnya jadi mudah emosi ke orang lain tanpa kamu inginkan. Aku bisa ngerti itu. Ngomong-ngomong, kamu sempat olahraga nggak akhir-akhir ini? Kadang jalan kaki bisa bantu tidur lebih nyenyak."
+      },
+      {
+        "role": "user",
+        "content": "Aku udah coba banyak jalan kaki soalnya sekalian mau nurunin berat badan juga. Tapi aku juga punya sakit punggung, itu juga nggak membantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Keren, kamu sudah berusaha! Teruskan ya. Soal sakit punggung, bagaimana kondisi kasur kamu?"
+      },
+      {
+        "role": "user",
+        "content": "Kasurnya lumayan sih, tapi udah beberapa tahun. Aku nggak tau harus ganti seberapa sering."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa cari informasi soal itu di internet. Siapa tau itu juga berpengaruh pada kualitas tidurmu."
+      },
+      {
+        "role": "user",
+        "content": "Iya juga ya, kayaknya sekarang apa aja layak dicoba deh asal bisa bantu tidurku jadi lebih baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu punya orang yang bisa kamu ajak bicara soal pikiran yang bikin kamu susah tidur itu? Kalau itu tentang kekhawatiran, mungkin ngobrol dengan konselor bisa membantu."
+      },
+      {
+        "role": "user",
+        "content": "Nggak begitu sih, aku nggak punya teman dekat dan pacarku agak aneh kalau soal kayak gini, jadi aku nggak bisa cerita ke dia. Tapi aku memang mikir buat nyoba konseling sih."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, itu bisa jadi langkah yang baik buat kamu. Kadang cuma dengan bicara aja bisa bikin pikiran lebih ringan."
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku juga bingung harus mulai dari mana buat cari teman baru. Aku ngerasa kayaknya aku bukan tipe orang yang disukai buat dijadiin teman. Aku coba berteman tapi mereka selalu pergi."
+      },
+      {
+        "role": "assistant",
+        "content": "Nggak mau kasih kamu terlalu banyak saran sekaligus, tapi satu hal lagi yang membantu aku adalah dengerin podcast relaksasi. Ada satu namanya 'Tracks to Relax', mungkin kamu bisa coba?"
+      },
+      {
+        "role": "user",
+        "content": "Kedengarannya menarik, nanti aku cari deh!"
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu belum ketemu orang yang nyambung aja. Butuh waktu buat ketemu orang yang cocok."
+      },
+      {
+        "role": "user",
+        "content": "Iya juga sih, mungkin mereka memang bukan teman yang tepat buat aku. Makasih ya buat bantuannya, aku harus pergi sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa jadi bukan salahmu kok. Kadang aku bilang ke diri sendiri, 'Ya sudah, itu kerugian mereka.' Semangat ya, semoga semuanya segera membaik. Kamu pasti bisa melalui ini!"
+      },
+      {
+        "role": "user",
+        "content": "Makasih banyak atas dukungannya :-)"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama, aku senang bisa ngobrol denganmu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:43:13.668526Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

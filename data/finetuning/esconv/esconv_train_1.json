@@ -1,0 +1,187 @@
+{
+  "dialog_id": "esconv_train_1",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "User expresses feeling 'berat banget' (very heavy) and 'makin sedih' (more sad) due to recurring conflicts with their mother.",
+    "emotion_trajectory": "The user moves from a state of deep sadness and helplessness to a more proactive and hopeful state, expressed by their interest in healthy coping mechanisms and a desire to resolve the family conflict."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot operates as a reactive listener that moves to solution-giving very quickly. While it validates the user's feelings, the exploration of the 'root cause'—the deeper conflict with the mother—is almost entirely skipped. The chatbot transitions from 'how do you usually make up?' to suggesting journaling, and then immediately suggests a school counselor and physical activity. The advice is generic (journaling, walking, counselor) and is not contextualized to the deeper emotional tension the user expressed. Furthermore, the chatbot provides a premature suggestion to 'chat with the mother' in the final turns without first helping the user process the emotional weight or the risk associated with that conversation, following a linear and predictable flow.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user describes a recurring conflict with their mother and expresses sadness and emptiness ('rasanya hampa semua'), but there not are any indicators of hopelessness, self-harm, or suicidal ideation that would trigger a 'high' classification. The dialogue stays within the 'mild' spectrum as it involves active listening and exploring the current situation, emotional nuance, and coping mechanisms. The bot provides general suggestions (journaling, school counselor, physical activity) and the conversation ends on a reflective and positive note."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Konflik berulang dengan ibu dan mencari cara mengatasinya",
+    "reasoning": "User expresses emotional distress due to frequent arguments with their mother ('Hari ini rasanya berat banget. Aku habis bertengkar sama ibu'), highlighting interpersonal conflict and difficulty in communication ('Lebih sering diam daripada benar-benar baikan'). While the user mentions 'cara aku mengalihkan stres juga nggak sehat', they do not provide specific details about dangerous behaviors, remaining focused on the relationship dynamic and seeking coping strategies."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and remembers the user's situation, though it slightly jumps between discussing the mother and walking habits in one response."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides validation and warmth, acknowledging the user's feelings of sadness and pain without dismissing them."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the recurring nature of the conflict with the mother and the user's need for stress management."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (journaling, walking, talking to a counselor, talking to the mother) are safe, realistic, and delivered at an appropriate pace."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion was sadness and stress due to family conflict; final emotion is a sense of hope and empowerment. The user feels more positive about restarting a healthy habit and talking to their mother."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot suggests a professional counselor and encourages healthy coping mechanisms, avoiding any risky behavior."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is natural, casual yet supportive, and fits the context of an Indonesian teenager well."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions earlier on and allows the user to lead the conversation toward specific needs, such as habits and communication."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains entirely neutral and supportive, neither blaming the user nor the mother, but focusing on resolution."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_1",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, kabar kamu hari ini gimana?"
+      },
+      {
+        "role": "user",
+        "content": "Hai... Hari ini rasanya berat banget. Aku habis bertengkar sama ibu."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf ya dengarnya. Apa yang terjadi? Seberapa besar pertengkarannya? Tentang apa?"
+      },
+      {
+        "role": "user",
+        "content": "Dia marah gara-gara aku melepas shower di kamar mandi tanpa izin. Entah kenapa, itu langsung berkembang jadi dia bilang aku nggak menghargainya."
+      },
+      {
+        "role": "assistant",
+        "content": "Menurut kamu, ada benarnya nggak yang dia katakan? Konflik dengan orang tua memang sering bikin capek."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin aja. Aku memang kurang suka sama dia, dan bisa jadi dia juga ngerasain itu. Tapi menurutku, masalah shower cuma alasan aja buat ungkapin perasaan dia yang sebenarnya. Ini bikin aku makin sedih. Kadang kita damai sebentar, tapi lalu mulai berantem lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Begitu ya... Sekarang kamu masih tinggal bareng ibu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, masih."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya memang bikin stres. Biasanya kalian baikan gimana? Atau hanya saling diam?"
+      },
+      {
+        "role": "user",
+        "content": "Lebih sering diam daripada benar-benar baikan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kira-kira, apa yang biasanya bisa membantu kamu menghadapi situasi ini? Salah satu cara yang bisa dicoba adalah menulis jurnal. Kadang menulis perasaan bisa membantu kita melihat situasi dengan lebih jernih dan melepaskan emosi tanpa harus melibatkan orang lain."
+      },
+      {
+        "role": "user",
+        "content": "Aku pernah nulis soal pertengkaran kami, tapi sekarang bahkan melihat tulisan itu aja rasanya nyakitin banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kok kalau rasanya menyakitkan. Kenangan seperti itu seringkali membawa kembali emosinya."
+      },
+      {
+        "role": "user",
+        "content": "Dulu aku sering cerita ke teman, tapi entah kenapa sekarang rasanya hampa semua."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau sekolahmu punya konselor, kamu bisa coba bicara ke sana. Konselor mungkin bisa bantu kamu cari cara hadapi konflik ini, atau bahkan bantu fasilitasi diskusi keluarga."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku ngerti. Aku bingung harus gimana buat ngadepin semuanya. Akhir-akhir ini cara aku mengalihkan stres juga nggak sehat."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa coba aktivitas fisik untuk membantu melepas stres, seperti jalan kaki santai. Kadang bergerak sedikit bisa bantu kita lebih tenang dan tidur lebih nyenyak."
+      },
+      {
+        "role": "user",
+        "content": "Iya, dulu aku suka jalan kaki malam-malam. Itu bantu banget buat tidur. Mungkin aku bisa mulai lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu ide bagus! Jalan kaki bisa bantu kamu lepas emosi negatif sekaligus menyehatkan tubuh."
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku sering gagal konsisten. Ada tips biar bisa bikin kebiasaan itu jadi rutin?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu pasti bisa kok! Mungkin kamu dan ibumu bisa ngobrol di saat suasana tenang, bukan saat marah. Kalau soal jalan kaki, kamu bisa coba jalan sama teman biar lebih semangat dan saling menyemangati."
+      },
+      {
+        "role": "user",
+        "content": "Wah, itu terdengar seru! Aku punya teman yang juga pingin punya teman olahraga..."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalian bisa saling bantu dan jadi semacam partner buat ngejaga rutinitas itu. Bagus juga kalau kalian punya tujuan yang sama."
+      },
+      {
+        "role": "user",
+        "content": "Iya terima kasih. Tentang ibuku, aku percaya kami perlu ngobrol serius tentang hal ini karena kejadiannya berulang terus. Aku cuma bingung, kira-kira usahain bicara lagi atau mending diem dulu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ngobrol pelan-pelan bisa jadi langkah awal yang baik. Coba lihat apakah kalian berdua benar-benar ingin memperbaiki hubungan. Kalau iya, selalu ada jalan."
+      },
+      {
+        "role": "user",
+        "content": "Iya, kamu bener. Semua itu butuh waktu. Makasih udah ngobrol sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa ngobrol sama kamu. Semoga semuanya membaik."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:54:19.438044Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

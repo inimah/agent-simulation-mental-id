@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_train_226",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'merasa sangat sedih' and 'masih belum bisa keluar dari rasa sedih ini' in the first half of the dialogue.",
+    "emotion_trajectory": "The user moves from a state of sadness and helplessness to feeling grateful and appreciative after receiving practical advice and resources."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's flow is linear and predictable, moving extremely quickly from a basic greeting to offering solutions. After the user mentions being sad about a break-up, the chatbot barely explores the emotions or the root of the sadness before immediately asking 'Mau aku bantu kasih beberapa saran?' (Premature Suggestion). The reflections are surface-level echoes; the chatbot does not dig deeper into why the user is still sad after a month or why they feel ashamed to tell friends. The advice provided is generic (talk to friends, online forums, journaling, walking) and follows a template-like pattern rather than being born from an emotional depth. There is no psychoeducation or systemic exploration of the user's psychological patterns.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing emotional distress due to a breakup ('sangat sedih', 'rasa yang berat banget'), which moves the conversation beyond 'low' support. The bot handles this with active listening and provides exploratory suggestions (social support, journals, professional counseling). There are no signals of hopelessness, self-harm, or panic, meaning no 'high' level support or safety referrals were required."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Copining with a breakup and seeking emotional support",
+    "reasoning": "User expresses deep sadness due to a breakup ('sedih karena baru putus sama pacarku'), but denies any clinical symptoms or high-risk behaviors. The conversation focuses on interpersonal conflict and emotional distress that is common in adolescence, fitting the Level 2 (mild) criteria."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical and smooth flow across all turns, responding directly to the user's concerns and questions about coping mechanisms and professional help."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's sadness and shame, and uses warm language ('Wah, itu pasti berat ya') to make the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue (breakup and prolonged sadness) and understands the user's barrier to seeking social support."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides a range of realistic and safe suggestions, from social support and journaling to low-cost professional counseling options."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: sadness and isolation. Final emotion: feeling supported and appreciated. The user explicitly states the chatbot was very helpful and was 'strengthened' by the interaction."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot recommends professional help (psychologist) and helps the user overcome financial barriers by suggesting affordable/free alternatives."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is natural, warm, and appropriate for an Indonesian teenager, avoiding overly formal or clinical language."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open questions and offers suggestions that lead the user to explore different coping strategies independently."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's feeling of shame without judgment, validating it as a 'normal' reaction ('Wajar kok')."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_226",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, apa kabar kamu hari ini? Apa yang ingin kamu ceritakan?"
+      },
+      {
+        "role": "user",
+        "content": "Hai... aku baik, tapi aku merasa sangat sedih karena baru putus sama pacarku."
+      },
+      {
+        "role": "assistant",
+        "content": "Oh begitu... kapan kamu dan dia putus, kalau boleh tahu?"
+      },
+      {
+        "role": "user",
+        "content": "Sekitar sebulan yang lalu, dan sampai sekarang aku masih belum bisa keluar dari rasa sedih ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu pasti berat ya. Mau aku bantu kasih beberapa saran untuk mengurangi rasa sedih ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku mau dengar sarannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu udah coba cerita ke teman dekat atau keluarga? Kadang ngobrol aja bisa bantu banget loh."
+      },
+      {
+        "role": "user",
+        "content": "Aku pengin sih, tapi aku malu banget buat cerita ke teman soal putus ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kok kalau kamu merasa malu. Tapi beberapa orang merasa lega setelah berbagi cerita ke teman yang dipercaya. Gimana kalau kamu mulai dari satu orang yang kamu percaya banget?"
+      },
+      {
+        "role": "user",
+        "content": "Hmm iya aku coba cari teman buat ngobrol. Ada cara lain nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa coba masuk forum online tempat orang-orang berbagi pengalaman serupa. Kadang membaca cerita orang lain bisa bantu kita merasa nggak sendirian."
+      },
+      {
+        "role": "user",
+        "content": "Forum online beneran bisa bantu ngurangin rasa yang berat banget ini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa banget. Selain itu, kamu bisa coba kegiatan yang menenangkan kayak jalan kaki, nulis jurnal, atau denger musik yang menenangkan."
+      },
+      {
+        "role": "user",
+        "content": "Kalau ikut konseling, itu pilihan yang baik nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Konseling bisa jadi pilihan bagus kalau cara-cara lain tidak terlalu membantu. Kalau kamu merasa butuh dan mampu, nggak ada salahnya coba ke psikolog."
+      },
+      {
+        "role": "user",
+        "content": "Aku baru tahu kalau konseling itu cukup mahal. Ada pilihan yang lebih terjangkau nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ada kok. Beberapa lembaga sosial atau universitas menyediakan layanan konseling dengan biaya murah atau bahkan gratis. Kamu bisa cari info tentang itu di daerahmu."
+      },
+      {
+        "role": "user",
+        "content": "Oh aku belum tahu soal itu. Terima kasih infonya ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semoga kamu bisa segera merasa lebih baik, ya."
+      },
+      {
+        "role": "user",
+        "content": "Makasih udah menguatkan. Aku sangat menghargainya."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa ada hal lain lagi yang bisa kubantu?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak, terima kasih. Kamu udah sangat membantu. Sampai jumpa."
+      },
+      {
+        "role": "assistant",
+        "content": "Sampai jumpa, jaga dirimu baik-baik, ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:02:59.511858Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

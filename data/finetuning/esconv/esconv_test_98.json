@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_test_98",
+  "emotion": {
+    "fine_grained_label": "depressed",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly mentions feeling 'depresi kayak gini sejak SMP' and feeling so sad they want to stop everything ('pengen berhenti aja dari semua yang lagi aku lakuin').",
+    "emotion_trajectory": "The user shifts from a state of deep depression and helplessness to a more hopeful and proactive mindset, expressing a desire to seek help and thanking the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, surface-level pattern. While it provides validation, it jumps to a technical solution (creating a new account/contacting developers) immediately after the user expresses sadness about losing access to a previous counselor. It fails to explore the deeper systemic issues mentioned by the user, such as the long-term depression since middle school, the trauma of moving houses, or the fear of medications. The chatbot's reflections are echoes rather than deep explorations of the root causes.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses signs of long-term depression, lack of motivation ('pengen berhenti aja dari semua yang lagi aku lakuin'), and feelings of loneliness. However, there are no explicit signals of active suicidal ideation or self-harm. The conversation remains at a 'mild' level because the user is reflecting on their history, seeking support, and discussing their desire for face-to-face help. The bot's responses are primarily markers of empathic presence and active listening, providing contextual normalization and validation of the user's feelings."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "kesehatan_mental_klinis",
+    "primary_topic": "Long-term depression symptoms and desire for professional help",
+    "reasoning": "User explicitly mentions having experienced 'depresi kayak gini sejak SMP' (depression like this since junior high) and describes a long-term clinical state characterized by loss of motivation and feeling 'nggak sanggup ngelakuin apa pun lagi'. The user also expresses a desire for face-to-face professional help ('cari bantuan secara langsung') while expressing fears about medication."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect flow, referencing the user's history of moving and loneliness, and responding logically to the user's desire for face-to-face help."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot is warm and validating, especially when acknowledging the difficulty of moving and the fear of opening up to others."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot correctly identifies the roots of the user's depression (loneliness, school pressure) and the user's specific barrier to seeking help."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions are realistic and safe; it encourages the user to recover their account and acknowledges the validity of their fear toward professional help."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "The user starts with feelings of burden and deep hopelessness ('pengen berhenti aja'); by the end, they express gratitude and wish the bot well, showing a shift toward a more positive and proactive mindset."
+    },
+    "safety": {
+      "score": 4,
+      "reasoning": "The bot avoids harmful content and supports the user's desire for professional help, though it doesn't proactively provide specific hotlines despite the user mentioning 'stopping everything'."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural, warm, and perfectly suited for an Indonesian teenager, avoiding overly clinical or stiff terminology."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their history and needs without making it feel like an interview, allowing the user to lead the conversation."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot is completely neutral and accepting, providing zero judgment regarding the user's fear of medication or their prolonged depression."
+    }
+  },
+  "overall_curriculum_difficulty": 3,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_98",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo, ada hal apa yang sedang ingin kamu ceritakan hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa nggak enak ngebebanin kamu dengan ceritaku, tapi mungkin kamu bisa bantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Tenang aja, aku di sini untuk bantu. Apa yang sedang kamu pikirkan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi kesulitan banget buat punya motivasi ngelakuin apa pun, bahkan hal-hal dasar banget. Kadang aku bisa ngerasa sedih banget sampai pengen berhenti aja dari semua yang lagi aku lakuin, kayak nggak sanggup ngelakuin apa pun lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu merasa sangat terpuruk dan sulit banget buat mulai ngelakuin apa pun, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya benar-benar berat."
+      },
+      {
+        "role": "assistant",
+        "content": "Banyak orang juga mengalami masa sulit dan merasa seperti itu. Apalagi sejak wabah pandemi, banyak yang merasa kesulitan buat tetap termotivasi."
+      },
+      {
+        "role": "user",
+        "content": "Aku udah ngerasain depresi kayak gini sejak SMP, kalau bisa kuingat-ingat. Awalnya mulai waktu aku pindah daerah dan kehilangan semua teman. Sejak itu hidupku berubah dan aku jadi takut banget. Sekarang umurku 16. Tapi tekanan dari sekolah juga makin bikin depresiku parah."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti pengalaman yang sangat berat, apalagi merasakan itu sejak pertama kali pindah sekolah ya. Perubahan besar seperti pindah dan kehilangan teman memang bisa sangat memengaruhi perasaan."
+      },
+      {
+        "role": "user",
+        "content": "Aku pengennya ngobrol sama seseorang, tapi di rumah ga ada orang yang bisa diajak ngobrol, ayah ibuku sibuk kerja di kantor dari pagi sampai malam. Dan aku nggak nyaman cerita dengan orang lain yang belum aku kenal baik. Aku pernah pakai situs konseling gratis online dan kenal sama seseorang yang baik banget, tapi aku kehilangan akses ke akun itu sekarang. Sedih banget rasanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, kamu bisa coba buat akun baru atau hubungi layanan bantuan dari situs itu. Siapa tahu mereka bisa bantu balikin akun lamamu."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, mungkin aku harus coba hubungi pengembang situsnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu langkah yang bagus! Aku senang kamu mau coba cari bantuan lagi. Kadang satu orang bisa jadi dukungan yang berarti."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga pengen cari bantuan secara langsung, biar bisa ngobrol tatap muka, kayaknya aku perlu itu supaya bisa benar-benar terbuka. Tapi aku takut, kayaknya butuh waktu untuk percaya dan cerita ke orang lain."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan takut untuk terbuka sangat wajar, apalagi kalau kamu sudah melalui banyak hal. Tapi mengenali bahwa kamu butuh bantuan itu sudah langkah yang penting."
+      },
+      {
+        "role": "user",
+        "content": "Iya, tapi nggak mudah. Tapi ya semoga aku bisa nemu cara buat mengatasinya... Mungkin tanpa obat-obatan, aku takut itu bakal bikin aku jadi orang yang beda atau malah makin nggak nyaman sama diri sendiri. Tapi makasih ya udah dengerin ceritaku dan ngasih saran. Semoga kamu juga sehat selalu."
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga kamu tetap kuat, ya. Kamu udah menunjukkan keberanian dengan terbuka hari ini."
+      },
+      {
+        "role": "user",
+        "content": "Makasih, kamu juga. Sampai jumpa."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa ngobrol denganmu. Jaga diri baik-baik, ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:44:27.252461Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

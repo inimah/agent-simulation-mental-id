@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_test_78",
+  "emotion": {
+    "fine_grained_label": "depressed",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling 'sangat tertekan' (very pressured/stressed) and describing their state as 'berat banget' (very heavy) and 'kacau' (chaotic), indicating a low-energy negative state.",
+    "emotion_trajectory": "The user moves from a state of depression and feeling overwhelmed by academic pressure to reflecting on broader anxieties, eventually ending the conversation with a gratitude and a sense of acceptance."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's responses are predominantly surface-level reflections and generic advice. While it provides validation, it fails to explore the root causes of the user's pressure (tertekan) or the user's sleep cycle issues. When the user asks for tips, the bot immediately jumps to suggestions like waking up early and sunlight—solutions that are not contextualized to the user's specific struggle with insomnia/begadang. Furthermore, the bot's attempt at a 'philosophical' reframing about the universe is misplaced and actually increases the user's anxiety, showing a lack of deep analysis of the user's emotional state. The conversation ends with a few generic closing statements without any collaborative planning or deeper psychological insight.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses feelings of being 'tertekan' (pressed/stressed) and 'cemas' (anxious) due to academic pressure and general societal concerns, which fits the 'mild' support level as it requires active listening and clarification. There are no indicators of hopelessness, suicidal ideation, or self-harm (crisis signals). The bot provides some suggestions and validation, and the conversation ends amicably with the user feeling supported, so no crisis-level intervention or safety referral was necessary."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "perasaan tertekan dan cemas akibat tekanan akademik dan lingkungan",
+    "reasoning": "User mentions feeling 'sangat tertekan' and 'makin kacau suasana hatiku' due to dense study hours, as well as feelings of 'nggak aman dan cemas' regarding the surrounding environment and mental health of peers. This falls under mild emotional distress and anxiety without meeting clinical or crisis markers."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a general flow and responds logically to the user's statements, though the jump to 'the vastness of the universe' is slightly abrupt."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating language ('turut prihatin', 'wajar banget') and shows genuine care for the user's feelings."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "It correctly identifies the user's stress linked to academic pressure, sleep patterns, and broader existential anxiety."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The advice given is basic/generic (sunlight, waking up early) and doesn't fully address the underlying cycle of insomnia and pressure."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Overwhelmed and pressured. Final emotion: Reflective and appreciative. The user explicitly thanks the bot for the support, showing a positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot is safe, avoids any harmful suggestions, and maintains a supportive, non-judgmental tone throughout."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian teenager, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 3,
+      "reasoning": "The chatbot mostly follows the user's lead rather than proactively probing for deeper understanding or asking strategic open-ended questions."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot completely avoids judgment, validating the user's struggle with sleep and their anxiety about society without any moral criticism."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_78",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, ada yang bisa aku bantu malam ini?"
+      },
+      {
+        "role": "user",
+        "content": "Akhir-akhir ini aku merasa sangat tertekan. Rasanya berat banget tapi aku nggak tahu apa penyebab pastinya."
+      },
+      {
+        "role": "assistant",
+        "content": "Rasa tertekan memang sangat berat untuk dijalani. Aku turut prihatin kamu harus menghadapinya."
+      },
+      {
+        "role": "user",
+        "content": "Aku rasa jam belajar yang makin padat akhir-akhir ini bikin makin kacau suasana hatiku."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, kesibukan yang padat kadang bikin hari terasa makin sempit dan melelahkan ya."
+      },
+      {
+        "role": "user",
+        "content": "Kamu punya tips gak, biar bisa keluar dari perasaan kayak gini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba bangun sedikit lebih pagi untuk menikmati suasana pagi yang tenang. Banyak juga yang merasa terbantu dengan punya rutinitas harian yang teratur, termasuk menyempatkan waktu istirahat dari belajar dan duduk di tempat berbeda sejenak. Gimana menurutmu?"
+      },
+      {
+        "role": "user",
+        "content": "Sebenarnya aku suka suasana pagi, tapi susah banget bangun. Aku sering begadang, dan pas harus bangun malah tertekan. Jadi siklus yang nggak enak."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu wajar terjadi. Coba cari waktu di siang hari juga untuk kena sinar matahari dan istirahat sejenak dari aktivitas. Itu bisa bantu memperbaiki suasana hati."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, aku coba dulu ya. Semua ini bikin lebih sadar sama hidup dan waktu."
+      },
+      {
+        "role": "assistant",
+        "content": "Kadang, memikirkan luasnya alam semesta bisa bikin perasaan cemas sedikit lega. Rasanya seperti kita ini cuma bagian kecil dari segalanya, dan itu bisa menenangkan."
+      },
+      {
+        "role": "user",
+        "content": "Tapi hal-hal kayak itu juga bikin aku makin merasa nggak aman dan cemas, terutama lihat kondisi di sekitar."
+      },
+      {
+        "role": "assistant",
+        "content": "Bukan maksudnya untuk bikin takut atau ngerasa sia-sia, tapi lebih ke menyadari kalau dunia ini besar dan kita nggak harus bawa semua bebannya sendirian."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga khawatir, kayak orang-orang dewasa di sekitar tuh bingung harus ngapain. Dan banyak teman-temanku juga kayak kehilangan pegangan secara mental."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, kadang tanggung jawab saling lempar ke lingkungan lebih kecil, dan akhirnya masyarakat yang harus menanggung semuanya. Situasinya memang sulit, dan wajar banget kalau itu bikin kamu merasa tidak aman secara mental."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya memang baliknya ke diri sendiri lagi, ya. Kita cuma bisa ubah diri sendiri."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya... jadi fokus ke pengembangan diri aja sekarang. Banyak rencana yang bisa gagal dan tidak tercapai, itu wajar semua orang juga mengalami hal yang sama. Tapi beginilah hidup."
+      },
+      {
+        "role": "user",
+        "content": "Iya... Terima kasih buat dukungannya dan kata-kata baiknya. Aku pamit dulu ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semoga malammu tenang dan kamu bisa merasa lebih baik sedikit demi sedikit, ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:26:34.322805Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

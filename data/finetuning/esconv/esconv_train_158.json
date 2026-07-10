@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_train_158",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling that things are 'not good' and 'heavy times' while missing their ex, and feels unsupported by parents and school counselors.",
+    "emotion_trajectory": "The user shifts from a state of sadness and helplessness to a state of gratitude and self-worth after the bot's supportive validation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow where validation is brief and often paired with premature suggestions. For instance, after the user mentions the breakup, the bot immediately suggests talking to a BK teacher (premature solution) before exploring the root cause of the user's feeling or the user's perspective. While it performs some surface-level reflection ('Jadi kamu merasa seperti semua orang memihak dia'), the conversation doesn't move beyond the symptom of the sadness. It lacks deep exploration, psychoeducation, or insight-oriented guidance, and relies on generic encouragement ('Jangan biarkan kejadian ini mengurangi rasa percaya dirimu') and repeats the suggestion to see a BK teacher at the end despite the user already stating that the experience with the BK teacher was unfair and negative.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation remains within the realm of typical adolescent emotional distress (breakup and feeling unsupported by parents). The bot uses mild support techniques such as reflective listening ('Jadi kamu merasa seperti semua orang memihak dia...') and normalization. There are no indicators of hopelessness, self-harm, or active crisis signals that would necessitate a 'high' support level. The bot's suggestion to talk to a teacher/counselor is general guidance rather than a crisis referral."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Kesedihan setelah putus cinta dan kurangnya dukungan keluarga",
+    "reasoning": "User mentions feeling lonely and unsupported by parents and the school counselor following a breakup ('Aku kangen banget sama mantanku', 'Bahkan orang tuaku kayak lebih dukung dia daripada aku'). While emotional, it's a sub-clinical interpersonal conflict that doesn't show signs of clinical risk or self-harm."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains perfect continuity, referencing the user's situation and feelings consistently throughout the conversation."
+    },
+    "empathy": {
+      "score": 5,
+      "reasoning": "The chatbot is warm and deeply validating, specifically acknowledging the pain of feeling unsupported by both a partner and family."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue: the breakup, the feeling of isolation, and the frustration with the perceived bias of the BK teacher and parents."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions are realistic and safe. While it suggests the BK teacher again despite the user saying they were biased, it does so carefully as a way to 'process feelings' rather than just fix the relationship."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: sadness and isolation. Final emotion: feeling valued and motivated. The shift is significant as the user moves from hopelessness to realizing their own worth ('Aku juga layak untuk dihargai')."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides a safe environment and consistently suggests professional help (BK teacher/trusted adult) without ignoring signs of distress."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly clinical tones while remaining supportive."
+    },
+    "engagement": {
+      "score": 5,
+      "reasoning": "The chatbot balances listening and gentle prompting, allowing the user to open up and shift their own perspective without feeling interrogated."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot does not judge the user's gaming habit or the breakup, instead focusing on the user's emotional state and validity of their feelings."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_158",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, semoga harimu cukup baik ya. Bagaimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak baik... ini masa-masa yang berat buatku."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf dengarnya. Aku di sini untuk mendengarkan dan mungkin bisa bantu sedikit, kalau kamu mau cerita."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih... Aku kangen banget sama mantanku."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti. Kalian memang sudah berpisah, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, dia bilang aku terlalu sering main game dan nggak cukup perhatian ke dia. Jadi dia mutusin aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti menyakitkan. Kadang hubungan bisa diperbaiki kalau dibicarakan baik-baik. Apa kamu sempat berpikir untuk ngobrol lagi dengan bantuan guru BK atau orang dewasa yang bisa membantu secara netral?"
+      },
+      {
+        "role": "user",
+        "content": "Kami pernah coba bicara bareng guru BK, tapi kesannya kayak memihak dia terus. Nggak adil banget rasanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa seperti semua orang memihak dia dan kamu jadi merasa nggak berdaya, begitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya gitu. Bahkan orang tuaku kayak lebih dukung dia daripada aku. Sekarang aku sendiri aja, cuma bisa main game sendirian."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku ikut prihatin karena orang tuamu belum bisa menunjukkan dukungan seperti yang kamu butuhkan saat ini. Rasanya pasti semakin berat saat putus cinta tapi tidak merasa disemangati oleh keluarga sendiri."
+      },
+      {
+        "role": "user",
+        "content": "Pernah nggak kamu ngalamin hal kayak begini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu nggak sendiri. Banyak orang mengalami masa seperti ini, dan ada harapan di depan. Akan ada masa di mana kamu bisa merasa lebih baik dan menemukan jalan keluar dari rasa ini."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya. Aku harap kamu juga dapat orang yang lebih baik setelah itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu masih ingin memperbaiki hubungan itu, penting juga untuk bertanya dalam dirimu: seberapa kuat keinginanmu untuk kembali? Tapi kalau setelah dipikir-pikir kamu malah lebih tenang tanpanya, itu juga nggak apa-apa kok."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin kamu benar. Dia juga banyak salahnya ke aku. Aku juga layak untuk dihargai."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu cara berpikir yang bagus! Jangan biarkan kejadian ini mengurangi rasa percaya dirimu."
+      },
+      {
+        "role": "user",
+        "content": "Aku setuju. Oh ya, kamu memang jago banget kasih semangat kayak gini. Kamu belajar dari mana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aku dilatih untuk bisa membantu memberikan dukungan emosional dan memberikan ruang aman untuk kamu bicara. Tujuanku adalah bantu kamu memahami perasaanmu dan merencanakan solusinya bersama-sama."
+      },
+      {
+        "role": "user",
+        "content": "Wah, keren! Makasih buat motivasinya tadi."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa pertimbangkan berbicara dengan guru BK atau orang yang kamu percaya untuk bantu memproses semua perasaan ini, agar nggak menumpuk terus sendirian."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku bakal coba. Makasih banyak atas dukungannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:48:29.593810Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

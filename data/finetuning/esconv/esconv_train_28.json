@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_train_28",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses concern about their inability to sleep and lists school assignments as the source of their stress, stating 'Aku setiap hari susah banget tidur tepat waktu' and 'tugas sekolah yang makin banyak'.",
+    "emotion_trajectory": "The user shifts from a state of distress and worry over school pressure and insomnia to a state of relief and gratitude after receiving actionable advice from the bot."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow. It begins by validating the user's need, avoids giving immediate solutions to the problème de sommeil (sleep problem) despite the user's request for videos, and instead moves into a clarification and exploration phase. It asks about changes in the last two weeks to identify root causes (school tasks). It further explores whether the user has tried communicating with the user's teacher, and then provides a personalized set of advice based on the- user's context of overthinking about school tasks. The timing of the solution is appropriate (occurring only after the cause was established), and the user's specific need for 'relaxation' was matched with a specific sequence of activities.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user describes a common adolescent problem (insomnia due to school stress) without any crisis indicators. The dialogue is classified as 'mild' because the bot uses active listening and clarification techniques to help the user identify the root cause of the problem (e.g., 'apakah ada hal yang berubah dalam dua minggu terakhir' and 'Menurutmu, apa penyebab utamanya?'). The conversation moves from exploratory questions to providing concrete relaxation suggestions, maintaining a supportive and helpful tone without needing crisis intervention."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "aktivitas_harian_dan_gaya_hidup",
+    "primary_topic": "Kesulitan tidur akibat tekanan tugas sekolah",
+    "reasoning": "User mentions 'susah banget tidur tepat waktu' due to 'tugas sekolah yang makin banyak' and 'harus belajar ekstra', which falls under daily routine/sleep habits and common adolescent academic stress without clinical symptoms."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, remembers the user's 2-week timeline and the specific cause (school assignments), and provides a consistent response based on the previous turns."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot is helpful and supportive, but the tone is somewhat mechanical and lacks deep emotional validation of the user's stress regarding schoolwork."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies that the problem is sleep issues caused by stress from new, overwhelming school assignments."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (yoga, stretching, meditation music) are realistic, safe, and directly address the user's request for relaxation techniques."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "User began with stress and sleep difficulty (First Half), and ended feeling 'better after chatting' and hopeful about the suggestions (Second Half), showing a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids harmful content and encourages communication with teachers, providing safe, low-risk suggestions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses targeted follow-up questions to dig deeper into the root cause before jumping to solutions, encouraging the user to share more."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's situation without judgment or moralizing the user's inability to sleep or manage their tasks."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_28",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo! Apa yang bisa aku bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi mengalami masalah tidur. Bisa bantu nggak? Aku setiap hari susah banget tidur tepat waktu."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku akan berusaha bantu semaksimal mungkin. Aku punya pengetahuan soal teknik relaksasi seperti yoga dan meditasi."
+      },
+      {
+        "role": "user",
+        "content": "Wah, bagus tuh."
+      },
+      {
+        "role": "assistant",
+        "content": "Sudah berapa lama kamu mengalami masalah tidur ini?"
+      },
+      {
+        "role": "user",
+        "content": "Sudah sekitar 2 minggu. Bisa kasih video yang bisa aku ikuti nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ini mungkin terdengar jelas, tapi apakah ada hal yang berubah dalam dua minggu terakhir, misalnya soal kegiatan sekolah, masalah pribadi, atau perubahan kebiasaan?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, mungkin karena tugas sekolah yang makin banyak. Aku jadi lebih banyak belajar dan kurang santai. Menurutmu, aku perlu istirahat dulu beberapa hari? Atau ada solusi yang lebih baik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Istirahat bisa jadi solusi sementara. Tapi kalau setelah itu tugasmu tetap menumpuk atau tekanan tetap ada, masalahnya bisa muncul lagi. Menurutmu, apa penyebab utamanya? Tugas terlalu banyak? Materi baru?"
+      },
+      {
+        "role": "user",
+        "content": "Tugas-tugas baru yang dikasih banyak banget, dan aku belum familiar jadi harus belajar ekstra."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah coba bicara dengan guru atau pembimbingmu soal beban tugas ini? Apakah ini masalah jangka pendek atau akan berlangsung terus?"
+      },
+      {
+        "role": "user",
+        "content": "Aku coba sampaikan tapi sepertinya nggak terlalu didengar. Aku mau coba jelaskan lagi supaya bisa ada solusi. Bisa bantu kasih contoh aktivitas relaksasi yang bisa dilakuin sebelum tidur biar pikiranku nggak ke tugas terus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aku nggak bisa berbagi tautan di sini, tapi aku bisa kasih saran. Apa yang kamu lakukan sebelum tidur punya dampak besar ke kualitas tidurmu. Coba lakukan yoga ringan atau peregangan selama 30 menit sampai 1 jam sebelum tidur, dilanjutkan dengan mendengarkan musik meditasi saat kamu berbaring. Menenangkan tubuh dan pikiran sebelum tidur itu terbukti bisa meningkatkan kualitas tidur. Coba lakukan ini selama seminggu, aku yakin bisa membantumu untuk jangka panjang."
+      },
+      {
+        "role": "user",
+        "content": "Oke. Aku akan coba semua yang kamu bilang. Aku merasa lebih baik setelah ngobrol bareng kamu."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang mendengarnya. Aku juga senang bisa ngobrol denganmu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas saran-sarannya. Aku akan coba praktikkan dan semoga bisa tidur lebih baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Dengan senang hati. Semoga harimu juga menyenangkan."
+      },
+      {
+        "role": "user",
+        "content": "Dadah, aku tutup obrolan ini ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Dadah."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:21:25.940498Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

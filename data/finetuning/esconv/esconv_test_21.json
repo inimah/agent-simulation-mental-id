@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_test_21",
+  "emotion": {
+    "fine_grained_label": "shame",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku malu!' (I'm ashamed!) because they didn't study for a test and got bad results.",
+    "emotion_trajectory": "The user shifts from feeling ashamed and lacking motivation to feeling hopeful and determined to try harder after the bot's encouragement."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot provides immediate and generic advice ('Jangan merasa malu', 'cobalah mencoba lagi', 'luangkan waktu lebih banyak') and transitions to solutions prematurely before exploring why the user lacked motivation. It uses surface-level reflections and avoids any deep exploration of the root causes of the lack of motivation, maintaining a linear and predictable flow based on generic encouragement.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing a common adolescent stressor (poor test results due to lack of study) and feelings of shame. The bot's responses focus on exploration of the motivation issue ('Bagian mana dari belajar yang membuat kamu merasa stuck atau kesusahan?') and providing gentle encouragement. There are no expressions of hopelessness, self-harm, or extreme distress that would qualify as 'high', and the conversation is more than simple acknowledgement ('low') as it attempts to resolve the specific problem of lack of motivation."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Lack of motivation for studying and poor exam results",
+    "reasoning": "The user expresses feelings of shame and lack of motivation regarding school exams ('Aku nggak belajar untuk ulangan dan hasilnya jelek banget'), but the conversation remains within the scope of normative adolescent academic stress and the user ends the conversation feeling positive and motivated."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent flow and refers back to the user's lack of motivation and need for effort, keeping the conversation logically connected."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The bot recognizes the user's feelings of shame and disappointment, but the responses are somewhat generic and feel a bit mechanical rather than deeply validating."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The bot correctly identifies the core issue as a lack of motivation and effort rather than a difficulty in understanding the material."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The suggestions (study routinely, try starting today) are logical and correct, but they are fairly surface-level and generic advice rather than personalized mental health support."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: shame and disappointment; final emotion: motivated and determined. The user explicitly states they feel better and are committed to trying harder, showing a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The response is safe and does not contain any harmful content or trigger high-risk situations."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is supportive, warm, and appropriate for a teenager's level of and context, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot uses appropriate follow-up questions (e.g., 'Bagian mana dari belajar yang membuat kamu merasa stuck?') to encourage the user to share more about their specific struggles."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot remains neutral and supportive throughout, avoiding any moral judgment or blame despite the user admitting they did not study at all."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_21",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, apa kabar?"
+      },
+      {
+        "role": "user",
+        "content": "Hai, boleh minta bantuan nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, bantuan seperti apa yang kamu butuhkan? Bisa dijelaskan lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak belajar untuk ulangan dan hasilnya jelek banget. Aku malu!"
+      },
+      {
+        "role": "assistant",
+        "content": "Jangan merasa malu, ya. Semua orang pernah salah dan mengalami kegagalan, yang penting kamu bisa mencoba lagi. Nggak ada yang terlalu sulit kalau kita mau berusaha."
+      },
+      {
+        "role": "user",
+        "content": "Nah itu dia. Aku bahkan nggak berusaha sama sekali!"
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa kecewa karena nggak mencoba? Kalau kamu mulai mencoba, kamu akan merasa lebih baik. Bagian mana dari belajar yang membuat kamu merasa stuck atau kesusahan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku cuma nggak punya motivasi buat belajar."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau mulai sekarang kamu pikir bahwa kamu sebenarnya bisa memahami pelajarannya, mungkin itu bisa bantu membangun rasa percaya diri dan semangat belajar kamu."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku akan coba. Terima kasih."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba luangkan waktu lebih banyak untuk belajar secara rutin, itu bisa bantu kamu makin paham dan percaya diri dengan materi pelajaran."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku memang harus berusaha lebih giat."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu pasti bisa kok, yang penting mulai dicoba dulu."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku akan coba. Kayaknya memang masalahnya di aku yang nggak pernah coba."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu mulai dari hari ini, besok pasti bisa lebih baik lagi."
+      },
+      {
+        "role": "user",
+        "content": "Saran yang bagus. Terima kasih!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Senang bisa membantu."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya itu aja. Aku merasa lebih baik sekarang. Aku akan coba lebih keras."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang dengarnya kamu merasa lebih baik dan mau mencoba. Semangat terus, ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:30:21.318096Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

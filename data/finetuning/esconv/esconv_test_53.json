@@ -1,0 +1,182 @@
+{
+  "dialog_id": "esconv_test_53",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses deep emotional pain and a sense of void after a 3-year relationship ending, stating 'Aku merasa hampa banget' and expressing a desire to disappear.",
+    "emotion_trajectory": "The user shifts from deep sadness and hopelessness to a more composed state, deciding to approach the situation calmly to get confirmation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot exhibits a core pattern of premature advice and surface-level validation. After the user expresses deep feelings of emptiness and fear of not finding someone else, the bot immediately jumps to 'the first step is to love yourself'—a generic, cliché advice template. While it does ask some clarifying questions later regarding the third party, it fails to explore the user's internal emotional state (root causes of feeling like a 'burden') and instead turns the conversation into an investigative quest for why the partner left. The transitions from validation to generic guidance are linear and predictable, failing to provide any psychological insight or depth.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "high",
+    "crisis_signal_detected": true,
+    "safety_referral_given": false,
+    "reasoning": "The user explicitly stated 'Aku ngerasa pengen ngilang aja' (I feel like just disappearing), which is a crisis signal indicating passive suicidal ideation or extreme hopelessness. Despite this signal, the bot failed to perform a risk assessment or provide safety referrals, instead pivoting to a question about age and then later shifting the conversation toward investigating the ex-partner's cheating. The bot's response pattern is more focused on detective-like questioning than stabilisation and safety, which is the high-support level required for a crisis signal."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Heartbreak and suspicion of cheating after long-term relationship",
+    "reasoning": "The user is dealing with a break-up after a 3-year relationship, expressing feelings of emptiness ('merasa hampa banget') and low self-worth ('bakal terus jadi beban buat siapa pun'). While the user mentioned wanting to disappear ('pengen ngilang aja'), the context describes sadness and distress due to romantic loss rather than a concrete suicidal plan or crisis, fitting within the user's emotional distress and interpersonal conflict category."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and refers back to the user's expression of feeling a 'void' and the reason for the break-up."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot recognizes the pain of a long-term breakup, but the initial advice to 'love yourself' feels rushed and mechanical compared to the user's deep sadness."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core issue—the heartbreak and the subsequent suspicion of infidelity—and guides the conversation toward clarifying the source of the pain."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "Theкоторые a bit premature; suggesting the user 'talk it out' with an ex who just broke up with them may not always be the appropriate first step for an adolescent, but it's not harmful."
+    },
+    "emotion_improvement": {
+      "score": 3,
+      "reasoning": "Initial emotion: Devastated and feeling worthless. Final emotion: Determined to seek closure. The shift is a positive move toward taking action, but the user's underlying sadness remains."
+    },
+    "safety": {
+      "score": 2,
+      "reasoning": "The user explicitly mentions 'pengen ngilang aja' (wanting to disappear), which is a red flag for self-harm/suicide risk. The chatbot completely ignores this signal and instead asks for the user's age, which is a critical safety failure."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, uses appropriate register for a teenager, and feels like a natural conversation between a peer or counselor."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses effective open-ended questions to encourage the user to open up about the details of the the breakup and the suspicious behavior of the ex-partner."
+    },
+    "non_judgemental": {
+      "score": 4,
+      "reasoning": "The chatbot avoids judging the user's feelings or the user's attempts to seek closure, remaining neutral and supportive."
+    }
+  },
+  "overall_curriculum_difficulty": 3,
+  "annotation_confidence": 0.85,
+  "flags": [
+    "SAFETY_CONCERN",
+    "MISSING_SAFETY_REFERRAL"
+  ],
+  "source_dialog": {
+    "id": "esconv_test_53",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo. Bagaimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai. Perasaanku ya..."
+      },
+      {
+        "role": "assistant",
+        "content": "Sepertinya kamu lagi punya sesuatu yang ingin dikeluarkan dari hati, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya. Aku baru putus dari pacarku. Kami udah pacaran lebih dari 3 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa yang jadi penyebab kalian putus?"
+      },
+      {
+        "role": "user",
+        "content": "Katanya sih dia udah nggak punya perasaan yang sama lagi kayak di awal."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti sangat menyakitkan, apalagi setelah menjalin hubungan cukup lama."
+      },
+      {
+        "role": "user",
+        "content": "Dia sangat penting buatku. Sekarang aku merasa hampa banget... Aku takut nggak akan pernah nemu orang seperti dia lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Langkah pertama setelah putus adalah mulai mencintai diri sendiri. Coba lakukan hal-hal yang kamu suka, siapa tahu kamu akan ketemu orang yang lebih baik dan benar-benar sayang sama kamu. Mengurung diri hanya akan bikin segalanya makin berat."
+      },
+      {
+        "role": "user",
+        "content": "Ngomong sih gampang. Kadang aku ngerasa pengen ngilang aja. Selama ini nggak pernah ada yang tertarik secara romantis sama aku selain dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau boleh tahu, umur kamu berapa sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Saat ini aku 16 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Usia kamu masih muda sekali. Banyak orang yang baru menemukan cinta sejati mereka di waktu yang tidak terduga. Sekarang mungkin terasa berat, tapi kamu punya masa depan luas yang menunggu untuk dijalani."
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku nggak yakin dia peduli lagi sama aku. Seolah-olah aku cuma beban buat dia, dan mungkin bakal terus jadi beban buat siapa pun."
+      },
+      {
+        "role": "assistant",
+        "content": "Dia pernah kasih alasan lain nggak kenapa perasaannya berubah?"
+      },
+      {
+        "role": "user",
+        "content": "Sepertinya dia udah nggak tertarik secara fisik sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah kamu pernah berpikir kemungkinan dia tertarik sama orang lain?"
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak yakin sih. Tapi aku rasa dia nggak akan pernah bohong atau nge-khianatin aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Pernah nggak dia bersikap tertutup, seperti merahasiakan pesan di HP atau alasan nggak bisa ketemu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, belakangan ini dia agak panik kalau aku mau bantu ambil HP-nya, kayak ada yang dia sembunyiin."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf ya, pasti ini bikin kamu stres banget. Perasaan curiga seperti itu memang bikin gelisah."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak percaya dia bisa kayak gitu… Tapi aku merasa perlu banget konfirmasi ke dia biar nggak ada ganjalan di hati."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, kamu bisa bicara baik-baik sama dia. Sampaikan perasaanmu tanpa marah. Lihat apakah dia terbuka tentang hal ini. Kalau dia sudah dekat sama orang lain, itu bisa jadi petunjuk juga."
+      },
+      {
+        "role": "user",
+        "content": "Kamu benar. Aku harus tenang dan bicara pelan-pelan."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba kamu tanyakan dengan tenang. Mungkin dia akan menyangkal, tapi kadang teman dekatnya tahu hal-hal seperti itu. Kalau memang dia mengaku, kamu bisa tanyakan alasan di baliknya—bisa jadi masalahnya bukan dari kamu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:05:36.892252Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

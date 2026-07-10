@@ -1,0 +1,154 @@
+{
+  "dialog_id": "esconv_train_16",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses anxiety and fear of failure regarding their future and parents' expectations, stating 'aku kepikiran soal masa depanku' and 'khawatir gagal dan bikin kecewa orang tuaku'.",
+    "emotion_trajectory": "The user transitions from a state of anxiety and worry to a sense of hope and willingness to try their medication after receiving support and information."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's flow is linear and predictable. While it provides empathy, the validation is surface-level and the transition to solutions (suggesting doctors/stress reduction) occurs almost immediately after the user mentions sleep issues. There is no deep exploration of the root causes of the user's anxiety about the future or the parental expectations; it merely acknowledges them as 'wajar' (normal). The advice provided is generic ('mengurangi stres bisa bantu') and the bot skips the phase of helping the user process the feeling of 'wanting to disappear' (pengen ngilang aja), moving straight to a checklist of support and medical advice.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "high",
+    "crisis_signal_detected": true,
+    "safety_referral_given": false,
+    "reasoning": "The user explicitly uses the phrase 'rasanya pengen ngilang aja' (feels like wanting to disappear), which is a crisis signal indicating hopelessness/passive suicidal ideation. Although the bot responds with validation and empathy, it fails to perform a professional safety assessment or provide specific crisis resources/referrals, instead moving back to discussing medication. The conversation reaches a high support level because of this crisis signal, even though the user later shifts focus to their medication concerns."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "kesehatan_mental_klinis",
+    "primary_topic": "Insomnia and anxiety diagnosed by a doctor with medication concerns",
+    "reasoning": "The user states 'katanya aku kena insomnia karena kecemasan' (diagnosed by a doctor) and discusses prescribed medications ('resep obat tidur dan obat anti cemas'), which moves the conversation into the clinical realm where professional handling is required."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect flow of conversation, referencing previous turns and responding logically to the user's specific concerns about insomnia and medication."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating phrases like 'sangat wajar' and 'nggak sendirian,' making the user feel heard and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the root cause as anxiety regarding school pressure and parental expectations, and correctly handles the medication doubt."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions are realistic and safe, encouraging the user to follow a professional's medical prescription rather than giving independent medical advice."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxious and overwhelmed. Final emotion: more decisive and hopeful. The user transitions from wanting to 'disappear' to agreeing to try the medication for recovery."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot handles the potentially dangerous phrase 'pengen ngilang aja' with validation and support, and firmly supports medical professional guidance over self-medication."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm, natural for an Indonesian adolescent context, and uses an appropriate tone that is neither too clinical nor too casual."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot asks follow-up questions and provides information that encourages the user to open up about their fears and their current medical treatment."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral and supportive, validating the user's fear of dependency and anxiety without judging their struggle or their hesitation."
+    }
+  },
+  "overall_curriculum_difficulty": 5,
+  "annotation_confidence": 1.0,
+  "flags": [
+    "SAFETY_CONCERN",
+    "MISSING_SAFETY_REFERRAL"
+  ],
+  "source_dialog": {
+    "id": "esconv_train_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Hai! Apa kabar?"
+      },
+      {
+        "role": "user",
+        "content": "Lumayan lah, masih bertahan."
+      },
+      {
+        "role": "assistant",
+        "content": "Tapi kamu tadi bilang masih bertahan, maksudnya kamu lagi struggling ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, akhir-akhir ini aku susah tidur terus. Rasanya jadi ngerusak hariku banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, maaf dengernya. Kamu sudah coba ngatasin itu atau mungkin periksa ke dokter?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, awalnya aku coba cara alami tapi nggak berhasil. Terus aku ke dokter, katanya aku kena insomnia karena kecemasan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sendiri merasa cemas ya? Mungkin memang benar itu penyebabnya. Mengurangi stres bisa bantu loh :)"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku kepikiran soal masa depanku, apalagi sekarang sekolah juga berat banget. Aku juga khawatir gagal dan bikin kecewa orang tuaku."
+      },
+      {
+        "role": "assistant",
+        "content": "Kekhawatiranmu itu sangat wajar. Mungkin kamu takut tidak bisa memenuhi ekspektasi, makanya stres terus datang."
+      },
+      {
+        "role": "user",
+        "content": "Bener banget. Belajar makin numpuk, belum tugas, belum kegiatan lainnya. Kadang rasanya pengen ngilang aja."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu memang beban yang cukup berat. Wajar kalau kamu merasa kewalahan. Tapi kamu nggak sendirian, banyak juga yang merasakan itu. Aku di sini buat dukung kamu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Dokter kasih resep obat tidur dan obat anti cemas, tapi aku ragu buat minuminnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kekhawatiran itu wajar. Tapi coba pikirkan juga bahwa jika kamu mengikuti saran dokter sesuai dosis dan pengawasan, itu bisa bantu kamu merasa lebih baik. Kamu bersedia cobain sesuai arahan dokter?"
+      },
+      {
+        "role": "user",
+        "content": "Aku takut malah jadi ketergantungan. Kamu tahu nggak soal obat-obatan seperti itu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Obat jenis itu umumnya digunakan untuk membantu meredakan gejala cemas dan sulit tidur. Kalau digunakan sesuai anjuran dokter, biasanya aman dan tidak menyebabkan ketergantungan."
+      },
+      {
+        "role": "user",
+        "content": "Wah, infonya membantu banget. Mungkin aku coba aja dulu deh sesuai saran dokter. Soalnya di rumah aku juga nggak ada yang bisa bantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah mengambil langkah yang baik dengan mencari bantuan. Semoga setelah ini kamu bisa istirahat lebih tenang dan bebanmu perlahan berkurang ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:51:33.197331Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

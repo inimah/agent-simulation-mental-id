@@ -1,0 +1,163 @@
+{
+  "dialog_id": "esconv_train_135",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly mentions feeling 'cemas dan gugup' (anxious and nervous) regarding upcoming school exams and mentions difficulties with online learning.",
+    "emotion_trajectory": "The user moves from a state of anxiety and worry about exams to a state of gratitude and positivity after receiving helpful and practical advice from the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's interaction remains surface-level Throughout the dialogue, it provides generic advice such as 'find a quiet place', 'ensure good lighting', and 'listen to music' without exploring the root causes of the user's anxiety. The transitions from emotional expression to solution-giving are premature; for example, it immediately suggests asking friends for help before the user has fully described the stress of online learning. The reflections are basic echoes and the interaction follows a linear, predictable flow of brief validation followed by generic tips.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses mild anxiety and nervousness regarding school exams ('agak cemas dan gugup'), which requires a support level above 'low' due to the presence of a specific psychological distress signal (anxiety). The bot provides active listening and practical suggestions to improve focus and anxiety management. The conversation remains within the range of a non-crisis situation where the user is functional and seeking improvement rather than stabilization."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Anxiety and focus issues related to upcoming school exams",
+    "reasoning": "The user expresses anxiety ('agak cemas dan gugup') due to school exams ('mau ujian sekolah') and requests tips for focus and reducing anxiety. This falls under normative adolescent academic stress with clear low-risk response paths."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow throughout the conversation, responding directly to the user's concerns about exam anxiety and study habits."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and encouraging, validating the user's feelings about the difficulty of online learning and offering supportive words."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot accurately identifies the core issue: test anxiety and the difficulty of concentrating during online learning environments."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides practical, realistic, and low-risk suggestions such as finding a quiet place, ensuring good lighting, and listening to music to reduce anxiety."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxious and nervous. Final emotion: appreciative and empowered. The user explicitly states the advice was very helpful and feels more prepared to tackle the exams."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, healthy suggestions and avoids any harmful content or pressure."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The use of Indonesian is natural, warm, and appropriate for an adolescent audience, avoiding overly formal or clinical language."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up by asking about the specific subjects and offering tailored suggestions, keeping the conversation flowing naturally."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, providing support and encouragement without assigning blame or criticizing the user's study habits."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_135",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo, apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baik sih, cuma agak cemas dan gugup karena mau ujian sekolah sebentar lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku yakin kamu sudah berusaha semaksimal mungkin."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, aku berusaha. Tapi pelajaran daring itu susah banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah coba minta bantuan belajar sama teman-temanmu?"
+      },
+      {
+        "role": "user",
+        "content": "Kalau belajar bareng langsung di kelas lebih gampang sih, tapi karena semuanya online jadi susah ngobrol atau diskusi bareng."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku paham perasaanmu. Memang enak kalau ada teman yang bisa diajak saling dukung di masa-masa sulit seperti ini."
+      },
+      {
+        "role": "user",
+        "content": "Sekarang aku cuma harus fokus dan jangan biarkan hal-hal lain mengganggu belajarku."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku percaya kamu bisa dan akan melakukannya dengan baik!"
+      },
+      {
+        "role": "user",
+        "content": "Kamu ada saran gimana caranya biar aku bisa tetap fokus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ujiannya pelajaran apa saja tuh?"
+      },
+      {
+        "role": "user",
+        "content": "Biologi dan Sejarah."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba cari tempat belajar yang tenang, dan mungkin kamu bisa lakukan hal yang bikin kamu lebih rileks biar lebih fokus saat belajar."
+      },
+      {
+        "role": "user",
+        "content": "Saran yang bagus. Biasanya aku belajar di kamar, tapi sering terdistraksi sama TV atau orang yang ngajak ngobrol."
+      },
+      {
+        "role": "assistant",
+        "content": "Jangan lupa juga untuk pastikan tempat belajarmu nyaman dan pencahayaannya cukup. Itu juga bisa bantu fokus."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, aku harus lebih serius dan disiplin. Kamu punya saran untuk ngurangin rasa cemas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu suka dengar musik? Kadang musik bisa bikin lebih tenang."
+      },
+      {
+        "role": "user",
+        "content": "Oh iya, ide bagus. Mungkin aku juga akan coba yoga. Terima kasih!"
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga saranku membantu ya. Aku doakan semoga ujiannya lancar dan hasilnya memuaskan."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Sarannya bermanfaat banget. Aku apresiasi banget. Semoga harimu menyenangkan!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:30:12.894526Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

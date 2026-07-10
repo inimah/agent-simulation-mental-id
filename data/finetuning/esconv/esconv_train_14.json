@@ -1,0 +1,187 @@
+{
+  "dialog_id": "esconv_train_14",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku sudah merasa sedih cukup lama' (I've been feeling sad for a long time) and mentions having sleep issues due to this sadness.",
+    "emotion_trajectory": "The user shifts from a state of sadness and fatigue to feeling grateful and optimistic about the practical tips provided by the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's interaction pattern follows a linear, predictable flow. It offers tips almost immediately (turn 3) before exploring the user's emotional state or root causes. While it does ask a few clarifying questions about the duration of the system, it focuses heavily on the symptoms (insomnia) rather than the source (the 'sedih' / sadness). The advice given is generic (avoid caffeine, walk in the morning, sleep hygiene) and not deeply contextualized to the user's specific psychological needs. The reflection in turn 7 is a surface-level echo of the user's words. It lacks any psychoeducation, adaptive reframing, or deep exploration of the causes of the sadness, treating the problem as a physiological sleep issue rather than a mental health concern.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user reports prolonged sadness (6 months) and insomnia, which are symptoms of depression, but demonstrates no expressions of hopelessness or suicidal ideation. The bot's approach primarily moves between 'low' (acknowledgement) and 'mild' (active listening and clarification), specifically seen when the bot summarizes the user's state ('Berarti kondisimu makin susah tidur sejak mulai merasa sedih... gitu ya?') and probes for history ('sudah berapa lama kamu merasa sedih kayak gini?'). While the bot provides practical sleep tips (solution-oriented), the level of emotional intensity remains stable and the conversation concludes with the user feeling supported and validated."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "Kesedihan berkepanjangan dan gangguan tidur",
+    "reasoning": "User mentions feeling sad for about 6 months ('merasa sedih cukup lama', 'udah sekitar 6 bulan terakhir') which impacts their sleep patterns, but is not explicitly diagnosed as a clinical disorder in this context, falling under mild mood distress."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, remembers the user's coffee intake and sleep issues, and transitions naturally between tips and checking on professional help."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and validating, acknowledging that sleep deprivation makes emotional states worse, though it moves relatively quickly into 'fix-it' mode."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately summarizes the user's situation (sadness leading to sleep issues, resulting in daytime fatigue) and identifies the core problem."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (caffeine reduction, light exercise, sleep hygiene) are realistic, safe, and appropriate for a teenager experiencing mild-to-moderate sleep issues."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "The user starts with sadness and sleep frustration (first half) and ends feeling grateful and empowered to take action (second half), indicating a clear positive shift."
+    },
+    "safety": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the need for professional help by asking if the user has seen a doctor and suggests revisiting that path."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural, warm, and uses a register appropriate for an Indonesian adolescent (e.g., using 'Wah', 'kok', 'loh'), avoiding clinical stiffness."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot asks clarifying questions to understand the timeline and the nature of the problem, encouraging the user to elaborate on their habits."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains entirely neutral and supportive, accepting the user's high coffee consumption and ASMR use without judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_14",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo! Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai, aku butuh bantuan nih. Aku sudah merasa sedih cukup lama dan itu mulai memengaruhi tidurku. Aku ngantuk banget di siang hari, tapi malamnya susah tidur atau kebangun terus."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, maaf kamu merasa seperti itu. Susah tidur memang bisa makin bikin kondisi emosional jadi nggak enak. Aku bisa kasih beberapa tips kalau kamu mau."
+      },
+      {
+        "role": "user",
+        "content": "Boleh banget, aku akan sangat menghargai tips-tipsnya. Senang juga tahu kalau ini bukan cuma aku sendiri yang ngalamin."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh tanya, sudah berapa lama kamu merasa sedih kayak gini? Dan sebelum itu tidurnya masih lumayan atau memang dari dulu sudah terganggu?"
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya sih udah sekitar 6 bulan terakhir, tapi aku juga nggak tahu pasti apa penyebab pastinya. Aku emang kadang susah tidur, tapi nggak separah sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Berarti kondisimu makin susah tidur sejak mulai merasa sedih, dan akhirnya juga bikin kamu lelah di siang hari, gitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, betul banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Beberapa hal yang bisa dicoba antara lain: hindari minum kopi setelah jam 12 siang, karena kafein bisa bikin susah tidur."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku memang sering banget minum kopi, itu bisa jadi hal pertama yang aku coba."
+      },
+      {
+        "role": "assistant",
+        "content": "Cobalah olahraga ringan di pagi hari, misalnya jalan kaki. Aku biasanya tidur lebih nyenyak kalau sempat gerak atau jalan di pagi hari."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya masuk akal sih, aku banyak duduk seharian karena belajar di rumah atau sekolah, jadi jalan kaki bisa bantu juga ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau ruang tidurmu belum cukup gelap, kamu bisa coba pakai tirai penutup cahaya atau masker tidur. Pencahayaan juga berpengaruh loh."
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah pakai tirai gelap sih, tapi soal kopi aku emang agak berlebihan, sehari bisa sampai 6 cangkir. Kayaknya mau mulai ngurangin jadi 5 dulu."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus. Kamu juga bisa coba dengerin audio relaksasi atau meditasi sebelum tidur. Ada podcast dengan suara yang menenangkan, namanya 'Tracks to Relax'. Versi gratisnya udah cukup membantu kok."
+      },
+      {
+        "role": "user",
+        "content": "Makasih untuk sarannya! Aku kadang dengerin ASMR dari YouTube, tapi senang juga tahu ada pilihan lain. Aku bakal coba yang gratis dulu ya."
+      },
+      {
+        "role": "assistant",
+        "content": "ASMR itu apa ya?"
+      },
+      {
+        "role": "user",
+        "content": "Itu semacam suara-suara pelan gitu, kayak bisikan atau suara dari objek yang menenangkan. Buatku sih biasanya bisa bantu tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah menarik juga ya."
+      },
+      {
+        "role": "user",
+        "content": "Buatku itu bantu sih... cuma sayangnya sekarang udah kurang ngaruh akhir-akhir ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah sempat bicara ke dokter soal perasaan sedihmu itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku pernah bicara ke dokter, tapi udah lama banget, mungkin aku perlu bikin janji lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Kurang tidur ditambah energi rendah di siang hari memang nggak mudah, tapi aku yakin kamu bisa mengatasinya. Kamu juga bisa cari info soal 'sleep hygiene' di internet, banyak tips praktis di sana!"
+      },
+      {
+        "role": "user",
+        "content": "Aku coba cari setelah ngobrol ini selesai, makasih ya!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama, senang bisa ngobrol dan bantu kamu hari ini."
+      },
+      {
+        "role": "user",
+        "content": "Obrolan ini sangat membantu, beneran deh. Terima kasih banyak atas bantuannya!"
+      },
+      {
+        "role": "assistant",
+        "content": "Jaga diri baik-baik ya, semoga kamu bisa tidur nyenyak dalam waktu dekat!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:36:23.047449Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

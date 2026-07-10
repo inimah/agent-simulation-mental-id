@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_train_143",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses anxiety and hesitation regarding ending a relationship, stating 'Aku takut dia bakal sangat sedih' and 'aku masih khawatir dia bakal bereaksi dengan buruk'.",
+    "emotion_trajectory": "The user shifts from a state of anxiety and worry to a state of calm and acceptance, feeling more decisive and prepared to face the situation after receiving practical advice."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a clear therapeutic phase structure: it starts with clarification ('kamu sudah merasa seperti ini sejak lama atau baru akhir-akhir ini saja?'), moves to validation and empathetic reflection ('Aku bisa lihat kalau kamu orang yang peduli'), and only provides advice after the user explicitly asks for it ('Menurutmu aku harus mulai dari mana?'). The chatbot demonstrates a level of personalization by renaming the user's conflict as a sign of 'maturity and integrity' and provides contextual advice regarding the timing of the break-up rather than generic tips. It lacks the psychoeducation or deep systemic analysis found in advanced_therapeutic, but it is far more structural and patient than basic_counseling.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is discussing a relationship dilemma and feeling conflicted about wanting to break up. While there is emotional distress, it does not reach the level of a crisis or safety risk. The bot uses mild-level techniques such as reflective listening ('Jadi kamu sudah lama merasa ada yang nggak beres...'), active clarification ('Kamu sudah merasa seperti ini sejak lama...'), and supportive guidance. The conversation remains within the scope of general counseling and interpersonal conflict resolution without any indicators of self-harm or hopelessness."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Keinginan untuk mengakhiri hubungan pacaran dengan cara baik-baik",
+    "reasoning": "User menyatakan keinginan untuk putus karena sudah tidak cocok, namun merasa khawatir dan takut menyakiti perasaan pasangan ('Aku takut dia bakal sangat sedih'). Hal ini melibatkan konflik interpersonal dan regulasi emosi, namun tidak menunjukkan indikasi krisis atau perilaku klinis."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains perfect continuity throughout the conversation, responding logically to each user prompt and referencing previous context accurately."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm validation, specifically praising the user's integrity and care for their partner, making the user feel understood."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core conflict: the user's desire to end a long-term relationship while minimizing pain for the partner."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided (choosing a neutral time and being honest) are realistic, safe, and appropriate for the situation."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxious and confused. Final emotion: determined and calm. The user moves from uncertainty to having a concrete plan and feeling empowered to act."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, healthy communication advice and encourages seeking support from friends, avoiding any risky behavior."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is naturally warm and supportive, fitting for an Indonesian adolescent/young adult context without being overly formal or robotic."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses a few well-placed questions to help the user elaborate on their thoughts and supportive affirmations to keep the dialogue flowing."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, treating the user's decision to break up as a sign of maturity and integrity rather than a mistake."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_143",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, ada yang bisa aku bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah pacaran sekitar dua tahun. Awalnya menyenangkan dan kami cocok banget. Tapi sekarang kayaknya kami udah nggak punya banyak kesamaan, dan perasaanku juga udah berubah. Aku nggak mau nyakitin dia, tapi aku kepikiran buat mengakhiri hubungan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah merasa seperti ini sejak lama atau baru akhir-akhir ini saja?"
+      },
+      {
+        "role": "user",
+        "content": "Sebenernya udah cukup lama sih, tapi belakangan ini makin sering kepikiran. Rasanya nggak nyaman, dan aku nggak tahu gimana harus ngadepinnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sudah lama merasa ada yang nggak beres dalam hubungan ini, dan sekarang bingung gimana mengakhirinya tanpa menyakiti perasaan pacarmu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, bener banget. Aku takut dia bakal sangat sedih, dan aku juga kepikiran terus. Mungkin lebih gampang kalau terus bareng, tapi rasanya itu bukan keputusan yang tepat."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa lihat kalau kamu orang yang peduli dan ingin yang terbaik buat pacarmu. Keinginanmu buat jujur itu menunjukkan kalau kamu punya kedewasaan dan integritas."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Aku emang masih peduli sama dia, makanya aku nggak mau bikin dia terluka."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang hal seperti ini bisa menyakitkan di awal. Tapi kalau kamu bisa menjelaskannya dengan baik dan jujur, ada kemungkinan kalian tetap bisa menjaga hubungan baik setelahnya."
+      },
+      {
+        "role": "user",
+        "content": "Bagus juga ya kalau bisa tetap berteman setelahnya. Tapi aku masih khawatir dia bakal bereaksi dengan buruk. Menurutmu aku harus mulai dari mana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sebaiknya mulai dengan jujur menyampaikan perasaanmu. Pilih waktu yang tepat untuk bicara, supaya dampaknya tidak semakin besar untuk dia."
+      },
+      {
+        "role": "user",
+        "content": "Maksud kamu waktu yang tepat itu gimana? Emang ada waktu yang tepat buat ngomong kayak gitu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Orang cenderung mengingat kejadian buruk kalau itu terjadi di momen penting, seperti ulang tahun. Jadi maksudku, hindari waktu-waktu sensitif dan pilih waktu yang netral."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku ngerti. Jangan bilang pas ulang tahunnya, ya haha. Mungkin bisa pas sore atau malam ya ketika dia nggak sibuk?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, pilih waktu dia sedang tenang dan bisa fokus ngobrol. Kamu punya teman yang bisa diajak diskusi juga soal ini?"
+      },
+      {
+        "role": "user",
+        "content": "Ada sih beberapa teman yang tahu gimana perasaanku sekarang. Mungkin mereka bisa bantu nyusun kata-kata yang harus aku bilang."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu bagus. Yang penting, jujur dari hati dan sampaikan dengan tenang. Kalau kamu jujur pada dirimu sendiri dan padanya, itu langkah yang benar."
+      },
+      {
+        "role": "user",
+        "content": "Sepertinya bakal berat tapi makasih buat sarannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku yakin kamu bisa melakukannya dengan baik. Memang nggak mudah, tapi aku percaya kamu bisa menyampaikan ini dengan hati-hati dan penuh kepedulian."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas kata-kata baiknya. Aku akan coba lakukan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama, semangat ya."
+      },
+      {
+        "role": "user",
+        "content": "Oke, dadah."
+      },
+      {
+        "role": "assistant",
+        "content": "Jaga dirimu baik-baik."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:39:25.637919Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

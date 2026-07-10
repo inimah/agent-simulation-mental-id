@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_train_119",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "User expresses feelings of devastation ('dunia runtuh') and being devastated ('sangat terpuruk') due to failing a mathematics exam.",
+    "emotion_trajectory": "The user moves from a state of sadness and disappointment over past failure to a state of hope and openness, encouraged by the support of family and a renewed desire to achieve their goal."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot provides surface-level validation and transitions to generic advice too quickly. It fails to explore why the user feels the 'world collapsed' or the deeper meaning of wanting to be a math teacher. When the user mentions stress-eating as a coping mechanism, the chatbot ignores the symptom and instead suggests walking with a pet. The final suggestion to consider a different field than math is contradictory to the user's passion, showing a lack of deep contextual understanding and a lack of therapeutic flow. The responses are reactive and linear rather than insight-oriented.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses feelings of disappointment ('dunia runtuh', 'sangat terpuruk') and emotional eating as a coping mechanism, which requires a 'mild' support level for active listening and normalization of failure. There are no crisis signals such as self-harm or hopelessness (the user mentions having hope, family support, and retaking the class). The bot provides some grounding suggestions (breathing, walking), but the dialogue remains within the range of general emotional distress rather than a psychological crisis."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Feeling disappointed after failing a math exam",
+    "reasoning": "The user discusses academic failure and stress related to their goal of becoming a math teacher, but expresses a hope for improvement and has a strong family support system."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 3,
+      "reasoning": "The bot maintains the general topic, but the final suggestion regarding changing fields of study is a sudden shift and feels disconnected from the user's passion to become a math teacher."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The bot uses empathetic phrases like 'turut prihatin', but some responses are slightly generic and feel mechanical rather than deeply validating."
+    },
+    "problem_understanding": {
+      "score": 3,
+      "reasoning": "The bot understands the user is sad about failing a math test, but misses the nuance of the user feeling like they didn't 'earn' their passing grade due to the curve."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The suggestions for breathing and walking are helpful and safe, but the suggestion to consider a different field of study at the end is premature and potentially discouraging."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: devastated/frustrated. Final emotion: appreciative and more hopeful. User shows a positive shift as they reflect on their support system and their goals."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids all harmful content and provides safe, healthy coping mechanisms (walking, breathing) for stress."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is warm and natural, avoiding overly formal language and fits a typical helpful adolescent-focused persona."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot encourages the user to share their family support and their dream of becoming a math teacher through positive reinforcement."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot is supportive and neutral, not judging the user for failing the test or for their stress-eating habits."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_119",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kamu pernah gagal ujian gak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Beberapa orang memang pernah mengalami kegagalan ujian, dan itu hal yang lumrah kok."
+      },
+      {
+        "role": "user",
+        "content": "Gitu ya... Aku ga tau gimana rasanya orang lain waktu gagal ujian. Aku ngerasa kayak dunia runtuh waktu aku tau aku gagal ujian matematika kemarin."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf ya, turut prihatin mendengar ceritamu. Gagal dalam sesuatu yang penting memang bisa bikin frustrasi dan kecewa."
+      },
+      {
+        "role": "user",
+        "content": "Aku gagal ujian matematika dan itu bikin aku sangat terpuruk. Itu ujian akhir semester. Aku nyaris gak lulus kelas itu, untungnya nilainya dikurva."
+      },
+      {
+        "role": "assistant",
+        "content": "Tapi kamu tetap akhirnya lulus, kan? Itu menunjukkan kamu terus berjuang."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, tapi tetap aja rasanya gak enak karena aku lulus bukan karena usahaku sendiri, tapi karena dibantu kurva kelas."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu tetap berusaha keras, dan itu yang penting. Kamu juga sadar dan mengenali apa yang kamu rasakan, itu langkah yang kuat."
+      },
+      {
+        "role": "user",
+        "content": "Aku masih ngerasa kecewa sampai sekarang. Aku lagi ambil kelas matematika lagi dan berharap kali ini hasilnya beda."
+      },
+      {
+        "role": "assistant",
+        "content": "Kadang, ambil napas dalam, duduk tenang, atau jalan sebentar di luar bisa bantu menenangkan pikiran. Mau coba?"
+      },
+      {
+        "role": "user",
+        "content": "Mungkin bisa dicoba. Biasanya aku malah makan dan hindarin tugas sampai mepet. Aku suka makan berlebih saat stres."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba juga jalan kaki agak lama, terutama sambil bawa hewan peliharaan kalau kamu punya. Membantu banget lho untuk jernihin pikiran."
+      },
+      {
+        "role": "user",
+        "content": "Aku suka jalan-jalan sambil ngajak kucingku, itu biasanya bikin aku mikir dan tetap punya harapan soal pelajaran matematika. Keluargaku juga selalu dukung karena mereka tahu aku pengen banget jadi guru matematika."
+      },
+      {
+        "role": "assistant",
+        "content": "Tetaplah semangat dan yakin sama dirimu sendiri, apalagi kamu punya dukungan keluarga yang kuat."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya, atas semua saran positifmu."
+      },
+      {
+        "role": "assistant",
+        "content": "Semangat terus, kamu lagi berjuang dan itu keren!"
+      },
+      {
+        "role": "user",
+        "content": "Aku tahu, itu yang bikin aku stres banget. Yaudah, aku pamit ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu cocok jadi guru, tapi bisa jadi bidang lain selain matematika lebih pas buatmu. Coba dipikirkan juga ya."
+      },
+      {
+        "role": "user",
+        "content": "Bisa jadi sih. Makasih!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semoga harimu membaik ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:04:32.883192Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

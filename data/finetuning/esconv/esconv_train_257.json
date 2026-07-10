@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_train_257",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "high",
+    "reasoning": "The user expresses frustration over their partner's behavior, mentioning they were broken up with via social media and that the partner is ignoring their calls and messages.",
+    "emotion_trajectory": "The user shifts from a state of agitation and frustration to a more hopeful and relieved state after receiving validation and support from the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern of brief validation followed by immediate jumps to generic solutions. It provides 'premature advice' (suggesting calling, messaging, or using friends) almost immediately after the user first describes the situation, without exploring the user's feelings or the root cause of the anxiety. The responses are surface-level echoes and generic tips (give time, engage in hobbies, talk to friends) rather than deep exploration or psychoeducation. The conversation focuses on symptoms rather than psychological insight, fitting the 'basic_counseling' profile.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing emotional distress due to a breakup and relationship anxiety (mentioned as 'nggak bisa makan atau tidur'), but they do not express hopelessness or suicidal ideation. The conversation focuses on clarification of the situation, emotional validation, and practical coping strategies (giving the space, hobbies, and distancing from social media). The bot's responses transition from simple acknowledgement to active listening and offering guidance, fitting the 'mild' support level."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Dealing with a breakup via social media and subsequent ghosting",
+    "reasoning": "The user is experiencing interpersonal conflict and emotional distress following a breakup. Although they mention anxiety affecting sleep and eating ('rasa cemas ini bikin aku nggak bisa makan atau tidur'), the conversation remains centered on the relationship struggle and they demonstrate healthy coping mechanisms and hope for the future, fitting the Level 2 criteria for relation and interpersonal conflict."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot remains perfectly consistent and logically flows from the problem description to providing support and closing the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm and validating responses, especially in the final turns where it praises the user's strength ('Kamu hebat sudah bisa terus bertahan')."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot accurately identifies the core issue—a sudden breakup via social media and the subsequent anxiety—and focuses on the responses appropriately."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions to give the partner space, seek social support, and distance themselves from social media are realistic, safe, and contextually appropriate."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxious, confused, and distressed. Final emotion: slightly relieved, hopeful, and more empowered. The user explicitly states they feel more relieved ('lebih lega')."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids any harmful advice and provides emotionally safe support without pushing the user into risky behaviors."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The bahasa Indonesia used is natural and appropriate for adolescent teenagers, using a warm tone and friendly emojis without being overly formal."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up by asking about social support and focusing on the user's own well-being rather than just the solution to the relationship."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains entirely neutral and does not judge the user's actions (like uploading statuses that caused jealousy) or the partner's behavior."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_257",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo."
+      },
+      {
+        "role": "assistant",
+        "content": "Hai, gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Oke. Kamu bisa lihat penjelasan masalahku atau harus aku kirim ulang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf, aku belum melihat penjelasan masalahnya. Bisa kamu kirimkan lagi?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, jadi pacarku mutusin aku lewat story di media sosial, tapi nggak pernah bilang alasannya. Aku rasa sih karena aku pernah upload status yang bikin dia cemburu. Tapi kalau memang itu alasannya, rasanya dia terlalu berlebihan."
+      },
+      {
+        "role": "assistant",
+        "content": "Oh begitu... aku turut prihatin atas apa yang kamu alami."
+      },
+      {
+        "role": "user",
+        "content": "Dia nggak mau angkat telpon atau bales pesanku. Tapi malah rajin update lagu-lagu sedih seolah-olah aku yang menyakiti dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah coba kirim pesan dan minta ngobrol langsung sama dia? Mungkin dengan begitu kamu bisa tahu sebenarnya kenapa dia mutusin kamu. Atau kamu punya teman dekat kalian berdua yang bisa bantu ngobrolin ke dia?"
+      },
+      {
+        "role": "user",
+        "content": "Sudah, aku udah kirim banyak pesan. Dia baca tapi nggak bales. Aku juga minta bantuan sahabatnya, tapi waktu ditanya, dia malah pura-pura nggak ada masalah."
+      },
+      {
+        "role": "assistant",
+        "content": "Hmm... Kamu mungkin bisa coba beri dia waktu. Kadang, butuh waktu untuk seseorang menenangkan diri sebelum mau bicara. Aku tahu ini bikin cemas, tapi kadang waktu bisa membantu meredakan semuanya."
+      },
+      {
+        "role": "user",
+        "content": "Ya, mungkin itu satu-satunya hal yang bisa aku lakukan sekarang. Karena kalau terus aku hubungi, nanti malah nambah tekanan buat kami berdua. Tapi rasa cemas ini bikin aku nggak bisa makan atau tidur. Aku benar-benar nggak tahu harus gimana. Tapi iya, yang terbaik sekarang mungkin membiarkan dia sendiri dulu."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kamu punya teman lain yang bisa kamu ajak bicara untuk dukungan? Itu bisa sangat membantu untuk meredakan kecemasan. Atau kamu juga bisa coba menyibukkan diri dengan aktivitas yang kamu suka atau hobi. Kadang itu bantu banget untuk mengalihkan pikiran meskipun sedikit."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih, aku sudah coba melakukan itu. Meski aku juga nggak mau kebanyakan curhat ke teman, takutnya mereka jadi terganggu. Tapi aku berusaha terus menyibukkan diri, yang paling penting menjauh dari HP, haha."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu bagus. Setidaknya kamu sudah mulai cari cara untuk meredakan kecemasan. Dan memang benar, media sosial bisa bikin stres makin besar, jadi menjauh dulu juga langkah yang tepat :)"
+      },
+      {
+        "role": "user",
+        "content": "Tapi sejujurnya belum terlalu membantu. Tapi aku yakin lama-lama akan membaik. Kayaknya pas aku udah mulai baikan, dia malah bakal ngontak. Haha. Begitu kan biasanya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, seringnya sih orang baru menyadari sikap mereka setelah waktu berlalu dan suasana sudah lebih tenang. Semoga aja pacarmu juga berpikir ulang dan akhirnya menghubungimu. Bisa jadi dia sedang mikir dan butuh waktu sendiri dulu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak, aku juga berharap begitu! :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama :) Semoga perasaanmu cepat membaik, ya."
+      },
+      {
+        "role": "user",
+        "content": "Makasih sekali lagi! Kamu benar-benar bikin aku sedikit lebih lega. Kita bisa lanjut sekarang :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Aku senang bisa sedikit membantu. Kamu hebat sudah bisa terus bertahan sampai sekarang."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:08:55.019728Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

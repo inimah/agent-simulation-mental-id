@@ -1,0 +1,139 @@
+{
+  "dialog_id": "esconv_train_20",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "optimism",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses concern over persistent sleep issues ('masalah tidur yang terus-menerus') and asks for guidance on what to do if the solutions fail ('Tapi kalau tetap nggak bisa tidur, gimana dong?').",
+    "emotion_trajectory": "The user moves from a state of worry and uncertainty to a state of optimism and motivation, expressing confidence in their ability to improve their sleep routine ('Aku percaya aku bisa bikin rutinitas tidur yang lebih baik')."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's flow is linear and predictable: it asks one clarifying question about habits and immediately jumps to specific advice (stopping phone use, reading books) before exploring the root cause of the insomnia. The reflections are surface-level, and the suggestions (white noise, reading books) are generic tips rather than personalised insights. There is no attempt to understand why the user is unable to sleep or the underlying emotional state; it simply treats the symptom (insomnia) as a technical problem to be solved with a generic checklist of 'sleep hygiene' tips.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is reporting a common problem (insomnia/sleep issues) without any indicators of psychological crisis or hopelessness. The bot effectively uses mild-level support by asking exploratory questions ('Biasanya, kamu ngelakuin apa aja sih satu jam sebelum tidur...') and providing normalising statements ('Nggak apa-apa, banyak kok orang yang ngalamin hal serupa...'). The conversation remains in the range of active listening and guidance for a daily life problem, never escalating to a high-risk situation."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "aktivitas_harian_dan_gaya_hidup",
+    "primary_topic": "Kesulitan tidur akibat penggunaan gadget sebelum tidur",
+    "reasoning": "User reports difficulty sleeping despite being tired, but attributes it as a result of 'kebanyakan main HP' (too much phone use) and is open to lifestyle changes like reading books and white noise, indicating a normative sleep hygiene issue rather than a clinical sleep disorder."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical and seamless flow throughout the conversation, correctly referencing previous user inputs regarding screen time and sleep habits."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and validating, using phrases like 'Maaf banget' and 'Nggak apa-apa,' making the user feel understood and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue as insomnia/difficulty sleeping and correctly links it's the user's pre-sleep routine to the problem."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (reducing screen time, reading books, and white noise) are realistic, safe, and appropriate for an adolescent dealing with basic sleep hygiene."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "There is a significant positive shift; the user moves from complaining about a struggle to stating they are 'excited to try the solutions' and 'believe they can't do it'."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot correctly advises that medication should be a last resort, discouraging premature self-medication for sleep issues."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and friendly, fitting for an Indonesian adolescent context, though slightly generic in some responses."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their habits and provides helpful alternatives, leading the user to open up about their preferences (nature sounds)."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, specifically stating that the problem is not because the user did something 'wrong' but about finding ways to calm the mind."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_20",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai! Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi ngalamin masalah tidur yang terus-menerus, padahal capek banget, tapi begitu mau tidur malah nggak bisa-bisa tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf banget kamu harus ngalamin itu. Biasanya, kamu ngelakuin apa aja sih satu jam sebelum tidur dan waktu udah di kasur?"
+      },
+      {
+        "role": "user",
+        "content": "Biasanya nonton TV atau main HP. Terus pas udah di kasur, aku cuma coba merem dan tenangin diri."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba mulai hentikan pemakaian teknologi satu jam sebelum tidur. Sebagai gantinya, bisa coba baca buku. Hal kecil kayak gini bisa bantu pikiran lebih tenang saat mau tidur."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya itu ide bagus, aku memang sadar kebanyakan main HP apalagi malam. Malam ini aku coba baca buku deh. Tapi kalau tetap nggak bisa tidur, gimana dong?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nggak apa-apa, banyak kok orang yang ngalamin hal serupa di zaman sekarang."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa coba dengerin suara alam atau white noise sebelum tidur, kayak suara hujan, gemericik air, atau kicau burung. Banyak orang merasa lebih rileks dengan suara-suara seperti itu."
+      },
+      {
+        "role": "user",
+        "content": "Wah iya! Aku suka banget suara alam, bikin tenang... Mungkin itu bisa bantu. Aku juga nggak pengen sampai minum obat kalau bisa dihindari."
+      },
+      {
+        "role": "assistant",
+        "content": "Kadang masalah tidur bukan karena kamu melakukan hal yang salah, tapi lebih ke bagaimana caranya menenangkan pikiran. Dan kamu benar, minum obat sebaiknya jadi pilihan terakhir kalau memang benar-benar perlu."
+      },
+      {
+        "role": "user",
+        "content": "Betul banget. Makasih untuk dukungannya. Aku percaya aku bisa bikin rutinitas tidur yang lebih baik. Tapi ya itu... godaan buka HP terus tuh susah banget dilawan."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Aku percaya kamu pasti bisa mengatasinya :)"
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya sudah bantu dan kasih masukannya. Ini berguna banget, dan bikin aku semangat buat nyobain solusinya."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa bantu. Semoga malam ini tidurnya nyenyak ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:00:30.295627Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

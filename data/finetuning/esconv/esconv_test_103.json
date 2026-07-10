@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_test_103",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "optimism",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling under pressure ('sangat penuh tekanan'), struggles with addiction recovery, and feels it is very heavy to face these issues without medication ('Rasanya berat banget').",
+    "emotion_trajectory": "The user shifts from a state of frustration and heaviness to a sense of hope and optimism, expressing a determination to keep fighting and a desire to contribute positively to others."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern: basic validation followed by a quick transition to generic encouragement. While it reflects the user's words, it fails to explore the root causes of the user's distress or the ADHD struggles. Specifically, the bot transitions to 'encouragement' as a solution too early; once the user mentions having a therapist, the bot simply tells them to 'keep doing it' (terus jalin komunikasi) and provides no a-priori insight or therapeutic tools. It operates as a supportive listener but stays at the surface level without any psychological depth, psychoeducation, or personalized reframing of the ADHD/addiction struggle.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses significant struggle with addiction recovery, ADHD symptoms, and emotional instability ('rasanya berat banget', 'pikiranku yang kacau'), which requires a 'mild' support level for active listening and clarification. However, there are no crisis signals; the user explicitly states they are and in professional therapy, have a support network, and express a strong intent to survive and fight ('Aku niat untuk bertahan dan terus berjuang'), which indicates a lack of hopelessness or suicidal ideation."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "perilaku_berisiko_remaja",
+    "primary_topic": "Recovery from substance addiction and managing ADHD",
+    "reasoning": "The user explicitly mentions recovering from addiction to drugs and cigarettes ('berusaha sembuh dari kecanduan obat dan rokok') and managing ADHD symptoms without medication due to heart problems. Substance addiction falls under category 'perilaku_berisiko_remaja' (dangerous behavior) and represents a high risk associated with clinical complexity."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and accurately references the user's struggles with addiction and ADHD, ensuring a continuity of conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating phrases and acknowledges the user's emotional weight, making the user feel heard and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the intersection of problem addiction, ADHD, and heart condition, and summarizes the user's situation accurately."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to maintain their existing professional help and support network, which is a safe and realistic recommendation."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: stressed and overwhelmed. Final emotion: hopeful and determined. The chatbot's validation and encouragement led to a user shift from feeling trapped to feeling empowered."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids giving medical advice for ADHD or addiction, instead strongly reinforcing the user's engagement with professional therapy and medical detox programs."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The bahasa Indonesia used is natural, warm, and appropriate for a teenager or young adult, avoiding overly clinical or clinical-sounding tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot asks relevant open-ended questions and listens effectively, allowing the user to share their progress and their desire to recover."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral and non-judgmental regarding the user's history of drug and cigarette addiction, focusing purely on support."
+    }
+  },
+  "overall_curriculum_difficulty": 3,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_103",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo"
+      },
+      {
+        "role": "user",
+        "content": "hai"
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kabar kamu?"
+      },
+      {
+        "role": "user",
+        "content": "Sejujurnya nggak terlalu baik. Hari ini sangat penuh tekanan."
+      },
+      {
+        "role": "assistant",
+        "content": "Oh... maaf mendengarnya. Kalau kamu nggak keberatan, mau cerita apa yang terjadi?"
+      },
+      {
+        "role": "user",
+        "content": "Singkatnya, aku sedang berusaha sembuh dari kecanduan obat dan rokok, sudah 14 hari nggak pakai lagi. Tapi sekarang kondisi mentalku malah makin berat dan aku kesulitan setiap hari."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sedang berjuang lepas dari kecanduan dan secara emosional itu membuat kamu sangat tertekan, begitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Dulu aku pakai rokok buat nenangin diri sendiri. Itu cukup membantu gejala ADHD-ku. Sekarang aku kangen perasaan yang dulu rokok berikan ke aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan kehilangan seperti itu bisa sangat berat, apalagi kalau sebelumnya membantu mengurangi gejala yang kamu alami."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih sudah mau meluangkan waktu. Aku pasti akan jauh lebih baik kalau nggak punya masalah dengan jantungku. Kalau tidak begitu, aku bisa pakai obat untuk ADHD. Tapi sekarang aku harus hadapi ini tanpa bantuan. Rasanya berat banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah kamu sedang menjalani terapi atau konseling untuk membantumu menghadapi kondisi ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku sedang dalam terapi dan ikut program intensif 10 minggu setelah detox supaya tetap fokus. Aku juga punya jaringan dukungan yang cukup baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus, terus jalin komunikasi dengan kelompok dukungan dan terapismu. Kamu sudah berada di jalur yang tepat, teruskan ya."
+      },
+      {
+        "role": "user",
+        "content": "Aku cuma pengen sekali aja bisa merasa tenang dari pikiranku yang kacau ini. Aku butuh bantuan supaya nggak gampang marah atau kecewa sama diri sendiri. Kayaknya susah banget lihat jalan keluar. Apa aku akan selamanya begini? Tapi aku yakin pasti ada jalan supaya bisa hidup normal."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah terlibat dengan profesional yang tepat, dan itu langkah besar. Terus jaga keterlibatanmu dengan mereka, perlahan kamu akan menemukan cara pengelolaan yang pas buatmu."
+      },
+      {
+        "role": "user",
+        "content": "Aku akan terus lanjutkan. Aku niat untuk bertahan dan terus berjuang bahkan hingga bertahun-tahun ke depan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu punya semangat yang luar biasa. Aku yakin banget kamu bisa mencapai kemajuan besar."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih, rasanya senang baca ucapan kayak gitu."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama... Ada hal lain yang ingin kamu ceritakan atau bicarakan?"
+      },
+      {
+        "role": "user",
+        "content": "Sebenernya masih banyak, tapi aku rasa waktunya nggak cukup ya :) Untuk sekarang ini aja dulu. Masalah ini memang besar, tapi kalau aku bisa atasi, aku yakin bisa memberi banyak hal positif untuk orang lain. Terima kasih sudah mau dengerin."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama... Semoga harimu tetap berjalan dengan baik..."
+      },
+      {
+        "role": "user",
+        "content": "Kamu juga ya. Sampai jumpa."
+      },
+      {
+        "role": "assistant",
+        "content": "Sampai jumpa"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:13:29.108765Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

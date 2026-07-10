@@ -1,0 +1,151 @@
+{
+  "dialog_id": "esconv_train_301",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states they feel 'sendirian' (alone) and 'kesepian' (lonely) after a breakup, reflecting a state of sadness.",
+    "emotion_trajectory": "The user shifts from a state of loneliness and sadness to feeling supported and appreciative, ending the conversation with expressions of gratitude."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern of brief validation followed by immediate suggestions. Although the chatbot is polite and supportive, it provides 'premature advice' (suggesting walking outdoors) very early in the conversation before exploring why the user feels lonely or the dynamics of the relationship. The reflections are surface-level summaries and the exploration is limited to factual questions (when it happened, who they live with) rather than delves into the emotional root causes of the feeling of loneliness.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing a breakup and feelings of loneliness ('merasa sendirian', 'kesepian dan bosan'), but there are no signals of hopelessness or self-harm. The bot correctly adopts a 'mild' support level by using active listening, exploratory questions ('Apa yang kamu rasakan setelah itu?', 'Boleh tahu kamu tinggal bareng siapa?'), and provides contextual normalization ('Wajar kalau kamu merasa ragu-ragu berbagi'). The conversation remains in the realm of emotional support and coping strategies rather than crisis stabilization."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Dealing with loneliness after a breakup",
+    "reasoning": "The user expresses feelings of loneliness ('Aku merasa kesepian dan bosan') and social isolation ('Aku tinggal sendiri', 'Teman-teman di sekolah juga nggak terlalu nyaman'), but the user is not showing signs of clinical crisis or high risk. The topic relates to interpersonal relationship conflict and subsequent emotional distress."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow, referring back to the user's current situation and responding naturally to their constraints (e.g., the rain)."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and validating, using phrases like 'Pasti berat buat kamu' and acknowledging the user's fear of burdening others."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core issue (breakup and loneliness) and accurately captures the user's social environment (living alone in a boarding house)."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides realistic and safe suggestions—like light walking and talking to family—without pushing the user too hard."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: loneliness and boredom. Final emotion: feeling supported and better. The user explicitly states they feel better due to the chatbot's support."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids any harmful content and maintains a safe, supportive tone throughout the interaction."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and warm, using a tone that is appropriate for an Indonesian adolescent (e.g., using 'aku' and 'kamu' in a friendly manner)."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot asks targeted follow-up questions about support systems and habits to encourage the user to open up without sounding like an interview."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental, accepting the user's feelings of loneliness and their choice to avoid burdening others as a natural response."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_301",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, Ada yang bisa aku bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baru putus sama pacarku karena kami udah ngerasa nggak nyambung. Sekarang aku merasa sendirian."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengarnya. Pasti berat buat kamu, ya. Kapan kejadian ini terjadi? Boleh cerita lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Udah sekitar sebulan yang lalu."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa yang kamu rasakan setelah itu? Apa kamu punya cara tertentu untuk mengalihkan perasaanmu? Aku di sini siap mendengarkan."
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa kesepian dan bosan. Kayaknya gak ada hal yang bisa aku lakukan sendiri. Aku cuma main game untuk ngilangin rasa itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang mendengar kamu masih mencari hal yang bisa menghibur dirimu, seperti main game. Itu salah satu cara yang bisa membantu, selama tetap seimbang. Sudah coba jalan-jalan santai di luar rumah? Kadang perubahan suasana bisa bikin pikiran lebih tenang."
+      },
+      {
+        "role": "user",
+        "content": "Iya, jalan-jalan kedengeran bagus. Sayangnya hari ini dingin banget karena hujan, tapi besok kayaknya cerah."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau besok cuacanya mendukung, coba deh keluar sebentar saja, sekadar keliling di lingkungan sekitar. Bisa bantu atur ulang pikiran. Boleh tahu kamu tinggal bareng siapa? Atau punya rutinitas ngobrol sama teman atau keluarga?"
+      },
+      {
+        "role": "user",
+        "content": "Aku tinggal sendiri. Kos di dekat sekolah. Teman-teman di sekolah juga nggak terlalu nyaman untuk diajak ngobrol. Kadang aku ngobrol sama teman lewat chat. Tapi akhir pekan ini aku bakal pulang dan ketemu keluargaku di rumah."
+      },
+      {
+        "role": "assistant",
+        "content": "Berarti sebenarnya kamu punya jaringan dukungan walaupun tidak besar, dan kamu memilih tetap berhubungan dengan orang-orang yang kamu percaya. Tapi, apa kamu pernah cerita tentang putus itu ke mereka?"
+      },
+      {
+        "role": "user",
+        "content": "Sedikit sih, tapi aku nggak mau ngerepotin mereka dengan masalahku."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kalau kamu merasa ragu-ragu berbagi karena takut membebani. Tapi terkadang membagikan sebagian perasaan, terutama saat ketemu keluarga, bisa bikin kamu merasa sedikit lebih lega. Nggak perlu cerita detail, cukup bilang kamu sedang merasa sepi pun nggak apa-apa."
+      },
+      {
+        "role": "user",
+        "content": "Makasih udah dengerin dan ngasih saran. Cara kamu kasih dukungan bikin aku ngerasa lebih baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku senang kalau saran tadi bisa membantumu. Aku harap kamu terus merasa didukung."
+      },
+      {
+        "role": "user",
+        "content": "Baik banget kamu ngomong gitu."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku doakan yang terbaik buat kamu, ya."
+      },
+      {
+        "role": "user",
+        "content": "Makasih."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:34:25.629968Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

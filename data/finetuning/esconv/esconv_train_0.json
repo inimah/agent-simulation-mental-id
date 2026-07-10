@@ -1,0 +1,203 @@
+{
+  "dialog_id": "esconv_train_0",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses strong irritation and feelings of injustice ('nyebelin banget', 'rasanya pengen kabur aja') due to being wrongly accused by their sibling.",
+    "emotion_trajectory": "The user shifts from high-arousal frustration and helplessness to a state of gratitude and resolve after receiving a practical coping strategy."
+  },
+  "response_style": {
+    "label": "advanced_therapeutic",
+    "reasoning": "The chatbot demonstrates a high level of personalization and evidence-based strategies. It avoids premature advice in the early stages, instead moving from validation ('Pasti nyesek banget') to exploration of root causes (asking about age/family dynamics to understand why the parents trust the sibling more). Most importantly, it identifies the user's long-term desire to leave and introduces the specific, psychologically-grounded technique 'Grey Rock' (teknik 'batu abu-abu') as a tailored cognitive strategy to handle a toxic family dynamic, rather than providing generic advice like 'try to talk to them'. This transforms a symptom (wanting to escape) into a manageable psychological mechanism, which is an overall pattern of insight-oriented guidance.",
+    "premature_advice": false,
+    "exploration_depth": 5
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses frustration, feelings of unfairness, and a fleeting desire to 'kabur' (run away) which in this context is a commonadolescent expression of distress rather than a clinical crisis signal. The BOT provides active listening, reflections ('Pasti kamu ngrasa gak adil ya?'), and clarification questions to understand the family dynamics ('kenapa orang tuamu lebih percaya adikmu?'). The BOT also suggests practical coping mechanisms (the 'grey rock' method) and guides the user toward a future-oriented mindset. No high-risk signals like self-harm or hopelessness were detected."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Konflik saudara dan ketidakadilan dalam pengasuhan orang tua",
+    "reasoning": "User expresses frustration over being wrongly punished due to a sibling's lie and feels a lack of parental trust ('Adikku yang merusak TV, tapi dia nyalahin aku dan orang tuaku malah percaya sama dia'). The situation involves interpersonal conflict and feelings of injustice, which falls under Level 2 (mild) as it involves emotion regulation and family dynamics without presenting immediate clinical risk or safety concerns."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and remembers the context of the family conflict and the user's desire to move out."
+    },
+    "empathy": {
+      "score": 5,
+      "reasoning": "The chatbot uses strong validating phrases like 'nyesek banget rasanya' and 'Pasti kamu ngrasa gak adil ya?', making the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue: an unfair punishment based on a sibling's lie and the feeling of being the less-favored child."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides concrete, adaptive strategies (breathing, sleeping, and the 'grey rock' method) that are appropriate for the user's current emotional state."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Frustrated and feeling misunderstood. Final emotion: Determined and calm. The user moves from wanting to 'run away' to having a plan to cope for a year."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot actively steers the user away from the impulse to 'kabur' (run away/escape) and provides safe coping mechanisms."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding clinical tones while remaining supportive."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses a mix of validation and probing questions ('Kenapa orang tuamu lebih percaya adikmu?') that encourage the user to open up."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot does not judge the user's frustration or their plan to distance themselves from family, but instead helps them manage it safely."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_0",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Hai! Bagaimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi dihukum, jadi aku nggak senang."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, aku turut prihatin. Pasti rasanya nggak enak. Boleh aku tahu apa yang terjadi?"
+      },
+      {
+        "role": "user",
+        "content": "Adikku yang merusak TV, tapi dia nyalahin aku dan orang tuaku malah percaya sama dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, kamu pasti merasa kesal banget."
+      },
+      {
+        "role": "user",
+        "content": "Iya, nyebelin banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah coba ngomong baik-baik sama adikmu kenapa dia bohong?"
+      },
+      {
+        "role": "user",
+        "content": "Belum, malah tadi kami cuma teriak-teriakan, sekarang masing-masing di kamar."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku ngerti. Pasti nyesek banget rasanya kalau kamu tahu kamu benar tapi nggak ada yang percaya."
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya pengen kabur aja dari semuanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang nggak enak situasinya, apalagi kalau disalahkan padahal bukan kamu yang berbuat. Tapi, coba ambil napas dulu dan tenangkan diri. Kabur bukan solusinya."
+      },
+      {
+        "role": "user",
+        "content": "Sekarang juga udah malam."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu suasana mungkin sedang tenang. Ini waktu yang pas untuk tarik napas dan coba tidur dulu. Besok kamu bisa coba lagi bicara baik-baik sama orang tuamu dan adikmu."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin itu ide bagus. Aku pengen adikku yang dihukum, bukan aku. Dan orang tuaku percaya sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku paham. Jadi, tantangannya sekarang gimana caranya supaya apa yang kamu inginkan bisa tercapai."
+      },
+      {
+        "role": "user",
+        "content": "Tapi ya orang tuaku nggak percaya, jadi rasanya nggak bisa ngapa-ngapain."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh aku tanya, kenapa orang tuamu lebih percaya adikmu? Ada perbedaan usia atau sikap mereka ke kalian?"
+      },
+      {
+        "role": "user",
+        "content": "Dia lebih kecil dan kesayangan orang tua."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti bagaimana perasaanmu. Pasti kamu ngrasa gak adil ya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku pengen cepat-cepat umur 18 biar bisa kos mandiri."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sudah punya rencana untuk keluar dari situasi ini ya. Kalau boleh tahu, berapa lama lagi menuju umur 18?"
+      },
+      {
+        "role": "user",
+        "content": "1 tahun lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, semangat ya. Meskipun terasa lama, satu tahun itu bisa kamu lewati."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku udah nggak sabar."
+      },
+      {
+        "role": "assistant",
+        "content": "Nah, pertanyaannya sekarang: gimana kamu nyiasatin keadaan dalam waktu dekat ini?"
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya aku bakal menjauh aja, diem di kamar dan ngobrol seperlunya aja sampai waktunya tiba. Nggak usah terlibat sama keluarga."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba teknik 'batu abu-abu'. Artinya kamu bersikap sewajarnya, sopan tapi nggak terlalu terlibat dalam percakapan atau konflik. Fokus aja jalani harimu seperti biasa tanpa melibatkan emosi ke mereka."
+      },
+      {
+        "role": "user",
+        "content": "Itu ide yang bagus. Aku bisa tuh jalani kayak gitu selama setahun. Terima kasih atas bantuannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Tetap tenang, kamu bisa melewati ini. Semangat terus ya."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih, semoga harimu menyenangkan juga."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:51:30.893700Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

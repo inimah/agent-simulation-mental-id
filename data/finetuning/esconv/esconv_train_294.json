@@ -1,0 +1,167 @@
+{
+  "dialog_id": "esconv_train_294",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses feelings of being 'sangat down' and finding it difficult to carry out daily activities after a breakup.",
+    "emotion_trajectory": "The user moves from a state of deep sadness and helplessness to a more hopeful state as they plan new activities and express gratitude."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a very linear and predictable pattern: brief validation followed by immediate transition to generic advice. While the chatbot is empathetic, it fails to explore the root causes of the distress or the nuances of the user's feelings. When the user asks for help, the chatbot provides a template-like list of suggestions (talking to friends, hobbies, journaling, exercise) that are not tailored to the user's specific emotional state or psychological patterns. There is no attempt to clarify WHY the user feels 'down' or how the the breakup happened, moving straight to symptom management rather than insight.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing emotional distress due to a breakup ('merasa sangat down', 'nggak sanggup menjalani aktivitas'), but does not exhibit any signs of hopelessness, self-harm, or suicidal ideation. The bot's responses transition from initial empathy (low) to active listening and clarification ('Kalian sudah berapa lama bersama?') and eventually providing practical coping strategies (mild). The conversation remains within the realm of manageable emotional distress rather than a crisis situation."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "coping with a romantic breakup",
+    "reasoning": "User expresses emotional distress due to a breakup ('Aku merasa sangat down... Sampai nggak sanggup menjalani aktivitas sehari-hari'), but is responsive to suggestions and shows willingness to seek support and engage in activities, indicating a sub-clinical interpersonal conflict."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains consistent flow and remembers the duration of the relationship and the user's emotional state throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot expresses sadness and validates the user's feelings with phrases like 'Pasti berat' and 'Wajar kalau kamu merasa sedih,' showing warmth."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core problem as a breakup causing significant emotional distress and incapacity to perform daily activities."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (talking to friends, journaling, light exercise, and exploring new places) are realistic, safe, and tailored to the user's emotional state."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: profound sadness/down. Final emotion: motivated and slightly more positive. The user shifts from being unable to function to planning a trip, showing a clear clear shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The bot avoids any dangerous advice and maintains a supportive, safe environment; no crisis signals were present to trigger professional referral."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural and friendly, perfectly suited for an Indonesian adolescent, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions and positive reinforcement to encourage the user to share their feelings and openness to recovery."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental, accepting the user's sadness and supporting the user's own ideas for recovery without appropriation or bias."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_294",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai"
+      },
+      {
+        "role": "assistant",
+        "content": "Hai, apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baru aja putus sama pacar..."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, aku turut sedih dengarnya. Kamu mau cerita tentang apa yang terjadi?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa sangat down... Sampai nggak sanggup menjalani aktivitas sehari-hari."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya ini benar-benar memengaruhimu ya… Pasti berat. Kalian sudah berapa lama bersama?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, berat banget... Kami sudah pacaran sekitar 6 bulan."
+      },
+      {
+        "role": "assistant",
+        "content": "Hubungan selama itu pasti meninggalkan banyak kenangan. Wajar kalau kamu merasa sedih."
+      },
+      {
+        "role": "user",
+        "content": "Gimana cara menghadapinya menurutmu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba cerita ke teman dekat, atau sibukkan diri dengan hal-hal baru yang bisa bikin pikiranmu teralihkan. Apakah kamu punya teman yang bisa dipercaya untuk diajak ngobrol?"
+      },
+      {
+        "role": "user",
+        "content": "Aku punya beberapa teman dekat sih... Tapi belum kepikiran cerita ke mereka."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba deh, kadang berbagi cerita aja bisa membantu banget untuk meringankan perasaan. Teman-teman biasanya bisa memberikan dukungan yang kita butuhkan."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku mau coba deh..."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku senang kamu mau mencoba. Walaupun kamu merasa sangat down, kamu tetap terbuka untuk cari cara pulih, dan itu hal yang luar biasa."
+      },
+      {
+        "role": "user",
+        "content": "Kamu punya saran lain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba kegiatan baru, atau kembali melakukan hal-hal yang dulu kamu suka. Bisa juga menulis jurnal atau mencoba olahraga ringan, itu banyak membantu sebagian orang."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak punya hobi khusus sih... Tapi aku pengen coba jalan-jalan ke tempat-tempat baru."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu ide yang seru banget! Melihat tempat baru bisa bantu menyegarkan pikiranmu."
+      },
+      {
+        "role": "user",
+        "content": "Aku akan mulai merencanakan perjalanan deh..."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu rencana yang bagus. Aku tahu sekarang rasanya berat, tapi aku yakin perlahan kamu akan mulai merasa lebih baik."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya atas sarannya..."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama, semoga harimu juga menyenangkan ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:31:44.424626Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

@@ -1,0 +1,151 @@
+{
+  "dialog_id": "esconv_test_26",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "User expressed high academic pressure and feeling anxious due to continuous exams ('bikin aku cemas').",
+    "emotion_trajectory": "The user shifted from a state of anxiety and stress to feeling more reassured and eventually grateful for the advice provided."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow. It provides premature advice early on ('strategi yang tepat' in the first response) and offers generic, template-like solutions (e.g., making a daily schedule, sleeping 7-8 hours) without exploring the root cause of the user's academic pressure. The validation is surface-level ('Wajar banget kok'), and the chatbot quickly pivots to technical tips and generic suggestions rather than digging deeper into the emotional or psychological mechanisms of the user's anxiety. The conversation lacks psychoeducation or systemic insight, remaining at the surface level of symptom management.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses academic pressure and anxiety (e.g., 'tekanan akademik yang berat banget', 'bikin aku cemas'), which requires more than simple acknowledgment. The bot uses active listening, normalizing ('Wajar banget kok merasa cemas'), and exploratory questions to build a shared understanding of the user's stress. While the user asks for practical advice on time management and coping with disappointment, the conversation remains within the range of manageable stress and lacks any indicators of self-harm or hopelessness, thus it does not reach the 'high' support level."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic stress, study scheduling, and managing exam expectations",
+    "reasoning": "The user expresses 'tekanan akademik yang berat banget' and 'tugas sekolah banyak', but the focus remains on normative school stress, time management, and healthy habits without clinical symptoms or crisis indicators."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical and consistent flow, following the user's specific requests for scheduling, health, and emotional management."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The bot recognizes emotion and validates it (e.g., 'wajar banget'), but the tone is somewhat mechanical and focuses more on solutions than deep emotional support."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core problem—academic pressure and anxiety—and addresses each of the user's concerns systematically."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided (scheduling, sleep, talking to counselors) are realistic, safe, and helpful for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Anxious and stressed. Final emotion: Slightly better and relieved. The user explicitly states they feel better, showing a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot encourages professional support through guidance counselors (BK) and provides safe, healthy habits without any risky advice."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm and appropriate for an Indonesian adolescent, using a friendly but respectful tone."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions and check-ins ('Gimana menurutmu?') to keep the user engaged throughout the conversation."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely supportive and tells the user not to blame themselves, maintaining a neutral and accepting stance."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo, aku lagi ngerasa tekanan akademik yang berat banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Halo. Tekanan akademik bisa memang terasa berat, apalagi kalau lagi padat-padatnya. Tapi dengan strategi yang tepat, kamu pasti bisa melewati ini. Boleh cerita lebih rinci, bagian mana yang paling berat buatmu?"
+      },
+      {
+        "role": "user",
+        "content": "Tugas sekolah banyak banget, belum lagi ujian yang terus-menerus datang bikin aku cemas."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar banget kok merasa cemas saat menghadapi ujian penting. Yang penting, coba untuk mempersiapkan diri sebaik mungkin. Kalau kamu merasa siap, biasanya rasa cemas itu berkurang."
+      },
+      {
+        "role": "user",
+        "content": "Tapi, ada saran nggak buat mengurangi stresnya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu udah pernah bicara dengan guru BK atau wali kelas tentang kecemasanmu?"
+      },
+      {
+        "role": "user",
+        "content": "Sudah sih, tapi tidak mengubah bahwa aku harus tetap menghadapi ujian. Ada saran nggak supaya aku tetap bisa atur jadwal belajar tapi masih punya waktu buat hal lain juga?"
+      },
+      {
+        "role": "assistant",
+        "content": "Itu bagus. Bicara dengan orang yang paham bisa bikin kamu merasa lebih ringan dan bisa kasih arahan juga. Untuk saran pengaturan jadwal, kamu bisa coba buat jadwal harian. Misalnya, alokasikan 2 jam untuk belajar atau mengerjakan tugas, lalu sisihkan juga waktu khusus untuk istirahat dan hiburan. Gimana menurutmu, cocok dengan rutinitasmu?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, terus gimana biar aku juga bisa tetap hidup sehat, kayak tidur cukup dan makan teratur?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu tinggal bareng keluarga, kamu bisa minta dukungan mereka soal pola makan sehat. Untuk tidur, coba atur waktu tidur sekitar 7-8 jam per malam dan biasakan tidur serta bangun di jam yang konsisten setiap hari."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku paham. Terus, kalau aku udah belajar keras tapi hasil ujian jelek, gimana cara biar nggak terlalu kecewa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba ngobrol dengan guru mata pelajaran itu atau guru BK. Mungkin mereka bisa bantu cari cara belajar yang lebih cocok dan strategi yang bisa kamu pakai ke depannya."
+      },
+      {
+        "role": "user",
+        "content": "Tapi, apakah wajar sih kalau kecewa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu saja itu wajar. Semua orang bisa merasa kecewa kalau hasilnya nggak sesuai harapan. Tapi jangan menyalahkan diri sendiri ya. Nggak ada yang selalu sempurna."
+      },
+      {
+        "role": "user",
+        "content": "Oke, itu bikin aku merasa sedikit lebih baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa membantu! Ada lagi yang ingin kamu bicarakan?"
+      },
+      {
+        "role": "user",
+        "content": "Itu aja sih. Makasih banyak atas bantuannya!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Semangat terus ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:36:24.295746Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

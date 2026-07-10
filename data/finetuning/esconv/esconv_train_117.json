@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_train_117",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling pressured ('tertekan') and explicitly states they are afraid of being seen as a failure ('takut dianggap gagal'), indicating high anxiety.",
+    "emotion_trajectory": "The user moves from a state of anxiety and fear of failure to a sense of hope and relative calmness after finding a practical way to communicate with their parents."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern. While it provides basic validation ('Perasaan itu sangat bisa dimengerti'), it moves to solution-giving very quickly (suggesting a 'serious talk' and giving a specific script) before exploring the root cause of the user's fear of failure or the specific dynamics of the user's relationship with their parents. The reflection is surface-level, and the advice provided is a generic template for communication. The interaction lacks deep exploration of emotions or any psychoeducation, fitting the profile of a basic supportive listener.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is expressing stress and anxiety due to parental expectations ('tertekan', 'cemas', 'takut dianggap gagal'), which requires more than simple acknowledgement. The bot effectively employs active listening, reflective listening ('Terdengar seperti ekspektasi itu benar-benar bikin kamu merasa tertekan'), and exploratory questions ('Bisa cerita lebih lanjut...'). The conversation moves into a solution-oriented phase where the bot encourages communication and validates the user's idea to write a letter, which fits the 'mild' level of support (Active Listening & Clarification/Building shared understanding)."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic pressure and parental expectations",
+    "reasoning": "The user expresses feeling pressured by parental expectations for perfect grades ('Orang tuaku berharap aku selalu dapat nilai sempurna', 'Itu bikin aku tertekan'), which is a normative adolescent development topic with clear response paths."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect logical flow, remembering the context of parental pressure and the user's desire to avoid disappointing them."
+    },
+    "empathy": {
+      "score": 5,
+      "reasoning": "The chatbot provides strong validation throughout, acknowledging both the user's stress and their appreciation for their parents' hard work."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core conflict: the tension between striving for parental expectations and the resulting anxiety/fear of failure."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests talking directly, then adapts and validates the user's alternative strategy (writing a letter), which is a realistic and safe approach."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: feeling pressured and anxious. Final emotion: feeling calmer and empowered with a plan. There is a significant positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot handles the situation safely and encourages healthy communication without suggesting any risky behavior."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is warm, natural and suitable for an Indonesian adolescent, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their feelings and helps them develop their own solution through a gentle, supportive nudge."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, accepting the user's fear and their slightly unusual approach to their sibling without critique."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_117",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo!"
+      },
+      {
+        "role": "user",
+        "content": "Hai, boleh nggak aku curhat sesuatu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu boleh. Apa yang sedang mengganggu kamu?"
+      },
+      {
+        "role": "user",
+        "content": "Orang tuaku berharap aku selalu dapat nilai sempurna."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah... Apakah itu berat buat kamu? Bisa cerita lebih lanjut apa yang bikin kamu merasa kesal tentang itu?"
+      },
+      {
+        "role": "user",
+        "content": "Itu bikin aku tertekan karena jadi seperti tuntutan. Aku bukan orang yang sempurna tapi aku selalu berusaha. Aku takut dianggap gagal karena tidak sempurna."
+      },
+      {
+        "role": "assistant",
+        "content": "Terdengar seperti ekspektasi itu benar-benar bikin kamu merasa tertekan dan cemas. Perasaan itu sangat bisa dimengerti."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih... Aku cuma nggak mau mengecewakan mereka. Mereka kerja keras dan ingin yang terbaik untuk aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Orang tuamu pasti ingin yang terbaik untuk kamu, tapi tekanan itu tetap bisa terasa berat buatmu. Aku yakin kamu sudah berusaha keras. Kamu sudah pernah bicara langsung ke mereka tentang perasaanmu ini?"
+      },
+      {
+        "role": "user",
+        "content": "Belum sih... Tapi aku pernah bilang ke adikku buat jangan terlalu bagus nilainya biar nggak dituntut juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa coba ngobrol serius sama mereka. Misalnya kamu bisa bilang, 'Aku ingin kalian tahu aku sudah berusaha semaksimal mungkin, tapi tekanan ini ternyata bikin aku makin stres.'"
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku bisa coba itu. Tapi aku jadi sangat cemas. Kalau lewat surat gimana, boleh nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Itu memang pembicaraan yang cukup menegangkan ya. Tapi ide menulis surat itu bagus sekali!"
+      },
+      {
+        "role": "user",
+        "content": "Aku memang lebih mudah menyampaikan perasaan lewat tulisan."
+      },
+      {
+        "role": "assistant",
+        "content": "Menulis bisa bantu kamu menyampaikan isi hati dengan lebih jujur dan jelas. Surat itu bisa menjadi cara baik untuk mereka memahami perasaan kamu."
+      },
+      {
+        "role": "user",
+        "content": "Aku harap mereka bisa mengerti. Mungkin nanti aku tulis dan taruh paginya sebelum berangkat sekolah, jadi mereka bisa berpikir dulu sebelum merespons."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu ide yang sangat bagus. Kamu pintar memikirkannya!"
+      },
+      {
+        "role": "user",
+        "content": "Makasih, kamu udah bikin aku lebih tenang sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa membantumu. Semoga semuanya berjalan lancar ya!"
+      },
+      {
+        "role": "user",
+        "content": "Semoga, dadah."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:02:09.034987Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

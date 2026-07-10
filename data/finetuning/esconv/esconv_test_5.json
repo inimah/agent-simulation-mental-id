@@ -1,0 +1,175 @@
+{
+  "dialog_id": "esconv_test_5",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses high stress and anxiety regarding school tasks and exams, stating they feel like they are 'going crazy' (mau gila) and 'anxious' (cemas).",
+    "emotion_trajectory": "The user moves from a state of high anxiety and distress to a feeling of gratitude and calm after receiving suggestions and validation from the chatbot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern: brief validation followed by a question or generic advice. It offers suggestions (warm bath, meditation, app features) very quickly—before the user's stress is explored in depth. The reflection is surface-level (echoing keywords like 'tugas dan ujian'), and the transition from acknowledging the user's stress to suggesting technical tips happens prematurely. There is no investigation into the root causes of the user's anxiety or any psychoeducation to help the user understand their stress patterns. The conversation ends with a generic positive reinforcement ('Tetap semangat ya!'), which is characteristic of the response style described in the basic_counseling taxonomy.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses significant stress ('Rasanya kayak mau gila', 'stres banget', 'cemas') regarding school assignments and exams, but there are no indicators of self-harm or hopelessness. The conversation follows a 'mild' pattern because the bot uses active listening, asks exploratory questions ('Kapan kamu mulai merasa seperti ini?', 'apa yang sedang terjadi'), and provides concrete, low-risk suggestions for relaxation (warm baths, music, meditation), while reflecting the user's emotional state ('Berarti sekarang kamu banyak memendam perasaan sendiri, ya?'). The interaction reaches a positive resolution without needing crisis stabilization."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic stress and difficulty sleeping due to school assignments",
+    "reasoning": "The user expresses stress regarding 'tugas dan ujian sekolah' and 'susah ngatur waktu', which are normative adolescent developmental pressures. There is no clinical pathology, risk of harm, or acute crisis."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and remembers context (e.g., sleep issues and school stress), ensuring a smooth transition between turns."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot acknowledges the user's stress and validates their feelings; the closing praise ('Kamu kelihatan kuat') is warm and supportive."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The bot correctly identifies the core issue as school-related anxiety affecting sleep and time management."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions—warm baths and in-app relaxation tools—are concrete, safe, and appropriate for a student dealing with stress."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Overwhelmed and anxious ('mau gila'). Final emotion: Calm and appreciated ('bantu banget'). Significant positive shift as the user feels supported."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The bot provides safe, non-risky suggestions and avoids any harmful content; it also checks on the user's support system (friends/family)."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is a natural mix of formal and semi-formal that fits the Indonesian adolescent context without being too clinical."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot uses open-ended questions and encourages the user to open up about their support system and habits."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot remains entirely neutral and supportive, offering validation without judging the user's stress or their tendency to bottle up emotions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_5",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai. Aku udah nggak tahu harus gimana lagi. Rasanya kayak mau gila."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu terdengar sangat berat. Apa yang sedang terjadi sampai kamu merasa seperti itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku stres banget mikirin tugas dan ujian sekolah. Kepala jadi nggak bisa tenang pas mau tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Pikiran soal tugas dan ujian memang bisa bikin stres, ya. Kapan kamu mulai merasa seperti ini?"
+      },
+      {
+        "role": "user",
+        "content": "Udah sekitar sebulan ini. Dan rasanya makin banyak aja tugas sekolah yang harus dikerjain. Aku jadi susah ngatur waktu dan cemas."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti. Biasanya kamu punya rutinitas tertentu sebelum tidur untuk bantu menenangkan pikiran?"
+      },
+      {
+        "role": "user",
+        "content": "Biasanya aku nonton TV sebentar, terus langsung ke kasur."
+      },
+      {
+        "role": "assistant",
+        "content": "Sekarang lagi kelas berapa sih di sekolah?"
+      },
+      {
+        "role": "user",
+        "content": "Aku masih kelas 11 dan pelajarannya makin susah."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah pernah coba mandi air hangat sebelum tidur? Bisa bantu menenangkan badan dan pikiran. Atau bisa juga coba meditasi ringan atau dengar musik tenang."
+      },
+      {
+        "role": "user",
+        "content": "Mandi air hangat sih terdengar enak. Aku udah pernah coba meditasi juga beberapa kali."
+      },
+      {
+        "role": "assistant",
+        "content": "Di aplikasi ini kamu juga bisa mengakses beberapa teknik relaksasi dan background musik yang menenangkan."
+      },
+      {
+        "role": "user",
+        "content": "Makasih, aku akan coba nanti. Musik emang suka bikin aku lebih tenang."
+      },
+      {
+        "role": "assistant",
+        "content": "Ada juga panduan pernafasan di aplikasi ini, untuk membantu mengurangi kecemasan. Cocok juga buat yang butuh bantuan untuk meringankan pikiran sebelum tidur."
+      },
+      {
+        "role": "user",
+        "content": "Aku akan coba. Kayaknya lebih gampang fokus kalau ada suara yang membimbing meditasinya."
+      },
+      {
+        "role": "assistant",
+        "content": "Selama ini kamu pernah berbagi cerita dengan orang lain? Misalnya teman atau anggota keluarga?"
+      },
+      {
+        "role": "user",
+        "content": "Kadang cerita sama temanku, tapi aku lebih sering pendam sendiri."
+      },
+      {
+        "role": "assistant",
+        "content": "Berarti sekarang kamu banyak memendam perasaan sendiri, ya? Menurutmu, ada nggak waktu luang buat benar-benar istirahat sejenak dari semua kepenatan itu?"
+      },
+      {
+        "role": "user",
+        "content": "Sebenernya sekolah dan tugas tuh yang paling bikin kepikiran. Tapi ngobrol kayak gini bantu banget sih. Saran-saran kamu juga oke banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu kelihatan kuat dan bertanggung jawab dengan semua yang sedang kamu hadapi sekarang. Tetap semangat ya!"
+      },
+      {
+        "role": "user",
+        "content": "Iya, Makasih :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga kamu bisa istirahat lebih baik malam ini. Ingat untuk luangin waktu buat diri sendiri juga ya. Sampai jumpa!"
+      },
+      {
+        "role": "user",
+        "content": "Sampai jumpa. Daaa"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:02:41.488605Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

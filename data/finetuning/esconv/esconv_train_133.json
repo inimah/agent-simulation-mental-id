@@ -1,0 +1,183 @@
+{
+  "dialog_id": "esconv_train_133",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku cemas banget' (I'm very anxious) and expresses feeling unable to handle school pressure ('aku nggak sanggup ngadepinnya').",
+    "emotion_trajectory": "The user moves from a state of high anxiety and helplessness to a more optimistic and hopeful state after deciding to seek help from a counselor and their sister."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's response pattern is linear and predictable. It provides premature suggestions almost immediately after the user expresses distress ('coba luangkan waktu sejenak untuk istirahat' and 'ngobrol dengan guru BK' are suggested before any deep exploration of the user's feelings). The validation is surface-level, and it fails to explore why the user feels the pressure is unbearable or the specific root causes of the academic stress. The conversation moves quickly to technical/logistics solutions (referral to BK, asking about letters of keterangan), rather than psychological exploration or insight. The closing is generic ('Jangan lupa jaga dirimu') and lacks a depth of personalization.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": true,
+    "reasoning": "The user expresses school-related stress, anxiety, and feeling unable to handle the workload ('nggak sanggup ngadepinnya'), but there are no indicators of self-harm, hopelessness, or suicidal ideation. The bot correctly identifies this as a 'mild' level of distress requiring active listening and clarification. The bot uses reflections ('Jadi kamu merasa terjebak...') and provides a concrete, professional referral (suggesting the school counselor/guru BK) which the user accepts as a plan of action. The conversation ends with the user feeling more supported and the user having a plan to seek help, moving from initial distress to a state of stabilization."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "Stress and anxiety due to academic pressure",
+    "reasoning": "User expresses feeling overwhelmed ('tekanan pelajarannya berat banget', 'nggak sanggup ngadepinnya') and explicitly states 'Aku cemas banget', which falls under mild emotional distress and anxiety."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow throughout the conversation, accurately referencing the user's feeling of being trapped and the concerns about the school counselor."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm and validating responses, especially when acknowledging that mental health is as important as physical health."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core problem as academic stress and anxiety, and it accurately captures the user's specific concerns regarding the grading system."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests practical and safe interventions such as talking to a school counselor (BK) and writing a list of points to discuss, which are appropriate for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: overwhelming anxiety and feeling trapped. Final emotion: feeling determined to take action and grateful. The shift is positive and constructive."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot encourages professional help (BK teacher) and does not provide any dangerous medical advice or harmful suggestions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and appropriate for an Indonesian adolescent, using a friendly tone that avoids being overly clinical or patronizing."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions to encourage the user to share more about their support system (family/sister) and provides helpful suggestions."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's stress without judgment, normalizing the psychological impact of academic pressure without labeling the user."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_133",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo! Apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sekarang lagi sekolah, dan semester ini rasanya tekanan pelajarannya berat banget... aku nggak sanggup ngadepinnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengarnya. Apa kamu punya seseorang yang bisa kamu ajak bicara? Atau mungkin coba luangkan waktu sejenak untuk istirahat walau sebentar?"
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak bisa ambil waktu istirahat sekarang, soalnya ini lagi pertengahan semester. Dan ngedrop pelajaran juga bukan pilihan."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa terjebak dan belum bisa menemukan cara untuk menenangkan diri, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku cemas banget dan nggak tahu harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba kamu pertimbangkan untuk ngobrol dengan guru BK atau konselor sekolah. Biasanya sekolah menyediakan layanan ini secara gratis dan kamu bisa curhat di sana."
+      },
+      {
+        "role": "user",
+        "content": "Kira-kira aku harus minta saran apa ke konselor?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa minta bantuan agar merasa lebih tenang dan mengelola stres. Kadang mereka juga bisa bantu kasih solusi misalnya waktu tambahan untuk menyelesaikan tugas."
+      },
+      {
+        "role": "user",
+        "content": "Kalau aku minta waktu tambahan, nilai aku bakal terganggu nggak ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Asal ada surat keterangan dari sekolah atau guru BK bahwa kamu memang sedang butuh bantuan, biasanya tetap bisa dipertimbangkan tanpa harus menurunkan nilai."
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku nggak sakit secara fisik, apa guru BK bisa kasih surat juga kalau kondisinya begini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kesehatan bukan cuma soal fisik. Kecemasan dan stres juga termasuk hal yang penting untuk diperhatikan. Guru BK biasanya memahami ini dan bisa bantu kok."
+      },
+      {
+        "role": "user",
+        "content": "Ya juga ya... aku bakal coba janjian sama guru BK minggu depan deh."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kamu punya teman atau anggota keluarga yang bisa kamu ajak cerita juga?"
+      },
+      {
+        "role": "user",
+        "content": "Aku punya kakak perempuan, mungkin bisa ngobrol sama dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa dia cukup memahami perasaanmu?"
+      },
+      {
+        "role": "user",
+        "content": "Kurasa sih iya..."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu awal yang bagus. Kamu juga bisa bikin daftar hal-hal yang ingin kamu bicarakan dengan guru BK, supaya lebih jelas dan nggak lupa."
+      },
+      {
+        "role": "user",
+        "content": "Ide bagus tuh... makasih ya..."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba untuk nggak terlalu khawatir ya. Semoga semuanya berjalan lancar buat kamu."
+      },
+      {
+        "role": "user",
+        "content": "Semoga aja... makasih atas saran-sarannya ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga yang terbaik buatmu dan semangat terus!"
+      },
+      {
+        "role": "user",
+        "content": "Semoga harimu menyenangkan juga..."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga :) Jangan lupa jaga dirimu dan tetap semangat ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:27:45.842545Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

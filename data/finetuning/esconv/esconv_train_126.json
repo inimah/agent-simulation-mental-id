@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_train_126",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'bikin aku cemas' (makes me anxious) and describes feeling 'kewalahan' (overwhelmed) by 9 subjects and work commitments.",
+    "emotion_trajectory": "The user shifts from a state of anxiety and feeling overwhelmed to a state of hope and optimism by focusing on their future job offer and end goal."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot operates in a reactive and linear fashion, providing solutions almost immediately after the user first expresses stress. It offers generic advice (tutor, asking teachers for extensions, reducing work hours) without exploring why the user feels overwhelmed or the emotional root of the anxiety. While it validates the user's feelings briefly ('Wah, itu cukup berat ya'), it moves quickly to technical problem-solving and logistics. The conversation shifts into a data-gathering exercise (number of subjects, job details, graduation requirements) rather than a therapeutic exploration of the user's mental state. The lack of root-cause exploration and the premature jump to suggestions characterize this as basic_counseling.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses anxiety and feeling overwhelmed due to a heavy academic load (9 subjects), financial pressure (living alone and paying rent), and part-time work. However, the bot's approach is consistent with 'mild' support: it uses exploratory questions to understand the situation (e.g., 'Bisa nggak kamu atur ulang jumlah pelajaran?', 'Kamu lagi kerja sambilan juga sekarang?'), normalises the user's feelings ('Banyak kok siswa lain yang juga merasa kewalahan'), and helps the user clarify their goals and motivations. There are no signals of self-harm, hopelessness, or acute crisis (the user remains future-oriented and motivated by a job offer), so 'high' level is not required."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic stress and time management due to workload",
+    "reasoning": "User expresses anxiety related to school workload ('bikin aku cemas', 'kewalahan') and balancing studies with part-time work to pay for rent, but identifies it as a time management issue ('Ngatur waktu kayaknya penting banget') and remains motivated by a future career goal."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains excellent continuity, remembering that the user is overwhelmed by 9 subjects and working part-time to pay for rent, integrating these details seamlessly into the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is supportive and encouraging, validating the user's struggle ('Wah, itu cukup berat ya') and providing a positive outlook."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue: the user is stressed due to the combined pressure of school and financial necessity (rent), not just academic difficulty."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests practical, realistic solutions like finding a tutor and adjusting work hours, while respecting the user's financial constraints."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Anxious and overwhelmed. Final emotion: Motivated and hopeful. The user explicitly states they need to remember 'the good things waiting at the end,' showing a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, supportive guidance and does not suggest any risky behavior; the situation does not trigger a need for professional clinical intervention."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian vocational school (SMK) student, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 5,
+      "reasoning": "The chatbot asks targeted, relevant questions that lead the user to discover their own motivations (the job offer), which helps the user move from stress to empowerment."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's situation (working while studying, living alone) without any moral judgment or assumptions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_126",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai, aku nggak bisa mengikuti pelajaran di sekolah dan itu bikin aku cemas."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu terdengar sebagai sesuatu yang penting untuk dibicarakan. Sekarang kamu mengambil berapa mata pelajaran?"
+      },
+      {
+        "role": "user",
+        "content": "Aku ambil 9 mata pelajaran di semester ini dan semuanya bikin aku kewalahan."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu cukup berat ya. Apakah kamu harus ambil semuanya sekarang juga? Bisa nggak kamu atur ulang jumlah pelajaran yang diambil?"
+      },
+      {
+        "role": "user",
+        "content": "Aku harus ambil semuanya sekarang biar semester depan jumlahnya seimbang sesuai target 1 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu memang situasi yang menantang. Bisa nggak kamu minta bantuan dari guru, mungkin soal tenggat waktu? Atau kamu bisa pertimbangkan untuk cari tutor."
+      },
+      {
+        "role": "user",
+        "content": "Guru-guruku sebenarnya sudah berusaha membantu, mereka sangat mendukung. Masalahnya aku sendiri kesulitan mengatur semuanya. Rasanya aku nggak pernah bisa mengejar ketinggalan. Kayaknya ide tentang tutor bagus juga, nanti aku coba cari."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus! Tutor bisa bantu kamu kasih arahan supaya lebih mudah ngejar pelajaran. Banyak kok siswa lain yang juga merasa kewalahan, jadi kamu nggak sendiri. Kamu lagi kerja sambilan juga sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Iya aku juga kerja sekarang. Kerjanya paruh waktu sih, tapi tetap aja rasanya berat. Ngatur waktu kayaknya penting banget buat ngurangin rasa cemasku."
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, nggak masalah. Bisa nggak kamu kurangi jam kerja sedikit? Kamu butuh uangnya atau bisa ambil istirahat sebentar dulu supaya bisa fokus belajar?"
+      },
+      {
+        "role": "user",
+        "content": "Aku memang butuh uangnya. Soalnya aku udah tinggal sendiri dan harus bayar sewa kos, sementara orang tua nggak bisa bantu. Mungkin bisa kurangi sedikit jam kerja, tapi nanti harus mengorbankan hal-hal menyenangkan yang biasa aku lakukan."
+      },
+      {
+        "role": "assistant",
+        "content": "Benar juga. Tapi nanti setelah semester ini selesai dan semuanya lebih stabil, kamu bisa kerja lebih banyak lagi. Kamu harus menyelesaikan semuanya sekarang atau boleh menunda salah satu pelajaran ke semester depan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku ingin menyelesaikan semuanya sekarang karena aku udah dapat tawaran kerja setelah lulus. Kalau lulus, aku bisa langsung kerja dan nggak terlalu kesulitan secara finansial."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu motivasi yang bagus! Punya pekerjaan menunggu setelah lulus pasti bisa jadi dorongan besar buat kamu. Apa pekerjaan itu sesuai dengan jurusan yang kamu ambil?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku ambil jurusan teknologi informasi di pendidikan vokasi SMK-ku yang sekarang dan tawaran kerjanya di bidang yang sama. Aku senang banget bisa dapat kesempatan itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu hebat! Apakah ada persyaratan khusus yang harus kamu penuhi untuk mulai kerja di sana?"
+      },
+      {
+        "role": "user",
+        "content": "Aku harus minimal punya ijazah pendidikan vokasi atau SMK untuk bisa mulai kerja di sana."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu perlu dapat nilai tinggi untuk lulus, atau cukup lulus saja?"
+      },
+      {
+        "role": "user",
+        "content": "Syukurnya sih cukup lulus aja. Kalau harus dapat nilai tinggi, aku bisa makin stres."
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, yang penting sekarang fokus dulu untuk bisa lulus. Coba kurangi sedikit jam kerja kalau bisa. Ingat tujuan akhirmu: pekerjaan yang lebih baik setelah kamu lulus."
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya semuanya masih jauh banget, tapi aku harus terus ingat kalau ada hal baik yang menunggu di akhir nanti."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus banget! Semangat ya! Aku harap semua rencanamu berjalan lancar."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:15:53.908328Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

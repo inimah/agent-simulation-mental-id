@@ -1,0 +1,163 @@
+{
+  "dialog_id": "esconv_train_276",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "optimism",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses anxiety and uncertainty about their relationship distance and states, 'Aku bingung harus gimana' (I'm confused about how to handle this) and 'Aku takut' (I am afraid).",
+    "emotion_trajectory": "The user shifts from a state of worry and fear of conflict to a more optimistic and proactive mindset, concluding with gratitude and a plan of action."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow. It begins with validation and empathy, avoids giving solutions prematurely during the initial phase, and only provides advice after the user explicitly asks for it and a period of exploration (asking about the duration of the relationship, the dynamics of the distance, and the range of communication). The chatbot helps the user explore the root causes (the gap between video calls vs. physical presence) and normalizes the user's experience by stating that many relationships face similar struggles. The advice given is contextualized to the user's specific distance/scheduling constraints rather than being a generic template.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation focuses on relationship struggles and longing, which constitutes a 'mild' support level. The user expresses confusion and sadness ('Aku bingung harus gimana', 'Aku merasa itu masalah utamanya'), but does not exhibit any crisis signals like hopelessness or suicidal ideation. The bot uses active listening, reflective listening, and exploratory questions (e.g., 'Menurutmu, apakah dia juga merasakan keresahan yang sama?') to help the user clarify their thoughts and the dynamics of the relationship before providing practical suggestions."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Communication decline and distance in a long-term romantic relationship",
+    "reasoning": "The user is experiencing emotional distress due to a strained romantic relationship ( 'Aku merasa hubunganku dengan pacarku makin renggang'), but there is no indication of clinical psychological disorder or immediate safety risks."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, referring back to the user's mentioned 'effort' and specific circumstances like distance and video calls."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of difficulty and understands the struggle of long-distance communication, using a warm and supportive tone."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core problem as the lack of communication caused by distance and school schedules, and understands the user's fear of break-up."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The provided advice—encouraging honest communication and small, thoughtful gestures—is realistic, safe, and appropriate for the user's situation."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: Sadness and confusion; Final emotion: Hopeful and empowered. The user explicitly states they feel 'better' and are thinking more clearly."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, healthy relationship advice and does not encourage any risky behaviors or harmful actions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and fits an Indonesian adolescent context, avoiding overly clinical terms and maintaining a warm, conversational tone."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses relevant follow-up questions to deepen the user's story and guides the user toward finding their own solution."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains entirely neutral and supportive, accepting the user's relationship struggles without any moral judgment or assumption."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_276",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo. Apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa hubunganku dengan pacarku makin renggang. Jadwal sekolah kami yang padat bikin kami jarang komunikasi."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang tidak mudah kedengarannya. Sudah berapa lama kalian menjalani hubungan ini?"
+      },
+      {
+        "role": "user",
+        "content": "Kami sudah pacaran selama 5 tahun, tapi akhir-akhir ini terasa semakin jauh. Cuma kadang-kadang chat, dan itu pun terasa hambar. Seperti gak ada usaha dari kami berdua."
+      },
+      {
+        "role": "assistant",
+        "content": "Lima tahun itu waktu yang cukup lama. Mempertahankan hubungan jangka panjang memang butuh usaha. Kamu menyebut kata kuncinya tadi… 'usaha.' Kalian tinggal di kota yang sama?"
+      },
+      {
+        "role": "user",
+        "content": "Kami tinggal terpisah. Dia tinggal bersama keluarganya yang dekat dengan sekolahnya. Karena kesibukan juga, kami udah jarang banget ketemu. Pernah coba komunikasi lewat video call, tapi rasanya beda, nggak seintim kalau ketemu langsung."
+      },
+      {
+        "role": "assistant",
+        "content": "Kayaknya sekarang hubungan kalian seperti hubungan jarak jauh, ya, dengan kondisi yang ada. Memang nggak gampang menjaga kedekatan tanpa bisa bertemu langsung dan itu butuh banyak usaha."
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa itu masalah utamanya. Aku berusaha buat jalanin ini, dan kurasa dia juga iya, tapi memang sulit. Aku bingung harus gimana. Gimana caranya menghadapi ini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutmu, apakah dia juga merasakan keresahan yang sama? Kalian pernah ngobrol tentang ini secara terbuka?"
+      },
+      {
+        "role": "user",
+        "content": "Kami sempat bahas sedikit, tapi belum pernah ngobrol serius soal ini. Aku takut kalau dibahas terlalu dalam, malah bisa berakhir putus."
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutmu, seberapa besar pengaruh jadwal dan jarak terhadap hubungan kalian ini?"
+      },
+      {
+        "role": "user",
+        "content": "Pengaruhnya besar banget, sih. Kami beda sekolah dan beda kota juga, jadi setiap hari sibuk banget. Kalau udah capek, suka gak sempat video call. Aku merasa video call itu lebih berat rasanya daripada ketemu langsung."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, video call memang terasa beda dan lebih butuh usaha. Dulu waktu hubungan masih lancar, kalian biasanya bertemu seberapa sering?"
+      },
+      {
+        "role": "user",
+        "content": "Beberapa kali seminggu. Menurutmu aku harus ngapain? Apa sebaiknya aku bahas aja semuanya walaupun takut? Daripada terus-terusan menduga-duga."
+      },
+      {
+        "role": "assistant",
+        "content": "Banyak hubungan sekarang sedang melalui masa sulit karena perbedaan kesibukan dan jarak. Tapi hal seperti ini tidak akan berlangsung selamanya. Aku sarankan kamu tetap ajak dia bicara dan pastikan kalian punya pemahaman yang sama, meskipun itu terasa menakutkan. Kalau dia tahu kamu ingin memperjuangkan hubungan kalian, kemungkinan besar dia pun akan berusaha lebih."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku juga berpikir begitu. Aku mungkin bisa lebih berusaha karena aku nggak sesibuk dia. Mungkin bisa mulai dari hal kecil seperti kirim pesan tiap hari atau sesuatu yang bikin dia merasa diperhatikan. Aku merasa dia mungkin terlalu capek untuk memulai, jadi aku harus mendukung dia sebisa mungkin."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba kirim sesuatu yang bisa bikin dia senang, misalnya makanan favorit atau barang kecil yang dia suka. Hal sederhana seperti itu bisa bikin hatinya hangat."
+      },
+      {
+        "role": "user",
+        "content": "Itu ide bagus. Aku bisa coba kirim makanan kesukaannya atau sesuatu yang lucu. Siapa tahu bisa bikin harinya membaik. Terima kasih banget udah bantuin, aku jadi berpikir lebih jernih dan merasa lebih baik sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Terus cari cara buat tetap terhubung, dan kalian akan bisa melalui masa ini."
+      },
+      {
+        "role": "user",
+        "content": "Makasih atas sarannya, aku coba dulu!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Semoga harimu juga menyenangkan!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:18:22.268353Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

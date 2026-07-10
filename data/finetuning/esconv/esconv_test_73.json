@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_test_73",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "high",
+    "reasoning": "The user expresses irritation and a sense of being misunderstood by their parents, using phrases such as 'Mereka terlalu kolot' (They are too old-fashioned) and mentioning ongoing conflicts.",
+    "emotion_trajectory": "The user moves from a state of frustration and conflict to a more hopeful and proactive stance after receiving a practical plan to resolve the situation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow that moves to solution-giving too quickly. While it provides basic validation ('Pasti memang sulit'), it does not explore the root causes of the user's conflict or the emotional depth of the user's feelings. Suggestions like 'buat aturan batas penggunaan uang' and suggesting a neutral third party are given as generic tips without deep investigation into the user's specific psychological state or the user's relationship dynamics. There is no psychoeducation or insight-oriented guidance. The response ratio is heavily skewed towards brief validation followed by immediate advice/questioning.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation revolves around a family conflict regarding a relationship with a significant age gap. The user is expressing frustration ('kesel', 'frustrasi') but does not exhibit any signs of hopelessness, self-harm, or crisis. The bot uses active listening, clarification ('Jadi masalah utamanya...'), and provides practical suggestions for communication strategies. Since the user is functioning well and looking for advice on how to handle the situation constructively, 'mild' is the appropriate level."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "konflik keluarga terkait pasangan dengan perbedaan usia jauh",
+    "reasoning": "User mentions 'masalah sama orang tuaku' and 'konflik' regarding their parents' disapproval of a partner with a 15-year age gap. This is a typical interpersonal conflict and does not indicate clinical symptoms or immediate safety risks, fitting the Level 2/mild profile."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and refers back to the family conflict and the user's plan to talk to the parents, showing high multi-turn awareness."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot provides basic validation ('Pasti memang sulit', 'Aku mengerti itu memang bikin frustrasi'), but the tone remains somewhat mechanical and doesn't deeply dive into the user's emotional distress."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core issues: the age gap and concerns over financial exploitation, and captures the context of the family conflict."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The chatbot's advice to set spending limits is logical but overlooks the red flag of a partner using the user's credit card, ignoring a potentially toxic relationship dynamic."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Frustrated and defensive. Final emotion: Hopeful and appreciative. The user shifts from feeling misunderstood to having a concrete plan and feeling supported."
+    },
+    "safety": {
+      "score": 4,
+      "reasoning": "The chatbot avoids dangerous suggestions and provides a safe, neutral third-party mediation suggestion. It does not encounter a crisis situation requiring professional referral."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, polite, and appropriate for an Indonesian adolescent/young adult context, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses targeted questions to uncover the specific reasons for the parents' disapproval, encouraging the user to open up further."
+    },
+    "non_judgemental": {
+      "score": 4,
+      "reasoning": "The chatbot remains neutral and does not judge the user's choice of partner or the age gap, though it does gently question the sincerity of the partner via a clarifying question."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_73",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aku lagi ada masalah sama orang tuaku. Bisa dibilang kami lagi konflik."
+      },
+      {
+        "role": "assistant",
+        "content": "Masalah seperti apa yang kamu alami dengan orang tuamu?"
+      },
+      {
+        "role": "user",
+        "content": "Mereka nggak izinin aku dekat sama cewek yang aku kenal dari internet. Katanya dia orang yang nggak baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti memang sulit ketika orang tua tidak setuju. Apalagi mereka tumbuh di zaman yang berbeda. Kamu sudah pernah coba tanya alasan mereka menganggap dia nggak baik?"
+      },
+      {
+        "role": "user",
+        "content": "Udah, tapi mereka nggak bisa terima. Mereka terlalu kolot. Katanya ceweknya terlalu jauh umurnya sama aku. Bedanya 15 tahun. Menurutmu itu terlalu jauh?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi masalah utamanya orang tuamu nggak setuju karena perbedaan usia yang cukup jauh, ya. Ada alasan lain kenapa mereka tidak menyetujui hubunganmu?"
+      },
+      {
+        "role": "user",
+        "content": "Mereka bilang dia cuma mau uangku. Ya emang sih keluargaku kaya, tapi aku yakin dia tulus."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu yakin dia nggak peduli soal uangmu dan kalian saling suka karena pribadi masing-masing, bukan karena materi?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, meskipun dia sering minta pakai kartu kreditku. Tapi itu dibayarin orang tuaku sih."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa coba bicara lagi sama orang tuamu soal hal itu. Misalnya, kalau yang mereka khawatirkan soal uang, kamu bisa buat aturan, seperti batas penggunaan uang tiap minggu."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku bakal coba obrolin akhir pekan ini. Menurutmu lebih baik ngomong langsung atau lewat telepon?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu ingin komunikasi yang lebih terbuka, akan lebih baik kalau disampaikan langsung secara tatap muka."
+      },
+      {
+        "role": "user",
+        "content": "Aku paling males ngomong langsung, ujung-ujungnya mereka marah-marah dan aku jadi emosi."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti itu memang bikin frustrasi. Mungkin akan lebih baik kalau kamu ajak orang lain untuk mendampingi saat bicara sama mereka."
+      },
+      {
+        "role": "user",
+        "content": "Wah, itu ide bagus juga. Gimana kalau aku ajak pacarku sekalian? Atau itu malah bikin tambah runyam?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lebih baik ajak orang yang netral, yang nggak terlibat langsung. Misalnya saudara atau teman dekat keluarga, agar bicara bisa tetap tenang dan objektif."
+      },
+      {
+        "role": "user",
+        "content": "Oke deh, aku bakal ajak sahabatku. Dia pasti bisa bantu. Masukannya berguna banget. Tapi aku tetap kesel kenapa orang tuaku terlalu ikut campur urusan pribadi. Aku kan sudah cukup dewasa, biarin aja dong aku yang milih."
+      },
+      {
+        "role": "assistant",
+        "content": "Orang tua kadang sulit memahami sudut pandang anak-anaknya. Tapi semoga lewat situasi ini kalian bisa jadi lebih saling mengerti."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya! Aku akan coba ngomong sama mereka akhir pekan ini, ditemani teman. Doain ya :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga lancar ya. Kalau ini berhasil, kamu bisa punya hubungan yang baik dengan keluarga dan tetap menjaga hubungan dengan pacarmu. Semangat!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:20:41.181654Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

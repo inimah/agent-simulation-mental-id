@@ -1,0 +1,167 @@
+{
+  "dialog_id": "esconv_test_34",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states they are in a 'situasi yang bikin stres dan sedih banget' (situation that makes me very stressed and sad) and mentions the pain of a breakup.",
+    "emotion_trajectory": "The user shifts from a state of deep sadness and helplessness to a state of openness and hope as they seek advice and express a desire to improve their situation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a very linear and predictable path. While it asks for more information, it moves to generic solutions (exercise, journaling, talking to friends) very quickly once the user mentions feeling stressed. It fails to explore the root cause of the user's sadness or provide a personal reflection of the user's emotional state. The transitions are surface-level and the advice provided is a template-style list of tips rather than a tailored guidance based on the user's specific struggle with longing for an ex-partner.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses sadness, stress, and loneliness following a breakup ('Aku baru saja putus dengan pacarku', 'Aku cuma merasa sangat sendiri'). While the user mentions 'depresinya' (depression), it is used in a colloquial sense to describe emotional distress rather than a clinical crisis or suicidal ideation. The dialogue stays within the 'mild' spectrum as the bot uses active listening and exploratory questions to understand the situation and provides simple coping mechanisms (journaling, sports) without the need for high-crisis intervention or stabilization techniques."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Dealing with break-up and emotional distress",
+    "reasoning": "User expresses sadness and stress due to a recent breakup ('Aku baru saja putus dengan pacarku'), feeling lonely ('Aku cuma merasa sangat sendiri'), and experiencing emotional pain. While the user uses the word 'depresi', it's used in a colloquial sense to describe sadness rather than a clinical diagnosis, placing it in the level 2 (mild) distress/relationship category."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and remains focused on the user's breakup, although the initial greeting was slightly generic."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot acknowledges the user's feelings but the responses feel somewhat mechanical, and it moves toward questioning and solutions too quickly."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core issue (breakup and subsequent emotional distress) and checks for other contributing stressors."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided (exercise, journaling, talking to friends) are realistic, safe, and appropriate for an adolescent dealing with a breakup."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: severe distress and sadness. Final emotion: more accepting and hopeful. The user moves from feeling 'very bad' to thanking the chatbot and hoping for improvement."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe advice and avoids any risky behavior, though there was no explicit crisis to manage."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm, natural, and uses a register suitable for Indonesian adolescents, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 3,
+      "reasoning": "The chatbot encourages the user to open up, but the questions in the first half feel a bit like an interview ('what happened', 'why did it end') rather than therapeutic listening."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains neutral and supportive throughout the conversation without making any assumptions or moral judgments."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aku benar-benar khawatir dengan situasiku sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana harimu sejauh ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak terlalu baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba ceritakan lebih lanjut tentang apa yang sedang kamu alami."
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi dalam situasi yang bikin stres dan sedih banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku di sini buat bantu kamu. Mau cerita lebih banyak tentang apa yang membuatmu merasa seperti ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baru saja putus dengan pacarku. Rasanya sangat menyakitkan dan aku belum bisa melupakannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku paham, apakah hubungan kalian berakhir baik-baik atau ada masalah tertentu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku udah coba lupakan, tapi nggak bisa. Dia nggak kasar atau gimana, cuma... ya, aku masih sayang."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, apa yang membuat hubungan kalian berakhir? Ceritakan lebih jauh supaya aku bisa membantumu dengan lebih baik."
+      },
+      {
+        "role": "user",
+        "content": "Aku ngerasa masih di kondisi yang sangat buruk. Aku stres dan sedih banget sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa yang bikin kamu merasa stres dan tertekan setelah putus? Apakah ada hal lain seperti masalah di sekolah, pertemanan, atau tekanan dari orang tua?"
+      },
+      {
+        "role": "user",
+        "content": "Aku cuma merasa sangat sendiri. Nggak ada masalah di sekolah, cuma tentang perasaan setelah putus. Aku pengen banget bisa lepas dari stres dan depresinya. Kira-kira harus mulai dari mana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Salah satu hal yang bisa dicoba adalah melakukan hal-hal sederhana yang kamu suka, misalnya olahraga ringan, journaling, atau ngobrol dengan teman dekat. Apakah kamu mau coba cara itu dulu?"
+      },
+      {
+        "role": "user",
+        "content": "Boleh, aku akan coba."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus. Ini langkah awal yang penting untuk mulai bangkit kembali."
+      },
+      {
+        "role": "user",
+        "content": "Kalau aku melakukan itu, bisa nggak aku benar-benar lepas dari stresnya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Prosesnya memang nggak instan, tapi perlahan-lahan stresnya bisa berkurang. Yang penting, kamu terus bergerak ke arah yang sehat."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih buat sarannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Kamu nggak sendiri, dan kamu layak untuk merasa lebih baik."
+      },
+      {
+        "role": "user",
+        "content": "Semoga semuanya membaik, sampai jumpa."
+      },
+      {
+        "role": "assistant",
+        "content": "Amin. Semoga harimu esok lebih ringan, ya. Jaga diri baik-baik!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:57:25.607600Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

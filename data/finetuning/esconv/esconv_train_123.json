@@ -1,0 +1,171 @@
+{
+  "dialog_id": "esconv_train_123",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "User expresses high stress and pressure regarding an upcoming final exam, stating 'Aku masih cemas banget' (I'm still very anxious) and 'tertekan' (pressured).",
+    "emotion_trajectory": "The user remains anxious throughout most of the conversation but shifts toward a sense of relief and gratitude at the end after feeling heard and supported."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, predictable pattern of brief validation followed by immediate shifts to generic advice. It provides premature suggestions (e.g., suggesting study groups, breathing exercises, or talking to friends) before the user has had a chance to deeply explore the emotional root of the cause. While it uses some reflection ('Jadi kamu sebenarnya sudah belajar dengan baik...'), these reflections are surface-level echoes. It fails to dive into the core conflict—the user's guilt during rest and the persistent anxiety despite efforts—without offering a template-like solution. The conversation concludes abruptly once the user agrees, rather than guiding the user toward a deeper insight or collaborative plan.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses significant academic stress and anxiety ('stres banget', 'sangat tertekan'), but there narratives are focused on a specific external trigger (final exams) and remains logically organized. The BOT uses active listening techniques such as reflective listening ('Jadi kamu sebenarnya sudah belajar dengan baik, tapi tetap khawatir itu belum cukup, ya?') and clarification ('Jadi sebenarnya proses belajarnya itu sendiri yang bikin kamu cemas? Benar begitu?'), which fits the 'mild' support level. There are no expressions of hopelessness, suicidal ideation, or self-harm, meaning no 'high' level support is required."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Anxiety due to upcoming final exams",
+    "reasoning": "The user expresses stress and pressure regarding a final exam ('Besok aku ada ujian akhir, dan itu bikin aku sangat tertekan'), specifically fearing not passing if they don't get a minimum grade of B. This is a normative adolescent academic stressor with no indication of clinical disorder, self-harm, or acute crisis."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow, accurately recalling that the user is studying for a final exam and experiencing anxiety."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's stress and feelings of guilt during breaks, providing a warm and supportive tone throughout."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies that the core issue is not just the exam itself, but the anxiety triggered specifically by the process of studying and the guilt felt during breaks."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests practical tools like deep breathing and social support, while also reframing the rest period as part of the learning process."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: High stress/anxiety. Final emotion: Feeling heard and more positive. The user explicitly states that the conversation was 'very helpful' and agrees that they will feel relieved after the exam."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, supportive responses and does not suggest any risky behaviors; the situation does not require crisis intervention."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses effective reflective listening and follow-up questions to help the user narrow down the source of their anxiety."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, validating the user's struggle without criticizing their level of preparation or their anxiety."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_123",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai! Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sih baik-baik aja, tapi lagi stres banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh ceritain lebih lanjut soal itu?"
+      },
+      {
+        "role": "user",
+        "content": "Besok aku ada ujian akhir, dan itu bikin aku sangat tertekan. Kalau nilainya nggak minimal B, aku mungkin nggak lulus."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar banget kalau kamu merasa stres dalam situasi seperti ini. Kamu punya teman belajar bareng nggak?"
+      },
+      {
+        "role": "user",
+        "content": "Ada, kok. Ada kelompok belajar bareng teman-teman sekelas. Aku sudah belajar sungguh-sungguh, tapi karena selama ini aku kesulitan di pelajaran ini, makanya aku masih cemas banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sebenarnya sudah belajar dengan baik, tapi tetap khawatir itu belum cukup, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, betul banget. Rasanya walaupun aku belajar terus 24 jam, tetap aja nggak cukup. Kadang bingung juga, ini sebenarnya benar-benar aku pahami nggak, ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kadang berhenti sebentar dan menenangkan pikiran dengan menarik napas dalam bisa bantu meredakan kecemasan. Kira-kira kamu bisa coba itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah pernah coba. Dan memang bisa bantu sedikit waktu itu. Tapi pas balik belajar lagi, cemasnya muncul kayak lebih parah, apalagi makin dekat ke hari ujian. Kalau berhenti belajar malah jadi ngerasa bersalah."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan itu wajar, tapi penting juga untuk ingat bahwa istirahat itu bagian dari belajar. Kalau tubuh dan pikiran dipaksa terus tanpa jeda, justru hasilnya bisa kurang maksimal."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga coba ingetin diri sendiri soal itu. Dan aku tahu itu memang benar. Tapi pas lagi istirahat, tetep aja ngerasa bersalah, jadi susah buat benar-benar tenang."
+      },
+      {
+        "role": "assistant",
+        "content": "Dari obrolan ini kelihatan kamu memang sangat stres dan sedang berjuang menenangkan diri."
+      },
+      {
+        "role": "user",
+        "content": "Iya. Sekali pikiranku masuk ke mode stres, susah banget keluar darinya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kadang ngobrol dengan teman dekat bisa bantu. Kamu sudah coba cara itu?"
+      },
+      {
+        "role": "user",
+        "content": "Udah. Dan itu memang lumayan membantu sih saat ngobrol. Tapi begitu balik belajar, cemasnya muncul lagi. Kayaknya satu-satunya hal yang bisa bikin tenang cuma ujian ini cepat berlalu."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi sebenarnya proses belajarnya itu sendiri yang bikin kamu cemas? Benar begitu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, betul banget. Aku benar-benar khawatir sama ujian ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sudah berusaha belajar sebaik mungkin, dan kamu juga tahu beberapa cara buat mengelola kecemasanmu. Setelah ujian selesai, kamu mungkin akan merasa jauh lebih lega."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku juga pikir begitu."
+      },
+      {
+        "role": "assistant",
+        "content": "Oke! Sepertinya obrolan ini cukup membantu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, sangat membantu. Makasih banyak!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semangat ya untuk ujiannya besok!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:10:33.510183Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

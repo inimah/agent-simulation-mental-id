@@ -1,0 +1,135 @@
+{
+  "dialog_id": "esconv_test_30",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling 'buntu' (stuck) and not knowing what to do while dealing with study stress.",
+    "emotion_trajectory": "The user moves from a state of feeling overwhelmed and stuck to feeling hopeful and appreciative after receiving actionable advice."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern: it provides a brief validation ('Perasaan seperti itu sangat wajar') and then immediately transitions to a list of generic study tips (time blocking, past papers, prioritization, healthy habits). There is no phase of exploration to understand why the user is stressed, what specifically is making them feel 'buntu' (stuck), or how they currently study. The chatbot moves to the solution phase prematurely, treating the request as an informational query rather than a therapeutic process.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is expressing academic stress and feeling 'buntu' (stuck), which requires active listening and normalization. The bot correctly identifies the stress and normalizes it ('Perasaan seperti itu sangat wajar'). The conversation moves into a collaborative problem-solving phase where the user seeks specific advice ('gimana cara menghadapi situasi kayak gini?'), which fits the 'mild' level as it involves building a shared understanding of the problem and providing contextual guidance."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Reducing stress while studying",
+    "reasoning": "The user specifically asks for 'cara buat mengurangi stres saat belajar' and discusses feeling 'buntu' during school pressure, which fits the normative academic stress category."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and consistently references the user's need to reduce study-related stress throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of being 'stuck' and provides warm reassurance that these feelings are normal and common."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue as study-related stress and pressure, responding specifically to the user's request for help."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides concrete, realistic, and helpful study tips (time blocking, prioritization, and health care) that are appropriate for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: stressed and feeling 'stuck'. Final emotion: more positive and willing to try the suggestions. The user shows a clear shift from frustration to a state of having a plan."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot's suggestions are safe and healthy, and there are no signs of crisis or high-risk behavior in the dialogue."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and suitable for an Indonesian adolescent, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share and confirms if the user agrees with the suggestions, making the conversation feel interactive."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, validating the user's struggle without any moral assessment or criticism."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_30",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo! Apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Ada yang bisa aku bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku butuh cara buat mengurangi stres saat belajar."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya kamu lagi kesulitan menghadapi tekanan di sekolah, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, kadang bikin merasa buntu dan nggak tahu harus gimana lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan seperti itu sangat wajar, apalagi saat menghadapi ujian besar. Kamu nggak sendiri kok."
+      },
+      {
+        "role": "user",
+        "content": "Kalau kamu di posisi aku, gimana cara menghadapi situasi kayak gini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba atur waktu belajarmu dengan sistem blok waktu, istirahat di antaranya, lalu kombinasikan dengan latihan soal dari tahun-tahun sebelumnya. Kamu setuju dengan ide itu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, kedengarannya masuk akal dan bisa dicoba."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa buat daftar materi yang butuh dipelajari berdasarkan prioritas. Fokus dulu ke yang paling susah buat kamu, lalu perlahan ke yang lebih ringan."
+      },
+      {
+        "role": "user",
+        "content": "Itu juga ide bagus. Kadang aku bingung mulai dari mana."
+      },
+      {
+        "role": "assistant",
+        "content": "Dan jangan lupa jaga diri juga ya, istirahat cukup dan makan sehat bisa bantu konsentrasimu tetap kuat."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku coba terapkan. Terima kasih sarannya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:47:51.254281Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

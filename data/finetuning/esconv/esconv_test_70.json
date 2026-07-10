@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_test_70",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses deep sadness and a sense of hopelessness, stating 'Aku lagi sedih banget' and 'Rasanya hidup ini negatif banget' because of a breakup.",
+    "emotion_trajectory": "The user moves from intense distress and sadness to a state of gratitude and feeling 'lighter' after the conversation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern of brief validation followed by immediate shifts to generic advice. It gives 'premature suggestions' (exercise, yoga, music) very early in the conversation before exploring why the user is feeling 'negative' or the root cause of thes pain. The reflections are surface-level echoes and the advice is a template-like list of self-care tips that lacks specific context to the user's situation. While it is empathetic, it lacks the depth of exploration required for 'engaging_insightful' and the psychoeducation/reframing characteristic of 'advanced_therapeutic'.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses emotional distress due to a breakup ('Aku lagi sedih banget', 'hidup ini negatif banget'), but there are no indicators of suicidal ideation or self-harm. The conversation moves into a phase of active listening and clarification. The BOT focuses on providing validation, normalizing the pain of trust betrayal ('Perasaanmu itu sangat wajar'), and offering coping mechanisms like exercise and music. The support level is 'mild' because it targets the user's need for shared understanding and emotional regulation without reaching the threshold of a crisis situation."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "coping with a sudden breakup",
+    "reasoning": "The user is experiencing emotional distress due to a breakup ('Aku lagi sedih banget. Pacarku tiba-tiba mutusin aku gitu aja'). While she expresses strong negative feelings ('Rasanya hidup ini negatif banget'), there is no indication of clinical pathology or self-harm intent, placing it in Level 2 (mild)."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent flow and remembers the context of the breakup and the user's emotional state throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm, validating responses and uses encouraging words like 'kamu kelihatan kuat dan bijak', making the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue (unexpected breakup and loss of trust) and the subsequent emotional impact on the user."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests realistic and safe coping mechanisms (exercise, yoga, music) and validates the user's need for time, without forcing a move forward."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: deep sadness and feelings of negativity. Final emotion: feeling lighter and acknowledging the user's conversation was helpful. The shift is clear and positive."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids harmful content and encourages the user to talk to trusted people, maintaining a safe and supportive environment."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly formal or clinical tone."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses appropriate follow-up questions and validation, encouraging the user to open up about their pain of betrayal without feeling like an interview."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, especially when the user mentions difficulty in maintaining healthy habits during grief, validating it as part of the process."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_70",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aku lagi sedih banget. Pacarku tiba-tiba mutusin aku gitu aja."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf banget dengarnya. Kamu mau cerita lebih detail soal itu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku mau. Sekarang aku sama sekali nggak bisa fokus ngelakuin apa-apa. Rasanya hidup ini negatif banget. Apa gunanya aku jalanin hubungan kemarin?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sepertinya kamu lagi sangat terpaku pada satu orang, ya. Tapi hidup ini punya banyak hal lain yang berarti juga — kayak keluarga, teman-teman dekat, dan dirimu sendiri."
+      },
+      {
+        "role": "user",
+        "content": "Aku ngerti sih. Mungkin aku cuma butuh waktu."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, pastinya kamu boleh ambil waktu sebanyak yang kamu butuh. Pelan-pelan aja, suatu saat kamu bisa melewati semua ini."
+      },
+      {
+        "role": "user",
+        "content": "Semoga. Aku pengen bisa jadi orang yang ceria lagi kayak dulu."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba juga hal-hal yang bisa bantu jaga mood kamu, kayak olahraga, yoga, ngobrol sama teman, dengerin musik, atau hal lain yang kamu suka. Pilih yang bikin kamu merasa lebih baik, dan coba satu per satu. Dari obrolan ini aja, kamu kelihatan kuat dan bijak, lho. Jangan biarkan hal yang nggak bisa kamu kendalikan menjatuhkan kamu terus-menerus."
+      },
+      {
+        "role": "user",
+        "content": "Aku rasa aku memang harus alihin fokusku ke hal lain nih."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, benar banget. Ada hal tertentu yang mau kamu bahas lagi sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Yang paling sakit itu ketika orang yang paling kita percaya tiba-tiba hilang gitu aja tanpa bilang apa-apa. Tapi makasih ya, udah nemenin aku. Aku senang bisa ngobrol sama kamu."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaanmu itu sangat wajar. Kamu penting dan berharga, walau orang lain kadang nggak menunjukkan hal yang sama."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih, ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Ada hal lain yang bisa aku bantu untuk saat ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak ada. Cuma kepikiran, kamu sendiri gimana cara kamu menghadapi situasi kayak gini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu mengalami masa sulit, penting banget buat tetap menjaga diri, kayak makan cukup, tidur cukup, dan ngobrol dengan orang yang dipercaya. Hal-hal itu bisa membantu pikiran lebih tenang."
+      },
+      {
+        "role": "user",
+        "content": "Kenapa ya rasanya susah banget buat jaga semuanya, bahkan hal-hal kecil kayak makan sehat? Bisa nggak sih ada yang bantuin?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nggak apa-apa kalau kamu masih merasa berat. Kadang situasi emosi membuat kita memilih hal-hal yang kurang sehat, tapi itu juga bagian dari proses. Dan ya, ngobrol kayak gini juga bisa bantu banget, kan? Bisa bikin pikiranmu sedikit teralihkan dari rasa sedihnya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, bener banget. Yang penting kita bisa nikmatin dan merasa lebih ringan. Ngobrol kayak gini memang bantu banget."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:17:40.376045Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

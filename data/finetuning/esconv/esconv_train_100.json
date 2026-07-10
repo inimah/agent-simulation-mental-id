@@ -1,0 +1,167 @@
+{
+  "dialog_id": "esconv_train_100",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku merasa cemas' (I feel anxious) and mentions the stress caused by an upcoming big exam.",
+    "emotion_trajectory": "The user moves from a state of anxiety and stress to a more hopeful and positive outlook, expressed through gratitude and a willingness to try suggested solutions."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a very linear and predictable pattern: brief validation ('Itu wajar banget') followed by immediate generic advice. There is no deep exploration of the user's specific relationship with anxiety or root causes; it merely acknowledges the symptom (exam stress) and moves directly to technical tips (sleep, studying, podcasts). Even when the user mentions it's 'hard to get enough sleep', the bot doesn't explore why or the specific barriers to that sleep, instead jumping to more generic suggestions. The advice is template-like (e.g., suggesting searching Google for keywords), which is characteristic of the surface-level support found in 'basic_counseling'.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The dialogue involves a user expressing anxiety due to school exams, which is a common situational stressor. The bot uses active listening, reflections ('Jadi rasa cemasmu datang karena ujian besar yang akan datang, ya'), and normalizing ('Itu wajar banget'), which fits the 'mild' support level. There are no indicators of hopelessness, self-harm, or extreme distress that would trigger a 'high' classification."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "managing anxiety and sleep before school exams",
+    "reasoning": "The user explicitly mentions and confirms that their anxiety stems from 'ujian besar dalam waktu dekat di sekolah' (upcoming big exam at school), which is a normative adolescent stressor."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and remembers context, specifically referring back to the user's goal of getting better sleep to reduce exam anxiety."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides validation and warmth, acknowledging that feeling anxious about exams is natural and common."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the source of the stress (exams) and the specific challenge (difficulty sleeping), focusing its support on those points."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided (sleep, early study, exercise, relaxation podcasts) are practical, safe, and appropriate for an adolescent student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxiety/stress. Final emotion: hopeful and appreciative. The user shifts from feeling 'heavy' and 'struggling' to gratitude and a positive outlook."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, non-risky advice and maintains a professional but friendly boundary."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is natural and friendly, using adolescent-appropriate Indonesian (e.g., 'nggak', 'bener banget'), avoiding overly clinical language."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to explore options and checks if the suggestions are viable, fostering a continuous flow of sharing."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, normalizing the user's anxiety and supporting their current efforts to cope."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_100",
+    "messages": [
+      {
+        "role": "user",
+        "content": "halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Hai, apa kabar kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa cemas"
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya cukup berat. Kamu tahu nggak apa yang bikin kamu merasa cemas?"
+      },
+      {
+        "role": "user",
+        "content": "Aku punya ujian besar dalam waktu dekat di sekolah"
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi rasa cemasmu datang karena ujian besar yang akan datang, ya."
+      },
+      {
+        "role": "user",
+        "content": "Iya, bener banget"
+      },
+      {
+        "role": "assistant",
+        "content": "Itu wajar banget, banyak siswa juga merasa seperti itu menjelang ujian besar."
+      },
+      {
+        "role": "user",
+        "content": "Gimana caranya ngatur stres kayak gitu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba tidur cukup dan mulai belajar dari jauh-jauh hari supaya nggak panik di akhir. Jadi lebih tenang saat waktunya tiba. Menurut kamu, bisa dicoba nggak?"
+      },
+      {
+        "role": "user",
+        "content": "Itu juga yang aku coba lakukan. Aku juga latihan fisik buat ngurangin stres, tapi susah banget buat tidur cukup."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu bagus! Olahraga memang bisa bantu mengurangi stres dan kecemasan."
+      },
+      {
+        "role": "user",
+        "content": "Ada saran biar bisa tidur lebih nyenyak malam sebelum ujian?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba dengerin podcast yang tenang atau membosankan sebelum tidur. Banyak juga yang merasa bantuan seperti suara hujan, atau meditasi terbimbing bisa membantu."
+      },
+      {
+        "role": "user",
+        "content": "Kalau podcast belum pernah coba, aku akan cari yang cocok deh"
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus, terus coba-coba sampai nemu yang cocok ya. Kalau sudah terbiasa dan tahu caranya, tidur juga bisa jadi lebih nyenyak."
+      },
+      {
+        "role": "user",
+        "content": "Makasih! Untungnya ujian nggak berlangsung selamanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Semangat ujiannya, ya! Kamu pasti bisa kok :)"
+      },
+      {
+        "role": "user",
+        "content": "Makasih untuk sarannya. Ada rekomendasi podcast yang bisa aku coba?"
+      },
+      {
+        "role": "assistant",
+        "content": "Coba kau cari di Google dengan keyword 'podcast relaksasi untuk sebelum tidur' atau 'podcast mengurangi kecemasan'."
+      },
+      {
+        "role": "user",
+        "content": "Aku akan cek. Makasih!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Semoga bermanfaat ya, sampai ketemu lagi."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:56:36.116213Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

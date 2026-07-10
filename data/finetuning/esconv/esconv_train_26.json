@@ -1,0 +1,211 @@
+{
+  "dialog_id": "esconv_train_26",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses difficulty sleeping due to their mind being full, waking up in the middle of the night with anxiety ('kebangun tengah malam sambil cemas'), and worrying about their and family's health issues.",
+    "emotion_trajectory": "The user shifts from a state of anxiety and helplessness to a proactive and hopeful mindset, formulating a clear action plan and expressing a desire to recover ('harus semangat dan lawan rasa sakit ini')."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's pattern is characterized by premature and generic advice-giving. In the first few turns, the chatbot immediately suggests seeing a school counselor (BK) and provides technical tips (sleep routine, avoiding phones, walking) before the user has had a chance to explore the feelings behind the 'full mind' (pikiranku penuh banget). The transitions are linear and predictable: brief validation followed by a solution. While the bot does attempt one question about the timing of symptoms, it fails to deepen the exploration of the user's health-related anxieties. The advice remains on the surface level (warm milk, watching movies) and lacks thet therapeutic insight or personalized reframing found in more advanced tiers.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": true,
+    "reasoning": "The user expresses anxiety and insomnia related to health issues ('pikiranku penuh banget', 'bangun tengah malam dan nggak bisa tidur lagi', 'masalah kesehatan'). No crisis signals (suicidal ideation or self-harm) were detected. The bot moves into 'mild' support by exploring the relationship between anxiety and sleep ('Kedengarannya mungkin memang ada hal-hal lain yang sedang bikin kamu cemas, ya?') and helps the user form a concrete plan. Safety referrals were given in the form of suggesting the user consult their school counselor (guru BK) and their doctor."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "insomnia and anxiety due to health issues",
+    "reasoning": "User reports difficulty sleeping, waking up in the middle of the night feeling anxious ('bangun tengah malam dan nggak bisa tidur lagi', 'kebangun tengah malam sambil cemas'), triggered by personal and family health problems."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and tracks the conversation history well, though it occasionally introduces new suggestions (milk, movies) somewhat abruptly."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot expresses consistent warmth and validation, especially when the user reveals health issues, making the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot accurately identifies the core issue (insomnia caused by health-related anxiety) and connects the physical and psychological aspects of the problem."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "Suggestions are realistic and safe, and the bot correctly emphasizes consulting doctors/nurses rather than offering medical advice."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: Anxious and frustrated; final emotion: Determined and hopeful. The user explicitly states they have a plan and feels empowered to recover."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The bot is very safe; it actively encourages professional medical consultation and avoids suggesting medication for someone already on prescription drugs."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, polite, and appropriate for a teenager, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot uses open-ended questions effectively to lead the user to their own realizations about the connection between anxiety and sleep."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot accepts the user's feelings and circumstances without any moral judgment or assumptions."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_26",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, bagaimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai, aku lagi kesulitan tidur nih, pikiranku penuh banget... kadang bangun tengah malam dan nggak bisa tidur lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf banget mendengarnya. Keadaan seperti itu memang bisa sangat mengganggu. Apa kamu sudah coba bicara dengan guru BK atau tenaga kesehatan di sekolah?"
+      },
+      {
+        "role": "user",
+        "content": "Belum sih, belum bicara soal ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba bicarakan, ya. Mungkin mereka bisa bantu kamu untuk mendapat konseling atau dukungan yang kamu perlukan."
+      },
+      {
+        "role": "user",
+        "content": "Hmm iya, mungkin aku harus bikin janji temu... ada saran lain nggak yang bisa dicoba? Soalnya aku masih susah tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Beberapa hal bisa bantu, misalnya membuat rutinitas tidur yang tenang, atau menghindari ponsel sebelum tidur."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak bisa coba obat tidur soalnya aku juga sedang minum obat dari dokter."
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, kalau begitu, bagaimana kalau kamu coba jalan santai satu atau dua jam sebelum tidur? Itu bisa bantu mengurangi ketegangan."
+      },
+      {
+        "role": "user",
+        "content": "Lucunya aku bisa tidur awalnya, tapi suka kebangun tengah malam sambil cemas, jadi menyebalkan banget. Belum coba jalan santai sih... mungkin habis makan malam aku jalan aja ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya mungkin memang ada hal-hal lain yang sedang bikin kamu cemas, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku lagi ada masalah kesehatan, dan anggota keluargaku juga harus menjalani tes kesehatan, jadi aku jadi kepikiran terus. Kayaknya aku memang harus buat janji deh."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku turut prihatin mendengar kondisi itu. Apa kamu sudah bicara juga ke dokter yang menangani masalah kesehatanmu?"
+      },
+      {
+        "role": "user",
+        "content": "Belum juga sih, mungkin memang perlu juga ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa jadi ada kaitannya antara kecemasan dan gangguan tidur ini, jadi memang baik kalau kamu tanyakan secara langsung."
+      },
+      {
+        "role": "user",
+        "content": "Hmm iya, aku jadi kepikiran juga soal itu, sebelumnya nggak melihat hubungan itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu ingat nggak, apakah kedua hal itu mulai muncul di waktu yang hampir bersamaan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku ingat ada perawat di rumah sakit waktu itu, mungkin aku bisa telepon dan tanya-tanya juga ke dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus, karena selain perasaan cemas, bisa saja ada faktor fisik yang juga memengaruhi tidurmu."
+      },
+      {
+        "role": "user",
+        "content": "Setelah aku pikir-pikir, iya juga sih, kemungkinan ada kaitannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, sebaiknya kamu bicarakan dengan perawat tersebut. Siapa tahu dia bisa kasih saran yang pas buat kondisimu."
+      },
+      {
+        "role": "user",
+        "content": "Aku masih punya banyak hal yang ingin dicapai, jadi harus semangat dan lawan rasa sakit ini! Tidur yang cukup jadi penting banget buat penyembuhan juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Setuju banget! Kalau kamu merasa sangat lelah di siang hari, apakah kamu punya waktu untuk tidur sebentar?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, jadi malam nanti aku coba jalan santai, terus telepon perawat, dan mungkin juga buat janji dengan dokter. Kamu bantu banget ngasih aku rencana nih."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus juga kalau sebelum tidur kamu minum susu hangat. Itu bisa bantu menenangkan pikiran dan tubuh."
+      },
+      {
+        "role": "user",
+        "content": "Aku suka tidur siang juga sih, untungnya di rumah suasananya tenang jadi bisa istirahat."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa nonton film favorit sebelum tidur biar suasana hati lebih rileks."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banget buat bantuannya hari ini ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Masih ada waktu sekitar lima belas menit, apa ada hal lain yang mau kamu tanyakan?"
+      },
+      {
+        "role": "user",
+        "content": "Kamu tahu meditasi nggak? Aku kepikiran mau nyoba, soalnya nonton film bukan hobiku banget. Tapi siapa tahu meditasi sebelum tidur bisa bantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Meditasi adalah salah satu cara yang banyak orang gunakan untuk menenangkan pikiran. Banyak juga yang merasa terbantu setelah rutin melakukannya."
+      },
+      {
+        "role": "user",
+        "content": "Saudariku juga suka meditasi dan sering nyaranin aku nyoba. Makasih lagi ya :) semoga harimu menyenangkan."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba saja, nggak ada ruginya kok. Semoga aku bisa membantu kamu hari ini, dan aku doakan kamu sehat dan semangat selalu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:12:31.477129Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

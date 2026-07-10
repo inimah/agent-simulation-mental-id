@@ -1,0 +1,143 @@
+{
+  "dialog_id": "esconv_train_13",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses frustration due to insomnia caused by noisy neighbors and the neighbor's refusal to communicate, stating 'itu bikin aku kesal banget' and 'Susah banget'.",
+    "emotion_trajectory": "The user moves from frustration and helplessness to a state of cautious hope and openness, ending with a commitment to try again and thanking the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's approach is linear and highly reactive, focusing on the external problem (the loud neighbors) rather than the user's internal emotional state. It moves to solution-giving extremely quickly; as soon as the user mentions the neighbors' noise, the bot provides a list of technical solutions (knocking on walls, texting, reporting to RT). It fails to explore the root cause of the user's frustration or the psychological impact of insomnia, instead offering generic, template-like advice. Even when the user mentions the extreme option of moving house, the bot briefly validates but immediately returns to giving a list of administrative steps to follow, which characterizes the 'premature suggestion' signal of basic_counseling.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is expressing frustration and stress due to a sleep-disturbing noise problem with neighbors. The bot's responses move from simple acknowledgement (low) to active listening and offering practical solutions (mild). There are no indicators of hopelessness, self-harm, or suicidal ideation. The conversation concludes with the user stating they will try again, indicating a level of resilience and no immediate crisis signal."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "aktivitas_harian_dan_gaya_hidup",
+    "primary_topic": "kesulitan tidur akibat gangguan suara tetangga",
+    "reasoning": "The user discusses a situational environmental stressor (noisy neighbors) affecting their sleep (aktivitas harian/sleep). There are no signs of clinical distress, mental health disorders, or risk of self-harm, and the conversation focuses on practical problem-solving and daily routines."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow, accurately referencing the user's struggle with noisy neighbors and the failed attempts to communicate."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot acknowledges the user's frustration, but the responses feel somewhat mechanical and focused more on problem-solving than emotional validation."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core issue—noise pollution and the unresponsive neighbors—and understands that the user is feeling stressed."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The suggestions (knocking on walls, writing letters) are somewhat generic and superficial, though they eventually move towards professional/community help."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: frustrated and annoyed. Final emotion: resigned but determined ('I will try again'). The chatbot's support helped the user move from frustration to a more proactive state."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, legal, and appropriate suggestions to resolve a conflict, avoiding any aggressive or risky behavior."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm and natural for an Indonesian adolescent, avoiding overly clinical or and using appropriate terms like 'guru BK' and 'RT/RW'."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share more about their situation through relevant follow-up questions, allowing the user to explore their options."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral and accepting, neither blaming the user nor the neighbors, and providing objective solutions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo! Ada yang bisa aku bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku sempat susah tidur satu malam dan itu bikin aku kesal banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, maaf mendengarnya. Apakah kamu sering mengalami kesulitan tidur seperti itu?"
+      },
+      {
+        "role": "user",
+        "content": "Sering sih, terutama kalau tetangga ribut dengan musik mereka."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau tetangga sering berisik, itu memang bikin sulit tidur. Sudah berapa lama kamu tinggal di dekat mereka?"
+      },
+      {
+        "role": "user",
+        "content": "Susah banget karena mereka nggak pernah buka pintu saat aku coba ngomongin masalah ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau mereka tidak membuka pintu untuk didatangi, kamu mungkin bisa coba ketuk dinding atau kirim pesan singkat kalau ada kontaknya. Sebaiknya memang komunikasi dulu sebelum mencari bantuan lebih lanjut. Tapi kalau suaranya memang di luar batas wajar, sebenarnya kamu bisa melaporkannya ke RT atau pihak keamanan perumahan."
+      },
+      {
+        "role": "user",
+        "content": "Sayangnya, aku udah coba sampaikan waktu kebetulan ketemu pas ambil paket, tapi kayaknya mereka nggak peduli."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, mungkin kamu bisa coba tuliskan surat secara sopan. Ungkapkan isi hati kamu dan harapkan mereka bisa memahami. Jika tetap tidak berubah, kamu bisa sampaikan ke orang tua, guru BK, atau pengurus lingkungan setempat agar mereka bisa bantu menjembatani."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak bisa nulis surat karena mereka kayaknya nggak paham Bahasa Indonesia juga. Udah nyoba juga lapor, tapi nggak ada tindakan. Aku rasa satu-satunya cara adalah pindah, biar jauh dari mereka."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya kamu merasa sangat tertekan sampai mempertimbangkan untuk pindah. Itu tentu keputusan besar dan pastinya sulit."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku udah lapor tapi memang katanya bukan masalah yang bisa mereka bantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Biasanya pihak keamanan atau pengurus lingkungan memang lebih fokus pada menjaga ketertiban umum. Tapi kadang memang batas tanggung jawab mereka terbatas juga."
+      },
+      {
+        "role": "user",
+        "content": "Tampaknya memang keluarga itu tertutup banget, bahkan nggak mau buka pintu saat dimintai klarifikasi. Tapi aku akan coba lagi. Makasih atas semua masukannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Kalau memang pihak keamanan tak bisa membantu, kamu bisa catat waktunya, laporkan ke pengurus RT atau RW, dan terus dokumentasikan kejadian. Kadang perlu waktu, tapi aku yakin masalah ini bisa terselesaikan tanpa kamu harus pindah. Semangat ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:24:38.647660Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

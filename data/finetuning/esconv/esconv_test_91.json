@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_test_91",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses feeling 'stres' and 'cemas banget' (very anxious) particularly after spending time with friends and comparing themselves to others.",
+    "emotion_trajectory": "The user moves from a state of anxiety and social stress toward a feeling of gratitude and a proactive intention to seek professional help."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow. It starts with validation and exploration before moving to advice. It digs deeper into the root cause of the user's anxiety (social comparison and forcing oneself into social situations) rather than jumping to immediate tips. The bot asks targeted questions to differentiate between the environment and internal state ('Apakah saat kamu nggak kumpul pun kamu tetap merasa cemas?'). The advice provided at the end is contextualized to the user's situation, specifically regarding social boundaries and professional help, and only appears after a thorough phase of clarification and exploration.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": true,
+    "reasoning": "The conversation remains in the 'mild' category as it focuses on active listening, exploration, and clarification of the user's social anxiety and cognitive patterns (e.g., the bot asks probing questions about the triggers of anxiety and reinforces patterns). No crisis signals like hopelessness or self-harm were present. The bot provides a safety referral by suggesting the user speak to a school counselor (Guru BK) or a mental health professional, which the user accepts."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "kecemasan sosial dan kecenderungan membandingkan diri",
+    "reasoning": "User mentions feeling 'cemas banget setelah kumpul bareng teman' and 'mbandingin diri sendiri dengan yang lain', as well as experiencing anxiety without clear reasons. This indicates sub-clinical anxiety and interpersonal stress, fitting Level 2."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical and fluid conversation, accurately referencing previous statements and asking relevant follow-up questions."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot acknowledges the user's feelings and is supportive, but the responses feel somewhat mechanical and more like a clinical interview than a warm, emotional connection."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the core issue (social anxiety and comparison) and explores the user's specific triggers and patterns."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided (limiting social interaction for a while, suggesting alternative activities, and recommending professional help) are realistic and safe."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Anxious/Stressed. Final emotion: Calmer and motivated to seek professional help. The chatbot successfully guided the user from a feeling of overwhelm to a a concrete plan of action."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot safely avoids any dangerous suggestions and proactively recommends consulting a school counselor (Guru BK) or mental health professional."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and appropriate for an Indonesian high school student, avoiding overly formal or clinical terms while remaining polite."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses targeted follow-up questions that encourage the user to open up and delve deeper into their anxiety patterns without feeling interrogated."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely neutral and acceptance-focused, validating the user's decision to limit social interactions as a long-term strategy for peace of mind."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_91",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo! Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Jauh lebih baik dari biasanya, walaupun tugas-tugas sekolah lagi numpuk."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, kamu lagi kelas berapa?"
+      },
+      {
+        "role": "user",
+        "content": "Aku masih siswa SMA, dan lagi coba atur waktu sebaik mungkin supaya nggak keteteran."
+      },
+      {
+        "role": "assistant",
+        "content": "Mengatur waktu di masa sekolah emang bisa jadi tantangan tersendiri. Apakah itu memberi dampak negatif buat kamu?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak terlalu sih, yang bikin aku stres itu biasanya hal-hal kecil. Tapi di pikiranku, semuanya jadi berat banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh tahu, hal-hal kecil seperti apa yang bikin kamu cemas?"
+      },
+      {
+        "role": "user",
+        "content": "Macam-macam sih, tapi aku biasanya jadi cemas banget setelah kumpul bareng teman, karena jadi mbandingin diri sendiri dengan yang lain. Jadi sekarang aku mencoba untuk lebih menjaga diri."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi menurut kamu, perasaan cemas itu muncul setelah kumpul bareng teman? Apakah saat kamu nggak kumpul pun kamu tetap merasa cemas?"
+      },
+      {
+        "role": "user",
+        "content": "Kadang-kadang iya, tapi biasanya rasa cemasnya muncul setelah aku merasa melakukan sesuatu yang bikin aku nggak nyaman. Tapi habis itu aku sering lupa apa yang sebenarnya bikin aku cemas."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa kadang kamu gak terlalu bisa ingat jelas apa yang terjadi setelah kumpul itu, begitu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, dulu aku sering banget kayak gitu. Tapi sekarang aku udah usaha banget ngurangin, misalnya dengan nggak keluar terlalu sering berkumpul dengan teman-teman dan lebih membatasi diriku."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah kamu pernah merasakan kalau itu terjadi hanya saat berada di lingkungan tertentu, atau memang karena kamu terlalu lelah atau banyak tekanan juga?"
+      },
+      {
+        "role": "user",
+        "content": "Biasanya karena aku maksa diri untuk ikut kumpul padahal aku sebenarnya ga ingin ikutan."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah teman-temanmu suka mendesak kamu untuk tetap ikut, meskipun kamu sudah menolak?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak juga sih, mereka biasanya berhenti ngajak setelah aku bilang nggak satu dua kali."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau teman-teman kamu bisa menerima keputusanmu, itu hal bagus. Kalau kamu memang merasa lebih tenang saat tidak banyak keluar, teruskan saja. Mungkin kamu bisa ajak mereka untuk melakukan hal-hal lain yang lebih santai dan tetap menyenangkan tanpa harus bikin kamu cemas. Kalau kamu merasa masih terus kesulitan, tidak ada salahnya bicara ke guru BK atau konselor. Bisa juga ikut forum atau komunitas yang mendukung kesehatan mental biar kamu nggak merasa sendirian."
+      },
+      {
+        "role": "user",
+        "content": "Iya. Makasih ya buat sarannya dan bantuannya, aku coba dulu konsultasikan ke tenaga profesional mengapa aku sering banget cemas tanpa ada alasan yang jelas."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Semoga harimu juga menyenangkan, jaga dirimu baik-baik! Ingat, aku selalu ada di sini ya kalau kamu butuh teman ngobrol."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:40:33.948285Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

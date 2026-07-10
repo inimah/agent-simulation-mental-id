@@ -1,0 +1,163 @@
+{
+  "dialog_id": "esconv_test_28",
+  "emotion": {
+    "fine_grained_label": "shame",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses feelings of shame and fear of judgment from peers due to repeating a grade ('Aku malu banget sama teman-teman sekelas karena harus tinggal kelas' and 'Aku takut mereka bakal pandang aku sebelah mata').",
+    "emotion_trajectory": "The user shifts from a state of shame and disappointment to a sense of hope and gratitude after receiving practical advice and emotional support from the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, predictable pattern: brief validation followed by an immediate shift to practical solutions. It demonstrates 'Premature Suggestion' by asking if the situation can be fixed (discussing with the teacher) immediately after the user expresses deep shame and fear of social judgment from peers. It fails to explore the root emotions—the shame and the feeling that effort was 'sia-sia'—and instead treats the problem as a purely administrative issue (grades and credits). The reflections are surface-level echoes and the advice given (trying again, listening to music/watching movies) is generic and not deeply contextualized to the user's emotional state.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses distress ('Nggak terlalu baik', 'malu banget', 'rasanya kayak semua usaha aku sia-sia'), but these are situational distresses related to academic failure rather than crisis signals. The bot uses reflective listening ('Jadi kamu merasa gagal...') and clarification questions ('Apa mata pelajaran itu pelajaran wajib?') to understand the context before offering supportive suggestions. The conversation ends on a positive note with the user feeling more hopeful and set on a plan, meaning it does not escalate to high level support."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic failure and fear of peer judgment",
+    "reasoning": "The user expresses disappointment over failing a final exam and having to repeat a grade ('saya gagal di ujian akhir', 'harus tinggal kelas'), which falls under academic stress. The risk is low as the user is receptive to advice, shows motivation to try again ('saya yakin bisa kalau benar-benar niat'), and agrees to a self-care plan, without indicating any clinical distress or high-risk behavior."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect logical flow, referencing specific details like the exam and the teacher's reaction consistently throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of failure and disappointment, making the user feel heard and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core issue: academic failure in a mandatory subject and the social anxiety regarding classmates' perceptions."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides realistic and practical suggestions (retaking the class, teacher discussion) and suggests healthy coping mechanisms like resting."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: sadness and shame. Final emotion: cautious optimism and feeling supported. The user shifts from feeling that efforts were 'sia-sia' to believing they 'can do it if they are truly intentional'."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot keeps the conversation safe, avoids harmful advice, and encourages the user to take positive steps toward resolution."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and fits the Indonesian adolescent context, avoiding overly formal or clinical tones while remaining supportive."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses appropriate follow-up questions to clarify the situation and avoids overwhelming the user, allowing the story to unfold naturally."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot does not judge the user for failing the exam or for being afraid of classmates; instead, it provides a safe space for acceptance."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak terlalu baik. Semester kemarin cukup berat di sekolah. Awalnya masih aman, tapi saya gagal di ujian akhir yang bobotnya 50% dari nilai."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa gagal di ujian akhir yang sangat menentukan nilai semester, begitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku malu banget sama teman-teman sekelas karena harus tinggal kelas. Rasanya kayak semua usaha aku sia-sia. Aku takut mereka bakal pandang aku sebelah mata atau ngejek aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu memang situasi yang berat. Kira-kira masih bisa diperbaiki nggak? Mungkin bisa diskusi sama guru untuk tugas tambahan, atau memang nilainya sudah final?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah coba ajukan banding ke guru."
+      },
+      {
+        "role": "assistant",
+        "content": "Dan gurumu tetap tidak bisa mengubah nilai itu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, sayangnya nggak bisa. Sepertinya guru saya juga terlalu sibuk untuk membahas masalah ini lama-lama."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa mata pelajaran itu pelajaran wajib?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, itu pelajaran inti dan saya butuh untuk lulus."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu masih punya semangat, coba lagi ajukan permintaan ulang. Kalau tetap tidak bisa, kamu bisa ambil ulang pelajaran itu semester depan atau kalau ada kelas tambahan di libur sekolah."
+      },
+      {
+        "role": "user",
+        "content": "Itu terdengar seperti rencana yang masuk akal. Tapi sekarang saya lagi sangat kecewa, jadi agak ragu bisa semangat lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar banget merasa kecewa. Tapi kalau kamu coba lagi dengan persiapan lebih matang, besar kemungkinan kamu bisa lulus di kesempatan berikutnya."
+      },
+      {
+        "role": "user",
+        "content": "Iya juga sih. Mata pelajarannya memang sulit, tapi saya yakin bisa kalau benar-benar niat."
+      },
+      {
+        "role": "assistant",
+        "content": "Nah, itu semangat yang bagus! Kamu pasti bisa mengatasi tantangan ini, apalagi dengan pengalaman sebelumnya kamu jadi tahu harus mulai dari mana."
+      },
+      {
+        "role": "user",
+        "content": "Masih terasa menakutkan, tapi aku setuju sama kamu. Terima kasih atas masukannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Sementara itu, coba luangkan waktu buat istirahat sebentar biar pikiran lebih tenang. Terlalu fokus terus juga bisa bikin stres."
+      },
+      {
+        "role": "user",
+        "content": "Setuju! Saya memang butuh waktu rehat sebelum mulai lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Musik yang menenangkan dan film lucu bisa bantu mengurangi stres juga, lho."
+      },
+      {
+        "role": "user",
+        "content": "Aku suka dua-duanya! Makasih banget atas sarannya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:41:57.393219Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

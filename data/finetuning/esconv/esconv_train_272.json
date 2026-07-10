@@ -1,0 +1,167 @@
+{
+  "dialog_id": "esconv_train_272",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku lagi agak sedih sebenarnya' and describes feeling hurt and confused after a friend disappeared after an argument.",
+    "emotion_trajectory": "The user moves from a state of sadness and helplessness to a sense of hope and willingness to try the bot's suggestions for healing."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow: it begins with strong validation and empathy ('Wah, maaf banget kamu lagi ngerasa sedih'), moves into a phase of exploration ('Boleh tahu waktu itu kalian berdebat soal apa?', 'Apa sebelumnya dia pernah bersikap kurang peduli?'), and only provides suggestions after the user has fully explained the context. The chatbot demonstrates meaningful reflection of the user's emotions ('Perasaan nggak dihargai itu pasti bikin sedih banget') and normalizes the user's feelings. While it doesn't provide psychoeducation or deep systemic insights typical of 'advanced_therapeutic', it avoids the 'basic_counseling' pitfall of premature advice, ensuring the user feels understood before guiding them towards self-care.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation stays within the 'mild' spectrum as the bot focuses on building shared understanding through active listening and clarification. The bot uses reflective listening ('Jadi kalian sempat berdebat...'), normalising the user's feelings ('Wajar banget kalau kamu ngerasa terluka'), and open-ended probes to understand the context of the conflict ('Boleh tahu waktu itu kalian berdebat soal apa?'). There are no crisis signals such as expressions of hopelessness or suicidal ideation; the user is expressing sadness and confusion over a friendship conflict, which the bot handles with appropriate emotional support and gentle guidance toward self-care."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "conflict with close friend and ghosting",
+    "reasoning": "The user is experiencing sadness and confusion due to a conflict and subsequent ghosting by a close friend ('Aku sempat berdebat sama teman dekatku, terus dia hilang gitu aja'), which falls under interpersonal social relations and emotional distress without clinical indicators."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect flow, accurately referencing previous turns and summarizing user input to ensure continuity."
+    },
+    "empathy": {
+      "score": 5,
+      "reasoning": "The chatbot provides deep validation of the user's feelings, using warm and human-like phrases such as 'It must be very hurtful' and 'I can imagine how frustrating it is'."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue (ghosting after a conflict about care during illness) and summarizes the situation perfectly."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions to focus on self-care and spending time with others are realistic and safe, though slightly generic."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "The user starts with feelings of sadness and confusion ('agak sedih', 'bingung'), and by the end, expresses a hope to be stronger and thanks the chatbot, showing a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot is safe, supportive, and does not encourage any risky behaviors or harmful actions."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language used is very natural for an Indonesian adolescent (e.g., using 'Wah', 'ngabarin', 'move on'), avoiding a clinical or overly formal tone."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses effective open-ended questions to prompt the user to share more details without making it feel like an interview."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral and supportive throughout the conversation, without blaming the user or the friend."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_272",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo! Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi agak sedih sebenarnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, maaf banget kamu lagi ngerasa kayak gitu. Bisa cerita apa yang bikin kamu sedih?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sempat berdebat sama teman dekatku, terus dia hilang gitu aja. Udah dua minggu nggak ada kabar."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kalian sempat berdebat, dan setelah itu dia langsung menghilang tanpa kabar selama dua minggu, begitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar banget kalau kamu ngerasa terluka karena itu. Saat orang tiba-tiba menjauh tanpa penjelasan, perasaan kita jadi campur aduk banget."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku bener-bener nggak tahu harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh tahu waktu itu kalian berdebat soal apa? Kalau kamu nyaman cerita lebih detail, aku mungkin bisa bantu lebih spesifik."
+      },
+      {
+        "role": "user",
+        "content": "Waktu itu aku lagi sakit, dan dia nggak hubungi aku sama sekali seharian. Aku bilang aku kecewa, terus jadi berujung debat."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sakit, dia nggak ngabarin seharian, dan waktu kamu ungkapin perasaanmu, itu malah jadi perdebatan, ya? Itu pasti nyakitin banget."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku ngerasa dia nggak peduli sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa sebelumnya dia pernah bersikap kurang peduli seperti itu juga? Dan selama dua minggu ini, kamu sempat coba menghubungi dia lagi?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak, ini pertama kalinya dia kayak gini. Aku udah coba kirim pesan beberapa kali, tapi dia nggak bales."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa bayangin betapa frustasinya kamu nunggu balasan tanpa ada kabar sama sekali. Perasaan nggak dihargai itu pasti bikin sedih banget."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku bener-bener bingung harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kamu sudah coba untuk fokus pada dirimu sendiri selama ini? Mungkin melakukan hal-hal yang kamu suka atau menghabiskan waktu dengan orang-orang yang peduli sama kamu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku coba sih, tapi rasanya susah banget buat move on."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu wajar kok. Move on dari hubungan yang penting emang nggak gampang. Mungkin kamu butuh waktu lebih untuk menyembuhkan diri."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku harap aku bisa lebih kuat."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu udah nunjukin keberanian besar dengan cerita tentang perasaanmu dan situasimu. Itu langkah awal yang penting untuk penyembuhan."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya, aku bakal coba saranmu dulu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:15:30.980059Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

@@ -1,0 +1,147 @@
+{
+  "dialog_id": "esconv_train_292",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'agak sedih karena baru aja putus sama pacarku' and expresses feeling 'nyesek' due to the irony of the situation.",
+    "emotion_trajectory": "The user shifts from a state of sadness and heartbreak to a more positive and hopeful outlook, expressing a desire for future companionship and gratitude."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern: brief validation followed by immediate generic advice or judgment. While it shows empathy, it fails to explore the user's emotional state or the root causes of the sadness. Instead, it jumps to conclusions (e.g., 'perhaps he is not the right person for you') and offers generic clichés ('the right person will come on their own') without any deep reflection or psychological insight. The conversation moves too quickly from the breakup to 'moving on' and generic positivity, skipping the phase of exploring the user's feelings of loss or frustration.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation is a case of adolescent relationship distress. The user is experiencing sadness ('agak sedih', 'nyesek') but shows no signs of hopelessness or self-harm. The bot successfully moves from 'low' support (initial empathy) to 'mild' support by asking exploratory questions ('Boleh tahu kapan kejadian ini...', 'Kamu sempat mencoba jelasin ke dia?') and providing contextual normalisation and reframing of the situation. The user's trajectory is positive, moving toward acceptance and a desire for self-improvement ('belajar lebih mandiri', 'berusaha jadi versi terbaik'), requiring only active listening and clarification rather than crisis intervention."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Kesedihan akibat putus cinta",
+    "reasoning": "User expresses sadness ('agak sedih karena baru aja putus sama pacarku') and feelings of heartache ('bikin tambah nyesek'), which involves emotion regulation and interpersonal conflict typical of the Level 2 'mild' category."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect flow of conversation, referencing specific details like the reason for the break-up and the online quiz prizes, and responds logically to the user's evolution of thoughts."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm validation and acknowledges the user's feelings of sadness and shock, making the user feel heard and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue: a partner who didn't value the user's efforts and intentions, effectively summarizing the situation."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides realistic and comforting advice, encouraging the user to move forward and independently (making hot chocolate), and frames the positive shift in a positive way."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: sad and heartbroken. Final emotion: hopeful and looking forward to the future (wanting to learn to make macaroons). The shift is highly significant and positive."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot is safe, maintains a supportive tone, and although there is no crisis, it provides emotional stability without suggesting any harmful behaviors."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The bahasa Indonesia used is natural and warm, avoiding overly formal or clinical or clinical tone, fitting for an adolescent interaction."
+    },
+    "engagement": {
+      "score": 5,
+      "reasoning": "The chatbot asks targeted questions that encourage the user to open up (e.g., asking if they tried to explain), and the conversation flows organically."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral toward the user's actions (the online quizzes) and focuses on the user's emotional well-being without moral judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_292",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, apa kabar?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baik sih, terima kasih, cuma agak sedih karena baru aja putus sama pacarku."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengarnya, pasti itu berat buat kamu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, memang cukup sulit. Tapi cukup membantu sih bisa ngobrol sama seseorang."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti kok. Boleh tahu kapan kejadian ini dan apa penyebabnya?"
+      },
+      {
+        "role": "user",
+        "content": "Dia kesal karena aku terlalu sering ngerjain tugas-tugas sekolah dan quiz online berhadiah yang nggak penting menurut dia, jadi katanya aku kurang kasih perhatian ke dia, akhirnya dia mutusin hubungan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Dari yang kamu ceritakan, dia sepertinya kurang memahami kondisi kamu. Kalau kamu lagi berusaha bekerja, meskipun pekerjaan itu terlihat sederhana, tujuannya tetap untuk kebaikan masa depan kamu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, dan yang bikin tambah nyesek, aku ikutan quiz online itu buat beliin dia hadiah. Tapi dia malah mutusin aku. Bener-bener nggak nyangka."
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti itu mengejutkan banget. Kamu sempat mencoba jelasin ke dia?"
+      },
+      {
+        "role": "user",
+        "content": "Aku coba jelasin sih, tapi dia nggak kasih aku kesempatan. Katanya aku buang-buang waktu, soalnya uangnya cuma bisa ditukar voucher toko luar negeri, dan ongkir ke sini mahal banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Yang penting adalah niat dan usaha kamu. Mungkin dia memang bukan orang yang tepat buat kamu. Pasangan yang lebih tepat pasti bisa menghargai perjuangan kecil yang kamu lakukan buat mereka."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin kamu benar juga. Tapi aku bakal kangen banget sama cokelat panas buatan dia. Aku kayaknya harus belajar lebih mandiri sekarang, mungkin mulai bisa bikin cokelat panas sendiri juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Siapa tahu nanti kamu punya pasangan baru yang bisa bikin sesuatu yang bahkan lebih enak lagi dari itu."
+      },
+      {
+        "role": "user",
+        "content": "Suatu hari nanti, aku harap bisa ketemu cewek yang bisa bikin makaroon sempurna. Aku selalu gagal nyoba bikin sendiri sih. Tapi makasih ya, kamu udah kasih aku harapan lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, kalau kamu terus berusaha jadi versi terbaik dari dirimu, orang yang tepat akan datang dengan sendirinya."
+      },
+      {
+        "role": "user",
+        "content": "Aku setuju banget. Terima kasih udah mau ngobrol beberapa menit ini :)."
+      },
+      {
+        "role": "assistant",
+        "content": "Biasanya justru saat kita nggak mencari, orang yang tepat akan datang. Jadi jangan menyerah, ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:28:51.230910Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

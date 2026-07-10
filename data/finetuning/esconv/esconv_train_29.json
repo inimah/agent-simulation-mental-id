@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_train_29",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "satisfied",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku merasa sedih hari ini' and describes having sleep issues that happen every night.",
+    "emotion_trajectory": "The user's emotion shifts from sadness and helplessness regarding insomnia to a state of satisfaction and positivity after receiving and implementing yoga suggestions."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a very linear and predictable path: minimal validation ('Maaf mendengarnya', 'Itu pasti melelahkan') followed immediately by a transition to solutions. It skips the exploration phase entirely; it doesn't ask why the user has sleep issues or what is causing the sadness mentioned in the first turn. The advice given is generic (meditation, yoga, chamomile tea, no phone) and not contextualized to the user's specific situation. The overall flow is a 'quick fix' approach rather than a therapeutic process.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "low",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user mentions feeling 'sedih' (sad) and having 'masalah tidur' (sleep problems), but these are not crisis signals. The dialogue progresses from simple acknowledgement of the user's sadness to basic lifestyle advice (yoga, meditation, sleep hygiene), and the user reports positive outcomes. There is no evidence of hopelessness, self-harm, or extreme distress that would require a 'mild' (deep exploratory exploration) or 'high' (crisis intervention) level of support."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "aktivitas_harian_dan_gaya_hidup",
+    "primary_topic": "Mengatasi masalah tidur dengan perubahan gaya hidup",
+    "reasoning": "User mentions ' Aku punya masalah tidur' and 'terjadi setiap malam', but the conversation remains focused on lifestyle habits (yoga, meditation, gadget use) without signs of clinical insomnia or psychological distress that would require professional escalation."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow throughout the conversation, remembering that the user has sleep issues and following up on the yoga suggestion."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating language ('It must be tiring') and expresses genuine happiness when the user succeeds."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core issue as insomnia/sleep problems and focuses its interventions accordingly."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The provided suggestions (meditation, avoiding screens, chamomile tea) are practical, safe, and appropriate for a mild sleep issue."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: sadness/exhaustion. Final emotion: positive/motivated. The user shifts from feeling sad to actively trying a solution and feeling happy with the results."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, non-invasive suggestions and encourages the user to return if the problem persists, without ignoring potential risks."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is warm and natural for Indonesian adolescents, avoiding overly clinical language while remaining polite."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their progress and asks follow-up questions that make the user feel supported."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's condition without judgment and provides support in a purely supportive and encouraging manner."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_29",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa sedih hari ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengarnya. Apakah ada alasan khusus kenapa kamu merasa sedih hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya. Aku punya masalah tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti melelahkan, tapi kita bisa cari cara supaya tidurmu bisa lebih nyenyak. Apakah ini terjadi setiap malam?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, ini terjadi setiap malam."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu tidak keberatan, aku bisa kasih beberapa saran yang mungkin bisa membantu. Boleh?"
+      },
+      {
+        "role": "user",
+        "content": "Boleh. Aku siap menerima saran dari kamu."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba deh latihan meditasi ringan atau yoga, dan hindari menggunakan HP setidaknya satu jam sebelum tidur. Minum teh hangat seperti teh chamomile juga bisa membantu menenangkan pikiran sebelum tidur."
+      },
+      {
+        "role": "user",
+        "content": "Oke, itu saran yang sangat bagus. Aku pasti akan coba."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang kamu terbuka untuk mencoba. Kalau nanti masih kesulitan tidur, silakan hubungi aku lagi, aku akan siap bantu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, pasti. Terima kasih banyak atas bantuannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Semoga harimu menyenangkan."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih."
+      },
+      {
+        "role": "assistant",
+        "content": "Tetap jaga dirimu baik-baik, dan mungkin bisa coba tidur siang sebentar buat menambah energi juga."
+      },
+      {
+        "role": "user",
+        "content": "Aku memutuskan mau mulai yoga supaya bisa tidur lebih nyenyak."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, bagus banget. Gimana hasil latihannya?"
+      },
+      {
+        "role": "user",
+        "content": "Latihannya enak dan berjalan lancar."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang dengarnya! Teruskan latihan yoganya ya kalau memang terasa membantu."
+      },
+      {
+        "role": "user",
+        "content": "Oke. Makasih, semangat juga buat kamu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:26:24.203709Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

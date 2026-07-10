@@ -1,0 +1,163 @@
+{
+  "dialog_id": "esconv_test_69",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Aku merasa sangat sedih dan kesepian' and expresses regret over a breakup.",
+    "emotion_trajectory": "The user shifts from sadness and anxiety about losing a partner to a state of calm reflection and insight, realizing they missed the status rather than the person."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured flow: it starts with validation ('Itu hal yang bisa terjadi'), then moves into a detailed exploration phase. It avoids giving immediate solutions to the user's 'how to get him back' questions, instead using socratic questioning ('menurutmu kira-kira dia bakal bereaksi seperti apa?') to let the user reach their own conclusions. It effectively digs for the root cause of the user's desire to return (status vs. personal connection), moving from symptoms (regret/sadness) to the source (the need to feel 'seen' through a popular partner). The chatbot only provides a final piece of advice at the end after the user has reached a personal epiphany.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is dealing with a relationship breakup and feelings of regret and loneliness, but there are no expressions of hopelessness or self-harm (no crisis signals). The bot uses active listening and exploratory questioning (e.g., 'Menurutmu, apa dia terbuka untuk ngobrol seperti itu?' and 'Jadi kamu lebih merasa senang karena punya pacar yang populer daripada perasaanmu waktu bersamanya, ya?'). The bot helps the user realize their motivation for wanting the relationship back was based on status rather than love, moving through a process of clarification and reflection that fits the mild support level."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "regret after breakup and reflection on relationship motives",
+    "reasoning": "The user expresses sadness, loneliness, and a desire to reconcile with an ex-partner. The conversation focuses on interpersonal conflict and social dynamics (friends' dislike and parental disapproval). While emotionally heavy, it does not indicate clinical symptoms or crisis, making it a Level 2 (mild) topic concerning romantic relationships and social interpersonal issues."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a perfect flow, referencing the user's need to reconcile and then pivoting to an exploration of the user's true motivations."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and validating, though it transitions into a slightly more analytical tone as it helps the user reflect on their motivations."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies that the user is more attached to the social status of the partner than the actual partner's personality or care."
+    },
+    "intervention": {
+      "score": 5,
+      "reasoning": "The intervention is highly adaptive; it shifts from giving communication advice to facilitating deep self-reflection, which leads to a breakthrough."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: sadness and regret; final emotion: clarity and enlightenment. The user shifts from desperate desire to reconcile to realizing they don't actually miss the person."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, non-confrontational advice and prevents the user from potentially pursuing an unhealthy relationship."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, appropriate for an Indonesian adolescent, and avoids being overly clinical or formal."
+    },
+    "engagement": {
+      "score": 5,
+      "reasoning": "The chatbot uses excellent open-ended questions to encourage the user to explore their feelings deeper, rather than just providing quick fixes."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "Even when the user admits to liking the partner's popularity over his personality, the chatbot remains neutral and guides the user to their own realization without shaming."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_69",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa sangat sedih dan kesepian. Aku yang memutuskan hubungan dengan pacarku, tapi sekarang aku menyesal. Dia nggak mau balikan lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengar itu. Kadang kita merasa yakin dengan keputusan, tapi setelah dijalani terasa berbeda dan menyesalinya. Itu hal yang bisa terjadi."
+      },
+      {
+        "role": "user",
+        "content": "Iya, itu persis yang aku rasakan. Aku putus sama dia karena sempat suka orang lain, tapi ternyata kayaknya aku salah. Aku pengin balikan. Apa aku harus mulai hubungi dia atau datangi langsung untuk minta maaf?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu yang paling tahu bagaimana sikap dia selama ini. Tapi kalau kamu menekannya terlalu cepat, menurutmu kira-kira dia bakal bereaksi seperti apa?"
+      },
+      {
+        "role": "user",
+        "content": "Aku belum benar-benar mikir sejauh itu. Dia orangnya gampang marah. Dan sekarang dia lagi kesal banget sama aku. Mungkin dia bakal marah dulu sebelum mau dengerin aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa mulai dari pendekatan yang tenang, misalnya kirim pesan dulu dan jujur tentang perasaanmu, tanpa maksain dia buat langsung jawab atau memaafkan."
+      },
+      {
+        "role": "user",
+        "content": "Iya, itu masuk akal. Tapi aku juga khawatir, soalnya aku lihat dia di media sosial udah dideketin cewek-cewek lain. Aku gak mau kehilangan dia duluan sebelum aku sempat memperbaikinya. Aku siap kok ngelakuin apa aja supaya dia mau balikan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba tanyakan dengan tenang apakah dia mau ngobrol baik-baik, supaya kalian bisa saling menyampaikan perasaan tanpa marah-marah atau saling menyalahkan. Menurutmu, apa dia terbuka untuk ngobrol seperti itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku akan coba. Mungkin dia bisa diajak ngobrol asal nggak aku bikin emosi. Tapi sekarang semua temannya pada benci aku. Nggak ada satu pun yang dukung aku. Haruskah aku coba baikin hubunganku sama teman-temannya juga? Apa itu bisa jadi cara buat dia mau kembali?"
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutku, masalah ini cuma bisa diselesaikan antara kamu dan dia dulu. Kalau hubungan kalian membaik, biasanya orang di sekitarnya juga bisa berubah sikap. Yang penting, yakinkan dirimu dulu apakah kamu benar-benar mau hubungan ini kembali."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku ngerti maksudmu. Aku kayaknya memang harus pikirin ini dan bicara baik-baik dengan dia terlebih dulu."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh tanya sesuatu? Hal apa yang bikin kamu awalnya tertarik sama pacarmu yang sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Kami tinggal di kota kecil, dan dia itu cowok paling populer dan ganteng. Aku suka aja punya pacar yang terkenal. Tapi kadang dia nggak terlalu baik ke aku. Dia sering ninggalin aku di acara kumpul dan main bareng temen-temennya."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi, itu kejadian yang sering terjadi? Kamu merasa nggak dapat perhatian yang kamu butuhkan?"
+      },
+      {
+        "role": "user",
+        "content": "Teman-temanku juga selalu bilang aku bisa dapat yang lebih baik dan dia nggak pantas buat aku. Tapi aku merasa bangga aja punya pacar yang diidolakan semua orang. Jadi mungkin aku lebih suka dengan statusnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu lebih merasa senang karena punya pacar yang populer daripada perasaanmu waktu bersamanya, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku memang suka punya pacar yang disukai semua orang. Orang tuaku juga nggak suka dia dan dari dulu nggak setuju kami pacaran."
+      },
+      {
+        "role": "assistant",
+        "content": "Sepertinya kamu lebih terikat pada status punya pacar yang terkenal daripada hubungan itu sendiri, ya? Kalau mengingat waktu bersamamu dengannya, apakah kamu rela mengulanginya jika diberi kesempatan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku belum pernah melihatnya dari sisi itu. Kamu kasih banyak perspektif yang baru buat aku. Sekarang pas aku pikir tentang dia, ternyata aku lebih kangen perasaan jadi 'terlihat', bukan karena aku kangen dia sebagai pribadi."
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutku, popularitas itu bukan segalanya. Coba pikirkan, bagaimana kamu ingin diperlakukan dan bagaimana rasanya saat kamu bersama seseorang. Karena pada akhirnya, yang penting itu perasaan dan kebahagiaanmu sendiri. Semoga kamu menemukan yang terbaik, ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:11:26.733691Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

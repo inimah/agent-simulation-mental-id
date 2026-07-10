@@ -1,0 +1,151 @@
+{
+  "dialog_id": "esconv_train_189",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'aku lagi sedih banget' (I'm very sad) and 'Aku merasa sangat sedih dan kesepian' (I feel very sad and lonely) following a breakup.",
+    "emotion_trajectory": "The user moves from a state of deep sadness and desperation (considering alcohol) to a state of relative peace and relief, explicitly stating 'sekarang aku udah agak tenang' (now I'm a bit calmer)."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow. While it provides initial validation, it transitions to advice and solutions far too quickly (premature suggestion). After the user mentions the break-up, the chatbot immediately suggests hobbies and sports without exploring why the user feels 'kacau' or the root causes of the conflict. The reflections are surface-level echoes. Furthermore, the advice provided (hobbies, avoid alcohol, limit social media) is generic, template-like, and not deeply personalized to the user's specific emotional state or psychological patterns. There is no phase of deep exploration or psychoeducation regarding grief or attachment.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing significant emotional distress due to a breakup after a 4-year relationship, reflecting typical adolescent adolescent relationship issues. While the user mentions using alcohol as a coping mechanism ('minum alkohol bisa membantu?'), this is framed as a question/desire for escape rather than an explicit expression of self-harm or suicidal ideation. The bot handles this by validating the emotion and explaining the risks without escalating to a crisis level. The conversation remains in the 'mild' spectrum as it focuses on active listening, clarification and coping strategies (like avoiding social media stalking and avoiding alcohol), and the user eventually reports feeling 'agak tenang' (somewhat calm) and 'lega' (relieved) by the end."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "perilaku_berisiko_remaja",
+    "primary_topic": "Dealing with breakup and considering alcohol use",
+    "reasoning": "The user mentions 'minum alkohol bisa membantu?' and 'pengen minum biar bisa lupa semuanya' while in a high state of emotional distress. Although the user eventually calms down, the consideration of substance use as a coping mechanism in an adolescent context constitutes a 'perilaku berisiko' (risky behavior), which elevates the risk level to High."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent flow, correctly referencing the duration of the relationship and the user's current struggle with moving on."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating phrases like 'Pasti berat buat kamu' and shows genuine concern for the user's emotional state."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the core problem as a breakup after a long-term relationship and the difficulty of letting go."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides concrete, realistic advice such as limiting social media access and establishing new routines to cope with the loss."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: deep sadness and loneliness. Final emotion: feeling calmer and relieved. The user explicitly states they feel 'agak tenang' and 'lega'."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot immediately and firmly discourages the user from using alcohol as a coping mechanism, highlighting risks for minors without being judgmental."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is warm and natural, using appropriate Indonesian adolescent language that is supportive without sounding overly clinical or robotic."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up about their reasons for the breakup and handles the user's queries with targeted responses."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot handles the sensitive topic of alcohol and secret social media accounts without shaming the user, focusing instead on the user's wellbeing."
+    }
+  },
+  "overall_curriculum_difficulty": 3,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_189",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai, aku lagi sedih banget, semuanya terasa kacau akhir-akhir ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Halo... maaf banget mendengarnya. Boleh aku tahu lebih lanjut tentang apa yang terjadi?"
+      },
+      {
+        "role": "user",
+        "content": "Aku dan pacarku putus setelah pacaran selama 4 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, aku turut sedih dengarnya. Gimana perasaan kamu sekarang? Sedih? kesepian?"
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa sangat sedih dan kesepian. Aku sayang banget sama dia. Harus gimana ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti berat buat kamu. Empat tahun bukan waktu yang sebentar."
+      },
+      {
+        "role": "user",
+        "content": "Iya, makasih. Dia bilang aku cuek sama dia dan akhirnya kami bertengkar hebat. Kami udah nggak ngobrol sebulan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu bisa, coba alihkan dulu fokus kamu ke hal-hal yang kamu suka. Mungkin dengan kegiatan seperti hobi atau olahraga bisa bantu kamu merasa lebih baik."
+      },
+      {
+        "role": "user",
+        "content": "Menurut kamu, minum alkohol bisa membantu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Minum alkohol mungkin bisa bikin lupa sesaat, tapi biasanya malah bikin perasaan jadi makin rumit setelahnya dan kecanduan. Lebih baik hindari cara itu dan cari yang lebih sehat."
+      },
+      {
+        "role": "user",
+        "content": "Aku cuma pengen minum biar bisa lupa semuanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang godaan itu ada saat kita lagi frustrasi atau sedih. Tapi akan jauh lebih baik kalau kamu hadapi rasa itu dengan cara yang bantu kamu tumbuh. Misalnya nulis perasaanmu atau curhat ke orang yang kamu percaya. Khawatirnya alkohol justru memperburuk keadaan. Belum lagi efek jangka panjangnya dan reaksi keluarga terdekat, sekolah, atau pihak berwenang kalau kamu sampai ketahuan minum alkohol di bawah umur."
+      },
+      {
+        "role": "user",
+        "content": "Gimana caranya biar aku nggak terus mikirin dia?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa mulai dari membatasi hal-hal yang bikin kamu makin kepikiran dia, misalnya mengecek media sosialnya. Ganti rutinitas kamu dengan hal-hal baru, atau buat jadwal harian supaya pikiran kamu tetap sibuk dan terarah."
+      },
+      {
+        "role": "user",
+        "content": "Aku masih lihat akun dia pakai akun rahasia. Menurutmu itu ide yang bagus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Memantau dia terus justru bisa bikin kamu sulit move on. Pelan-pelan coba kurangi kebiasaan itu. Fokus ke dirimu sendiri dulu sepenuhnya saat ini, karena proses sembuh itu penting."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin nanti kalau waktunya pas, aku bisa balik lagi sama dia. Tapi sekarang aku udah agak tenang. Makasih ya, ngobrol ini bikin lega."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Senang bisa bantu kamu merasa sedikit lebih tenang. Jangan ragu cerita lagi kapan pun kamu butuh ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:57:36.720322Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

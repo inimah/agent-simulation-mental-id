@@ -1,0 +1,179 @@
+{
+  "dialog_id": "esconv_test_27",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses nervousness ('gugup') and fear ('takut') regarding their upcoming deadlines and exams, accompanied by a feelings of disappointment in themselves.",
+    "emotion_trajectory": "The user shifts from a state of anxiety and self-doubt to a feeling of relief and gratitude after receiving practical study tips and emotional support."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern of brief validation followed by immediate, generic advice. While it reflects the user's first concern, it provides a solution (study schedule) in the third turn, before exploring why the user procrastinates or the emotional root of the 'fear' mentioned. Advice such as 'atur waktu belajar,' 'belajar 1 sesi 1 jam,' and 'olahraga ringan' are template-like and not deeply contextualized. Even when the user mentions a deeper systemic issue (the pandemic changing their habits), the bot responds with a generic 'Banyak kok yang ngalamin' and a vague suggestion to 'melihat sisi positif,' failing to move into 'engaging_insightful' or 'advanced_therapeutic' territory. The conversation lacks deep exploration of the root causes of the user's anxiety.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses moderate distress related to academic anxiety, time management, and self-disappointment ('merasa gugup', 'takut', 'agak kecewa sih sama diri sendiri'). The conversation moves from low-level acknowledgement to mild-level active listening and clarification (e.g., the bot's reflection on the user's nervousness about deadlines). The interaction is primarily a supportive dialogue focusing on practical coping strategies rather than a crisis. There are no indicators of hopelessness or self-harm, hence no safety referral was needed."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic stress and time management due to deadlines",
+    "reasoning": "The user expresses nervousness about school assignments and exams ('gugup karena ada beberapa tenggat tugas dan dua ujian'), admits to procrastination ('aku kadang suka menunda-nunda'), and seeks strategies for learning and focus ('punya strategi belajar yang bisa bisa diikuti?'). These are normative adolescent academic pressures with no signs of clinical distress or safety risks."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot remains consistent throughout the conversation, accurately referencing the user's academic stress and the specific distractions like social media and phones."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot is warm and validating, especially when acknowledging the user's desire to improve themselves and normalizing the post-pandemic focus issues."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies both the external pressure (exams/deadlines) and internal struggles (procrastination/distraction), grasping the core issue perfectly."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions provided—such as the 1-hour session without a phone, using a timer, and light exercise—are realistic, safe, and contextually appropriate for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion was nervousness and self-disappointment; final emotion is feeling relieved and optimistic. There is a clear positive shift as the user feels heard and empowered."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe advice, encourages healthy habits (like moderation in caffeine), and avoids any harmful suggestions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language used is natural, warm, and fits the typical tone of an Indonesian adolescent without being overly formal or clinical."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions and validation to keep the user talking, allowing the user to elaborate on their history with focus and the impact of the pandemic."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental, specifically when the user admits to procrastination and dependency on social media/games."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_27",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, gimana perasaanmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Halo, sejauh ini aku baik-baik aja, tapi aku merasa gugup karena ada beberapa tenggat tugas dan dua ujian yang harus aku kerjakan sampai akhir bulan ini dan bulan depan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu merasa gugup karena tugas sekolahmu menumpuk bulan ini dan kamu khawatir nggak bisa menyelesaikannya dengan baik, begitu ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya bener, aku juga takut kalau hasilnya nanti nggak sesuai harapan karena waktunya sempit dan aku kadang suka menunda-nunda. Rasa takut itu makin muncul kalau ingat semua tenggat yang makin dekat. Kayaknya aku butuh rasa optimis dan semangat baru biar bisa kerja lebih keras dan hasilnya bagus."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba atur waktu belajar dengan lebih disiplin, bikin jadwal belajar harian dan usahakan konsisten. Cara itu bisa bantu mengurangi stres. Gimana menurutmu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah mencoba seperti itu sih, cuma kadang tetap terdistraksi sama media sosial. Tapi aku setuju, bikin jadwal itu cukup membantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus banget kamu sudah mau usaha. Kalau kamu bisa lebih fokus lagi, aku yakin kamu bisa kok menyelesaikannya dengan baik."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga merasa kalau minum kopi itu bikin aku lebih fokus dan semangat, jadi kadang itu membantu. Makasih ya udah percaya aku bisa."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, kafein bisa membantu meningkatkan fokus kalau tidak dikonsumsi berlebihan."
+      },
+      {
+        "role": "user",
+        "content": "Selain rasa takut, aku juga agak kecewa sih sama diri sendiri. Oh iya, kamu punya strategi belajar yang bisa diikuti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, salah satu cara yang aku sarankan adalah belajar dalam sesi 1 jam tanpa pegang HP. Kamu bisa setel timer di komputer dan jauhkan HP untuk kurangi godaan scrolling social media."
+      },
+      {
+        "role": "user",
+        "content": "Iya benar banget. HP juga gangguan besar buat aku. Dengar-dengar memang sebaiknya dijauhkan dari jangkauan. Pakai timer ide bagus juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Ada hal lain yang masih kamu pikirkan?"
+      },
+      {
+        "role": "user",
+        "content": "Mudah-mudahan setelah dua pelajaran ini selesai aku bisa lebih optimis dan siap ambil pelajaran baru setelah tahun baru dengan semangat baru. Selain itu, ya masih soal tekanan pelajaran dan cara ngatur waktu belajar aja sih."
+      },
+      {
+        "role": "assistant",
+        "content": "Kedengarannya kamu benar-benar ingin berkembang dan bantu diri sendiri jadi lebih baik, itu langkah yang bagus."
+      },
+      {
+        "role": "user",
+        "content": "Iya, soalnya dulu aku nggak mudah terdistraksi dan belajar bisa lebih fokus. Tapi sejak pandemi juga jadi makin banyak gangguannya, mungkin karena kebanyakan di rumah terus. Belum lagi ada media sosial dan game yang bikin aku makin susah fokus."
+      },
+      {
+        "role": "assistant",
+        "content": "Banyak kok yang ngalamin hal yang sama. Yang penting coba melihat sisi positif dan pelan-pelan bangun kembali rutinitasmu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, Terima kasih ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau lagi stres, coba cari aktivitas penenang seperti olahraga ringan atau meditasi, itu bisa bantu pikiran jadi lebih tenang."
+      },
+      {
+        "role": "user",
+        "content": "Iya, mungkin bisa aku coba. Aku sih biasa olahraga, cuma akhir-akhir ini agak jarang karena sibuk tugas sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Olahraga emang bagus buat kesehatan mental. Coba deh mulai lagi pelan-pelan, misalnya jalan kaki 15 menit tiap hari."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku coba. Makasih banget udah dengar curhatanku."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, kadang kita memang cuma butuh tempat untuk bicara dan meluapkan pikiran."
+      },
+      {
+        "role": "user",
+        "content": "Masukanmu sangat membantu dan bisa bikin aku lega setelah cerita panjang lebar. Makasih banyak ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu saja! Sama-sama! Senang bisa membantu kamu. Jangan ragu buat cerita lagi kapan pun kamu butuh teman ngobrol."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:39:26.044384Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

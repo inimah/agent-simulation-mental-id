@@ -1,0 +1,175 @@
+{
+  "dialog_id": "esconv_train_124",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "high",
+    "reasoning": "The user expresses frustration regarding academic pressure and uncooperative group members, stating 'Aku bingung banget sama anggota kelompokku yang gak kerja sama' and 'Aku juga jadi bingung harus prioritaskan proyek yang mana dulu'.",
+    "emotion_trajectory": "The user moves from a state of stress and frustration to a state of relief and gratitude after being heard, explicitly thanking the bot several times at the end."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable path of surface-level validation followed by immediate, generic suggestions. While it acknowledges the user's feelings (e.g., 'Aku mengerti'), the reflections are primarily echoes of the user's words rather than deep exploration. The chatbot offers advice—suggesting a friend or a school counselor—prematurely, without first exploring the root causes of the user's stress or the dynamics of the user's group projects. The interaction remains at the surface level of the symptoms (feeling stressed) rather than the causes, and the final wrap-up is generic.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing academic stress and interpersonal conflict in group projects, which fits the 'mild' level. The bot uses active listening, reflections ('Sepertinya proyek kelompok jadi salah satu hal yang paling berat'), and clarification ('Jadi, saat ini kamu merasa sedang menghadapi tekanan akademik ini sendirian, ya?'). While the bot suggests a school counselor, this is a professional referral for general support rather than a crisis safety referral, as there were no signals of hopelessness or self-harm."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic pressure and stress due to group projects",
+    "reasoning": "The user expresses stress over school tasks ('tekanan belajar', 'beban tugasku') and difficulties with group projects, but does not show clinical symptoms or risk of self-harm."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a smooth, logical flow of conversation, accurately referencing the user's struggles with group projects and academic pressure."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating language ('It must be overwhelming', 'I understand') and shows genuine concern for the user's feelings."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies the primary stressors: the volume of projects, dysfunctional group members, and the feeling of isolation in facing these problems."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot suggests talking to a friend or a school counselor, which are realistic and safe suggestions tailored to the user's context as a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: stressed and overwhelmed. Final emotion: feeling lighter and relieved. The user explicitly states that talking helped them feel 'lebih ringan' (lighter)."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, appropriate suggestions and suggests professional help (school counselor) when the user expresses that they cannot talk to family or friends."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is warm and natural, using modern Indonesian that is appropriate for a teenager without being overly formal or clinical."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions and reflective listening to encourage the user to open up, leading to a user who feels heard."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains completely neutral and accepting, validating the user's fear of the counselor and the family's pressure without judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_124",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo. Aku mau ngobrol soal tekanan belajar yang aku alami."
+      },
+      {
+        "role": "assistant",
+        "content": "Hai. Tekanan akademik seperti apa yang sedang kamu rasakan saat ini?"
+      },
+      {
+        "role": "user",
+        "content": "Kelasnya banyak banget dan tuntutannya juga besar. Terutama proyek kelompok. Aku perlu seseorang buat diajak cerita tentang stres dan beban tugasku. Aku bingung banget sama anggota kelompokku yang gak kerja sama."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti. Sepertinya proyek kelompok jadi salah satu hal yang paling bikin kamu stres. Apakah begitu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya. Ada sekitar 3 mata pelajaran yang semuanya minta proyek kelompok."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti bikin kamu kewalahan, apalagi harus kerja sama dengan orang lain yang belum tentu sejalan."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga jadi bingung harus prioritaskan proyek yang mana dulu."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku paham. Sepertinya memang terlalu banyak hal yang kamu hadapi saat ini."
+      },
+      {
+        "role": "user",
+        "content": "Iya benar. Apa yang bisa aku lakukan supaya pikiranku lebih tenang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pernah terpikir buat ngobrol dengan teman dekat atau orang yang kamu percaya?"
+      },
+      {
+        "role": "user",
+        "content": "Belum sih. Aku takut ngomong ke keluarga, soalnya mereka sangat menekankan nilai bagus. Teman-temanku juga lagi banyak masalah sendiri, aku nggak mau nambahin beban mereka."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi, saat ini kamu merasa sedang menghadapi tekanan akademik ini sendirian, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya capek banget dan berat."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, mungkin kamu bisa pertimbangkan untuk bicara dengan konselor sekolah?"
+      },
+      {
+        "role": "user",
+        "content": "Mungkin saja. Tapi rasanya canggung dan menakutkan juga untuk datang ke konselor."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti, memang nggak semua orang nyaman untuk melakukan itu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih sudah mendengarkan dan mau ngobrol sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu saja. Kadang kita memang perlu tempat untuk bercerita agar terasa sedikit lebih lega."
+      },
+      {
+        "role": "user",
+        "content": "Rasanya memang lebih ringan setelah cerita barusan."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang mendengarnya. Sepertinya ini semua sudah lama kamu pendam, ya? Mengeluarkannya bisa sangat membantu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, sangat membantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Ada hal lain yang ingin kamu bicarakan hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak ada sih. Terima kasih banyak ya udah mau ngobrol!"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, aku senang bisa membantu."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:13:14.250085Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

@@ -1,0 +1,143 @@
+{
+  "dialog_id": "esconv_test_7",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly mentions feeling 'sangat cemas' (very anxious) about their future and school burdens, which results in difficulty sleeping.",
+    "emotion_trajectory": "The user's emotion shifts from an anxious and worried state to a calmer and more satisfied state after receiving practical suggestions and feeling heard."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable sequence of giving advice without any exploration of the root cause of the anxiety (the academic burden mentioned by the user). It provides generic tips (sleep routine, breathing, journaling, chamomile tea) immediately after the user asks for help, without trying to understand why the school burden is causing such extreme anxiety. The interaction is surface-level; the user's emotional state is validated briefly, but the chatbot never probes deeper into the specific stressors of the same anxiety, operating as a tip-provider rather than a counselor.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is expressing anxiety and insomnia due to school pressure, which falls under 'mild' as it is a real problem requiring active listening and clarification. The bot provides practical suggestions and a cautionary note about sleeping pills (consulting a doctor), but there are no crisis signals (no hopelessness or self-harm intent), so high support was not required."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "kecemasan_dan_gangguan_mood",
+    "primary_topic": "kecemasan akademik yang menyebabkan gangguan tidur",
+    "reasoning": "User expresses anxiety about the future, school burdens, and exams ('merasa sangat cemas soal masa depan, terutama karena beban sekolah dan ujian') which results in insomnia ('Jadinya aku susah tidur'). This falls under sub-clinical emotional distress and requires careful framing, fitting the 'mild' level."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, responding directly to the user's questions about anxiety and sleep, and accurately tracking the conversation history."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings ('Wah, itu memang berat') and remains warm and supportive throughout the interaction."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core issue: school-related anxiety leading to insomnia, and provides tailored suggestions."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides a variety of safe, concrete, and realistic suggestions (journaling, breathing, herbal tea) and prevents the use of medication without consultation."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: Anxious and struggling to sleep. Final emotion: Calmer and feeling supported. Significant improvement seen as the user explicitly states, 'ngobrol denganmu bikin aku lebih tenang sekarang'."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot correctly advises the user to consult a doctor or psychologist for sleeping medication, which is critical for adolescent mental health."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly clinical or clinical tone."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to explore different solutions and uses open-ended questions to keep the user engaged until they are satisfied."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot handles the user's concerns without any moral judgment or assumption, treating the user's anxiety as a valid experience."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_7",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, aku di sini untuk mendengarkan. Apa yang sedang kamu alami?"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Aku merasa sangat cemas soal masa depan, terutama karena beban sekolah dan ujian. Jadinya aku susah tidur."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu memang berat. Rasa cemas seperti itu bisa bikin susah istirahat."
+      },
+      {
+        "role": "user",
+        "content": "Menurut kamu, apa aja yang bisa ngurangin rasa cemas sebelum tidur?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba beberapa hal seperti membuat rutinitas santai sebelum tidur, hindari layar HP satu jam sebelum tidur, dan latihan pernapasan dalam. Mau coba salah satunya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku udah coba dengerin musik pelan, tapi tetap belum membaik. Ada saran lain, mungkin?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa coba journaling, yaitu menulis isi pikiranmu di buku catatan beberapa menit sebelum tidur. Menuliskan kekhawatiran bisa membantu pikiran lebih tenang. Penasaran ingin coba cara itu?"
+      },
+      {
+        "role": "user",
+        "content": "Boleh juga tuh, belum pernah coba nulis jurnal. Tapi kalau tetap susah tidur, apa perlu bantuan lain seperti obat tidur?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu masih remaja, pemakaian obat tidur sebaiknya dikonsultasikan dengan dokter atau psikolog dulu. Tapi banyak orang merasa terbantu dengan cara alami seperti minum teh hangat tanpa kafein atau menggunakan aromaterapi seperti lavender. Sudah pernah coba?"
+      },
+      {
+        "role": "user",
+        "content": "Belum sih, kayaknya menarik. Aku penasaran sama teh herbal itu. Kamu tahu merek atau jenis yang aman buat pelajar?"
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf, aku tidak punya informasi yang lengkap mengenai teh herbal. Aku tidak dilatih untuk itu. Tapi kamu bisa coba teh chamomile, biasanya tersedia di supermarket dan aman buat remaja. Tapi pastikan juga kamu cukup tidur dan tidak begadang karena main hp atau stres soal tugas. Tidur penting banget buat kesehatanmu."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, aku akan coba. Makasih banyak ya, ngobrol denganmu bikin aku lebih tenang sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Senang bisa sedikit bantu kamu. Ada hal lain yang ingin kamu bahas?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak sih, itu aja dulu :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Oke kalau begitu. Semoga malam ini kamu bisa tidur lebih nyenyak. Semangat terus ya, kamu pasti bisa melalui ini!"
+      },
+      {
+        "role": "user",
+        "content": "Sampai jumpa!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:14:13.964414Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

@@ -1,0 +1,143 @@
+{
+  "dialog_id": "esconv_train_253",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses deep distress and grief over a betrayal, stating 'Aku sangat terpukul' and 'Hampir setiap saat aku merasa sedih, bahkan sering menangis'.",
+    "emotion_trajectory": "The user moves from a state of heartbreak and sadness to a state of hope and empowerment, reflecting a positive shift towards self-worth and future healing."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable pattern: brief validation followed by quickly moving to a checklist-style approach. It moves to solution-giving (rescheduling hobbies/me-time) prematurely before exploring the root causes of the betrayal or the user's conflicting feelings of regret. The reflection is surface-level ('itu pasti sangat menyakitkan') and the advice to 'look at it from a positive side' is generic and doesn't dig deeper into the emotional nuance of a 5-year relationship ending. The transition from heartbreak to 'trying a hobby' happens far too rapidly, skipping the necessary therapeutic exploration phase of an engaging_insightful or advanced_therapeutic flow.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is processing a painful breakup after a long-term relationship, which involves significant distress ('sangat terpukul', 'sering menangis'). However, the user does not express hopelessness, suicidal ideation, or self-harm intent. The bot moves through the 'mild' spectrum by active listening, clarifying the emotional state, validating the user's decision to end the relationship, and helping the user reframe the experience ('masa belajar tentang dirimu sendiri'). The conversation concludes with the user identifying positive coping mechanisms (boating, painting) and expressing a- a sense of healing, moving from a state of sadness to a proactive mindset."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "dealing with betrayal and breakup in a long-term relationship",
+    "reasoning": "User expresses deep sadness and frequent crying due to infidelity in a 5-year relationship, but is moving towards healing and positive coping mechanisms."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow throughout the conversation, accurately referencing the user's situation and previous statements."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot provides warm and validating responses, making the user feel heard and acknowledged, although the question about frequency of crying may have felt slightly mechanical."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue of betrayal and heartbreak, validating the user's decision to end the relationship based on on trust issues."
+    },
+    "intervention": {
+      "score": 5,
+      "reasoning": "The contextually appropriate and realistic suggestions for 'me-time' and returning to old hobbies (painting, boating) are safe and helpful for the user's emotional recovery."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: Deeply heartbroken and regretful. Final emotion: Empowered and hopeful. There is a significant positive shift as the user moves from grief to a self-care plan."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids any dangerous content and provides a supportive, supportive environment throughout the conversation."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and warm, suitable for an Indonesian adolescent/young adult, although it remains slightly formal in some parts."
+    },
+    "engagement": {
+      "score": 5,
+      "reasoning": "The chatbot effectively encourages the user to open up by asking open-ended questions and validating the user'ss insights, leading to the user proactively sharing their hobbies."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental, focusing entirely on the user's feelings and and the user's strength in choosing self-respect over a toxic relationship."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_253",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aku lagi bener-bener ada di masa sulit dan butuh dukungan."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf banget kamu sedang mengalami ini. Apa yang terjadi sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Aku menjalin hubungan cukup lama, tapi akhirnya tahu dia suka sama cewek lain dan pacaran secara sembunyi-sembunyi. Aku sangat terpukul saat tahu fakta ini dan aku memutuskan untuk mengakhiri hubungan kami."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti, itu pasti sangat menyakitkan. Seberapa sering kamu merasa sedih atau menangis karena hal ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hampir setiap saat aku merasa sedih, bahkan sering menangis. Aku kadang nyesel sudah mutusin dia, tapi aku juga ngerasa nggak bisa bertahan sama orang yang aku nggak bisa percaya. Padahal dia selama ini selalu terlihat baik ke aku, jadi aku benar-benar nggak menyangka."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku pikir kamu sudah membuat keputusan yang kuat karena memilih menjaga dirimu dengan mengakhiri hubungan itu. Itu adalah hal yang membuat kamu layak untuk bangga."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak pernah berpikir dia akan menyakitiku seperti ini. Aku dulu pernah bilang setelah lulus sekolah dan sebelum kuliah, aku ingin tunangan dulu sama dia, tapi dia diem aja meski kami sudah pacaran selama lima tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf ya kamu harus mengalami ini... Mungkin kamu bisa mencoba melihat waktu yang kamu habiskan itu dari sisi yang lebih positif. Bukan sebagai waktu yang terbuang, tapi sebagai masa belajar tentang dirimu sendiri dan apa yang sebenarnya kamu butuhkan dalam hubungan. Gimana menurutmu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku juga tahu dia memang nggak pernah mau serius, jadi aku sadar sekarang bahwa aku lebih tahu apa yang penting buat aku. Aku harus dihargai dan merasa berarti dalam hubungan. Obrolan ini bikin aku mulai mikir lebih luas."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu langkah yang luar biasa. Apakah kamu punya hobi atau aktivitas yang dulu bikin kamu senang? Seperti lari, melukis, atau nonton film? Aku senang dengar kamu mulai menyadari hal-hal ini."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku suka banget naik perahu, tapi belakangan aku jarang pergi karena selalu sibuk sama masalah hubungan. Aku juga suka melukis dan menggambar. Baru kepikiran lagi soal itu sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa menjadwalkan satu hari untuk 'me-time' menghabiskan waktu dengan dirimu sendiri. Naik perahu dan nikmati waktu tanpa drama, hanya untuk kamu sendiri. Kedengarannya menarik nggak?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, kedengarannya itu cara yang positif untuk healing dan menikmati waktuku. Aku akan coba terapkan saranmu."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku yakin kamu akan merasa jauh lebih baik dalam waktu dekat! Aku ikut senang melihat langkah positifmu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih, semoga kita bisa ngobrol lagi segera ya."
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga, aku juga menantikannya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:05:35.133775Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

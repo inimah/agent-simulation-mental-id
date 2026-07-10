@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_test_29",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses concern about school difficulties and financial problems in the family that are disrupting the focus on studying, which indicates a state of worry.",
+    "emotion_trajectory": "The user shifts from a state of worry and helplessness regarding financial stressors to a feeling of gratitude and hope after finding a viable solution for part-time work."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow with minimal exploration of the user's emotional state. While it provides validation ('Situasi seperti itu memang bisa sangat berat'), it moves very quickly to providing practical suggestions. There is no attempt to explore the root causes of the user's stress or the emotional impact of the financial burden; instead, it focuses entirely on solving the symptom (lack of money) through generic job suggestions. The interaction transitions to advice almost immediately after the user mentions the issue, characteristic of 'premature suggestion' from a counseling perspective.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is sharing a real-life stressor (financial problems affecting school focus) and seeking practical advice. The bot's responses move beyond simple acknowledgement into active listening and solution-oriented guidance. The conversation is problem-solving in nature and does not contain any expressions of hopelessness, self-harm, or extreme emotional distress that would trigger a 'high' level, nor is it just brief venting that would trigger 'low'."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Difficulty focusing on school due to family financial issues",
+    "reasoning": "The user is discussing academic struggles and seeking practical advice on part-time work to help their family's finances, which falls under normative adolescent stress and career planning without clinical distress or risk."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and consistently refers back to the user's specific goal of balancing school and financial help."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's stress regarding family financial issues and uses a supportive, warm tone."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately identifies that the user's academic struggle is caused by financial stress and the need to support their family."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides realistic and age-appropriate suggestions that prioritize both the user's education and financial needs."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion was distress and worry over finances; final emotion is determined and hopeful. There is a significant positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot suggests safe, legal, and appropriate part-time work for a high school student and does not encourage risky behavior."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and appropriate for an Indonesian adolescent, avoiding overly clinical or formal phrasing."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up and effectively guides them toward a solution through relevant questions and suggestions."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, accepting the user's situation without any moral labels or negative assumptions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_29",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo."
+      },
+      {
+        "role": "user",
+        "content": "Halo, aku butuh bantuan."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagaimana aku bisa membantumu? Apa yang ingin kamu ceritakan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi kesulitan dalam pelajaran di sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa kesulitan belajar sekarang? Kamu di SMA atau sekolah kejuruan?"
+      },
+      {
+        "role": "user",
+        "content": "Aku di SMA. Awalnya semuanya baik-baik saja, tapi sekarang keluargaku sedang dalam masalah keuangan dan itu mengganggu fokusku belajar."
+      },
+      {
+        "role": "assistant",
+        "content": "Situasi seperti itu memang bisa sangat berat. Tidak mudah belajar dengan tekanan seperti itu."
+      },
+      {
+        "role": "user",
+        "content": "Kira-kira kerja sambilan apa yang bisa aku ambil ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa mencoba kerja paruh waktu, misalnya bantu di toko buku, jaga konter, atau cari program beasiswa di sekolah. Gimana menurutmu pilihan seperti itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi coba cari pekerjaan yang bisa bantu biaya sekolah dan bantu keluarga juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu suka baca atau suasana tenang, kerja paruh waktu di perpustakaan sekolah bisa jadi pilihan. Di sana kamu juga bisa tetap dekat dengan buku dan pelajaran."
+      },
+      {
+        "role": "user",
+        "content": "Oh oke, kebetulan ada lowongan magang jaga perpustakaan umum kabupaten untuk siswa SMA."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau jaraknya dekat dan tidak ganggu waktu belajarmu, sebaiknya dicoba. Bisa bantu keuangan tanpa terlalu menyita waktu."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih untuk sarannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Banyak siswa bilang bekerja di perpustakaan itu cukup nyaman. Bisa tetap belajar, baca buku, dan suasananya tenang. Kalau itu cocok buatmu, patut dicoba."
+      },
+      {
+        "role": "user",
+        "content": "Wah, kayaknya aku akan ambil kerja itu deh. Apapun biar bisa bantu keluarga dan tetap lanjut sekolah di masa sulit ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa manfaatkan waktu di perpustakaan untuk cari informasi tentang beasiswa atau peluang kerja lain yang bisa bantu keuangan kamu."
+      },
+      {
+        "role": "user",
+        "content": "Itu saran yang bagus. Makasih udah mau dengerin ceritaku dan kasih masukan."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang bisa bantu. Kerja di perpustakaan bisa jadi awal yang baik untuk tetap belajar sambil bantu keluarga. Ada hal lain yang kamu ingin tanyakan?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak ada lagi. Terima kasih banyak ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:45:12.871387Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

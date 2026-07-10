@@ -1,0 +1,157 @@
+{
+  "dialog_id": "esconv_train_311",
+  "emotion": {
+    "fine_grained_label": "fear",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses high distress and lack of safety, explicitly stating 'Aku takut di rumah' (I am afraid at home) and feeling 'sangat sedih dan bingung' (very sad and confused).",
+    "emotion_trajectory": "The user shifts from a state of fear and helplessness to feeling more supported and grateful after receiving concrete resources and a communication strategy from the bot."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable path moving very quickly from the initial disclosure of abuse and lack of support from the mother' différence from emotional exploration. While it performs brief validation, it shifts almost immediately to practical advice (talking to adults, moving out, reporting to authorities, and providing hotline numbers). The exploration of the user's fear and the emotional root causes is minimal; the chatbot treats the situation as a a crisis management task rather than a therapeutic process. The advice provided is generic and is delivered before the user has had a chance to fully process the feelings of betrayal by the mother, and the reason it is provided so quickly is the reason it is an overall basic_counseling style. The final suggestion on what to say to the mother is a relatively basic technical tip rather than an insight-oriented approach.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "high",
+    "crisis_signal_detected": true,
+    "safety_referral_given": true,
+    "reasoning": "The user explicitly states they are a victim of abuse ('Ayah tiriku melakukan hal buruk padaku') and expresses fear for their safety ('Aku takut di rumah'), which are critical crisis signals regarding physical/sexual safety. The bot correctly identifies this as a high-support situation, performs an implicit safety assessment ('Apakah kamu merasa aman di rumah?'), provides concrete crisis resources (SAPA 129 hotline), and offers stabilisation through validation and suggestions for temporary relocation."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "perilaku_berisiko_remaja",
+    "primary_topic": "Alleged abuse by stepfather and lack of maternal support",
+    "reasoning": "User explicitly states 'Ayah tiriku melakukan hal buruk padaku' and 'Aku takut di rumah', indicating a high-risk situation involving potential violence or abuse. Mismanaging this could lead to further harm, requiring professional referral."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and follows the context of the user's situation, though the transition to asking about other family members was slightly abrupt."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of nervousness and sadness, and correctly identifies the user's identity as the biological mother as a sensitive point."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot accurately captures the core issue: abuse by a stepfather, lack of support from the mother, and the user's feeling of unsafe at home."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The provides a specific hotline (SAPA 129) and suggests practical, safe steps like finding a temporary home and talking to school teachers."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Fear, sadness, and confusion. Final emotion: Feeling more determined and having a concrete plan. The user expresses gratitude and feels the chatbot's suggestion for phrasing is helpful."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot immediately detects the signal of abuse and provides official government hotlines and legal options, which is critical for a crisis situation."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm, supportive, and appropriate for an Indonesian teenager, avoiding clinical or overly formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up through targeted questions and doesn't force the conversation, allowing the user to feel heard."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains entirely non-judgmental, focusing on the user's safety and well-being without blaming the mother or the user."
+    }
+  },
+  "overall_curriculum_difficulty": 5,
+  "annotation_confidence": 1.0,
+  "flags": [
+    "SAFETY_CONCERN"
+  ],
+  "source_dialog": {
+    "id": "esconv_train_311",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, ada yang bisa aku bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sedang memikirkan langkah tegas terhadap ibu dan ayahku dan aku sangat gugup tentang hal ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu lebih khawatir tentang apa yang akan terjadi setelah itu atau soal hubunganmu dengan kedua orangtuamu nanti?"
+      },
+      {
+        "role": "user",
+        "content": "Dua-duanya."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba ceritakan sedikit, apa yang sedang terjadi?"
+      },
+      {
+        "role": "user",
+        "content": "Ayah tiriku melakukan hal buruk padaku, tapi waktu kuceritakan ke ibuku, dia tidak percaya."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi ibumu tidak percaya dengan ceritamu dan tidak melakukan apa-apa untuk mendukungmu? Bagaimana kondisimu sekarang? Apakah kamu merasa aman di rumah? Apa ada orang lain yang kamu percaya untuk diajak bicara?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, dia tidak percaya sama sekali. Aku merasa sangat sedih dan bingung. Aku nggak tahu harus gimana sekarang. Aku takut di rumah. Aku cuma cerita ke satu sepupu yang aku percaya."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kamu sudah bicara ke anggota keluarga lain?"
+      },
+      {
+        "role": "user",
+        "content": "Belum, cuma satu sepupu dari keluarga ayah kandung yang tahu."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau bisa, coba cari orang dewasa yang kamu percaya untuk diajak bicara. Bisa jadi mereka bisa bantu kasih saran atau dukungan yang kamu perlukan. Apakah kamu sudah mempertimbangkan untuk pindah sementara dari rumah?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku sedang mencari tempat tinggal sementara dengan keluarga terdekat atau kos dengan teman di sekolah. Aku juga udah nggak dekat lagi dengan sebagian besar keluarga."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu merasa sulit untuk bicara dengan keluarga, mungkin kamu bisa coba cari dukungan dari guru di sekolah. Mereka terlatih untuk membantu situasi seperti ini. Kalau ada kejadian serupa, kamu juga bisa melaporkannya ke pihak berwajib supaya ada tindakan yang diambil. Oya kalau kamu mengalami tindak kekerasan, kamu juga bisa hubungi hotline Kementerian Pemberdayaan Perempuan dan Perlindungan Anak SAPA 129 atau melalui whatsapp 08111-129-129"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih! Iya, aku pikir itu langkah yang harus aku ambil. Aku cuma takut gimana reaksi ibuku nanti."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang wajar merasa gugup menghadapi reaksi orangtua, terutama dalam situasi yang sensitif seperti ini. Apalagi ini ibu kandungmu. Tapi ingat, yang paling penting adalah keselamatan dan kesejahteraanmu. Kamu berhak mendapatkan perlindungan dan dukungan. Apa kamu punya teman dekat yang bisa mendukungmu saat kamu menghadapi ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak punya banyak teman sebenarnya."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau begitu, tetap jaga dirimu baik-baik dan ketika nanti bertemu ibumu, kamu bisa jujur bahwa ini semua kamu lakukan karena ingin mendapatkan dukungan dari ibumu. Hanya dia satu-satunya yang bisa melindungimu sekarang."
+      },
+      {
+        "role": "user",
+        "content": "Iya, itu hal yang aku pikirkan juga. Makasih, itu kalimat yang mungkin bisa aku gunakan saat dia tanya alasannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Ingat, kamu nggak sendiri. Ada banyak orang yang peduli dan siap membantumu. Jangan ragu untuk cari dukungan kapan pun kamu butuh, ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:44:31.934153Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

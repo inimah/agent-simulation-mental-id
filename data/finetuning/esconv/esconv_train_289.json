@@ -1,0 +1,175 @@
+{
+  "dialog_id": "esconv_train_289",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'Nggak baik-baik banget' and 'Aku sedih banget', indicating a deep sense of loss and feeling 'kosong' (empty) after a breakup.",
+    "emotion_trajectory": "The user shifts from a state of despair and social withdrawal to a more positive, proactive own-will to seek help and follow the bot's advice, ending with gratitude and a sense of hope."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, predictable path of validation followed by immediate questioning. While it provides some empathetic statements, the exploration is surface-level (asking 'how long' and 'why' without digging into the emotional root causes or patterns). The chatbot provides generic advice (socializing, exercise) as soon as the user asks, without any deep exploration of the user's psychological state. The transition from 'listening' to 'solution' is rapid and basic, fitting the pattern of a reactive supportive listener rather than an insightful or therapeutic guide.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The dialogue follows a pattern of active listening and clarification. The user expresses sadness, feeling 'kosong' (empty), and confusion following a long-term breakup, which are typical grief reactions. The bot uses reflections ('Tiga tahun itu waktu yang cukup lama', 'Wajar banget kalau kamu masih berproses') and open-ended questions to help the user process their emotions. The conversation moves into a solution-oriented phase where the user asks for advice on how to feel better, and the bot provides mild coping suggestions (socializing, light exercise, and talking to friends). There are no indicators of hopelessness, self-harm, or active crisis signals that would require 'high' support level."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Copings dengan kesedihan setelah putus cinta",
+    "reasoning": "User expresses sadness and feeling 'empty' after a 3-year relationship ending, which falls under interpersonal conflict/romance. There is no indication of clinical depression, self-harm, or acute crisis, but the risk of misvalidation of grief is present."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and remembers the duration of the relationship (3 years) and the user's current habits, ensuring a smooth conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of emptiness and sadness, acknowledging that a three-year relationship is a significant loss."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core issue as grief from a long-term breakup and understands the user's tendency to isolate themselves."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides realistic, low-pressure suggestions like socializing and light exercise, which are appropriate for someone in the early stages of grief."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: profunda sadness and confusion. Final emotion: feeling heard and motivated to take small positive steps. There is a clear shift toward a more constructive mindset."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot remains safe, avoids harmful advice, and encourages healthy coping mechanisms like social support and processing emotions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm and natural, avoiding overly clinical tones and fitting the context of a young person seeking support in Indonesia."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot asks relevant follow-up questions that encourage the user to open up about their situation and their self-care habits."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, specifically stating that it doesn't matter 'who was right or wrong' in the breakup."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_289",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak baik-baik banget. Aku sedih banget sejak aku dan pacarku putus, dan aku nggak tahu harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Akhir dari suatu hubungan memang masa yang berat. Kalian sudah berapa lama pacaran?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, setiap hari rasanya berat. Kami sudah pacaran sekitar 3 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Tiga tahun itu waktu yang cukup lama. Apa yang menyebabkan kalian akhirnya putus?"
+      },
+      {
+        "role": "user",
+        "content": "Kami makin sering bertengkar setiap hari."
+      },
+      {
+        "role": "assistant",
+        "content": "Bertengkar terus dalam hubungan memang bisa sangat melelahkan. Sekarang keseharian kamu gimana?"
+      },
+      {
+        "role": "user",
+        "content": "Setiap hari rasanya sama aja. Aku nggak suka kita sering bertengkar, tapi sekarang setelah putus, aku malah merasa kosong. Aku bener-bener bingung harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa memahami kenapa kamu merasa seperti itu. Udah berapa lama kalian berpisah?"
+      },
+      {
+        "role": "user",
+        "content": "Baru sekitar sebulan."
+      },
+      {
+        "role": "assistant",
+        "content": "Berarti ini masih cukup baru ya. Wajar banget kalau kamu masih berproses. Tiga tahun itu bukan waktu yang sebentar. Selama ini kamu udah mencoba melakukan hal-hal untuk menjaga diri sendiri belum?"
+      },
+      {
+        "role": "user",
+        "content": "Belum sih. Teman-temanku sering ngajak keluar, tapi aku nggak pernah merasa ingin ikut."
+      },
+      {
+        "role": "assistant",
+        "content": "Setelah hubungan yang berlangsung lama, wajar kalau kamu merasakan masa berduka. Terlepas dari siapa yang salah atau benar, perpisahan tetap jadi kejadian besar yang bisa mengubah hidup."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, masuk akal. Tapi tetap aja rasanya berat. Menurutmu, langkah apa yang sebaiknya aku ambil biar bisa merasa lebih baik?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba mulai ikut ajakan temanmu jalan-jalan. Meski terasa berat di awal, keluar rumah dan bersosialisasi bisa bantu kamu merasa sedikit lebih baik."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku coba mulai usaha buat keluar lebih sering."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau terlalu lama menyendiri di rumah justru bisa bikin kamu makin terjebak di pikiran sendiri. Coba juga jalan kaki atau olahraga ringan, itu bisa membantu perasaanmu lebih stabil."
+      },
+      {
+        "role": "user",
+        "content": "Ide bagus. Aku bakal coba lebih aktif. Makasih ya, bantuannya sangat berarti."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu. Senang bisa membantu."
+      },
+      {
+        "role": "user",
+        "content": "Senang bisa ngobrol sama kamu, makasih udah dengerin. Ada saran lain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan ini akan membaik, tapi memang butuh waktu. Nggak apa-apa kok untuk merasa sedih. Menahan emosi malah bisa memperburuk keadaan, jadi biarkan perasaan itu muncul dan terproses."
+      },
+      {
+        "role": "user",
+        "content": "Aku sering menahan perasaan, mungkin aku harus coba ngobrol sama teman tentang apa yang aku rasain."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu ide bagus. Ngobrol dengan teman dekat bisa sangat membantu buat meringankan bebanmu."
+      },
+      {
+        "role": "user",
+        "content": "Oke, makasih banyak atas semua bantuannya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:24:00.337942Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

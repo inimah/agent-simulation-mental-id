@@ -1,0 +1,139 @@
+{
+  "dialog_id": "esconv_train_127",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "high",
+    "reasoning": "User expresses feeling overwhelmed and regrets choosing their major, stating 'Sekolah lagi berantakan' and 'Susah banget!', highlighting frustration with their academic situation.",
+    "emotion_trajectory": "The user moves from a state of frustration and feeling overwhelmed to a state of gratitude and clarity after receiving practical advice on how to resolve the conflict."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow. While it starts with a reflection, it moves to advice/solutions very quickly (suggesting BK teacher/parents) before exploring the root causes of why the user feels 'overwhelmed' or 'impaired' compared to peers. The chatbot also uses generic positive reinforcement ('aku yakin kamu bisa menjalaninya') which lacks depth. The solution timing is premature, as the user is still in the middle of expressing their frustration and feelings of inadequacy.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses distress regarding academic pressure and feeling inadequate compared to peers ('Sekolah lagi berantakan', 'Teman-teman lain rasanya jauh lebih pintar dari aku'), which moves the conversation beyond simple acknowledgement (low) into the need for active listening and problem-solving. The bot employs reflective listening ('Terdengar seperti kamu merasa kewalahan...') and provides concrete, explorative guidance regarding the school counselor (guru BK), which characterizes the 'mild' support level. There are no indicators of hopelessness, self-harm, or extreme narrative disorganization that would trigger a 'high' support level."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Regret over major selection and academic stress",
+    "reasoning": "The user expresses stress about their major (teknik komputer), feeling inadequate compared to peers, and anxiety regarding future career/college and parental expectations. This falls under normative academic stress with clear paths for guidance (BK teacher)."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a steady flow of conversation and responds logically to the user's concerns about their major and parental pressure."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot is supportive and encourages the user, but the initial response ('I'm sure you can do it!') feels slightly generic and dismissive of the user's struggle."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the user's regret over their vocational major and the pressure from their parents."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot provides concrete and realistic suggestions, such as consulting a guidance counselor (Guru BK) to act as a mediator with parents."
+    },
+    "emotion_improvement": {
+      "score": 5,
+      "reasoning": "Initial emotion: regret and feeling overwhelmed. Final emotion: appreciative and open-minded. The user shifts from feeling trapped to having a concrete plan and a broader perspective."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The responses are safe and encourages the user to seek help from trusted institutional figures (Guru BK) and parents."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The Indonesian language is natural and warm, fitting for a student, and correctly uses specific local terms like 'Guru BK' and 'wali kelas'."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their feelings and guides them toward a solution through relevant follow-up questions and validation."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's struggle and desire to change majors without questioning their ability or imposing moral judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_127",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai."
+      },
+      {
+        "role": "assistant",
+        "content": "Hai, Apa kabar? Ada yang mau diceritakan?"
+      },
+      {
+        "role": "user",
+        "content": "Sekolah lagi berantakan. Aku sangat menyesal memilih jurusan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Terdengar seperti kamu merasa kewalahan dengan semua tugas dan tanggung jawab sekolah, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku ambil jurusan teknik komputer di pendidikan vokasi. Susah banget! Teman-teman lain rasanya jauh lebih pintar dari aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu memang terdengar berat, tapi aku yakin kamu bisa menjalaninya! Bisa masuk jurusan itu saja menunjukkan kalau kamu punya kemampuan."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya udah telat buat ganti jurusan. Sekarang aku udah kelas 11. Orang tuaku juga terus nanya kapan aku bisa lanjut kuliah atau dapat kerja."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu mempertimbangkan untuk mengganti rencana, kadang ada baiknya mendiskusikannya dengan guru BK atau wali kelas. Mereka bisa bantu menjembatani obrolan dengan orang tua juga. Mau coba itu?"
+      },
+      {
+        "role": "user",
+        "content": "Pengen sih. Tapi kalau ganti jurusan, bisa aja aku harus ulang satu tahun. Aku nggak yakin orang tua mau biayain lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa jadwalkan ngobrol bersama dengan orang tuamu dan guru BK, mungkin melalui Zoom atau tatap muka. Tujuannya supaya semua pihak saling memahami dan cari solusi bareng."
+      },
+      {
+        "role": "user",
+        "content": "Iya juga. Mungkin bisa atur pertemuan singkat dulu. Aku emang pengin orang tuaku ngerti bahwa aku nggak nyaman di jurusan ini. Mungkin guru BK bisa bantu jelasin juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Komunikasi yang baik memang bisa membantu orang lebih terbuka dan mempertimbangkan situasi secara lebih bijak."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak kepikiran dari sisi itu. Saking stresnya sama tugas-tugas, aku malah lupa lihat keseluruhan situasi hidupku di sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kok kalau fokus banget sama tugas dan jadi nggak sempat berpikir jangka panjang. Tapi penting juga untuk pertimbangkan kebahagiaan dan arah hidupmu ke depan."
+      },
+      {
+        "role": "user",
+        "content": "Makasih banget atas bantuannya! Nasihat kamu sangat membuka pikiranku!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:18:35.606150Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

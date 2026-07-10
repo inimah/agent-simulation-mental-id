@@ -1,0 +1,147 @@
+{
+  "dialog_id": "esconv_test_42",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "User explicitly states 'Aku lagi sedih banget' (I'm very sad) and expresses regret and doubt after a breakup.",
+    "emotion_trajectory": "The user shifts from a state of sadness and regret to a more accepting and appreciative state, ending with a plan for self-improvement and expressing gratitude."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow: it begins with validation and empathy, moves into a phase of clarification and exploration (asking the user to distinguish between regret and the sadness of loss), and only provides suggestions after the user has fully expressed their context. It successfully avoids premature advice in the early turns, ensuring the user feels understood before moving toward solutions. The chatbot normalizes the user's doubt as a 'wajar' (natural) experience and provides personalized solutions based on the user's specific dilemma, rather than generic tips. While it does not provide deep psychological mechanisms (psychoeducation) typical of the advanced_therapeutic style, it maintains a balanced exploration depth that moves from emotion to cause to reflection before arriving at a final action plan.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation focuses on romantic breakup grief and decision-regret. The user expresses sadness but does not exhibit any high-risk crisis signals (hopelessness, SI/HI, or self-harm). The bot utilizes 'mild' support techniques such as reflective listening ('Jadi kamu sedang meragukan keputusanmu...'), clarification ('...apakah kamu sempat jujur tentang alasan utamamu...'), and normalising the experience ('Perasaan kehilangan itu sangat wajar'). The conversation progresses from empathy to a collaborative exploration of the user's feelings and ends with a focus on self-improvement goals."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "regret after breakup and desire for self-improvement",
+    "reasoning": "The user expresses sadness and regret after breaking up with a partner ('Aku lagi sedih banget karena baru putus sama pacarku', 'sekarang aku malah menyesal'). This involves romantic relationship conflict and emotion regulation, falling under Level 2 (mild) as it is a sub-clinical interpersonal issue and does not indicate an acute crisis or safety risk."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow throughout the conversation, accurately referencing previous details about the breakup and the user's specific reasons for it."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of regret and longing, using warm and supportive language that makes the user feel understood."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core issue: the user's conflict between the desire for self-improvement and the regret following a breakup caused by this goal."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions are realistic and safe, encouraging the user to respect the same boundary the partner had set, and suggesting practical activities for self-growth."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: regret and sadness. Final emotion: acceptance and motivation. The user explicitly states they can handle the situation and likes the idea of self-improvement."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe and healthy boundaries, ensuring there focus is on self-growth and avoids any impulsive or dangerous actions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and natural for an Indonesian adolescent, avoiding overly clinical or mechanical tones while remaining respectful."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions to dig deeper into the user's the the actual reason for the breakup, encouraging the user to share more of the story."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains neutral and accepting, validating the user's decision while helping them navigate the regret associated with it without any moral judgment."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_42",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai. Apa yang sedang kamu rasakan hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi sedih banget karena baru putus sama pacarku."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu baru saja mengalami putus cinta dan sekarang merasa sedih karena itu."
+      },
+      {
+        "role": "user",
+        "content": "Iya. Awalnya kupikir gak akan terlalu berat karena aku yang mutusin, tapi sekarang aku malah menyesal."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu sedang meragukan keputusanmu, atau kamu lebih merasakan kesedihan karena kehilangan seseorang yang dekat?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lebih merasa ragu sama keputusanku, dan aku tahu nggak ada yang bisa aku lakukan sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti ada alasan kuat kenapa kamu memutuskan hubungan itu. Merasa ragu setelah membuat keputusan besar itu wajar kok. Coba ingat lagi alasan-alasan kenapa kamu memilih jalan itu, mungkin itu masih berlaku sampai sekarang."
+      },
+      {
+        "role": "user",
+        "content": "Aku waktu itu mutusin karena pengen fokus memperbaiki diri. Tapi sekarang aku pikir, kenapa nggak aku coba berkembang sambil tetap bersama dia?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu merasa waktu itu butuh ruangan untuk fokus pada tujuan dan perkembangan diri, tapi sekarang ragu apakah itu harus dilakukan dengan cara berpisah. Kadang memang, memperbaiki diri lebih berhasil ketika kita sendirian, karena bisa lebih fokus tanpa distraksi."
+      },
+      {
+        "role": "user",
+        "content": "Itu yang aku harapkan sih. Tapi aku masih kangen dia, soalnya dia baik banget ke aku. Aku cuma pengen sendiri aja waktu itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Perasaan kehilangan itu sangat wajar, apalagi kalau kamu tahu dia adalah orang yang baik. Saat kamu memutuskan berpisah, apakah kamu sempat jujur tentang alasan utamamu, bahwa kamu butuh waktu untuk diri sendiri dan bukan karena hubungan itu sendiri? Kalau ada komunikasi dan kalian tetap menghargai satu sama lain, mungkin saja suatu saat bisa terjalin hubungan lagi, meskipun sebagai teman. Saat ini, kamu melakukan hal yang kamu rasa paling benar dan itu penting."
+      },
+      {
+        "role": "user",
+        "content": "Beberapa hari setelah putus, aku sempat jelasin alasannya. Kami masih ngobrol santai selama beberapa hari, tapi lalu dia bilang dia butuh waktu buat dirinya sendiri dan sejak itu kami nggak banyak bicara lagi. Masalahnya, aku terbuka kalau suatu saat ada kesempatan lagi, tapi aku nggak berani nanya karena takut"
+      },
+      {
+        "role": "assistant",
+        "content": "Sekarang mungkin yang terbaik adalah tetap pada keputusanmu dulu dan juga menghormati ruang yang dia minta. Dia butuh waktu buat memproses semuanya, seperti kamu juga. Tanpa benar-benar memberi ruang, kalian berdua nggak akan bisa berkembang. Nanti, mungkin setelah beberapa bulan, kamu bisa ajak bicara lagi. Tapi untuk saat ini, biarkan semuanya berjalan dulu."
+      },
+      {
+        "role": "user",
+        "content": "Kayaknya aku bisa lakukan itu. Dia juga bilang sulit buat langsung jadi teman padahal baru aja putus. Jadi mungkin aku harus fokus ke diriku sendiri dulu dan lihat nanti gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Fokus ke dirimu sendiri memang langkah yang tepat sekarang. Kamu bisa mulai dengan daftar hal-hal yang ingin kamu tingkatkan. Coba juga sambung lagi hubungan dengan teman-teman yang mungkin sempat jauh. Kamu pasti bisa menjadi versi terbaik dari dirimu."
+      },
+      {
+        "role": "user",
+        "content": "Aku suka dengan ide itu. Makasih ya udah bantuin!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Aku senang kamu punya semangat untuk berkembang, terus lanjutkan usahamu ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:00:01.806187Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

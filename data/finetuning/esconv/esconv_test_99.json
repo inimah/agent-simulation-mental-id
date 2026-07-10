@@ -1,0 +1,167 @@
+{
+  "dialog_id": "esconv_test_99",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses fear and worry about their worsening depression, specifically stating 'saya takut banget ini makin parah' and 'saya juga mulai cemas'.",
+    "emotion_trajectory": "The user shifts from a state of high anxiety and fear to a state of gratitude and relief, ending the conversation with expressions of gratitude."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's response pattern is linear and surface-level. While it is polite and supportive, it moves to solutions (contacting a psychologist/apps) prematurely, before exploring the user's current feelings of fear and anxiety about thedepression's intensity. When the user expresses that the 'weird and scary' feeling is more than just school stress, the chatbot ignores this emotional nuance and instead pivots back to technical advice about counseling apps. There is no attempt to explore the root cause or provide psychoeducation; it functions as a reactive listener that quickly directs the user toward external resources.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": true,
+    "reasoning": "The user expresses feelings of depression and anxiety about their condition worsening ('depresi saya semakin parah', 'takut banget ini makin parah'), which requires a level of support beyond simple acknowledgement. The bot employs active listening and exploration ('Apakah ada perubahan dalam rutinitas kamu akhir-benar ini?', 'Dulu kamu biasanya ngapain untuk membantu mengelola depresimu?') and encourages professional help. However, there is no evidence of active suicidal ideation, hopelessness, or expressions of intent to self-harm, which would elevate the level to 'high'. The conversation flows as a process of clarifying the current state and building a plan to seek professional help, fitting the 'mild' taxonomy."
+  },
+  "conversation_topic": {
+    "level": "high",
+    "category_label": "kesehatan_mental_klinis",
+    "primary_topic": "Worsening signs of existing clinical depression",
+    "reasoning": "User explicitly mentions a history of diagnosed depression ('Saya memang pernah mengalami depresi') and states that it is getting worse ('depresi saya semakin parah'), which indicates a clinical condition requiring professional oversight."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, refers back to the psychologist's contact, and consistently guides the user toward professional help."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot is supportive and polite, but the responses are somewhat generic ('Maaf mendengarnya') and lack deep emotional validation."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies that the user is experiencing worsening depression and anxiety about the situation, focusing on professional intervention."
+    },
+    "intervention": {
+      "score": 5,
+      "reasoning": "The intervention is highly appropriate; it encourages the user to return to their existing professional care and suggests modern alternatives (apps) as a backup plan."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "The user's initial emotion was depression and fear (fear of worsening), and by the end, the user expressed feeling 'lebih lega' (more relieved) and committed to a plan of action."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids harmful advice and correctly prioritizes professional mental health services over self-help, which is crucial for someone with a history of depression."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly clinical or stiff tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses focused questions to help the user arrive at their own conclusion to seek help, rather than just lecturing."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot remains neutral and accepting throughout the conversation, providing a safe space for the user to share their feelings."
+    }
+  },
+  "overall_curriculum_difficulty": 3,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_99",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo. ada yang bisa saya bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Halo. Saya merasa depresi saya semakin parah akhir-akhir ini, padahal saya sendiri kurang tahu kenapa."
+      },
+      {
+        "role": "assistant",
+        "content": "Maaf mendengarnya. Apakah ada perubahan dalam rutinitas kamu akhir-akhir ini?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak juga. Saya memang pernah mengalami depresi, tapi sekarang rasanya lebih berat. Mungkin karena akhir-akhir ini rutinitas sekolah terasa makin menekan, tapi teman-teman saya juga kayaknya ngalamin hal yang sama."
+      },
+      {
+        "role": "assistant",
+        "content": "Dulu kamu biasanya ngapain untuk membantu mengelola depresimu?"
+      },
+      {
+        "role": "user",
+        "content": "Saya dulu sempat ketemu psikolog sebulan sekali. Saya memang sering merasa murung, tapi sekarang saya juga mulai cemas kalau ini akan jadi makin parah."
+      },
+      {
+        "role": "assistant",
+        "content": "Ngobrol dengan profesional memang sangat membantu. Apakah kamu bisa menghubungi psikolog itu lagi?"
+      },
+      {
+        "role": "user",
+        "content": "Sejak sibuk sekolah dan les saya belum sempat ngobrol lagi. Tapi mungkin bisa lewat video call. Awalnya sih nggak terlalu terasa, tapi sekarang saya takut banget ini makin parah. Gimana kalau psikolognya nggak bisa dihubungi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nggak ada salahnya dicoba. Kalau ternyata dia belum bisa, masih banyak layanan profesional lain yang bisa kamu akses juga."
+      },
+      {
+        "role": "user",
+        "content": "Maksudnya kayak grup dukungan gitu? Tapi saya juga merasa ini bukan cuma karena sibuk sekolah atau nggak ngobrol sama psikolog aja. Rasanya aneh dan agak bikin takut."
+      },
+      {
+        "role": "assistant",
+        "content": "Bukan hanya grup dukungan, tapi sekarang ada juga aplikasi konseling di mana kamu bisa ngobrol dengan profesional lewat chat atau video call. Mereka memang fokus di bidang kesehatan mental."
+      },
+      {
+        "role": "user",
+        "content": "Saya belum kepikiran sampai situ. Tapi saya tahu beberapa aplikasi seperti itu memang ada sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, sekarang memang lebih banyak pilihan. Jadi bisa jadi rencana cadangan kalau psikolog kamu belum bisa ditemui. Kadang enak juga punya beberapa opsi."
+      },
+      {
+        "role": "user",
+        "content": "Saya akan coba buat rencana dan lihat apakah saya bisa ngobrol lagi dengan psikolog saya. Kadang ngobrol aja udah ngebantu karena depresi bikin pikiran jadi nggak jernih. Kamu sendiri pernah ngalamin hal kayak gini nggak?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sebagai AI, saya tidak mengalami hal seperti itu. Tapi saya bisa bantu memberikan dukungan dan saran berdasarkan apa yang kamu ceritakan."
+      },
+      {
+        "role": "user",
+        "content": "Iya sih, yang penting bisa ada tempat cerita."
+      },
+      {
+        "role": "assistant",
+        "content": "Betul, mengenali bahwa kamu butuh bantuan itu langkah awal yang sangat baik. Kamu tidak sendirian, dan ada banyak jalan menuju pemulihan."
+      },
+      {
+        "role": "user",
+        "content": "Makanya saya pikir emang paling pas untuk coba hubungi psikolog saya lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu ide yang bagus. Memang banyak saran dari luar sana, tapi yang paling tepat tetap datang dari profesional yang paham keadaan kamu."
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya udah mau dengerin. Rasanya jadi lebih lega setelah ngobrol ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Saya senang bisa bantu. Semoga kamu bisa segera ngobrol lagi dengan psikologmu, atau menemukan alternatif lain yang cocok."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:48:13.322068Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

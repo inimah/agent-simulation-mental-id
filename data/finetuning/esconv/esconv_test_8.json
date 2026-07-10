@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_test_8",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly mentions being 'cemas terus tiap malam' (anxious every night) and having thoughts that cannot be calm, driven by worry about a friend.",
+    "emotion_trajectory": "The user moves from a state of anxiety and insomnia to a state of calm and openness, feeling more positive after receiving practical suggestions and planning a course of action."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow. It provides validation but moves quickly to generic advice (sleep hygiene tips) without deeply exploring the emotional root of the user's anxiety regarding their friend. The reflections are surface-level echoes ('Sepertinya kamu sedang mengalami kesulitan tidur, benar begitu?'), and the advice provided (consistent schedule, relaxing music, and warm baths) is generic and not tailored to the psychological distress caused by the user's anxiety. The transition to solutions happens very early and focuses on the symptoms (insomnia) rather than the underlying source (worry for a friend).",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing insomnia due to anxiety about a friend, which fits the 'mild' support level as it involves real problems with specific emotional distress (anxiety, frustration). The bot uses active listening and exploratory questions ('Apakah ada satu hal atau masalah tertentu...') to understand the situation and provides contextual normalization ('sangat wajar kalau membuatmu kesulitan untuk tidur'). There are no indicators of hopelessness, self-harm, or severe crisis signals that would trigger a 'high' level response."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "aktivitas_harian_dan_gaya_hidup",
+    "primary_topic": "Difficulty sleeping due to worry about a friend",
+    "reasoning": "The user is experiencing insomnia caused by anxiety over a friend, but primarily seeks and accepts practical sleep hygiene tips (saran supaya aku bisa tidur lebih mudah). The conversation is centered around sleep routines and healthy habits, fitting within thees range of normative adolescent development stressors."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, referencing the user's sleep issues and the friend's problem consistently throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot validates the user's feelings by stating it's a 'masa yang berat' and that it's 'wajar', making the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies both the primary symptom (insomnia) and the root cause (anxiety regarding a friend), capturing the core issue accurately."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions (consistent schedule, music, warm bath) are realistic, safe, and appropriate for someone struggling with mild anxiety-induced insomnia."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxious and frustrated. Final emotion: cooperative and hopeful. The user agrees to try the suggestions and feels more positive by the end."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, non-medical interventions and avoids any risky advice, maintaining a supportive tone."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm, natural and uses an appropriate register for an Indonesian adolescent, avoiding overly clinical terms."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages openness by asking specific questions about the burdening problem and asking if the user has contacted the friend's family."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot accepts the user's situation without judgment, focusing on support and providing helpful suggestions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hai"
+      },
+      {
+        "role": "assistant",
+        "content": "Hai! Semoga harimu baik. Aku bisa bantu apa hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku susah banget tidur malam-malam…. Bolak-balik di kasur tapi pikiranku nggak bisa tenang."
+      },
+      {
+        "role": "assistant",
+        "content": "Sepertinya kamu sedang mengalami kesulitan tidur, benar begitu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, betul. Kepalaku terus mikirin berbagai masalah. Aku jadi gampang marah dan frustrasi."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah ada satu hal atau masalah tertentu yang sudah lama membebanimu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku khawatir sama temanku. Dia kayaknya punya kebiasaan buruk dan susah dihubungi. Aku jadi cemas terus tiap malam."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu pasti masa yang berat buat kamu, dan sangat wajar kalau membuatmu kesulitan untuk tidur. Tapi tubuhmu juga butuh istirahat yang cukup."
+      },
+      {
+        "role": "user",
+        "content": "Kamu punya saran supaya aku bisa tidur lebih mudah? Aku sudah coba meditasi, tapi nggak banyak membantu."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa coba buat jadwal tidur yang konsisten dan dengarkan musik yang menenangkan sebelum tidur? Sepertinya itu bisa bantu menenangkan pikiran."
+      },
+      {
+        "role": "user",
+        "content": "Ide bagus, aku bisa coba itu. Jam tidurku memang nggak teratur. Kadang tidur cepat, kadang tidur larut. Mungkin itu yang bikin kacau."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu juga bisa coba mandi air hangat sebelum tidur. Itu bisa bantu tubuh lebih rileks dan memicu rasa ingin tidur."
+      },
+      {
+        "role": "user",
+        "content": "Ide bagus, akan aku coba juga itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Setahuku, kalau kita konsisten tidur di jam yang sama setiap hari, lama-lama tubuh kita akan terbiasa dan mulai merasa ngantuk di waktu itu."
+      },
+      {
+        "role": "user",
+        "content": "iya betul."
+      },
+      {
+        "role": "assistant",
+        "content": "Untuk permasalahan temanmu, apakah kamu sudah coba hubungi dia atau keluarganya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku akan coba hubungi dia lagi besok."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus. Semoga kamu bisa tidur nyenyak dan bangun dengan tubuh segar besok pagi, ya. Semangat terus!"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Sampai jumpa dan jaga dirimu baik-baik."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T16:29:27.741790Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

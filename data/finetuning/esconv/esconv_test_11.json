@@ -1,0 +1,163 @@
+{
+  "dialog_id": "esconv_test_11",
+  "emotion": {
+    "fine_grained_label": "worry",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses distress and financial anxiety regarding the cost of replacing lost library books, stating 'Rasanya berat banget' and 'Dari mana aku bisa dapat uang'.",
+    "emotion_trajectory": "The user shifts from a state of worry and stress over the loss to a more hopeful and appreciative state after deciding on a plan of action and receiving support."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable path. It provides surface-level validation ('Wah, aku mengerti itu pasti bikin kamu sedih dan stres') and moves quickly to pragmatic solutions. There is no attempt to explore the root causes of the user's stress or the psychological impact of the loss, nor is there any psychoeducation or adaptive reframing. The exploration is minimal, and the advice (checking with teachers, searching for the books) is generic and based on thet user's immediate symptom (the loss of the books) rather to than the emotional state of the user. The conversation concludes abruptly once the user agrees a suggestion was helpful, without deeper emotional processing.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing stress and anxiety due to a tangible problem (lost expensive library books). The bot handles this using 'mild' support techniques: active listening, clarifying questions ('Bisa ceritain lebih detail nggak...'), and specific problem-solving guidance. There are no signs of self-harm, hopelessness, or crisis, just situational stress, which the bot successfully manages through empathy and practical suggestions."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Stres karena kehilangan buku perpustakaan sekolah",
+    "reasoning": "User describes stress caused by a specific academic-related incident (losing school library books) and the financial burden of replacing them, which is a normative adolescent experience with low clinical risk."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and remembers the specific details of the lost books and the cost, staying consistent throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot validates the user's stress and sadness, using warm and supportive language that makes the user feel heard."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot accurately identifies the core problem (lost expensive library books) and the associated financial anxiety."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The bot provides practical, realistic suggestions like checking with school authorities and encouraging the user to talk to teachers, which are appropriate for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: stressed and sad. Final emotion: slightly more hopeful and proactive. The user indicates they feel better and expresses gratitude."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The bot avoids any harmful suggestions and maintains a professional yet friendly boundary, guiding the user toward school-based support systems."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm and natural, using a tone that is appropriate for an Indonesian adolescent without being overly formal or clinical."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot uses open-ended questions and validation to encourage the user to share details and then shifts to problem-solving when appropriate."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot does not judge the user for losing the books or the high cost, instead focusing entirely on support and solutions."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_11",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo. Kamu ingin ngobrol tentang apa hari ini? Ada yang bisa aku bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Hai. Aku merasa sedih dan stres karena kehilangan beberapa buku pinjaman dari perpustakaan sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, aku mengerti itu pasti bikin kamu sedih dan stres. Buku-buku itu penting buat kamu, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, buku-buku itu penting buat pelajaran di sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa ceritain lebih detail nggak, gimana kamu kehilangan buku-buku itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lupa. Sepertinya aku sempat bawa bukunya saat mata pelajaran Biologi dan Kesenian tiga hari yang lalu. Saya cek harga salah satu buku yang hilang di toko online, hampir sejuta rupiah."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, jadi salah satu bukunya cukup mahal, ya? Itu pasti bikin kamu tambah stres."
+      },
+      {
+        "role": "user",
+        "content": "Dari mana aku bisa dapat uang hampir satu juta? Rasanya berat banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Sudah coba cari bantuan untuk menemukan buku-buku itu? Mungkin saja ada orang yang menemukannya lalu menyerahkannya ke pihak sekolah. Kamu tahu nggak di mana terakhir kamu melihat buku-buku itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku lagi coba cari tahu. Aku taruh buku-bukunya di satu tas, mungkin ada yang nggak sengaja bawa atau aku salah naruh."
+      },
+      {
+        "role": "assistant",
+        "content": "Jangan terlalu khawatir dulu, bisa jadi memang ada yang menemukannya dan menyerahkannya. Masih ada harapan kamu bisa mendapatkannya kembali."
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku butuh waktu buat cari, sayangnya deadline pengembalian buku sudah dekat."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah ada guru atau pihak sekolah lain yang bisa kamu ajak bicara soal ini? Sekolah seharusnya bisa lebih membantu kamu. Kehilangan sesuatu yang penting memang bikin frustasi."
+      },
+      {
+        "role": "user",
+        "content": "Benar juga. Aku mau coba cek CCTV di area sekitar."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu ide bagus. Semoga saja bukunya nggak diambil orang dengan sengaja."
+      },
+      {
+        "role": "user",
+        "content": "Semoga aja."
+      },
+      {
+        "role": "assistant",
+        "content": "Semoga saran tadi bisa sedikit membantu kamu. Sekarang kamu merasa sedikit lebih baik nggak?"
+      },
+      {
+        "role": "user",
+        "content": "Iya."
+      },
+      {
+        "role": "assistant",
+        "content": "Terima kasih sudah berbagi cerita. Semoga harimu tetap baik, ya!"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih! Aku menghargainya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama :) Kamu bisa akhiri percakapan ini kapanpun kamu mau, karena aku tidak bisa menutupnya sendiri."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:16:23.122986Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

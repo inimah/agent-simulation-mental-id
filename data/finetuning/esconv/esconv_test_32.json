@@ -1,0 +1,155 @@
+{
+  "dialog_id": "esconv_test_32",
+  "emotion": {
+    "fine_grained_label": "fear",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly states they are 'too afraid to do anything' (terlalu takut buat ngelakuin apa-apa) and expresses feelings of shame and inadequacy compared to their partner.",
+    "emotion_trajectory": "The user shifts from a state of fear and insecurity to a more hopeful and proactive stance, acknowledging the need for self-improvement and a serious conversation."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot's responses are surface-level and consistently provide premature advice. Even after the user expresses deep-seated insecurities ('tidak selevel', 'jadi bahan ketawaan'), the bot provides generic communication tips (bicara langsung, tenang, tanpa menyudutkan) rather than exploring the root cause of the user's low self-esteem. While it asks some clarifying questions in one turn, it moves too quickly to a sequence of repetitive advice on 'talking it out' despite the user repeatedly stating they are too afraid. The flow is linear: validation -> generic advice -> repetitive advice.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing relationship distress and low self-esteem ('merasa nggak selevel'), but shows no signals of hopelessness, self-harm, or suicidal ideation. The bot's responses are primarily in the 'mild' spectrum, employing active listening, normalization ('Wajar sekali merasa seperti itu'), and exploratory questions to help the user reach their own conclusion. The conversation moves from initial empathy (low) into clarifying the situation and providing actionable advice for communication, which fits the 'mild' support level definition."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Kecurigaan perselingkuhan dan rasa rendah diri dalam hubungan",
+    "reasoning": "User mentions suspicion of cheating ('Aku curiga pacarku selingkuh') and fear of abandonment due to low self-esteem ('aku takut dia ninggalin aku', 'aku merasa nggak selevel'). This falls under interpersonal conflict and emotion regulation, which is a 'mild' risk level because it involves emotional distress but no immediate clinical crisis or self-harm risks."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a steady flow of conversation, accurately referencing the user's fear of being left and the specific behavioral changes in the partner're HP usage, phone usage."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot validates the user's feelings of insecurity and fear of abandonment effectively, making the user feel heard and supported."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies that the core issue is not just the partner's potential cheating, but the user's own lack of self-esteem and feeling of 'not being on the same level'."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions to communicate calmly and prioritize inner peace over external appearances are realistic and safe, though slightly repetitive in the advice to 'speak directly'."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anxiety, insecurity, and fear. Final emotion: clarity and resolve. The user moves from feeling paralyzed by fear to acknowledging the need for self-improvement and a serious conversation."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, non-aggressive communication strategies and encourages the user to seek happiness based on honesty and trust."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is warm, natural, and uses a register appropriate for a teenager/young adult in Indonesia, avoiding overly clinical tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions to deepen the user's narrative, though one turn in the second half contains slightly too many questions at once."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental regarding the user's insecurity and the partner's behavior, focusing on the user's wellbeing."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Halo"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo. Gimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Aku curiga pacarku selingkuh tapi aku terlalu takut buat ngelakuin apa-apa karena aku nggak mau dia ninggalin aku. Aku merasa malu sama diri sendiri tapi aku nggak bisa apa-apa."
+      },
+      {
+        "role": "assistant",
+        "content": "Merasakan curiga dalam hubungan itu memang bikin hati jadi berat ya, apalagi kalau kamu juga takut kehilangan dia."
+      },
+      {
+        "role": "user",
+        "content": "Iya, harusnya aku putus dan move on sih. Tapi masalahnya, dia itu cantik banget dan aku merasa nggak selevel. Aku sayang banget sama pacarku. Aku yakin dia selingkuh, tapi aku berharap kalau aku diem aja, semuanya bakal tetap seperti sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Hubungan yang sehat jauh lebih berharga daripada penampilan luar. Kadang kita merasa nggak cukup, tapi jangan biarkan itu menutup mata terhadap apa yang penting: kepercayaan, rasa aman, dan kejujuran."
+      },
+      {
+        "role": "user",
+        "content": "Kalau boleh tahu, menurut kamu apa yang harus aku lakukan?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu sudah punya dugaan kuat, coba bicara langsung tapi tenang. Sampaikan perasaan kamu dan tanyakan hal yang bikin kamu curiga, tanpa marah atau menyudutkan. Gimana menurut kamu saran itu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sih merasa yakin hampir pasti dia selingkuh. Sekarang dia sangat protektif sama HP-nya, beda kayak dulu. Dia sering chatting tapi ngeles kalau ditanya lagi ngobrol sama siapa."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau boleh tahu, kalian udah berapa lama pacaran? Dan perilakunya yang kamu curigai ini mulai dari kapan? Reaksinya bagaimana saat kamu tanya? Kamu sempat ngobrol langsung soal ini sebelumnya?"
+      },
+      {
+        "role": "user",
+        "content": "Itu dia... Aku tahu dia mungkin selingkuh, tapi aku belum berani ngomong karena takut dia langsung putusin aku dan aku bakal jadi bahan ketawaan. Kayaknya aku tetap jadi bahan bercandaan sih, gimana pun juga."
+      },
+      {
+        "role": "assistant",
+        "content": "Rasa takut ditinggalkan itu bisa bikin kita menahan diri, bahkan ketika kita tahu sesuatu sedang tidak benar. Wajar sekali merasa seperti itu."
+      },
+      {
+        "role": "user",
+        "content": "Bener juga sih. Sampai sekarang aku cuma asumsi doang, nggak ada bukti nyata. Menurut kamu, aku harus berani ngobrol sama dia?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu merasa nggak tenang terus, lebih baik kamu bicarakan langsung. Pilih waktu yang tenang dan jangan dalam kondisi emosi tinggi. Mau coba cara itu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, masuk akal sih. Makasih udah jujur."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu merasa bakal tetap sakit hati kalau terus dalam hubungan seperti ini, bukankah lebih baik mencari kebahagiaan yang didasari kejujuran dan saling percaya?"
+      },
+      {
+        "role": "user",
+        "content": "Semua ini ada hubungannya sama rasa diri sendiri sih. Aku tahu aku lebih banyak nilainya dari fisik, tapi punya pacar yang menarik bikin aku merasa percaya diri. Tapi mungkin aku harus atasi rasa nggak percaya diri ini duluan."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti dengan perasaan kamu. Cobalah bicara langsung dengannya dengan tenang tapi tegas. Nggak perlu berdebat. Cukup tanya hal-hal yang memang menurut kamu sudah jadi masalah secara baik-baik, seperti saat dia tidak menjawab pesanmu atau tidak menepati janji. Ceritakan juga gimana kamu merasa, tapi tanpa menyalahkan. Tindakan dia mungkin memengaruhi perasaanmu, tapi alasannya bisa jadi lebih kompleks."
+      },
+      {
+        "role": "user",
+        "content": "Saran kamu masuk akal dan baik banget. Aku sadar sih, kami memang perlu ngobrol serius. Makasih udah bantu aku sampai ke kesimpulan ini."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:53:42.106928Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

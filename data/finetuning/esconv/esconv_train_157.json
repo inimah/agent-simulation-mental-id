@@ -1,0 +1,207 @@
+{
+  "dialog_id": "esconv_train_157",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'aku benar-benar sedih' and describes the pain of a breakup due to betrayal, indicating deep sadness.",
+    "emotion_trajectory": "The user shifts from a state of deep sadness and helplessness to a more receptive state, eventually expressing gratitude after deciding to seek support from family."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot exhibits a linear and predictable pattern. While it performs basic validation ('Wah, maaf banget dengarnya', 'Aku mengerti itu pasti sulit'), it quickly moves to generic advice and clichés ('seiring waktu, kamu akan bisa bangkit', 'kamu akan bertemu seseorang yang membuatmu merasa lebih dihargai'). There is no deep exploration of the emotional root causes or psychoeducation. The chatbot also gives premature suggestions regarding the relationship status ('mungkin dia memang bukan orang yang tepat untuk kamu') before the user has fully processed the grief. The conversation concludes with generic well-wishes, reinforcing a surface-level support style.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user is experiencing emotional distress due to a breakup and betrayal (cheating), which requires 'mild' support focused on active listening and clarification. The bot uses exploratory questions ('Apa yang sebenarnya terjadi...', 'Boleh tahu lebih jelas...') and normalization to help the user process the situation. There are no indicators of hopelessness, self-harm, or suicidal ideation that would trigger a 'high' support level, and the conversation concludes with the user deciding to seek social support from family/friends."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Heartbreak and betrayal due to partner's relationship with cousin",
+    "reasoning": "The user is experiencing emotional distress due to a breakup ('Aku baru saja putus dengan pacarku kemarin', 'benar-benar sedih') and interpersonal conflict ('Kami sudah sering salah paham', 'jangan khianati kepercayaanku'). This involves emotion regulation and social relationships, fitting Level 2 criteria."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow throughout the conversation, accurately referencing the breakup and the specific conflict regarding the same-family relationship."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot provides good validation and warmth, recognizing the user's sadness and the difficulty of the situation."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot correctly identifies the core issue: a betrayal of trust and a complicated relationship between the ex-partner and a cousin."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The bot provides realistic and safe advice, encouraging the user to seek social support from friends and family, which is a refined approach for adolescents."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: deep sadness and confusion. Final emotion: a sense of relief and a willingness to seek support. There is a clear positive shift."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The responses are safe, avoid risky behavior, and while no crisis was detected, the bot encourages the user to connect with real-life support systems."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and appropriate for Indonesian teenagers, avoiding overly clinical or formal tones."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The bot asks relevant follow-up questions that allow the user to open up about the details of their breakup and their isolation."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot remains neutral and supportive without judging the user's feelings or the situation, providing a warm and non-judgmental space."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_157",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Hai, bagaimana kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku butuh bantuan."
+      },
+      {
+        "role": "assistant",
+        "content": "Masalah apa yang sedang kamu hadapi?"
+      },
+      {
+        "role": "user",
+        "content": "Aku baru saja putus dengan pacarku kemarin."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, maaf banget dengarnya. Kamu pasti merasa sangat sedih ya? Ada yang bisa aku bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku benar-benar sedih dan nggak tahu bagaimana mengikhlaskan dia dari hidupku."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa yang sebenarnya terjadi sampai kalian putus?"
+      },
+      {
+        "role": "user",
+        "content": "Kami sudah sering salah paham akhir-akhir ini. Dia selalu marah tiap kami ngobrolin masalah itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh tahu lebih jelas, masalahnya tentang apa?"
+      },
+      {
+        "role": "user",
+        "content": "Aku tahu dia dekat sama sepupunya lebih dari sekadar saudara."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama sepupunya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya!! Dan waktu kutanya, dia nggak mau menjauhi sepupunya itu."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu pasti berat banget buat kamu. Menurutmu dia nggak melihat itu sebagai masalah ya?"
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah bilang jangan khianati kepercayaanku, tapi dia tetap nggak jujur."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau dia nggak bisa menghargai kepercayaanmu, mungkin dia memang bukan orang yang tepat untuk kamu. Apa yang bisa aku bantu sekarang?"
+      },
+      {
+        "role": "user",
+        "content": "Akhirnya kami bertengkar hebat dan dia yang mutusin. Tapi aku masih cinta sama dia meski dia ninggalin aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku mengerti itu pasti sulit. Tapi seiring waktu, kamu akan bisa bangkit dan melanjutkan hidup tanpa dia."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak tahu harus ngapain sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Coba beri dirimu waktu buat menyadari bahwa kamu pantas bahagia bersama seseorang yang menghargaimu dan perasaanmu."
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah coba begitu."
+      },
+      {
+        "role": "assistant",
+        "content": "Butuh waktu lebih dari sehari, tapi nantinya kamu akan bertemu seseorang yang membuatmu merasa lebih dihargai."
+      },
+      {
+        "role": "user",
+        "content": "Aku rasa begitu, tapi aku nggak bisa cerita ini ke teman maupun keluargaku."
+      },
+      {
+        "role": "assistant",
+        "content": "Kenapa kamu merasa nggak bisa cerita ke mereka?"
+      },
+      {
+        "role": "user",
+        "content": "Karena mereka juga pasti bakal sedih banget kalau dengar ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang itu hal yang berat, tapi justru mereka bisa bantu kamu melewati masa sulit ini."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku akan coba cerita ke mereka."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus, semoga mereka bisa mendukung kamu dan kamu bisa lebih tenang menghadapi semua ini."
+      },
+      {
+        "role": "user",
+        "content": "Iya, makasih banyak."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa ada yang bisa aku bantu lagi?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak ada."
+      },
+      {
+        "role": "assistant",
+        "content": "Jaga dirimu baik-baik dan coba tetap menikmati hari-harimu ya, semoga tetap sehat dan kuat."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:45:43.162409Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

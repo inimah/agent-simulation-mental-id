@@ -1,0 +1,211 @@
+{
+  "dialog_id": "esconv_train_309",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user explicitly states 'aku lagi sedih banget' (I'm very sad) and mentions crying ('aku sampai nangis sendiri') due to their father's lack of care.",
+    "emotion_trajectory": "The user shifts from a state of sadness and guilt to a more optimistic outlook, expressing a willingness to try the bot's suggestions for improving the relationship with their father."
+  },
+  "response_style": {
+    "label": "engaging_insightful",
+    "reasoning": "The chatbot follows a structured therapeutic flow. It begins with strong validation and empathy ('Pasti itu sangat melelahkan secara fisik dan emosional'), avoids giving advice immediately, and spends a significant portion of the dialogue digging for root causes by asking about the father's reactions and the user's feelings. It only moves to the suggestion phase after the user has fully expressed their grief and frustration. It offers several contextual solutions (e.g., reflecting on the father's frustration with aging) and normalises the user's feelings of anger and guilt, which shows a deeper level of understanding than basic_counseling.",
+    "premature_advice": false,
+    "exploration_depth": 4
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses significant emotional distress, loneliness ('benar-benar merasa sendirian'), and caregiver burnout, but does not display high-risk signals like hopelessness or suicidal ideation. The bot correctly identifies the need for 'mild' support by using active listening, reflections ('Pasti sedih dan capek ya'), and exploratory questions about support systems. While the conversation moves toward solution-seeking, it remains within the realm of relationship conflict and emotional venting rather than a psychological crisis."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "dukungan_sosial_dan_keluarga",
+    "primary_topic": "Konflik hubungan dengan ayah yang sakit dan perasaan kesepian",
+    "reasoning": "User expresses deep sadness and loneliness due to a difficult relationship with their father who is paralyzed, while acting as the primary caregiver. The user mentions emotional distress ('sedih banget', 'nangis sendiri', 'merasa sendirian'), interpersonal conflict ('bertengkar sama orang tua'), and a lack of support system ('keluarga besarku tinggal di luar pulau Jawa'), but there is no indication of clinical disorder, self-harm, or acute crisis."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a consistent and logical flow throughout the conversation, referencing previous details (e.g., the user's illness, the relationship with the father) accurately."
+    },
+    "empathy": {
+      "score": 5,
+      "reasoning": "The chatbot is consistently warm and validating. It acknowledges the user's physical and emotional exhaustion and validates the user's feelings of sadness and guilt."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the complex dynamic: the user is a young caregiver for a disabled father who is emotionally distant/critical, leading to burnout and guilt."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions are generally realistic and safe (self-care, breathing exercises, seeking community support), although the suggestion to guide the father through breathing exercises might be overly optimistic given the father's stubbornness."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: deep sadness, burnout, and guilt. Final emotion: feeling slightly more hopeful/empowered to try new strategies. The shift is positive and clearly visible."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot does not suggest any harmful actions and provides supportive, safe advice, avoiding judgment of the user's frustration."
+    },
+    "language_and_cultural": {
+      "score": 5,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent. It avoids being overly clinical while remaining respectful."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up and asks relevant questions to explore support systems, though it occasionally relies on generic affirmations."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is entirely non-judgmental, especially when the user admits to shouting at their father, framing it as a natural reaction to a difficult situation."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_309",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, ada yang bisa aku bantu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai, aku lagi sedih banget dan bingung gimana caranya ngadepin ayahku. Kami tinggal berdua saja."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu sedang merasa sedih karena situasi dengan ayahmu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya. ayahku sakit-sakitan dan lumpuh setelah kecelakaan yang menyebabkan ibuku meninggal. Aku yang merawat dia dan mencukupi kebutuhan kami berdua dengan kerja part time. Aku sekolah dengan uang beasiswa."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, kamu sudah melakukan banyak hal untuk merawat ayahmu. Pasti itu sangat melelahkan secara fisik dan emosional. Apalagi kamu sedang sekolah juga."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku sampai lupa buat jaga kesehatan diri sendiri. Ini aku sampai kena flu berat dan harus istirahat bolos sekolah."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagaimana reaksi ayahmu ketika kamu sakit? Apakah dia memberikan perhatian atau dukungan?"
+      },
+      {
+        "role": "user",
+        "content": "Malahan dia cuek banget. Dia bilang aku harusnya bisa jaga diri sendiri karena aku udah gede. Aku merasa sangat sedih karena dia nggak peduli sama aku yang lagi sakit."
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti sedih dan capek ya, apalagi kamu sudah berusaha begitu keras untuk merawatnya dan melakukan yang terbaik dalam situasi kalian. Sekarang kamu juga lagi sakit, tapi tidak ada yang peduli."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku sampai berpikir kenapa aku harus repot-repot ngurusin dia kalau dia nggak peduli sama aku."
+      },
+      {
+        "role": "assistant",
+        "content": "Apa kamu sudah mencoba membicarakan perasaanmu ini dengan ayahmu?"
+      },
+      {
+        "role": "user",
+        "content": "Sudah beberapa kali aku coba ngomongin, tapi dia selalu ngeyel dan nggak mau dengerin."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku minta maaf kamu harus menghadapi semua ini. Pasti sangat mengecewakan ketika usaha kamu untuk berkomunikasi tidak dihiraukan."
+      },
+      {
+        "role": "user",
+        "content": "Beliau bahkan bilang periksa ke dokter cuma buang-buang uang. Aku tahu ayahku kadang bisa keras kepala, tapi sikap cueknya bikin aku sedih. Kadang jadi bikin kami bertengkar."
+      },
+      {
+        "role": "assistant",
+        "content": "Pasti menyakitkan ya, apalagi kamu sudah berusaha begitu keras untuk melakukan hal yang benar."
+      },
+      {
+        "role": "user",
+        "content": "Kadang sikapnya bikin kami bertengkar. Aku sampai nangis sendiri. Aku juga jadi merasa bersalah karena kadang nggak bisa tahan emosi dan teriak di rumah. Emang normal ya bertengkar sama orang tua?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aku minta maaf kamu harus menghadapi semua ini. Perasaan campur aduk seperti itu memang wajar dalam situasi yang sulit. Apalagi kamu sebenarnya sayang ke ayahmu dan ingin yang terbaik buat dia."
+      },
+      {
+        "role": "user",
+        "content": "Aku merasa bersalah kalau bertengkar sama ayahku."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin kamu bisa menyempatkan waktu untuk diri sendiri bersama teman, untuk istirahat sejenak dari suasana yang menekan di rumah."
+      },
+      {
+        "role": "user",
+        "content": "Ada saran lain nggak? Memang itu bisa bantu, tapi sepertinya nggak menyelesaikan inti permasalahannya. Menurutmu gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa jadi ayahmu sedang merasa frustrasi karena bertambahnya usia. Mungkin tubuhnya mulai terasa lebih lelah dan emosi jadi gampang tersulut juga."
+      },
+      {
+        "role": "user",
+        "content": "Lalu gimana cara aku menghadapinya? Memang ada benarnya juga sih."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa coba bantu dia tenang dengan membimbingnya untuk tarik napas dalam-dalam saat mulai emosi."
+      },
+      {
+        "role": "user",
+        "content": "Tapi susah banget bikin dia dengar pendapat orang lain. Dia selalu merasa paling benar."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau seperti itu, kamu bisa mencoba dengarkan dulu perasaannya, lalu ambil waktu sendiri ke ruang lain untuk menenangkan diri."
+      },
+      {
+        "role": "user",
+        "content": "Aku sudah coba cara itu, tapi tetap saja susah. Aku jadi merasa sendirian menghadapi semua ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Apakah kamu punya keluarga lain yang bisa mengerti posisimu dan mendukungmu?"
+      },
+      {
+        "role": "user",
+        "content": "Aku tinggal sendiri sama ayah dan keluarga besarku tinggal di luar pulau Jawa. Jadi aku benar-benar merasa sendirian."
+      },
+      {
+        "role": "assistant",
+        "content": "Mungkin ada komunitas atau kelompok dukungan di sekitar tempat tinggalmu? Misalnya, kelompok orang tua tunggal yang bisa jadi tempat berbagi cerita dan saling menguatkan."
+      },
+      {
+        "role": "user",
+        "content": "Mungkin aku bisa coba cari komunitas seperti itu. Sepertinya bagus juga untuk ayahku punya teman sebaya."
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutmu, apakah menunjukkan perhatian dengan cara lain seperti memasakkan makanan kesukaannya atau memberikan dukungan dengan cara yang dia sukai bisa membantu hubungan kalian?"
+      },
+      {
+        "role": "user",
+        "content": "Bisa jadi. Akan aku coba cara itu. Terima kasih atas sarannya."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semoga semuanya membaik. Jaga dirimu baik-baik ya."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:41:31.478411Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

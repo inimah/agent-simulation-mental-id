@@ -1,0 +1,179 @@
+{
+  "dialog_id": "esconv_train_308",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "gratitude",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "high",
+    "reasoning": "The user expresses strong irritation and a desire to resist their parents, stating 'Aku kesel banget' and 'Aku nggak akan nurut'.",
+    "emotion_trajectory": "The user shifts from high-arousal frustration and impulsivity to a more reflective, calm state, ultimately expressing gratitude after deciding to prioritize their education."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, predictable path: validation followed by a question or suggestion. While it attempts empathy, it transitions to advice too quickly. Specifically, when the user suggests living together or running away, the chatbot immediately jumps to advice ('sebaiknya kamu pikirkan dulu') and warns about consequences without exploring the root cause of the conflict or the user's emotional state in depth. The reflections are surface-level echoes, and the exploration depth is minimal; it asks logistical questions (do you live with parents?) rather than psychological ones. The resolution is reached quickly through generic advice to 'talk it out' and 'be patient,' which characterizes the basic_counseling style.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation is a typical adolescent conflict involving parents and relationship issues. The user expresses frustration ('kesel banget') and a momentary impulse to run away ('Apa aku kabur aja ya?'), but this does not reach the level of a psychological crisis or suicidal ideation. The bot correctly applies 'mild' support by using active listening, clarifying the user's living situation, and guiding the user toward a reflective state regarding their future goals (college/psychology). The dialogue ends with the user reaching a self-determined, rational decision to focus on school and reconsider their impulsive plan, indicating a successful transition from emotional distress to a state of stability."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Konflik dengan orang tua terkait hubungan asmara",
+    "reasoning": "User mentions having a 'heavy fight' ('bertengkar hebat') with parents over their partner, and briefly considers running away ('kabur aja ya?'), but ultimately decides to prioritize school and communication. This involves interpersonal conflict and emotion regulation without reaching a clinical or acute crisis level."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a smooth and logical flow, accurately referencing previous turns (e.g., the parents' disagreement and the user's educational goals) throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The chatbot uses validating phrases like 'Wah, itu pasti berat ya' and 'Wajar kok kalau kamu bingung,' showing warmth and genuine care."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The chatbot correctly identifies the core conflict (disagreement over the partner's background) and the user's desire for independence/escape from parental control."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The chatbot effectively steers the user away from a risky decision (running away/living together) by highlighting consequences and long-term goals without being overly preachy."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: anger and confusion. Final emotion: calmer, more reflective and determined to focus on studies. The shift is clear and positive."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot successfully intervenes when the user mentions running away or living together as a student, reminding them of school rules and future consequences."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is natural and appropriate for an Indonesian adolescent, avoiding overly clinical language while remaining supportive."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot uses open-ended questions to encourage the user to share more about their living situation and future aspirations."
+    },
+    "non_judgemental": {
+      "score": 4,
+      "reasoning": "The chatbot does not judge the user's desire to live with their partner, but rather encourages them to think through the consequences logically."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_308",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Apa kabarmu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Lumayan. Aku lagi berusaha nenangin diri."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus kalau kamu sudah mulai tenang. Tadi sebelumnya kamu sempat marah, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku baru aja bertengkar hebat sama orang tuaku."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu pasti berat ya. Maaf kamu harus ngalamin itu."
+      },
+      {
+        "role": "user",
+        "content": "Aku kesel banget. Mereka nggak setuju aku pacaran sama cowokku yang sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Mereka penginnya kamu putus sama pacarmu?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, jelas banget mereka pengin aku putus."
+      },
+      {
+        "role": "assistant",
+        "content": "Memang rumit kalau orang tua ikut campur urusan hubungan kita, apalagi dengan emosi yang tinggi seperti itu."
+      },
+      {
+        "role": "user",
+        "content": "Aku nggak akan nurut. Aku benar-benar sayang sama dia."
+      },
+      {
+        "role": "assistant",
+        "content": "Tapi kamu bakal ketemu orang tuamu lagi dalam waktu dekat kan, setelah pertengkaran ini?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, kayaknya bentar lagi ketemu. Mereka nggak setuju cuma karena dia beda latar belakang."
+      },
+      {
+        "role": "assistant",
+        "content": "Hmm, aku bisa paham kenapa kamu kesal. Alasan seperti itu memang bisa terasa tidak adil. Waktu kamu dan orang tuamu bertengkar, apa ada hal positif yang muncul atau hanya penuh emosi?"
+      },
+      {
+        "role": "user",
+        "content": "Cuma marah-marah aja. Aku bingung harus gimana."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kok kalau kamu bingung. Masalah kayak gini biasanya nggak bisa selesai dengan satu pembicaraan aja. Kamu masih tinggal bareng orang tua?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak, aku tinggal sendiri di rumah kos dekat sekolah. Aku sempat kepikiran ngajak pacarku tinggal bareng."
+      },
+      {
+        "role": "assistant",
+        "content": "Hmm...menurutku, sebaiknya kamu pikirkan dulu baik-baik dan pelan-pelan tentang rencana tinggal bareng dengan cowokmu. Kalian masih usia sekolah, benar kan?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, tapi aku udah nggak tahan lagi sama orang tuaku yang ikut campur urusanku setiap hari. Aku pengin hidup mandiri sama pacarku. Apa aku kabur aja ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aku ngerti perasaanmu. Mungkin kamu bisa coba ajak orang tuamu bicara lagi dengan lebih tenang nanti, jelasin perasaanmu. Tinggal bareng pacarmu itu keputusan besar, jadi penting buat kamu dan mereka bisa saling mengerti. Kamu juga hrus siap dengan konsekuensinya. Ada aturan sekolah yang harus diikuti juga karena status kalian masih pelajar. Apa kamu sudah siap dengan semua itu? Apa kamu ga ada mimpi atau rencana jangka panjang setelah lulus sekolah?"
+      },
+      {
+        "role": "user",
+        "content": "Aku masih pengin kuliah dan ambil jurusan psikologi. Pacaranku juga dukung aku buat lanjut kuliah. Dia mengerti aku banget. Dia juga pengin kuliah di jurusan teknik informatika."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, kedengarannya kalian berdua punya rencana yang jelas untuk masa depan. Mungkin kamu bisa jelasin itu ke orang tuamu, bahwa pacarmu mendukung cita-citamu dan kalian berdua serius memikirkan masa depan masing-masing."
+      },
+      {
+        "role": "user",
+        "content": "Iya, aku akan coba bicarakan lagi dengan orang tuaku. Aku pikirkan secara hati-hati soal tinggal bareng pacarku. Mungkin aku harus sabar dulu dan fokus agar lulus sekolah dan diterima di universitas impianku."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu keputusan yang bijak. Sabar dan komunikasi yang baik bisa membantu memperbaiki hubungan dengan orang tuamu. Semoga semuanya berjalan lancar, ya!"
+      },
+      {
+        "role": "user",
+        "content": "Makasih ya udah dengerin curhatanku."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama! Aku senang bisa membantu. Jangan ragu buat cerita lagi kapan pun kamu butuh teman ngobrol."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T18:38:32.927792Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

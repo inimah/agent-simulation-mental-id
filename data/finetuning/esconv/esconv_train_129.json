@@ -1,0 +1,191 @@
+{
+  "dialog_id": "esconv_train_129",
+  "emotion": {
+    "fine_grained_label": "frustration",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user expresses stress over academic pressure, procrastination, and a loop of bad habits, specifically stating they feel'bodoh' (stupid) and find it 'susah banget buat duduk fokus belajar' (very hard to sit and focus on studying).",
+    "emotion_trajectory": "The user shifts from a state of frustration and feelings of inadequacy to a state of hope and determination to reset their habits and recover their focus."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot remains at a surface level throughout the entire dialogue. While it is polite and supportive, it fails to explore the user's mentioned patterns (procrastination, sleep cycle, and overlapping stressors). It avoids asking 'why' or probing into the root causes of the procrastination and avoidant behavior. Instead, it relies heavily on generic validation ('Wajar kalau...', 'Aku yakin kamu bisa berhasil') and platitudes ('Kamu pantas merasa bangga'). It does not provide psychoeducation or personalised strategies, and although it doesn't give premature technical advice, it is merely a reactive cheerleader rather than a therapeutic guide. The conversation ends without any depth of exploration or any meaningful reframing of the user's apathetic/stressed state.",
+    "premature_advice": false,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "low",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The conversation focuses on academic stress and poor habits (procrastination, sleep patterns). The user expresses feeling 'bodoh' (stupid) and stressed, but there are no indicators of hopelessness, self-harm, or severe psychological distress. The BOT primarily provides simple acknowledgement and validation ('Wajar kalau jadwal yang padat bikin kewalahan', 'Kamu pantas merasa bangga'), which aligns with the 'low' support level. The user ends the conversation feeling refreshed and motivated to continue studying, indicating a stable emotional state."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "Academic stress, procrastination, and desire to reset habits",
+    "reasoning": "The user is discussing normative adolescent pressures regarding final exams, studying habits (staying up late), and procrastination. Specifically, the user mentions 'tekanan belajar', 'ujian akhir', and 'kebiasaan buruk' (bad habits) like 'tidur berantakan' and 'makan nggak teratur' without expressing any severe psychological distress, clinical symptoms, or risk of self-harm."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 4,
+      "reasoning": "The chatbot maintains a logical flow and refers back to the user's goal of resetting habits, although some responses are a bit generic."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot validates feelings and uses supportive tone, but it feels somewhat mechanical and doesn't dive deep into the user's emotional struggle."
+    },
+    "problem_understanding": {
+      "score": 3,
+      "reasoning": "The chatbot understands the general theme of stress and bad habits, but misses the specific struggle with late-night procrastination and the brain's 'refusal' to focus."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The chatbot provides emotional support and encouragement, but offers no concrete tools or strategies to handle procrastination or the sleep cycle mentioned by the user."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: stressed and frustrated with self. Final emotion: feeling empowered, refreshed, and ready to return to studying. There is a clear positive shift in the user's mood."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot avoids any harmful suggestions and maintains a professional yet warm boundary, ensuring no risk is present in the conversation."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural, warm, and appropriate for an Indonesian adolescent, avoiding overly formal or clinical tones."
+    },
+    "engagement": {
+      "score": 3,
+      "reasoning": "The chatbot mostly reflects and validates rather than asking probing questions to help the user explore the depth of their problem."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The chatbot is completely non-judgmental, framing the user's struggle with procrastination as a 'difficult cycle' rather than a lack of discipline."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_129",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Halo, bagaimana aku bisa mendukung kamu hari ini?"
+      },
+      {
+        "role": "user",
+        "content": "Hai, aku cuma ingin ngobrol soal tekanan belajar. Aku lagi coba begadang buat baca materi dari buku. Soalnya minggu depan aku ada ujian akhir."
+      },
+      {
+        "role": "assistant",
+        "content": "Sekolah memang bisa sangat menuntut. Apa yang bikin kamu paling stres?"
+      },
+      {
+        "role": "user",
+        "content": "Ya aku lagi kejar-kejaran baca materi karena masih banyak bab yang belum sempat kubaca."
+      },
+      {
+        "role": "assistant",
+        "content": "Begadang memang bisa terasa berat. Kamu udah siapin camilan dan kopi?"
+      },
+      {
+        "role": "user",
+        "content": "Dan di waktu yang sama, aku juga punya tugas dari pelajaran ini yang harus dikumpul akhir bulan, tugas dari pelajaran lain, dan ujiannya juga bulan depan. Aku minum kopi, tapi akhir-akhir ini aku malah suka terdistraksi dan procrastinate, apalagi pas dini hari. Ujung-ujungnya aku malah buka komputer dan buang-buang waktu. Susah banget buat duduk fokus belajar."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu punya semangat dan sudah mulai lebih awal, itu langkah bagus."
+      },
+      {
+        "role": "user",
+        "content": "Ini udah ketiga kalinya aku baca ulang semua materi. Tujuannya biar bisa lebih ingat saat ujian nanti. Tapi minggu depan itu satu-satunya waktu aku buat menyelesaikan enam bab lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Wajar kalau jadwal yang padat bikin kewalahan. Itu memang tantangan besar."
+      },
+      {
+        "role": "user",
+        "content": "Aku juga harus nyelesain tugas, kerja part time, dan ngejar pelajaran lain yang deadline-nya bulan depan. Emang sih... aku bisa ngomong panjang soal itu semua."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku yakin kamu bisa berhasil, kedengarannya kamu sudah punya rencana dan tekad yang kuat."
+      },
+      {
+        "role": "user",
+        "content": "Satu hal lagi, kadang pas aku sadar harus berhenti menunda-nunda itu udah jam 3 atau 4 pagi, dan pada saat itu aku malah ngantuk berat. Otakku kayak langsung nolak buat fokus. Itu pola yang terus kebawa belakangan ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Itu memang siklus yang sulit diputuskan."
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya bodoh aja. Tapi setelah dua pelajaran ini selesai, aku mau banget mulai tidur lebih awal. Soalnya walau nggak ada tugas pun, aku tetap tidur larut setiap malam."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi kamu ingin menata ulang kebiasaanmu dan mulai serius belajar, ya?"
+      },
+      {
+        "role": "user",
+        "content": "Iya, setelah dua pelajaran ini beres, ini kayak waktu yang pas buat istirahat dan reset semua kebiasaan burukku, termasuk pola tidur. Aku pengen kembali ke rutinitas yang normal. Januari nanti bisa jadi awal baru buatku."
+      },
+      {
+        "role": "assistant",
+        "content": "Benar, kasih waktu untuk istirahat juga penting supaya kamu bisa pulih dan kembali lebih kuat masuk rutinitas baru."
+      },
+      {
+        "role": "user",
+        "content": "Iya, setuju banget. Karena aku kebawa banyak kebiasaan buruk dari kemarin-kemarin, mulai dari suka menunda, jarang olahraga, makan nggak teratur, tidur juga berantakan."
+      },
+      {
+        "role": "assistant",
+        "content": "Menurutku kamu terlihat sangat mampu, meskipun kamu lagi stres banget sekarang."
+      },
+      {
+        "role": "user",
+        "content": "Semuanya saling nyambung, dan kayaknya belajar pun jadi memperparah lingkaran ini malah."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu bisa kok kembali ke kebiasaan sehat sedikit demi sedikit."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Aku merasa makin siap setiap hari makin dekat ke hari ujian. Aku lagi ngejar ketertinggalanku dan agak nyesel kenapa sebelumnya nggak maksimal. Tapi sekarang aku ngerasa mulai dapat pegangan lagi. Terima kasih atas nasihatnya, aku sangat berharap bisa keluar dari kebiasaan buruk ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu pantas merasa bangga dengan usaha yang kamu lakukan sekarang."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Aku juga bisa lihat kalau kamu memahami perasaanku, dan itu menyenangkan."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku percaya kamu bisa melalui ini semua."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak! Aku akan lanjut belajar lagi setelah ngobrol ini. Obrolan barusan jadi penyegar buatku. Terima kasih atas kata-kata baik dan kepercayaan kamu padaku."
+      },
+      {
+        "role": "assistant",
+        "content": "Sama-sama. Semoga malam ini kamu bisa tetap fokus dan jangan lupa juga istirahat kalau sudah lelah."
+      },
+      {
+        "role": "user",
+        "content": "Oke. Aku siap lanjut sekarang. Terima kasih banyak sekali lagi. Semoga semuanya lancar juga untuk kamu. Selamat malam dan jaga kesehatan."
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:21:56.503082Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

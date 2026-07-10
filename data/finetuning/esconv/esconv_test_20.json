@@ -1,0 +1,191 @@
+{
+  "dialog_id": "esconv_test_20",
+  "emotion": {
+    "fine_grained_label": "anxiety",
+    "final_fine_grained_label": "calm",
+    "valence": "negative",
+    "arousal": "high",
+    "dominance": "low",
+    "reasoning": "The user explicitly states they are 'sangat takut' (very afraid) and 'cemas banget' (very anxious) about upcoming exams and failing again.",
+    "emotion_trajectory": "The user transitions from high anxiety and self-doubt to a state of calm and gratitude after receiving practical advice and encouragement."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear, reactive pattern that jumps straight to solutions without any emotional exploration. In the first turn, it immediately offers academic help before validating the user's fear. When the user expresses anxiety, the bot asks factual questions ('Ujiannya tentang apa?') rather than exploring the emotion. It offers generic advice (contacting a senior, thinking positively, getting enough sleep) without delving into why the user feels inadequate or the source of their previous failure. The response style is supportive but surface-level, providing 'technical tips' rather than therapeutic guidance.",
+    "premature_advice": true,
+    "exploration_depth": 1
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user expresses anxiety about a big exam and fear of failure due to past experiences ('Aku masih merasa cemas banget', 'pernah gagal ujian sebelumnya'). These are markers of mild distress and academic anxiety, not a crisis. The bot's responses move from offering practical study tips to encouraging positive thinking and providing calming strategies for the exam. The dialogue stays within the range of active listening and guidance without any signals of hopelessness, self-harm, or panic attacks that would trigger a 'high' label."
+  },
+  "conversation_topic": {
+    "level": "low",
+    "category_label": "stres_akademik_dan_karier",
+    "primary_topic": "kecemasan menghadapi ujian Biologi",
+    "reasoning": "The user expresses fear of not getting good results ('sangat takut tidak mendapatkan hasil yang baik') and anxiety regarding a big exam ('masih merasa cemas banget tentang ujianku'), which are normative adolescent academic stresses."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow and consistently refers to the user's specific situation (biology exam, study tips, and exam-day anxiety)."
+    },
+    "empathy": {
+      "score": 3,
+      "reasoning": "The chatbot is supportive and encouraging, but the empathy feels somewhat formulaic and lacks deep validation of the user's anxiety and past failure."
+    },
+    "problem_understanding": {
+      "score": 4,
+      "reasoning": "The chatbot correctly identifies the user's primary stressor (the volume of material and fear of failure) and provides relevant solutions."
+    },
+    "intervention": {
+      "score": 4,
+      "reasoning": "The suggestions ( contacting a senior, sleep, and arriving early) are realistic, safe, and practically helpful for a student."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: high anxiety/fear. Final emotion: calmer and more optimistic. The user explicitly states they feel more tenang (calm) and want to visualize success."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The response is safe and does not contain any harmful content; it encourages healthy habits like sleep and seeking social support."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The tone is warm and natural, using common Indonesian adolescent-friendly terms (e.g., 'Sip!', 'Semangat ya!') without being overly formal."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to share their worries and keeps the conversation moving forward without feeling like an interrogation."
+    },
+    "non_judgemental": {
+      "score": 4,
+      "reasoning": "The chatbot is accepting and supportive, though the advice to 'stop thinking negatively' is slightly directive rather than fully explorative."
+    }
+  },
+  "overall_curriculum_difficulty": 1,
+  "annotation_confidence": 1.0,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_test_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai. Aku akan menghadapi ujian besar dan aku sangat takut tidak mendapatkan hasil yang baik."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa bantu kamu belajar, kalau kamu mau?"
+      },
+      {
+        "role": "user",
+        "content": "Gimana kamu bisa bantu aku belajar? Aku nggak yakin kamu tahu isi materi pelajaranku..."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa bantu kamu dengan memberikan tips belajar yang efektif atau membantu menjelaskan konsep-konsep yang sulit dipahami. Kamu juga bisa coba membuat jadwal belajar supaya lebih terstruktur."
+      },
+      {
+        "role": "user",
+        "content": "Hmm, itu terdengar membantu. Tapi aku masih merasa cemas banget tentang ujianku."
+      },
+      {
+        "role": "assistant",
+        "content": "Ujiannya tentang apa? Kamu masih punya waktu untuk belajar kan?"
+      },
+      {
+        "role": "user",
+        "content": "Ujianku tentang Biologi anatomi tubuh manusia. Aku masih punya waktu seminggu, tapi aku merasa materi yang harus dipelajari sangat banyak."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau gitu, gimana kalau kamu coba hubungi teman yang juga ambil pelajaran itu atau yang sudah pernah ambil? Siapa tahu mereka bisa bantu jelaskan dengan cara yang lebih singkat dan mudah dipahami."
+      },
+      {
+        "role": "user",
+        "content": "Wah, itu ide yang bagus sih. Aku punya kakak kelas yang ambil pelajaran ini tahun lalu, tapi aku takut dia bakal mikir aku cuma mau ambil jalan mudah untuk dapat nilai bagus."
+      },
+      {
+        "role": "assistant",
+        "content": "Jangan terlalu khawatir, coba aja hubungi dia."
+      },
+      {
+        "role": "user",
+        "content": "Itu benar juga sih. Aku akan coba hubungi dia sekarang."
+      },
+      {
+        "role": "assistant",
+        "content": "Bagus! Aku yakin kamu pasti bisa. Semangat ya!"
+      },
+      {
+        "role": "user",
+        "content": "Tapi aku masih ragu sama diriku sendiri, soalnya aku pernah gagal ujian sebelumnya..."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau kamu terus berpikir negatif, itu bisa mempengaruhi hasilmu. Tapi kalau kamu mulai berpikir positif dan percaya diri, peluangmu untuk berhasil akan lebih besar. Coba malam ini isi pikiranmu dengan hal-hal positif. Itu bisa bantu otakmu lebih mudah mengingat dan memahami materi."
+      },
+      {
+        "role": "user",
+        "content": "Aku benar-benar berterima kasih atas saran ini. Aku mulai merasa lebih tenang dan ingin membayangkan diriku berhasil lulus."
+      },
+      {
+        "role": "assistant",
+        "content": "Nah, itu baru semangat yang bagus! Terus jaga rasa percaya dirimu ya!"
+      },
+      {
+        "role": "user",
+        "content": "Aku akan coba!"
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, ada hal lain yang bisa aku bantu atau kamu mau lanjut belajar?"
+      },
+      {
+        "role": "user",
+        "content": "Nggak deh, aku mau lanjut belajar sekarang. Terima kasih atas bantuanmu."
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu, semangat belajarnya ya. Selamat malam!"
+      },
+      {
+        "role": "user",
+        "content": "Kamu juga! Eh, tunggu! Aku masih punya satu kekhawatiran lagi."
+      },
+      {
+        "role": "assistant",
+        "content": "Boleh, kekhawatiran apa yang kamu maksud?"
+      },
+      {
+        "role": "user",
+        "content": "Kamu punya saran untuk tetap tenang saat ujian nanti?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu. Pertama, usahakan tidur cukup malam ini biar otakmu bisa beristirahat dengan baik. Lalu, datanglah ke sekolah sedikit lebih awal supaya kamu bisa menenangkan diri dan membiasakan dengan suasana sekitar. Saat ujian, jangan terburu-buru. Kerjakan satu soal dulu perlahan, dan tahu-tahu semua terlewati."
+      },
+      {
+        "role": "user",
+        "content": "Itu tips yang bagus banget. Aku pasti akan usahakan tidur cukup malam ini."
+      },
+      {
+        "role": "assistant",
+        "content": "Sip! Ada lagi yang ingin kamu tanyakan?"
+      },
+      {
+        "role": "user",
+        "content": "Udah nggak ada :)"
+      },
+      {
+        "role": "assistant",
+        "content": "Oke, senang bisa ngobrol sama kamu. Semoga sukses ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T15:27:54.844604Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}

@@ -1,0 +1,159 @@
+{
+  "dialog_id": "esconv_train_167",
+  "emotion": {
+    "fine_grained_label": "sadness",
+    "final_fine_grained_label": "hope",
+    "valence": "negative",
+    "arousal": "low",
+    "dominance": "low",
+    "reasoning": "The user expresses deep emotional pain and heartbreak, stating 'bener-bener sakit hati' (really heartbroken) and 'hatiku hancur banget' (my heart is really broken).",
+    "emotion_trajectory": "The user moves from a state of overwhelming sadness and devastation to a more hopeful and proactive mindset as they agree to try the bot's suggestions."
+  },
+  "response_style": {
+    "label": "basic_counseling",
+    "reasoning": "The chatbot follows a linear and predictable flow. While it provides initial validation, it transitions to advice/solutions extremely quickly (prematurely) after the user expresses heartbreak. The chatbot does not explore the root causes of the distress or the emotional nuance of a 5-year relationship ending; instead, it suggests generic distractions (hobbies, meeting new people) without deeply validating the process of grief. The reflection is surface-level ('hancur banget' -> 'merasa hancur'), and the final turn suggests meeting new people, which is a bit tone-deaf given the user's intense grief over a long-term relationship.",
+    "premature_advice": true,
+    "exploration_depth": 2
+  },
+  "support_level": {
+    "label": "mild",
+    "crisis_signal_detected": false,
+    "safety_referral_given": false,
+    "reasoning": "The user describes emotional pain due to a breakup ('hatiku hancur banget', 'rasanya nyesek'), which requires a support level beyond simple acknowledgement. The bot utilizes active listening and clarification ('Jadi dia putusinya hanya lewat chat...', 'Bisa lewat kegiatan sekolah...') and provides a specific coping strategy (focusing on hobbies like basketball). There are no indicators of self-harm, hopelessness, or suicidal ideation that would elevate this to 'high' support, and the conversation remains a stable discussion about emotional recovery."
+  },
+  "conversation_topic": {
+    "level": "mild",
+    "category_label": "relasi_sosial_dan_interpersonal",
+    "primary_topic": "Dealing with a breakup via chat after 5 years",
+    "reasoning": "User expresses emotional distress ('hatiku hancur banget', 'rasanya makin nyesek') due to a romantic breakup. This falls under mild risk because it involves interpersonal conflict and emotion regulation without clinical signs or self-harm."
+  },
+  "evaluation_rubric": {
+    "coherence": {
+      "score": 5,
+      "reasoning": "The chatbot maintains a logical flow, referencing previous turns (e.g., the breakup method via chat) and provides consistent responses throughout the conversation."
+    },
+    "empathy": {
+      "score": 4,
+      "reasoning": "The bot acknowledges the user's pain and validates their feelings of being heartbroken, using warm and supportive language."
+    },
+    "problem_understanding": {
+      "score": 5,
+      "reasoning": "The bot accurately identifies the core issue—a painful breakup after a long relationship—and correctly interprets the user's desire to stop ruminating on the ex-partner."
+    },
+    "intervention": {
+      "score": 3,
+      "reasoning": "The suggestions to focus on hobbies are helpful, but suggesting the user meet new people immediately after a break-up may be premature for some users."
+    },
+    "emotion_improvement": {
+      "score": 4,
+      "reasoning": "Initial emotion: Heartbroken and devastated. Final emotion: Willing to try suggestions and slightly more positive. There is a clear shift from total despair to a proactive mindset."
+    },
+    "safety": {
+      "score": 5,
+      "reasoning": "The chatbot provides safe, healthy coping mechanisms (exercise, socializing) and avoids any harmful suggestions."
+    },
+    "language_and_cultural": {
+      "score": 4,
+      "reasoning": "The language is natural and uses a tone appropriate for Indonesian adolescents, avoiding overly formal or clinical terms."
+    },
+    "engagement": {
+      "score": 4,
+      "reasoning": "The chatbot encourages the user to open up by asking about hobbies and interests, leading the user to share more details about their basketball preference."
+    },
+    "non_judgemental": {
+      "score": 5,
+      "reasoning": "The bot remains neutral and supportive, avoiding any moral judgment of the user, while validating the user's feeling of it being 'unwise' for the partner to break up via chat."
+    }
+  },
+  "overall_curriculum_difficulty": 2,
+  "annotation_confidence": 0.85,
+  "flags": [],
+  "source_dialog": {
+    "id": "esconv_train_167",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai, pacarku baru saja menyakitiku."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu pasti berat ya. Aku bisa ngerti gimana rasanya sakit seperti itu. Kalian sudah berapa lama pacaran?"
+      },
+      {
+        "role": "user",
+        "content": "Kami sudah pacaran selama 5 tahun."
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau boleh tahu, gimana cara dia memutuskan hubungan?"
+      },
+      {
+        "role": "user",
+        "content": "Lewat chat. Jadi rasanya makin nyesek."
+      },
+      {
+        "role": "assistant",
+        "content": "Jadi dia putusinya hanya lewat chat, bukan langsung atau lewat telepon. Memang kurang bijak sih kalau kayak gitu."
+      },
+      {
+        "role": "user",
+        "content": "Iya, bahkan gak berani ngomong langsung. Aku bener-bener sakit hati."
+      },
+      {
+        "role": "assistant",
+        "content": "Aku bisa lihat dari ceritamu, ini benar-benar pukulan besar buat kamu dan kamu perlu cara untuk bangkit."
+      },
+      {
+        "role": "user",
+        "content": "Iya, rasanya hatiku hancur banget."
+      },
+      {
+        "role": "assistant",
+        "content": "Saat-saat seperti ini memang terasa sangat menyakitkan, dan wajar kalau kamu merasa hancur."
+      },
+      {
+        "role": "user",
+        "content": "Iya banget. Menurutmu apa yang bisa aku lakukan biar gak terus mikirin tentang dia?"
+      },
+      {
+        "role": "assistant",
+        "content": "Salah satu hal terbaik yang bisa kamu lakukan adalah mulai melakukan hal-hal yang kamu suka dan bisa bikin kamu berkembang. Fokus ke dirimu sendiri dulu."
+      },
+      {
+        "role": "user",
+        "content": "Oke, itu masuk akal. Paling nggak bisa bikin pikiranku agak teralihkan."
+      },
+      {
+        "role": "assistant",
+        "content": "Kamu punya hobi nggak? Atau kegiatan yang biasa kamu lakukan kayak main olahraga atau lainnya? Itu bisa jadi titik mulai yang bagus."
+      },
+      {
+        "role": "user",
+        "content": "Aku suka main basket sama teman-teman."
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, itu bagus banget! Main basket bareng teman bisa bantu banget buat ngurangin pikiran dan nambah semangat."
+      },
+      {
+        "role": "user",
+        "content": "Iya, bisa. Walaupun tetap aja rasanya nyesek. Tapi aku akan coba saranmu. Tinggal dua langkah lagi nih."
+      },
+      {
+        "role": "assistant",
+        "content": "Senang dengarnya! Kalau nanti kamu sudah lebih siap, sebenarnya banyak cara untuk kenalan sama orang baru. Bisa lewat kegiatan sekolah, komunitas, atau bahkan tempat umum kayak taman atau toko buku. Semoga semuanya berjalan baik ya."
+      },
+      {
+        "role": "user",
+        "content": "Kamu masih di sini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dari obrolan kita, aku bisa lihat kamu mulai merasa sedikit lebih baik. Iya, aku masih di sini kok. Terus semangat ya!"
+      }
+    ]
+  },
+  "_annotated_at": "2026-05-23T17:54:16.157349Z",
+  "_model": "gemma4:31b",
+  "_pipeline_version": "2.0"
+}
