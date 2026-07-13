@@ -18,9 +18,9 @@ Output directory : data/simulated-sft_baseline_d_roleplaydoh_dual_noai
 Usage
 -----
     python simulate_conversation_dual_noai.py \\
-        --xlsx         ../data/eval/skenario_mental.xlsx \\
-        --output-dir   ../data/simulated-sft_baseline_d_roleplaydoh_dual_noai \\
-        [--manifest    ../data/simulated-sft-fin] \\
+        --xlsx         ../data/simulation/skenario_mental.xlsx \\
+        --output-dir   ../results/RolePlayDoh \\
+        [--manifest    ../data/simulated-sft_baseline] \\
         [--scenario-ids 1 5 12] \\
         [--agent-type pendiam] \\
         [--emotions-per-scenario 1] \\
@@ -47,7 +47,7 @@ import pandas as pd
 import requests
 
 # ── Ollama configuration ───────────────────────────────────────────────────────
-OLLAMA_BIN    = os.getenv("OLLAMA_BIN",    "$HOME/.local/bin_ollama2026/ollama/bin/ollama")
+OLLAMA_BIN    = os.getenv("OLLAMA_BIN",    "$HOME/.local/ollama/bin/ollama")
 OLLAMA_MODELS = os.getenv("OLLAMA_MODELS", "$HOME/.ollama/models")
 USER_MODEL    = os.getenv("USER_MODEL",    "gemma4:e4b")
 CHATBOT_MODEL = os.getenv("CHATBOT_MODEL", "teta-sft-v2:latest")
@@ -55,8 +55,8 @@ CHATBOT_MODEL = os.getenv("CHATBOT_MODEL", "teta-sft-v2:latest")
 DEFAULT_OLLAMA_URL = "http://localhost:12434"
 
 _SCRIPT_DIR        = Path(__file__).parent
-DEFAULT_XLSX       = str(_SCRIPT_DIR / "../data/eval/skenario_mental.xlsx")
-DEFAULT_OUTPUT_DIR = str(_SCRIPT_DIR / "../data/simulated-sft_baseline_d_roleplaydoh_dual_noai")
+DEFAULT_XLSX       = str(_SCRIPT_DIR / "../data/simulation/skenario_mental.xlsx")
+DEFAULT_OUTPUT_DIR = str(_SCRIPT_DIR / "../data/simulated-sft_baseline")
 
 TURNS_DEFAULT = 25
 TURNS_MIN     = 15

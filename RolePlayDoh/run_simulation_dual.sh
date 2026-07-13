@@ -1,14 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=sim-rp-dual
-#SBATCH --account=brin_staff
-#SBATCH --partition=long
-#SBATCH --nodelist=a100
-#SBATCH --gres=gpu:1
-#SBATCH --mem=38G
-#SBATCH --output=logs/simulation_roleplaydoh_dual_%j.out
-#SBATCH --error=logs/simulation_roleplaydoh_dual_%j.err
-
-# run_simulation_dual.sh — Baseline D2: Roleplay-doh Dual Adherence
+# ── Conda ──────────────────────────────────────────────────────────────────────
+source CONDA_HOME
+conda activate env-name
+# run_simulation_dual.sh — Baseline D2: Roleplay-doh Dual Adherence with AI-aware agents
 # ------------------------------------------------------------------
 # Launches baseline_simulator_4/simulate_conversation_dual.py which applies
 # principle-adherence prompting to BOTH agents:
@@ -33,14 +27,14 @@
 set -euo pipefail
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-SCRIPT_DIR="${SLURM_SUBMIT_DIR:-/home/ifti001/PROJECT2025/Mental_Health/agentic_curriculum}"
-PROJECT_ROOT="/home/ifti001/PROJECT2025/Mental_Health"
+SCRIPT_DIR="${SLURM_SUBMIT_DIR:-PROJECT_ROOT/RolePlayDoh}"
+
 
 # ── Ollama server ─────────────────────────────────────────────────────────────
 export OLLAMA_HOST="http://localhost:12434"
 export OLLAMA_MODELS="$HOME/.ollama/models"
-export PATH="$HOME/.local/bin_ollama2026/ollama/bin:$PATH"
-OLLAMA_BIN="$HOME/.local/bin_ollama2026/ollama/bin/ollama"
+export PATH="$HOME/.local/ollama/bin:$PATH"
+OLLAMA_BIN="$HOME/.local/ollama/bin/ollama"
 
 unset CUDA_VISIBLE_DEVICES
 
@@ -68,8 +62,7 @@ done
 
 # ── Model configuration ────────────────────────────────────────────────────────
 export USER_MODEL="${USER_MODEL:-gemma4:e4b}"
-#export CHATBOT_MODEL="${CHATBOT_MODEL:-teta-sft-v2:latest}"
-export CHATBOT_MODEL="${CHATBOT_MODEL:-gemma4:e4b}"
+export CHATBOT_MODEL="${CHATBOT_MODEL:-teta-sft-v2:latest}"
 
 echo ""
 echo "Pre-flight — verifying Ollama model '${USER_MODEL}' can load..."
@@ -86,27 +79,23 @@ fi
 rm -f "${WARMUP_TMPFILE}"
 echo "  Model is ready."
 
-# ── Conda ──────────────────────────────────────────────────────────────────────
-source /home/ifti001/miniconda3/etc/profile.d/conda.sh
-conda activate llm-eval
 
 export PYTHONUNBUFFERED=1
 export PYTHONIOENCODING=utf-8
 
 # ── Output / log paths ────────────────────────────────────────────────────────
-XLSX="${PROJECT_ROOT}/agentic_curriculum/data/eval/skenario_mental.xlsx"
-#OUTPUT_DIR="${PROJECT_ROOT}/agentic_curriculum/data/simulated-sft_baseline_d_roleplaydoh_dual"
-OUTPUT_DIR="${PROJECT_ROOT}/agentic_curriculum/data/simulated-sft_baseline_d_roleplaydoh_dual-R2"
-MANIFEST_DIR="${MANIFEST_DIR:-${PROJECT_ROOT}/agentic_curriculum/data/simulated-sft_baseline_b_psydial}"
-LOG_DIR="${PROJECT_ROOT}/agentic_curriculum/logs"
+XLSX="${PROJECT_ROOT}/data/simulation/skenario_mental.xlsx"
+OUTPUT_DIR="${PROJECT_ROOT}/results/RolePlayDoh-aiaware"
+MANIFEST_DIR="${MANIFEST_DIR:-${PROJECT_ROOT}/data/simulated-sft_baseline}"
+LOG_DIR="${PROJECT_ROOT}/logs"
 
 mkdir -p "${LOG_DIR}" "${OUTPUT_DIR}"
 TIMESTAMP="$(date +%Y%m%d_%H%M%S)"
-LOG_FILE="${LOG_DIR}/simulation_roleplaydoh_dual-R2_${TIMESTAMP}.log"
+LOG_FILE="${LOG_DIR}/simulation_roleplaydoh_dual_${TIMESTAMP}.log"
 
 echo ""
 echo "══════════════════════════════════════════════════════════════"
-echo "  Baseline D2 — Roleplay-doh Dual Adherence Simulation"
+echo "  Baseline — Roleplay-doh Dual Adherence Simulation (AI-aware)"
 echo "══════════════════════════════════════════════════════════════"
 echo "  User model    : ${USER_MODEL}"
 echo "  Chatbot model : ${CHATBOT_MODEL}"
@@ -125,7 +114,7 @@ elif [[ -n "${MANIFEST_DIR}" ]]; then
     echo "WARN: MANIFEST_DIR='${MANIFEST_DIR}' is not a directory — running without manifest (random sampling)."
 fi
 
-python3 "${SCRIPT_DIR}/baseline_simulator_4/simulate_conversation_dual.py" \
+python3 "${SCRIPT_DIR}/simulate_conversation_dual.py" \
     --xlsx        "${XLSX}"       \
     --output-dir  "${OUTPUT_DIR}" \
     --ollama-url  "${OLLAMA_HOST}" \

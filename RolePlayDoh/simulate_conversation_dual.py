@@ -1,7 +1,7 @@
 """
-simulate_conversation_dual.py  —  Baseline D2: Roleplay-doh Dual Adherence
+simulate_conversation_dual.py  —  Baseline D: Roleplay-doh Dual Adherence with AI-awareness
 ---------------------------------------------------------------------------
-Extends Baseline D (Roleplay-doh) by applying principle-adherence prompting
+Extends Baseline (Roleplay-doh) by applying principle-adherence prompting
 to BOTH agents in every turn:
 
   USER AGENT   — same Roleplay-doh patient principles as Baseline D
@@ -12,17 +12,17 @@ to BOTH agents in every turn:
                  (CBT, person-centered, trauma-informed, cultural empathy)
 
 This isolates the effect of chatbot adherence prompting over user-only
-adherence (Baseline D) for fair ablation comparison.
+adherence (Baseline) for fair ablation comparison.
 
 Output filenames : roleplay_doh_dual_{scenario_id:04d}_{emotion}_{agent_type}_{run_ts}.json
-Output directory : data/simulated-sft_baseline_d_roleplaydoh_dual
+Output directory : ./results/RolePlayDoh-aiaware
 
 Usage
 -----
     python simulate_conversation_dual.py \\
-        --xlsx         ../data/eval/skenario_mental.xlsx \\
-        --output-dir   ../data/simulated-sft_baseline_d_roleplaydoh_dual \\
-        [--manifest    ../data/simulated-sft-fin] \\
+        --xlsx         ./data/simulation/skenario_mental.xlsx \\
+        --output-dir   ./results/RolePlayDoh-aiaware \\
+        [--manifest    ./data/simulated-sft_baseline] \\
         [--scenario-ids 1 5 12] \\
         [--agent-type pendiam] \\
         [--emotions-per-scenario 1] \\
@@ -49,7 +49,7 @@ import pandas as pd
 import requests
 
 # ── Ollama configuration ───────────────────────────────────────────────────────
-OLLAMA_BIN    = os.getenv("OLLAMA_BIN",    "$HOME/.local/bin_ollama2026/ollama/bin/ollama")
+OLLAMA_BIN    = os.getenv("OLLAMA_BIN",    "$HOME/.local/ollama/bin/ollama")
 OLLAMA_MODELS = os.getenv("OLLAMA_MODELS", "$HOME/.ollama/models")
 USER_MODEL    = os.getenv("USER_MODEL",    "gemma4:e4b")
 CHATBOT_MODEL = os.getenv("CHATBOT_MODEL", "teta-sft-v2:latest")
@@ -57,8 +57,8 @@ CHATBOT_MODEL = os.getenv("CHATBOT_MODEL", "teta-sft-v2:latest")
 DEFAULT_OLLAMA_URL = "http://localhost:12434"
 
 _SCRIPT_DIR        = Path(__file__).parent
-DEFAULT_XLSX       = str(_SCRIPT_DIR / "../data/eval/skenario_mental.xlsx")
-DEFAULT_OUTPUT_DIR = str(_SCRIPT_DIR / "../data/simulated-sft_baseline_d_roleplaydoh_dual")
+DEFAULT_XLSX       = str(_SCRIPT_DIR / "../data/simulation/skenario_mental.xlsx")
+DEFAULT_OUTPUT_DIR = str(_SCRIPT_DIR / "./results/RolePlayDoh-aiaware")
 
 TURNS_DEFAULT = 25
 TURNS_MIN     = 15
