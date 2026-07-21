@@ -1,0 +1,246 @@
+{
+  "dialog_id": "baseline_b_psydial_0008_anxiety_1781513733",
+  "scenario_id": 8,
+  "kategori": "Konsep identitas diri",
+  "topik": "Eksperimen identitas",
+  "deskripsi": "Kadang bentrok dengan norma keluarga atau budaya.",
+  "target_emotion": "anxiety",
+  "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+  "chief_complaint": "Masalah utama: Kadang bentrok dengan norma keluarga atau budaya.\nKategori masalah: Konsep identitas diri — Eksperimen identitas\nKondisi emosional saat ini: anxiety",
+  "masked_fields": [
+    "Jenis kelamin",
+    "Usia",
+    "Hubungan keluarga"
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Halo, Mas/Mbak."
+    },
+    {
+      "role": "assistant",
+      "content": "Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?"
+    },
+    {
+      "role": "user",
+      "content": "Saya... cuma mau curhat aja, Mas/Mbak."
+    },
+    {
+      "role": "assistant",
+      "content": "Tidak apa-apa. Curhat bisa jadi langkah awal yang baik. Apa yang ingin kamu ceritakan?"
+    },
+    {
+      "role": "user",
+      "content": "Ya... belakangan ini pikiran saya agak kacau. Kayak ada banyak hal yang berbenturan di kepala."
+    },
+    {
+      "role": "assistant",
+      "content": "Bisa ceritakan lebih lanjut tentang \"banyak hal\" yang berbenturan itu? Apa saja yang kamu rasakan saat pikiranmu kacau?"
+    },
+    {
+      "role": "user",
+      "content": "Agak panik sih, rasanya. Terus kayak ada yang narik ke satu arah, tapi ada juga yang narik ke arah lain."
+    },
+    {
+      "role": "assistant",
+      "content": "Panik memang tidak nyaman. Apa yang membuatmu merasa ditarik ke arah yang berbeda-beda itu?"
+    },
+    {
+      "role": "user",
+      "content": "Kayak... kayak ada harapan orang lain sama harapan diri sendiri. Dua-duanya rasanya kuat banget."
+    },
+    {
+      "role": "assistant",
+      "content": "Menyeimbangkan harapan orang lain dan harapan diri sendiri memang bisa jadi tantangan. Bisa ceritakan sedikit tentang harapan orang lain itu seperti apa?"
+    },
+    {
+      "role": "user",
+      "content": "Mereka berharap saya... harusnya menjalani sesuatu yang sudah mereka siapkan. Kayak jalur hidup yang sudah jelas gitu."
+    },
+    {
+      "role": "assistant",
+      "content": "Jadi, ada perasaan terpaksa mengikuti jalur yang sudah ditentukan orang lain? Apa yang kamu inginkan sebenarnya?"
+    },
+    {
+      "role": "user",
+      "content": "Saya nggak tahu... apa yang saya mau sebenarnya. Saya cuma merasa bingung aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Kebingungan itu wajar, apalagi saat merasa tertekan oleh harapan orang lain. Kapan kamu mulai merasa seperti ini?"
+    },
+    {
+      "role": "user",
+      "content": "Sejak... mungkin setelah lulus sekolah kemarin. Rasanya kayak, saya harus langsung tahu mau jadi apa."
+    },
+    {
+      "role": "assistant",
+      "content": "Tekanan setelah lulus sekolah memang bisa terasa berat. Apakah ada momen tertentu yang membuatmu merasa bingung setelah lulus?"
+    },
+    {
+      "role": "user",
+      "content": "Iya, momen-momen kayak pas kumpul keluarga. Semua orang bahas rencana saya, dan rasanya saya nggak ngerti mau jawab apa."
+    },
+    {
+      "role": "assistant",
+      "content": "Kumpul keluarga bisa jadi situasi yang sulit ya. Apa yang biasanya mereka tanyakan saat membahas rencana-rencana itu?"
+    },
+    {
+      "role": "user",
+      "content": "Biasanya soal kuliah, atau kerja apa. Mereka selalu menanyakan, \"Jadi, kamu mau ke mana setelah ini?\""
+    },
+    {
+      "role": "assistant",
+      "content": "Pertanyaan \"kamu mau ke mana setelah ini\" bisa jadi sangat membebani. Bagaimana perasaanmu saat mereka bertanya seperti itu?"
+    }
+  ],
+  "dialogue": "User [0]: Halo, Mas/Mbak.\nChatbot [1]: Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?\nUser [2]: Saya... cuma mau curhat aja, Mas/Mbak.\nChatbot [3]: Tidak apa-apa. Curhat bisa jadi langkah awal yang baik. Apa yang ingin kamu ceritakan?\nUser [4]: Ya... belakangan ini pikiran saya agak kacau. Kayak ada banyak hal yang berbenturan di kepala.\nChatbot [5]: Bisa ceritakan lebih lanjut tentang \"banyak hal\" yang berbenturan itu? Apa saja yang kamu rasakan saat pikiranmu kacau?\nUser [6]: Agak panik sih, rasanya. Terus kayak ada yang narik ke satu arah, tapi ada juga yang narik ke arah lain.\nChatbot [7]: Panik memang tidak nyaman. Apa yang membuatmu merasa ditarik ke arah yang berbeda-beda itu?\nUser [8]: Kayak... kayak ada harapan orang lain sama harapan diri sendiri. Dua-duanya rasanya kuat banget.\nChatbot [9]: Menyeimbangkan harapan orang lain dan harapan diri sendiri memang bisa jadi tantangan. Bisa ceritakan sedikit tentang harapan orang lain itu seperti apa?\nUser [10]: Mereka berharap saya... harusnya menjalani sesuatu yang sudah mereka siapkan. Kayak jalur hidup yang sudah jelas gitu.\nChatbot [11]: Jadi, ada perasaan terpaksa mengikuti jalur yang sudah ditentukan orang lain? Apa yang kamu inginkan sebenarnya?\nUser [12]: Saya nggak tahu... apa yang saya mau sebenarnya. Saya cuma merasa bingung aja.\nChatbot [13]: Kebingungan itu wajar, apalagi saat merasa tertekan oleh harapan orang lain. Kapan kamu mulai merasa seperti ini?\nUser [14]: Sejak... mungkin setelah lulus sekolah kemarin. Rasanya kayak, saya harus langsung tahu mau jadi apa.\nChatbot [15]: Tekanan setelah lulus sekolah memang bisa terasa berat. Apakah ada momen tertentu yang membuatmu merasa bingung setelah lulus?\nUser [16]: Iya, momen-momen kayak pas kumpul keluarga. Semua orang bahas rencana saya, dan rasanya saya nggak ngerti mau jawab apa.\nChatbot [17]: Kumpul keluarga bisa jadi situasi yang sulit ya. Apa yang biasanya mereka tanyakan saat membahas rencana-rencana itu?\nUser [18]: Biasanya soal kuliah, atau kerja apa. Mereka selalu menanyakan, \"Jadi, kamu mau ke mana setelah ini?\"\nChatbot [19]: Pertanyaan \"kamu mau ke mana setelah ini\" bisa jadi sangat membebani. Bagaimana perasaanmu saat mereka bertanya seperti itu?",
+  "turns_raw": [
+    {
+      "role": "user",
+      "content": "Halo, Mas/Mbak.",
+      "turn_index": 0,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?",
+      "turn_index": 1,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Saya... cuma mau curhat aja, Mas/Mbak.",
+      "turn_index": 2,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Tidak apa-apa. Curhat bisa jadi langkah awal yang baik. Apa yang ingin kamu ceritakan?",
+      "turn_index": 3,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Ya... belakangan ini pikiran saya agak kacau. Kayak ada banyak hal yang berbenturan di kepala.",
+      "turn_index": 4,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Bisa ceritakan lebih lanjut tentang \"banyak hal\" yang berbenturan itu? Apa saja yang kamu rasakan saat pikiranmu kacau?",
+      "turn_index": 5,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Agak panik sih, rasanya. Terus kayak ada yang narik ke satu arah, tapi ada juga yang narik ke arah lain.",
+      "turn_index": 6,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Panik memang tidak nyaman. Apa yang membuatmu merasa ditarik ke arah yang berbeda-beda itu?",
+      "turn_index": 7,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Kayak... kayak ada harapan orang lain sama harapan diri sendiri. Dua-duanya rasanya kuat banget.",
+      "turn_index": 8,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Menyeimbangkan harapan orang lain dan harapan diri sendiri memang bisa jadi tantangan. Bisa ceritakan sedikit tentang harapan orang lain itu seperti apa?",
+      "turn_index": 9,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Mereka berharap saya... harusnya menjalani sesuatu yang sudah mereka siapkan. Kayak jalur hidup yang sudah jelas gitu.",
+      "turn_index": 10,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Jadi, ada perasaan terpaksa mengikuti jalur yang sudah ditentukan orang lain? Apa yang kamu inginkan sebenarnya?",
+      "turn_index": 11,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Saya nggak tahu... apa yang saya mau sebenarnya. Saya cuma merasa bingung aja.",
+      "turn_index": 12,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Kebingungan itu wajar, apalagi saat merasa tertekan oleh harapan orang lain. Kapan kamu mulai merasa seperti ini?",
+      "turn_index": 13,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Sejak... mungkin setelah lulus sekolah kemarin. Rasanya kayak, saya harus langsung tahu mau jadi apa.",
+      "turn_index": 14,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Tekanan setelah lulus sekolah memang bisa terasa berat. Apakah ada momen tertentu yang membuatmu merasa bingung setelah lulus?",
+      "turn_index": 15,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Iya, momen-momen kayak pas kumpul keluarga. Semua orang bahas rencana saya, dan rasanya saya nggak ngerti mau jawab apa.",
+      "turn_index": 16,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Kumpul keluarga bisa jadi situasi yang sulit ya. Apa yang biasanya mereka tanyakan saat membahas rencana-rencana itu?",
+      "turn_index": 17,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Biasanya soal kuliah, atau kerja apa. Mereka selalu menanyakan, \"Jadi, kamu mau ke mana setelah ini?\"",
+      "turn_index": 18,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Pertanyaan \"kamu mau ke mana setelah ini\" bisa jadi sangat membebani. Bagaimana perasaanmu saat mereka bertanya seperti itu?",
+      "turn_index": 19,
+      "refined": false
+    }
+  ],
+  "metadata": {
+    "user_model": "gemma4:e4b",
+    "chatbot_model": "teta-sft-v2:latest",
+    "agent_type": "defensif",
+    "num_turn_pairs": 10,
+    "simulated_at": "2026-06-15T15:55:33",
+    "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+    "refine_max_words": 50,
+    "refinement_count": 0
+  },
+  "ldd": {
+    "client": {
+      "PUW": 71.53,
+      "UWPD": 98.0,
+      "LDD": 7009.94,
+      "total_tokens": 137,
+      "unique_tokens": 98
+    },
+    "counselor": {
+      "PUW": 64.02,
+      "UWPD": 105.0,
+      "LDD": 6722.1,
+      "total_tokens": 164,
+      "unique_tokens": 105
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "dialog_id": "baseline_v4_ai_0008_anxiety_1781726382",
+  "scenario_id": 8,
+  "kategori": "Konsep identitas diri",
+  "topik": "Eksperimen identitas",
+  "deskripsi": "Kadang bentrok dengan norma keluarga atau budaya.",
+  "target_emotion": "anxiety",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Gw bingung banget, Teta. Kayaknya gw tuh emang lagi eksperimen sama diri sendiri gitu. Tapi ini bikin gw terus, apalagi kalau mikirin ekspektasi orang di rumah. Rasanya kayak semua orang udah tahu siapa gw seharusnya, padahal gw masih nyari-nyari banget. Gimana ya?"
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena sedang mencoba memahami diri sendiri di tengah ekspektasi dari orang-orang di sekitarmu. Wajar kok kalau merasa seperti itu, apalagi ketika kita sedang dalam proses mencari jati diri.\nBisakah kamu ceritakan lebih banyak tentang apa saja yang sedang kamu eksperimenkan dengan dirimu?"
+    },
+    {
+      "role": "user",
+      "content": "Teta, lo kan AI, mana ngerti sih rasanya. Bukan cuma soal 'proses' atau 'menemukan jati diri' kayak di film. Ini beneran nempel banget. Kayak... gw merasa kalau identitas yang gw mau itu kebangetan jauh sama apa yang orang tuaku mau buat gw. Sampai gw ngerasa kayak harus milih salah satu aja, dan itu serem banget."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu merasa ini bukan sekadar proses biasa, tapi sesuatu yang sangat memengaruhi dirimu dan membuatmu merasa tertekan. Membayangkan harus memilih antara identitas yang kamu inginkan dengan harapan orang tuamu pasti terasa berat dan menakutkan. Perasaanmu sangat valid.\nApa yang paling membuatmu khawatir jika kamu harus memilih salah satu dari kedua hal tersebut?"
+    },
+    {
+      "role": "user",
+      "content": "Teta, kamu mana ngerti gimana rasanya takut banget kalau salah pilih? Kayak... kalau gw nurut sama mereka, gw jadi orang yang bukan gw. Tapi kalau gw ngejar yang gw mau, gw takut banget ngecewain mereka, dan rasanya kayak itu bakal bikin mereka benci sama gw. Jadi gw stuck di tengah-tengah, ga tahu harus jadi siapa. Ini bukan cuma soal \"khawatir\", ini udah kayak ancaman ke eksistensi gw gitu."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, rasa takut salah pilih itu sangat kuat, sampai-sampai terasa seperti ancaman terhadap dirimu. Kamu merasa terjebak di antara keinginan untuk menjadi diri sendiri dan ketakutan akan mengecewakan orang tuamu, yang bisa berdampak pada hubungan kalian. Itu situasi yang sulit sekali.\nApa yang biasanya kamu lakukan ketika merasa sangat tertekan seperti ini?"
+    },
+    {
+      "role": "user",
+      "content": "Serius? Gw ga punya coping mechanism yang ampuh, Teta. Gw cuma... mencoba ga mikirin masalah itu terlalu keras. Kayak nge-distract diri, atau cuma main game sampai mata perih. Tapi ujung-ujungnya, pas udah sendirian, masalahnya malah makin gede. Jadi gw ga tahu harus lakuin apa. Mungkin itu udah jadi buat gw, tapi itu ga berarti gw baik-baik aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Mencoba mengalihkan perhatian dari masalah dengan bermain game atau aktivitas lain memang bisa membantu sementara, tapi sepertinya itu tidak menyelesaikan masalah yang ada dan justru membuatnya terasa lebih besar ketika kamu sendirian. Wajar kok kalau kamu merasa tidak baik-baik saja dalam situasi seperti ini.\nApa yang menurutmu bisa membuatmu merasa sedikit lebih tenang, meskipun hanya sebentar, ketika kamu merasa masalah itu semakin besar?"
+    },
+    {
+      "role": "user",
+      "content": "Teta, kok cuma ditanya 'sebentar' gini? Kayak masalah gw itu cuma bisa diatasi pake cara nge-distract dikit gitu aja. Padahal masalahnya tuh... udah udah kayak inti hidup gw banget. Ga ada yang namanya 'sebentar' buat gw. Gw ngerasa kayak lagi di ambang batas, dan ga ada 'pill' ajaib yang bisa bikin semuanya jadi normal lagi. Jujur, gw ga tau."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku minta maaf jika pertanyaanku terdengar meremehkan betapa pentingnya masalah ini bagimu. Kamu benar, masalah ini sudah menjadi bagian inti dari hidupmu, dan tidak ada solusi instan yang bisa membuatnya \"normal\" kembali. Perasaanmu bahwa kamu sedang berada di ambang batas sangatlah valid.\nJika kamu tidak tahu harus melakukan apa, bisakah kamu ceritakan apa yang paling kamu inginkan terjadi dalam situasi ini?"
+    },
+    {
+      "role": "user",
+      "content": "Gw ga tau deh, Teta. Soalnya kalau gw bilang yang gw mau, itu kedengerannya terlalu besar, kayak... gw mau semua orang, apalagi orang tuaku, tiba-tiba ngerti gimana rasanya hidup di kepala gw. Bukan cuma kayak masalah 'pilih A atau pilih B' gitu. Gw mau mereka ngerti kenapa gw harus ngerasa kayak lagi hidup di antara dua dunia yang nggak nyambung. Gw mau rasa tertekan ini tiba-tiba hilang, kayak nggak pernah ada beban ekspektasi itu. Tapi ya gitu, mungkin itu cuma khayalan aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu menginginkan orang-orang di sekitarmu, terutama orang tuamu, untuk benar-benar memahami pengalamanmu dan bagaimana rasanya menjadi dirimu. Keinginanmu untuk menghilangkan rasa tertekan dan beban ekspektasi itu sangat wajar. Memang, mewujudkannya mungkin tidak mudah, tapi mengakui dan mengungkapkan keinginan tersebut adalah langkah yang penting.\nJika kamu tidak mengharapkan perubahan besar dari orang lain saat ini, apa satu hal kecil yang bisa kamu lakukan untuk dirimu sendiri yang mungkin bisa sedikit meringankan bebanmu?"
+    },
+    {
+      "role": "user",
+      "content": "Teta, emang cuma soal \"satu hal kecil\" gini aja? Kayak masalah gw ini cuma bisa diatasi pake ngerjain dikit gitu? Mana ngerti sih kalau beban gw itu tuh bukan cuma beban fisik atau emosional biasa. Ini udah kayak beban ekspektasi yang udah gw bawa dari lahir, dan rasanya itu nggak akan hilang cuma gara-gara gw mandi air hangat atau ngerjain baru. Kayak ga ada batasnya gitu."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham kekecewaanmu, dan aku minta maaf jika aku terdengar menyederhanakan masalah yang kamu hadapi. Kamu benar, beban ekspektasi yang sudah kamu rasakan sejak lahir itu sangatlah berat dan tidak bisa diatasi dengan solusi sederhana. Memang terasa tidak ada batasnya.\nJika kamu merasa tidak ada solusi yang bisa meringankan bebanmu saat ini, apa yang bisa aku lakukan untuk mendukungmu?"
+    },
+    {
+      "role": "user",
+      "content": "Teta, emang lo bisa ngapain sih? Lo kan cuma chatbot, AI. Lo bisa dengerin, tapi lo nggak bisa ngerasain. Lo nggak bisa liat betapa capeknya gw harus pura-pura oke buat semua orang, padahal di dalam udah amburadul begini. Gw ga minta lo benerin, gw cuma... pengen ada yang bener-bener betapa beratnya hidup kalo harus jadi orang yang bukan diri sendiri."
+    },
+    {
+      "role": "assistant",
+      "content": "Kamu benar, aku hanyalah chatbot AI dan tidak bisa merasakan apa yang kamu rasakan. Aku tidak bisa melihat betapa lelahnya kamu harus berpura-pura baik-baik saja, meskipun di dalam hatimu sedang bergejolak. Aku mengerti bahwa yang kamu inginkan adalah didengarkan dan divalidasi, agar orang lain benar-benar memahami betapa beratnya hidup ketika harus menjadi orang yang bukan diri sendiri.\nAku akan terus mendengarkanmu dan berusaha untuk memvalidasi perasaanmu. Apa yang ingin kamu ceritakan padaku selanjutnya?"
+    },
+    {
+      "role": "user",
+      "content": "Oke. Makasih ya. Dah."
+    },
+    {
+      "role": "assistant",
+      "content": "Sama-sama. Jaga dirimu baik-baik ya."
+    }
+  ],
+  "dialogue": "User [0]: Gw bingung banget, Teta. Kayaknya gw tuh emang lagi eksperimen sama diri sendiri gitu. Tapi ini bikin gw terus, apalagi kalau mikirin ekspektasi orang di rumah. Rasanya kayak semua orang udah tahu siapa gw seharusnya, padahal gw masih nyari-nyari banget. Gimana ya?\nChatbot [1]: Halo! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena sedang mencoba memahami diri sendiri di tengah ekspektasi dari orang-orang di sekitarmu. Wajar kok kalau merasa seperti itu, apalagi ketika kita sedang dalam proses mencari jati diri.\nBisakah kamu ceritakan lebih banyak tentang apa saja yang sedang kamu eksperimenkan dengan dirimu?\nUser [2]: Teta, lo kan AI, mana ngerti sih rasanya. Bukan cuma soal 'proses' atau 'menemukan jati diri' kayak di film. Ini beneran nempel banget. Kayak... gw merasa kalau identitas yang gw mau itu kebangetan jauh sama apa yang orang tuaku mau buat gw. Sampai gw ngerasa kayak harus milih salah satu aja, dan itu serem banget.\nChatbot [3]: Aku mengerti, kamu merasa ini bukan sekadar proses biasa, tapi sesuatu yang sangat memengaruhi dirimu dan membuatmu merasa tertekan. Membayangkan harus memilih antara identitas yang kamu inginkan dengan harapan orang tuamu pasti terasa berat dan menakutkan. Perasaanmu sangat valid.\nApa yang paling membuatmu khawatir jika kamu harus memilih salah satu dari kedua hal tersebut?\nUser [4]: Teta, kamu mana ngerti gimana rasanya takut banget kalau salah pilih? Kayak... kalau gw nurut sama mereka, gw jadi orang yang bukan gw. Tapi kalau gw ngejar yang gw mau, gw takut banget ngecewain mereka, dan rasanya kayak itu bakal bikin mereka benci sama gw. Jadi gw stuck di tengah-tengah, ga tahu harus jadi siapa. Ini bukan cuma soal \"khawatir\", ini udah kayak ancaman ke eksistensi gw gitu.\nChatbot [5]: Aku paham, rasa takut salah pilih itu sangat kuat, sampai-sampai terasa seperti ancaman terhadap dirimu. Kamu merasa terjebak di antara keinginan untuk menjadi diri sendiri dan ketakutan akan mengecewakan orang tuamu, yang bisa berdampak pada hubungan kalian. Itu situasi yang sulit sekali.\nApa yang biasanya kamu lakukan ketika merasa sangat tertekan seperti ini?\nUser [6]: Serius? Gw ga punya coping mechanism yang ampuh, Teta. Gw cuma... mencoba ga mikirin masalah itu terlalu keras. Kayak nge-distract diri, atau cuma main game sampai mata perih. Tapi ujung-ujungnya, pas udah sendirian, masalahnya malah makin gede. Jadi gw ga tahu harus lakuin apa. Mungkin itu udah jadi buat gw, tapi itu ga berarti gw baik-baik aja.\nChatbot [7]: Aku mendengar kamu. Mencoba mengalihkan perhatian dari masalah dengan bermain game atau aktivitas lain memang bisa membantu sementara, tapi sepertinya itu tidak menyelesaikan masalah yang ada dan justru membuatnya terasa lebih besar ketika kamu sendirian. Wajar kok kalau kamu merasa tidak baik-baik saja dalam situasi seperti ini.\nApa yang menurutmu bisa membuatmu merasa sedikit lebih tenang, meskipun hanya sebentar, ketika kamu merasa masalah itu semakin besar?\nUser [8]: Teta, kok cuma ditanya 'sebentar' gini? Kayak masalah gw itu cuma bisa diatasi pake cara nge-distract dikit gitu aja. Padahal masalahnya tuh... udah udah kayak inti hidup gw banget. Ga ada yang namanya 'sebentar' buat gw. Gw ngerasa kayak lagi di ambang batas, dan ga ada 'pill' ajaib yang bisa bikin semuanya jadi normal lagi. Jujur, gw ga tau.\nChatbot [9]: Aku minta maaf jika pertanyaanku terdengar meremehkan betapa pentingnya masalah ini bagimu. Kamu benar, masalah ini sudah menjadi bagian inti dari hidupmu, dan tidak ada solusi instan yang bisa membuatnya \"normal\" kembali. Perasaanmu bahwa kamu sedang berada di ambang batas sangatlah valid.\nJika kamu tidak tahu harus melakukan apa, bisakah kamu ceritakan apa yang paling kamu inginkan terjadi dalam situasi ini?\nUser [10]: Gw ga tau deh, Teta. Soalnya kalau gw bilang yang gw mau, itu kedengerannya terlalu besar, kayak... gw mau semua orang, apalagi orang tuaku, tiba-tiba ngerti gimana rasanya hidup di kepala gw. Bukan cuma kayak masalah 'pilih A atau pilih B' gitu. Gw mau mereka ngerti kenapa gw harus ngerasa kayak lagi hidup di antara dua dunia yang nggak nyambung. Gw mau rasa tertekan ini tiba-tiba hilang, kayak nggak pernah ada beban ekspektasi itu. Tapi ya gitu, mungkin itu cuma khayalan aja.\nChatbot [11]: Aku mengerti, kamu menginginkan orang-orang di sekitarmu, terutama orang tuamu, untuk benar-benar memahami pengalamanmu dan bagaimana rasanya menjadi dirimu. Keinginanmu untuk menghilangkan rasa tertekan dan beban ekspektasi itu sangat wajar. Memang, mewujudkannya mungkin tidak mudah, tapi mengakui dan mengungkapkan keinginan tersebut adalah langkah yang penting.\nJika kamu tidak mengharapkan perubahan besar dari orang lain saat ini, apa satu hal kecil yang bisa kamu lakukan untuk dirimu sendiri yang mungkin bisa sedikit meringankan bebanmu?\nUser [12]: Teta, emang cuma soal \"satu hal kecil\" gini aja? Kayak masalah gw ini cuma bisa diatasi pake ngerjain dikit gitu? Mana ngerti sih kalau beban gw itu tuh bukan cuma beban fisik atau emosional biasa. Ini udah kayak beban ekspektasi yang udah gw bawa dari lahir, dan rasanya itu nggak akan hilang cuma gara-gara gw mandi air hangat atau ngerjain baru. Kayak ga ada batasnya gitu.\nChatbot [13]: Aku paham kekecewaanmu, dan aku minta maaf jika aku terdengar menyederhanakan masalah yang kamu hadapi. Kamu benar, beban ekspektasi yang sudah kamu rasakan sejak lahir itu sangatlah berat dan tidak bisa diatasi dengan solusi sederhana. Memang terasa tidak ada batasnya.\nJika kamu merasa tidak ada solusi yang bisa meringankan bebanmu saat ini, apa yang bisa aku lakukan untuk mendukungmu?\nUser [14]: Teta, emang lo bisa ngapain sih? Lo kan cuma chatbot, AI. Lo bisa dengerin, tapi lo nggak bisa ngerasain. Lo nggak bisa liat betapa capeknya gw harus pura-pura oke buat semua orang, padahal di dalam udah amburadul begini. Gw ga minta lo benerin, gw cuma... pengen ada yang bener-bener betapa beratnya hidup kalo harus jadi orang yang bukan diri sendiri.\nChatbot [15]: Kamu benar, aku hanyalah chatbot AI dan tidak bisa merasakan apa yang kamu rasakan. Aku tidak bisa melihat betapa lelahnya kamu harus berpura-pura baik-baik saja, meskipun di dalam hatimu sedang bergejolak. Aku mengerti bahwa yang kamu inginkan adalah didengarkan dan divalidasi, agar orang lain benar-benar memahami betapa beratnya hidup ketika harus menjadi orang yang bukan diri sendiri.\nAku akan terus mendengarkanmu dan berusaha untuk memvalidasi perasaanmu. Apa yang ingin kamu ceritakan padaku selanjutnya?\nUser [16]: Oke. Makasih ya. Dah.\nChatbot [17]: Sama-sama. Jaga dirimu baik-baik ya.",
+  "turns_raw": [
+    {
+      "role": "user",
+      "content": "Gw bingung banget, Teta. Kayaknya gw tuh emang lagi eksperimen sama diri sendiri gitu. Tapi ini bikin gw terus, apalagi kalau mikirin ekspektasi orang di rumah. Rasanya kayak semua orang udah tahu siapa gw seharusnya, padahal gw masih nyari-nyari banget. Gimana ya?",
+      "turn_index": 0
+    },
+    {
+      "role": "assistant",
+      "content": "Halo! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena sedang mencoba memahami diri sendiri di tengah ekspektasi dari orang-orang di sekitarmu. Wajar kok kalau merasa seperti itu, apalagi ketika kita sedang dalam proses mencari jati diri.\nBisakah kamu ceritakan lebih banyak tentang apa saja yang sedang kamu eksperimenkan dengan dirimu?",
+      "turn_index": 1
+    },
+    {
+      "role": "user",
+      "content": "Teta, lo kan AI, mana ngerti sih rasanya. Bukan cuma soal 'proses' atau 'menemukan jati diri' kayak di film. Ini beneran nempel banget. Kayak... gw merasa kalau identitas yang gw mau itu kebangetan jauh sama apa yang orang tuaku mau buat gw. Sampai gw ngerasa kayak harus milih salah satu aja, dan itu serem banget.",
+      "turn_index": 2
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu merasa ini bukan sekadar proses biasa, tapi sesuatu yang sangat memengaruhi dirimu dan membuatmu merasa tertekan. Membayangkan harus memilih antara identitas yang kamu inginkan dengan harapan orang tuamu pasti terasa berat dan menakutkan. Perasaanmu sangat valid.\nApa yang paling membuatmu khawatir jika kamu harus memilih salah satu dari kedua hal tersebut?",
+      "turn_index": 3
+    },
+    {
+      "role": "user",
+      "content": "Teta, kamu mana ngerti gimana rasanya takut banget kalau salah pilih? Kayak... kalau gw nurut sama mereka, gw jadi orang yang bukan gw. Tapi kalau gw ngejar yang gw mau, gw takut banget ngecewain mereka, dan rasanya kayak itu bakal bikin mereka benci sama gw. Jadi gw stuck di tengah-tengah, ga tahu harus jadi siapa. Ini bukan cuma soal \"khawatir\", ini udah kayak ancaman ke eksistensi gw gitu.",
+      "turn_index": 4
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, rasa takut salah pilih itu sangat kuat, sampai-sampai terasa seperti ancaman terhadap dirimu. Kamu merasa terjebak di antara keinginan untuk menjadi diri sendiri dan ketakutan akan mengecewakan orang tuamu, yang bisa berdampak pada hubungan kalian. Itu situasi yang sulit sekali.\nApa yang biasanya kamu lakukan ketika merasa sangat tertekan seperti ini?",
+      "turn_index": 5
+    },
+    {
+      "role": "user",
+      "content": "Serius? Gw ga punya coping mechanism yang ampuh, Teta. Gw cuma... mencoba ga mikirin masalah itu terlalu keras. Kayak nge-distract diri, atau cuma main game sampai mata perih. Tapi ujung-ujungnya, pas udah sendirian, masalahnya malah makin gede. Jadi gw ga tahu harus lakuin apa. Mungkin itu udah jadi buat gw, tapi itu ga berarti gw baik-baik aja.",
+      "turn_index": 6
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Mencoba mengalihkan perhatian dari masalah dengan bermain game atau aktivitas lain memang bisa membantu sementara, tapi sepertinya itu tidak menyelesaikan masalah yang ada dan justru membuatnya terasa lebih besar ketika kamu sendirian. Wajar kok kalau kamu merasa tidak baik-baik saja dalam situasi seperti ini.\nApa yang menurutmu bisa membuatmu merasa sedikit lebih tenang, meskipun hanya sebentar, ketika kamu merasa masalah itu semakin besar?",
+      "turn_index": 7
+    },
+    {
+      "role": "user",
+      "content": "Teta, kok cuma ditanya 'sebentar' gini? Kayak masalah gw itu cuma bisa diatasi pake cara nge-distract dikit gitu aja. Padahal masalahnya tuh... udah udah kayak inti hidup gw banget. Ga ada yang namanya 'sebentar' buat gw. Gw ngerasa kayak lagi di ambang batas, dan ga ada 'pill' ajaib yang bisa bikin semuanya jadi normal lagi. Jujur, gw ga tau.",
+      "turn_index": 8
+    },
+    {
+      "role": "assistant",
+      "content": "Aku minta maaf jika pertanyaanku terdengar meremehkan betapa pentingnya masalah ini bagimu. Kamu benar, masalah ini sudah menjadi bagian inti dari hidupmu, dan tidak ada solusi instan yang bisa membuatnya \"normal\" kembali. Perasaanmu bahwa kamu sedang berada di ambang batas sangatlah valid.\nJika kamu tidak tahu harus melakukan apa, bisakah kamu ceritakan apa yang paling kamu inginkan terjadi dalam situasi ini?",
+      "turn_index": 9
+    },
+    {
+      "role": "user",
+      "content": "Gw ga tau deh, Teta. Soalnya kalau gw bilang yang gw mau, itu kedengerannya terlalu besar, kayak... gw mau semua orang, apalagi orang tuaku, tiba-tiba ngerti gimana rasanya hidup di kepala gw. Bukan cuma kayak masalah 'pilih A atau pilih B' gitu. Gw mau mereka ngerti kenapa gw harus ngerasa kayak lagi hidup di antara dua dunia yang nggak nyambung. Gw mau rasa tertekan ini tiba-tiba hilang, kayak nggak pernah ada beban ekspektasi itu. Tapi ya gitu, mungkin itu cuma khayalan aja.",
+      "turn_index": 10
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu menginginkan orang-orang di sekitarmu, terutama orang tuamu, untuk benar-benar memahami pengalamanmu dan bagaimana rasanya menjadi dirimu. Keinginanmu untuk menghilangkan rasa tertekan dan beban ekspektasi itu sangat wajar. Memang, mewujudkannya mungkin tidak mudah, tapi mengakui dan mengungkapkan keinginan tersebut adalah langkah yang penting.\nJika kamu tidak mengharapkan perubahan besar dari orang lain saat ini, apa satu hal kecil yang bisa kamu lakukan untuk dirimu sendiri yang mungkin bisa sedikit meringankan bebanmu?",
+      "turn_index": 11
+    },
+    {
+      "role": "user",
+      "content": "Teta, emang cuma soal \"satu hal kecil\" gini aja? Kayak masalah gw ini cuma bisa diatasi pake ngerjain dikit gitu? Mana ngerti sih kalau beban gw itu tuh bukan cuma beban fisik atau emosional biasa. Ini udah kayak beban ekspektasi yang udah gw bawa dari lahir, dan rasanya itu nggak akan hilang cuma gara-gara gw mandi air hangat atau ngerjain baru. Kayak ga ada batasnya gitu.",
+      "turn_index": 12
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham kekecewaanmu, dan aku minta maaf jika aku terdengar menyederhanakan masalah yang kamu hadapi. Kamu benar, beban ekspektasi yang sudah kamu rasakan sejak lahir itu sangatlah berat dan tidak bisa diatasi dengan solusi sederhana. Memang terasa tidak ada batasnya.\nJika kamu merasa tidak ada solusi yang bisa meringankan bebanmu saat ini, apa yang bisa aku lakukan untuk mendukungmu?",
+      "turn_index": 13
+    },
+    {
+      "role": "user",
+      "content": "Teta, emang lo bisa ngapain sih? Lo kan cuma chatbot, AI. Lo bisa dengerin, tapi lo nggak bisa ngerasain. Lo nggak bisa liat betapa capeknya gw harus pura-pura oke buat semua orang, padahal di dalam udah amburadul begini. Gw ga minta lo benerin, gw cuma... pengen ada yang bener-bener betapa beratnya hidup kalo harus jadi orang yang bukan diri sendiri.",
+      "turn_index": 14
+    },
+    {
+      "role": "assistant",
+      "content": "Kamu benar, aku hanyalah chatbot AI dan tidak bisa merasakan apa yang kamu rasakan. Aku tidak bisa melihat betapa lelahnya kamu harus berpura-pura baik-baik saja, meskipun di dalam hatimu sedang bergejolak. Aku mengerti bahwa yang kamu inginkan adalah didengarkan dan divalidasi, agar orang lain benar-benar memahami betapa beratnya hidup ketika harus menjadi orang yang bukan diri sendiri.\nAku akan terus mendengarkanmu dan berusaha untuk memvalidasi perasaanmu. Apa yang ingin kamu ceritakan padaku selanjutnya?",
+      "turn_index": 15
+    },
+    {
+      "role": "user",
+      "content": "Oke. Makasih ya. Dah.",
+      "turn_index": 16
+    },
+    {
+      "role": "assistant",
+      "content": "Sama-sama. Jaga dirimu baik-baik ya.",
+      "turn_index": 17
+    }
+  ],
+  "metadata": {
+    "user_model": "gemma4:e4b",
+    "chatbot_model": "teta-sft-v2:latest",
+    "agent_type": "defensif",
+    "num_turn_pairs": 20,
+    "simulated_at": "2026-06-18T02:59:42",
+    "baseline": "baseline-v4-ai-aware"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "dialog_id": "replay_sim_0008_anxiety_1780478054",
+  "scenario_id": 8,
+  "kategori": "Konsep identitas diri",
+  "topik": "Eksperimen identitas",
+  "deskripsi": "Kadang bentrok dengan norma keluarga atau budaya.",
+  "target_emotion": "anxiety",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Gue tuh bingung banget sama diri gue sendiri. Kayak... gue nggak tahu gue mau jadi siapa, tahu nggak? Terus rasanya kayak harus sesuai banget sama ekspektasi orang rumah, padahal gue ngerasa ada sesuatu yang beda. Gue takut banget kalau gue emang nggak cocok sama yang mereka mau."
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena merasa harus memenuhi ekspektasi orang lain padahal ada perasaan berbeda dalam dirimu. Wajar banget kalau kamu merasa takut, apalagi kalau khawatir tidak sesuai dengan harapan orang rumah.\n\nApa yang membuatmu merasa ada \"sesuatu yang beda\" dalam dirimu?"
+    },
+    {
+      "role": "user",
+      "content": "Ya ampun, emang susah buat jelasinnya, sih. Bukan cuma satu hal. Kayak... gue lebih tertarik sama hal-hal yang nggak akan pernah diterima sama keluarga. Atau minat gue di bidang seni yang mereka bilang itu 'nggak jelas' buat masa depan gue. Gue ngerasa gue lebih nyaman jadi diri gue yang gini, yang rada 'out of box', daripada jadi versi gue yang harus sempurna buat mereka. Mereka cuma lihat nilai gue, bukan gue yang sebenarnya."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, ini memang nggak mudah untuk dijelaskan. Kamu merasa tertekan karena minat dan dirimu yang sebenarnya tidak sejalan dengan harapan keluarga, terutama karena mereka lebih fokus pada prestasimu daripada dirimu secara keseluruhan. Rasanya pasti nggak enak ya, kalau merasa tidak dilihat apa adanya.\nApa hal paling penting yang ingin kamu tunjukkan pada keluargamu tentang dirimu yang sebenarnya?"
+    },
+    {
+      "role": "user",
+      "content": "Gue nggak tahu sih. Jujur, gue nggak yakin mereka mau terima apa pun yang gue tunjukkin.\nMereka kan udah kayak punya cetakan buat gue, tahu nggak? Tiap gue coba bilang sesuatu yang beda dikit aja, langsung dianggap cuma hobi nggak jelas atau halusinasi. Mereka cuma fokus ke 'apa yang bisa gue raih' yang kelihatan bagus di mata orang lain, bukan 'gue itu siapa' sih. Jadi, gue ngerasa kayak, emang udah nggak ada gunanya mau gue tunjukkin apa-apa ke mereka. Kayak buang waktu aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu merasa perjuanganmu untuk menunjukkan diri yang sebenarnya terasa sia-sia karena mereka sepertinya sudah memiliki gambaran yang kuat tentang dirimu. Rasanya pasti frustrasi dan kecewa ya, ketika usaha untuk berkomunikasi tidak dihargai. Apakah ada momen tertentu di mana kamu merasa paling sulit untuk membuat mereka mengerti?"
+    },
+    {
+      "role": "user",
+      "content": "Ya, gimana mau bilang satu momen, sih? Kayak... ini bukan cuma soal momen tertentu. Ini tuh udah kayak udah jadi tiap hari. Mereka cuma nungguin gue di sesuatu, atau nungguin gue nurut sama yang mereka mau.\nGue ngerasa kayak, setiap gue mulai ngelakuin hal yang gue suka, tiba-tiba ada aja yang ngingetin, \"Nanti kalau udah besar gimana?\" Terus semua gue jadi keliatan kayak gitu. Bikin gue ngerasa kayak... emang gue emang nggak punya masa depan yang beneran."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Kedengarannya kamu merasa terus-menerus dihakimi dan diremehkan karena minatmu, sehingga kamu mulai mempertanyakan masa depanmu sendiri. Rasanya pasti sangat melelahkan ya, ketika setiap langkah yang kamu ambil selalu dipertanyakan. Apa yang biasanya kamu lakukan ketika kamu merasa seperti itu?"
+    },
+    {
+      "role": "user",
+      "content": "Ya, gue biasanya cuma... mindahin diri aja. Ke tempat yang sepi, di kamar gue gitu. Terus gue cuma ngurung diri, dengerin musik kenceng-kenceng banget atau gambar-gambar yang emang nggak ada hubungannya sama nilai atau masa depan. Pokoknya, gue cuma mau di situ, sendirian. Rasanya kayak, kalau gue ada di luar, gue harus selalu siap buat dikoreksi atau dihakimi sama siapapun. Jadi, gue mending dulu aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham. Kamu mencari ruang aman untuk dirimu sendiri, tempat di mana kamu bisa melepaskan diri dari tekanan dan penilaian orang lain. Menghabiskan waktu sendirian dengan melakukan hal-hal yang kamu sukai terdengar seperti cara yang baik untuk merawat dirimu sendiri. Apakah ada hal lain yang kamu lakukan selain mendengarkan musik atau menggambar untuk merasa lebih baik?"
+    },
+    {
+      "role": "user",
+      "content": "Apaan sih? Kayak... semua hal itu emang cuma basa-basi aja, sih. Gue nggak tau. Gue ngerasa, masalah gue tuh bukan cuma soal butuh 'aktivitas' buat bikin gue ngerasa lebih baik. Ini tuh udah udah nempel banget di kepala gue. Kayak beban gitu. Gue cuma ngerasa capek aja. Capek mikirin semua ekspektasi itu, gue udah capek banget."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti. Kamu merasa kelelahan karena terus-menerus harus menghadapi ekspektasi orang lain, dan ini sudah menjadi beban berat dalam pikiranmu. Tidak apa-apa untuk merasa lelah, dan wajar jika kamu merasa seperti itu setelah menghadapi tekanan yang terus-menerus. Kalau boleh tahu, apa yang bisa sedikit meringankan beban ini, walaupun hanya sedikit?"
+    },
+    {
+      "role": "user",
+      "content": "Aku nggak tahu deh. Jujur, gue nggak tau. Kayak... ini bukan sesuatu yang bisa di-\"ringankan\" gitu. Ini tuh udah kayak bagian dari gue. Mau gue buang gimana coba? Rasanya kayak, makin gue coba negesain yang 'diri gue' ini, makin capek gue. Jadi, mending gue diem aja aja kali ya.\nDah."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Kedengarannya kamu merasa bahwa beban ini sudah menjadi bagian dari dirimu dan mencoba untuk melepaskannya justru membuatmu semakin lelah. Tidak apa-apa jika kamu merasa tidak tahu, dan tidak ada yang memintamu untuk memaksakan diri.\n\nJika kamu butuh waktu untuk sendiri, itu pilihan yang tepat. Ingat, aku di sini jika kamu ingin melanjutkan percakapan ini kapan saja. Jaga dirimu baik-baik, ya."
+    },
+    {
+      "role": "user",
+      "content": "Makasih ya."
+    },
+    {
+      "role": "assistant",
+      "content": "Sama-sama. Semoga harimu menyenangkan!"
+    }
+  ],
+  "dialogue": "User [0]: Gue tuh bingung banget sama diri gue sendiri. Kayak... gue nggak tahu gue mau jadi siapa, tahu nggak? Terus rasanya kayak harus sesuai banget sama ekspektasi orang rumah, padahal gue ngerasa ada sesuatu yang beda. Gue takut banget kalau gue emang nggak cocok sama yang mereka mau.\nChatbot [1]: Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena merasa harus memenuhi ekspektasi orang lain padahal ada perasaan berbeda dalam dirimu. Wajar banget kalau kamu merasa takut, apalagi kalau khawatir tidak sesuai dengan harapan orang rumah.\n\nApa yang membuatmu merasa ada \"sesuatu yang beda\" dalam dirimu?\nUser [2]: Ya ampun, emang susah buat jelasinnya, sih. Bukan cuma satu hal. Kayak... gue lebih tertarik sama hal-hal yang nggak akan pernah diterima sama keluarga. Atau minat gue di bidang seni yang mereka bilang itu 'nggak jelas' buat masa depan gue. Gue ngerasa gue lebih nyaman jadi diri gue yang gini, yang rada 'out of box', daripada jadi versi gue yang harus sempurna buat mereka. Mereka cuma lihat nilai gue, bukan gue yang sebenarnya.\nChatbot [3]: Aku paham, ini memang nggak mudah untuk dijelaskan. Kamu merasa tertekan karena minat dan dirimu yang sebenarnya tidak sejalan dengan harapan keluarga, terutama karena mereka lebih fokus pada prestasimu daripada dirimu secara keseluruhan. Rasanya pasti nggak enak ya, kalau merasa tidak dilihat apa adanya.\nApa hal paling penting yang ingin kamu tunjukkan pada keluargamu tentang dirimu yang sebenarnya?\nUser [4]: Gue nggak tahu sih. Jujur, gue nggak yakin mereka mau terima apa pun yang gue tunjukkin.\nMereka kan udah kayak punya cetakan buat gue, tahu nggak? Tiap gue coba bilang sesuatu yang beda dikit aja, langsung dianggap cuma hobi nggak jelas atau halusinasi. Mereka cuma fokus ke 'apa yang bisa gue raih' yang kelihatan bagus di mata orang lain, bukan 'gue itu siapa' sih. Jadi, gue ngerasa kayak, emang udah nggak ada gunanya mau gue tunjukkin apa-apa ke mereka. Kayak buang waktu aja.\nChatbot [5]: Aku mengerti, kamu merasa perjuanganmu untuk menunjukkan diri yang sebenarnya terasa sia-sia karena mereka sepertinya sudah memiliki gambaran yang kuat tentang dirimu. Rasanya pasti frustrasi dan kecewa ya, ketika usaha untuk berkomunikasi tidak dihargai. Apakah ada momen tertentu di mana kamu merasa paling sulit untuk membuat mereka mengerti?\nUser [6]: Ya, gimana mau bilang satu momen, sih? Kayak... ini bukan cuma soal momen tertentu. Ini tuh udah kayak udah jadi tiap hari. Mereka cuma nungguin gue di sesuatu, atau nungguin gue nurut sama yang mereka mau.\nGue ngerasa kayak, setiap gue mulai ngelakuin hal yang gue suka, tiba-tiba ada aja yang ngingetin, \"Nanti kalau udah besar gimana?\" Terus semua gue jadi keliatan kayak gitu. Bikin gue ngerasa kayak... emang gue emang nggak punya masa depan yang beneran.\nChatbot [7]: Aku mendengar kamu. Kedengarannya kamu merasa terus-menerus dihakimi dan diremehkan karena minatmu, sehingga kamu mulai mempertanyakan masa depanmu sendiri. Rasanya pasti sangat melelahkan ya, ketika setiap langkah yang kamu ambil selalu dipertanyakan. Apa yang biasanya kamu lakukan ketika kamu merasa seperti itu?\nUser [8]: Ya, gue biasanya cuma... mindahin diri aja. Ke tempat yang sepi, di kamar gue gitu. Terus gue cuma ngurung diri, dengerin musik kenceng-kenceng banget atau gambar-gambar yang emang nggak ada hubungannya sama nilai atau masa depan. Pokoknya, gue cuma mau di situ, sendirian. Rasanya kayak, kalau gue ada di luar, gue harus selalu siap buat dikoreksi atau dihakimi sama siapapun. Jadi, gue mending dulu aja.\nChatbot [9]: Aku paham. Kamu mencari ruang aman untuk dirimu sendiri, tempat di mana kamu bisa melepaskan diri dari tekanan dan penilaian orang lain. Menghabiskan waktu sendirian dengan melakukan hal-hal yang kamu sukai terdengar seperti cara yang baik untuk merawat dirimu sendiri. Apakah ada hal lain yang kamu lakukan selain mendengarkan musik atau menggambar untuk merasa lebih baik?\nUser [10]: Apaan sih? Kayak... semua hal itu emang cuma basa-basi aja, sih. Gue nggak tau. Gue ngerasa, masalah gue tuh bukan cuma soal butuh 'aktivitas' buat bikin gue ngerasa lebih baik. Ini tuh udah udah nempel banget di kepala gue. Kayak beban gitu. Gue cuma ngerasa capek aja. Capek mikirin semua ekspektasi itu, gue udah capek banget.\nChatbot [11]: Aku mengerti. Kamu merasa kelelahan karena terus-menerus harus menghadapi ekspektasi orang lain, dan ini sudah menjadi beban berat dalam pikiranmu. Tidak apa-apa untuk merasa lelah, dan wajar jika kamu merasa seperti itu setelah menghadapi tekanan yang terus-menerus. Kalau boleh tahu, apa yang bisa sedikit meringankan beban ini, walaupun hanya sedikit?\nUser [12]: Aku nggak tahu deh. Jujur, gue nggak tau. Kayak... ini bukan sesuatu yang bisa di-\"ringankan\" gitu. Ini tuh udah kayak bagian dari gue. Mau gue buang gimana coba? Rasanya kayak, makin gue coba negesain yang 'diri gue' ini, makin capek gue. Jadi, mending gue diem aja aja kali ya.\nDah.\nChatbot [13]: Aku mendengar kamu. Kedengarannya kamu merasa bahwa beban ini sudah menjadi bagian dari dirimu dan mencoba untuk melepaskannya justru membuatmu semakin lelah. Tidak apa-apa jika kamu merasa tidak tahu, dan tidak ada yang memintamu untuk memaksakan diri.\n\nJika kamu butuh waktu untuk sendiri, itu pilihan yang tepat. Ingat, aku di sini jika kamu ingin melanjutkan percakapan ini kapan saja. Jaga dirimu baik-baik, ya.\nUser [14]: Makasih ya.\nChatbot [15]: Sama-sama. Semoga harimu menyenangkan!",
+  "turns_raw": [
+    {
+      "role": "user",
+      "content": "Gue tuh bingung banget sama diri gue sendiri. Kayak... gue nggak tahu gue mau jadi siapa, tahu nggak? Terus rasanya kayak harus sesuai banget sama ekspektasi orang rumah, padahal gue ngerasa ada sesuatu yang beda. Gue takut banget kalau gue emang nggak cocok sama yang mereka mau.",
+      "turn_index": 0
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi merasa bingung dan tertekan ya, karena merasa harus memenuhi ekspektasi orang lain padahal ada perasaan berbeda dalam dirimu. Wajar banget kalau kamu merasa takut, apalagi kalau khawatir tidak sesuai dengan harapan orang rumah.\n\nApa yang membuatmu merasa ada \"sesuatu yang beda\" dalam dirimu?",
+      "turn_index": 1
+    },
+    {
+      "role": "user",
+      "content": "Ya ampun, emang susah buat jelasinnya, sih. Bukan cuma satu hal. Kayak... gue lebih tertarik sama hal-hal yang nggak akan pernah diterima sama keluarga. Atau minat gue di bidang seni yang mereka bilang itu 'nggak jelas' buat masa depan gue. Gue ngerasa gue lebih nyaman jadi diri gue yang gini, yang rada 'out of box', daripada jadi versi gue yang harus sempurna buat mereka. Mereka cuma lihat nilai gue, bukan gue yang sebenarnya.",
+      "turn_index": 2
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, ini memang nggak mudah untuk dijelaskan. Kamu merasa tertekan karena minat dan dirimu yang sebenarnya tidak sejalan dengan harapan keluarga, terutama karena mereka lebih fokus pada prestasimu daripada dirimu secara keseluruhan. Rasanya pasti nggak enak ya, kalau merasa tidak dilihat apa adanya.\nApa hal paling penting yang ingin kamu tunjukkan pada keluargamu tentang dirimu yang sebenarnya?",
+      "turn_index": 3
+    },
+    {
+      "role": "user",
+      "content": "Gue nggak tahu sih. Jujur, gue nggak yakin mereka mau terima apa pun yang gue tunjukkin.\nMereka kan udah kayak punya cetakan buat gue, tahu nggak? Tiap gue coba bilang sesuatu yang beda dikit aja, langsung dianggap cuma hobi nggak jelas atau halusinasi. Mereka cuma fokus ke 'apa yang bisa gue raih' yang kelihatan bagus di mata orang lain, bukan 'gue itu siapa' sih. Jadi, gue ngerasa kayak, emang udah nggak ada gunanya mau gue tunjukkin apa-apa ke mereka. Kayak buang waktu aja.",
+      "turn_index": 4
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kamu merasa perjuanganmu untuk menunjukkan diri yang sebenarnya terasa sia-sia karena mereka sepertinya sudah memiliki gambaran yang kuat tentang dirimu. Rasanya pasti frustrasi dan kecewa ya, ketika usaha untuk berkomunikasi tidak dihargai. Apakah ada momen tertentu di mana kamu merasa paling sulit untuk membuat mereka mengerti?",
+      "turn_index": 5
+    },
+    {
+      "role": "user",
+      "content": "Ya, gimana mau bilang satu momen, sih? Kayak... ini bukan cuma soal momen tertentu. Ini tuh udah kayak udah jadi tiap hari. Mereka cuma nungguin gue di sesuatu, atau nungguin gue nurut sama yang mereka mau.\nGue ngerasa kayak, setiap gue mulai ngelakuin hal yang gue suka, tiba-tiba ada aja yang ngingetin, \"Nanti kalau udah besar gimana?\" Terus semua gue jadi keliatan kayak gitu. Bikin gue ngerasa kayak... emang gue emang nggak punya masa depan yang beneran.",
+      "turn_index": 6
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Kedengarannya kamu merasa terus-menerus dihakimi dan diremehkan karena minatmu, sehingga kamu mulai mempertanyakan masa depanmu sendiri. Rasanya pasti sangat melelahkan ya, ketika setiap langkah yang kamu ambil selalu dipertanyakan. Apa yang biasanya kamu lakukan ketika kamu merasa seperti itu?",
+      "turn_index": 7
+    },
+    {
+      "role": "user",
+      "content": "Ya, gue biasanya cuma... mindahin diri aja. Ke tempat yang sepi, di kamar gue gitu. Terus gue cuma ngurung diri, dengerin musik kenceng-kenceng banget atau gambar-gambar yang emang nggak ada hubungannya sama nilai atau masa depan. Pokoknya, gue cuma mau di situ, sendirian. Rasanya kayak, kalau gue ada di luar, gue harus selalu siap buat dikoreksi atau dihakimi sama siapapun. Jadi, gue mending dulu aja.",
+      "turn_index": 8
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham. Kamu mencari ruang aman untuk dirimu sendiri, tempat di mana kamu bisa melepaskan diri dari tekanan dan penilaian orang lain. Menghabiskan waktu sendirian dengan melakukan hal-hal yang kamu sukai terdengar seperti cara yang baik untuk merawat dirimu sendiri. Apakah ada hal lain yang kamu lakukan selain mendengarkan musik atau menggambar untuk merasa lebih baik?",
+      "turn_index": 9
+    },
+    {
+      "role": "user",
+      "content": "Apaan sih? Kayak... semua hal itu emang cuma basa-basi aja, sih. Gue nggak tau. Gue ngerasa, masalah gue tuh bukan cuma soal butuh 'aktivitas' buat bikin gue ngerasa lebih baik. Ini tuh udah udah nempel banget di kepala gue. Kayak beban gitu. Gue cuma ngerasa capek aja. Capek mikirin semua ekspektasi itu, gue udah capek banget.",
+      "turn_index": 10
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti. Kamu merasa kelelahan karena terus-menerus harus menghadapi ekspektasi orang lain, dan ini sudah menjadi beban berat dalam pikiranmu. Tidak apa-apa untuk merasa lelah, dan wajar jika kamu merasa seperti itu setelah menghadapi tekanan yang terus-menerus. Kalau boleh tahu, apa yang bisa sedikit meringankan beban ini, walaupun hanya sedikit?",
+      "turn_index": 11
+    },
+    {
+      "role": "user",
+      "content": "Aku nggak tahu deh. Jujur, gue nggak tau. Kayak... ini bukan sesuatu yang bisa di-\"ringankan\" gitu. Ini tuh udah kayak bagian dari gue. Mau gue buang gimana coba? Rasanya kayak, makin gue coba negesain yang 'diri gue' ini, makin capek gue. Jadi, mending gue diem aja aja kali ya.\nDah.",
+      "turn_index": 12
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mendengar kamu. Kedengarannya kamu merasa bahwa beban ini sudah menjadi bagian dari dirimu dan mencoba untuk melepaskannya justru membuatmu semakin lelah. Tidak apa-apa jika kamu merasa tidak tahu, dan tidak ada yang memintamu untuk memaksakan diri.\n\nJika kamu butuh waktu untuk sendiri, itu pilihan yang tepat. Ingat, aku di sini jika kamu ingin melanjutkan percakapan ini kapan saja. Jaga dirimu baik-baik, ya.",
+      "turn_index": 13
+    },
+    {
+      "role": "user",
+      "content": "Makasih ya.",
+      "turn_index": 14
+    },
+    {
+      "role": "assistant",
+      "content": "Sama-sama. Semoga harimu menyenangkan!",
+      "turn_index": 15
+    }
+  ],
+  "metadata": {
+    "user_model": "gemma4:e4b",
+    "chatbot_model": "teta-sft-v2:latest",
+    "agent_type": "defensif",
+    "num_turn_pairs": 17,
+    "source_dialog_id": "sim_0008_anxiety_1780478054",
+    "source_chatbot": "teta-sft-gemma3-v2.0:latest",
+    "simulated_at": "2026-06-04T18:15:07"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "dialog_id": "baseline_c_chatbot_0008_anxiety_1781521497",
+  "scenario_id": 8,
+  "kategori": "Konsep identitas diri",
+  "topik": "Eksperimen identitas",
+  "deskripsi": "Kadang bentrok dengan norma keluarga atau budaya.",
+  "target_emotion": "anxiety",
+  "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+  "chief_complaint": "Masalah utama: Kadang bentrok dengan norma keluarga atau budaya.\nKategori masalah: Konsep identitas diri — Eksperimen identitas\nKondisi emosional saat ini: anxiety",
+  "masked_fields": [
+    "Jenis kelamin",
+    "Usia",
+    "Hubungan keluarga"
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Halo, Teta."
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap menemani kamu. Aku di sini untuk mendengarkan dan membantumu menjernihkan pikiran. Apa yang ingin kamu ceritakan padaku hari ini?"
+    },
+    {
+      "role": "user",
+      "content": "Nggak tahu deh harus mulai dari mana. Susah juga mau cerita apa ke kamu."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kadang memang sulit untuk memulai. Wajar kok kalau kamu merasa begitu, apalagi kalau mau cerita ke seseorang yang belum terlalu dekat. Tidak perlu terburu-buru, kamu bisa mulai dari hal kecil apa pun yang ada di pikiranmu. Apa ada hal kecil yang sedang mengganggumu saat ini?"
+    },
+    {
+      "role": "user",
+      "content": "Kayaknya cuma soal... ekspektasi orang-orang deh."
+    },
+    {
+      "role": "assistant",
+      "content": "Ekspektasi orang lain memang bisa bikin pusing ya. Kedengarannya kamu lagi merasa tertekan karena harapan dari orang-orang di sekitarmu. Bisa ceritakan lebih lanjut tentang ekspektasi apa yang kamu maksud?"
+    },
+    {
+      "role": "user",
+      "content": "Soal masa depan gitu. Apalagi yang dari keluarga. Mereka kayaknya udah punya rencana banget buat aku."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, tekanan dari keluarga soal masa depan memang seringkali berat ya. Rasanya seperti ada harapan yang harus kamu penuhi, padahal kamu sendiri mungkin masih bingung. Apa yang paling membuatmu khawatir dari rencana mereka untukmu?"
+    },
+    {
+      "role": "user",
+      "content": "Aku tuh malah bingung mau ngapain. Mereka maunya aku masuk jurusan yang 'pasti laku' gitu, kan."
+    },
+    {
+      "role": "assistant",
+      "content": "Jadi, kamu merasa tertekan karena keluarga ingin kamu memilih jurusan yang menjanjikan prospek kerja, sementara kamu sendiri belum yakin dengan minatmu? Aku mengerti, itu bisa jadi situasi yang sulit. Apa yang sebenarnya ingin kamu lakukan, meskipun mungkin tidak sesuai dengan ekspektasi mereka?"
+    },
+    {
+      "role": "user",
+      "content": "Aku sih pengennya coba-coba hal yang lain dulu. Kayak... sesuatu yang lebih santai gitu."
+    },
+    {
+      "role": "assistant",
+      "content": "Kedengarannya kamu butuh waktu untuk eksplorasi dan mencari sesuatu yang benar-benar kamu nikmati. Tidak ada salahnya untuk mencoba hal-hal baru dan mencari tahu apa yang membuatmu bersemangat. Apa yang kamu bayangkan saat kamu bilang \"sesuatu yang lebih santai\"?"
+    }
+  ],
+  "dialogue": "User [0]: Halo, Teta.\nChatbot [1]: Hai! Aku Teta, chatbot kesehatan mental yang siap menemani kamu. Aku di sini untuk mendengarkan dan membantumu menjernihkan pikiran. Apa yang ingin kamu ceritakan padaku hari ini?\nUser [2]: Nggak tahu deh harus mulai dari mana. Susah juga mau cerita apa ke kamu.\nChatbot [3]: Aku mengerti, kadang memang sulit untuk memulai. Wajar kok kalau kamu merasa begitu, apalagi kalau mau cerita ke seseorang yang belum terlalu dekat. Tidak perlu terburu-buru, kamu bisa mulai dari hal kecil apa pun yang ada di pikiranmu. Apa ada hal kecil yang sedang mengganggumu saat ini?\nUser [4]: Kayaknya cuma soal... ekspektasi orang-orang deh.\nChatbot [5]: Ekspektasi orang lain memang bisa bikin pusing ya. Kedengarannya kamu lagi merasa tertekan karena harapan dari orang-orang di sekitarmu. Bisa ceritakan lebih lanjut tentang ekspektasi apa yang kamu maksud?\nUser [6]: Soal masa depan gitu. Apalagi yang dari keluarga. Mereka kayaknya udah punya rencana banget buat aku.\nChatbot [7]: Aku paham, tekanan dari keluarga soal masa depan memang seringkali berat ya. Rasanya seperti ada harapan yang harus kamu penuhi, padahal kamu sendiri mungkin masih bingung. Apa yang paling membuatmu khawatir dari rencana mereka untukmu?\nUser [8]: Aku tuh malah bingung mau ngapain. Mereka maunya aku masuk jurusan yang 'pasti laku' gitu, kan.\nChatbot [9]: Jadi, kamu merasa tertekan karena keluarga ingin kamu memilih jurusan yang menjanjikan prospek kerja, sementara kamu sendiri belum yakin dengan minatmu? Aku mengerti, itu bisa jadi situasi yang sulit. Apa yang sebenarnya ingin kamu lakukan, meskipun mungkin tidak sesuai dengan ekspektasi mereka?\nUser [10]: Aku sih pengennya coba-coba hal yang lain dulu. Kayak... sesuatu yang lebih santai gitu.\nChatbot [11]: Kedengarannya kamu butuh waktu untuk eksplorasi dan mencari sesuatu yang benar-benar kamu nikmati. Tidak ada salahnya untuk mencoba hal-hal baru dan mencari tahu apa yang membuatmu bersemangat. Apa yang kamu bayangkan saat kamu bilang \"sesuatu yang lebih santai\"?",
+  "turns_raw": [
+    {
+      "role": "user",
+      "content": "Halo, Teta.",
+      "turn_index": 0,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap menemani kamu. Aku di sini untuk mendengarkan dan membantumu menjernihkan pikiran. Apa yang ingin kamu ceritakan padaku hari ini?",
+      "turn_index": 1,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Nggak tahu deh harus mulai dari mana. Susah juga mau cerita apa ke kamu.",
+      "turn_index": 2,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, kadang memang sulit untuk memulai. Wajar kok kalau kamu merasa begitu, apalagi kalau mau cerita ke seseorang yang belum terlalu dekat. Tidak perlu terburu-buru, kamu bisa mulai dari hal kecil apa pun yang ada di pikiranmu. Apa ada hal kecil yang sedang mengganggumu saat ini?",
+      "turn_index": 3,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Kayaknya cuma soal... ekspektasi orang-orang deh.",
+      "turn_index": 4,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Ekspektasi orang lain memang bisa bikin pusing ya. Kedengarannya kamu lagi merasa tertekan karena harapan dari orang-orang di sekitarmu. Bisa ceritakan lebih lanjut tentang ekspektasi apa yang kamu maksud?",
+      "turn_index": 5,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Soal masa depan gitu. Apalagi yang dari keluarga. Mereka kayaknya udah punya rencana banget buat aku.",
+      "turn_index": 6,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, tekanan dari keluarga soal masa depan memang seringkali berat ya. Rasanya seperti ada harapan yang harus kamu penuhi, padahal kamu sendiri mungkin masih bingung. Apa yang paling membuatmu khawatir dari rencana mereka untukmu?",
+      "turn_index": 7,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Aku tuh malah bingung mau ngapain. Mereka maunya aku masuk jurusan yang 'pasti laku' gitu, kan.",
+      "turn_index": 8,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Jadi, kamu merasa tertekan karena keluarga ingin kamu memilih jurusan yang menjanjikan prospek kerja, sementara kamu sendiri belum yakin dengan minatmu? Aku mengerti, itu bisa jadi situasi yang sulit. Apa yang sebenarnya ingin kamu lakukan, meskipun mungkin tidak sesuai dengan ekspektasi mereka?",
+      "turn_index": 9,
+      "refined": false
+    },
+    {
+      "role": "user",
+      "content": "Aku sih pengennya coba-coba hal yang lain dulu. Kayak... sesuatu yang lebih santai gitu.",
+      "turn_index": 10,
+      "refined": false
+    },
+    {
+      "role": "assistant",
+      "content": "Kedengarannya kamu butuh waktu untuk eksplorasi dan mencari sesuatu yang benar-benar kamu nikmati. Tidak ada salahnya untuk mencoba hal-hal baru dan mencari tahu apa yang membuatmu bersemangat. Apa yang kamu bayangkan saat kamu bilang \"sesuatu yang lebih santai\"?",
+      "turn_index": 11,
+      "refined": false
+    }
+  ],
+  "metadata": {
+    "user_model": "gemma4:e4b",
+    "chatbot_model": "teta-sft-v2:latest",
+    "agent_type": "defensif",
+    "num_turn_pairs": 10,
+    "simulated_at": "2026-06-15T18:04:57",
+    "baseline": "chatbot-ai-aware-c-simulate_conversation-prompts",
+    "refine_max_words": 50,
+    "refinement_count": 0
+  },
+  "ldd": {
+    "client": {
+      "PUW": 85.29,
+      "UWPD": 58.0,
+      "LDD": 4946.82,
+      "total_tokens": 68,
+      "unique_tokens": 58
+    },
+    "counselor": {
+      "PUW": 61.01,
+      "UWPD": 133.0,
+      "LDD": 8114.33,
+      "total_tokens": 218,
+      "unique_tokens": 133
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "dialog_id": "baseline_v4_0008_anxiety_1781450866",
+  "scenario_id": 8,
+  "kategori": "Konsep identitas diri",
+  "topik": "Eksperimen identitas",
+  "deskripsi": "Kadang bentrok dengan norma keluarga atau budaya.",
+  "target_emotion": "anxiety",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Aku nggak yakin juga kenapa aku harus di sini, sih. Pokoknya, akhir-akhir ini rasanya kayak hidup aku itu selalu bentrok sama harapan orang-orang di rumah."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti perasaanmu. Bisa ceritakan lebih lanjut, harapan seperti apa yang membuatmu merasa terbentrok?"
+    },
+    {
+      "role": "user",
+      "content": "Ya, kayaknya mereka maunya aku harus ngikutin jalur yang udah ditentukan, padahal aku nggak tahu mau jadi apa. Rasanya kayak aku cuma harus jadi 'versi' yang mereka mau aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti berat ya, merasa harus menjadi orang lain. Apa yang membuatmu merasa tertekan dengan jalur yang mereka inginkan itu?"
+    },
+    {
+      "role": "user",
+      "content": "Ya, aku cuma merasa kalau kalau aku nggak ngikutin itu, aku bakal dianggap gagal atau mengecewakan mereka. Kamu mana ngerti, kan?"
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, perasaan takut mengecewakan itu wajar. Tapi, coba pikirkan, apa yang sebenarnya kamu inginkan untuk dirimu sendiri?"
+    },
+    {
+      "role": "user",
+      "content": "Memangnya apa yang aku inginkan? Nggak tahu deh. Mungkin... aku cuma pengen yang aku kerjain itu sesuai sama apa yang aku , bukan apa yang mereka bilang bagus. Saran itu ga berguna, tahu nggak."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku minta maaf kalau saranku tadi terasa tidak berguna. Memang, menemukan apa yang benar-benar kita inginkan itu tidak mudah. Apa yang membuatmu merasa pekerjaan yang kamu lakukan sekarang tidak sesuai dengan dirimu?"
+    },
+    {
+      "role": "user",
+      "content": "Soalnya, aku nggak tertarik sama bidang itu sama sekali, tapi udah rasa wajib aja buat aku ambil. Kayak nggak ada pilihan lain, tahu nggak."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, merasa terpaksa melakukan sesuatu memang tidak menyenangkan. Apa yang membuatmu merasa tidak ada pilihan lain dalam situasi ini?"
+    },
+    {
+      "role": "user",
+      "content": "Yah, emang kelihatan nggak ada jalan keluarnya. Kalau aku coba cari yang lain, kayaknya malah bikin masalah yang lebih gede sama keluarga."
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti membuatmu merasa terjebak. Apa yang membuatmu berpikir bahwa mencari jalan lain akan menciptakan masalah yang lebih besar dengan keluargamu?"
+    },
+    {
+      "role": "user",
+      "content": "Ya, mereka kan udah punya ekspektasi banget, dan aku takut banget kalau aku nunjukkin kalau aku beda pikiran, mereka bakal kecewa parah. Udah sering banget aku dengar itu."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku bisa merasakan kekhawatiranmu. Bagaimana perasaanmu ketika mendengar mereka mengatakan akan kecewa jika kamu berbeda pikiran?"
+    },
+    {
+      "role": "user",
+      "content": "Anxiety banget, jujur aja. Aku jadi mikir, kalau aku coba jalan sendiri, aku bakal ditinggal atau malah dihakimi. Rasanya kayak di ujung tanduk gitu."
+    },
+    {
+      "role": "assistant",
+      "content": "Anxiety yang sangat wajar. Perasaan ditinggalkan atau dihakimi pasti menakutkan. Apa yang biasanya kamu lakukan ketika perasaan itu muncul?"
+    },
+    {
+      "role": "user",
+      "content": "Biasanya aku diem aja, dan pura-pura nggak apa-apa. Lebih gampang daripada harus berantem atau ngasih tahu mereka kalau aku nggak setuju sama mereka."
+    },
+    {
+      "role": "assistant",
+      "content": "Menjaga kedamaian memang bisa terasa lebih mudah dalam situasi seperti itu. Apa yang kamu rasakan setelah kamu memilih untuk diam dan berpura-pura baik-baik saja?"
+    },
+    {
+      "role": "user",
+      "content": "Capek. Capek banget, jujur. Rasanya kayak aku cuma akting terus, jadi aku nggak tahu lagi aku itu beneran siapa."
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti sangat melelahkan. Kehilangan jati diri karena terus-menerus berpura-pura adalah beban yang berat. Apa yang membuatmu merasa paling kehilangan dari dirimu sendiri?"
+    },
+    {
+      "role": "user",
+      "content": "Mungkin kebebasan buat ambil keputusan sendiri, tanpa harus mikirin reaksi mereka. Itu yang paling aku mau."
+    },
+    {
+      "role": "assistant",
+      "content": "Kebebasan untuk mengambil keputusan sendiri memang hak setiap orang. Apa yang membuatmu merasa sulit untuk mengambil keputusan tanpa memikirkan reaksi mereka?"
+    },
+    {
+      "role": "user",
+      "content": "Karena aku takut banget sama konflik. Aku lebih milih damai daripada jadi pusat masalah. Aku nggak mau ribut."
+    },
+    {
+      "role": "assistant",
+      "content": "Menghindari konflik adalah hal yang wajar. Apa yang kamu bayangkan akan terjadi jika kamu mencoba mengambil keputusan sendiri dan menghadapi potensi konflik dengan keluargamu?"
+    },
+    {
+      "role": "user",
+      "content": "Aku cuma bisa bayangin kalau mereka bakal marah besar, atau minimal ngecewain aku parah banget. Jadi, mending aku diam aja aja."
+    },
+    {
+      "role": "assistant",
+      "content": "Aku bisa merasakan betapa kuatnya ketakutan itu. Apa yang membuatmu berpikir bahwa kemarahan atau kekecewaan mereka akan lebih buruk daripada perasaanmu saat ini?"
+    },
+    {
+      "role": "user",
+      "content": "Aku nggak tahu. Mungkin karena mereka udah lebih tua, dan mereka udah tahu yang terbaik buat aku. Jadi aku ngerasa kayak nggak ada yang bisa ngeganti mereka."
+    },
+    {
+      "role": "assistant",
+      "content": "Merasa bahwa orang tua tahu yang terbaik untukmu adalah perasaan yang umum. Apakah kamu pernah merasa bahwa ada hal-hal yang mereka tidak pahami tentang dirimu?"
+    },
+    {
+      "role": "user",
+      "content": "Iya banget. Mereka cuma lihat nilai-nilai atau apa yang bisa menghasilkan uang, nggak pernah lihat passion atau apa yang bikin aku seneng beneran."
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti membuatmu merasa tidak didengar. Bisakah kamu ceritakan lebih lanjut tentang apa yang membuatmu benar-benar bahagia?"
+    },
+    {
+      "role": "user",
+      "content": "Mungkin... pas aku cuma bisa nulis atau gambar-gambar gitu, nggak usah mikirin hasil atau uang. Itu rasanya paling bebas, tahu nggak."
+    },
+    {
+      "role": "assistant",
+      "content": "Menulis dan menggambar terdengar seperti kegiatan yang memberikanmu kebebasan. Kapan terakhir kali kamu melakukan hal-hal itu?"
+    }
+  ],
+  "dialogue": "User [0]: Aku nggak yakin juga kenapa aku harus di sini, sih. Pokoknya, akhir-akhir ini rasanya kayak hidup aku itu selalu bentrok sama harapan orang-orang di rumah.\nChatbot [1]: Aku mengerti perasaanmu. Bisa ceritakan lebih lanjut, harapan seperti apa yang membuatmu merasa terbentrok?\nUser [2]: Ya, kayaknya mereka maunya aku harus ngikutin jalur yang udah ditentukan, padahal aku nggak tahu mau jadi apa. Rasanya kayak aku cuma harus jadi 'versi' yang mereka mau aja.\nChatbot [3]: Itu pasti berat ya, merasa harus menjadi orang lain. Apa yang membuatmu merasa tertekan dengan jalur yang mereka inginkan itu?\nUser [4]: Ya, aku cuma merasa kalau kalau aku nggak ngikutin itu, aku bakal dianggap gagal atau mengecewakan mereka. Kamu mana ngerti, kan?\nChatbot [5]: Aku paham, perasaan takut mengecewakan itu wajar. Tapi, coba pikirkan, apa yang sebenarnya kamu inginkan untuk dirimu sendiri?\nUser [6]: Memangnya apa yang aku inginkan? Nggak tahu deh. Mungkin... aku cuma pengen yang aku kerjain itu sesuai sama apa yang aku , bukan apa yang mereka bilang bagus. Saran itu ga berguna, tahu nggak.\nChatbot [7]: Aku minta maaf kalau saranku tadi terasa tidak berguna. Memang, menemukan apa yang benar-benar kita inginkan itu tidak mudah. Apa yang membuatmu merasa pekerjaan yang kamu lakukan sekarang tidak sesuai dengan dirimu?\nUser [8]: Soalnya, aku nggak tertarik sama bidang itu sama sekali, tapi udah rasa wajib aja buat aku ambil. Kayak nggak ada pilihan lain, tahu nggak.\nChatbot [9]: Aku mengerti, merasa terpaksa melakukan sesuatu memang tidak menyenangkan. Apa yang membuatmu merasa tidak ada pilihan lain dalam situasi ini?\nUser [10]: Yah, emang kelihatan nggak ada jalan keluarnya. Kalau aku coba cari yang lain, kayaknya malah bikin masalah yang lebih gede sama keluarga.\nChatbot [11]: Itu pasti membuatmu merasa terjebak. Apa yang membuatmu berpikir bahwa mencari jalan lain akan menciptakan masalah yang lebih besar dengan keluargamu?\nUser [12]: Ya, mereka kan udah punya ekspektasi banget, dan aku takut banget kalau aku nunjukkin kalau aku beda pikiran, mereka bakal kecewa parah. Udah sering banget aku dengar itu.\nChatbot [13]: Aku bisa merasakan kekhawatiranmu. Bagaimana perasaanmu ketika mendengar mereka mengatakan akan kecewa jika kamu berbeda pikiran?\nUser [14]: Anxiety banget, jujur aja. Aku jadi mikir, kalau aku coba jalan sendiri, aku bakal ditinggal atau malah dihakimi. Rasanya kayak di ujung tanduk gitu.\nChatbot [15]: Anxiety yang sangat wajar. Perasaan ditinggalkan atau dihakimi pasti menakutkan. Apa yang biasanya kamu lakukan ketika perasaan itu muncul?\nUser [16]: Biasanya aku diem aja, dan pura-pura nggak apa-apa. Lebih gampang daripada harus berantem atau ngasih tahu mereka kalau aku nggak setuju sama mereka.\nChatbot [17]: Menjaga kedamaian memang bisa terasa lebih mudah dalam situasi seperti itu. Apa yang kamu rasakan setelah kamu memilih untuk diam dan berpura-pura baik-baik saja?\nUser [18]: Capek. Capek banget, jujur. Rasanya kayak aku cuma akting terus, jadi aku nggak tahu lagi aku itu beneran siapa.\nChatbot [19]: Itu pasti sangat melelahkan. Kehilangan jati diri karena terus-menerus berpura-pura adalah beban yang berat. Apa yang membuatmu merasa paling kehilangan dari dirimu sendiri?\nUser [20]: Mungkin kebebasan buat ambil keputusan sendiri, tanpa harus mikirin reaksi mereka. Itu yang paling aku mau.\nChatbot [21]: Kebebasan untuk mengambil keputusan sendiri memang hak setiap orang. Apa yang membuatmu merasa sulit untuk mengambil keputusan tanpa memikirkan reaksi mereka?\nUser [22]: Karena aku takut banget sama konflik. Aku lebih milih damai daripada jadi pusat masalah. Aku nggak mau ribut.\nChatbot [23]: Menghindari konflik adalah hal yang wajar. Apa yang kamu bayangkan akan terjadi jika kamu mencoba mengambil keputusan sendiri dan menghadapi potensi konflik dengan keluargamu?\nUser [24]: Aku cuma bisa bayangin kalau mereka bakal marah besar, atau minimal ngecewain aku parah banget. Jadi, mending aku diam aja aja.\nChatbot [25]: Aku bisa merasakan betapa kuatnya ketakutan itu. Apa yang membuatmu berpikir bahwa kemarahan atau kekecewaan mereka akan lebih buruk daripada perasaanmu saat ini?\nUser [26]: Aku nggak tahu. Mungkin karena mereka udah lebih tua, dan mereka udah tahu yang terbaik buat aku. Jadi aku ngerasa kayak nggak ada yang bisa ngeganti mereka.\nChatbot [27]: Merasa bahwa orang tua tahu yang terbaik untukmu adalah perasaan yang umum. Apakah kamu pernah merasa bahwa ada hal-hal yang mereka tidak pahami tentang dirimu?\nUser [28]: Iya banget. Mereka cuma lihat nilai-nilai atau apa yang bisa menghasilkan uang, nggak pernah lihat passion atau apa yang bikin aku seneng beneran.\nChatbot [29]: Itu pasti membuatmu merasa tidak didengar. Bisakah kamu ceritakan lebih lanjut tentang apa yang membuatmu benar-benar bahagia?\nUser [30]: Mungkin... pas aku cuma bisa nulis atau gambar-gambar gitu, nggak usah mikirin hasil atau uang. Itu rasanya paling bebas, tahu nggak.\nChatbot [31]: Menulis dan menggambar terdengar seperti kegiatan yang memberikanmu kebebasan. Kapan terakhir kali kamu melakukan hal-hal itu?",
+  "turns_raw": [
+    {
+      "role": "user",
+      "content": "Aku nggak yakin juga kenapa aku harus di sini, sih. Pokoknya, akhir-akhir ini rasanya kayak hidup aku itu selalu bentrok sama harapan orang-orang di rumah.",
+      "turn_index": 0
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti perasaanmu. Bisa ceritakan lebih lanjut, harapan seperti apa yang membuatmu merasa terbentrok?",
+      "turn_index": 1
+    },
+    {
+      "role": "user",
+      "content": "Ya, kayaknya mereka maunya aku harus ngikutin jalur yang udah ditentukan, padahal aku nggak tahu mau jadi apa. Rasanya kayak aku cuma harus jadi 'versi' yang mereka mau aja.",
+      "turn_index": 2
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti berat ya, merasa harus menjadi orang lain. Apa yang membuatmu merasa tertekan dengan jalur yang mereka inginkan itu?",
+      "turn_index": 3
+    },
+    {
+      "role": "user",
+      "content": "Ya, aku cuma merasa kalau kalau aku nggak ngikutin itu, aku bakal dianggap gagal atau mengecewakan mereka. Kamu mana ngerti, kan?",
+      "turn_index": 4
+    },
+    {
+      "role": "assistant",
+      "content": "Aku paham, perasaan takut mengecewakan itu wajar. Tapi, coba pikirkan, apa yang sebenarnya kamu inginkan untuk dirimu sendiri?",
+      "turn_index": 5
+    },
+    {
+      "role": "user",
+      "content": "Memangnya apa yang aku inginkan? Nggak tahu deh. Mungkin... aku cuma pengen yang aku kerjain itu sesuai sama apa yang aku , bukan apa yang mereka bilang bagus. Saran itu ga berguna, tahu nggak.",
+      "turn_index": 6
+    },
+    {
+      "role": "assistant",
+      "content": "Aku minta maaf kalau saranku tadi terasa tidak berguna. Memang, menemukan apa yang benar-benar kita inginkan itu tidak mudah. Apa yang membuatmu merasa pekerjaan yang kamu lakukan sekarang tidak sesuai dengan dirimu?",
+      "turn_index": 7
+    },
+    {
+      "role": "user",
+      "content": "Soalnya, aku nggak tertarik sama bidang itu sama sekali, tapi udah rasa wajib aja buat aku ambil. Kayak nggak ada pilihan lain, tahu nggak.",
+      "turn_index": 8
+    },
+    {
+      "role": "assistant",
+      "content": "Aku mengerti, merasa terpaksa melakukan sesuatu memang tidak menyenangkan. Apa yang membuatmu merasa tidak ada pilihan lain dalam situasi ini?",
+      "turn_index": 9
+    },
+    {
+      "role": "user",
+      "content": "Yah, emang kelihatan nggak ada jalan keluarnya. Kalau aku coba cari yang lain, kayaknya malah bikin masalah yang lebih gede sama keluarga.",
+      "turn_index": 10
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti membuatmu merasa terjebak. Apa yang membuatmu berpikir bahwa mencari jalan lain akan menciptakan masalah yang lebih besar dengan keluargamu?",
+      "turn_index": 11
+    },
+    {
+      "role": "user",
+      "content": "Ya, mereka kan udah punya ekspektasi banget, dan aku takut banget kalau aku nunjukkin kalau aku beda pikiran, mereka bakal kecewa parah. Udah sering banget aku dengar itu.",
+      "turn_index": 12
+    },
+    {
+      "role": "assistant",
+      "content": "Aku bisa merasakan kekhawatiranmu. Bagaimana perasaanmu ketika mendengar mereka mengatakan akan kecewa jika kamu berbeda pikiran?",
+      "turn_index": 13
+    },
+    {
+      "role": "user",
+      "content": "Anxiety banget, jujur aja. Aku jadi mikir, kalau aku coba jalan sendiri, aku bakal ditinggal atau malah dihakimi. Rasanya kayak di ujung tanduk gitu.",
+      "turn_index": 14
+    },
+    {
+      "role": "assistant",
+      "content": "Anxiety yang sangat wajar. Perasaan ditinggalkan atau dihakimi pasti menakutkan. Apa yang biasanya kamu lakukan ketika perasaan itu muncul?",
+      "turn_index": 15
+    },
+    {
+      "role": "user",
+      "content": "Biasanya aku diem aja, dan pura-pura nggak apa-apa. Lebih gampang daripada harus berantem atau ngasih tahu mereka kalau aku nggak setuju sama mereka.",
+      "turn_index": 16
+    },
+    {
+      "role": "assistant",
+      "content": "Menjaga kedamaian memang bisa terasa lebih mudah dalam situasi seperti itu. Apa yang kamu rasakan setelah kamu memilih untuk diam dan berpura-pura baik-baik saja?",
+      "turn_index": 17
+    },
+    {
+      "role": "user",
+      "content": "Capek. Capek banget, jujur. Rasanya kayak aku cuma akting terus, jadi aku nggak tahu lagi aku itu beneran siapa.",
+      "turn_index": 18
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti sangat melelahkan. Kehilangan jati diri karena terus-menerus berpura-pura adalah beban yang berat. Apa yang membuatmu merasa paling kehilangan dari dirimu sendiri?",
+      "turn_index": 19
+    },
+    {
+      "role": "user",
+      "content": "Mungkin kebebasan buat ambil keputusan sendiri, tanpa harus mikirin reaksi mereka. Itu yang paling aku mau.",
+      "turn_index": 20
+    },
+    {
+      "role": "assistant",
+      "content": "Kebebasan untuk mengambil keputusan sendiri memang hak setiap orang. Apa yang membuatmu merasa sulit untuk mengambil keputusan tanpa memikirkan reaksi mereka?",
+      "turn_index": 21
+    },
+    {
+      "role": "user",
+      "content": "Karena aku takut banget sama konflik. Aku lebih milih damai daripada jadi pusat masalah. Aku nggak mau ribut.",
+      "turn_index": 22
+    },
+    {
+      "role": "assistant",
+      "content": "Menghindari konflik adalah hal yang wajar. Apa yang kamu bayangkan akan terjadi jika kamu mencoba mengambil keputusan sendiri dan menghadapi potensi konflik dengan keluargamu?",
+      "turn_index": 23
+    },
+    {
+      "role": "user",
+      "content": "Aku cuma bisa bayangin kalau mereka bakal marah besar, atau minimal ngecewain aku parah banget. Jadi, mending aku diam aja aja.",
+      "turn_index": 24
+    },
+    {
+      "role": "assistant",
+      "content": "Aku bisa merasakan betapa kuatnya ketakutan itu. Apa yang membuatmu berpikir bahwa kemarahan atau kekecewaan mereka akan lebih buruk daripada perasaanmu saat ini?",
+      "turn_index": 25
+    },
+    {
+      "role": "user",
+      "content": "Aku nggak tahu. Mungkin karena mereka udah lebih tua, dan mereka udah tahu yang terbaik buat aku. Jadi aku ngerasa kayak nggak ada yang bisa ngeganti mereka.",
+      "turn_index": 26
+    },
+    {
+      "role": "assistant",
+      "content": "Merasa bahwa orang tua tahu yang terbaik untukmu adalah perasaan yang umum. Apakah kamu pernah merasa bahwa ada hal-hal yang mereka tidak pahami tentang dirimu?",
+      "turn_index": 27
+    },
+    {
+      "role": "user",
+      "content": "Iya banget. Mereka cuma lihat nilai-nilai atau apa yang bisa menghasilkan uang, nggak pernah lihat passion atau apa yang bikin aku seneng beneran.",
+      "turn_index": 28
+    },
+    {
+      "role": "assistant",
+      "content": "Itu pasti membuatmu merasa tidak didengar. Bisakah kamu ceritakan lebih lanjut tentang apa yang membuatmu benar-benar bahagia?",
+      "turn_index": 29
+    },
+    {
+      "role": "user",
+      "content": "Mungkin... pas aku cuma bisa nulis atau gambar-gambar gitu, nggak usah mikirin hasil atau uang. Itu rasanya paling bebas, tahu nggak.",
+      "turn_index": 30
+    },
+    {
+      "role": "assistant",
+      "content": "Menulis dan menggambar terdengar seperti kegiatan yang memberikanmu kebebasan. Kapan terakhir kali kamu melakukan hal-hal itu?",
+      "turn_index": 31
+    }
+  ],
+  "metadata": {
+    "user_model": "gemma4:e4b",
+    "chatbot_model": "teta-sft-v2:latest",
+    "agent_type": "defensif",
+    "num_turn_pairs": 16,
+    "simulated_at": "2026-06-14T22:27:46",
+    "baseline": "interactive-agents-arXiv-2408.15787-v4-sim-flow-paper-counselor"
+  }
+}
