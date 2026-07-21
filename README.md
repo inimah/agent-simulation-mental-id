@@ -60,7 +60,7 @@ Data used at each stage of the study (paper Table III):
 | Fine-tuning | CALM-ID (ours) | ✘ | 17,989 | 30 |
 | Preference tuning | Preference data (ours) | ✘ | 528 | 19 |
 | Simulation | Emotion data (adopted) | ✔ | 41 | N/A |
-| Simulation | Scenario (ours) | ✔ | 147 | N/A |
+| Simulation | Scenario (ours) | ✘ | 147 | N/A |
 | Simulation | Role cards (adopted from PsyDial) | ✔ | 8 | N/A |
 | Simulation | User traits (adopted from PsyDial) | ✔ | 15 | N/A |
 | Simulation | Resistance level (adopted from PsyDial) | ✔ | 3 | N/A |
