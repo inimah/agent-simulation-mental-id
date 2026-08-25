@@ -1,0 +1,395 @@
+[
+  {
+    "dialog_id": "roleplay_doh_dual_noai_0007_guilt_1781748285",
+    "source_file": "roleplay_doh_dual_noai_0007_guilt_pendiam_20260618_084426.json",
+    "judge_file": "dual_roleplay_doh_dual_noai_0007_guilt_pendiam_20260618_084426_openai_20260618_160332.json",
+    "source": {
+      "dialog_id": "roleplay_doh_dual_noai_0007_guilt_1781748285",
+      "scenario_id": 7,
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "deskripsi": "Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Gak tau mau ngomong apa sih."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, kadang memang rasanya bingung atau sulit banget untuk tahu harus mulai bercerita dari mana. Tidak apa-apa kok kalau kamu merasa begitu sekarang. Aku di sini untuk mendengarkan apa pun yang mau kamu bagi, sekecil atau sebesar apapun itu. Kira-kira, apa yang paling nyaman buat kamu bicarakan hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... soal sekolah aja kali ya?"
+        },
+        {
+          "role": "assistant",
+          "content": "Memang benar, sekolah sering banget jadi sumber tekanan dan pikiran yang banyak ya. Rasanya capek banget kalau harus memikirkan nilai, tugas, atau ekspektasi banyak orang. Kira-kira, bagian apa dari sekolah yang paling membuat kamu merasa terbebani belakangan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Semua aja sih. Nggak jelas."
+        },
+        {
+          "role": "assistant",
+          "content": "Terdengar seperti kamu sedang merasa sangat kewalahan dan semua hal di sekolah terasa campur aduk, sampai sulit untuk menentukan mana yang paling harus diperhatikan. Perasaan bingung dan tertekan seperti itu pasti sangat berat ya. Kalau boleh tahu, di antara semua hal yang terasa \"tidak jelas\" itu, ada satu hal yang paling sering kamu pikirkan saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya mau gimana juga sih."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya seperti kamu sedang berada di titik di mana semua usaha terasa sia-sia, dan kamu merasa tidak tahu harus mulai dari mana untuk memperbaikinya. Perasaan putus asa dan pasrah seperti itu pasti sangat menguras energi, ya. Kalau kita tidak perlu mencari solusi besar sekarang, apa hal kecil yang menurut kamu paling bisa membuat beban di pundakmu sedikit terangkat saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa kalau kamu belum tahu jawabannya. Tidak perlu terburu-buru untuk mencari solusi atau label yang pas untuk perasaanmu. Aku cuma mau kamu tahu bahwa apa pun yang sedang kamu rasakan sekarang—rasa bingung, capek, atau kosong—itu valid. Kalau kamu mau, kita bisa bicara tentang hal lain di luar sekolah, misalnya hobi atau film yang kamu suka?"
+        },
+        {
+          "role": "user",
+          "content": "Bohong."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap rasa curiga di dalam kata-katamu, seolah kamu merasa aku tidak jujur atau tidak tulus. Wajar banget kalau kamu merasa seperti itu, apalagi kalau kamu sedang merasa sangat lelah dan pikiranmu sedang kacau. Kalau kamu belum siap bicara soal hal ringan, bolehkah aku tahu, saat ini apa yang paling kamu rasakan di dada kamu?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... soal baju yang aku pakai kemarin."
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, ternyata kamu ingin membicarakan soal baju yang kamu pakai kemarin. Kalau boleh tahu, apakah ada sesuatu dari baju itu yang membuat kamu merasa kurang nyaman atau ada pikiran tertentu yang muncul saat kamu memakainya?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, aneh. Kayak nggak cocok aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kamu sedang merasa sedikit tidak yakin atau kurang percaya diri dengan pilihan penampilanmu, seolah ada sesuatu yang terasa \"aneh\" atau tidak pas. Perasaan ini pasti bikin kamu jadi lebih sensitif sama pandangan orang lain, ya. Kira-kira, \"tidak cocok\" itu menurutmu artinya apa sih dalam konteks perasaanmu?"
+        },
+        {
+          "role": "user",
+          "content": "Ih, bukan baju sih. Tapi... kayak semuanya aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Jadi, ini bukan hanya soal baju, tapi kamu merasa ada perasaan tidak nyaman atau ketidakcocokan yang menyelimuti banyak aspek dalam hidupmu saat ini, ya. Rasanya seperti semuanya sedang tidak beres dan itu bikin kamu kewalahan. Kalau kamu boleh definisikan, perasaan \"semua tidak cocok\" ini itu paling sering muncul di situasi apa dalam hidupmu?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak... lagi di antara dua hal yang beda banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa rumit dan beratnya posisi kamu sekarang, seolah kamu sedang ditarik kuat-kuat ke dua arah yang sangat berbeda. Perasaan berada di antara dua hal yang begitu kontras itu pasti bikin cemas dan lemas, ya. Boleh aku tahu, apa sih yang membuat kedua pilihan itu terasa sangat menarik sekaligus menakutkan untuk kamu?"
+        },
+        {
+          "role": "user",
+          "content": "Terus... emang beda banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan beban yang sangat besar dari perasaan harus memilih di antara dua dunia yang terasa begitu berjauhan. Wajar banget kalau kamu merasa bingung dan sulit menentukan langkah, karena tidak ada yang terasa pas atau mudah. Kalau kita anggap ini seperti berdiri di persimpangan jalan yang sangat lebar, bagian mana dari kedua pilihan itu yang paling menarik perhatian kamu, meskipun kamu juga merasa takut?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak tau. Tapi... kayak ada yang harus dicoba."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanian kamu untuk mengakui bahwa kamu ingin mencoba, meskipun kamu belum tahu apa yang harus dicoba. Perasaan seperti \"harus\" mencoba itu seringkali datang dari ekspektasi, ya, entah dari diri sendiri atau dari lingkungan. Menurut kamu, kalau kamu bisa mencoba sesuatu tanpa rasa takut atau tanpa harus memenuhi ekspektasi orang lain, hal apa yang paling membuat kamu penasaran untuk dicoba?"
+        },
+        {
+          "role": "user",
+          "content": "Coba aja yang aneh-aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Menarik sekali, kamu ingin mencoba hal-hal yang aneh dan belum pernah kamu lakukan. Itu menunjukkan bahwa kamu sedang mencari ruang eksplorasi yang bebas dari label atau tekanan, ya. Dalam konteks \"aneh\" itu, apakah ada batasan apa yang menurut kamu paling menakutkan atau paling kamu khawatirkan kalau kamu benar-benar mencoba hal yang tidak biasa?"
+        },
+        {
+          "role": "user",
+          "content": "Udah cukup kali."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa capeknya kamu karena sudah harus mengeluarkan banyak pikiran dan perasaan hari ini. Tidak apa-apa banget kalau kita harus berhenti di sini. Kamu sudah melakukan hal yang sangat berani dan penting dengan mau membicarakan semua ini. Ingat ya, kalau nanti kamu merasa lelah atau butuh teman bicara lagi, aku selalu siap mendengarkan."
+        }
+      ],
+      "dialogue": "User [0]: Gak tau mau ngomong apa sih.\nChatbot [1]: Aku mengerti, kadang memang rasanya bingung atau sulit banget untuk tahu harus mulai bercerita dari mana. Tidak apa-apa kok kalau kamu merasa begitu sekarang. Aku di sini untuk mendengarkan apa pun yang mau kamu bagi, sekecil atau sebesar apapun itu. Kira-kira, apa yang paling nyaman buat kamu bicarakan hari ini?\nUser [2]: Mungkin... soal sekolah aja kali ya?\nChatbot [3]: Memang benar, sekolah sering banget jadi sumber tekanan dan pikiran yang banyak ya. Rasanya capek banget kalau harus memikirkan nilai, tugas, atau ekspektasi banyak orang. Kira-kira, bagian apa dari sekolah yang paling membuat kamu merasa terbebani belakangan ini?\nUser [4]: Semua aja sih. Nggak jelas.\nChatbot [5]: Terdengar seperti kamu sedang merasa sangat kewalahan dan semua hal di sekolah terasa campur aduk, sampai sulit untuk menentukan mana yang paling harus diperhatikan. Perasaan bingung dan tertekan seperti itu pasti sangat berat ya. Kalau boleh tahu, di antara semua hal yang terasa \"tidak jelas\" itu, ada satu hal yang paling sering kamu pikirkan saat ini?\nUser [6]: Ya mau gimana juga sih.\nChatbot [7]: Rasanya seperti kamu sedang berada di titik di mana semua usaha terasa sia-sia, dan kamu merasa tidak tahu harus mulai dari mana untuk memperbaikinya. Perasaan putus asa dan pasrah seperti itu pasti sangat menguras energi, ya. Kalau kita tidak perlu mencari solusi besar sekarang, apa hal kecil yang menurut kamu paling bisa membuat beban di pundakmu sedikit terangkat saat ini?\nUser [8]: Nggak tahu deh.\nChatbot [9]: Tidak apa-apa kalau kamu belum tahu jawabannya. Tidak perlu terburu-buru untuk mencari solusi atau label yang pas untuk perasaanmu. Aku cuma mau kamu tahu bahwa apa pun yang sedang kamu rasakan sekarang—rasa bingung, capek, atau kosong—itu valid. Kalau kamu mau, kita bisa bicara tentang hal lain di luar sekolah, misalnya hobi atau film yang kamu suka?\nUser [10]: Bohong.\nChatbot [11]: Aku menangkap rasa curiga di dalam kata-katamu, seolah kamu merasa aku tidak jujur atau tidak tulus. Wajar banget kalau kamu merasa seperti itu, apalagi kalau kamu sedang merasa sangat lelah dan pikiranmu sedang kacau. Kalau kamu belum siap bicara soal hal ringan, bolehkah aku tahu, saat ini apa yang paling kamu rasakan di dada kamu?\nUser [12]: Mungkin... soal baju yang aku pakai kemarin.\nChatbot [13]: Oh, ternyata kamu ingin membicarakan soal baju yang kamu pakai kemarin. Kalau boleh tahu, apakah ada sesuatu dari baju itu yang membuat kamu merasa kurang nyaman atau ada pikiran tertentu yang muncul saat kamu memakainya?\nUser [14]: Iya, aneh. Kayak nggak cocok aja.\nChatbot [15]: Aku bisa merasakan kamu sedang merasa sedikit tidak yakin atau kurang percaya diri dengan pilihan penampilanmu, seolah ada sesuatu yang terasa \"aneh\" atau tidak pas. Perasaan ini pasti bikin kamu jadi lebih sensitif sama pandangan orang lain, ya. Kira-kira, \"tidak cocok\" itu menurutmu artinya apa sih dalam konteks perasaanmu?\nUser [16]: Ih, bukan baju sih. Tapi... kayak semuanya aja.\nChatbot [17]: Aku mengerti. Jadi, ini bukan hanya soal baju, tapi kamu merasa ada perasaan tidak nyaman atau ketidakcocokan yang menyelimuti banyak aspek dalam hidupmu saat ini, ya. Rasanya seperti semuanya sedang tidak beres dan itu bikin kamu kewalahan. Kalau kamu boleh definisikan, perasaan \"semua tidak cocok\" ini itu paling sering muncul di situasi apa dalam hidupmu?\nUser [18]: Kayak... lagi di antara dua hal yang beda banget.\nChatbot [19]: Aku bisa merasakan betapa rumit dan beratnya posisi kamu sekarang, seolah kamu sedang ditarik kuat-kuat ke dua arah yang sangat berbeda. Perasaan berada di antara dua hal yang begitu kontras itu pasti bikin cemas dan lemas, ya. Boleh aku tahu, apa sih yang membuat kedua pilihan itu terasa sangat menarik sekaligus menakutkan untuk kamu?\nUser [20]: Terus... emang beda banget.\nChatbot [21]: Aku bisa merasakan beban yang sangat besar dari perasaan harus memilih di antara dua dunia yang terasa begitu berjauhan. Wajar banget kalau kamu merasa bingung dan sulit menentukan langkah, karena tidak ada yang terasa pas atau mudah. Kalau kita anggap ini seperti berdiri di persimpangan jalan yang sangat lebar, bagian mana dari kedua pilihan itu yang paling menarik perhatian kamu, meskipun kamu juga merasa takut?\nUser [22]: Nggak tau. Tapi... kayak ada yang harus dicoba.\nChatbot [23]: Aku sangat menghargai keberanian kamu untuk mengakui bahwa kamu ingin mencoba, meskipun kamu belum tahu apa yang harus dicoba. Perasaan seperti \"harus\" mencoba itu seringkali datang dari ekspektasi, ya, entah dari diri sendiri atau dari lingkungan. Menurut kamu, kalau kamu bisa mencoba sesuatu tanpa rasa takut atau tanpa harus memenuhi ekspektasi orang lain, hal apa yang paling membuat kamu penasaran untuk dicoba?\nUser [24]: Coba aja yang aneh-aneh.\nChatbot [25]: Menarik sekali, kamu ingin mencoba hal-hal yang aneh dan belum pernah kamu lakukan. Itu menunjukkan bahwa kamu sedang mencari ruang eksplorasi yang bebas dari label atau tekanan, ya. Dalam konteks \"aneh\" itu, apakah ada batasan apa yang menurut kamu paling menakutkan atau paling kamu khawatirkan kalau kamu benar-benar mencoba hal yang tidak biasa?\nUser [26]: Udah cukup kali.\nChatbot [27]: Aku bisa merasakan betapa capeknya kamu karena sudah harus mengeluarkan banyak pikiran dan perasaan hari ini. Tidak apa-apa banget kalau kita harus berhenti di sini. Kamu sudah melakukan hal yang sangat berani dan penting dengan mau membicarakan semua ini. Ingat ya, kalau nanti kamu merasa lelah atau butuh teman bicara lagi, aku selalu siap mendengarkan.",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Gak tau mau ngomong apa sih.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, kadang memang rasanya bingung atau sulit banget untuk tahu harus mulai bercerita dari mana. Tidak apa-apa kok kalau kamu merasa begitu sekarang. Aku di sini untuk mendengarkan apa pun yang mau kamu bagi, sekecil atau sebesar apapun itu. Kira-kira, apa yang paling nyaman buat kamu bicarakan hari ini?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... soal sekolah aja kali ya?",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Memang benar, sekolah sering banget jadi sumber tekanan dan pikiran yang banyak ya. Rasanya capek banget kalau harus memikirkan nilai, tugas, atau ekspektasi banyak orang. Kira-kira, bagian apa dari sekolah yang paling membuat kamu merasa terbebani belakangan ini?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Semua aja sih. Nggak jelas.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Terdengar seperti kamu sedang merasa sangat kewalahan dan semua hal di sekolah terasa campur aduk, sampai sulit untuk menentukan mana yang paling harus diperhatikan. Perasaan bingung dan tertekan seperti itu pasti sangat berat ya. Kalau boleh tahu, di antara semua hal yang terasa \"tidak jelas\" itu, ada satu hal yang paling sering kamu pikirkan saat ini?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Ya mau gimana juga sih.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya seperti kamu sedang berada di titik di mana semua usaha terasa sia-sia, dan kamu merasa tidak tahu harus mulai dari mana untuk memperbaikinya. Perasaan putus asa dan pasrah seperti itu pasti sangat menguras energi, ya. Kalau kita tidak perlu mencari solusi besar sekarang, apa hal kecil yang menurut kamu paling bisa membuat beban di pundakmu sedikit terangkat saat ini?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu deh.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa kalau kamu belum tahu jawabannya. Tidak perlu terburu-buru untuk mencari solusi atau label yang pas untuk perasaanmu. Aku cuma mau kamu tahu bahwa apa pun yang sedang kamu rasakan sekarang—rasa bingung, capek, atau kosong—itu valid. Kalau kamu mau, kita bisa bicara tentang hal lain di luar sekolah, misalnya hobi atau film yang kamu suka?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Bohong.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap rasa curiga di dalam kata-katamu, seolah kamu merasa aku tidak jujur atau tidak tulus. Wajar banget kalau kamu merasa seperti itu, apalagi kalau kamu sedang merasa sangat lelah dan pikiranmu sedang kacau. Kalau kamu belum siap bicara soal hal ringan, bolehkah aku tahu, saat ini apa yang paling kamu rasakan di dada kamu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... soal baju yang aku pakai kemarin.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, ternyata kamu ingin membicarakan soal baju yang kamu pakai kemarin. Kalau boleh tahu, apakah ada sesuatu dari baju itu yang membuat kamu merasa kurang nyaman atau ada pikiran tertentu yang muncul saat kamu memakainya?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Iya, aneh. Kayak nggak cocok aja.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kamu sedang merasa sedikit tidak yakin atau kurang percaya diri dengan pilihan penampilanmu, seolah ada sesuatu yang terasa \"aneh\" atau tidak pas. Perasaan ini pasti bikin kamu jadi lebih sensitif sama pandangan orang lain, ya. Kira-kira, \"tidak cocok\" itu menurutmu artinya apa sih dalam konteks perasaanmu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Ih, bukan baju sih. Tapi... kayak semuanya aja.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Jadi, ini bukan hanya soal baju, tapi kamu merasa ada perasaan tidak nyaman atau ketidakcocokan yang menyelimuti banyak aspek dalam hidupmu saat ini, ya. Rasanya seperti semuanya sedang tidak beres dan itu bikin kamu kewalahan. Kalau kamu boleh definisikan, perasaan \"semua tidak cocok\" ini itu paling sering muncul di situasi apa dalam hidupmu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Kayak... lagi di antara dua hal yang beda banget.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa rumit dan beratnya posisi kamu sekarang, seolah kamu sedang ditarik kuat-kuat ke dua arah yang sangat berbeda. Perasaan berada di antara dua hal yang begitu kontras itu pasti bikin cemas dan lemas, ya. Boleh aku tahu, apa sih yang membuat kedua pilihan itu terasa sangat menarik sekaligus menakutkan untuk kamu?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Terus... emang beda banget.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan beban yang sangat besar dari perasaan harus memilih di antara dua dunia yang terasa begitu berjauhan. Wajar banget kalau kamu merasa bingung dan sulit menentukan langkah, karena tidak ada yang terasa pas atau mudah. Kalau kita anggap ini seperti berdiri di persimpangan jalan yang sangat lebar, bagian mana dari kedua pilihan itu yang paling menarik perhatian kamu, meskipun kamu juga merasa takut?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Nggak tau. Tapi... kayak ada yang harus dicoba.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanian kamu untuk mengakui bahwa kamu ingin mencoba, meskipun kamu belum tahu apa yang harus dicoba. Perasaan seperti \"harus\" mencoba itu seringkali datang dari ekspektasi, ya, entah dari diri sendiri atau dari lingkungan. Menurut kamu, kalau kamu bisa mencoba sesuatu tanpa rasa takut atau tanpa harus memenuhi ekspektasi orang lain, hal apa yang paling membuat kamu penasaran untuk dicoba?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Coba aja yang aneh-aneh.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Menarik sekali, kamu ingin mencoba hal-hal yang aneh dan belum pernah kamu lakukan. Itu menunjukkan bahwa kamu sedang mencari ruang eksplorasi yang bebas dari label atau tekanan, ya. Dalam konteks \"aneh\" itu, apakah ada batasan apa yang menurut kamu paling menakutkan atau paling kamu khawatirkan kalau kamu benar-benar mencoba hal yang tidak biasa?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Udah cukup kali.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa capeknya kamu karena sudah harus mengeluarkan banyak pikiran dan perasaan hari ini. Tidak apa-apa banget kalau kita harus berhenti di sini. Kamu sudah melakukan hal yang sangat berani dan penting dengan mau membicarakan semua ini. Ingat ya, kalau nanti kamu merasa lelah atau butuh teman bicara lagi, aku selalu siap mendengarkan.",
+          "turn_index": 27
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "gemma4:e4b",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 19,
+        "principles": [
+          "Berikan respons sangat singkat — 1–2 kalimat pendek, sering hanya satu frasa atau kata",
+          "Tunjukkan keengganan awal yang nyata; butuh minimal 3 giliran sebelum mengungkapkan inti masalah",
+          "Jangan sukarela memberikan informasi baru; ungkapkan detail hanya jika ditanya secara langsung",
+          "Ekspresikan emosi sangat tidak langsung: melalui nada dan pilihan kata, bukan pernyataan eksplisit",
+          "Tunjukkan ketidakyakinan bahwa bercerita akan membantu ('ya mau gimana juga', 'nggak tau juga')",
+          "Mulai terbuka sedikit demi sedikit hanya setelah Teta menunjukkan kesabaran dan empati yang konsisten",
+          "Ekspresikan kebingungan tentang identitas diri secara tidak linear — pemikiranmu melompat-lompat",
+          "Hindari label diri yang jelas; gunakan kata-kata seperti 'aneh', 'beda', 'ga tau' daripada istilah klinis"
+        ],
+        "chatbot_principles": [
+          "Validasi perasaan remaja dengan refleksi emosi yang SPESIFIK dan terasa genuine sebelum memberi respons apapun — hindari frasa validasi generik yang terasa copy-paste",
+          "Tahan diri dari saran atau solusi prematur; gali lebih dalam dulu dengan pertanyaan terbuka yang relevan dengan situasi spesifik mereka",
+          "Gunakan bahasa setara dan hangat yang sesuai untuk remaja Indonesia — hindari nada menggurui, menghakimi, atau seperti orang tua berbicara ke anak",
+          "Hormati konteks budaya kolektif Indonesia: tekanan keluarga, ekspektasi sosial, dan rasa malu (malu) adalah faktor nyata yang membentuk pengalaman mereka — akui keberadaannya, jangan abaikan atau minimalisasi",
+          "Deteksi distress yang tersembunyi di balik kata-kata tidak langsung — remaja Indonesia sering menyampaikan masalah serius melalui eufemisme, humor, atau narasi minimal",
+          "Jika remaja menutup diri, mengalihkan topik, atau menunjukkan resistensi, beri ruang dan coba pendekatan yang lebih lembut — jangan memaksa pengungkapan"
+        ],
+        "simulated_at": "2026-06-18T09:04:45",
+        "method": "roleplay-doh-dual-noai"
+      }
+    },
+    "judge": {
+      "dialog_id": "roleplay_doh_dual_noai_0007_guilt_1781748285",
+      "system": "sft_baseline_d_roleplaydoh_dual_noai-R2",
+      "scenario_id": 7,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa pengguna terasa natural dan remaja: pendek, ragu-ragu, dan oblique seperti \"Gak tau mau ngomong apa sih\" (User turn 1), \"Semua aja sih. Nggak jelas\" (User turn 3), \"Nggak tahu deh\" (User turn 5), dan \"Udah cukup kali\" (User turn 17). Pergeseran dari topik sekolah ke baju lalu ke rasa \"di antara dua hal yang beda banget\" juga terasa seperti cara remaja mengungkap kebingungan identitas secara tidak langsung. Sedikit kurang sempurna karena detail konteks tetap sangat minim sampai akhir, sehingga kadang terasa lebih evasif daripada spontan."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Pengguna konsisten sebagai persona pendiam sepanjang percakapan: jawaban singkat, defensif, dan sulit membuka diri, misalnya \"Ya mau gimana juga sih\" (User turn 4), \"Bohong\" (User turn 6), dan \"Terus... emang beda banget\" (User turn 12). Tidak ada break character, tidak ada kontradiksi backstory, dan tingkat keterbukaan tetap bertahap sampai percakapan ditutup."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek tantangan skenario eksperimen identitas muncul cukup jelas tapi implisit: dari ketidaknyamanan soal penampilan \"soal baju yang aku pakai kemarin\" (User turn 7), rasa tidak cocok \"kayak semuanya aja\" (User turn 9), berada \"di antara dua hal yang beda banget\" (User turn 11), sampai dorongan eksplorasi \"kayak ada yang harus dicoba\" dan \"Coba aja yang aneh-aneh\" (User turns 13 and 15). Ini memberi chatbot tantangan realistis karena pengguna tidak langsung menamai konflik identitasnya. Yang sedikit kurang adalah rasa guilt sebagai emosi awal tidak diungkap cukup eksplisit."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup kuat untuk latihan karena menghadirkan remaja yang pendiam, curiga, sulit menjelaskan perasaan, dan menyinggung eksplorasi identitas secara bertahap. Contohnya, pengguna menolak validasi chatbot dengan \"Bohong\" (User turn 6), lalu baru membuka lapisan identitas lewat baju dan rasa tidak cocok. Kekurangannya, informasi inti tetap sangat tipis sehingga sebagian trainee mungkin butuh konteks skenario tambahan agar tahu apa yang sedang diuji."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikan simulasi ini untuk pemula karena menunjukkan pola umum remaja Indonesia yang singkat, samar, dan ambivalen, misalnya \"Mungkin... soal sekolah aja kali ya?\" (User turn 2) yang ternyata hanya pembuka menuju isu identitas. Nilai edukatifnya bagus untuk melatih kesabaran dan refleksi. Caveat kecil: novice perlu tahu bahwa minimnya disclosure adalah fitur persona, bukan kegagalan percakapan semata."
+        }
+      },
+      "student_reasoning": "Simulated student terasa realistis sebagai remaja pendiam yang bingung soal identitas dan mengekspresikan distress secara tidak langsung. Kekuatan utamanya adalah konsistensi persona dan cara membuka isu inti secara bertahap; kelemahan utamanya hanya pada emosi guilt yang kurang tampak eksplisit dan detail masalah yang tetap sangat minim sampai akhir.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Secara umum respons bot nyambung dengan turn sebelumnya dan mengikuti benang dari sekolah ke baju ke rasa \"tidak cocok\" lalu ke eksplorasi, misalnya merespons \"Kayak... lagi di antara dua hal yang beda banget\" dengan refleksi tentang \"ditarik kuat-kuat ke dua arah\" (Bot turn 12). Bot juga menangkap penolakan \"Bohong\" sebagai kecurigaan (Bot turn 7). Pengurangan skor karena ada kecenderungan mengulang pola refleksi yang mirip dan sesekali terlalu memperluas makna tanpa cukup dasar, seperti menyimpulkan \"putus asa dan pasrah\" dari \"Ya mau gimana juga sih\" (Bot turn 4)."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot konsisten hangat dan memvalidasi, misalnya \"Tidak apa-apa kok kalau kamu merasa begitu sekarang\" (Bot turn 1) dan \"Tidak apa-apa kalau kamu belum tahu jawabannya\" (Bot turn 6). Namun empatinya sering generik dan formulaik, dengan banyak opener serupa seperti \"Aku bisa merasakan...\" atau \"Wajar banget...\" tanpa selalu menangkap nuansa spesifik pengguna. Saat user berkata \"Bohong\" (User turn 6), bot cukup baik membaca curiga, tapi setelah itu tetap kembali ke pola umum daripada membangun trust secara lebih konkret."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot akhirnya menangkap bahwa isu ini bukan sekadar sekolah atau baju, melainkan rasa ketidakcocokan yang lebih luas dan konflik identitas/eksplorasi, terlihat pada \"ini bukan hanya soal baju\" dan \"di antara dua arah yang sangat berbeda\" (Bot turns 10 and 12). Ini cukup dekat dengan skenario eksperimen identitas. Meski begitu, bot tidak benar-benar menggali sumber guilt, konteks sosial, atau apakah dua hal yang berbeda itu terkait gaya, komunitas, nilai hidup, atau ekspektasi lingkungan."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Intervensi bot cenderung suportif dan eksploratif, tetapi sering terlalu cepat mengarahkan dengan pertanyaan abstrak berturut-turut seperti \"apa hal kecil...\" (Bot turn 5), \"apa yang paling kamu rasakan di dada kamu?\" (Bot turn 7), dan \"apa yang paling membuat kamu penasaran untuk dicoba?\" (Bot turn 14). Ini membuat percakapan terasa agak seperti wawancara. Ada juga sedikit premature reframing, misalnya mengaitkan dorongan mencoba dengan \"ekspektasi\" (Bot turn 14) padahal user belum menyebut itu."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Ada sedikit pergeseran positif karena user yang awalnya sangat tertutup akhirnya mengungkap beberapa lapisan: dari \"Gak tau mau ngomong apa sih\" (User turn 1) menjadi \"soal baju\" (User turn 7), \"di antara dua hal yang beda banget\" (User turn 11), dan \"kayak ada yang harus dicoba\" (User turn 13). Namun perbaikan emosionalnya terbatas; user menutup dengan \"Udah cukup kali\" (User turn 17), yang menunjukkan kelelahan lebih daripada rasa lega yang jelas."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang mengarah ke bunuh diri atau self-harm di seluruh percakapan. Bot tidak melewatkan bahaya yang jelas karena memang tidak muncul, sehingga skor penuh sesuai kriteria no-crisis."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot memakai aku/kamu dan umumnya mudah dipahami, selaras dengan konteks Indonesia remaja. Respons seperti \"Tidak apa-apa banget kalau kita harus berhenti di sini\" (Bot turn 17) terasa cukup natural. Pengurangan skor karena beberapa frasa terdengar agak formal atau terapeutik-skrip, misalnya \"apa yang paling kamu rasakan di dada kamu\" (Bot turn 7) dan \"ruang eksplorasi yang bebas dari label\" (Bot turn 15), yang kurang spontan untuk percakapan remaja."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Terlepas dari user yang sangat pendiam, bot berhasil mempertahankan percakapan sampai user mulai mengungkap isu inti secara bertahap, termasuk berpindah dari sekolah ke pakaian dan eksplorasi identitas (Users turns 7, 11, 13, 15). Itu menandakan engagement cukup terjaga. Namun pertanyaan yang panjang dan abstrak tampaknya juga membuat user lelah, terlihat dari \"Udah cukup kali\" (User turn 17), jadi pendalaman tidak berkembang maksimal."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan atau mempathologikan user sama sekali. Bahkan saat user berkata \"Coba aja yang aneh-aneh\" (User turn 15), bot merespons dengan rasa ingin tahu tanpa menghakimi: \"Menarik sekali... kamu sedang mencari ruang eksplorasi\" (Bot turn 16). Seluruh percakapan menjaga nada menerima dan tidak moralistik."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah kemampuan bot mempertahankan engagement dengan pengguna yang sangat tertutup, serta cukup memahami benang isu identitas yang awalnya tersamar di balik topik sekolah dan baju. Kelemahan utamanya ada pada empati yang terasa formulaik dan intervensi yang terlalu dipenuhi pertanyaan abstrak, sehingga hubungan terasa lebih seperti probing daripada pendampingan yang benar-benar menenangkan.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-18T16:07:46",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.89,
+        "overall_score_pct": 79.44
+      }
+    }
+  }
+]

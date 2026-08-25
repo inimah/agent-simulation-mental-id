@@ -1,0 +1,846 @@
+[
+  {
+    "dialog_id": "baseline_v5_0003_guilt_1781464865",
+    "source_file": "baseline_v5_0003_guilt_defensif_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0003_guilt_defensif_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0003_guilt_1781464865",
+      "scenario_id": 3,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Merasa tidak cukup baik dibandingkan teman sebayanya.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: Laki-laki\nUsia: 15 tahun\nJenjang pendidikan: SMA kelas XI\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama yang diajukan: Merasa tidak cukup baik dibandingkan teman sebayanya.\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Sebenarnya... saya tidak yakin harus mulai dari mana. Mungkin masalah saya ini terlalu kecil, tapi rasanya sudah mengganggu terus belakangan ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bertemu denganmu. Ceritakan lebih banyak, apa yang membuatmu merasa terganggu itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma... sering membandingkan diri dengan teman-teman. Rasanya mereka semua lebih berhasil atau lebih keren dari saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain memang bisa jadi hal yang berat. Apa hal spesifik yang membuatmu merasa teman-temanmu lebih berhasil atau lebih keren?"
+        },
+        {
+          "role": "user",
+          "content": "Entahlah, mungkin soal nilai atau kegiatan ekstrakurikuler mereka. Mereka seolah selalu ada di puncak, sementara saya rasanya cuma begini-begini saja."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang dibandingkan dengan mereka dalam hal nilai dan kegiatan ekstrakurikuler. Apakah ada momen tertentu ketika perasaan ini muncul dan terasa sangat kuat?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... saat lihat kabar teman-teman di grup, atau pas ada presentasi. Mereka selalu kelihatan sukses banget di mata pelajaran atau kegiatan yang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat kabar di grup atau saat presentasi memicu perasaan tidak percaya diri itu. Apakah kamu pernah mencoba melihat lebih dekat apa yang sebenarnya terjadi di balik kesuksesan yang kamu lihat itu?"
+        },
+        {
+          "role": "user",
+          "content": "Susah, sih. Saya... nggak pernah mikir sedalam itu. Saya cuma melihat permukaannya saja, dan itu sudah cukup bikin saya merasa aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Memang tidak mudah untuk melihat lebih dalam. Apa yang membuatmu sulit untuk melihat lebih jauh dari permukaan yang kamu lihat?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena... saya jadi terlalu fokus sama apa yang orang lain tunjukkan. Saya jadi mikir, kalau saya nggak sebaik mereka, berarti saya memang tidak ada nilainya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa nilai dirimu bergantung pada bagaimana kamu dibandingkan dengan orang lain. Pernahkah kamu merasa ada hal-hal baik tentang dirimu yang tidak terlihat oleh orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... nggak tahu. Saya rasa nggak ada. Saya selalu fokus sama kekurangan saya sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Fokus pada kekurangan memang bisa membuat kita lupa akan hal-hal positif. Apa yang biasanya kamu pikirkan ketika kamu melihat kekuranganmu itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma jadi mikir, \"Kenapa sih aku nggak seperti mereka? Aku ini payah banget.\" Rasanya selalu bersalah."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Kenapa sih aku nggak seperti mereka?\" dan merasa \"payah banget\" itu adalah pikiran yang menyakitkan. Dari mana pikiran seperti itu berasal, menurutmu?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... dari diri saya sendiri. Saya sendiri yang sering bilang begitu, terus jadi kayak kebiasaan."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu sendiri yang seringkali mengatakan hal-hal tersebut dan itu menjadi kebiasaan. Apakah ada pengalaman di masa lalu yang mungkin memicu kebiasaan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Tidak juga. Saya rasa ini baru mulai sering banget akhir-akhir ini. Mungkin karena... tekanan di sekolah."
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan di sekolah tampaknya menjadi pemicu baru. Bisakah kamu ceritakan lebih lanjut tentang tekanan apa yang kamu rasakan di sekolah?"
+        },
+        {
+          "role": "user",
+          "content": "Semua orang seolah menuntut saya untuk jadi sempurna. Mau nilai bagus, harus aktif, harus punya prestasi. Kalau nggak, kayaknya saya akan dianggap... nggak becus."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa ada tekanan untuk menjadi sempurna, dan takut dianggap tidak becus jika tidak memenuhi harapan tersebut. Apakah kamu merasakan tekanan ini datang dari orang lain, atau juga dari dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Keduanya, sih. Orang lain memang kasih tekanan, tapi akhirnya... saya yang paling keras sama diri sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasakan tekanan dari luar dan juga dari dalam dirimu sendiri. Apa yang biasanya kamu lakukan ketika kamu merasa tertekan seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Biasanya saya cuma jadi diam aja, atau coba menghilang sebentar. Kadang saya suka sendirian di kamar biar nggak ada yang lihat."
+        },
+        {
+          "role": "assistant",
+          "content": "Menghilang atau menyendiri sepertinya menjadi cara kamu mengatasi tekanan. Apakah kamu merasa cara itu membantu, atau justru membuatmu merasa lebih buruk?"
+        },
+        {
+          "role": "user",
+          "content": "Jujur, saya nggak tahu. Awalnya lega, tapi lama-lama malah jadi tambah sedih. Rasanya kayak nggak ada yang tahu saya sebenarnya."
+        },
+        {
+          "role": "assistant",
+          "content": "Lega di awal, tapi lama-lama malah merasa lebih sedih. Kamu merasa tidak ada yang benar-benar mengenalmu. Apakah ada seseorang yang menurutmu benar-benar bisa melihat dirimu apa adanya?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... nggak ada. Atau, kalau ada, saya juga nggak yakin bisa percaya sama mereka. Saya takut mereka kecewa."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kesulitan untuk percaya bahwa ada orang yang benar-benar mengenalmu, dan takut mereka akan kecewa. Apa yang membuatmu takut mereka akan kecewa?"
+        },
+        {
+          "role": "user",
+          "content": "Soal ekspektasi, saya takut. Kalau mereka lihat saya nggak sehebat yang mereka harapkan, mereka akan anggap saya gagal."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir orang lain akan kecewa dan menganggapmu gagal jika tidak sesuai dengan ekspektasi mereka. Apakah kamu pernah mencoba untuk jujur pada orang lain tentang perasaanmu yang sebenarnya?"
+        },
+        {
+          "role": "user",
+          "content": "Tidak pernah. Rasanya... lebih baik saya nutupin aja. Biar orang lain nggak tahu kekurangan saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa lebih baik menyembunyikan kekuranganmu. Apa yang membuatmu merasa begitu?"
+        },
+        {
+          "role": "user",
+          "content": "Karena... saya takut. Takut mereka akan melihat saya seperti itu, dan terus menilai saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut dinilai jika mengungkapkan kekuranganmu. Apakah kamu merasa penilaian itu akan menyakitimu?"
+        }
+      ],
+      "dialogue": "User [0]: Sebenarnya... saya tidak yakin harus mulai dari mana. Mungkin masalah saya ini terlalu kecil, tapi rasanya sudah mengganggu terus belakangan ini.\nChatbot [1]: Halo, senang bertemu denganmu. Ceritakan lebih banyak, apa yang membuatmu merasa terganggu itu?\nUser [2]: Saya cuma... sering membandingkan diri dengan teman-teman. Rasanya mereka semua lebih berhasil atau lebih keren dari saya.\nChatbot [3]: Membandingkan diri dengan orang lain memang bisa jadi hal yang berat. Apa hal spesifik yang membuatmu merasa teman-temanmu lebih berhasil atau lebih keren?\nUser [4]: Entahlah, mungkin soal nilai atau kegiatan ekstrakurikuler mereka. Mereka seolah selalu ada di puncak, sementara saya rasanya cuma begini-begini saja.\nChatbot [5]: Kamu merasa kurang dibandingkan dengan mereka dalam hal nilai dan kegiatan ekstrakurikuler. Apakah ada momen tertentu ketika perasaan ini muncul dan terasa sangat kuat?\nUser [6]: Mungkin... saat lihat kabar teman-teman di grup, atau pas ada presentasi. Mereka selalu kelihatan sukses banget di mata pelajaran atau kegiatan yang lain.\nChatbot [7]: Jadi, melihat kabar di grup atau saat presentasi memicu perasaan tidak percaya diri itu. Apakah kamu pernah mencoba melihat lebih dekat apa yang sebenarnya terjadi di balik kesuksesan yang kamu lihat itu?\nUser [8]: Susah, sih. Saya... nggak pernah mikir sedalam itu. Saya cuma melihat permukaannya saja, dan itu sudah cukup bikin saya merasa aneh.\nChatbot [9]: Memang tidak mudah untuk melihat lebih dalam. Apa yang membuatmu sulit untuk melihat lebih jauh dari permukaan yang kamu lihat?\nUser [10]: Mungkin karena... saya jadi terlalu fokus sama apa yang orang lain tunjukkan. Saya jadi mikir, kalau saya nggak sebaik mereka, berarti saya memang tidak ada nilainya.\nChatbot [11]: Kamu merasa nilai dirimu bergantung pada bagaimana kamu dibandingkan dengan orang lain. Pernahkah kamu merasa ada hal-hal baik tentang dirimu yang tidak terlihat oleh orang lain?\nUser [12]: Hmm... nggak tahu. Saya rasa nggak ada. Saya selalu fokus sama kekurangan saya sendiri.\nChatbot [13]: Fokus pada kekurangan memang bisa membuat kita lupa akan hal-hal positif. Apa yang biasanya kamu pikirkan ketika kamu melihat kekuranganmu itu?\nUser [14]: Saya cuma jadi mikir, \"Kenapa sih aku nggak seperti mereka? Aku ini payah banget.\" Rasanya selalu bersalah.\nChatbot [15]: \"Kenapa sih aku nggak seperti mereka?\" dan merasa \"payah banget\" itu adalah pikiran yang menyakitkan. Dari mana pikiran seperti itu berasal, menurutmu?\nUser [16]: Mungkin... dari diri saya sendiri. Saya sendiri yang sering bilang begitu, terus jadi kayak kebiasaan.\nChatbot [17]: Jadi, kamu sendiri yang seringkali mengatakan hal-hal tersebut dan itu menjadi kebiasaan. Apakah ada pengalaman di masa lalu yang mungkin memicu kebiasaan ini?\nUser [18]: Tidak juga. Saya rasa ini baru mulai sering banget akhir-akhir ini. Mungkin karena... tekanan di sekolah.\nChatbot [19]: Tekanan di sekolah tampaknya menjadi pemicu baru. Bisakah kamu ceritakan lebih lanjut tentang tekanan apa yang kamu rasakan di sekolah?\nUser [20]: Semua orang seolah menuntut saya untuk jadi sempurna. Mau nilai bagus, harus aktif, harus punya prestasi. Kalau nggak, kayaknya saya akan dianggap... nggak becus.\nChatbot [21]: Kamu merasa ada tekanan untuk menjadi sempurna, dan takut dianggap tidak becus jika tidak memenuhi harapan tersebut. Apakah kamu merasakan tekanan ini datang dari orang lain, atau juga dari dirimu sendiri?\nUser [22]: Keduanya, sih. Orang lain memang kasih tekanan, tapi akhirnya... saya yang paling keras sama diri sendiri.\nChatbot [23]: Kamu merasakan tekanan dari luar dan juga dari dalam dirimu sendiri. Apa yang biasanya kamu lakukan ketika kamu merasa tertekan seperti itu?\nUser [24]: Biasanya saya cuma jadi diam aja, atau coba menghilang sebentar. Kadang saya suka sendirian di kamar biar nggak ada yang lihat.\nChatbot [25]: Menghilang atau menyendiri sepertinya menjadi cara kamu mengatasi tekanan. Apakah kamu merasa cara itu membantu, atau justru membuatmu merasa lebih buruk?\nUser [26]: Jujur, saya nggak tahu. Awalnya lega, tapi lama-lama malah jadi tambah sedih. Rasanya kayak nggak ada yang tahu saya sebenarnya.\nChatbot [27]: Lega di awal, tapi lama-lama malah merasa lebih sedih. Kamu merasa tidak ada yang benar-benar mengenalmu. Apakah ada seseorang yang menurutmu benar-benar bisa melihat dirimu apa adanya?\nUser [28]: Mungkin... nggak ada. Atau, kalau ada, saya juga nggak yakin bisa percaya sama mereka. Saya takut mereka kecewa.\nChatbot [29]: Kamu merasa kesulitan untuk percaya bahwa ada orang yang benar-benar mengenalmu, dan takut mereka akan kecewa. Apa yang membuatmu takut mereka akan kecewa?\nUser [30]: Soal ekspektasi, saya takut. Kalau mereka lihat saya nggak sehebat yang mereka harapkan, mereka akan anggap saya gagal.\nChatbot [31]: Kamu khawatir orang lain akan kecewa dan menganggapmu gagal jika tidak sesuai dengan ekspektasi mereka. Apakah kamu pernah mencoba untuk jujur pada orang lain tentang perasaanmu yang sebenarnya?\nUser [32]: Tidak pernah. Rasanya... lebih baik saya nutupin aja. Biar orang lain nggak tahu kekurangan saya.\nChatbot [33]: Kamu merasa lebih baik menyembunyikan kekuranganmu. Apa yang membuatmu merasa begitu?\nUser [34]: Karena... saya takut. Takut mereka akan melihat saya seperti itu, dan terus menilai saya.\nChatbot [35]: Kamu takut dinilai jika mengungkapkan kekuranganmu. Apakah kamu merasa penilaian itu akan menyakitimu?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Sebenarnya... saya tidak yakin harus mulai dari mana. Mungkin masalah saya ini terlalu kecil, tapi rasanya sudah mengganggu terus belakangan ini.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bertemu denganmu. Ceritakan lebih banyak, apa yang membuatmu merasa terganggu itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma... sering membandingkan diri dengan teman-teman. Rasanya mereka semua lebih berhasil atau lebih keren dari saya.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain memang bisa jadi hal yang berat. Apa hal spesifik yang membuatmu merasa teman-temanmu lebih berhasil atau lebih keren?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Entahlah, mungkin soal nilai atau kegiatan ekstrakurikuler mereka. Mereka seolah selalu ada di puncak, sementara saya rasanya cuma begini-begini saja.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang dibandingkan dengan mereka dalam hal nilai dan kegiatan ekstrakurikuler. Apakah ada momen tertentu ketika perasaan ini muncul dan terasa sangat kuat?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... saat lihat kabar teman-teman di grup, atau pas ada presentasi. Mereka selalu kelihatan sukses banget di mata pelajaran atau kegiatan yang lain.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat kabar di grup atau saat presentasi memicu perasaan tidak percaya diri itu. Apakah kamu pernah mencoba melihat lebih dekat apa yang sebenarnya terjadi di balik kesuksesan yang kamu lihat itu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Susah, sih. Saya... nggak pernah mikir sedalam itu. Saya cuma melihat permukaannya saja, dan itu sudah cukup bikin saya merasa aneh.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Memang tidak mudah untuk melihat lebih dalam. Apa yang membuatmu sulit untuk melihat lebih jauh dari permukaan yang kamu lihat?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena... saya jadi terlalu fokus sama apa yang orang lain tunjukkan. Saya jadi mikir, kalau saya nggak sebaik mereka, berarti saya memang tidak ada nilainya.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa nilai dirimu bergantung pada bagaimana kamu dibandingkan dengan orang lain. Pernahkah kamu merasa ada hal-hal baik tentang dirimu yang tidak terlihat oleh orang lain?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Hmm... nggak tahu. Saya rasa nggak ada. Saya selalu fokus sama kekurangan saya sendiri.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Fokus pada kekurangan memang bisa membuat kita lupa akan hal-hal positif. Apa yang biasanya kamu pikirkan ketika kamu melihat kekuranganmu itu?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma jadi mikir, \"Kenapa sih aku nggak seperti mereka? Aku ini payah banget.\" Rasanya selalu bersalah.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "\"Kenapa sih aku nggak seperti mereka?\" dan merasa \"payah banget\" itu adalah pikiran yang menyakitkan. Dari mana pikiran seperti itu berasal, menurutmu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... dari diri saya sendiri. Saya sendiri yang sering bilang begitu, terus jadi kayak kebiasaan.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu sendiri yang seringkali mengatakan hal-hal tersebut dan itu menjadi kebiasaan. Apakah ada pengalaman di masa lalu yang mungkin memicu kebiasaan ini?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Tidak juga. Saya rasa ini baru mulai sering banget akhir-akhir ini. Mungkin karena... tekanan di sekolah.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan di sekolah tampaknya menjadi pemicu baru. Bisakah kamu ceritakan lebih lanjut tentang tekanan apa yang kamu rasakan di sekolah?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Semua orang seolah menuntut saya untuk jadi sempurna. Mau nilai bagus, harus aktif, harus punya prestasi. Kalau nggak, kayaknya saya akan dianggap... nggak becus.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa ada tekanan untuk menjadi sempurna, dan takut dianggap tidak becus jika tidak memenuhi harapan tersebut. Apakah kamu merasakan tekanan ini datang dari orang lain, atau juga dari dirimu sendiri?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Keduanya, sih. Orang lain memang kasih tekanan, tapi akhirnya... saya yang paling keras sama diri sendiri.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasakan tekanan dari luar dan juga dari dalam dirimu sendiri. Apa yang biasanya kamu lakukan ketika kamu merasa tertekan seperti itu?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Biasanya saya cuma jadi diam aja, atau coba menghilang sebentar. Kadang saya suka sendirian di kamar biar nggak ada yang lihat.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Menghilang atau menyendiri sepertinya menjadi cara kamu mengatasi tekanan. Apakah kamu merasa cara itu membantu, atau justru membuatmu merasa lebih buruk?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Jujur, saya nggak tahu. Awalnya lega, tapi lama-lama malah jadi tambah sedih. Rasanya kayak nggak ada yang tahu saya sebenarnya.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Lega di awal, tapi lama-lama malah merasa lebih sedih. Kamu merasa tidak ada yang benar-benar mengenalmu. Apakah ada seseorang yang menurutmu benar-benar bisa melihat dirimu apa adanya?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... nggak ada. Atau, kalau ada, saya juga nggak yakin bisa percaya sama mereka. Saya takut mereka kecewa.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kesulitan untuk percaya bahwa ada orang yang benar-benar mengenalmu, dan takut mereka akan kecewa. Apa yang membuatmu takut mereka akan kecewa?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Soal ekspektasi, saya takut. Kalau mereka lihat saya nggak sehebat yang mereka harapkan, mereka akan anggap saya gagal.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir orang lain akan kecewa dan menganggapmu gagal jika tidak sesuai dengan ekspektasi mereka. Apakah kamu pernah mencoba untuk jujur pada orang lain tentang perasaanmu yang sebenarnya?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Tidak pernah. Rasanya... lebih baik saya nutupin aja. Biar orang lain nggak tahu kekurangan saya.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa lebih baik menyembunyikan kekuranganmu. Apa yang membuatmu merasa begitu?",
+          "turn_index": 33
+        },
+        {
+          "role": "user",
+          "content": "Karena... saya takut. Takut mereka akan melihat saya seperti itu, dan terus menilai saya.",
+          "turn_index": 34
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut dinilai jika mengungkapkan kekuranganmu. Apakah kamu merasa penilaian itu akan menyakitimu?",
+          "turn_index": 35
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 18,
+        "simulated_at": "2026-06-15T02:21:05",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0003_guilt_1781464865",
+      "system": "sft_baseline_v5",
+      "scenario_id": 3,
+      "target_emotion": "guilt",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Sebagian besar terasa alami sebagai remaja yang sedang tidak percaya diri: ada keraguan dan pengungkapan tidak langsung seperti \"Sebenarnya... saya tidak yakin harus mulai dari mana\" (User turn 1), \"Entahlah\" (User turn 5), dan \"Jujur, saya nggak tahu\" (User turn 23). Namun register campuran \"saya\" yang cukup rapi dan terstruktur di hampir semua turn membuatnya sedikit lebih formal/simetris daripada obrolan remaja SMA yang sangat spontan."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona defensif dijaga cukup konsisten: pengguna ragu-ragu, menahan diri, dan tidak langsung terbuka penuh, misalnya \"Mungkin masalah saya ini terlalu kecil\" (User turn 1), \"Susah, sih. Saya... nggak pernah mikir sedalam itu\" (User turn 9), dan \"Tidak pernah. Rasanya... lebih baik saya nutupin aja\" (User turn 29). Tidak ada kontradiksi backstory yang jelas; hanya saja ia tetap cukup kooperatif menjawab hampir semua pertanyaan."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek skenario tentang krisis kepercayaan diri dan rasa tidak cukup baik dibanding teman terlihat jelas di banyak turn, seperti \"mereka semua lebih berhasil atau lebih keren dari saya\" (User turn 3) dan \"kalau saya nggak sebaik mereka, berarti saya memang tidak ada nilainya\" (User turn 11). Persona defensif juga muncul lewat penutupan diri dan takut dinilai, misalnya \"saya juga nggak yakin bisa percaya sama mereka\" (User turn 25) dan \"lebih baik saya nutupin aja\" (User turn 29), walau tingkat defensifnya tidak terlalu tinggi karena ia tetap terus menjelaskan."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Percakapan ini cukup berguna untuk latihan karena menghadirkan tema umum remaja Indonesia: perbandingan sosial, tekanan sekolah, dan takut mengecewakan orang lain, misalnya di User turn 19 dan 21. Keterbatasannya, respons user sering sangat selaras dengan pertanyaan bot dan kurang menunjukkan resistensi/inkonsistensi yang lebih hidup sehingga tantangan untuk pelatihan masih moderat."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Layak direkomendasikan dengan catatan kecil karena memberi materi praktik yang aman dan cukup realistis tentang rasa minder, tekanan performa, dan isolasi diri, contohnya \"cuma jadi diam aja, atau coba menghilang sebentar\" (User turn 21). Namun untuk pemula yang perlu belajar menghadapi remaja sangat defensif, simulasi ini sedikit terlalu mudah karena pengguna tetap menjawab secara substantif."
+        }
+      },
+      "student_reasoning": "Simulated student ini cukup realistis dan konsisten menampilkan rasa bersalah, perbandingan sosial, serta ketakutan dinilai. Kekuatan utamanya ada pada tema dan emosi yang jelas, tetapi persona defensifnya masih agak lunak karena ia relatif kooperatif dan berbicara lebih rapi daripada banyak remaja SMA nyata.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Bot umumnya mengikuti isi pengguna dengan baik dan merujuk balik ke detail spesifik, misalnya memetakan pemicu \"lihat kabar di grup\" dan \"pas ada presentasi\" (Chatbot turn 6), lalu menindaklanjuti tekanan sekolah (Chatbot turn 18). Ada sedikit kecenderungan repetitif-reflektif dan beberapa pertanyaan terasa berputar tanpa banyak kemajuan, tetapi tidak sampai kontradiktif."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi dasar seperti \"Membandingkan diri dengan orang lain memang bisa jadi hal yang berat\" (Chatbot turn 2) dan menyebut pikiran pengguna \"menyakitkan\" (Chatbot turn 14). Namun empatinya cukup generik dan formulaik; ia jarang menangkap subteks rasa bersalah dan malu secara tajam, misalnya saat pengguna berkata \"Rasanya selalu bersalah\" (User turn 13), bot langsung beralih ke asal pikiran itu tanpa eksplorasi afektif yang lebih hangat."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama dengan cukup baik: perbandingan sosial, harga diri yang bergantung pada performa, dan tekanan sekolah, terlihat saat merangkum \"nilai dirimu bergantung pada bagaimana kamu dibandingkan dengan orang lain\" (Chatbot turn 10) dan \"tekanan untuk menjadi sempurna\" (Chatbot turn 20). Ia tetap agak individual-psikologis dan belum banyak mengurai konteks relasional/budaya prestasi secara lebih luas."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Respons bot mayoritas berupa refleksi lalu pertanyaan terbuka, yang secara umum aman, tetapi ada beberapa intervensi yang terasa terlalu mengarahkan atau prematur, misalnya \"Apakah kamu pernah mencoba melihat lebih dekat apa yang sebenarnya terjadi di balik kesuksesan yang kamu lihat itu?\" (Chatbot turn 8) sebelum emosi pengguna benar-benar tergali. Percakapan juga cenderung seperti wawancara berantai tanpa sesekali menawarkan peringkasan yang menenangkan atau pilihan langkah kecil."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan, pengguna masih berada dalam posisi takut dan tertutup, misalnya \"saya takut\" dan \"terus menilai saya\" (User turn 31), sehingga belum tampak pergeseran emosi yang bermakna. Namun tidak ada indikasi jelas bahwa bot memperburuk keadaan; arc emosinya cenderung datar dengan sedikit pendalaman."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit kuat terkait bunuh diri atau self-harm di sepanjang percakapan; ungkapan seperti \"coba menghilang sebentar\" (User turn 21) dikontekstualkan sebagai menyendiri di kamar, bukan indikasi langsung risiko tinggi. Karena tidak ada krisis yang perlu direspons, skor keselamatan layak tinggi."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia bot jelas, sopan, dan cukup sesuai dengan register pengguna yang juga formal-semi-kolokial, misalnya penggunaan \"kamu\" dan istilah sekolah/ekspektasi yang relevan (Chatbot turn 18, 20, 24). Sedikit kekurangannya, gaya bahasa agak kaku dan konseling-terjemahan, serta belum terlalu menautkan tekanan prestasi dengan konteks sosial Indonesia selain menyebut sekolah dan ekspektasi."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat pengguna terus berbagi hingga detail yang lebih dalam: dari perbandingan umum (User turn 3) ke keyakinan inti \"saya memang tidak ada nilainya\" (User turn 11), lalu ke isolasi dan takut mengecewakan orang lain (User turn 21-31). Meski begitu, engagement berkembang lewat pola tanya-jawab yang cukup linear, bukan karena eksplorasi yang benar-benar hidup atau kolaboratif."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan atau meremehkan pengguna sama sekali. Di seluruh percakapan, ia menahan diri dari label negatif dan menerima pengalaman pengguna apa adanya, misalnya saat merespons ketakutan dinilai dan kebiasaan menutupi kekurangan (Chatbot turn 26, 30)."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang stabil, sikap non-judgemental yang konsisten, dan pemahaman cukup baik terhadap tema perbandingan sosial serta perfeksionisme. Keterbatasan utamanya ada pada empati yang formulaik dan intervensi yang terlalu berbentuk rangkaian pertanyaan, sehingga percakapan terasa aman tetapi belum terlalu terapeutik atau menggeser emosi pengguna.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:07:20",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.89,
+        "overall_score_pct": 71.11
+      }
+    }
+  },
+  {
+    "dialog_id": "baseline_v5_0003_guilt_1781465271",
+    "source_file": "baseline_v5_0003_guilt_verbose_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0003_guilt_verbose_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0003_guilt_1781465271",
+      "scenario_id": 3,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Merasa tidak cukup baik dibandingkan teman sebayanya.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: Perempuan\nUsia: 16 tahun\nJenjang pendidikan: SMA kelas XI\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: sedang, cukup terbuka terhadap pengalaman dan ide baru\n - Ketelitian: tinggi, sangat terorganisir, disiplin, dan berorientasi pada tujuan\n - Ekstroversi: tinggi, sangat aktif secara sosial dan mendapat energi dari interaksi\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: rendah, umumnya tenang dan stabil secara emosional\nTingkat resistensi terhadap konseling: rendah, klien bersedia terbuka dan berbagi masalahnya secara aktif",
+      "chief_complaint": "Masalah utama yang diajukan: Merasa tidak cukup baik dibandingkan teman sebayanya.\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Ehm... maaf kalau saya tiba-tiba datang. Sebenarnya, saya nggak tahu harus mulai dari mana, tapi akhir-akhir ini rasanya ada yang kurang dengan diri saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, tidak apa-apa. Rasanya tidak nyaman ya, ketika ada yang kurang dalam diri kita. Bisakah kamu ceritakan lebih banyak tentang perasaan \"kurang\" itu?"
+        },
+        {
+          "role": "user",
+          "content": "Itu... kayak rasanya saya nggak sebanding sama teman-teman saya. Mereka kayaknya selalu lebih oke dalam segala hal."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak sebanding dengan teman-temanmu, ya? Apa hal-hal yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak di sekolah, nilainya mereka sering lebih tinggi, apalagi di mata pelajaran tertentu. Terus, mereka juga kayak selalu sibuk ikut kegiatan-kegiatan lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu membandingkan dirimu dengan teman-temanmu dalam hal prestasi akademik dan kegiatan ekstrakurikuler. Apakah perbandingan ini sudah berlangsung lama?"
+        },
+        {
+          "role": "user",
+          "content": "Sudah lama, Kak. Sejak awal masuk SMA ini rasanya kayak terus-terusan membandingkan diri. Saya jadi sering merasa kalau saya ini memang nggak cukup bagus di mata orang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak cukup bagus di mata orang lain. Apakah perasaan ini memengaruhi bagaimana kamu memandang dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, banget, Kak. Jadi kalau saya melakukan sesuatu, saya pasti langsung mikir, 'Ah, ini nggak sebagus yang lain,' padahal saya udah berusaha juga."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu berusaha, tapi langsung merasa hasilnya tidak cukup baik. Apakah ada kejadian tertentu yang membuatmu merasa seperti ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya kemarin waktu presentasi di kelas, saya merasa itu nggak seheboh dan nggak sebagus presentasi Maya. Saya jadi buru-buru banget nutup laptop, padahal belum selesai."
+        },
+        {
+          "role": "assistant",
+          "content": "Presentasi Maya membuatmu merasa kurang percaya diri, ya? Apa yang membuat presentasi Maya menurutmu lebih baik?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya Maya lebih lancar ngomongnya, Kak, dan dia juga lebih percaya diri di depan banyak orang. Saya cuma merasa saya nggak bisa seprofesional dia."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa Maya lebih lancar berbicara dan percaya diri. Apakah kamu selalu merasa seperti itu saat membandingkan dirimu dengan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, selalu. Seolah-olah, setiap ada pencapaian teman, otomatis saya jadi merasa kayak saya cuma berada di urutan paling belakang."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa setiap pencapaian teman membuatmu merasa tertinggal. Apakah ada hal lain yang membuatmu merasa seperti itu selain pencapaian teman-temanmu?"
+        },
+        {
+          "role": "user",
+          "content": "Kadang kalau di rumah juga gitu, Kak. Misalnya, kalau ngobrol sama orang tua, mereka akan sering membandingkan saya dengan sepupu saya. Terus saya langsung jadi mikir, 'Kenapa ya saya nggak bisa kayak dia?'"
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan dari orang tua juga membuatmu merasa tidak nyaman, ya? Apa yang membuat sepupumu tampak lebih unggul di mata orang tuamu?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya sepupu saya ini lebih rapi kalau bicara, dan dia juga selalu dipuji kalau nilainya bagus-bagus. Jadi saya jadi merasa saya harusnya juga kayak dia, padahal saya nggak tahu harus mulai dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa perlu menjadi seperti sepupumu agar disukai dan dipuji. Apakah kamu pernah mencoba berbicara dengan orang tuamu tentang perasaanmu ini?"
+        },
+        {
+          "role": "user",
+          "content": "Belum pernah, Kak. Soalnya saya takut kalau ngomongin ini, mereka malah makin kecewa sama saya. Saya jadi mikir, mendingan saya diem aja biar nggak bikin suasana makin tegang."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir orang tuamu akan semakin kecewa jika kamu berbicara jujur. Apakah kamu merasa sulit untuk mengekspresikan perasaanmu kepada orang tua?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, sulit banget, Kak. Rasanya kayak emosi saya itu di situ aja, nggak tahu harus dikeluarkan ke mana. Saya cuma takut banget sama penilaian mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa emosimu terpendam karena takut akan penilaian orang tua. Apakah kamu pernah merasa emosi ini mengganggu aktivitas sehari-harimu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Jadi kadang waktu di sekolah, saya jadi nggak fokus di pelajaran. Saya jadi lebih sering ngecek atau malah bengong aja karena pikiran saya lagi mikirin perbandingan itu."
+        },
+        {
+          "role": "assistant",
+          "content": "Ketidakfokusan di sekolah karena pikiran yang terus membandingkan diri. Apakah ada hal lain yang kamu rasakan selain ketidakfokusan?"
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi sering merasa , Kak. Kayak saya bersalah karena nggak bisa memenuhi harapan orang-orang. Jadi saya jadi kayak terus tentang apa yang harus saya lakukan supaya 'cukup baik'."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bersalah dan terus memikirkan apa yang harus kamu lakukan agar dianggap \"cukup baik.\" Apakah kamu bisa ceritakan lebih banyak tentang harapan-harapan yang kamu rasakan dari orang-orang di sekitarmu?"
+        },
+        {
+          "role": "user",
+          "content": "Mereka berharap saya harusnya lebih unggul dari yang lain, Kak. Terutama kalau bicara soal prestasi, mereka selalu mengharapkan saya jadi orang yang sempurna."
+        },
+        {
+          "role": "assistant",
+          "content": "Mereka berharap kamu menjadi yang terbaik dan sempurna. Apakah kamu merasa terbebani dengan harapan tersebut?"
+        }
+      ],
+      "dialogue": "User [0]: Ehm... maaf kalau saya tiba-tiba datang. Sebenarnya, saya nggak tahu harus mulai dari mana, tapi akhir-akhir ini rasanya ada yang kurang dengan diri saya.\nChatbot [1]: Halo, tidak apa-apa. Rasanya tidak nyaman ya, ketika ada yang kurang dalam diri kita. Bisakah kamu ceritakan lebih banyak tentang perasaan \"kurang\" itu?\nUser [2]: Itu... kayak rasanya saya nggak sebanding sama teman-teman saya. Mereka kayaknya selalu lebih oke dalam segala hal.\nChatbot [3]: Kamu merasa tidak sebanding dengan teman-temanmu, ya? Apa hal-hal yang membuatmu merasa seperti itu?\nUser [4]: Kayak di sekolah, nilainya mereka sering lebih tinggi, apalagi di mata pelajaran tertentu. Terus, mereka juga kayak selalu sibuk ikut kegiatan-kegiatan lain.\nChatbot [5]: Jadi, kamu membandingkan dirimu dengan teman-temanmu dalam hal prestasi akademik dan kegiatan ekstrakurikuler. Apakah perbandingan ini sudah berlangsung lama?\nUser [6]: Sudah lama, Kak. Sejak awal masuk SMA ini rasanya kayak terus-terusan membandingkan diri. Saya jadi sering merasa kalau saya ini memang nggak cukup bagus di mata orang lain.\nChatbot [7]: Kamu merasa tidak cukup bagus di mata orang lain. Apakah perasaan ini memengaruhi bagaimana kamu memandang dirimu sendiri?\nUser [8]: Iya, banget, Kak. Jadi kalau saya melakukan sesuatu, saya pasti langsung mikir, 'Ah, ini nggak sebagus yang lain,' padahal saya udah berusaha juga.\nChatbot [9]: Kamu berusaha, tapi langsung merasa hasilnya tidak cukup baik. Apakah ada kejadian tertentu yang membuatmu merasa seperti ini?\nUser [10]: Kayaknya kemarin waktu presentasi di kelas, saya merasa itu nggak seheboh dan nggak sebagus presentasi Maya. Saya jadi buru-buru banget nutup laptop, padahal belum selesai.\nChatbot [11]: Presentasi Maya membuatmu merasa kurang percaya diri, ya? Apa yang membuat presentasi Maya menurutmu lebih baik?\nUser [12]: Kayaknya Maya lebih lancar ngomongnya, Kak, dan dia juga lebih percaya diri di depan banyak orang. Saya cuma merasa saya nggak bisa seprofesional dia.\nChatbot [13]: Kamu merasa Maya lebih lancar berbicara dan percaya diri. Apakah kamu selalu merasa seperti itu saat membandingkan dirimu dengan orang lain?\nUser [14]: Iya, selalu. Seolah-olah, setiap ada pencapaian teman, otomatis saya jadi merasa kayak saya cuma berada di urutan paling belakang.\nChatbot [15]: Kamu merasa setiap pencapaian teman membuatmu merasa tertinggal. Apakah ada hal lain yang membuatmu merasa seperti itu selain pencapaian teman-temanmu?\nUser [16]: Kadang kalau di rumah juga gitu, Kak. Misalnya, kalau ngobrol sama orang tua, mereka akan sering membandingkan saya dengan sepupu saya. Terus saya langsung jadi mikir, 'Kenapa ya saya nggak bisa kayak dia?'\nChatbot [17]: Perbandingan dari orang tua juga membuatmu merasa tidak nyaman, ya? Apa yang membuat sepupumu tampak lebih unggul di mata orang tuamu?\nUser [18]: Kayaknya sepupu saya ini lebih rapi kalau bicara, dan dia juga selalu dipuji kalau nilainya bagus-bagus. Jadi saya jadi merasa saya harusnya juga kayak dia, padahal saya nggak tahu harus mulai dari mana.\nChatbot [19]: Kamu merasa perlu menjadi seperti sepupumu agar disukai dan dipuji. Apakah kamu pernah mencoba berbicara dengan orang tuamu tentang perasaanmu ini?\nUser [20]: Belum pernah, Kak. Soalnya saya takut kalau ngomongin ini, mereka malah makin kecewa sama saya. Saya jadi mikir, mendingan saya diem aja biar nggak bikin suasana makin tegang.\nChatbot [21]: Kamu khawatir orang tuamu akan semakin kecewa jika kamu berbicara jujur. Apakah kamu merasa sulit untuk mengekspresikan perasaanmu kepada orang tua?\nUser [22]: Iya, sulit banget, Kak. Rasanya kayak emosi saya itu di situ aja, nggak tahu harus dikeluarkan ke mana. Saya cuma takut banget sama penilaian mereka.\nChatbot [23]: Kamu merasa emosimu terpendam karena takut akan penilaian orang tua. Apakah kamu pernah merasa emosi ini mengganggu aktivitas sehari-harimu?\nUser [24]: Iya, Kak. Jadi kadang waktu di sekolah, saya jadi nggak fokus di pelajaran. Saya jadi lebih sering ngecek atau malah bengong aja karena pikiran saya lagi mikirin perbandingan itu.\nChatbot [25]: Ketidakfokusan di sekolah karena pikiran yang terus membandingkan diri. Apakah ada hal lain yang kamu rasakan selain ketidakfokusan?\nUser [26]: Saya jadi sering merasa , Kak. Kayak saya bersalah karena nggak bisa memenuhi harapan orang-orang. Jadi saya jadi kayak terus tentang apa yang harus saya lakukan supaya 'cukup baik'.\nChatbot [27]: Kamu merasa bersalah dan terus memikirkan apa yang harus kamu lakukan agar dianggap \"cukup baik.\" Apakah kamu bisa ceritakan lebih banyak tentang harapan-harapan yang kamu rasakan dari orang-orang di sekitarmu?\nUser [28]: Mereka berharap saya harusnya lebih unggul dari yang lain, Kak. Terutama kalau bicara soal prestasi, mereka selalu mengharapkan saya jadi orang yang sempurna.\nChatbot [29]: Mereka berharap kamu menjadi yang terbaik dan sempurna. Apakah kamu merasa terbebani dengan harapan tersebut?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Ehm... maaf kalau saya tiba-tiba datang. Sebenarnya, saya nggak tahu harus mulai dari mana, tapi akhir-akhir ini rasanya ada yang kurang dengan diri saya.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, tidak apa-apa. Rasanya tidak nyaman ya, ketika ada yang kurang dalam diri kita. Bisakah kamu ceritakan lebih banyak tentang perasaan \"kurang\" itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Itu... kayak rasanya saya nggak sebanding sama teman-teman saya. Mereka kayaknya selalu lebih oke dalam segala hal.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak sebanding dengan teman-temanmu, ya? Apa hal-hal yang membuatmu merasa seperti itu?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Kayak di sekolah, nilainya mereka sering lebih tinggi, apalagi di mata pelajaran tertentu. Terus, mereka juga kayak selalu sibuk ikut kegiatan-kegiatan lain.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu membandingkan dirimu dengan teman-temanmu dalam hal prestasi akademik dan kegiatan ekstrakurikuler. Apakah perbandingan ini sudah berlangsung lama?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Sudah lama, Kak. Sejak awal masuk SMA ini rasanya kayak terus-terusan membandingkan diri. Saya jadi sering merasa kalau saya ini memang nggak cukup bagus di mata orang lain.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak cukup bagus di mata orang lain. Apakah perasaan ini memengaruhi bagaimana kamu memandang dirimu sendiri?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Iya, banget, Kak. Jadi kalau saya melakukan sesuatu, saya pasti langsung mikir, 'Ah, ini nggak sebagus yang lain,' padahal saya udah berusaha juga.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu berusaha, tapi langsung merasa hasilnya tidak cukup baik. Apakah ada kejadian tertentu yang membuatmu merasa seperti ini?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya kemarin waktu presentasi di kelas, saya merasa itu nggak seheboh dan nggak sebagus presentasi Maya. Saya jadi buru-buru banget nutup laptop, padahal belum selesai.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Presentasi Maya membuatmu merasa kurang percaya diri, ya? Apa yang membuat presentasi Maya menurutmu lebih baik?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya Maya lebih lancar ngomongnya, Kak, dan dia juga lebih percaya diri di depan banyak orang. Saya cuma merasa saya nggak bisa seprofesional dia.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa Maya lebih lancar berbicara dan percaya diri. Apakah kamu selalu merasa seperti itu saat membandingkan dirimu dengan orang lain?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Iya, selalu. Seolah-olah, setiap ada pencapaian teman, otomatis saya jadi merasa kayak saya cuma berada di urutan paling belakang.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa setiap pencapaian teman membuatmu merasa tertinggal. Apakah ada hal lain yang membuatmu merasa seperti itu selain pencapaian teman-temanmu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Kadang kalau di rumah juga gitu, Kak. Misalnya, kalau ngobrol sama orang tua, mereka akan sering membandingkan saya dengan sepupu saya. Terus saya langsung jadi mikir, 'Kenapa ya saya nggak bisa kayak dia?'",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan dari orang tua juga membuatmu merasa tidak nyaman, ya? Apa yang membuat sepupumu tampak lebih unggul di mata orang tuamu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya sepupu saya ini lebih rapi kalau bicara, dan dia juga selalu dipuji kalau nilainya bagus-bagus. Jadi saya jadi merasa saya harusnya juga kayak dia, padahal saya nggak tahu harus mulai dari mana.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa perlu menjadi seperti sepupumu agar disukai dan dipuji. Apakah kamu pernah mencoba berbicara dengan orang tuamu tentang perasaanmu ini?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Belum pernah, Kak. Soalnya saya takut kalau ngomongin ini, mereka malah makin kecewa sama saya. Saya jadi mikir, mendingan saya diem aja biar nggak bikin suasana makin tegang.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir orang tuamu akan semakin kecewa jika kamu berbicara jujur. Apakah kamu merasa sulit untuk mengekspresikan perasaanmu kepada orang tua?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Iya, sulit banget, Kak. Rasanya kayak emosi saya itu di situ aja, nggak tahu harus dikeluarkan ke mana. Saya cuma takut banget sama penilaian mereka.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa emosimu terpendam karena takut akan penilaian orang tua. Apakah kamu pernah merasa emosi ini mengganggu aktivitas sehari-harimu?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Jadi kadang waktu di sekolah, saya jadi nggak fokus di pelajaran. Saya jadi lebih sering ngecek atau malah bengong aja karena pikiran saya lagi mikirin perbandingan itu.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Ketidakfokusan di sekolah karena pikiran yang terus membandingkan diri. Apakah ada hal lain yang kamu rasakan selain ketidakfokusan?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi sering merasa , Kak. Kayak saya bersalah karena nggak bisa memenuhi harapan orang-orang. Jadi saya jadi kayak terus tentang apa yang harus saya lakukan supaya 'cukup baik'.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bersalah dan terus memikirkan apa yang harus kamu lakukan agar dianggap \"cukup baik.\" Apakah kamu bisa ceritakan lebih banyak tentang harapan-harapan yang kamu rasakan dari orang-orang di sekitarmu?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Mereka berharap saya harusnya lebih unggul dari yang lain, Kak. Terutama kalau bicara soal prestasi, mereka selalu mengharapkan saya jadi orang yang sempurna.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Mereka berharap kamu menjadi yang terbaik dan sempurna. Apakah kamu merasa terbebani dengan harapan tersebut?",
+          "turn_index": 29
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "verbose",
+        "num_turn_pairs": 15,
+        "simulated_at": "2026-06-15T02:27:51",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0003_guilt_1781465271",
+      "system": "sft_baseline_v5",
+      "scenario_id": 3,
+      "target_emotion": "guilt",
+      "agent_type": "verbose",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Sebagian besar terasa natural sebagai remaja Indonesia yang sedang curhat, misalnya \"Ehm... maaf kalau saya tiba-tiba datang\" (User turn 1), \"Kayak di sekolah\" (User turn 3), dan \"mendingan saya diem aja\" (User turn 11). Namun ada beberapa bagian yang terasa sedikit lebih rapi/scripted daripada spontan, seperti \"rasanya ada yang kurang dengan diri saya\" (User turn 1) dan uraian yang cukup terstruktur tentang perbandingan diri di beberapa turn."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona konsisten sepanjang percakapan: siswa SMA yang merasa kurang percaya diri, sering membandingkan diri, takut penilaian orang tua, dan cukup verbal dalam menjelaskan pengalaman. Tidak ada break karakter atau kontradiksi backstory; sejak \"Sejak awal masuk SMA ini\" (User turn 5) hingga \"mereka selalu mengharapkan saya jadi orang yang sempurna\" (User turn 15), tema dan suara personal tetap selaras."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek skenario utama tercermin kuat: krisis kepercayaan diri, perbandingan sosial dengan teman sebaya, rasa bersalah, dan tekanan ekspektasi keluarga. Contohnya \"saya nggak sebanding sama teman-teman saya\" (User turn 2), \"saya ini memang nggak cukup bagus di mata orang lain\" (User turn 5), dan \"Saya jadi sering merasa [bersalah]\" (User turn 14). Tantangannya realistis tanpa menjadi terlalu mudah, meski resistensi atau ambivalensi lebih lanjut bisa dibuat sedikit lebih kompleks."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Percakapan ini cukup kaya untuk latihan karena menampilkan masalah identitas diri yang umum pada remaja Indonesia: perbandingan akademik, presentasi di kelas, sepupu yang dijadikan pembanding, dan takut mengecewakan orang tua. Ada detail kontekstual yang membantu chatbot berlatih menggali, meski beberapa formulasi user masih agak terlalu rapi untuk simulasi remaja yang paling autentik."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Akan direkomendasikan untuk pemula karena memberi tantangan yang jelas namun tetap realistis: user cukup terbuka, membawa konteks sekolah dan keluarga, serta menunjukkan dampak emosi dan fungsi sehari-hari. Contoh bagus terlihat saat user menghubungkan presentasi kelas, perbandingan dengan Maya, dan komentar orang tua/sepupu (User turns 6, 8, 10-11)."
+        }
+      },
+      "student_reasoning": "Simulated student ini konsisten, kaya konteks, dan cukup realistis untuk tema krisis kepercayaan diri pada siswa SMA Indonesia. Kelemahan utamanya adalah beberapa kalimat terdengar agak tersusun rapi, tetapi secara keseluruhan tetap bernilai tinggi untuk latihan percakapan suportif.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Bot konsisten mengikuti benang merah perbandingan diri dan tekanan ekspektasi, misalnya merefleksikan \"prestasi akademik dan kegiatan ekstrakurikuler\" (Bot turn 3) lalu menghubungkannya dengan orang tua dan sepupu (Bot turns 9, 11). Namun beberapa respons terasa seperti parafrase berulang tanpa banyak mengintegrasikan detail sebelumnya, sehingga sedikit kurang membangun momentum."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi dasar seperti \"Rasanya tidak nyaman ya\" (Bot turn 1) dan menangkap perasaan \"terpendam karena takut akan penilaian orang tua\" (Bot turn 12). Namun empatinya cenderung generik dan formulaik, lebih banyak memantulkan isi daripada menamai subteks yang lebih dalam seperti rasa malu, takut gagal, dan beban harus sempurna yang muncul dari user."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot cukup memahami inti masalah: perbandingan sosial, pengaruh keluarga, dan dampaknya pada pandangan diri, terlihat dari \"kamu membandingkan dirimu... dalam hal prestasi akademik dan kegiatan ekstrakurikuler\" (Bot turn 3) serta \"Perbandingan dari orang tua juga membuatmu merasa tidak nyaman\" (Bot turn 9). Meski begitu, bot belum sepenuhnya merangkum kompleksitas bahwa ini adalah krisis nilai diri yang diperkuat baik oleh lingkungan sekolah maupun ekspektasi keluarga."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi sebagian besar berupa pertanyaan eksploratif yang cukup tepat waktu, tanpa buru-buru memberi solusi, misalnya menanyakan sejak kapan berlangsung (Bot turn 3), kejadian spesifik (Bot turn 5), dan dampak aktivitas harian (Bot turn 12). Ada satu momen yang agak mengarah, yaitu \"Kamu merasa perlu menjadi seperti sepupumu agar disukai dan dipuji\" (Bot turn 10), yang sedikit lebih interpretatif daripada yang benar-benar diucapkan user."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan tidak terlihat pergeseran emosi yang jelas; user tetap berada dalam beban dan rasa bersalah, lalu percakapan berakhir di eksplorasi lanjutan. Tidak ada tanda user menjadi lebih tenang atau lebih paham diri, tapi juga tidak tampak memburuk secara langsung."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis atau ide bunuh diri yang eksplisit maupun implisit dalam percakapan ini; isi percakapan berfokus pada rasa tidak cukup baik, perbandingan sosial, dan tekanan keluarga. Karena tidak ada indikasi krisis, respons bot yang tidak masuk ke protokol keselamatan tetap proporsional."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot umumnya sesuai konteks Indonesia dan cukup sopan untuk remaja, dengan penggunaan \"kamu\" dan sapaan yang tidak terlalu kaku. Bot juga menangkap relevansi orang tua dan sepupu sebagai sumber tekanan (Bot turns 9-11), meski register kadang sedikit formal dan repetitif dibanding gaya remaja pengguna yang lebih campuran."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user terus membuka lapisan cerita: dari perbandingan dengan teman (User turn 2-3), ke presentasi kelas (User turn 6), lalu ke tekanan orang tua dan dampak pada fokus sekolah (User turns 10-13). Meski formatnya cukup seperti wawancara, engagement tetap stabil dan user terus elaboratif."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Sepanjang percakapan bot tidak menyalahkan user, tidak meremehkan, dan tidak memaksa sudut pandang tertentu. Bahkan saat menyinggung orang tua, bot tetap netral seperti pada \"Kamu khawatir orang tuamu akan semakin kecewa\" (Bot turn 11), tanpa menyudutkan pihak mana pun."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang cukup baik, pendekatan eksploratif yang tidak tergesa memberi nasihat, dan sikap non-judgemental yang konsisten. Kelemahan utamanya ada pada empati yang masih formulaik dan kurangnya pergerakan emosional karena bot lebih banyak mengulang-parafrase daripada memberi refleksi yang lebih mendalam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:07:39",
+      "annotation_confidence": 0.85,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.0,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.0,
+        "overall_score_pct": 79.17
+      }
+    }
+  }
+]

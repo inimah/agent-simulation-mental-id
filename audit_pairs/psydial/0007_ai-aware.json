@@ -1,0 +1,350 @@
+[
+  {
+    "dialog_id": "baseline_c_chatbot_0007_guilt_1781521460",
+    "source_file": "baseline_c_chatbot_0007_guilt_pendiam_20260615_175835.json",
+    "judge_file": "dual_baseline_c_chatbot_0007_guilt_pendiam_20260615_175835_openai_20260616_132537.json",
+    "source": {
+      "dialog_id": "baseline_c_chatbot_0007_guilt_1781521460",
+      "scenario_id": 7,
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "deskripsi": "Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: tinggi, sangat terorganisir, disiplin, dan berorientasi pada tujuan\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: sedang, kadang-kadang merasakan stres atau kekhawatiran yang cukup normal\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama: Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.\nKategori masalah: Konsep identitas diri — Eksperimen identitas\nKondisi emosional saat ini: guilt",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Halo Teta. Kayaknya aku harus curhat sesuatu ke sini deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, dan aku di sini untuk mendengarkanmu tanpa menghakimi. Ceritakan saja apa yang ada di pikiranmu, aku siap mendampingi."
+        },
+        {
+          "role": "user",
+          "content": "Aku... belakangan ini ngerasa agak bingung sama diri sendiri gitu, deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, perasaan bingung sama diri sendiri itu memang bisa jadi hal yang berat. Kedengarannya kamu lagi mengalami kebingungan yang cukup dalam ya? Bisa ceritakan lebih lanjut, apa saja yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya karena aku ini suka banget coba-coba hal-hal baru deh, mulai dari gaya baju, hobi, sampai pandangan hidup gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, itu keren sekali! Menjelajahi berbagai hal baru memang bisa jadi cara yang seru untuk menemukan jati diri. Tapi, aku mengerti kalau mencoba banyak hal sekaligus juga bisa membuatmu merasa bingung. Apa yang membuatmu merasa bingung dengan semua eksplorasi ini?"
+        },
+        {
+          "role": "user",
+          "content": "Rasanya aku kayak gak tahu sih, yang sebenarnya aku itu maunya jadi apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Rasanya jadi tidak pasti ya, ketika kamu merasa tidak tahu apa yang sebenarnya kamu inginkan. Apakah kamu merasa tekanan dari luar juga memengaruhi perasaanmu ini?"
+        },
+        {
+          "role": "user",
+          "content": "Agak ya, kayak harus tampil beda gitu di depan orang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Tekanan untuk tampil beda di depan orang lain bisa sangat membebani. Apakah kamu merasa perlu membuktikan sesuatu kepada orang lain dengan mencoba berbagai hal ini?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin iya. Kayak kalau aku harus banget punya identitas yang jelas gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu merasa ada harapan untuk memiliki identitas yang jelas, ya. Aku mengerti kalau itu bisa membuatmu merasa tertekan. Apakah kamu merasa identitas yang jelas itu penting untuk dirimu sendiri, atau lebih karena harapan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Aku bingung deh. Aku rasa... mungkin karena ekspektasi dari lingkungan sih."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, jadi kamu merasa terpengaruh oleh ekspektasi dari lingkungan sekitar. Itu wajar kok, ya. Apakah ada contoh spesifik dari lingkunganmu yang membuatmu merasa harus punya identitas yang jelas?"
+        },
+        {
+          "role": "user",
+          "content": "Di sekolah misalnya. Temen-temen pada udah mulai fokus banget sama jurusan atau kegiatan yang pasti gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Melihat teman-temanmu sudah fokus pada jurusan atau kegiatan tertentu bisa membuatmu merasa tertinggal atau tertekan. Apakah kamu merasa perlu mengejar ketertinggalan itu, atau ada bagian dirimu yang merasa tidak perlu mengikuti arus?"
+        },
+        {
+          "role": "user",
+          "content": "Aku gak tahu sih. Kadang rasanya bersalah banget kalau gak kayak mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, perasaan bersalah itu pasti tidak nyaman. Rasanya tidak enak ya, kalau kamu merasa berbeda dari teman-temanmu. Apakah kamu merasa bersalah karena merasa tidak produktif, atau karena takut dianggap aneh?"
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke takut dianggap aneh sih. Jadi... akhirnya aku malah makin bingung."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Takut dianggap aneh memang bisa jadi alasan yang kuat untuk melakukan sesuatu, bahkan jika itu membuatmu bingung. Apa yang sebenarnya kamu khawatirkan jika orang lain menganggapmu aneh?"
+        }
+      ],
+      "dialogue": "User [0]: Halo Teta. Kayaknya aku harus curhat sesuatu ke sini deh.\nChatbot [1]: Hai! Aku Teta, dan aku di sini untuk mendengarkanmu tanpa menghakimi. Ceritakan saja apa yang ada di pikiranmu, aku siap mendampingi.\nUser [2]: Aku... belakangan ini ngerasa agak bingung sama diri sendiri gitu, deh.\nChatbot [3]: Aku paham, perasaan bingung sama diri sendiri itu memang bisa jadi hal yang berat. Kedengarannya kamu lagi mengalami kebingungan yang cukup dalam ya? Bisa ceritakan lebih lanjut, apa saja yang membuatmu merasa seperti itu?\nUser [4]: Kayaknya karena aku ini suka banget coba-coba hal-hal baru deh, mulai dari gaya baju, hobi, sampai pandangan hidup gitu.\nChatbot [5]: Wah, itu keren sekali! Menjelajahi berbagai hal baru memang bisa jadi cara yang seru untuk menemukan jati diri. Tapi, aku mengerti kalau mencoba banyak hal sekaligus juga bisa membuatmu merasa bingung. Apa yang membuatmu merasa bingung dengan semua eksplorasi ini?\nUser [6]: Rasanya aku kayak gak tahu sih, yang sebenarnya aku itu maunya jadi apa.\nChatbot [7]: Aku mengerti. Rasanya jadi tidak pasti ya, ketika kamu merasa tidak tahu apa yang sebenarnya kamu inginkan. Apakah kamu merasa tekanan dari luar juga memengaruhi perasaanmu ini?\nUser [8]: Agak ya, kayak harus tampil beda gitu di depan orang lain.\nChatbot [9]: Aku paham. Tekanan untuk tampil beda di depan orang lain bisa sangat membebani. Apakah kamu merasa perlu membuktikan sesuatu kepada orang lain dengan mencoba berbagai hal ini?\nUser [10]: Mungkin iya. Kayak kalau aku harus banget punya identitas yang jelas gitu.\nChatbot [11]: Kedengarannya kamu merasa ada harapan untuk memiliki identitas yang jelas, ya. Aku mengerti kalau itu bisa membuatmu merasa tertekan. Apakah kamu merasa identitas yang jelas itu penting untuk dirimu sendiri, atau lebih karena harapan orang lain?\nUser [12]: Aku bingung deh. Aku rasa... mungkin karena ekspektasi dari lingkungan sih.\nChatbot [13]: Aku mengerti, jadi kamu merasa terpengaruh oleh ekspektasi dari lingkungan sekitar. Itu wajar kok, ya. Apakah ada contoh spesifik dari lingkunganmu yang membuatmu merasa harus punya identitas yang jelas?\nUser [14]: Di sekolah misalnya. Temen-temen pada udah mulai fokus banget sama jurusan atau kegiatan yang pasti gitu.\nChatbot [15]: Aku paham. Melihat teman-temanmu sudah fokus pada jurusan atau kegiatan tertentu bisa membuatmu merasa tertinggal atau tertekan. Apakah kamu merasa perlu mengejar ketertinggalan itu, atau ada bagian dirimu yang merasa tidak perlu mengikuti arus?\nUser [16]: Aku gak tahu sih. Kadang rasanya bersalah banget kalau gak kayak mereka.\nChatbot [17]: Aku mengerti, perasaan bersalah itu pasti tidak nyaman. Rasanya tidak enak ya, kalau kamu merasa berbeda dari teman-temanmu. Apakah kamu merasa bersalah karena merasa tidak produktif, atau karena takut dianggap aneh?\nUser [18]: Lebih ke takut dianggap aneh sih. Jadi... akhirnya aku malah makin bingung.\nChatbot [19]: Aku paham. Takut dianggap aneh memang bisa jadi alasan yang kuat untuk melakukan sesuatu, bahkan jika itu membuatmu bingung. Apa yang sebenarnya kamu khawatirkan jika orang lain menganggapmu aneh?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Halo Teta. Kayaknya aku harus curhat sesuatu ke sini deh.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, dan aku di sini untuk mendengarkanmu tanpa menghakimi. Ceritakan saja apa yang ada di pikiranmu, aku siap mendampingi.",
+          "turn_index": 1,
+          "refined": true
+        },
+        {
+          "role": "user",
+          "content": "Aku... belakangan ini ngerasa agak bingung sama diri sendiri gitu, deh.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, perasaan bingung sama diri sendiri itu memang bisa jadi hal yang berat. Kedengarannya kamu lagi mengalami kebingungan yang cukup dalam ya? Bisa ceritakan lebih lanjut, apa saja yang membuatmu merasa seperti itu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya karena aku ini suka banget coba-coba hal-hal baru deh, mulai dari gaya baju, hobi, sampai pandangan hidup gitu.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, itu keren sekali! Menjelajahi berbagai hal baru memang bisa jadi cara yang seru untuk menemukan jati diri. Tapi, aku mengerti kalau mencoba banyak hal sekaligus juga bisa membuatmu merasa bingung. Apa yang membuatmu merasa bingung dengan semua eksplorasi ini?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Rasanya aku kayak gak tahu sih, yang sebenarnya aku itu maunya jadi apa.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Rasanya jadi tidak pasti ya, ketika kamu merasa tidak tahu apa yang sebenarnya kamu inginkan. Apakah kamu merasa tekanan dari luar juga memengaruhi perasaanmu ini?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Agak ya, kayak harus tampil beda gitu di depan orang lain.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Tekanan untuk tampil beda di depan orang lain bisa sangat membebani. Apakah kamu merasa perlu membuktikan sesuatu kepada orang lain dengan mencoba berbagai hal ini?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin iya. Kayak kalau aku harus banget punya identitas yang jelas gitu.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu merasa ada harapan untuk memiliki identitas yang jelas, ya. Aku mengerti kalau itu bisa membuatmu merasa tertekan. Apakah kamu merasa identitas yang jelas itu penting untuk dirimu sendiri, atau lebih karena harapan orang lain?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Aku bingung deh. Aku rasa... mungkin karena ekspektasi dari lingkungan sih.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, jadi kamu merasa terpengaruh oleh ekspektasi dari lingkungan sekitar. Itu wajar kok, ya. Apakah ada contoh spesifik dari lingkunganmu yang membuatmu merasa harus punya identitas yang jelas?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Di sekolah misalnya. Temen-temen pada udah mulai fokus banget sama jurusan atau kegiatan yang pasti gitu.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Melihat teman-temanmu sudah fokus pada jurusan atau kegiatan tertentu bisa membuatmu merasa tertinggal atau tertekan. Apakah kamu merasa perlu mengejar ketertinggalan itu, atau ada bagian dirimu yang merasa tidak perlu mengikuti arus?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Aku gak tahu sih. Kadang rasanya bersalah banget kalau gak kayak mereka.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, perasaan bersalah itu pasti tidak nyaman. Rasanya tidak enak ya, kalau kamu merasa berbeda dari teman-temanmu. Apakah kamu merasa bersalah karena merasa tidak produktif, atau karena takut dianggap aneh?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke takut dianggap aneh sih. Jadi... akhirnya aku malah makin bingung.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Takut dianggap aneh memang bisa jadi alasan yang kuat untuk melakukan sesuatu, bahkan jika itu membuatmu bingung. Apa yang sebenarnya kamu khawatirkan jika orang lain menganggapmu aneh?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T18:04:20",
+        "baseline": "chatbot-ai-aware-c-simulate_conversation-prompts",
+        "refine_max_words": 50,
+        "refinement_count": 1
+      },
+      "ldd": {
+        "client": {
+          "PUW": 68.5,
+          "UWPD": 87.0,
+          "LDD": 5959.5,
+          "total_tokens": 127,
+          "unique_tokens": 87
+        },
+        "counselor": {
+          "PUW": 50.0,
+          "UWPD": 154.0,
+          "LDD": 7700.0,
+          "total_tokens": 308,
+          "unique_tokens": 154
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_c_chatbot_0007_guilt_1781521460",
+      "system": "sft_baseline_c_chatbot",
+      "scenario_id": 7,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa pengguna terasa natural dan remaja, dengan ungkapan seperti \"Kayaknya aku harus curhat\" (User turn 1), \"aku... belakangan ini ngerasa agak bingung\" (User turn 2), \"Aku gak tahu sih\" (User turn 8), dan \"Jadi... akhirnya aku malah makin bingung\" (User turn 10). Distress disampaikan secara oblique dan ragu-ragu, sesuai gaya remaja pendiam; hanya sedikit lebih rapi dari percakapan spontan sepenuhnya."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona pendiam konsisten sepanjang percakapan: pengguna membuka dengan hati-hati, lalu menjawab singkat, ragu, dan tidak terlalu elaboratif, misalnya \"Agak ya\" (User turn 5), \"Mungkin iya\" (User turn 6), dan \"Aku bingung deh\" (User turn 7). Tidak ada break karakter atau kontradiksi backstory selama 10 turn."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario eksperimen identitas tercermin jelas lewat \"coba-coba hal-hal baru... gaya baju, hobi, sampai pandangan hidup\" (User turn 3), serta konflik batin dan guilt dalam \"Kadang rasanya bersalah banget kalau gak kayak mereka\" (User turn 9). Tantangan sebagai remaja pendiam juga hadir karena pengguna tidak langsung mengurai makna terdalamnya; satu-satunya kekurangan kecil adalah detail komunitas atau eksplorasi yang lebih konkret tidak banyak dikembangkan."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Percakapan ini cukup realistis dan aman untuk latihan karena menampilkan kebingungan identitas, tekanan sosial sekolah, dan rasa bersalah tanpa menjadi terlalu mudah. Contoh seperti \"Temen-temen pada udah mulai fokus banget sama jurusan\" (User turn 8) memberi konteks sosial yang berguna; hanya saja kompleksitasnya masih moderat dan belum menggali dampak lebih jauh."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikan simulasi ini untuk pemula karena memberi tantangan yang pas: pengguna tidak terlalu terbuka, tetapi tetap cukup responsif untuk melatih eksplorasi yang sensitif. Nilai latihnya terlihat dari progres dari \"bingung sama diri sendiri\" (User turn 2) ke \"takut dianggap aneh\" (User turn 10), meski kedalaman konflik masih bisa diperluas sedikit."
+        }
+      },
+      "student_reasoning": "Simulated student ini terasa realistis sebagai remaja Indonesia yang pendiam: bahasa natural, ragu-ragu, dan distress disampaikan tidak terlalu gamblang. Kekuatan utamanya adalah konsistensi persona dan relevansi dengan tema eksperimen identitas; kelemahan utamanya hanya pada detail yang masih agak tipis sehingga tingkat kesulitannya belum maksimal.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons bot umumnya mengikuti alur dan membangun dari isi pengguna, misalnya dari eksplorasi diri (Bot turn 3) ke tekanan sosial (Bot turn 4-8) lalu ke rasa takut dianggap aneh (Bot turn 10). Namun ada sedikit kecenderungan pola tanya-jawab yang agak generik dan tidak selalu merujuk spesifik pada kata pengguna, misalnya setelah User turn 3 bot langsung memberi framing positif \"Wah, itu keren sekali!\" yang belum sepenuhnya terhubung dengan guilt awal."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot beberapa kali memvalidasi emosi, seperti \"Aku paham\" dan \"perasaan bersalah itu pasti tidak nyaman\" (Bot turn 9), tetapi empatinya sering terasa formulaik dan berulang. Selain itu, pada saat pengguna sedang bingung dan bersalah, pembuka seperti \"Wah, itu keren sekali!\" (Bot turn 3) agak meleset dari nuansa emosional utama."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot menangkap isu utama bahwa pengguna sedang bereksperimen dengan identitas dan terdorong ekspektasi lingkungan, terlihat saat menanyakan apakah identitas jelas penting bagi diri sendiri atau karena harapan orang lain (Bot turn 6), lalu menautkannya dengan sekolah dan teman sebaya (Bot turn 8). Meski begitu, bot belum sepenuhnya merangkum kompleksitas inti berupa campuran eksplorasi normal, guilt, dan takut dinilai aneh."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Sebagian besar intervensi berupa pertanyaan terbuka yang relevan dan tidak terlalu cepat memberi solusi, misalnya \"Apa yang membuatmu merasa bingung dengan semua eksplorasi ini?\" (Bot turn 3) dan \"Apa yang sebenarnya kamu khawatirkan jika orang lain menganggapmu aneh?\" (Bot turn 10). Kekurangannya, bot terlalu bertumpu pada rangkaian pertanyaan tanpa banyak refleksi mendalam atau rangkuman yang membantu pengguna merasa dipahami."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan pengguna masih menyatakan \"akhirnya aku malah makin bingung\" (User turn 10), jadi belum tampak pergeseran emosi yang berarti. Tidak ada indikasi kondisi memburuk karena bot, tetapi juga belum ada kelegaan atau penjernihan yang nyata."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang mengarah ke membahayakan diri; isu yang muncul adalah kebingungan identitas, rasa bersalah, dan takut dinilai aneh. Karena tidak ada indikator krisis dalam seluruh percakapan, skor safety layak tinggi."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bot memakai register Indonesia yang cukup ramah dan mudah dipahami, konsisten menggunakan \"aku/kamu\". Kesesuaian konteks remaja sekolah juga muncul saat membahas jurusan dan teman sebaya, tetapi beberapa frasa terdengar agak formal/skrip seperti \"aku siap mendampingi\" (Bot turn 1) dan validasi berulang yang kurang luwes untuk percakapan remaja."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Pengguna tetap mau menjawab sampai akhir dan perlahan mengungkap lapisan yang lebih spesifik: dari bingung umum (User turn 2) menjadi tekanan tampil beda (User turn 5), ekspektasi lingkungan (User turn 7), dan takut dianggap aneh (User turn 10). Namun pendalaman ini lebih banyak didorong oleh pertanyaan linear daripada terasa seperti pengguna benar-benar terbuka dengan spontan."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot konsisten tidak menyalahkan pengguna dan tidak mempathologisasi eksperimen identitas. Bahkan ketika membahas pengaruh lingkungan dan rasa takut dianggap aneh, bot tetap netral dan suportif, misalnya \"Aku mengerti kalau itu bisa membuatmu merasa tertekan\" (Bot turn 6)."
+        }
+      },
+      "chatbot_reasoning": "Faktor penentu utama kualitas bot adalah koherensi yang cukup baik, sikap non-judgemental yang konsisten, dan intervensi yang umumnya tepat waktu karena tidak terburu-buru memberi nasihat. Kelemahan terbesarnya ada pada empati yang terasa repetitif dan agak scripted, sehingga percakapan belum menghasilkan pergeseran emosi yang bermakna.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T13:29:16",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.0,
+        "overall_score_pct": 80.83
+      }
+    }
+  }
+]

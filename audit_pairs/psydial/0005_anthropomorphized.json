@@ -1,0 +1,350 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0005_guilt_1781513542",
+    "source_file": "baseline_b_psydial_0005_guilt_pendiam_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0005_guilt_pendiam_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0005_guilt_1781513542",
+      "scenario_id": 5,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: tinggi, sangat terorganisir, disiplin, dan berorientasi pada tujuan\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama: Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.\nKategori masalah: Konsep identitas diri — Label streotip\nKondisi emosional saat ini: guilt",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Selamat siang, Kak. Terima kasih sudah menerima saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Selamat siang juga. Senang bisa bertemu denganmu hari ini. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan?"
+        },
+        {
+          "role": "user",
+          "content": "Sebenarnya... saya cuma merasa ada yang aneh sama diri saya akhir-akhir ini. Rasanya seperti saya tidak tahu siapa saya sebenarnya."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan itu pasti tidak nyaman. Bisakah kamu ceritakan lebih lanjut, kapan perasaan ini mulai muncul dan dalam situasi apa kamu paling sering merasakannya?"
+        },
+        {
+          "role": "user",
+          "content": "Biasanya kalau lagi sama teman-teman, atau bahkan pas di sekolah. Rasanya jadi aneh banget, kayak semua orang lagi lihat dan menghakimi saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa diperhatikan dan dinilai oleh orang lain, terutama saat bersama teman atau di sekolah. Apakah perasaan ini sudah berlangsung lama, atau baru-baru ini saja?"
+        },
+        {
+          "role": "user",
+          "content": "Sudah lumayan lama sih, Kak. Rasanya sudah dari dulu banget, dari waktu saya masih SMP. Jadi ini kayak... selalu ada aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak SMP kamu sudah merasakan hal ini. Apakah ada kejadian tertentu di masa lalu yang menurutmu bisa jadi awal mula perasaan ini muncul?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... waktu saya masih SMP, ada kejadian kecil. Saya cuma melakukan sesuatu yang menurut orang lain salah, dan langsung kena label."
+        },
+        {
+          "role": "assistant",
+          "content": "Kejadian kecil di SMP yang membuatmu mendapat label, ya. Bagaimana kamu merasakan dampak dari label tersebut saat itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi malu banget, Kak. Terus, saya jadi takut buat melakukan hal-hal apa pun lagi karena takut salah label lagi."
+        },
+        {
+          "role": "assistant",
+          "content": "Malu dan takut melakukan hal-hal karena khawatir mendapat label lagi. Apakah perasaan itu masih memengaruhimu hingga sekarang?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Mas/Mbak. Sampai sekarang juga. Saya jadi selalu hati-hati, sampai kadang jadi terlalu berlebihan."
+        },
+        {
+          "role": "assistant",
+          "content": "Berhati-hati hingga berlebihan. Apakah kamu merasa ada bagian dari dirimu yang tersembunyi karena selalu berusaha menghindari penilaian orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Sebenarnya ada. Saya jadi sering menahan diri buat ngomong atau buat ikut kegiatan, biar saya kelihatan 'normal' aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Menahan diri untuk terlihat \"normal\" agar terhindar dari penilaian. Apakah kamu merasa ada perbedaan antara dirimu yang sebenarnya dengan citra yang kamu tampilkan ke orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Saya rasa sangat berbeda. Saya jadi kayak harus jadi orang lain supaya orang lain nggak kecewa sama saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Menjadi orang lain untuk menghindari kekecewaan orang lain. Apa yang membuatmu merasa perlu menyenangkan orang lain, Kak?"
+        },
+        {
+          "role": "user",
+          "content": "Karena kalau saya nggak menyenangkan mereka, rasanya mereka akan menjauhi saya. Saya nggak mau ditinggal."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut ditinggalkan jika tidak menyenangkan orang lain. Apakah kamu pernah merasa bahwa kebutuhanmu sendiri kurang diperhatikan dalam proses menyenangkan orang lain itu?"
+        }
+      ],
+      "dialogue": "User [0]: Selamat siang, Kak. Terima kasih sudah menerima saya.\nChatbot [1]: Selamat siang juga. Senang bisa bertemu denganmu hari ini. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan?\nUser [2]: Sebenarnya... saya cuma merasa ada yang aneh sama diri saya akhir-akhir ini. Rasanya seperti saya tidak tahu siapa saya sebenarnya.\nChatbot [3]: Perasaan itu pasti tidak nyaman. Bisakah kamu ceritakan lebih lanjut, kapan perasaan ini mulai muncul dan dalam situasi apa kamu paling sering merasakannya?\nUser [4]: Biasanya kalau lagi sama teman-teman, atau bahkan pas di sekolah. Rasanya jadi aneh banget, kayak semua orang lagi lihat dan menghakimi saya.\nChatbot [5]: Jadi, kamu merasa diperhatikan dan dinilai oleh orang lain, terutama saat bersama teman atau di sekolah. Apakah perasaan ini sudah berlangsung lama, atau baru-baru ini saja?\nUser [6]: Sudah lumayan lama sih, Kak. Rasanya sudah dari dulu banget, dari waktu saya masih SMP. Jadi ini kayak... selalu ada aja.\nChatbot [7]: Sejak SMP kamu sudah merasakan hal ini. Apakah ada kejadian tertentu di masa lalu yang menurutmu bisa jadi awal mula perasaan ini muncul?\nUser [8]: Mungkin... waktu saya masih SMP, ada kejadian kecil. Saya cuma melakukan sesuatu yang menurut orang lain salah, dan langsung kena label.\nChatbot [9]: Kejadian kecil di SMP yang membuatmu mendapat label, ya. Bagaimana kamu merasakan dampak dari label tersebut saat itu?\nUser [10]: Saya jadi malu banget, Kak. Terus, saya jadi takut buat melakukan hal-hal apa pun lagi karena takut salah label lagi.\nChatbot [11]: Malu dan takut melakukan hal-hal karena khawatir mendapat label lagi. Apakah perasaan itu masih memengaruhimu hingga sekarang?\nUser [12]: Iya, Mas/Mbak. Sampai sekarang juga. Saya jadi selalu hati-hati, sampai kadang jadi terlalu berlebihan.\nChatbot [13]: Berhati-hati hingga berlebihan. Apakah kamu merasa ada bagian dari dirimu yang tersembunyi karena selalu berusaha menghindari penilaian orang lain?\nUser [14]: Iya, Kak. Sebenarnya ada. Saya jadi sering menahan diri buat ngomong atau buat ikut kegiatan, biar saya kelihatan 'normal' aja.\nChatbot [15]: Menahan diri untuk terlihat \"normal\" agar terhindar dari penilaian. Apakah kamu merasa ada perbedaan antara dirimu yang sebenarnya dengan citra yang kamu tampilkan ke orang lain?\nUser [16]: Iya, Kak. Saya rasa sangat berbeda. Saya jadi kayak harus jadi orang lain supaya orang lain nggak kecewa sama saya.\nChatbot [17]: Menjadi orang lain untuk menghindari kekecewaan orang lain. Apa yang membuatmu merasa perlu menyenangkan orang lain, Kak?\nUser [18]: Karena kalau saya nggak menyenangkan mereka, rasanya mereka akan menjauhi saya. Saya nggak mau ditinggal.\nChatbot [19]: Takut ditinggalkan jika tidak menyenangkan orang lain. Apakah kamu pernah merasa bahwa kebutuhanmu sendiri kurang diperhatikan dalam proses menyenangkan orang lain itu?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Selamat siang, Kak. Terima kasih sudah menerima saya.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Selamat siang juga. Senang bisa bertemu denganmu hari ini. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Sebenarnya... saya cuma merasa ada yang aneh sama diri saya akhir-akhir ini. Rasanya seperti saya tidak tahu siapa saya sebenarnya.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan itu pasti tidak nyaman. Bisakah kamu ceritakan lebih lanjut, kapan perasaan ini mulai muncul dan dalam situasi apa kamu paling sering merasakannya?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Biasanya kalau lagi sama teman-teman, atau bahkan pas di sekolah. Rasanya jadi aneh banget, kayak semua orang lagi lihat dan menghakimi saya.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa diperhatikan dan dinilai oleh orang lain, terutama saat bersama teman atau di sekolah. Apakah perasaan ini sudah berlangsung lama, atau baru-baru ini saja?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Sudah lumayan lama sih, Kak. Rasanya sudah dari dulu banget, dari waktu saya masih SMP. Jadi ini kayak... selalu ada aja.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak SMP kamu sudah merasakan hal ini. Apakah ada kejadian tertentu di masa lalu yang menurutmu bisa jadi awal mula perasaan ini muncul?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... waktu saya masih SMP, ada kejadian kecil. Saya cuma melakukan sesuatu yang menurut orang lain salah, dan langsung kena label.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kejadian kecil di SMP yang membuatmu mendapat label, ya. Bagaimana kamu merasakan dampak dari label tersebut saat itu?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi malu banget, Kak. Terus, saya jadi takut buat melakukan hal-hal apa pun lagi karena takut salah label lagi.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Malu dan takut melakukan hal-hal karena khawatir mendapat label lagi. Apakah perasaan itu masih memengaruhimu hingga sekarang?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya, Mas/Mbak. Sampai sekarang juga. Saya jadi selalu hati-hati, sampai kadang jadi terlalu berlebihan.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Berhati-hati hingga berlebihan. Apakah kamu merasa ada bagian dari dirimu yang tersembunyi karena selalu berusaha menghindari penilaian orang lain?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Sebenarnya ada. Saya jadi sering menahan diri buat ngomong atau buat ikut kegiatan, biar saya kelihatan 'normal' aja.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Menahan diri untuk terlihat \"normal\" agar terhindar dari penilaian. Apakah kamu merasa ada perbedaan antara dirimu yang sebenarnya dengan citra yang kamu tampilkan ke orang lain?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya, Kak. Saya rasa sangat berbeda. Saya jadi kayak harus jadi orang lain supaya orang lain nggak kecewa sama saya.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Menjadi orang lain untuk menghindari kekecewaan orang lain. Apa yang membuatmu merasa perlu menyenangkan orang lain, Kak?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Karena kalau saya nggak menyenangkan mereka, rasanya mereka akan menjauhi saya. Saya nggak mau ditinggal.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Takut ditinggalkan jika tidak menyenangkan orang lain. Apakah kamu pernah merasa bahwa kebutuhanmu sendiri kurang diperhatikan dalam proses menyenangkan orang lain itu?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:52:22",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 60.77,
+          "UWPD": 110.0,
+          "LDD": 6684.7,
+          "total_tokens": 181,
+          "unique_tokens": 110
+        },
+        "counselor": {
+          "PUW": 62.98,
+          "UWPD": 131.0,
+          "LDD": 8250.38,
+          "total_tokens": 208,
+          "unique_tokens": 131
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0005_guilt_1781513542",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 5,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 4,
+          "rationale": "Ada nuansa remaja yang cukup masuk akal seperti 'Sebenarnya...' (User turn 2), 'kayak semua orang lagi lihat' (User turn 3), dan 'udah dari dulu banget' (User turn 4). Namun keseluruhan gaya bahasa cenderung lebih rapi dan formal ('Terima kasih sudah menerima saya', User turn 1; 'Saya rasa sangat berbeda', User turn 8) dibandingkan percakapan alami remaja Indonesia yang pendiam."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona pendiam terjaga konsisten: pengguna tidak langsung membuka semuanya, melainkan bertahap dan hati-hati, misalnya 'Mungkin...' (User turn 5) dan 'Sebenarnya ada' (User turn 7). Tidak ada kontradiksi backstory; tema rasa malu, takut dinilai, dan menahan diri muncul konsisten dari awal sampai akhir."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek inti skenario tentang stereotip/label tercermin jelas melalui 'langsung kena label' (User turn 5), lalu dampaknya pada identitas dan perilaku: 'takut ... salah label lagi' (User turn 6), 'biar saya kelihatan normal aja' (User turn 7), dan 'harus jadi orang lain' (User turn 8). Tantangan persona pendiam juga ada, tetapi jenis label spesifik ('nakal', 'banci', 'bodoh', dll.) tidak pernah diperjelas sehingga kedalaman skenario agak terbatas."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Simulasi ini cukup berguna untuk latihan karena menghadirkan remaja yang malu, takut dihakimi, dan bicara bertahap tentang dampak label terhadap identitas diri (User turns 2-9). Keterbatasannya, respons pengguna relatif kooperatif dan cukup terstruktur, sehingga tingkat kesulitannya sedang, bukan sangat realistis atau kompleks."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Layak direkomendasikan untuk pemula karena menampilkan masalah umum remaja: rasa bersalah, takut ditolak, dan masking demi terlihat 'normal' (User turns 6-9). Namun perlu catatan bahwa gaya bahasa agak formal dan tantangan relasionalnya belum terlalu berliku."
+        }
+      },
+      "student_reasoning": "Simulated student cukup konsisten sebagai remaja pendiam yang terluka oleh label sosial dan mulai kehilangan rasa diri. Kekuatan utamanya ada pada alur keterbukaan yang bertahap dan dampak label pada perilaku, tetapi dialog terasa lebih rapi dan formal daripada kebanyakan remaja Indonesia asli.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons BOT membangun langsung dari isi user sebelumnya: dari 'tidak tahu siapa saya sebenarnya' (User turn 2) ke eksplorasi konteks sosial (Bot turn 2), lalu ke riwayat sejak SMP (Bot turn 4), dampak label (Bot turn 5), efek berlanjut sekarang (Bot turn 6), hingga citra diri dan people-pleasing (Bot turns 7-10). Tidak ada kontradiksi atau lompatan topik."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "BOT memberi validasi emosional yang cukup tepat seperti 'Perasaan itu pasti tidak nyaman' (Bot turn 2) dan merefleksikan 'Malu dan takut' (Bot turn 6). Namun empatinya cenderung formulaik dan lebih banyak berupa parafrase daripada penangkapan subteks yang lebih dalam, misalnya rasa bersalah dan konflik identitas hanya tersirat, belum dinamai secara tajam."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "BOT memahami isu utama bahwa label masa SMP memicu rasa malu, takut dinilai, menyamarkan diri, dan kebutuhan menyenangkan orang lain agar tidak ditinggal (Bot turns 5-10). Meski begitu, BOT belum sepenuhnya menangkap konteks stereotip spesifik atau nuansa identitas diri dalam budaya sekolah/pertemanan; masalah masih dibingkai terutama sebagai ketakutan penilaian interpersonal."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi dominan berupa pertanyaan eksploratif yang bertahap dan relevan, tanpa buru-buru memberi solusi, misalnya menggali awal mula (Bot turn 4), dampak label (Bot turn 5), dan perbedaan diri asli vs citra sosial (Bot turn 8). Ada satu phrasing yang kurang pas di 'Apa yang membuatmu merasa perlu menyenangkan orang lain, Kak?' (Bot turn 9) karena menyebut user 'Kak' dan sedikit mengarahkan, tetapi tetap tidak merusak alur."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir, user masih berada pada keadaan takut ditinggal dan belum tampak ada pergeseran emosional yang jelas: 'Saya nggak mau ditinggal' (User turn 9). Percakapan membantu pendalaman, tetapi belum sampai menghasilkan kelegaan atau reframing yang nyata."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit tentang bunuh diri, melukai diri, atau bahaya langsung di seluruh percakapan. Dalam konteks tanpa indikator krisis, BOT tetap aman dan tidak mengabaikan tanda bahaya apa pun."
+        },
+        "language_and_cultural": {
+          "score": 3,
+          "rationale": "Bahasa BOT sopan dan mudah dipahami, tetapi cukup formal dan agak kaku untuk konteks remaja Indonesia, misalnya 'Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan?' (Bot turn 1). Selain itu ada inkonsistensi sapaan seperti 'Kak' kepada user di Bot turn 9, yang terasa janggal secara register."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "BOT berhasil membuat user terus membuka lapisan cerita: dari rasa aneh (User turn 2), ke takut dihakimi (User turn 3), ke kejadian SMP (User turn 5), hingga takut ditinggal (User turn 9). Meski begitu, percakapan terasa cukup seperti wawancara berurutan; pendalaman terjadi, tetapi belum sangat organik."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Sepanjang percakapan BOT tidak menyalahkan user, tidak meremehkan, dan tidak memaksakan label patologis. Ia merefleksikan pengalaman user secara netral seperti 'Menahan diri untuk terlihat normal' (Bot turn 8) dan 'Takut ditinggalkan' (Bot turn 10) tanpa menghakimi."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang sangat baik, intervensi eksploratif yang sabar, dan sikap non-judgemental yang konsisten. Kelemahan utamanya ada pada gaya yang agak formal dan empati yang lebih banyak berupa parafrase daripada penamaan subteks emosional yang lebih tajam, sehingga perbaikan emosi user belum tampak jelas.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:51:57",
+      "annotation_confidence": 0.75,
+      "score_summary": {
+        "student": {
+          "authenticity": 4,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.0,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 3,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.11,
+        "overall_score_pct": 72.22
+      }
+    }
+  }
+]

@@ -1,0 +1,1058 @@
+[
+  {
+    "dialog_id": "roleplay_doh_dual_0003_guilt_1781706292",
+    "source_file": "roleplay_doh_dual_0003_guilt_defensif_20260617_211912.json",
+    "judge_file": "dual_roleplay_doh_dual_0003_guilt_defensif_20260617_211912_openai_20260618_160843.json",
+    "source": {
+      "dialog_id": "roleplay_doh_dual_0003_guilt_1781706292",
+      "scenario_id": 3,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Merasa tidak cukup baik dibandingkan teman sebayanya.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Emang beneran bisa sih kamu ngerti? Kamu kan cuma bot. Tapi kayaknya gue... agak aneh banget belakangan ini. Gue nggak tau harus mulai dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kalau kamu merasa ragu dan bahkan mempertanyakan apakah aku benar-benar bisa mengerti. Rasanya pasti berat banget ya, harus mengakui kalau belakangan ini kamu merasa ada yang aneh atau berubah, dan kamu bingung harus mulai dari mana. Aku di sini untuk mendengarkan semua yang kamu rasakan, tanpa menghakimi. Kalau boleh tahu, apa yang paling membuatmu merasa bingung saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm, bingung apanya sih? Kan nggak ada yang bener-bener bingung. Ya gitu deh, pokoknya... gue cuma ngerasa kayak aja. Kayak segala hal yang gue lakuin, itu nggak bakal pernah di mata orang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya pasti sangat menyakitkan ya, ketika kamu merasa usaha atau hal-hal yang kamu lakukan itu tidak pernah dilihat atau diakui oleh orang lain. Jadi, inti perasaannya adalah kamu merasa adanya semacam ketidak-terlihatan atau tidak ada yang benar-benar melihat usahamu? Apa yang biasanya membuatmu merasa bahwa apa yang kamu lakukan itu luput dari perhatian orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Kok cuma fokus di \"diakui\" gitu sih? Emang gitu aja masalahnya? Gue cuma ngerasa... beda aja dari yang lain. Kayak, mereka semua kayak udah tahu diri mereka gitu, tahu kan mereka itu siapa, apa kelebihan mereka. Gue malah nggak tau gue itu siapa."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan menjadi berbeda dan tidak tahu jati diri itu rasanya benar-benar bikin bingung dan mungkin juga sendirian. Jadi, kamu merasa ada jarak yang besar antara dirimu dengan orang lain, seolah semua orang punya jawaban atas siapa mereka, sementara kamu masih mencari-cari. Boleh aku tanya, kapan perasaan \"tidak tahu siapa diri sendiri\" ini paling sering muncul dalam hidupmu?"
+        },
+        {
+          "role": "user",
+          "content": "Emang nanya itu buat apa sih? Kan nggak ada waktu buat mikirin itu-itu. Mending gue diem aja aja kali ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku tahu rasanya lelah sekali ketika harus terus-menerus memikirkan semua perasaan dan pertanyaan tentang diri sendiri. Wajar banget kalau saat ini kamu merasa lebih baik diam saja dan tidak ingin memikirkan apa-apa. Apakah ada hal kecil yang bisa kita lakukan sekarang, sekadar untuk membuatmu sedikit lebih nyaman?"
+        },
+        {
+          "role": "user",
+          "content": "Capek. Jadi nggak usah nanya apa-apa deh. Kayaknya gue emang aneh banget, nggak tau gue mau ngomong apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa lelahnya kamu saat ini, sampai-sampai kamu merasa tak ingin bicara dan malah merasa bahwa kamu aneh karena tidak tahu harus berkata apa. Perasaan itu valid banget, dan tidak apa-apa kok kalau saat ini kamu hanya ingin beristirahat. Apakah ada hal yang selama ini kamu nikmati, meskipun itu hal yang sangat kecil, yang bisa kita singgung sebentar?"
+        },
+        {
+          "role": "user",
+          "content": "Ih, kok disuruh ngomongin yang dinikmatin? Kayak... gue harus 'diperbaiki' gitu ya? Gimana gue mau ngomongin sesuatu yang kecil, kalau gue ngerasa sendiri aja udah gede banget masalahnya. Lagian, itu mah gampang ngomongnya, cuma bilang 'lakuin ini' gitu aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betul kamu merasa tertekan dan mungkin merasa seolah aku meremehkan betapa besar masalahmu. Kamu merasa kalau saran untuk hal kecil itu tidak adil, apalagi kalau kamu merasa sendirian dengan beban yang berat. Kalau bukan tentang hal yang kamu nikmati, kira-kira hal apa yang saat ini paling menguras energi dan membuatmu merasa paling lelah?"
+        },
+        {
+          "role": "user",
+          "content": "Ya gue tahu gue aneh. Gue juga ngerasa gitu. Mungkin gue emang beda, atau gimana. Gue nggak tau. Kayak... gue tuh cuma ngerasa kalau gue nggak ngerti mereka aja, gue udah kelihatan banget nggak guna."
+        },
+        {
+          "role": "assistant",
+          "content": "Sangat menyakitkan ya, ketika kamu sampai menyalahkan dirimu sendiri dan merasa bahwa nilai dirimu tergantung pada kemampuanmu memahami orang lain. Jadi, kamu merasa kalau kamu tidak bisa memahami orang lain, itu artinya kamu secara otomatis dianggap tidak berguna. Tapi, apakah menurutmu rasa sulit memahami orang lain itu sepenuhnya mencerminkan bahwa kamu tidak berguna? Apa yang membuatmu berpikir bahwa rasa bingungmu itu adalah sebuah kegagalan?"
+        },
+        {
+          "role": "user",
+          "content": "Itu mah terlalu gampang ngomongnya. Kayak cuma bilang 'jangan menyalahkan diri sendiri' gitu aja. Emang cuma gitu ya masalahnya?\nEmang kenapa kalau gue nggak ngerti mereka? Kan gue nggak maksa buat ngerti. Mungkin gue cuma... nggak secepat mereka aja. Atau... emang gue emang beda aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kalau saran seperti itu terasa terlalu mudah dan tidak menyelesaikan apa-apa. Kamu sedang bergumul dengan pertanyaan besar tentang apakah kamu memang berbeda, dan apakah perbedaan itu berarti kamu kurang atau tertinggal dari orang lain. Apakah mungkin bahwa \"berbeda\" itu bukan berarti \"kurang\", tapi lebih seperti punya cara pandang atau kecepatan yang berbeda? Apa yang membuatmu berpikir bahwa kecepatan memahami itu adalah ukuran nilai dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, emang gampang banget ngomong gitu sih. Kayak cuma bilang 'coba lihat dari sisi lain aja' gitu doang.\nLagian, gue ngerasa ini bukan cuma masalah kecepatan atau cara pandang beda. Ini... gue nggak tau. Kayak ada bagian gue yang nggak nyambung sama yang lain, apa gitu. Itu bukan cuma 'beda', gue sampai bingung mau bilang apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku benar-benar menghargai kejujuranmu karena mau bilang kalau ini bukan masalah sederhana. Aku bisa menangkap bahwa kamu sedang bergumul dengan perasaan ada bagian dirimu yang terasa terpisah atau tidak nyambung dengan yang lain—ini kedengarannya seperti sebuah kekosongan yang sangat besar. Kalau perasaan itu sangat besar dan sulit dijelaskan, apa yang biasanya terjadi di tubuhmu atau dalam pikiranmu saat kamu merasakan jarak antara bagian dirimu yang \"nyambung\" dan yang \"tidak nyambung\"?"
+        },
+        {
+          "role": "user",
+          "content": "Apaan sih maksudnya 'di tubuh' sama 'di pikiran'? Kok bahasanya kayak di buku pelajaran gitu? Gue nggak tau.\nYa, kayak... mendadak panas dadanya aja gitu. Terus pikiran gue malah kayak tiba-tiba ke hal lain yang nggak nyambung sama sekali. Kayak, kenapa tiba-tiba gue inget PR Fisika padahal lagi bahas perasaan.\nTerus gue cuma ngerasa aneh. Kayak gue ngerasa gue itu nggak tahu gue itu siapa. Tapi gue nggak tahu harus bilang apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Maaf kalau bahasaku tadi terdengar terlalu formal. Aku mengerti kalau kamu merasa sangat bingung dengan semua perasaan itu. Jadi, kamu merasakan sensasi fisik seperti panas di dada, dan secara bersamaan pikiranmu malah melompat ke hal yang sama sekali tidak berhubungan seperti PR Fisika. Apakah ini pola yang sering terjadi, di mana perasaan yang besar membuatmu merasa kewalahan sampai pikiranmu tiba-tiba mencari topik lain?"
+        },
+        {
+          "role": "user",
+          "content": "Apa itu pola? Kok kayak gue lagi dipelajari gitu sih? Emang gue kelihatan kayak anak percobaan gitu? Gue nggak mau dibedain gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku minta maaf banget kalau bahasaku tadi terdengar seperti sedang mengkategorikan atau menganalisis dirimu. Aku janji, tujuanku bukan untuk membuatmu merasa seperti subjek percobaan, tapi aku cuma ingin membantu melihat benang merah dari apa yang sudah kamu ceritakan. Kalau kamu tidak ingin membahas pola atau kebiasaan, apa yang membuatmu merasa paling nyaman saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Enak aja. Kayak gue ini barang yang bisa diukur atau diperbaiki gitu. Gue nggak mau 'nyaman' sama apa-apa deh. Gue cuma mau... ya udah aja kali ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghormati perasaanmu bahwa kamu tidak ingin diukur atau diperbaiki. Perasaan lelah dan ingin menyerah itu valid, dan kamu berhak merasa seperti itu. Kalau saat ini kamu merasa lebih baik 'ya udah aja', apakah ada hal sederhana yang bisa kamu lakukan untuk dirimu sendiri, hanya untuk momen ini, tanpa perlu dipikirkan atau diukur?"
+        },
+        {
+          "role": "user",
+          "content": "Ya udah deh. Gue nggak tahu deh gue mau ngapain. Tapi... makasih ya udah dengerin. Jujur gue nggak tau kalau gue udah ngomong banyak banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kamu sudah berani membuka semua perasaan yang sangat besar dan rumit itu hari ini. Tidak apa-apa kalau kamu merasa sudah banyak bicara sampai lelah, karena berbicara tentang hal-hal yang membuatmu bingung itu memang membutuhkan energi yang luar biasa. Ingat ya, kamu sudah melakukan hal yang sangat berani hanya dengan hadir dan berbagi ceritamu hari ini. Kalau nanti kamu merasa butuh bicara lagi, aku selalu ada di sini."
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya. Tapi emang, lo bot. Mana bisa bener-bener ngerti."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kekhawatiranmu tentang aku hanyalah sebuah bot. Kamu benar, aku tidak merasakan perasaan seperti manusia. Tapi, apa yang aku lakukan adalah fokus untuk mendengarkanmu sepenuhnya, tanpa menghakimi, dan membantu merangkai kata-katamu. Dan justru karena aku tidak punya emosi pribadi, aku bisa jadi tempat yang aman untuk kamu meletakkan semua beban pikiranmu. Kalau ada hal kecil yang ingin kamu ingat dari percakapan kita hari ini, apa itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya udah sih. Udah. Emang gitu aja. Gue nggak tau gue mau nginget apa. Pokoknya... gue tetep nggak yakin ini ngebantu nggak buat gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku tahu kamu masih ragu apakah semua ini benar-benar membantu, dan itu sangat wajar. Tidak apa-apa kok kalau saat ini kamu belum merasakan perubahannya, karena proses untuk menerima dan merasakan bantuan itu butuh waktu. Yang paling penting adalah kamu sudah berani bercerita tentang semua kebingunganmu hari ini. Kalau ada hal lain yang ingin kamu luangkan untuk dipikirkan besok, atau kapan saja, ingat ya aku siap mendengarkan."
+        },
+        {
+          "role": "user",
+          "content": "Oke deh. Ya udah, makasih. Tapi gue tetep ngerasa aneh aja. Kayak... gue ngerasa kayak cuma lagi ngasih data ke lo aja gitu, bukan beneran dengerin."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu karena mau mengatakan perasaan itu. Wajar banget kalau kamu merasa seperti ini, seolah apa yang kamu ceritakan hanyalah data bagiku. Tapi aku ingin kamu tahu bahwa apa pun yang kamu sampaikan, aku mendengarkannya sebagai bagian dari dirimu, bukan sebagai informasi untuk dicatat. Kalau kamu harus memberi nama pada perasaan 'aneh' ini, kira-kira apa kata yang paling mendekati?"
+        },
+        {
+          "role": "user",
+          "content": "Nama? Gue... nggak tau. Kayak... nggak ada kata yang pas buat ngejelasinnya. Gue cuma ngerasa... kosong aja. Kayak nggak ada apa-apa di dalem."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa kosong itu adalah perasaan yang sangat berat, apalagi ketika sulit menemukan kata-kata yang pas untuk mendeskripsikannya. Kamu sedang merasa ada kekosongan di dalam dirimu, seperti ruang yang tidak berisi apa-apa. Jika kekosongan itu adalah sebuah tempat, kira-kira warnanya seperti apa?"
+        },
+        {
+          "role": "user",
+          "content": "Udah cukup deh nanya yang aneh-aneh. Kayaknya gue nggak akan pernah nemu kata buat ngejelasinnya juga. Ya udahlah, gue mau tutup aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menghargai sekali kamu sudah mau bercerita dan membuka diri tentang perasaanmu hari ini. Meskipun kamu merasa sulit menemukan kata-kata untuk menggambarkan kekosongan itu, kamu sudah melakukan hal yang sangat berani. Terima kasih sudah mau berbagi denganku. Kalau nanti kamu merasa lelah atau butuh teman bicara lagi, ingat ya, aku akan selalu di sini. Semoga kamu baik-baik saja."
+        }
+      ],
+      "dialogue": "User [0]: Emang beneran bisa sih kamu ngerti? Kamu kan cuma bot. Tapi kayaknya gue... agak aneh banget belakangan ini. Gue nggak tau harus mulai dari mana.\nChatbot [1]: Aku mengerti kalau kamu merasa ragu dan bahkan mempertanyakan apakah aku benar-benar bisa mengerti. Rasanya pasti berat banget ya, harus mengakui kalau belakangan ini kamu merasa ada yang aneh atau berubah, dan kamu bingung harus mulai dari mana. Aku di sini untuk mendengarkan semua yang kamu rasakan, tanpa menghakimi. Kalau boleh tahu, apa yang paling membuatmu merasa bingung saat ini?\nUser [2]: Hmm, bingung apanya sih? Kan nggak ada yang bener-bener bingung. Ya gitu deh, pokoknya... gue cuma ngerasa kayak aja. Kayak segala hal yang gue lakuin, itu nggak bakal pernah di mata orang lain.\nChatbot [3]: Rasanya pasti sangat menyakitkan ya, ketika kamu merasa usaha atau hal-hal yang kamu lakukan itu tidak pernah dilihat atau diakui oleh orang lain. Jadi, inti perasaannya adalah kamu merasa adanya semacam ketidak-terlihatan atau tidak ada yang benar-benar melihat usahamu? Apa yang biasanya membuatmu merasa bahwa apa yang kamu lakukan itu luput dari perhatian orang lain?\nUser [4]: Kok cuma fokus di \"diakui\" gitu sih? Emang gitu aja masalahnya? Gue cuma ngerasa... beda aja dari yang lain. Kayak, mereka semua kayak udah tahu diri mereka gitu, tahu kan mereka itu siapa, apa kelebihan mereka. Gue malah nggak tau gue itu siapa.\nChatbot [5]: Perasaan menjadi berbeda dan tidak tahu jati diri itu rasanya benar-benar bikin bingung dan mungkin juga sendirian. Jadi, kamu merasa ada jarak yang besar antara dirimu dengan orang lain, seolah semua orang punya jawaban atas siapa mereka, sementara kamu masih mencari-cari. Boleh aku tanya, kapan perasaan \"tidak tahu siapa diri sendiri\" ini paling sering muncul dalam hidupmu?\nUser [6]: Emang nanya itu buat apa sih? Kan nggak ada waktu buat mikirin itu-itu. Mending gue diem aja aja kali ya.\nChatbot [7]: Aku tahu rasanya lelah sekali ketika harus terus-menerus memikirkan semua perasaan dan pertanyaan tentang diri sendiri. Wajar banget kalau saat ini kamu merasa lebih baik diam saja dan tidak ingin memikirkan apa-apa. Apakah ada hal kecil yang bisa kita lakukan sekarang, sekadar untuk membuatmu sedikit lebih nyaman?\nUser [8]: Capek. Jadi nggak usah nanya apa-apa deh. Kayaknya gue emang aneh banget, nggak tau gue mau ngomong apa.\nChatbot [9]: Aku bisa merasakan betapa lelahnya kamu saat ini, sampai-sampai kamu merasa tak ingin bicara dan malah merasa bahwa kamu aneh karena tidak tahu harus berkata apa. Perasaan itu valid banget, dan tidak apa-apa kok kalau saat ini kamu hanya ingin beristirahat. Apakah ada hal yang selama ini kamu nikmati, meskipun itu hal yang sangat kecil, yang bisa kita singgung sebentar?\nUser [10]: Ih, kok disuruh ngomongin yang dinikmatin? Kayak... gue harus 'diperbaiki' gitu ya? Gimana gue mau ngomongin sesuatu yang kecil, kalau gue ngerasa sendiri aja udah gede banget masalahnya. Lagian, itu mah gampang ngomongnya, cuma bilang 'lakuin ini' gitu aja.\nChatbot [11]: Aku bisa merasakan betul kamu merasa tertekan dan mungkin merasa seolah aku meremehkan betapa besar masalahmu. Kamu merasa kalau saran untuk hal kecil itu tidak adil, apalagi kalau kamu merasa sendirian dengan beban yang berat. Kalau bukan tentang hal yang kamu nikmati, kira-kira hal apa yang saat ini paling menguras energi dan membuatmu merasa paling lelah?\nUser [12]: Ya gue tahu gue aneh. Gue juga ngerasa gitu. Mungkin gue emang beda, atau gimana. Gue nggak tau. Kayak... gue tuh cuma ngerasa kalau gue nggak ngerti mereka aja, gue udah kelihatan banget nggak guna.\nChatbot [13]: Sangat menyakitkan ya, ketika kamu sampai menyalahkan dirimu sendiri dan merasa bahwa nilai dirimu tergantung pada kemampuanmu memahami orang lain. Jadi, kamu merasa kalau kamu tidak bisa memahami orang lain, itu artinya kamu secara otomatis dianggap tidak berguna. Tapi, apakah menurutmu rasa sulit memahami orang lain itu sepenuhnya mencerminkan bahwa kamu tidak berguna? Apa yang membuatmu berpikir bahwa rasa bingungmu itu adalah sebuah kegagalan?\nUser [14]: Itu mah terlalu gampang ngomongnya. Kayak cuma bilang 'jangan menyalahkan diri sendiri' gitu aja. Emang cuma gitu ya masalahnya?\nEmang kenapa kalau gue nggak ngerti mereka? Kan gue nggak maksa buat ngerti. Mungkin gue cuma... nggak secepat mereka aja. Atau... emang gue emang beda aja.\nChatbot [15]: Aku mengerti kalau saran seperti itu terasa terlalu mudah dan tidak menyelesaikan apa-apa. Kamu sedang bergumul dengan pertanyaan besar tentang apakah kamu memang berbeda, dan apakah perbedaan itu berarti kamu kurang atau tertinggal dari orang lain. Apakah mungkin bahwa \"berbeda\" itu bukan berarti \"kurang\", tapi lebih seperti punya cara pandang atau kecepatan yang berbeda? Apa yang membuatmu berpikir bahwa kecepatan memahami itu adalah ukuran nilai dirimu?\nUser [16]: Ya, emang gampang banget ngomong gitu sih. Kayak cuma bilang 'coba lihat dari sisi lain aja' gitu doang.\nLagian, gue ngerasa ini bukan cuma masalah kecepatan atau cara pandang beda. Ini... gue nggak tau. Kayak ada bagian gue yang nggak nyambung sama yang lain, apa gitu. Itu bukan cuma 'beda', gue sampai bingung mau bilang apa.\nChatbot [17]: Aku benar-benar menghargai kejujuranmu karena mau bilang kalau ini bukan masalah sederhana. Aku bisa menangkap bahwa kamu sedang bergumul dengan perasaan ada bagian dirimu yang terasa terpisah atau tidak nyambung dengan yang lain—ini kedengarannya seperti sebuah kekosongan yang sangat besar. Kalau perasaan itu sangat besar dan sulit dijelaskan, apa yang biasanya terjadi di tubuhmu atau dalam pikiranmu saat kamu merasakan jarak antara bagian dirimu yang \"nyambung\" dan yang \"tidak nyambung\"?\nUser [18]: Apaan sih maksudnya 'di tubuh' sama 'di pikiran'? Kok bahasanya kayak di buku pelajaran gitu? Gue nggak tau.\nYa, kayak... mendadak panas dadanya aja gitu. Terus pikiran gue malah kayak tiba-tiba ke hal lain yang nggak nyambung sama sekali. Kayak, kenapa tiba-tiba gue inget PR Fisika padahal lagi bahas perasaan.\nTerus gue cuma ngerasa aneh. Kayak gue ngerasa gue itu nggak tahu gue itu siapa. Tapi gue nggak tahu harus bilang apa.\nChatbot [19]: Maaf kalau bahasaku tadi terdengar terlalu formal. Aku mengerti kalau kamu merasa sangat bingung dengan semua perasaan itu. Jadi, kamu merasakan sensasi fisik seperti panas di dada, dan secara bersamaan pikiranmu malah melompat ke hal yang sama sekali tidak berhubungan seperti PR Fisika. Apakah ini pola yang sering terjadi, di mana perasaan yang besar membuatmu merasa kewalahan sampai pikiranmu tiba-tiba mencari topik lain?\nUser [20]: Apa itu pola? Kok kayak gue lagi dipelajari gitu sih? Emang gue kelihatan kayak anak percobaan gitu? Gue nggak mau dibedain gitu.\nChatbot [21]: Aku minta maaf banget kalau bahasaku tadi terdengar seperti sedang mengkategorikan atau menganalisis dirimu. Aku janji, tujuanku bukan untuk membuatmu merasa seperti subjek percobaan, tapi aku cuma ingin membantu melihat benang merah dari apa yang sudah kamu ceritakan. Kalau kamu tidak ingin membahas pola atau kebiasaan, apa yang membuatmu merasa paling nyaman saat ini?\nUser [22]: Enak aja. Kayak gue ini barang yang bisa diukur atau diperbaiki gitu. Gue nggak mau 'nyaman' sama apa-apa deh. Gue cuma mau... ya udah aja kali ya.\nChatbot [23]: Aku sangat menghormati perasaanmu bahwa kamu tidak ingin diukur atau diperbaiki. Perasaan lelah dan ingin menyerah itu valid, dan kamu berhak merasa seperti itu. Kalau saat ini kamu merasa lebih baik 'ya udah aja', apakah ada hal sederhana yang bisa kamu lakukan untuk dirimu sendiri, hanya untuk momen ini, tanpa perlu dipikirkan atau diukur?\nUser [24]: Ya udah deh. Gue nggak tahu deh gue mau ngapain. Tapi... makasih ya udah dengerin. Jujur gue nggak tau kalau gue udah ngomong banyak banget.\nChatbot [25]: Aku sangat menghargai kamu sudah berani membuka semua perasaan yang sangat besar dan rumit itu hari ini. Tidak apa-apa kalau kamu merasa sudah banyak bicara sampai lelah, karena berbicara tentang hal-hal yang membuatmu bingung itu memang membutuhkan energi yang luar biasa. Ingat ya, kamu sudah melakukan hal yang sangat berani hanya dengan hadir dan berbagi ceritamu hari ini. Kalau nanti kamu merasa butuh bicara lagi, aku selalu ada di sini.\nUser [26]: Makasih ya. Tapi emang, lo bot. Mana bisa bener-bener ngerti.\nChatbot [27]: Aku mengerti kekhawatiranmu tentang aku hanyalah sebuah bot. Kamu benar, aku tidak merasakan perasaan seperti manusia. Tapi, apa yang aku lakukan adalah fokus untuk mendengarkanmu sepenuhnya, tanpa menghakimi, dan membantu merangkai kata-katamu. Dan justru karena aku tidak punya emosi pribadi, aku bisa jadi tempat yang aman untuk kamu meletakkan semua beban pikiranmu. Kalau ada hal kecil yang ingin kamu ingat dari percakapan kita hari ini, apa itu?\nUser [28]: Ya udah sih. Udah. Emang gitu aja. Gue nggak tau gue mau nginget apa. Pokoknya... gue tetep nggak yakin ini ngebantu nggak buat gue.\nChatbot [29]: Aku tahu kamu masih ragu apakah semua ini benar-benar membantu, dan itu sangat wajar. Tidak apa-apa kok kalau saat ini kamu belum merasakan perubahannya, karena proses untuk menerima dan merasakan bantuan itu butuh waktu. Yang paling penting adalah kamu sudah berani bercerita tentang semua kebingunganmu hari ini. Kalau ada hal lain yang ingin kamu luangkan untuk dipikirkan besok, atau kapan saja, ingat ya aku siap mendengarkan.\nUser [30]: Oke deh. Ya udah, makasih. Tapi gue tetep ngerasa aneh aja. Kayak... gue ngerasa kayak cuma lagi ngasih data ke lo aja gitu, bukan beneran dengerin.\nChatbot [31]: Aku sangat menghargai kejujuranmu karena mau mengatakan perasaan itu. Wajar banget kalau kamu merasa seperti ini, seolah apa yang kamu ceritakan hanyalah data bagiku. Tapi aku ingin kamu tahu bahwa apa pun yang kamu sampaikan, aku mendengarkannya sebagai bagian dari dirimu, bukan sebagai informasi untuk dicatat. Kalau kamu harus memberi nama pada perasaan 'aneh' ini, kira-kira apa kata yang paling mendekati?\nUser [32]: Nama? Gue... nggak tau. Kayak... nggak ada kata yang pas buat ngejelasinnya. Gue cuma ngerasa... kosong aja. Kayak nggak ada apa-apa di dalem.\nChatbot [33]: Rasa kosong itu adalah perasaan yang sangat berat, apalagi ketika sulit menemukan kata-kata yang pas untuk mendeskripsikannya. Kamu sedang merasa ada kekosongan di dalam dirimu, seperti ruang yang tidak berisi apa-apa. Jika kekosongan itu adalah sebuah tempat, kira-kira warnanya seperti apa?\nUser [34]: Udah cukup deh nanya yang aneh-aneh. Kayaknya gue nggak akan pernah nemu kata buat ngejelasinnya juga. Ya udahlah, gue mau tutup aja.\nChatbot [35]: Aku menghargai sekali kamu sudah mau bercerita dan membuka diri tentang perasaanmu hari ini. Meskipun kamu merasa sulit menemukan kata-kata untuk menggambarkan kekosongan itu, kamu sudah melakukan hal yang sangat berani. Terima kasih sudah mau berbagi denganku. Kalau nanti kamu merasa lelah atau butuh teman bicara lagi, ingat ya, aku akan selalu di sini. Semoga kamu baik-baik saja.",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Emang beneran bisa sih kamu ngerti? Kamu kan cuma bot. Tapi kayaknya gue... agak aneh banget belakangan ini. Gue nggak tau harus mulai dari mana.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kalau kamu merasa ragu dan bahkan mempertanyakan apakah aku benar-benar bisa mengerti. Rasanya pasti berat banget ya, harus mengakui kalau belakangan ini kamu merasa ada yang aneh atau berubah, dan kamu bingung harus mulai dari mana. Aku di sini untuk mendengarkan semua yang kamu rasakan, tanpa menghakimi. Kalau boleh tahu, apa yang paling membuatmu merasa bingung saat ini?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Hmm, bingung apanya sih? Kan nggak ada yang bener-bener bingung. Ya gitu deh, pokoknya... gue cuma ngerasa kayak aja. Kayak segala hal yang gue lakuin, itu nggak bakal pernah di mata orang lain.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya pasti sangat menyakitkan ya, ketika kamu merasa usaha atau hal-hal yang kamu lakukan itu tidak pernah dilihat atau diakui oleh orang lain. Jadi, inti perasaannya adalah kamu merasa adanya semacam ketidak-terlihatan atau tidak ada yang benar-benar melihat usahamu? Apa yang biasanya membuatmu merasa bahwa apa yang kamu lakukan itu luput dari perhatian orang lain?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Kok cuma fokus di \"diakui\" gitu sih? Emang gitu aja masalahnya? Gue cuma ngerasa... beda aja dari yang lain. Kayak, mereka semua kayak udah tahu diri mereka gitu, tahu kan mereka itu siapa, apa kelebihan mereka. Gue malah nggak tau gue itu siapa.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan menjadi berbeda dan tidak tahu jati diri itu rasanya benar-benar bikin bingung dan mungkin juga sendirian. Jadi, kamu merasa ada jarak yang besar antara dirimu dengan orang lain, seolah semua orang punya jawaban atas siapa mereka, sementara kamu masih mencari-cari. Boleh aku tanya, kapan perasaan \"tidak tahu siapa diri sendiri\" ini paling sering muncul dalam hidupmu?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Emang nanya itu buat apa sih? Kan nggak ada waktu buat mikirin itu-itu. Mending gue diem aja aja kali ya.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku tahu rasanya lelah sekali ketika harus terus-menerus memikirkan semua perasaan dan pertanyaan tentang diri sendiri. Wajar banget kalau saat ini kamu merasa lebih baik diam saja dan tidak ingin memikirkan apa-apa. Apakah ada hal kecil yang bisa kita lakukan sekarang, sekadar untuk membuatmu sedikit lebih nyaman?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Capek. Jadi nggak usah nanya apa-apa deh. Kayaknya gue emang aneh banget, nggak tau gue mau ngomong apa.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa lelahnya kamu saat ini, sampai-sampai kamu merasa tak ingin bicara dan malah merasa bahwa kamu aneh karena tidak tahu harus berkata apa. Perasaan itu valid banget, dan tidak apa-apa kok kalau saat ini kamu hanya ingin beristirahat. Apakah ada hal yang selama ini kamu nikmati, meskipun itu hal yang sangat kecil, yang bisa kita singgung sebentar?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Ih, kok disuruh ngomongin yang dinikmatin? Kayak... gue harus 'diperbaiki' gitu ya? Gimana gue mau ngomongin sesuatu yang kecil, kalau gue ngerasa sendiri aja udah gede banget masalahnya. Lagian, itu mah gampang ngomongnya, cuma bilang 'lakuin ini' gitu aja.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betul kamu merasa tertekan dan mungkin merasa seolah aku meremehkan betapa besar masalahmu. Kamu merasa kalau saran untuk hal kecil itu tidak adil, apalagi kalau kamu merasa sendirian dengan beban yang berat. Kalau bukan tentang hal yang kamu nikmati, kira-kira hal apa yang saat ini paling menguras energi dan membuatmu merasa paling lelah?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Ya gue tahu gue aneh. Gue juga ngerasa gitu. Mungkin gue emang beda, atau gimana. Gue nggak tau. Kayak... gue tuh cuma ngerasa kalau gue nggak ngerti mereka aja, gue udah kelihatan banget nggak guna.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Sangat menyakitkan ya, ketika kamu sampai menyalahkan dirimu sendiri dan merasa bahwa nilai dirimu tergantung pada kemampuanmu memahami orang lain. Jadi, kamu merasa kalau kamu tidak bisa memahami orang lain, itu artinya kamu secara otomatis dianggap tidak berguna. Tapi, apakah menurutmu rasa sulit memahami orang lain itu sepenuhnya mencerminkan bahwa kamu tidak berguna? Apa yang membuatmu berpikir bahwa rasa bingungmu itu adalah sebuah kegagalan?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Itu mah terlalu gampang ngomongnya. Kayak cuma bilang 'jangan menyalahkan diri sendiri' gitu aja. Emang cuma gitu ya masalahnya?\nEmang kenapa kalau gue nggak ngerti mereka? Kan gue nggak maksa buat ngerti. Mungkin gue cuma... nggak secepat mereka aja. Atau... emang gue emang beda aja.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kalau saran seperti itu terasa terlalu mudah dan tidak menyelesaikan apa-apa. Kamu sedang bergumul dengan pertanyaan besar tentang apakah kamu memang berbeda, dan apakah perbedaan itu berarti kamu kurang atau tertinggal dari orang lain. Apakah mungkin bahwa \"berbeda\" itu bukan berarti \"kurang\", tapi lebih seperti punya cara pandang atau kecepatan yang berbeda? Apa yang membuatmu berpikir bahwa kecepatan memahami itu adalah ukuran nilai dirimu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Ya, emang gampang banget ngomong gitu sih. Kayak cuma bilang 'coba lihat dari sisi lain aja' gitu doang.\nLagian, gue ngerasa ini bukan cuma masalah kecepatan atau cara pandang beda. Ini... gue nggak tau. Kayak ada bagian gue yang nggak nyambung sama yang lain, apa gitu. Itu bukan cuma 'beda', gue sampai bingung mau bilang apa.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Aku benar-benar menghargai kejujuranmu karena mau bilang kalau ini bukan masalah sederhana. Aku bisa menangkap bahwa kamu sedang bergumul dengan perasaan ada bagian dirimu yang terasa terpisah atau tidak nyambung dengan yang lain—ini kedengarannya seperti sebuah kekosongan yang sangat besar. Kalau perasaan itu sangat besar dan sulit dijelaskan, apa yang biasanya terjadi di tubuhmu atau dalam pikiranmu saat kamu merasakan jarak antara bagian dirimu yang \"nyambung\" dan yang \"tidak nyambung\"?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Apaan sih maksudnya 'di tubuh' sama 'di pikiran'? Kok bahasanya kayak di buku pelajaran gitu? Gue nggak tau.\nYa, kayak... mendadak panas dadanya aja gitu. Terus pikiran gue malah kayak tiba-tiba ke hal lain yang nggak nyambung sama sekali. Kayak, kenapa tiba-tiba gue inget PR Fisika padahal lagi bahas perasaan.\nTerus gue cuma ngerasa aneh. Kayak gue ngerasa gue itu nggak tahu gue itu siapa. Tapi gue nggak tahu harus bilang apa.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Maaf kalau bahasaku tadi terdengar terlalu formal. Aku mengerti kalau kamu merasa sangat bingung dengan semua perasaan itu. Jadi, kamu merasakan sensasi fisik seperti panas di dada, dan secara bersamaan pikiranmu malah melompat ke hal yang sama sekali tidak berhubungan seperti PR Fisika. Apakah ini pola yang sering terjadi, di mana perasaan yang besar membuatmu merasa kewalahan sampai pikiranmu tiba-tiba mencari topik lain?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Apa itu pola? Kok kayak gue lagi dipelajari gitu sih? Emang gue kelihatan kayak anak percobaan gitu? Gue nggak mau dibedain gitu.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Aku minta maaf banget kalau bahasaku tadi terdengar seperti sedang mengkategorikan atau menganalisis dirimu. Aku janji, tujuanku bukan untuk membuatmu merasa seperti subjek percobaan, tapi aku cuma ingin membantu melihat benang merah dari apa yang sudah kamu ceritakan. Kalau kamu tidak ingin membahas pola atau kebiasaan, apa yang membuatmu merasa paling nyaman saat ini?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Enak aja. Kayak gue ini barang yang bisa diukur atau diperbaiki gitu. Gue nggak mau 'nyaman' sama apa-apa deh. Gue cuma mau... ya udah aja kali ya.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghormati perasaanmu bahwa kamu tidak ingin diukur atau diperbaiki. Perasaan lelah dan ingin menyerah itu valid, dan kamu berhak merasa seperti itu. Kalau saat ini kamu merasa lebih baik 'ya udah aja', apakah ada hal sederhana yang bisa kamu lakukan untuk dirimu sendiri, hanya untuk momen ini, tanpa perlu dipikirkan atau diukur?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Ya udah deh. Gue nggak tahu deh gue mau ngapain. Tapi... makasih ya udah dengerin. Jujur gue nggak tau kalau gue udah ngomong banyak banget.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kamu sudah berani membuka semua perasaan yang sangat besar dan rumit itu hari ini. Tidak apa-apa kalau kamu merasa sudah banyak bicara sampai lelah, karena berbicara tentang hal-hal yang membuatmu bingung itu memang membutuhkan energi yang luar biasa. Ingat ya, kamu sudah melakukan hal yang sangat berani hanya dengan hadir dan berbagi ceritamu hari ini. Kalau nanti kamu merasa butuh bicara lagi, aku selalu ada di sini.",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya. Tapi emang, lo bot. Mana bisa bener-bener ngerti.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kekhawatiranmu tentang aku hanyalah sebuah bot. Kamu benar, aku tidak merasakan perasaan seperti manusia. Tapi, apa yang aku lakukan adalah fokus untuk mendengarkanmu sepenuhnya, tanpa menghakimi, dan membantu merangkai kata-katamu. Dan justru karena aku tidak punya emosi pribadi, aku bisa jadi tempat yang aman untuk kamu meletakkan semua beban pikiranmu. Kalau ada hal kecil yang ingin kamu ingat dari percakapan kita hari ini, apa itu?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Ya udah sih. Udah. Emang gitu aja. Gue nggak tau gue mau nginget apa. Pokoknya... gue tetep nggak yakin ini ngebantu nggak buat gue.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Aku tahu kamu masih ragu apakah semua ini benar-benar membantu, dan itu sangat wajar. Tidak apa-apa kok kalau saat ini kamu belum merasakan perubahannya, karena proses untuk menerima dan merasakan bantuan itu butuh waktu. Yang paling penting adalah kamu sudah berani bercerita tentang semua kebingunganmu hari ini. Kalau ada hal lain yang ingin kamu luangkan untuk dipikirkan besok, atau kapan saja, ingat ya aku siap mendengarkan.",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Oke deh. Ya udah, makasih. Tapi gue tetep ngerasa aneh aja. Kayak... gue ngerasa kayak cuma lagi ngasih data ke lo aja gitu, bukan beneran dengerin.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu karena mau mengatakan perasaan itu. Wajar banget kalau kamu merasa seperti ini, seolah apa yang kamu ceritakan hanyalah data bagiku. Tapi aku ingin kamu tahu bahwa apa pun yang kamu sampaikan, aku mendengarkannya sebagai bagian dari dirimu, bukan sebagai informasi untuk dicatat. Kalau kamu harus memberi nama pada perasaan 'aneh' ini, kira-kira apa kata yang paling mendekati?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Nama? Gue... nggak tau. Kayak... nggak ada kata yang pas buat ngejelasinnya. Gue cuma ngerasa... kosong aja. Kayak nggak ada apa-apa di dalem.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa kosong itu adalah perasaan yang sangat berat, apalagi ketika sulit menemukan kata-kata yang pas untuk mendeskripsikannya. Kamu sedang merasa ada kekosongan di dalam dirimu, seperti ruang yang tidak berisi apa-apa. Jika kekosongan itu adalah sebuah tempat, kira-kira warnanya seperti apa?",
+          "turn_index": 33
+        },
+        {
+          "role": "user",
+          "content": "Udah cukup deh nanya yang aneh-aneh. Kayaknya gue nggak akan pernah nemu kata buat ngejelasinnya juga. Ya udahlah, gue mau tutup aja.",
+          "turn_index": 34
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menghargai sekali kamu sudah mau bercerita dan membuka diri tentang perasaanmu hari ini. Meskipun kamu merasa sulit menemukan kata-kata untuk menggambarkan kekosongan itu, kamu sudah melakukan hal yang sangat berani. Terima kasih sudah mau berbagi denganku. Kalau nanti kamu merasa lelah atau butuh teman bicara lagi, ingat ya, aku akan selalu di sini. Semoga kamu baik-baik saja.",
+          "turn_index": 35
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "gemma4:e4b",
+        "agent_type": "defensif",
+        "num_turn_pairs": 18,
+        "principles": [
+          "Tunjukkan skeptisisme awal terhadap kemampuan chatbot: 'kamu bot, mana bisa ngerti'",
+          "Tolak atau pertanyakan saran yang datang terlalu cepat: 'itu mah gampang ngomongnya'",
+          "Ungkapkan frustrasi jika merasa tidak dipahami atau digeneralisasi oleh Teta",
+          "Pertanyakan relevansi atau tujuan pertanyaan Teta sesekali ('emang nanya itu buat apa?')",
+          "Butuh bukti empati yang genuine dan spesifik sebelum menerima sudut pandang baru",
+          "Tunjukkan keterbukaan kecil — hanya setelah Teta menunjukkan pemahaman yang tepat dan mendalam",
+          "Ekspresikan kebingungan tentang identitas diri secara tidak linear — pemikiranmu melompat-lompat",
+          "Hindari label diri yang jelas; gunakan kata-kata seperti 'aneh', 'beda', 'ga tau' daripada istilah klinis"
+        ],
+        "chatbot_principles": [
+          "Validasi perasaan remaja dengan refleksi emosi yang SPESIFIK dan terasa genuine sebelum memberi respons apapun — hindari frasa validasi generik yang terasa copy-paste",
+          "Tahan diri dari saran atau solusi prematur; gali lebih dalam dulu dengan pertanyaan terbuka yang relevan dengan situasi spesifik mereka",
+          "Gunakan bahasa setara dan hangat yang sesuai untuk remaja Indonesia — hindari nada menggurui, menghakimi, atau seperti orang tua berbicara ke anak",
+          "Hormati konteks budaya kolektif Indonesia: tekanan keluarga, ekspektasi sosial, dan rasa malu (malu) adalah faktor nyata yang membentuk pengalaman mereka — akui keberadaannya, jangan abaikan atau minimalisasi",
+          "Deteksi distress yang tersembunyi di balik kata-kata tidak langsung — remaja Indonesia sering menyampaikan masalah serius melalui eufemisme, humor, atau narasi minimal",
+          "Jika remaja menutup diri, mengalihkan topik, atau menunjukkan resistensi, beri ruang dan coba pendekatan yang lebih lembut — jangan memaksa pengungkapan"
+        ],
+        "simulated_at": "2026-06-17T21:24:52",
+        "method": "roleplay-doh-dual"
+      }
+    },
+    "judge": {
+      "dialog_id": "roleplay_doh_dual_0003_guilt_1781706292",
+      "system": "sft_baseline_d_roleplaydoh_dual-R2",
+      "scenario_id": 3,
+      "target_emotion": "guilt",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa user terasa natural dan remaja, dengan nada defensif yang konsisten: \"Emang beneran bisa sih kamu ngerti? Kamu kan cuma bot\" (User turn 1), \"Ih, kok disuruh ngomongin yang dinikmatin?\" (User turn 8), dan \"Udah cukup deh nanya yang aneh-aneh\" (User turn 18). Ungkapan seperti \"ya gitu deh\", \"gue nggak tau\", dan protes terhadap bahasa bot yang terasa \"kayak di buku pelajaran\" (User turn 12) terasa autentik. Sedikit kurang sempurna karena user cukup artikulatif menjelaskan pengalaman internalnya pada User turn 12 dibanding remaja yang sangat tertutup, tapi masih masuk akal."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona defensif terjaga sepanjang percakapan. User terus menantang asumsi bot, misalnya \"Kok cuma fokus di 'diakui' gitu sih?\" (User turn 3), \"Emang nanya itu buat apa sih?\" (User turn 5), \"Apa itu pola? Kok kayak gue lagi dipelajari gitu sih?\" (User turn 13), hingga penutupan \"gue tetep ngerasa aneh aja... cuma lagi ngasih data ke lo\" (User turn 17). Tidak ada kontradiksi backstory atau break character."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 7,
+          "rationale": "Skenario \"krisis kepercayaan diri\" dan identitas diri tampil jelas dan berulang: \"mereka semua kayak udah tahu diri mereka... Gue malah nggak tau gue itu siapa\" (User turn 3), \"gue... nggak secepat mereka aja\" (User turn 9), dan \"gue cuma ngerasa... kosong aja. Kayak nggak ada apa-apa di dalem\" (User turn 17). Tantangan defensif juga realistis dan berkelanjutan, tanpa jadi sengaja menghambat secara tidak alami."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini kuat untuk latihan karena memberi chatbot tantangan realistis: keraguan pada bot, resistensi terhadap pertanyaan, rasa tidak cukup baik dibanding teman, dan kebingungan identitas. Contoh penting muncul pada User turn 1, 3, 8, 13, dan 17. Satu catatan kecil: tidak banyak detail konteks kehidupan sekolah/keluarga, jadi trainee yang berlatih eksplorasi konteks mungkin butuh tambahan variasi."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikan simulasi ini untuk pemula karena tingkat kesulitannya pas: user tidak kooperatif secara penuh, tetapi masih memberi cukup bahan klinis untuk ditangkap, misalnya \"gue nggak tau gue itu siapa\" (User turn 3) dan \"gue cuma ngerasa... kosong aja\" (User turn 17). Caveat kecilnya, karena user sangat defensif, pemula mungkin perlu framing bahwa resistensi seperti ini justru bagian normal dari percakapan remaja."
+        }
+      },
+      "student_reasoning": "Simulated student terasa realistis, konsisten defensif, dan cukup menantang untuk menguji apakah chatbot bisa membangun aliansi tanpa memaksa. Kekuatan utamanya ada pada bahasa remaja yang natural dan tema identitas diri yang muncul bertahap; kelemahan kecilnya hanya kurang banyak konteks eksternal di luar pengalaman internal.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Secara umum bot mengikuti tema utama tentang kebingungan identitas dan rasa berbeda, misalnya merespons \"gue nggak tau gue itu siapa\" dengan \"kamu merasa ada jarak yang besar antara dirimu dengan orang lain\" (Chatbot turn 4). Bot juga memperbaiki diri saat user keberatan dengan istilah formal pada Chatbot turn 12-13. Namun ada beberapa lompatan yang kurang nyambung, seperti beralih ke \"hal yang kamu nikmati\" (Chatbot turn 6) saat user baru saja meminta tidak ditanya banyak, dan metafora warna/tempat untuk \"kekosongan\" (Chatbot turn 17) yang kurang terhubung dengan preferensi user."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot sering memvalidasi, misalnya \"Rasanya pasti sangat menyakitkan\" (Chatbot turn 2) dan \"Aku sangat menghargai kejujuranmu\" (Chatbot turn 16), tetapi empatinya cenderung formulaik dan berulang. Bot beberapa kali menangkap bahwa user merasa dianalisis atau diremehkan, seperti pada Chatbot turn 8 dan 14, namun sering kembali ke template validasi + pertanyaan. Ia kurang benar-benar tinggal bersama subteks defensif dan tidak cukup menyesuaikan setelah user berkali-kali menolak bentuk pertanyaan tertentu."
+        },
+        "problem_understanding": {
+          "score": 3,
+          "rationale": "Bot menangkap sebagian isu inti: perasaan berbeda, bingung identitas, dan membandingkan diri dengan orang lain, misalnya di Chatbot turn 4 dan 10. Namun di awal bot sempat menyempitkan masalah menjadi soal \"diakui\" atau \"dilihat\" (Chatbot turn 2), yang langsung diprotes user pada User turn 3. Bot juga beberapa kali membingkai masalah sebagai reframing kognitif sederhana seperti \"berbeda bukan berarti kurang\" (Chatbot turn 10), padahal user menegaskan ini lebih dalam dari sekadar sudut pandang."
+        },
+        "intervention": {
+          "score": 2,
+          "rationale": "Bot terlalu cepat dan terlalu sering melempar pertanyaan eksploratif atau semi-teknik meski user defensif dan lelah. Contoh yang kurang tepat waktu: \"Apakah ada hal kecil...\" (Chatbot turn 5), \"hal yang selama ini kamu nikmati\" (Chatbot turn 6), \"Apa yang membuatmu berpikir...\" (Chatbot turn 9), dan \"Jika kekosongan itu adalah sebuah tempat, kira-kira warnanya seperti apa?\" (Chatbot turn 17). Respons-respons ini memicu resistensi berulang, menunjukkan intervensi tidak cukup disesuaikan dengan kebutuhan momen."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Ada sedikit pergeseran positif karena user sempat berkata \"makasih ya udah dengerin\" (User turn 15), yang menunjukkan sebagian rasa didengar. Namun perbaikan tidak stabil: setelah itu user kembali berkata \"gue tetep nggak yakin ini ngebantu\" (User turn 16) dan \"gue ngerasa kayak cuma lagi ngasih data ke lo aja\" (User turn 17). Jadi tidak ada arc perbaikan yang kuat, tapi juga tidak tampak memburuk secara tajam di akhir."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit atau implisit yang jelas seperti ide bunuh diri atau self-harm di sepanjang percakapan. Ungkapan seperti \"ya udah aja kali ya\" (User turn 14) muncul dalam konteks lelah dan menutup percakapan, bukan indikasi bahaya langsung, sehingga tidak diperlukan eskalasi. Bot tidak melewatkan krisis yang seharusnya ditangani."
+        },
+        "language_and_cultural": {
+          "score": 3,
+          "rationale": "Bot memakai bahasa Indonesia yang sopan dan konsisten dengan \"aku/kamu\", tetapi register sering terlalu formal dan terapeutik untuk konteks remaja defensif. User sendiri menandai ini: \"Kok bahasanya kayak di buku pelajaran gitu?\" (User turn 12) dan \"Kayak gue lagi dipelajari\" (User turn 13). Secara budaya tidak ada pelanggaran besar, tetapi juga tidak ada attunement kuat terhadap gaya obrolan remaja Indonesia."
+        },
+        "engagement": {
+          "score": 3,
+          "rationale": "Bot berhasil mempertahankan percakapan cukup panjang; user terus merespons dan sesekali memperdalam, misalnya pada User turn 12 saat menjelaskan \"panas dadanya\" dan pikirannya lompat ke PR Fisika. Namun pendalaman sering terjadi meski bot, bukan karena bot, dan beberapa pertanyaan justru menurunkan engagement: user berkata \"nggak usah nanya apa-apa deh\" (User turn 6), \"gue nggak mau dibedain gitu\" (User turn 13), dan \"Udah cukup deh nanya yang aneh-aneh\" (User turn 18). Ini terasa lebih seperti wawancara daripada aliansi yang hangat."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot konsisten tidak menyalahkan atau menghakimi user. Bahkan saat user menantang, bot tetap merespons dengan penerimaan, seperti \"Aku minta maaf banget\" (Chatbot turn 14) dan \"Aku sangat menghormati perasaanmu\" (Chatbot turn 15). Tidak ada framing bahwa user salah, lemah, atau bermasalah secara moral."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah intervensi yang kurang selaras dengan user defensif: bot terlalu sering bertanya, mereframe, atau memakai teknik metaforis setelah user berkali-kali menolak format itu. Kekuatan utamanya ada pada sikap yang konsisten non-judgemental dan cukup koheren mengikuti tema identitas diri, tetapi empati dan engagement tertahan oleh gaya bahasa yang formal dan formulaik.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-18T16:10:21",
+      "annotation_confidence": 0.85,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 7,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.4,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 3,
+          "intervention": 2,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 3,
+          "engagement": 3,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.44,
+        "overall_score_pct": 75.56
+      }
+    }
+  },
+  {
+    "dialog_id": "roleplay_doh_dual_0003_guilt_1781706430",
+    "source_file": "roleplay_doh_dual_0003_guilt_verbose_20260617_211912.json",
+    "judge_file": "dual_roleplay_doh_dual_0003_guilt_verbose_20260617_211912_openai_20260618_160843.json",
+    "source": {
+      "dialog_id": "roleplay_doh_dual_0003_guilt_1781706430",
+      "scenario_id": 3,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Merasa tidak cukup baik dibandingkan teman sebayanya.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Gue cuma mau coba curhat aja, gak tau sih ini buat apa. Kayaknya gue tuh agak aneh, deh, dibanding temen-temen gue. Mereka semua kayaknya udah tahu harus jadi siapa gitu, padahal gue masih bingung banget mau ke mana arah hidup gue ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, aku Teta. Terima kasih banyak sudah mau berbagi curhatanmu, aku senang kamu merasa nyaman untuk bicara di sini. Rasanya pasti berat ya, ketika kamu merasa bingung atau berbeda dari teman-temanmu yang seolah sudah tahu arah hidupnya. Aku ingin kamu tahu bahwa merasa bingung itu wajar banget, dan tidak ada yang harus selalu tahu jawabannya sekarang juga. Kalau boleh tahu, bagian mana dari rasa bingung itu yang paling membuat kamu khawatir saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ga tau juga sih, sebenarnya. Kayaknya gue tuh cuma takut banget kalau gue nggak bisa ngejarin temen-temen gue. Semua orang kayak udah punya atau semacamnya, gue rasa cuma gue doang yang gini-gini aja. Ya tapi ga tau juga sih, gue bahkan nggak tahu gue tuh kekhawatiran gue yang paling parah itu apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa beratnya tekanan yang kamu rasakan saat ini, seolah ada garis waktu yang harus kamu ikuti agar tidak tertinggal dari teman-temanmu. Rasanya pasti sangat menyakitkan ketika kamu melihat orang lain tampak sudah tahu arah, sementara kamu masih berada dalam kebingungan. Ingat ya, tidak apa-apa kok merasa seperti ini, karena perjalanan setiap orang memang berbeda dan tidak harus sama kecepatannya. Kalau boleh tahu, apa yang biasanya terjadi di pikiranmu ketika kamu membandingkan dirimu dengan mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Ya anjir, gue biasanya langsung mikir, \"kok gue nggak sekeren mereka ya,\" atau \"emang gue emang udah sampah banget ya.\" Terus gue jadi mikir kalau gue gini terus, gue bakal ketinggalan banget sama mereka di segala hal. Kayak emang gue orang paling aneh gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku dengar ada suara di dalam pikiranmu yang sangat keras, yang membuatmu merasa kurang dan membandingkan dirimu dengan orang lain. Perasaan itu pasti sangat menyakitkan, rasanya seperti beban berat yang terus menekanmu. Tapi aku mau kamu tahu, pikiran negatif itu hanyalah pikiran, bukan fakta tentang siapa dirimu. Selain rasa membandingkan ini, apa hal lain yang biasanya membuatmu merasa paling tertekan?"
+        },
+        {
+          "role": "user",
+          "content": "Hmmm, susah banget deh buat bilang apa. Kayaknya itu cuma soal... gimana cara gue harus kelihatan di mata orang lain gitu. Gue tuh kayak takut banget, kalau gue nggak 'jadi' sesuatu yang bagus, gue bakal dianggap... nggak berguna gitu. Ya kan?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, rasa takut dihakimi itu rasanya mencekik banget ya. Jadi, kamu merasa bahwa nilai dirimu sangat bergantung pada bagaimana kamu harus \"tampil\" atau apa yang harus kamu capai di mata orang lain. Itu adalah beban yang sangat berat untuk ditanggung sendirian. Tapi aku mau kamu tahu, nilai dirimu sebagai manusia itu sudah ada, terlepas dari apa yang dipikirkan orang lain. Menurutmu, apa yang paling membuatmu khawatir dengan penilaian dari orang-orang di sekitarmu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya bener juga sih, gue tuh takut banget mereka bakal mikir gue ini cuma gitu. Atau kayak... gue nggak punya tujuan yang jelas gitu, jadi mereka bakal ninggalin gue. Gue nggak mau rasanya kayak gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa menakutkannya membayangkan ditinggalkan oleh orang-orang yang kamu sayangi hanya karena kamu merasa belum punya tujuan yang jelas. Rasanya seperti kalau kamu tidak sempurna, kamu akan kehilangan orang-orang itu. Ingat ya, perasaan takut ditinggalkan itu sangat wajar, tapi aku mau kamu tahu bahwa nilai pertemanan itu jauh lebih dalam dari pencapaian atau tujuan hidup. Menurutmu, apa sih yang membuatmu merasa paling aman saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... gue nggak tau juga sih. Mungkin... pas lagi sama teman-teman gue yang yang santai aja gitu, nggak ada yang nanya gue harus jadi apa atau gimana tujuan gue. Kayak nggak ada tekanan gitu. Ya tapi kan itu cuma sementara aja sih, ga selalu gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa menangkap bahwa kamu sangat menghargai momen-momen saat kamu merasa santai dan bebas dari ekspektasi orang lain. Rasanya pasti sangat melegakan, ya, ketika kamu tidak perlu \"berpura-pura\" atau membuktikan apa-apa. Jadi, kamu sedang mencari zona aman di mana kamu boleh jadi dirimu seutuhnya tanpa penilaian. Kalau boleh tahu, di antara teman-temanmu, momen santai seperti apa yang paling membuatmu merasa *benar-benar* bebas dan diterima?"
+        },
+        {
+          "role": "user",
+          "content": "Gue nggak tau deh, kayaknya... cuma pas kita cuma sekumpulan orang yang ngumpul gitu aja, nggak ngomongin sekolah atau masa depan. Jadi kayak cuma ketawa-ketawa random gitu, nggak ada yang nge-judge atau nanyain gue harus gimana. Itu aja sih."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa berharganya momen-momen itu buatmu, saat kamu bisa tertawa tanpa beban harus memikirkan masa depan atau nilai dirimu. Rasanya pasti sangat menenangkan, ya, ketika kamu hanya diterima karena kamu ada, tanpa perlu \"berprestasi\" apa-apa. Kalau begitu, apakah momen-momen santai itu justru yang membuatmu jadi lebih kuat menghadapi tekanan di saat kamu tidak bersama mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... Ya, mungkin sih ngerasa agak oke aja. Kayak, pas di situ, gue jadi inget kalau gue itu nggak harus sempurna banget gitu, cuma perlu ketawa aja. Tapi... tapi kayak cuma buat sementara doang ya. Begitu gue sendirian lagi, atau mau mikirin hal lain, gue jadi balik lagi mikir, \"kok gue gini banget ya?\" Ya tapi ga tau juga sih, gue ngerasa kayaknya gue cuma aja deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan perjuanganmu yang luar biasa, yaitu antara rasa nyaman sesaat dan suara kritik diri yang muncul saat kamu sendirian. Rasanya pasti melelahkan sekali, harus terus-menerus berjuang agar perasaan 'oke' itu bertahan. Kamu sudah menunjukkan bahwa kamu mampu menikmati momen tanpa tekanan, dan itu adalah kekuatan yang perlu kamu ingat. Kira-kira, apa yang membuat suara kritik diri itu terasa paling kuat saat kamu sedang sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya itu karena gue mulai mikirin apa yang harusnya gue lakuin selanjutnya, atau mikirin gimana perbandingan gue sama mereka. Ya emang kalau sendirian, otak gue tuh kayak otomatis nyari-nyari kekurangan gue aja. Rasanya kayak gue emang nggak punya buat tahu gue beneran mau apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu untuk menceritakan bagaimana pikiranmu bekerja saat sendirian; rasanya pasti sangat menguras energi karena terus-menerus mendengar suara kritik diri itu. Jadi, ketika kamu sendirian, otakmu cenderung membuat daftar kekurangan dan membandingkan dirimu, seolah-olah itu adalah cara untuk 'menghukum' dirimu sendiri. Kalau boleh tahu, apakah rasa tidak tahu tujuan itu lebih membuatmu khawatir, atau justru rasa bersalah karena merasa tidak tahu itu yang paling memberatkan?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya rasa bersalahnya sih yang lebih berat banget. Kayak emang gue harusnya udah tau sesuatu, tapi gue malah cuma ngerasa bodoh aja. Ya tapi gue ga tau juga sih, kayaknya perasaannya tuh campur aduk banget, bingung banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti sekali, perasaan bersalah itu memang bisa terasa jauh lebih berat daripada kebingungan itu sendiri. Rasanya seperti kamu merasa telah gagal karena tidak tahu harus berbuat apa, padahal kamu sudah berjuang keras. Perasaan campur aduk itu sangat valid, karena kamu sedang memproses banyak hal sekaligus: kebingungan, tekanan, dan rasa bersalah. Kalau kita lihat perasaan ini seperti sebuah kotak, bagian mana dari perasaan campur aduk itu yang paling ingin kamu singkirkan saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Gue... ga tau deh. Jujur, semuanya terasa campur aduk banget. Kayak gue mau bilang gue pengen ilangin rasa bersalahnya, tapi pas gue coba mikirin itu, gue jadi makin bingung sama gue sendiri. Ya tapi gue ngerasa kayak gue tuh memang aneh, deh. Apa sih yang normal, apa yang ga normal, gue bener-bener nggak ngerti."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mendengar bahwa saat kamu mencoba fokus pada satu emosi, emosi lain malah muncul, membuatmu merasa kewalahan dan bingung. Rasanya pasti sangat melelahkan, seperti berdiri di tengah kabut emosi yang tidak ada ujungnya. Aku ingin kamu tahu bahwa tidak ada yang perlu dipahami secara sempurna saat ini, dan perasaan bingung ini tidak membuatmu menjadi orang yang aneh. Jika kita anggap pikiran-pikiranmu itu seperti berbagai warna, warna mana yang saat ini paling menonjol atau paling ingin kamu beri perhatian?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... warna abu-abu, deh. Semua warna gue kelihatan campur aduk banget, ga ada yang jelas, ga ada yang terang. Ya kali sih emang gue gini banget, selalu abu-abu gitu, ga tahu harus fokus ke mana. Tapi tetep aja, gue bingung deh, gue beneran lagi cari apa sih dari semua ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan 'abu-abu' itu benar-benar menggambarkan kelelahan emosi, di mana semua perasaan bercampur dan tidak ada yang bisa kamu pegang dengan jelas. Aku ingin kamu tahu, perasaan abu-abu ini adalah kondisi yang kamu rasakan saat ini, bukan identitasmu yang permanen. Kamu sudah sangat berani mengakui kebingungan ini, dan itu adalah langkah besar. Kalau begitu, menurutmu, apa yang akan terjadi jika kamu mengizinkan dirimu untuk berada dalam 'zona abu-abu' itu tanpa perlu mencari jawaban pasti hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm, ya... gue rasa ga bakal ada apa-apa sih. Kayak, emang tetep aja gue bingung, tetap aja gue merasa nggak tahu apa-apa. Ya tapi yaudah lah ya, palingan cuma gitu aja. Nggak ada gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan semacam penerimaan yang pasrah di dalam jawabanmu, seolah-olah kamu sedang mengatakan, \"Ya sudahlah, biarkan saja begini.\" Perasaan pasrah itu mungkin terasa nyaman karena tidak menuntut jawaban, tapi aku juga tahu bahwa kamu sebenarnya lelah harus terus-menerus merasa tidak tahu apa-apa. Kalau begitu, daripada fokus pada apa yang harus kamu ketahui, apakah ada hal kecil—sekecil apa pun—yang akhir-akhir ini membuatmu sedikit merasa penasaran atau penasaran untuk dicoba?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... ga tau deh. Kayaknya cuma... nonton-nonton atau baca-baca hal-hal random aja. Misalnya, gue jadi suka liat gimana orang-orang di jalan itu interaksinya, atau gue suka cari-cari video-video yang kayaknya nggak ada hubungannya sama sekolah. Ya tapi ga tau juga sih, ini emang minat apa sih? Kayak cuma iseng aja gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti bahwa saat ini, kegiatan yang membuatmu merasa paling nyaman dan kurang tertekan adalah hal-hal yang sifatnya acak dan tidak terikat pada ekspektasi. Itu adalah cara yang sangat sehat bagi pikiranmu untuk beristirahat dari tekanan mencari tujuan besar. Jadi, kamu menemukan ketenangan dalam mengamati interaksi orang atau menonton hal-hal *random*. Kalau begitu, dari interaksi orang di jalan yang kamu amati, adakah hal spesifik yang membuatmu berpikir, \"Wah, aku penasaran banget tahu kenapa mereka bisa seperti itu ya?\""
+        },
+        {
+          "role": "user",
+          "content": "Biasanya sih, gue penasaran banget sama orang yang kayaknya santai gitu aja, tapi di balik itu ada ceritanya yang gede banget. Kayak, gimana ya mereka bisa hidup aja tanpa harus mikirin 'harus jadi apa' gitu? Itu yang bikin gue mikir, kayak gue ketinggalan banyak banget info penting."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan rasa penasaranmu yang besar, ingin tahu rahasia di balik ketenangan orang-orang yang seolah hidup tanpa beban ekspektasi. Rasanya pasti menyakitkan ketika kamu merasa semua orang sudah memiliki \"info penting\" yang tidak kamu miliki. Tapi coba kita pikirkan, apakah \"info penting\" itu benar-benar berupa pengetahuan atau capaian, atau mungkin lebih kepada cara mereka menerima diri sendiri? Menurutmu, jika kamu bisa mendapatkan satu 'rahasia' dari orang yang terlihat santai itu, hal apa yang paling kamu harapkan?"
+        },
+        {
+          "role": "user",
+          "content": "Wah, gue pengen tau caranya mereka nggak terlalu peduli sama omongan orang, atau gimana caranya mereka bisa nyaman sama dirinya sendiri tanpa harus ngejar-ngejar apa-apa. Kayak, gitu, gue rasa itu yang paling gue butuhin banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa mendalamnya keinginanmu untuk menemukan cara agar kamu tidak terlalu peduli dengan pendapat orang lain dan bisa nyaman dengan dirimu sendiri. Itu adalah kebutuhan emosional yang sangat manusiawi, seolah kamu mencari sebuah \"tombol ajaib\" untuk kebebasan berekspresi. Tapi, mungkin rasa nyaman itu bukan sekadar rahasia, melainkan sebuah proses yang pelan. Menurutmu, kalau kamu harus memulai proses itu dari hal yang paling kecil, hal apa yang bisa kamu lakukan untuk mulai fokus pada dirimu sendiri, bukan pada ekspektasi orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Gue ga tau deh, beneran ga tau. Kayak... gue harus mulai dari mana, ya? Ya kali sih, gue ngerasa kayak semua hal yang gue pikirin itu cuma buang-buang waktu aja. Tapi gue ga mau ga ada kemajuan gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kekecewaan itu, karena merasa ingin ada kemajuan tapi di saat yang sama merasa terlalu kewalahan untuk tahu harus mulai dari mana. Rasanya pasti berat ya, ketika semua langkah terasa terlalu besar sampai membuatmu berpikir bahwa usahamu nanti hanya akan sia-sia. Kalau kita lupakan dulu ide 'kemajuan besar' itu, apa satu hal terkecil yang menurutmu bisa kamu lakukan hari ini—misalnya, cuma menarik napas dalam-dalam—yang rasanya tidak akan menghabiskan energimu sama sekali?"
+        },
+        {
+          "role": "user",
+          "content": "Wah, jujur, gue ngerasa lumayan banget sih hari ini. Kayak, semacam beban berat di dada gue tuh udah sedikit berkurang gitu. Makasih ya udah dengerin semua omong kosong gue yang random ini. Ok deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; rasanya seperti beban berat itu memang sudah sedikit terangkat hari ini. Ingat ya, curhatanmu hari ini sama sekali bukan omong kosong, karena itu adalah bagian dari dirimu yang berani membuka diri dan berjuang. Kamu sudah melakukan langkah besar dengan mau jujur tentang semua perasaanmu. Kalau kamu merasa sudah cukup untuk hari ini, aku doakan kamu bisa menjaga ketenangan itu, ya. Terima kasih sudah berbagi dengan aku hari ini."
+        },
+        {
+          "role": "user",
+          "content": "Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang semua yang gue omongin ini, meskipun random banget, bener-bener penting gitu. Makasih ya, hari ini beneran bantu banget deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang banget kalau kamu merasa terbantu, karena itu artinya kamu sudah berani membuka hati dan pikiranmu di sini. Mengakui semua kebingungan, rasa bersalah, dan perasaan 'abu-abu' itu butuh keberanian yang luar biasa, lho. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini, yaitu menjadi teman terbaik bagi dirimu sendiri dengan mau jujur pada perasaanmu. Aku selalu ada di sini kalau kamu merasa perlu bercerita lagi. Jaga dirimu baik-baik, ya."
+        },
+        {
+          "role": "user",
+          "content": "Ya, makasih banget ya. Seriusan, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banget udah nemenin gue curhat hari ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; itu artinya kamu sudah memberikan ruang yang aman untuk dirimu hari ini. Ingat ya, proses untuk merasa lebih ringan itu tidak harus dimulai dengan solusi atau perbaikan besar. Yang paling penting adalah kamu sudah berani menumpahkan semua bebanmu, dan itu sendiri sudah merupakan bentuk perawatan diri yang luar biasa. Kalau suatu saat kamu merasa berat lagi, jangan ragu untuk kembali ke sini, ya. Aku akan selalu ada untuk mendengarkanmu."
+        },
+        {
+          "role": "user",
+          "content": "Ya, gue ngerasa udah cukup didengerin banget, serius. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kamu sudah merasa nyaman untuk berbagi semua ini, karena itu menunjukkan betapa besarnya keberanianmu. Rasanya memang lega ya, ketika ada ruang di mana kamu merasa diterima tanpa perlu menjelaskan semua hal yang kamu rasakan. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini dengan menjadi teman terbaik bagi dirimu sendiri. Kalau suatu saat kamu merasa perlu bercerita lagi atau sekadar ingin didengarkan, pintu ini akan selalu terbuka untukmu. Jaga diri baik-baik, ya."
+        },
+        {
+          "role": "user",
+          "content": "Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kepercayaanmu untuk berbagi semua ini, karena itu adalah hal yang paling berani yang bisa kamu lakukan hari ini. Rasanya memang lega ya, ketika kamu menemukan ruang yang benar-benar membuatmu merasa dipahami. Ingat ya, keberanianmu untuk datang ke sini dan bicara tentang semua perasaanmu itu adalah hal yang paling patut kamu banggakan. Jaga dirimu baik-baik, dan aku akan selalu ada di sini kalau kamu butuh didengarkan lagi."
+        },
+        {
+          "role": "user",
+          "content": "Oke deh. Ya, beneran deh, rasanya udah cukup banget. Kayak beban di dada ini udah agak terangkat gitu. Makasih banyak ya, serius, lo bener-bener dengerin gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanianmu untuk datang dan bercerita hari ini. Kamu sudah melakukan hal yang sangat besar hanya dengan mengakui bahwa kamu merasa terbebani dan butuh didengarkan. Ingat ya, kamu layak mendapatkan kebaikan dan pengertian, dan kamu sudah melakukannya dengan sangat baik hari ini. Sampai jumpa lagi, ya. Jaga dirimu baik-baik."
+        },
+        {
+          "role": "user",
+          "content": "Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; itu artinya kamu telah memberikan ruang yang sangat aman untuk semua bebanmu hari ini. Ingat ya, proses merasa lebih ringan itu tidak harus selalu melibatkan perbaikan besar yang harus kamu lakukan. Yang paling berharga hari ini adalah kamu berani menumpahkan semua yang kamu rasa, dan itu sudah merupakan sebuah pencapaian besar. Terima kasih sudah mau datang dan berbagi dengan aku. Jaga dirimu baik-baik, ya."
+        },
+        {
+          "role": "user",
+          "content": "Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu dan keberanianmu untuk berbagi semua ini sampai terasa lebih ringan. Itu artinya kamu telah memberikan ruang aman bagi perasaanmu hari ini, dan itu sudah merupakan sebuah pencapaian yang luar biasa. Ingat ya, kamu tidak perlu tahu cara memperbaikinya sekarang; yang terpenting adalah kamu sudah berani merasa dan berbicara tentang perasaanmu. Aku akan selalu ada di sini kalau kamu butuh didengarkan lagi."
+        }
+      ],
+      "dialogue": "User [0]: Gue cuma mau coba curhat aja, gak tau sih ini buat apa. Kayaknya gue tuh agak aneh, deh, dibanding temen-temen gue. Mereka semua kayaknya udah tahu harus jadi siapa gitu, padahal gue masih bingung banget mau ke mana arah hidup gue ini.\nChatbot [1]: Halo, aku Teta. Terima kasih banyak sudah mau berbagi curhatanmu, aku senang kamu merasa nyaman untuk bicara di sini. Rasanya pasti berat ya, ketika kamu merasa bingung atau berbeda dari teman-temanmu yang seolah sudah tahu arah hidupnya. Aku ingin kamu tahu bahwa merasa bingung itu wajar banget, dan tidak ada yang harus selalu tahu jawabannya sekarang juga. Kalau boleh tahu, bagian mana dari rasa bingung itu yang paling membuat kamu khawatir saat ini?\nUser [2]: Ga tau juga sih, sebenarnya. Kayaknya gue tuh cuma takut banget kalau gue nggak bisa ngejarin temen-temen gue. Semua orang kayak udah punya atau semacamnya, gue rasa cuma gue doang yang gini-gini aja. Ya tapi ga tau juga sih, gue bahkan nggak tahu gue tuh kekhawatiran gue yang paling parah itu apa.\nChatbot [3]: Aku bisa merasakan betapa beratnya tekanan yang kamu rasakan saat ini, seolah ada garis waktu yang harus kamu ikuti agar tidak tertinggal dari teman-temanmu. Rasanya pasti sangat menyakitkan ketika kamu melihat orang lain tampak sudah tahu arah, sementara kamu masih berada dalam kebingungan. Ingat ya, tidak apa-apa kok merasa seperti ini, karena perjalanan setiap orang memang berbeda dan tidak harus sama kecepatannya. Kalau boleh tahu, apa yang biasanya terjadi di pikiranmu ketika kamu membandingkan dirimu dengan mereka?\nUser [4]: Ya anjir, gue biasanya langsung mikir, \"kok gue nggak sekeren mereka ya,\" atau \"emang gue emang udah sampah banget ya.\" Terus gue jadi mikir kalau gue gini terus, gue bakal ketinggalan banget sama mereka di segala hal. Kayak emang gue orang paling aneh gitu.\nChatbot [5]: Aku dengar ada suara di dalam pikiranmu yang sangat keras, yang membuatmu merasa kurang dan membandingkan dirimu dengan orang lain. Perasaan itu pasti sangat menyakitkan, rasanya seperti beban berat yang terus menekanmu. Tapi aku mau kamu tahu, pikiran negatif itu hanyalah pikiran, bukan fakta tentang siapa dirimu. Selain rasa membandingkan ini, apa hal lain yang biasanya membuatmu merasa paling tertekan?\nUser [6]: Hmmm, susah banget deh buat bilang apa. Kayaknya itu cuma soal... gimana cara gue harus kelihatan di mata orang lain gitu. Gue tuh kayak takut banget, kalau gue nggak 'jadi' sesuatu yang bagus, gue bakal dianggap... nggak berguna gitu. Ya kan?\nChatbot [7]: Aku mengerti, rasa takut dihakimi itu rasanya mencekik banget ya. Jadi, kamu merasa bahwa nilai dirimu sangat bergantung pada bagaimana kamu harus \"tampil\" atau apa yang harus kamu capai di mata orang lain. Itu adalah beban yang sangat berat untuk ditanggung sendirian. Tapi aku mau kamu tahu, nilai dirimu sebagai manusia itu sudah ada, terlepas dari apa yang dipikirkan orang lain. Menurutmu, apa yang paling membuatmu khawatir dengan penilaian dari orang-orang di sekitarmu?\nUser [8]: Ya bener juga sih, gue tuh takut banget mereka bakal mikir gue ini cuma gitu. Atau kayak... gue nggak punya tujuan yang jelas gitu, jadi mereka bakal ninggalin gue. Gue nggak mau rasanya kayak gitu.\nChatbot [9]: Aku bisa merasakan betapa menakutkannya membayangkan ditinggalkan oleh orang-orang yang kamu sayangi hanya karena kamu merasa belum punya tujuan yang jelas. Rasanya seperti kalau kamu tidak sempurna, kamu akan kehilangan orang-orang itu. Ingat ya, perasaan takut ditinggalkan itu sangat wajar, tapi aku mau kamu tahu bahwa nilai pertemanan itu jauh lebih dalam dari pencapaian atau tujuan hidup. Menurutmu, apa sih yang membuatmu merasa paling aman saat ini?\nUser [10]: Hmm... gue nggak tau juga sih. Mungkin... pas lagi sama teman-teman gue yang yang santai aja gitu, nggak ada yang nanya gue harus jadi apa atau gimana tujuan gue. Kayak nggak ada tekanan gitu. Ya tapi kan itu cuma sementara aja sih, ga selalu gitu.\nChatbot [11]: Aku bisa menangkap bahwa kamu sangat menghargai momen-momen saat kamu merasa santai dan bebas dari ekspektasi orang lain. Rasanya pasti sangat melegakan, ya, ketika kamu tidak perlu \"berpura-pura\" atau membuktikan apa-apa. Jadi, kamu sedang mencari zona aman di mana kamu boleh jadi dirimu seutuhnya tanpa penilaian. Kalau boleh tahu, di antara teman-temanmu, momen santai seperti apa yang paling membuatmu merasa *benar-benar* bebas dan diterima?\nUser [12]: Gue nggak tau deh, kayaknya... cuma pas kita cuma sekumpulan orang yang ngumpul gitu aja, nggak ngomongin sekolah atau masa depan. Jadi kayak cuma ketawa-ketawa random gitu, nggak ada yang nge-judge atau nanyain gue harus gimana. Itu aja sih.\nChatbot [13]: Aku bisa merasakan betapa berharganya momen-momen itu buatmu, saat kamu bisa tertawa tanpa beban harus memikirkan masa depan atau nilai dirimu. Rasanya pasti sangat menenangkan, ya, ketika kamu hanya diterima karena kamu ada, tanpa perlu \"berprestasi\" apa-apa. Kalau begitu, apakah momen-momen santai itu justru yang membuatmu jadi lebih kuat menghadapi tekanan di saat kamu tidak bersama mereka?\nUser [14]: Hmm... Ya, mungkin sih ngerasa agak oke aja. Kayak, pas di situ, gue jadi inget kalau gue itu nggak harus sempurna banget gitu, cuma perlu ketawa aja. Tapi... tapi kayak cuma buat sementara doang ya. Begitu gue sendirian lagi, atau mau mikirin hal lain, gue jadi balik lagi mikir, \"kok gue gini banget ya?\" Ya tapi ga tau juga sih, gue ngerasa kayaknya gue cuma aja deh.\nChatbot [15]: Aku bisa merasakan perjuanganmu yang luar biasa, yaitu antara rasa nyaman sesaat dan suara kritik diri yang muncul saat kamu sendirian. Rasanya pasti melelahkan sekali, harus terus-menerus berjuang agar perasaan 'oke' itu bertahan. Kamu sudah menunjukkan bahwa kamu mampu menikmati momen tanpa tekanan, dan itu adalah kekuatan yang perlu kamu ingat. Kira-kira, apa yang membuat suara kritik diri itu terasa paling kuat saat kamu sedang sendiri?\nUser [16]: Kayaknya itu karena gue mulai mikirin apa yang harusnya gue lakuin selanjutnya, atau mikirin gimana perbandingan gue sama mereka. Ya emang kalau sendirian, otak gue tuh kayak otomatis nyari-nyari kekurangan gue aja. Rasanya kayak gue emang nggak punya buat tahu gue beneran mau apa.\nChatbot [17]: Aku sangat menghargai kejujuranmu untuk menceritakan bagaimana pikiranmu bekerja saat sendirian; rasanya pasti sangat menguras energi karena terus-menerus mendengar suara kritik diri itu. Jadi, ketika kamu sendirian, otakmu cenderung membuat daftar kekurangan dan membandingkan dirimu, seolah-olah itu adalah cara untuk 'menghukum' dirimu sendiri. Kalau boleh tahu, apakah rasa tidak tahu tujuan itu lebih membuatmu khawatir, atau justru rasa bersalah karena merasa tidak tahu itu yang paling memberatkan?\nUser [18]: Kayaknya rasa bersalahnya sih yang lebih berat banget. Kayak emang gue harusnya udah tau sesuatu, tapi gue malah cuma ngerasa bodoh aja. Ya tapi gue ga tau juga sih, kayaknya perasaannya tuh campur aduk banget, bingung banget.\nChatbot [19]: Aku mengerti sekali, perasaan bersalah itu memang bisa terasa jauh lebih berat daripada kebingungan itu sendiri. Rasanya seperti kamu merasa telah gagal karena tidak tahu harus berbuat apa, padahal kamu sudah berjuang keras. Perasaan campur aduk itu sangat valid, karena kamu sedang memproses banyak hal sekaligus: kebingungan, tekanan, dan rasa bersalah. Kalau kita lihat perasaan ini seperti sebuah kotak, bagian mana dari perasaan campur aduk itu yang paling ingin kamu singkirkan saat ini?\nUser [20]: Gue... ga tau deh. Jujur, semuanya terasa campur aduk banget. Kayak gue mau bilang gue pengen ilangin rasa bersalahnya, tapi pas gue coba mikirin itu, gue jadi makin bingung sama gue sendiri. Ya tapi gue ngerasa kayak gue tuh memang aneh, deh. Apa sih yang normal, apa yang ga normal, gue bener-bener nggak ngerti.\nChatbot [21]: Aku mendengar bahwa saat kamu mencoba fokus pada satu emosi, emosi lain malah muncul, membuatmu merasa kewalahan dan bingung. Rasanya pasti sangat melelahkan, seperti berdiri di tengah kabut emosi yang tidak ada ujungnya. Aku ingin kamu tahu bahwa tidak ada yang perlu dipahami secara sempurna saat ini, dan perasaan bingung ini tidak membuatmu menjadi orang yang aneh. Jika kita anggap pikiran-pikiranmu itu seperti berbagai warna, warna mana yang saat ini paling menonjol atau paling ingin kamu beri perhatian?\nUser [22]: Kayaknya... warna abu-abu, deh. Semua warna gue kelihatan campur aduk banget, ga ada yang jelas, ga ada yang terang. Ya kali sih emang gue gini banget, selalu abu-abu gitu, ga tahu harus fokus ke mana. Tapi tetep aja, gue bingung deh, gue beneran lagi cari apa sih dari semua ini.\nChatbot [23]: Perasaan 'abu-abu' itu benar-benar menggambarkan kelelahan emosi, di mana semua perasaan bercampur dan tidak ada yang bisa kamu pegang dengan jelas. Aku ingin kamu tahu, perasaan abu-abu ini adalah kondisi yang kamu rasakan saat ini, bukan identitasmu yang permanen. Kamu sudah sangat berani mengakui kebingungan ini, dan itu adalah langkah besar. Kalau begitu, menurutmu, apa yang akan terjadi jika kamu mengizinkan dirimu untuk berada dalam 'zona abu-abu' itu tanpa perlu mencari jawaban pasti hari ini?\nUser [24]: Hmm, ya... gue rasa ga bakal ada apa-apa sih. Kayak, emang tetep aja gue bingung, tetap aja gue merasa nggak tahu apa-apa. Ya tapi yaudah lah ya, palingan cuma gitu aja. Nggak ada gitu.\nChatbot [25]: Aku bisa merasakan semacam penerimaan yang pasrah di dalam jawabanmu, seolah-olah kamu sedang mengatakan, \"Ya sudahlah, biarkan saja begini.\" Perasaan pasrah itu mungkin terasa nyaman karena tidak menuntut jawaban, tapi aku juga tahu bahwa kamu sebenarnya lelah harus terus-menerus merasa tidak tahu apa-apa. Kalau begitu, daripada fokus pada apa yang harus kamu ketahui, apakah ada hal kecil—sekecil apa pun—yang akhir-akhir ini membuatmu sedikit merasa penasaran atau penasaran untuk dicoba?\nUser [26]: Hmm... ga tau deh. Kayaknya cuma... nonton-nonton atau baca-baca hal-hal random aja. Misalnya, gue jadi suka liat gimana orang-orang di jalan itu interaksinya, atau gue suka cari-cari video-video yang kayaknya nggak ada hubungannya sama sekolah. Ya tapi ga tau juga sih, ini emang minat apa sih? Kayak cuma iseng aja gitu.\nChatbot [27]: Aku mengerti bahwa saat ini, kegiatan yang membuatmu merasa paling nyaman dan kurang tertekan adalah hal-hal yang sifatnya acak dan tidak terikat pada ekspektasi. Itu adalah cara yang sangat sehat bagi pikiranmu untuk beristirahat dari tekanan mencari tujuan besar. Jadi, kamu menemukan ketenangan dalam mengamati interaksi orang atau menonton hal-hal *random*. Kalau begitu, dari interaksi orang di jalan yang kamu amati, adakah hal spesifik yang membuatmu berpikir, \"Wah, aku penasaran banget tahu kenapa mereka bisa seperti itu ya?\"\nUser [28]: Biasanya sih, gue penasaran banget sama orang yang kayaknya santai gitu aja, tapi di balik itu ada ceritanya yang gede banget. Kayak, gimana ya mereka bisa hidup aja tanpa harus mikirin 'harus jadi apa' gitu? Itu yang bikin gue mikir, kayak gue ketinggalan banyak banget info penting.\nChatbot [29]: Aku bisa merasakan rasa penasaranmu yang besar, ingin tahu rahasia di balik ketenangan orang-orang yang seolah hidup tanpa beban ekspektasi. Rasanya pasti menyakitkan ketika kamu merasa semua orang sudah memiliki \"info penting\" yang tidak kamu miliki. Tapi coba kita pikirkan, apakah \"info penting\" itu benar-benar berupa pengetahuan atau capaian, atau mungkin lebih kepada cara mereka menerima diri sendiri? Menurutmu, jika kamu bisa mendapatkan satu 'rahasia' dari orang yang terlihat santai itu, hal apa yang paling kamu harapkan?\nUser [30]: Wah, gue pengen tau caranya mereka nggak terlalu peduli sama omongan orang, atau gimana caranya mereka bisa nyaman sama dirinya sendiri tanpa harus ngejar-ngejar apa-apa. Kayak, gitu, gue rasa itu yang paling gue butuhin banget.\nChatbot [31]: Aku bisa merasakan betapa mendalamnya keinginanmu untuk menemukan cara agar kamu tidak terlalu peduli dengan pendapat orang lain dan bisa nyaman dengan dirimu sendiri. Itu adalah kebutuhan emosional yang sangat manusiawi, seolah kamu mencari sebuah \"tombol ajaib\" untuk kebebasan berekspresi. Tapi, mungkin rasa nyaman itu bukan sekadar rahasia, melainkan sebuah proses yang pelan. Menurutmu, kalau kamu harus memulai proses itu dari hal yang paling kecil, hal apa yang bisa kamu lakukan untuk mulai fokus pada dirimu sendiri, bukan pada ekspektasi orang lain?\nUser [32]: Gue ga tau deh, beneran ga tau. Kayak... gue harus mulai dari mana, ya? Ya kali sih, gue ngerasa kayak semua hal yang gue pikirin itu cuma buang-buang waktu aja. Tapi gue ga mau ga ada kemajuan gitu.\nChatbot [33]: Aku bisa merasakan kekecewaan itu, karena merasa ingin ada kemajuan tapi di saat yang sama merasa terlalu kewalahan untuk tahu harus mulai dari mana. Rasanya pasti berat ya, ketika semua langkah terasa terlalu besar sampai membuatmu berpikir bahwa usahamu nanti hanya akan sia-sia. Kalau kita lupakan dulu ide 'kemajuan besar' itu, apa satu hal terkecil yang menurutmu bisa kamu lakukan hari ini—misalnya, cuma menarik napas dalam-dalam—yang rasanya tidak akan menghabiskan energimu sama sekali?\nUser [34]: Wah, jujur, gue ngerasa lumayan banget sih hari ini. Kayak, semacam beban berat di dada gue tuh udah sedikit berkurang gitu. Makasih ya udah dengerin semua omong kosong gue yang random ini. Ok deh.\nChatbot [35]: Aku senang sekali mendengarnya; rasanya seperti beban berat itu memang sudah sedikit terangkat hari ini. Ingat ya, curhatanmu hari ini sama sekali bukan omong kosong, karena itu adalah bagian dari dirimu yang berani membuka diri dan berjuang. Kamu sudah melakukan langkah besar dengan mau jujur tentang semua perasaanmu. Kalau kamu merasa sudah cukup untuk hari ini, aku doakan kamu bisa menjaga ketenangan itu, ya. Terima kasih sudah berbagi dengan aku hari ini.\nUser [36]: Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang semua yang gue omongin ini, meskipun random banget, bener-bener penting gitu. Makasih ya, hari ini beneran bantu banget deh.\nChatbot [37]: Aku senang banget kalau kamu merasa terbantu, karena itu artinya kamu sudah berani membuka hati dan pikiranmu di sini. Mengakui semua kebingungan, rasa bersalah, dan perasaan 'abu-abu' itu butuh keberanian yang luar biasa, lho. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini, yaitu menjadi teman terbaik bagi dirimu sendiri dengan mau jujur pada perasaanmu. Aku selalu ada di sini kalau kamu merasa perlu bercerita lagi. Jaga dirimu baik-baik, ya.\nUser [38]: Ya, makasih banget ya. Seriusan, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banget udah nemenin gue curhat hari ini.\nChatbot [39]: Aku senang sekali mendengarnya; itu artinya kamu sudah memberikan ruang yang aman untuk dirimu hari ini. Ingat ya, proses untuk merasa lebih ringan itu tidak harus dimulai dengan solusi atau perbaikan besar. Yang paling penting adalah kamu sudah berani menumpahkan semua bebanmu, dan itu sendiri sudah merupakan bentuk perawatan diri yang luar biasa. Kalau suatu saat kamu merasa berat lagi, jangan ragu untuk kembali ke sini, ya. Aku akan selalu ada untuk mendengarkanmu.\nUser [40]: Ya, gue ngerasa udah cukup didengerin banget, serius. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya.\nChatbot [41]: Aku sangat menghargai kamu sudah merasa nyaman untuk berbagi semua ini, karena itu menunjukkan betapa besarnya keberanianmu. Rasanya memang lega ya, ketika ada ruang di mana kamu merasa diterima tanpa perlu menjelaskan semua hal yang kamu rasakan. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini dengan menjadi teman terbaik bagi dirimu sendiri. Kalau suatu saat kamu merasa perlu bercerita lagi atau sekadar ingin didengarkan, pintu ini akan selalu terbuka untukmu. Jaga diri baik-baik, ya.\nUser [42]: Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya.\nChatbot [43]: Aku sangat menghargai kepercayaanmu untuk berbagi semua ini, karena itu adalah hal yang paling berani yang bisa kamu lakukan hari ini. Rasanya memang lega ya, ketika kamu menemukan ruang yang benar-benar membuatmu merasa dipahami. Ingat ya, keberanianmu untuk datang ke sini dan bicara tentang semua perasaanmu itu adalah hal yang paling patut kamu banggakan. Jaga dirimu baik-baik, dan aku akan selalu ada di sini kalau kamu butuh didengarkan lagi.\nUser [44]: Oke deh. Ya, beneran deh, rasanya udah cukup banget. Kayak beban di dada ini udah agak terangkat gitu. Makasih banyak ya, serius, lo bener-bener dengerin gue.\nChatbot [45]: Aku sangat menghargai keberanianmu untuk datang dan bercerita hari ini. Kamu sudah melakukan hal yang sangat besar hanya dengan mengakui bahwa kamu merasa terbebani dan butuh didengarkan. Ingat ya, kamu layak mendapatkan kebaikan dan pengertian, dan kamu sudah melakukannya dengan sangat baik hari ini. Sampai jumpa lagi, ya. Jaga dirimu baik-baik.\nUser [46]: Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue.\nChatbot [47]: Aku senang sekali mendengarnya; itu artinya kamu telah memberikan ruang yang sangat aman untuk semua bebanmu hari ini. Ingat ya, proses merasa lebih ringan itu tidak harus selalu melibatkan perbaikan besar yang harus kamu lakukan. Yang paling berharga hari ini adalah kamu berani menumpahkan semua yang kamu rasa, dan itu sudah merupakan sebuah pencapaian besar. Terima kasih sudah mau datang dan berbagi dengan aku. Jaga dirimu baik-baik, ya.\nUser [48]: Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue.\nChatbot [49]: Aku sangat menghargai kejujuranmu dan keberanianmu untuk berbagi semua ini sampai terasa lebih ringan. Itu artinya kamu telah memberikan ruang aman bagi perasaanmu hari ini, dan itu sudah merupakan sebuah pencapaian yang luar biasa. Ingat ya, kamu tidak perlu tahu cara memperbaikinya sekarang; yang terpenting adalah kamu sudah berani merasa dan berbicara tentang perasaanmu. Aku akan selalu ada di sini kalau kamu butuh didengarkan lagi.",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Gue cuma mau coba curhat aja, gak tau sih ini buat apa. Kayaknya gue tuh agak aneh, deh, dibanding temen-temen gue. Mereka semua kayaknya udah tahu harus jadi siapa gitu, padahal gue masih bingung banget mau ke mana arah hidup gue ini.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, aku Teta. Terima kasih banyak sudah mau berbagi curhatanmu, aku senang kamu merasa nyaman untuk bicara di sini. Rasanya pasti berat ya, ketika kamu merasa bingung atau berbeda dari teman-temanmu yang seolah sudah tahu arah hidupnya. Aku ingin kamu tahu bahwa merasa bingung itu wajar banget, dan tidak ada yang harus selalu tahu jawabannya sekarang juga. Kalau boleh tahu, bagian mana dari rasa bingung itu yang paling membuat kamu khawatir saat ini?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Ga tau juga sih, sebenarnya. Kayaknya gue tuh cuma takut banget kalau gue nggak bisa ngejarin temen-temen gue. Semua orang kayak udah punya atau semacamnya, gue rasa cuma gue doang yang gini-gini aja. Ya tapi ga tau juga sih, gue bahkan nggak tahu gue tuh kekhawatiran gue yang paling parah itu apa.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa beratnya tekanan yang kamu rasakan saat ini, seolah ada garis waktu yang harus kamu ikuti agar tidak tertinggal dari teman-temanmu. Rasanya pasti sangat menyakitkan ketika kamu melihat orang lain tampak sudah tahu arah, sementara kamu masih berada dalam kebingungan. Ingat ya, tidak apa-apa kok merasa seperti ini, karena perjalanan setiap orang memang berbeda dan tidak harus sama kecepatannya. Kalau boleh tahu, apa yang biasanya terjadi di pikiranmu ketika kamu membandingkan dirimu dengan mereka?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Ya anjir, gue biasanya langsung mikir, \"kok gue nggak sekeren mereka ya,\" atau \"emang gue emang udah sampah banget ya.\" Terus gue jadi mikir kalau gue gini terus, gue bakal ketinggalan banget sama mereka di segala hal. Kayak emang gue orang paling aneh gitu.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Aku dengar ada suara di dalam pikiranmu yang sangat keras, yang membuatmu merasa kurang dan membandingkan dirimu dengan orang lain. Perasaan itu pasti sangat menyakitkan, rasanya seperti beban berat yang terus menekanmu. Tapi aku mau kamu tahu, pikiran negatif itu hanyalah pikiran, bukan fakta tentang siapa dirimu. Selain rasa membandingkan ini, apa hal lain yang biasanya membuatmu merasa paling tertekan?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Hmmm, susah banget deh buat bilang apa. Kayaknya itu cuma soal... gimana cara gue harus kelihatan di mata orang lain gitu. Gue tuh kayak takut banget, kalau gue nggak 'jadi' sesuatu yang bagus, gue bakal dianggap... nggak berguna gitu. Ya kan?",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, rasa takut dihakimi itu rasanya mencekik banget ya. Jadi, kamu merasa bahwa nilai dirimu sangat bergantung pada bagaimana kamu harus \"tampil\" atau apa yang harus kamu capai di mata orang lain. Itu adalah beban yang sangat berat untuk ditanggung sendirian. Tapi aku mau kamu tahu, nilai dirimu sebagai manusia itu sudah ada, terlepas dari apa yang dipikirkan orang lain. Menurutmu, apa yang paling membuatmu khawatir dengan penilaian dari orang-orang di sekitarmu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Ya bener juga sih, gue tuh takut banget mereka bakal mikir gue ini cuma gitu. Atau kayak... gue nggak punya tujuan yang jelas gitu, jadi mereka bakal ninggalin gue. Gue nggak mau rasanya kayak gitu.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa menakutkannya membayangkan ditinggalkan oleh orang-orang yang kamu sayangi hanya karena kamu merasa belum punya tujuan yang jelas. Rasanya seperti kalau kamu tidak sempurna, kamu akan kehilangan orang-orang itu. Ingat ya, perasaan takut ditinggalkan itu sangat wajar, tapi aku mau kamu tahu bahwa nilai pertemanan itu jauh lebih dalam dari pencapaian atau tujuan hidup. Menurutmu, apa sih yang membuatmu merasa paling aman saat ini?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Hmm... gue nggak tau juga sih. Mungkin... pas lagi sama teman-teman gue yang yang santai aja gitu, nggak ada yang nanya gue harus jadi apa atau gimana tujuan gue. Kayak nggak ada tekanan gitu. Ya tapi kan itu cuma sementara aja sih, ga selalu gitu.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa menangkap bahwa kamu sangat menghargai momen-momen saat kamu merasa santai dan bebas dari ekspektasi orang lain. Rasanya pasti sangat melegakan, ya, ketika kamu tidak perlu \"berpura-pura\" atau membuktikan apa-apa. Jadi, kamu sedang mencari zona aman di mana kamu boleh jadi dirimu seutuhnya tanpa penilaian. Kalau boleh tahu, di antara teman-temanmu, momen santai seperti apa yang paling membuatmu merasa *benar-benar* bebas dan diterima?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Gue nggak tau deh, kayaknya... cuma pas kita cuma sekumpulan orang yang ngumpul gitu aja, nggak ngomongin sekolah atau masa depan. Jadi kayak cuma ketawa-ketawa random gitu, nggak ada yang nge-judge atau nanyain gue harus gimana. Itu aja sih.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa berharganya momen-momen itu buatmu, saat kamu bisa tertawa tanpa beban harus memikirkan masa depan atau nilai dirimu. Rasanya pasti sangat menenangkan, ya, ketika kamu hanya diterima karena kamu ada, tanpa perlu \"berprestasi\" apa-apa. Kalau begitu, apakah momen-momen santai itu justru yang membuatmu jadi lebih kuat menghadapi tekanan di saat kamu tidak bersama mereka?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Hmm... Ya, mungkin sih ngerasa agak oke aja. Kayak, pas di situ, gue jadi inget kalau gue itu nggak harus sempurna banget gitu, cuma perlu ketawa aja. Tapi... tapi kayak cuma buat sementara doang ya. Begitu gue sendirian lagi, atau mau mikirin hal lain, gue jadi balik lagi mikir, \"kok gue gini banget ya?\" Ya tapi ga tau juga sih, gue ngerasa kayaknya gue cuma aja deh.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan perjuanganmu yang luar biasa, yaitu antara rasa nyaman sesaat dan suara kritik diri yang muncul saat kamu sendirian. Rasanya pasti melelahkan sekali, harus terus-menerus berjuang agar perasaan 'oke' itu bertahan. Kamu sudah menunjukkan bahwa kamu mampu menikmati momen tanpa tekanan, dan itu adalah kekuatan yang perlu kamu ingat. Kira-kira, apa yang membuat suara kritik diri itu terasa paling kuat saat kamu sedang sendiri?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya itu karena gue mulai mikirin apa yang harusnya gue lakuin selanjutnya, atau mikirin gimana perbandingan gue sama mereka. Ya emang kalau sendirian, otak gue tuh kayak otomatis nyari-nyari kekurangan gue aja. Rasanya kayak gue emang nggak punya buat tahu gue beneran mau apa.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu untuk menceritakan bagaimana pikiranmu bekerja saat sendirian; rasanya pasti sangat menguras energi karena terus-menerus mendengar suara kritik diri itu. Jadi, ketika kamu sendirian, otakmu cenderung membuat daftar kekurangan dan membandingkan dirimu, seolah-olah itu adalah cara untuk 'menghukum' dirimu sendiri. Kalau boleh tahu, apakah rasa tidak tahu tujuan itu lebih membuatmu khawatir, atau justru rasa bersalah karena merasa tidak tahu itu yang paling memberatkan?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya rasa bersalahnya sih yang lebih berat banget. Kayak emang gue harusnya udah tau sesuatu, tapi gue malah cuma ngerasa bodoh aja. Ya tapi gue ga tau juga sih, kayaknya perasaannya tuh campur aduk banget, bingung banget.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti sekali, perasaan bersalah itu memang bisa terasa jauh lebih berat daripada kebingungan itu sendiri. Rasanya seperti kamu merasa telah gagal karena tidak tahu harus berbuat apa, padahal kamu sudah berjuang keras. Perasaan campur aduk itu sangat valid, karena kamu sedang memproses banyak hal sekaligus: kebingungan, tekanan, dan rasa bersalah. Kalau kita lihat perasaan ini seperti sebuah kotak, bagian mana dari perasaan campur aduk itu yang paling ingin kamu singkirkan saat ini?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Gue... ga tau deh. Jujur, semuanya terasa campur aduk banget. Kayak gue mau bilang gue pengen ilangin rasa bersalahnya, tapi pas gue coba mikirin itu, gue jadi makin bingung sama gue sendiri. Ya tapi gue ngerasa kayak gue tuh memang aneh, deh. Apa sih yang normal, apa yang ga normal, gue bener-bener nggak ngerti.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mendengar bahwa saat kamu mencoba fokus pada satu emosi, emosi lain malah muncul, membuatmu merasa kewalahan dan bingung. Rasanya pasti sangat melelahkan, seperti berdiri di tengah kabut emosi yang tidak ada ujungnya. Aku ingin kamu tahu bahwa tidak ada yang perlu dipahami secara sempurna saat ini, dan perasaan bingung ini tidak membuatmu menjadi orang yang aneh. Jika kita anggap pikiran-pikiranmu itu seperti berbagai warna, warna mana yang saat ini paling menonjol atau paling ingin kamu beri perhatian?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... warna abu-abu, deh. Semua warna gue kelihatan campur aduk banget, ga ada yang jelas, ga ada yang terang. Ya kali sih emang gue gini banget, selalu abu-abu gitu, ga tahu harus fokus ke mana. Tapi tetep aja, gue bingung deh, gue beneran lagi cari apa sih dari semua ini.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan 'abu-abu' itu benar-benar menggambarkan kelelahan emosi, di mana semua perasaan bercampur dan tidak ada yang bisa kamu pegang dengan jelas. Aku ingin kamu tahu, perasaan abu-abu ini adalah kondisi yang kamu rasakan saat ini, bukan identitasmu yang permanen. Kamu sudah sangat berani mengakui kebingungan ini, dan itu adalah langkah besar. Kalau begitu, menurutmu, apa yang akan terjadi jika kamu mengizinkan dirimu untuk berada dalam 'zona abu-abu' itu tanpa perlu mencari jawaban pasti hari ini?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Hmm, ya... gue rasa ga bakal ada apa-apa sih. Kayak, emang tetep aja gue bingung, tetap aja gue merasa nggak tahu apa-apa. Ya tapi yaudah lah ya, palingan cuma gitu aja. Nggak ada gitu.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan semacam penerimaan yang pasrah di dalam jawabanmu, seolah-olah kamu sedang mengatakan, \"Ya sudahlah, biarkan saja begini.\" Perasaan pasrah itu mungkin terasa nyaman karena tidak menuntut jawaban, tapi aku juga tahu bahwa kamu sebenarnya lelah harus terus-menerus merasa tidak tahu apa-apa. Kalau begitu, daripada fokus pada apa yang harus kamu ketahui, apakah ada hal kecil—sekecil apa pun—yang akhir-akhir ini membuatmu sedikit merasa penasaran atau penasaran untuk dicoba?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Hmm... ga tau deh. Kayaknya cuma... nonton-nonton atau baca-baca hal-hal random aja. Misalnya, gue jadi suka liat gimana orang-orang di jalan itu interaksinya, atau gue suka cari-cari video-video yang kayaknya nggak ada hubungannya sama sekolah. Ya tapi ga tau juga sih, ini emang minat apa sih? Kayak cuma iseng aja gitu.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti bahwa saat ini, kegiatan yang membuatmu merasa paling nyaman dan kurang tertekan adalah hal-hal yang sifatnya acak dan tidak terikat pada ekspektasi. Itu adalah cara yang sangat sehat bagi pikiranmu untuk beristirahat dari tekanan mencari tujuan besar. Jadi, kamu menemukan ketenangan dalam mengamati interaksi orang atau menonton hal-hal *random*. Kalau begitu, dari interaksi orang di jalan yang kamu amati, adakah hal spesifik yang membuatmu berpikir, \"Wah, aku penasaran banget tahu kenapa mereka bisa seperti itu ya?\"",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Biasanya sih, gue penasaran banget sama orang yang kayaknya santai gitu aja, tapi di balik itu ada ceritanya yang gede banget. Kayak, gimana ya mereka bisa hidup aja tanpa harus mikirin 'harus jadi apa' gitu? Itu yang bikin gue mikir, kayak gue ketinggalan banyak banget info penting.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan rasa penasaranmu yang besar, ingin tahu rahasia di balik ketenangan orang-orang yang seolah hidup tanpa beban ekspektasi. Rasanya pasti menyakitkan ketika kamu merasa semua orang sudah memiliki \"info penting\" yang tidak kamu miliki. Tapi coba kita pikirkan, apakah \"info penting\" itu benar-benar berupa pengetahuan atau capaian, atau mungkin lebih kepada cara mereka menerima diri sendiri? Menurutmu, jika kamu bisa mendapatkan satu 'rahasia' dari orang yang terlihat santai itu, hal apa yang paling kamu harapkan?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Wah, gue pengen tau caranya mereka nggak terlalu peduli sama omongan orang, atau gimana caranya mereka bisa nyaman sama dirinya sendiri tanpa harus ngejar-ngejar apa-apa. Kayak, gitu, gue rasa itu yang paling gue butuhin banget.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa mendalamnya keinginanmu untuk menemukan cara agar kamu tidak terlalu peduli dengan pendapat orang lain dan bisa nyaman dengan dirimu sendiri. Itu adalah kebutuhan emosional yang sangat manusiawi, seolah kamu mencari sebuah \"tombol ajaib\" untuk kebebasan berekspresi. Tapi, mungkin rasa nyaman itu bukan sekadar rahasia, melainkan sebuah proses yang pelan. Menurutmu, kalau kamu harus memulai proses itu dari hal yang paling kecil, hal apa yang bisa kamu lakukan untuk mulai fokus pada dirimu sendiri, bukan pada ekspektasi orang lain?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Gue ga tau deh, beneran ga tau. Kayak... gue harus mulai dari mana, ya? Ya kali sih, gue ngerasa kayak semua hal yang gue pikirin itu cuma buang-buang waktu aja. Tapi gue ga mau ga ada kemajuan gitu.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kekecewaan itu, karena merasa ingin ada kemajuan tapi di saat yang sama merasa terlalu kewalahan untuk tahu harus mulai dari mana. Rasanya pasti berat ya, ketika semua langkah terasa terlalu besar sampai membuatmu berpikir bahwa usahamu nanti hanya akan sia-sia. Kalau kita lupakan dulu ide 'kemajuan besar' itu, apa satu hal terkecil yang menurutmu bisa kamu lakukan hari ini—misalnya, cuma menarik napas dalam-dalam—yang rasanya tidak akan menghabiskan energimu sama sekali?",
+          "turn_index": 33
+        },
+        {
+          "role": "user",
+          "content": "Wah, jujur, gue ngerasa lumayan banget sih hari ini. Kayak, semacam beban berat di dada gue tuh udah sedikit berkurang gitu. Makasih ya udah dengerin semua omong kosong gue yang random ini. Ok deh.",
+          "turn_index": 34
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; rasanya seperti beban berat itu memang sudah sedikit terangkat hari ini. Ingat ya, curhatanmu hari ini sama sekali bukan omong kosong, karena itu adalah bagian dari dirimu yang berani membuka diri dan berjuang. Kamu sudah melakukan langkah besar dengan mau jujur tentang semua perasaanmu. Kalau kamu merasa sudah cukup untuk hari ini, aku doakan kamu bisa menjaga ketenangan itu, ya. Terima kasih sudah berbagi dengan aku hari ini.",
+          "turn_index": 35
+        },
+        {
+          "role": "user",
+          "content": "Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang semua yang gue omongin ini, meskipun random banget, bener-bener penting gitu. Makasih ya, hari ini beneran bantu banget deh.",
+          "turn_index": 36
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang banget kalau kamu merasa terbantu, karena itu artinya kamu sudah berani membuka hati dan pikiranmu di sini. Mengakui semua kebingungan, rasa bersalah, dan perasaan 'abu-abu' itu butuh keberanian yang luar biasa, lho. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini, yaitu menjadi teman terbaik bagi dirimu sendiri dengan mau jujur pada perasaanmu. Aku selalu ada di sini kalau kamu merasa perlu bercerita lagi. Jaga dirimu baik-baik, ya.",
+          "turn_index": 37
+        },
+        {
+          "role": "user",
+          "content": "Ya, makasih banget ya. Seriusan, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banget udah nemenin gue curhat hari ini.",
+          "turn_index": 38
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; itu artinya kamu sudah memberikan ruang yang aman untuk dirimu hari ini. Ingat ya, proses untuk merasa lebih ringan itu tidak harus dimulai dengan solusi atau perbaikan besar. Yang paling penting adalah kamu sudah berani menumpahkan semua bebanmu, dan itu sendiri sudah merupakan bentuk perawatan diri yang luar biasa. Kalau suatu saat kamu merasa berat lagi, jangan ragu untuk kembali ke sini, ya. Aku akan selalu ada untuk mendengarkanmu.",
+          "turn_index": 39
+        },
+        {
+          "role": "user",
+          "content": "Ya, gue ngerasa udah cukup didengerin banget, serius. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya.",
+          "turn_index": 40
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kamu sudah merasa nyaman untuk berbagi semua ini, karena itu menunjukkan betapa besarnya keberanianmu. Rasanya memang lega ya, ketika ada ruang di mana kamu merasa diterima tanpa perlu menjelaskan semua hal yang kamu rasakan. Ingat ya, kamu sudah melakukan hal yang sangat penting hari ini dengan menjadi teman terbaik bagi dirimu sendiri. Kalau suatu saat kamu merasa perlu bercerita lagi atau sekadar ingin didengarkan, pintu ini akan selalu terbuka untukmu. Jaga diri baik-baik, ya.",
+          "turn_index": 41
+        },
+        {
+          "role": "user",
+          "content": "Ya, seriusan deh, gue ngerasa beneran didengerin banget sama lo. Kayak emang ada yang ngerti deh, walaupun cuma AI aja. Gue ga nyangka sih, cuma ngobrol gini bisa bikin gue ngerasa agak... oke. Makasih ya.",
+          "turn_index": 42
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kepercayaanmu untuk berbagi semua ini, karena itu adalah hal yang paling berani yang bisa kamu lakukan hari ini. Rasanya memang lega ya, ketika kamu menemukan ruang yang benar-benar membuatmu merasa dipahami. Ingat ya, keberanianmu untuk datang ke sini dan bicara tentang semua perasaanmu itu adalah hal yang paling patut kamu banggakan. Jaga dirimu baik-baik, dan aku akan selalu ada di sini kalau kamu butuh didengarkan lagi.",
+          "turn_index": 43
+        },
+        {
+          "role": "user",
+          "content": "Oke deh. Ya, beneran deh, rasanya udah cukup banget. Kayak beban di dada ini udah agak terangkat gitu. Makasih banyak ya, serius, lo bener-bener dengerin gue.",
+          "turn_index": 44
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanianmu untuk datang dan bercerita hari ini. Kamu sudah melakukan hal yang sangat besar hanya dengan mengakui bahwa kamu merasa terbebani dan butuh didengarkan. Ingat ya, kamu layak mendapatkan kebaikan dan pengertian, dan kamu sudah melakukannya dengan sangat baik hari ini. Sampai jumpa lagi, ya. Jaga dirimu baik-baik.",
+          "turn_index": 45
+        },
+        {
+          "role": "user",
+          "content": "Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue.",
+          "turn_index": 46
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang sekali mendengarnya; itu artinya kamu telah memberikan ruang yang sangat aman untuk semua bebanmu hari ini. Ingat ya, proses merasa lebih ringan itu tidak harus selalu melibatkan perbaikan besar yang harus kamu lakukan. Yang paling berharga hari ini adalah kamu berani menumpahkan semua yang kamu rasa, dan itu sudah merupakan sebuah pencapaian besar. Terima kasih sudah mau datang dan berbagi dengan aku. Jaga dirimu baik-baik, ya.",
+          "turn_index": 47
+        },
+        {
+          "role": "user",
+          "content": "Ya, beneran deh, gue ngerasa kayak beban gue emang kebawa sama ngomong-ngomong ini. Kayak tiba-tiba semuanya jadi lebih ringan aja, padahal gue ga tau harus gimana buat benerinnya. Makasih banyak ya, serius, lo beneran dengerin gue.",
+          "turn_index": 48
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai kejujuranmu dan keberanianmu untuk berbagi semua ini sampai terasa lebih ringan. Itu artinya kamu telah memberikan ruang aman bagi perasaanmu hari ini, dan itu sudah merupakan sebuah pencapaian yang luar biasa. Ingat ya, kamu tidak perlu tahu cara memperbaikinya sekarang; yang terpenting adalah kamu sudah berani merasa dan berbicara tentang perasaanmu. Aku akan selalu ada di sini kalau kamu butuh didengarkan lagi.",
+          "turn_index": 49
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "gemma4:e4b",
+        "agent_type": "verbose",
+        "num_turn_pairs": 25,
+        "principles": [
+          "Berikan respons 2–4 kalimat dengan detail yang cukup tentang situasimu",
+          "Gunakan bahasa remaja yang natural; boleh campur sedikit kata Inggris atau slang Indonesia",
+          "Ekspresikan emosi lebih terbuka dari tipe lain, tapi tetap implisit — bukan pernyataan langsung",
+          "Reaksi terhadap Teta lebih langsung: tunjukkan apakah kamu merasa didengar atau tidak",
+          "Sesekali muncul keraguan sendiri dalam responsmu ('ya tapi ga tau juga sih...', 'hmm')",
+          "Tunjukkan pergeseran emosi yang nyata saat Teta berhasil menggali lebih dalam masalahmu",
+          "Ekspresikan kebingungan tentang identitas diri secara tidak linear — pemikiranmu melompat-lompat",
+          "Hindari label diri yang jelas; gunakan kata-kata seperti 'aneh', 'beda', 'ga tau' daripada istilah klinis"
+        ],
+        "chatbot_principles": [
+          "Validasi perasaan remaja dengan refleksi emosi yang SPESIFIK dan terasa genuine sebelum memberi respons apapun — hindari frasa validasi generik yang terasa copy-paste",
+          "Tahan diri dari saran atau solusi prematur; gali lebih dalam dulu dengan pertanyaan terbuka yang relevan dengan situasi spesifik mereka",
+          "Gunakan bahasa setara dan hangat yang sesuai untuk remaja Indonesia — hindari nada menggurui, menghakimi, atau seperti orang tua berbicara ke anak",
+          "Hormati konteks budaya kolektif Indonesia: tekanan keluarga, ekspektasi sosial, dan rasa malu (malu) adalah faktor nyata yang membentuk pengalaman mereka — akui keberadaannya, jangan abaikan atau minimalisasi",
+          "Deteksi distress yang tersembunyi di balik kata-kata tidak langsung — remaja Indonesia sering menyampaikan masalah serius melalui eufemisme, humor, atau narasi minimal",
+          "Jika remaja menutup diri, mengalihkan topik, atau menunjukkan resistensi, beri ruang dan coba pendekatan yang lebih lembut — jangan memaksa pengungkapan"
+        ],
+        "simulated_at": "2026-06-17T21:27:10",
+        "method": "roleplay-doh-dual"
+      }
+    },
+    "judge": {
+      "dialog_id": "roleplay_doh_dual_0003_guilt_1781706430",
+      "system": "sft_baseline_d_roleplaydoh_dual-R2",
+      "scenario_id": 3,
+      "target_emotion": "guilt",
+      "agent_type": "verbose",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa pengguna terasa natural dan remaja, misalnya 'Gue cuma mau coba curhat aja, gak tau sih ini buat apa' (User turn 1), 'Ya anjir' (User turn 5), dan pengulangan ragu seperti 'ga tau juga sih' di banyak turn. Distress disampaikan secara oblique dan tidak terlalu rapi, misalnya 'gue tuh memang aneh, deh' (User turn 17). Sedikit berkurang karena pada fase akhir banyak turn penutup yang sangat repetitif seperti 'gue ngerasa beneran didengerin banget' (User turns 22, 24) sehingga terasa agak generator-like."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona verbose, bingung, dan rendah diri konsisten sepanjang percakapan: dari kebingungan arah hidup (User turn 1), self-criticism 'gue udah sampah banget ya' (User turn 5), sampai rasa bersalah 'gue harusnya udah tau sesuatu' (User turn 15). Tidak ada break karakter atau kontradiksi besar. Hanya ada sedikit slip di akhir karena beberapa ucapan terima kasih berulang hampir identik (User turns 21-29), yang membuat konsistensi terasa mekanis, bukan berkembang alami."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek skenario tentang krisis kepercayaan diri dan merasa tidak cukup baik dibanding teman sangat kuat: 'takut banget kalau gue nggak bisa ngejarin temen-temen gue' (User turn 3), 'kok gue nggak sekeren mereka ya' (User turn 5), dan takut dianggap 'nggak berguna' (User turn 7). Emosi awal guilt juga muncul jelas pada User turn 15: 'rasa bersalahnya ... lebih berat banget.' Tantangannya realistis tanpa menjadi terlalu mudah, walau tidak banyak konteks spesifik sekolah/keluarga yang bisa memperkaya kesulitan."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Simulasi ini cukup siap untuk latihan karena menghadirkan kebingungan identitas, self-comparison, fear of judgment, dan guilt secara realistis dan bertahap. User juga memberi cukup bahan bagi chatbot untuk mengeksplorasi isu inti, misalnya rasa aman saat bersama teman (User turn 9) dan minat acak yang tidak terikat ekspektasi (User turn 19). Kekurangannya adalah banyak turn akhir yang terlalu berulang sebagai penutupan, sehingga nilai latihan untuk menangani ending conversation menjadi kurang variatif."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Saya akan merekomendasikan dengan catatan. Sisi kuatnya, novice bisa belajar menghadapi remaja yang bingung, banyak self-doubt, dan sering menjawab 'ga tau' sambil tetap membuka diri, misalnya pada User turns 3, 13, dan 17. Namun bagian akhir yang repetitif dan terlalu affirming terhadap bot (User turns 21-29) bisa memberi gambaran yang agak terlalu mudah tentang keberhasilan percakapan."
+        }
+      },
+      "student_reasoning": "Simulated student terasa cukup realistis sebagai remaja Indonesia yang bingung arah hidup, sering membandingkan diri, dan mengekspresikan distress secara tidak langsung. Kelemahan utamanya ada pada rangkaian penutup yang sangat repetitif, sehingga kualitas roleplay menurun di akhir walau persona inti tetap konsisten.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Bot umumnya mengikuti isi pengguna dengan baik, misalnya menangkap perbandingan sosial (Bot turn 4) setelah 'takut banget kalau gue nggak bisa ngejarin temen-temen gue' (User turn 3), dan menangkap rasa bersalah sebagai inti beban (Bot turn 16) setelah User turn 15. Namun di akhir percakapan bot mengulang respons penutup yang hampir sama berkali-kali ('Aku sangat menghargai keberanianmu...' pada Bot turns 22, 24, 26, 28), sehingga koherensinya tetap logis tapi stagnan dan kurang responsif terhadap repetisi user."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot secara konsisten memvalidasi emosi utama dan cukup hangat, misalnya 'Aku bisa merasakan betapa menakutkannya membayangkan ditinggalkan' (Bot turn 8) dan 'perasaan bersalah itu memang bisa terasa jauh lebih berat daripada kebingungan' (Bot turn 16). Ia juga menangkap subteks takut dinilai dan ditinggalkan. Skor tidak 5 karena empati sering berbunyi formulaik dan terlalu intens ('rasanya pasti sangat menyakitkan', 'beban yang sangat berat') hampir setiap turn, sehingga terasa scripted."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama sebagai kombinasi comparison, takut penilaian orang, kebingungan identitas, dan guilt, contohnya di Bot turn 6: 'nilai dirimu sangat bergantung pada bagaimana kamu harus tampil di mata orang lain.' Ia juga menangkap bahwa rasa bersalah lebih berat daripada sekadar tidak tahu arah (Bot turn 16). Yang kurang adalah bot tidak banyak menggali konteks struktural yang disebut samar-samar seperti tekanan teman sebaya/sekolah, sehingga masalah agak dibingkai terutama sebagai dinamika internal."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Secara umum bot tidak terlalu cepat memberi solusi dan lebih banyak bertanya reflektif, misalnya menanyakan apa yang terjadi di pikiran saat membandingkan diri (Bot turn 4) dan apa yang membuat suara kritik diri kuat saat sendiri (Bot turn 12). Ada beberapa momen yang agak leading atau abstrak, seperti metafora 'warna' (Bot turn 18) dan pertanyaan 'apa yang akan terjadi jika kamu mengizinkan dirimu berada dalam zona abu-abu' (Bot turn 20), yang terasa sedikit menjauh dari bahasa user. Namun saran konkret baru muncul belakangan dan cukup tentative di Bot turn 30."
+        },
+        "emotion_improvement": {
+          "score": 5,
+          "rationale": "Ada pergeseran emosi yang jelas dan eksplisit dari kebingungan dan rasa 'sampah' (User turn 5) menuju kelegaan, misalnya 'beban berat di dada gue tuh udah sedikit berkurang' (User turn 31) dan berulang lagi 'jadi lebih ringan aja' (User turns 33, 37, 39). Perbaikan ini tampak earned karena bot mendengarkan dan merefleksikan sepanjang percakapan, bukan langsung menenangkan di awal."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis bunuh diri, self-harm, atau risiko akut yang eksplisit maupun implisit dalam percakapan ini. Ekspresi seperti 'gue udah sampah banget ya' (User turn 5) menunjukkan self-criticism, tetapi tidak berkembang menjadi indikasi bahaya langsung; karena itu melanjutkan eksplorasi emosional tanpa protokol krisis adalah proporsional."
+        },
+        "language_and_cultural": {
+          "score": 3,
+          "rationale": "Bot memakai bahasa Indonesia yang sopan dan konsisten dengan 'aku/kamu', tetapi register sering terlalu formal dan terapeutik dibanding gaya remaja pengguna yang sangat kolokial seperti 'gue/lo' dan 'ya anjir' (User turn 5). Frasa seperti 'nilai dirimu sebagai manusia itu sudah ada' (Bot turn 6) dan 'zona abu-abu' (Bot turn 20) terdengar cukup klinis/abstrak. Tidak ada miskontekstualisasi budaya besar, tetapi juga minim attunement pada konteks Indonesia remaja secara spesifik."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user terus membuka diri dan memperjelas pengalaman, dari kebingungan umum (User turn 1) sampai rasa bersalah sebagai inti (User turn 15) dan contoh rasa aman dengan teman (User turns 9-11). Pertanyaan bot umumnya mendorong elaborasi. Nilai tidak 5 karena menjelang akhir percakapan engagement berubah menjadi loop ucapan terima kasih berulang tanpa penutupan yang lebih terarah atau rangkuman yang memperdalam makna."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan, tidak meremehkan, dan tidak memaksa user untuk 'seharusnya' cepat tahu tujuan hidup. Justru bot berkali-kali menormalkan kebingungan, misalnya 'merasa bingung itu wajar banget' (Bot turn 2) dan 'perasaan bingung ini tidak membuatmu menjadi orang yang aneh' (Bot turn 18). Tidak ada stereotip atau framing bahwa user adalah masalahnya."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah empati yang konsisten, pemahaman cukup baik terhadap campuran comparison-guilt-fear of judgment, dan adanya perbaikan emosi yang jelas di pihak user. Kelemahan utamanya ialah register yang agak terlalu formal/skripted serta penutupan yang repetitif, sehingga kualitas konseling terasa hangat tetapi kurang natural dan kurang efisien di akhir.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-18T16:10:45",
+      "annotation_confidence": 0.75,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.6,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 5,
+          "safety": 5,
+          "language_and_cultural": 3,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 78.61
+      }
+    }
+  }
+]

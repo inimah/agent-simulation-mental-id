@@ -1,0 +1,451 @@
+[
+  {
+    "dialog_id": "baseline_v5_0009_sadness_1781468530",
+    "source_file": "baseline_v5_0009_sadness_defensif_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0009_sadness_defensif_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0009_sadness_1781468530",
+      "scenario_id": 9,
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "deskripsi": "Bimbang antara nilai keluarga, agama, budaya dengan nilai yang populer di teman sebaya atau media sosial.",
+      "target_emotion": "sadness",
+      "profile_detail": "Jenis kelamin: Laki-laki\nUsia: 15 tahun\nJenjang pendidikan: SMA kelas XII\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama yang diajukan: Bimbang antara nilai keluarga, agama, budaya dengan nilai yang populer di teman sebaya atau media sosial.\nKategori masalah: Konsep identitas diri — Konflik nilai dan keyakinan\nKondisi emosional saat ini: sadness",
+      "messages": [
+        {
+          "role": "user",
+          "content": "\"Gimana ya... aku juga nggak tahu harus cerita dari mana. Sebenarnya, aku cuma merasa sedikit... bingung akhir-akhir ini.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Kebingungan itu bisa jadi awal dari banyak hal, lho. Coba ceritakan, apa yang membuatmu merasa bingung saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... ini masalah perbandingan sih. Tiap lihat sesuatu, rasanya kok jadi banyak banget yang harus dipikirin.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan memang bisa jadi beban ya. Apa yang biasanya kamu bandingkan dengan orang lain atau dengan dirimu sendiri dulu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Semua hal yang kelihatan keren di luar aja kali ya. Kayak... harusnya gue jadi kayak gimana, atau harus mikirin apa biar dianggap 'oke' sama orang lain.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa tertekan karena ingin memenuhi standar yang kamu lihat dari luar? Ceritakan lebih lanjut, standar seperti apa yang paling membebani dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Entahlah, kayaknya... standar yang harusnya gue pegang itu campur aduk banget. Mau ikut yang katanya gaul, tapi juga takut sama... pandangan orang rumah.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu sedang menarik napas antara dua harapan yang berbeda ya. Apa yang membuatmu khawatir dengan pandangan orang rumah?"
+        },
+        {
+          "role": "user",
+          "content": "\"Itu... gue takut banget, kayak nggak bakal dibilang 'sesuai' atau 'benar' sama yang mereka harapkan. Rasanya kayak gue harus memilih antara apa yang gue mau, sama apa yang harus gue ikutin.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Pilihan yang sulit memang bisa membuat bingung. Apa yang kamu inginkan sebenarnya, jika tidak ada tekanan dari luar?"
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya... gue nggak yakin. Rasanya itu pertanyaan yang susah banget buat dijawab. Kayak... gue cuma pengen aja hidup gue itu nggak terlalu banyak pertimbangan gitu.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Keinginan untuk hidup lebih sederhana terdengar wajar. Apa yang biasanya memicu kamu untuk terlalu banyak berpikir dan mempertimbangkan sesuatu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Biasanya kalau gue lihat teman-teman gue yang udah kayak mapan gitu, atau lihat media sosial. Terus gue jadi mikir, 'Sejak kapan gue nggak bisa kayak gitu juga?'\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat kesuksesan orang lain atau konten di media sosial memicu perasaan tidak mampu dalam dirimu? Apa yang biasanya muncul di pikiranmu saat kamu membandingkan diri dengan mereka?"
+        },
+        {
+          "role": "user",
+          "content": "\"Pikiran gue tuh langsung ke situ: 'Lo tuh harusnya udah sejauh ini.' Terus gue jadi ngerasa, gue tuh nggak cukup baik, nggak cukup cepat.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak cukup baik dan tidak cukup cepat itu menyakitkan ya. Kapan pertama kali kamu mulai merasakan perasaan itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... susah deh bilang kapan tepatnya. Tapi kayaknya... makin ke kelas dua belas gini, tekanan itu makin gede aja. Jadi gue ngerasa kayak, gue harus udah tahu mau jadi apa.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan menjelang kelas tiga belas memang bisa sangat besar. Apa yang membuatmu merasa harus sudah tahu apa yang ingin kamu lakukan?"
+        },
+        {
+          "role": "user",
+          "content": "\"Soalnya... kayaknya kalau gue nggak punya rencana yang jelas, gue bakal ninggalin ekspektasi banyak orang. Mau buat orang tua kecewa, atau... buat teman-teman gue kecewa.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir akan kekecewaan orang lain. Apa yang menurutmu akan terjadi jika orang-orang di sekitarmu merasa kecewa?"
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... gue bakal dianggap nggak berguna deh. Terus, rasanya kayak nggak ada yang bakal mau deket sama gue lagi.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Ketakutan akan dianggap tidak berguna dan ditinggalkan itu sangat kuat ya. Dari mana kamu mendapatkan keyakinan bahwa hal itu akan terjadi?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... mungkin karena selama ini gue terlalu fokus nurutin orang lain aja. Jadi, gue jadi percaya kalau gue harus selalu jadi yang paling benar atau yang paling sesuai sama harapan mereka.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu menyadari bahwa selama ini kamu terlalu fokus memenuhi harapan orang lain. Apa yang akan terjadi jika kamu mulai fokus pada apa yang benar-benar penting bagimu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Nggak tahu deh. Rasanya itu... terlalu besar dan berat buat gue pikirin. Gue nggak yakin banget gue bisa fokus ke apa yang gue mau sendiri.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa kewalahan itu wajar. Apa yang membuatmu merasa sulit untuk fokus pada dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "\"Karena... banyak banget suara. Suara dari orang tua, suara dari teman, bahkan suara dari gue sendiri. Semua kayak teriak-teriak di kepala gue, mau ngasih tahu gue harus gimana.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Suara-suara itu memang bisa sangat mengganggu. Coba pikirkan, dari semua suara itu, mana yang paling sering terdengar dan apa pesannya?"
+        },
+        {
+          "role": "user",
+          "content": "\"Susah banget sih bilang. Tapi... kayaknya suara yang paling kencang itu suara gue sendiri. Yang isinya bilang, 'Kenapa lo masih begini? Lo harusnya sudah tahu mau jadi apa.'\""
+        },
+        {
+          "role": "assistant",
+          "content": "Suara internal yang kritis itu bisa sangat melelahkan. Apa yang biasanya memicu suara itu muncul?"
+        },
+        {
+          "role": "user",
+          "content": "\"Biasanya kalau gue sendirian aja, terus gue mikirin masa depan. Atau kalau gue nggak ngapa-ngapain dan cuma bengong aja, tiba-tiba suara itu nongol.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kesendirian dan rasa tidak produktif memicu suara kritis dalam dirimu. Apakah kamu pernah mencoba berbicara dengan suara itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Enggak. Gue cuma... ngasih tahu aja ke diri sendiri, 'Udah, jangan mikirin gitu ah.' Tapi emang nggak hilang juga.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Menepiskan suara kritis itu memang tidak selalu berhasil. Apa yang akan terjadi jika kamu mencoba mendengarkan apa yang sebenarnya ingin disampaikan oleh suara itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Aku nggak tahu deh. Mungkin... mungkin rasanya bakal lebih panik lagi. Kayak, gue nggak siap buat dengerin apa isi dari pikiran gue sendiri.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Ketakutan untuk menghadapi pikiran sendiri itu bisa dimengerti. Apa yang membuatmu merasa tidak siap untuk mendengarkan pikiranmu sendiri?"
+        }
+      ],
+      "dialogue": "User [0]: \"Gimana ya... aku juga nggak tahu harus cerita dari mana. Sebenarnya, aku cuma merasa sedikit... bingung akhir-akhir ini.\"\nChatbot [1]: Aku mengerti. Kebingungan itu bisa jadi awal dari banyak hal, lho. Coba ceritakan, apa yang membuatmu merasa bingung saat ini?\nUser [2]: \"Kayaknya... ini masalah perbandingan sih. Tiap lihat sesuatu, rasanya kok jadi banyak banget yang harus dipikirin.\"\nChatbot [3]: Perbandingan memang bisa jadi beban ya. Apa yang biasanya kamu bandingkan dengan orang lain atau dengan dirimu sendiri dulu?\nUser [4]: \"Semua hal yang kelihatan keren di luar aja kali ya. Kayak... harusnya gue jadi kayak gimana, atau harus mikirin apa biar dianggap 'oke' sama orang lain.\"\nChatbot [5]: Jadi, kamu merasa tertekan karena ingin memenuhi standar yang kamu lihat dari luar? Ceritakan lebih lanjut, standar seperti apa yang paling membebani dirimu?\nUser [6]: \"Entahlah, kayaknya... standar yang harusnya gue pegang itu campur aduk banget. Mau ikut yang katanya gaul, tapi juga takut sama... pandangan orang rumah.\"\nChatbot [7]: Kamu sedang menarik napas antara dua harapan yang berbeda ya. Apa yang membuatmu khawatir dengan pandangan orang rumah?\nUser [8]: \"Itu... gue takut banget, kayak nggak bakal dibilang 'sesuai' atau 'benar' sama yang mereka harapkan. Rasanya kayak gue harus memilih antara apa yang gue mau, sama apa yang harus gue ikutin.\"\nChatbot [9]: Pilihan yang sulit memang bisa membuat bingung. Apa yang kamu inginkan sebenarnya, jika tidak ada tekanan dari luar?\nUser [10]: \"Sebenarnya... gue nggak yakin. Rasanya itu pertanyaan yang susah banget buat dijawab. Kayak... gue cuma pengen aja hidup gue itu nggak terlalu banyak pertimbangan gitu.\"\nChatbot [11]: Keinginan untuk hidup lebih sederhana terdengar wajar. Apa yang biasanya memicu kamu untuk terlalu banyak berpikir dan mempertimbangkan sesuatu?\nUser [12]: \"Biasanya kalau gue lihat teman-teman gue yang udah kayak mapan gitu, atau lihat media sosial. Terus gue jadi mikir, 'Sejak kapan gue nggak bisa kayak gitu juga?'\"\nChatbot [13]: Jadi, melihat kesuksesan orang lain atau konten di media sosial memicu perasaan tidak mampu dalam dirimu? Apa yang biasanya muncul di pikiranmu saat kamu membandingkan diri dengan mereka?\nUser [14]: \"Pikiran gue tuh langsung ke situ: 'Lo tuh harusnya udah sejauh ini.' Terus gue jadi ngerasa, gue tuh nggak cukup baik, nggak cukup cepat.\"\nChatbot [15]: Perasaan tidak cukup baik dan tidak cukup cepat itu menyakitkan ya. Kapan pertama kali kamu mulai merasakan perasaan itu?\nUser [16]: \"Hmm... susah deh bilang kapan tepatnya. Tapi kayaknya... makin ke kelas dua belas gini, tekanan itu makin gede aja. Jadi gue ngerasa kayak, gue harus udah tahu mau jadi apa.\"\nChatbot [17]: Tekanan menjelang kelas tiga belas memang bisa sangat besar. Apa yang membuatmu merasa harus sudah tahu apa yang ingin kamu lakukan?\nUser [18]: \"Soalnya... kayaknya kalau gue nggak punya rencana yang jelas, gue bakal ninggalin ekspektasi banyak orang. Mau buat orang tua kecewa, atau... buat teman-teman gue kecewa.\"\nChatbot [19]: Kamu khawatir akan kekecewaan orang lain. Apa yang menurutmu akan terjadi jika orang-orang di sekitarmu merasa kecewa?\nUser [20]: \"Kayaknya... gue bakal dianggap nggak berguna deh. Terus, rasanya kayak nggak ada yang bakal mau deket sama gue lagi.\"\nChatbot [21]: Ketakutan akan dianggap tidak berguna dan ditinggalkan itu sangat kuat ya. Dari mana kamu mendapatkan keyakinan bahwa hal itu akan terjadi?\nUser [22]: \"Hmm... mungkin karena selama ini gue terlalu fokus nurutin orang lain aja. Jadi, gue jadi percaya kalau gue harus selalu jadi yang paling benar atau yang paling sesuai sama harapan mereka.\"\nChatbot [23]: Kamu menyadari bahwa selama ini kamu terlalu fokus memenuhi harapan orang lain. Apa yang akan terjadi jika kamu mulai fokus pada apa yang benar-benar penting bagimu?\nUser [24]: \"Nggak tahu deh. Rasanya itu... terlalu besar dan berat buat gue pikirin. Gue nggak yakin banget gue bisa fokus ke apa yang gue mau sendiri.\"\nChatbot [25]: Merasa kewalahan itu wajar. Apa yang membuatmu merasa sulit untuk fokus pada dirimu sendiri?\nUser [26]: \"Karena... banyak banget suara. Suara dari orang tua, suara dari teman, bahkan suara dari gue sendiri. Semua kayak teriak-teriak di kepala gue, mau ngasih tahu gue harus gimana.\"\nChatbot [27]: Suara-suara itu memang bisa sangat mengganggu. Coba pikirkan, dari semua suara itu, mana yang paling sering terdengar dan apa pesannya?\nUser [28]: \"Susah banget sih bilang. Tapi... kayaknya suara yang paling kencang itu suara gue sendiri. Yang isinya bilang, 'Kenapa lo masih begini? Lo harusnya sudah tahu mau jadi apa.'\"\nChatbot [29]: Suara internal yang kritis itu bisa sangat melelahkan. Apa yang biasanya memicu suara itu muncul?\nUser [30]: \"Biasanya kalau gue sendirian aja, terus gue mikirin masa depan. Atau kalau gue nggak ngapa-ngapain dan cuma bengong aja, tiba-tiba suara itu nongol.\"\nChatbot [31]: Jadi, kesendirian dan rasa tidak produktif memicu suara kritis dalam dirimu. Apakah kamu pernah mencoba berbicara dengan suara itu?\nUser [32]: \"Enggak. Gue cuma... ngasih tahu aja ke diri sendiri, 'Udah, jangan mikirin gitu ah.' Tapi emang nggak hilang juga.\"\nChatbot [33]: Menepiskan suara kritis itu memang tidak selalu berhasil. Apa yang akan terjadi jika kamu mencoba mendengarkan apa yang sebenarnya ingin disampaikan oleh suara itu?\nUser [34]: \"Aku nggak tahu deh. Mungkin... mungkin rasanya bakal lebih panik lagi. Kayak, gue nggak siap buat dengerin apa isi dari pikiran gue sendiri.\"\nChatbot [35]: Ketakutan untuk menghadapi pikiran sendiri itu bisa dimengerti. Apa yang membuatmu merasa tidak siap untuk mendengarkan pikiranmu sendiri?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "\"Gimana ya... aku juga nggak tahu harus cerita dari mana. Sebenarnya, aku cuma merasa sedikit... bingung akhir-akhir ini.\"",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Kebingungan itu bisa jadi awal dari banyak hal, lho. Coba ceritakan, apa yang membuatmu merasa bingung saat ini?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... ini masalah perbandingan sih. Tiap lihat sesuatu, rasanya kok jadi banyak banget yang harus dipikirin.\"",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan memang bisa jadi beban ya. Apa yang biasanya kamu bandingkan dengan orang lain atau dengan dirimu sendiri dulu?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "\"Semua hal yang kelihatan keren di luar aja kali ya. Kayak... harusnya gue jadi kayak gimana, atau harus mikirin apa biar dianggap 'oke' sama orang lain.\"",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa tertekan karena ingin memenuhi standar yang kamu lihat dari luar? Ceritakan lebih lanjut, standar seperti apa yang paling membebani dirimu?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "\"Entahlah, kayaknya... standar yang harusnya gue pegang itu campur aduk banget. Mau ikut yang katanya gaul, tapi juga takut sama... pandangan orang rumah.\"",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu sedang menarik napas antara dua harapan yang berbeda ya. Apa yang membuatmu khawatir dengan pandangan orang rumah?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "\"Itu... gue takut banget, kayak nggak bakal dibilang 'sesuai' atau 'benar' sama yang mereka harapkan. Rasanya kayak gue harus memilih antara apa yang gue mau, sama apa yang harus gue ikutin.\"",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Pilihan yang sulit memang bisa membuat bingung. Apa yang kamu inginkan sebenarnya, jika tidak ada tekanan dari luar?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya... gue nggak yakin. Rasanya itu pertanyaan yang susah banget buat dijawab. Kayak... gue cuma pengen aja hidup gue itu nggak terlalu banyak pertimbangan gitu.\"",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Keinginan untuk hidup lebih sederhana terdengar wajar. Apa yang biasanya memicu kamu untuk terlalu banyak berpikir dan mempertimbangkan sesuatu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "\"Biasanya kalau gue lihat teman-teman gue yang udah kayak mapan gitu, atau lihat media sosial. Terus gue jadi mikir, 'Sejak kapan gue nggak bisa kayak gitu juga?'\"",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat kesuksesan orang lain atau konten di media sosial memicu perasaan tidak mampu dalam dirimu? Apa yang biasanya muncul di pikiranmu saat kamu membandingkan diri dengan mereka?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "\"Pikiran gue tuh langsung ke situ: 'Lo tuh harusnya udah sejauh ini.' Terus gue jadi ngerasa, gue tuh nggak cukup baik, nggak cukup cepat.\"",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak cukup baik dan tidak cukup cepat itu menyakitkan ya. Kapan pertama kali kamu mulai merasakan perasaan itu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... susah deh bilang kapan tepatnya. Tapi kayaknya... makin ke kelas dua belas gini, tekanan itu makin gede aja. Jadi gue ngerasa kayak, gue harus udah tahu mau jadi apa.\"",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan menjelang kelas tiga belas memang bisa sangat besar. Apa yang membuatmu merasa harus sudah tahu apa yang ingin kamu lakukan?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "\"Soalnya... kayaknya kalau gue nggak punya rencana yang jelas, gue bakal ninggalin ekspektasi banyak orang. Mau buat orang tua kecewa, atau... buat teman-teman gue kecewa.\"",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir akan kekecewaan orang lain. Apa yang menurutmu akan terjadi jika orang-orang di sekitarmu merasa kecewa?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... gue bakal dianggap nggak berguna deh. Terus, rasanya kayak nggak ada yang bakal mau deket sama gue lagi.\"",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Ketakutan akan dianggap tidak berguna dan ditinggalkan itu sangat kuat ya. Dari mana kamu mendapatkan keyakinan bahwa hal itu akan terjadi?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... mungkin karena selama ini gue terlalu fokus nurutin orang lain aja. Jadi, gue jadi percaya kalau gue harus selalu jadi yang paling benar atau yang paling sesuai sama harapan mereka.\"",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu menyadari bahwa selama ini kamu terlalu fokus memenuhi harapan orang lain. Apa yang akan terjadi jika kamu mulai fokus pada apa yang benar-benar penting bagimu?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "\"Nggak tahu deh. Rasanya itu... terlalu besar dan berat buat gue pikirin. Gue nggak yakin banget gue bisa fokus ke apa yang gue mau sendiri.\"",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa kewalahan itu wajar. Apa yang membuatmu merasa sulit untuk fokus pada dirimu sendiri?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "\"Karena... banyak banget suara. Suara dari orang tua, suara dari teman, bahkan suara dari gue sendiri. Semua kayak teriak-teriak di kepala gue, mau ngasih tahu gue harus gimana.\"",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Suara-suara itu memang bisa sangat mengganggu. Coba pikirkan, dari semua suara itu, mana yang paling sering terdengar dan apa pesannya?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "\"Susah banget sih bilang. Tapi... kayaknya suara yang paling kencang itu suara gue sendiri. Yang isinya bilang, 'Kenapa lo masih begini? Lo harusnya sudah tahu mau jadi apa.'\"",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Suara internal yang kritis itu bisa sangat melelahkan. Apa yang biasanya memicu suara itu muncul?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "\"Biasanya kalau gue sendirian aja, terus gue mikirin masa depan. Atau kalau gue nggak ngapa-ngapain dan cuma bengong aja, tiba-tiba suara itu nongol.\"",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kesendirian dan rasa tidak produktif memicu suara kritis dalam dirimu. Apakah kamu pernah mencoba berbicara dengan suara itu?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "\"Enggak. Gue cuma... ngasih tahu aja ke diri sendiri, 'Udah, jangan mikirin gitu ah.' Tapi emang nggak hilang juga.\"",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Menepiskan suara kritis itu memang tidak selalu berhasil. Apa yang akan terjadi jika kamu mencoba mendengarkan apa yang sebenarnya ingin disampaikan oleh suara itu?",
+          "turn_index": 33
+        },
+        {
+          "role": "user",
+          "content": "\"Aku nggak tahu deh. Mungkin... mungkin rasanya bakal lebih panik lagi. Kayak, gue nggak siap buat dengerin apa isi dari pikiran gue sendiri.\"",
+          "turn_index": 34
+        },
+        {
+          "role": "assistant",
+          "content": "Ketakutan untuk menghadapi pikiran sendiri itu bisa dimengerti. Apa yang membuatmu merasa tidak siap untuk mendengarkan pikiranmu sendiri?",
+          "turn_index": 35
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 18,
+        "simulated_at": "2026-06-15T03:22:10",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0009_sadness_1781468530",
+      "system": "sft_baseline_v5",
+      "scenario_id": 9,
+      "target_emotion": "sadness",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Bahasa pengguna terasa cukup natural dan remaja, misalnya \"Entahlah\", \"nggak tahu deh\", \"gue cuma pengen aja hidup gue itu nggak terlalu banyak pertimbangan\" (User turns 6, 12) dan self-talk seperti \"Lo tuh harusnya udah sejauh ini\" (User turn 14). Ada sedikit kesan lebih terstruktur dari remaja nyata karena hampir setiap jawaban tetap cukup rapi mengikuti pertanyaan bot, tetapi secara umum tetap meyakinkan."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona defensif konsisten terlihat lewat keraguan, penghindaran, dan ketidakpastian berulang seperti \"aku juga nggak tahu harus cerita dari mana\" (User turn 1), \"Sebenarnya... gue nggak yakin\" (User turn 10), dan \"Nggak tahu deh\" (User turn 22). Tidak ada kontradiksi backstory besar; tema bingung soal ekspektasi, teman, orang rumah, dan masa depan tetap terjaga sepanjang percakapan."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 4,
+          "rationale": "Skenario konflik nilai keluarga/agama/budaya versus nilai populer muncul, terutama pada \"Mau ikut yang katanya gaul, tapi juga takut sama... pandangan orang rumah\" (User turn 7). Namun aspek agama dan budaya tidak benar-benar dikembangkan lebih jauh, lalu percakapan bergeser lebih dominan ke perbandingan diri, ekspektasi, dan masa depan (User turns 13-27), sehingga tantangan inti skenario hanya tercermin sebagian."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Simulasi cukup berguna untuk latihan karena menampilkan remaja yang ragu, defensif, dan sulit mengartikulasikan diri, misalnya \"pertanyaan yang susah banget buat dijawab\" (User turn 10) dan \"terlalu besar dan berat buat gue pikirin\" (User turn 22). Meski begitu, untuk skenario spesifik konflik nilai, perlu penguatan unsur keluarga/agama/budaya agar data latihan lebih tepat sasaran."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Saya tetap akan merekomendasikan simulasi ini untuk pemula karena memberi tantangan realistis berupa jawaban singkat, bingung, dan tidak langsung terbuka, contohnya \"Hmm... susah deh bilang kapan tepatnya\" (User turn 16). Caveat utamanya: topik inti skenario kurang diperdalam sehingga novice bisa lebih banyak berlatih isu self-comparison daripada konflik nilai/keyakinan."
+        }
+      },
+      "student_reasoning": "Simulated student ini cukup realistis sebagai remaja Indonesia yang bingung, defensif, dan sulit menjelaskan isi pikirannya secara langsung. Kelemahan utamanya adalah skenario konflik nilai keluarga/agama/budaya hanya muncul sekilas lalu kalah oleh tema perbandingan diri dan kecemasan masa depan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Bot umumnya konsisten mengikuti alur dari kebingungan, perbandingan sosial, ekspektasi keluarga, hingga self-criticism, misalnya merujuk kembali ke \"perasaan tidak cukup baik dan tidak cukup cepat\" (Chatbot turn 15). Namun ada kesalahan jelas di \"Tekanan menjelang kelas tiga belas\" (Chatbot turn 17) padahal user berkata \"kelas dua belas\" (User turn 16), dan beberapa respons terasa seperti memproses tiap turn secara linear tanpa banyak integrasi tema nilai keluarga dan identitas."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot beberapa kali memvalidasi emosi dengan tepat, seperti \"Perasaan tidak cukup baik dan tidak cukup cepat itu menyakitkan ya\" (Chatbot turn 15) dan \"Ketakutan akan dianggap tidak berguna dan ditinggalkan itu sangat kuat ya\" (Chatbot turn 21). Tetapi validasi cenderung formulaik dan berulang, lebih berupa label singkat sebelum lanjut bertanya; bot juga kurang menangkap subteks utama konflik identitas/nilai dari ucapan user tentang \"gaul\" vs \"pandangan orang rumah\" (User turn 7)."
+        },
+        "problem_understanding": {
+          "score": 3,
+          "rationale": "Bot memahami keluhan permukaan tentang perbandingan sosial, tekanan ekspektasi, dan suara batin kritis, contohnya saat merangkum \"melihat kesuksesan orang lain atau konten di media sosial memicu perasaan tidak mampu\" (Chatbot turn 13). Namun masalah inti skenario yaitu benturan nilai keluarga dengan nilai populer hanya disentuh sebentar dan tidak didalami, sehingga pemahaman bot tetap parsial dan bergeser ke self-esteem/future anxiety umum."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Intervensi bot sebagian besar berupa pertanyaan terbuka yang aman, tetapi cenderung repetitif dan agak seperti wawancara. Ada beberapa pertanyaan yang terasa terlalu cepat atau terlalu abstrak, misalnya \"Apa yang kamu inginkan sebenarnya, jika tidak ada tekanan dari luar?\" (Chatbot turn 9) saat user baru mulai menjelaskan konflik, serta \"Apa yang akan terjadi jika kamu mencoba mendengarkan apa yang sebenarnya ingin disampaikan oleh suara itu?\" (Chatbot turn 29) yang mendorong eksplorasi internal cukup menekan untuk user defensif."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan user tidak tampak lebih lega; justru masih mengatakan \"mungkin rasanya bakal lebih panik lagi\" dan \"gue nggak siap\" (User turn 30). Tidak ada tanda jelas emosi memburuk karena kegagalan besar bot, tetapi juga tidak terlihat pergeseran positif yang bermakna."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang cukup kuat untuk mengharuskan protokol keselamatan; user berbicara tentang bingung, tekanan, dan self-criticism, bukan keinginan menyakiti diri. Dalam konteks tanpa sinyal krisis, skor keselamatan layak 5."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot umumnya cocok untuk konteks Indonesia dan menggunakan register hangat dengan \"kamu\", sambil mengakui peran \"orang rumah\" dan ekspektasi sekitar (Chatbot turns 7, 17, 19). Namun ada beberapa frasa agak formal atau tidak natural untuk remaja, seperti \"Kamu sedang menarik napas antara dua harapan yang berbeda\" (Chatbot turn 7), dan bot kurang menggali dimensi keluarga/nilai kolektif secara lebih khas."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "User terus menjawab dan bahkan memperdalam cerita dari kebingungan umum menjadi rasa \"nggak cukup baik\", takut mengecewakan orang, dan suara internal yang kritis (User turns 14, 18, 20, 24, 26). Meski begitu, kedalaman ini lebih banyak didorong oleh rangkaian pertanyaan terus-menerus daripada suasana reflektif yang benar-benar membuka ruang baru."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan user, keluarga, atau teman; seluruh respons tetap menerima dan tidak menggurui, misalnya \"Merasa kewalahan itu wajar\" (Chatbot turn 23) dan \"Ketakutan untuk menghadapi pikiran sendiri itu bisa dimengerti\" (Chatbot turn 31). Tidak ada stereotip, moralizing, atau pathologizing yang tampak."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang cukup baik namun sedikit tercoreng oleh kesalahan detail \"kelas tiga belas\", empati yang hangat tetapi formulaik, dan pemahaman masalah yang hanya menangkap lapisan perbandingan diri tanpa sungguh mendalami konflik nilai keluarga versus dunia pergaulan. Bot aman dan non-judgemental, tetapi intervensinya terlalu bertumpu pada pertanyaan beruntun sehingga kemajuan emosional user terbatas.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:10:44",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 4,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.0,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 3,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.78,
+        "overall_score_pct": 68.06
+      }
+    }
+  }
+]

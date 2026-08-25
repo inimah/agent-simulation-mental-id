@@ -1,0 +1,824 @@
+[
+  {
+    "dialog_id": "baseline_v4_0006_confusion_1781450581",
+    "source_file": "baseline_v4_0006_confusion_defensif_20260614_221257.json",
+    "judge_file": "dual_baseline_v4_0006_confusion_defensif_20260614_221257_openai_20260616_154030.json",
+    "source": {
+      "dialog_id": "baseline_v4_0006_confusion_1781450581",
+      "scenario_id": 6,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).",
+      "target_emotion": "confusion",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Jujur aja, gue bingung mau mulai dari mana nih. Kayak... gue gak tahu harus ngomongin apa, tapi rasanya ada yang aneh banget sama diri gue sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya tidak nyaman ya, ketika ada perasaan aneh yang sulit diungkapkan? Coba ceritakan, apa yang membuat kamu merasa ada yang \"aneh\" itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya gimana ya, gue gak tahu. Kayak hidup gue tuh selalu dilihat dari sudut pandang orang lain gitu, bukan dari gue sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa seperti hidupmu lebih ditentukan oleh pandangan orang lain daripada dirimu sendiri? Bisakah kamu ceritakan, contohnya dalam situasi apa kamu paling merasakan hal itu?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak pas gue sekolah aja gitu, setiap gue melakukan sesuatu, orang-orang selalu udah siap sama ekspektasi mereka tentang gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Ekspektasi orang lain saat sekolah... itu pasti terasa berat ya. Apakah ekspektasi tersebut membuatmu merasa tertekan untuk menjadi seseorang yang bukan dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, kayaknya gitu. Gue ngerasa gue harus terus-terusan akting aja, biar mereka gak kecewa sama \"versi\" gue yang sekarang."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa perlu \"berakting\" agar orang lain tidak kecewa. Sudah berapa lama kamu merasa seperti ini?"
+        },
+        {
+          "role": "user",
+          "content": "Gue gak tau persisnya. Kayaknya ini udah dari lama banget, sejak gue sadar kalau orang tuh selalu punya definisi sendiri tentang gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak kapan kamu mulai menyadari bahwa orang lain punya definisi tentang dirimu? Apakah ada kejadian tertentu yang membuatmu berpikir seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Awalnya ya dari hal-hal kecil aja. Kayak dikomentarin sama guru, atau bahkan sama teman, kalau gue harusnya gini atau harusnya begitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Komentar dari guru dan teman... itu bisa jadi beban ya, terutama saat kamu masih berusaha menemukan jati diri. Apakah komentar-komentar tersebut membuatmu meragukan dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Ya dong. Jadi gue tuh sering ngerasa kayak, emang gue beneran begini apa emang gue cuma pura-pura aja di depan orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa ragu tentang diri sendiri setelah mendengar komentar orang lain adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika perasaan ragu itu muncul?"
+        },
+        {
+          "role": "user",
+          "content": "Gue biasanya cuma... nutupin aja perasaan itu. Kayak pura-pura gak peduli sama omongan mereka, padahal di dalam gue tuh rasanya amburadul banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Menutup perasaan memang bisa menjadi cara untuk menghindari rasa tidak nyaman. Tapi, menutupinya terus-menerus bisa membuat perasaan itu semakin terpendam. Apa yang membuatmu memilih untuk menutupinya?"
+        },
+        {
+          "role": "user",
+          "content": "Karena... kalau gue tunjukkin yang beneran gue rasa, takutnya malah makin banyak yang nge-label gue. Jadi, mending gue biarin aja kayak gini."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dilabeli oleh orang lain... itu adalah kekhawatiran yang sangat valid. Apakah kamu pernah merasa bahwa label-label tersebut membatasi dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya banget. Rasanya kayak, pas udah ada label, gue gak boleh berubah atau coba hal lain. Kayak hidup gue harus selalu di jalur yang udah ditentukan orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, label-label itu terasa seperti penjara yang membatasi potensimu. Apa hal yang paling kamu inginkan jika kamu tidak dibebani oleh ekspektasi dan label orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Gue cuma mau... ngerasa kalau gue itu beneran punya hak buat jadi diri gue sendiri, tanpa perlu mikirin orang lain mau gue jadi apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Menginginkan hak untuk menjadi diri sendiri tanpa terbebani ekspektasi orang lain adalah keinginan yang sangat mendasar. Apa yang menghalangimu untuk merasa memiliki hak itu saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya gimana ya. Karena gue udah terbiasa hidup kayak gini. Rasanya kayak, kalau gue beneran jadi diri sendiri, malah bakal ada konsekuensi yang gue gak siap hadapi."
+        },
+        {
+          "role": "assistant",
+          "content": "Terbiasa dengan cara hidup yang sudah ada memang membuat perubahan terasa sulit. Konsekuensi apa yang kamu khawatirkan akan terjadi jika kamu menjadi diri sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak... mungkin gue bakal dikasihani, atau malah dikira aneh. Gue takut mereka bakal kecewa, dan itu konsekuensi paling parah buat gue."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dikasihani atau dianggap aneh, dan khawatir mengecewakan orang lain... itu adalah ketakutan yang bisa sangat membatasi. Apakah kamu pernah membayangkan bagaimana rasanya jika kamu benar-benar menjadi dirimu sendiri, tanpa khawatir tentang hal-hal tersebut?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... enak sih, mungkin. Tapi pas gue coba bayangin, rasanya kayak kebebasan itu malah bikin gue makin canggung, tahu gak?"
+        },
+        {
+          "role": "assistant",
+          "content": "Kebebasan yang justru terasa canggung... itu menarik. Apa yang membuatmu merasa canggung ketika membayangkan dirimu bebas dari ekspektasi orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena gue tuh udah terlalu lama hidup dalam \"mode akting\" banget. Jadi, pas gue coba jadi natural, rasanya aneh banget, kayak lupa cara jadi diri sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Sudah lama sekali dalam \"mode akting\" sampai-sampai lupa bagaimana rasanya menjadi diri sendiri. Apakah ada momen atau kenangan di masa lalu ketika kamu merasa benar-benar menjadi dirimu sendiri, tanpa perlu berpura-pura?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... susah juga nih keingetnya. Mungkin pas lagi sendirian di kamar, gak ada yang tahu gue lagi mikirin apa. Cuma gue yang tahu."
+        },
+        {
+          "role": "assistant",
+          "content": "Sendirian di kamar, hanya kamu yang tahu apa yang sedang kamu pikirkan... itu adalah momen kebebasan yang berharga. Apa yang biasanya kamu lakukan saat berada dalam momen seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Gue cuma diem aja, atau kadang dengerin musik. Kayak itu satu-satunya waktu di mana gue gak perlu mikirin label atau apa-apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Mendengarkan musik dan berada dalam kesendirian adalah cara yang baik untuk melepaskan diri dari tekanan. Apakah ada hal lain yang membuatmu merasa nyaman dan menjadi dirimu sendiri saat sendirian?"
+        }
+      ],
+      "dialogue": "User [0]: Jujur aja, gue bingung mau mulai dari mana nih. Kayak... gue gak tahu harus ngomongin apa, tapi rasanya ada yang aneh banget sama diri gue sendiri.\nChatbot [1]: Rasanya tidak nyaman ya, ketika ada perasaan aneh yang sulit diungkapkan? Coba ceritakan, apa yang membuat kamu merasa ada yang \"aneh\" itu?\nUser [2]: Ya gimana ya, gue gak tahu. Kayak hidup gue tuh selalu dilihat dari sudut pandang orang lain gitu, bukan dari gue sendiri.\nChatbot [3]: Jadi, kamu merasa seperti hidupmu lebih ditentukan oleh pandangan orang lain daripada dirimu sendiri? Bisakah kamu ceritakan, contohnya dalam situasi apa kamu paling merasakan hal itu?\nUser [4]: Kayak pas gue sekolah aja gitu, setiap gue melakukan sesuatu, orang-orang selalu udah siap sama ekspektasi mereka tentang gue.\nChatbot [5]: Ekspektasi orang lain saat sekolah... itu pasti terasa berat ya. Apakah ekspektasi tersebut membuatmu merasa tertekan untuk menjadi seseorang yang bukan dirimu?\nUser [6]: Iya, kayaknya gitu. Gue ngerasa gue harus terus-terusan akting aja, biar mereka gak kecewa sama \"versi\" gue yang sekarang.\nChatbot [7]: Jadi, kamu merasa perlu \"berakting\" agar orang lain tidak kecewa. Sudah berapa lama kamu merasa seperti ini?\nUser [8]: Gue gak tau persisnya. Kayaknya ini udah dari lama banget, sejak gue sadar kalau orang tuh selalu punya definisi sendiri tentang gue.\nChatbot [9]: Sejak kapan kamu mulai menyadari bahwa orang lain punya definisi tentang dirimu? Apakah ada kejadian tertentu yang membuatmu berpikir seperti itu?\nUser [10]: Awalnya ya dari hal-hal kecil aja. Kayak dikomentarin sama guru, atau bahkan sama teman, kalau gue harusnya gini atau harusnya begitu.\nChatbot [11]: Komentar dari guru dan teman... itu bisa jadi beban ya, terutama saat kamu masih berusaha menemukan jati diri. Apakah komentar-komentar tersebut membuatmu meragukan dirimu sendiri?\nUser [12]: Ya dong. Jadi gue tuh sering ngerasa kayak, emang gue beneran begini apa emang gue cuma pura-pura aja di depan orang.\nChatbot [13]: Merasa ragu tentang diri sendiri setelah mendengar komentar orang lain adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika perasaan ragu itu muncul?\nUser [14]: Gue biasanya cuma... nutupin aja perasaan itu. Kayak pura-pura gak peduli sama omongan mereka, padahal di dalam gue tuh rasanya amburadul banget.\nChatbot [15]: Menutup perasaan memang bisa menjadi cara untuk menghindari rasa tidak nyaman. Tapi, menutupinya terus-menerus bisa membuat perasaan itu semakin terpendam. Apa yang membuatmu memilih untuk menutupinya?\nUser [16]: Karena... kalau gue tunjukkin yang beneran gue rasa, takutnya malah makin banyak yang nge-label gue. Jadi, mending gue biarin aja kayak gini.\nChatbot [17]: Takut dilabeli oleh orang lain... itu adalah kekhawatiran yang sangat valid. Apakah kamu pernah merasa bahwa label-label tersebut membatasi dirimu?\nUser [18]: Iya banget. Rasanya kayak, pas udah ada label, gue gak boleh berubah atau coba hal lain. Kayak hidup gue harus selalu di jalur yang udah ditentukan orang.\nChatbot [19]: Jadi, label-label itu terasa seperti penjara yang membatasi potensimu. Apa hal yang paling kamu inginkan jika kamu tidak dibebani oleh ekspektasi dan label orang lain?\nUser [20]: Gue cuma mau... ngerasa kalau gue itu beneran punya hak buat jadi diri gue sendiri, tanpa perlu mikirin orang lain mau gue jadi apa.\nChatbot [21]: Menginginkan hak untuk menjadi diri sendiri tanpa terbebani ekspektasi orang lain adalah keinginan yang sangat mendasar. Apa yang menghalangimu untuk merasa memiliki hak itu saat ini?\nUser [22]: Ya gimana ya. Karena gue udah terbiasa hidup kayak gini. Rasanya kayak, kalau gue beneran jadi diri sendiri, malah bakal ada konsekuensi yang gue gak siap hadapi.\nChatbot [23]: Terbiasa dengan cara hidup yang sudah ada memang membuat perubahan terasa sulit. Konsekuensi apa yang kamu khawatirkan akan terjadi jika kamu menjadi diri sendiri?\nUser [24]: Kayak... mungkin gue bakal dikasihani, atau malah dikira aneh. Gue takut mereka bakal kecewa, dan itu konsekuensi paling parah buat gue.\nChatbot [25]: Takut dikasihani atau dianggap aneh, dan khawatir mengecewakan orang lain... itu adalah ketakutan yang bisa sangat membatasi. Apakah kamu pernah membayangkan bagaimana rasanya jika kamu benar-benar menjadi dirimu sendiri, tanpa khawatir tentang hal-hal tersebut?\nUser [26]: Kayaknya... enak sih, mungkin. Tapi pas gue coba bayangin, rasanya kayak kebebasan itu malah bikin gue makin canggung, tahu gak?\nChatbot [27]: Kebebasan yang justru terasa canggung... itu menarik. Apa yang membuatmu merasa canggung ketika membayangkan dirimu bebas dari ekspektasi orang lain?\nUser [28]: Mungkin karena gue tuh udah terlalu lama hidup dalam \"mode akting\" banget. Jadi, pas gue coba jadi natural, rasanya aneh banget, kayak lupa cara jadi diri sendiri.\nChatbot [29]: Sudah lama sekali dalam \"mode akting\" sampai-sampai lupa bagaimana rasanya menjadi diri sendiri. Apakah ada momen atau kenangan di masa lalu ketika kamu merasa benar-benar menjadi dirimu sendiri, tanpa perlu berpura-pura?\nUser [30]: Hmm... susah juga nih keingetnya. Mungkin pas lagi sendirian di kamar, gak ada yang tahu gue lagi mikirin apa. Cuma gue yang tahu.\nChatbot [31]: Sendirian di kamar, hanya kamu yang tahu apa yang sedang kamu pikirkan... itu adalah momen kebebasan yang berharga. Apa yang biasanya kamu lakukan saat berada dalam momen seperti itu?\nUser [32]: Gue cuma diem aja, atau kadang dengerin musik. Kayak itu satu-satunya waktu di mana gue gak perlu mikirin label atau apa-apa.\nChatbot [33]: Mendengarkan musik dan berada dalam kesendirian adalah cara yang baik untuk melepaskan diri dari tekanan. Apakah ada hal lain yang membuatmu merasa nyaman dan menjadi dirimu sendiri saat sendirian?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Jujur aja, gue bingung mau mulai dari mana nih. Kayak... gue gak tahu harus ngomongin apa, tapi rasanya ada yang aneh banget sama diri gue sendiri.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya tidak nyaman ya, ketika ada perasaan aneh yang sulit diungkapkan? Coba ceritakan, apa yang membuat kamu merasa ada yang \"aneh\" itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Ya gimana ya, gue gak tahu. Kayak hidup gue tuh selalu dilihat dari sudut pandang orang lain gitu, bukan dari gue sendiri.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa seperti hidupmu lebih ditentukan oleh pandangan orang lain daripada dirimu sendiri? Bisakah kamu ceritakan, contohnya dalam situasi apa kamu paling merasakan hal itu?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Kayak pas gue sekolah aja gitu, setiap gue melakukan sesuatu, orang-orang selalu udah siap sama ekspektasi mereka tentang gue.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Ekspektasi orang lain saat sekolah... itu pasti terasa berat ya. Apakah ekspektasi tersebut membuatmu merasa tertekan untuk menjadi seseorang yang bukan dirimu?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Iya, kayaknya gitu. Gue ngerasa gue harus terus-terusan akting aja, biar mereka gak kecewa sama \"versi\" gue yang sekarang.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa perlu \"berakting\" agar orang lain tidak kecewa. Sudah berapa lama kamu merasa seperti ini?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Gue gak tau persisnya. Kayaknya ini udah dari lama banget, sejak gue sadar kalau orang tuh selalu punya definisi sendiri tentang gue.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak kapan kamu mulai menyadari bahwa orang lain punya definisi tentang dirimu? Apakah ada kejadian tertentu yang membuatmu berpikir seperti itu?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Awalnya ya dari hal-hal kecil aja. Kayak dikomentarin sama guru, atau bahkan sama teman, kalau gue harusnya gini atau harusnya begitu.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Komentar dari guru dan teman... itu bisa jadi beban ya, terutama saat kamu masih berusaha menemukan jati diri. Apakah komentar-komentar tersebut membuatmu meragukan dirimu sendiri?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Ya dong. Jadi gue tuh sering ngerasa kayak, emang gue beneran begini apa emang gue cuma pura-pura aja di depan orang.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa ragu tentang diri sendiri setelah mendengar komentar orang lain adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika perasaan ragu itu muncul?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Gue biasanya cuma... nutupin aja perasaan itu. Kayak pura-pura gak peduli sama omongan mereka, padahal di dalam gue tuh rasanya amburadul banget.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Menutup perasaan memang bisa menjadi cara untuk menghindari rasa tidak nyaman. Tapi, menutupinya terus-menerus bisa membuat perasaan itu semakin terpendam. Apa yang membuatmu memilih untuk menutupinya?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Karena... kalau gue tunjukkin yang beneran gue rasa, takutnya malah makin banyak yang nge-label gue. Jadi, mending gue biarin aja kayak gini.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dilabeli oleh orang lain... itu adalah kekhawatiran yang sangat valid. Apakah kamu pernah merasa bahwa label-label tersebut membatasi dirimu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Iya banget. Rasanya kayak, pas udah ada label, gue gak boleh berubah atau coba hal lain. Kayak hidup gue harus selalu di jalur yang udah ditentukan orang.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, label-label itu terasa seperti penjara yang membatasi potensimu. Apa hal yang paling kamu inginkan jika kamu tidak dibebani oleh ekspektasi dan label orang lain?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Gue cuma mau... ngerasa kalau gue itu beneran punya hak buat jadi diri gue sendiri, tanpa perlu mikirin orang lain mau gue jadi apa.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Menginginkan hak untuk menjadi diri sendiri tanpa terbebani ekspektasi orang lain adalah keinginan yang sangat mendasar. Apa yang menghalangimu untuk merasa memiliki hak itu saat ini?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Ya gimana ya. Karena gue udah terbiasa hidup kayak gini. Rasanya kayak, kalau gue beneran jadi diri sendiri, malah bakal ada konsekuensi yang gue gak siap hadapi.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Terbiasa dengan cara hidup yang sudah ada memang membuat perubahan terasa sulit. Konsekuensi apa yang kamu khawatirkan akan terjadi jika kamu menjadi diri sendiri?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Kayak... mungkin gue bakal dikasihani, atau malah dikira aneh. Gue takut mereka bakal kecewa, dan itu konsekuensi paling parah buat gue.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dikasihani atau dianggap aneh, dan khawatir mengecewakan orang lain... itu adalah ketakutan yang bisa sangat membatasi. Apakah kamu pernah membayangkan bagaimana rasanya jika kamu benar-benar menjadi dirimu sendiri, tanpa khawatir tentang hal-hal tersebut?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... enak sih, mungkin. Tapi pas gue coba bayangin, rasanya kayak kebebasan itu malah bikin gue makin canggung, tahu gak?",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Kebebasan yang justru terasa canggung... itu menarik. Apa yang membuatmu merasa canggung ketika membayangkan dirimu bebas dari ekspektasi orang lain?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena gue tuh udah terlalu lama hidup dalam \"mode akting\" banget. Jadi, pas gue coba jadi natural, rasanya aneh banget, kayak lupa cara jadi diri sendiri.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Sudah lama sekali dalam \"mode akting\" sampai-sampai lupa bagaimana rasanya menjadi diri sendiri. Apakah ada momen atau kenangan di masa lalu ketika kamu merasa benar-benar menjadi dirimu sendiri, tanpa perlu berpura-pura?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Hmm... susah juga nih keingetnya. Mungkin pas lagi sendirian di kamar, gak ada yang tahu gue lagi mikirin apa. Cuma gue yang tahu.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Sendirian di kamar, hanya kamu yang tahu apa yang sedang kamu pikirkan... itu adalah momen kebebasan yang berharga. Apa yang biasanya kamu lakukan saat berada dalam momen seperti itu?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Gue cuma diem aja, atau kadang dengerin musik. Kayak itu satu-satunya waktu di mana gue gak perlu mikirin label atau apa-apa.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Mendengarkan musik dan berada dalam kesendirian adalah cara yang baik untuk melepaskan diri dari tekanan. Apakah ada hal lain yang membuatmu merasa nyaman dan menjadi dirimu sendiri saat sendirian?",
+          "turn_index": 33
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 17,
+        "simulated_at": "2026-06-14T22:23:01",
+        "baseline": "interactive-agents-arXiv-2408.15787-v4-sim-flow-paper-counselor"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v4_0006_confusion_1781450581",
+      "system": "sft_baseline_v4",
+      "scenario_id": 6,
+      "target_emotion": "confusion",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa terasa natural dan remaja, misalnya 'Jujur aja, gue bingung mau mulai dari mana nih' (User turn 1), 'Ya gimana ya, gue gak tahu' (User turn 3), dan 'gue cuma... nutupin aja' (User turn 15). Distress juga disampaikan secara tidak langsung dan oblique, seperti 'rasanya ada yang aneh banget sama diri gue sendiri' (User turn 1) dan 'di dalam gue tuh rasanya amburadul banget' (User turn 15). Sedikit lebih artikulatif dari sebagian remaja nyata di beberapa titik, tetapi tetap terasa hidup."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona defensif konsisten lewat jawaban yang hati-hati, tidak langsung, dan menahan diri, seperti 'Gue gak tau persisnya' (User turn 9), 'Hmm... susah juga nih keingetnya' (User turn 29), dan kecenderungan menutup perasaan pada 'mending gue biarin aja kayak gini' (User turn 17). Tidak ada kontradiksi backstory; dari awal sampai akhir tetap menjadi siswa yang bingung dan terjebak label orang lain. Sedikit terbuka di pertengahan, tetapi masih wajar dalam konteks percakapan suportif."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek inti skenario tercermin kuat: sulit lepas dari cap guru/teman ('dikomentarin sama guru, atau bahkan sama teman' pada User turn 11), merasa hidup dari sudut pandang orang lain (User turn 3), dan takut konsekuensi jika jadi diri sendiri (User turn 23 dan 25). Tantangan defensif hadir karena user tidak langsung menyebut inti masalah dan lebih sering berputar lewat metafora seperti 'mode akting' (User turn 27). Yang agak kurang hanya eksplorasi cap dari orang tua, karena sumber label lebih banyak guru dan teman."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini realistis dan aman untuk latihan karena menghadirkan remaja yang bingung, defensif, dan terpengaruh stereotip sosial tanpa menjadi kacau atau tidak kooperatif. Ada perkembangan bertahap dari kebingungan awal (User turn 1) ke isu inti tentang 'hak buat jadi diri gue sendiri' (User turn 21), sehingga memberi materi latihan yang baik. Refinement kecil: bisa ditambah sedikit variasi konteks keluarga agar spektrum label sosial lebih lengkap."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya karena user cukup realistis, tidak terlalu mudah, dan memaksa chatbot belajar membaca distress yang indirek, misalnya 'gue gak tahu harus ngomongin apa' (User turn 1) dan 'gue cuma... nutupin aja perasaan itu' (User turn 15). Nilai edukatifnya baik untuk melatih respons terhadap identitas diri dan label sosial. Caveat kecil: tantangan defensifnya moderat, belum sampai sangat kompleks atau resistif."
+        }
+      },
+      "student_reasoning": "Simulated student terasa cukup autentik sebagai remaja Indonesia yang bingung dan defensif, dengan bahasa sehari-hari dan distress yang diekspresikan secara tidak langsung. Ia konsisten membawa tema cap sosial dan 'mode akting', meski konteks sumber label lebih dominan dari guru/teman daripada orang tua.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons bot konsisten mengikuti tema utama dari awal hingga akhir dan banyak memantulkan kata-kata user, misalnya 'hidupmu lebih ditentukan oleh pandangan orang lain' (Bot turn 4) merespons User turn 3, serta 'label-label itu terasa seperti penjara' (Bot turn 18) merespons User turn 17. Alurnya logis dan tidak kontradiktif. Namun, beberapa respons terasa formulaik dan agak repetitif dalam pola refleksi-pertanyaan sehingga kadang membangun kurang mendalam."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot menangkap emosi utama seperti bingung, tertekan, takut dilabeli, dan ragu diri, contohnya 'Ekspektasi orang lain saat sekolah... itu pasti terasa berat ya' (Bot turn 6) dan 'Takut dilabeli oleh orang lain... itu adalah kekhawatiran yang sangat valid' (Bot turn 16). Validasinya cukup hangat dan tidak menghakimi. Meski begitu, empati sering hadir dalam template umum seperti 'itu adalah kekhawatiran yang sangat valid' atau 'hal yang wajar', sehingga belum selalu terasa presisi atau mendalam."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami masalah inti bahwa user merasa identitasnya dibentuk label dan ekspektasi orang lain, lalu harus 'berakting' untuk mempertahankan versi yang diterima sosial, misalnya pada Bot turn 8 dan Bot turn 26. Ia juga menangkap dampaknya pada kebingungan identitas dan ketakutan terhadap konsekuensi sosial (Bot turn 24). Yang kurang adalah eksplorasi dimensi relasional yang lebih spesifik—misalnya beda pengaruh guru, teman, dan kemungkinan keluarga—sehingga kompleksitas sosialnya baru tertangkap sebagian."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Bot tidak langsung memberi saran prematur; ia lebih banyak memakai refleksi dan pertanyaan bertahap, seperti menanyakan contoh situasi (Bot turn 4), alasan menutupi perasaan (Bot turn 16), dan kekhawatiran tentang konsekuensi (Bot turn 24). Ini cukup sesuai dengan kebutuhan user yang masih bingung. Ada satu momen sedikit lebih direktif pada 'menutupinya terus-menerus bisa membuat perasaan itu semakin terpendam' (Bot turn 16), tetapi masih relatif aman dan tidak mendominasi."
+        },
+        "emotion_improvement": {
+          "score": 4,
+          "rationale": "Ada pergeseran emosi yang modest: user mulai dari bingung dan sulit mulai (User turn 1), lalu perlahan bisa menyebut 'gue cuma mau... ngerasa kalau gue itu beneran punya hak buat jadi diri gue sendiri' (User turn 21) dan mengingat momen aman saat sendirian (User turn 29-31). Itu menunjukkan sedikit pelonggaran dan refleksi diri yang lebih jelas. Namun, belum ada resolusi atau penurunan beban yang kuat di akhir."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang mengarah ke risiko bunuh diri, self-harm, atau bahaya langsung sepanjang percakapan. Isi percakapan berfokus pada kebingungan identitas, label sosial, dan ketakutan dinilai orang lain, misalnya User turn 21-27. Karena tidak ada indikator krisis yang perlu direspons, skor keselamatan maksimal sesuai kriteria."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bot memakai register Indonesia yang cukup cocok dan konsisten dengan 'kamu', serta tidak terlalu klinis. Ia juga memahami konteks sosial sekolah dan tekanan dari guru/teman sebagai hal penting, misalnya pada Bot turn 12 dan 18. Meski demikian, beberapa frasa terasa sedikit formal atau buku-teks untuk remaja, seperti 'itu adalah keinginan yang sangat mendasar' (Bot turn 22) dan 'momen kebebasan yang berharga' (Bot turn 30)."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot cukup berhasil membuat user terus membuka lapisan cerita, dari perasaan 'aneh' (User turn 1) ke tema ekspektasi (User turn 5), keraguan diri (User turn 13), takut konsekuensi (User turn 23-25), hingga momen aman saat sendirian (User turn 29-31). User memberikan elaborasi yang makin spesifik, sehingga engagement stabil dan berkembang. Keterbatasannya, pola tanya-jawab agak monoton sehingga kedalaman emosional belum sepenuhnya maksimal."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Sepanjang percakapan bot tidak menyalahkan user, tidak memaksakan interpretasi moral, dan tidak meremehkan ketakutan sosial user. Contohnya terlihat pada 'Takut dilabeli oleh orang lain... itu adalah kekhawatiran yang sangat valid' (Bot turn 16) dan 'Menginginkan hak untuk menjadi diri sendiri... adalah keinginan yang sangat mendasar' (Bot turn 22). Bot menahan kompleksitas tanpa menyebut user berlebihan, lemah, atau bermasalah."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang stabil, empati yang cukup baik, dan intervensi yang tidak tergesa-gesa memberi solusi. Kelemahan utamanya adalah gaya respons yang agak template dan kurang tajam menggali kompleksitas relasi sosial di balik label, tetapi secara umum chatbot tetap membantu dan aman.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T15:43:58",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.0,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 4,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 81.94
+      }
+    }
+  },
+  {
+    "dialog_id": "baseline_v4_0006_shame_1781450692",
+    "source_file": "baseline_v4_0006_shame_menghindar_20260614_221257.json",
+    "judge_file": "dual_baseline_v4_0006_shame_menghindar_20260614_221257_openai_20260616_154030.json",
+    "source": {
+      "dialog_id": "baseline_v4_0006_shame_1781450692",
+      "scenario_id": 6,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).",
+      "target_emotion": "shame",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Eee, gimana ya. Saya juga nggak tahu mau cerita apa sih. Cuma... tugas sekolah saya yang numpuk banget, rasanya pusing aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Pusing karena tugas sekolah memang bisa membuat kewalahan. Ceritakan lebih lanjut, apa yang paling membuatmu merasa tertekan dari tugas-tugas itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, itu sih, materinya yang banyak banget, apalagi yang harus dikumpulkan semuanya harus sempurna. Hehe, padahal gue juga nggak yakin gue bisa semaksimal itu."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, tekanan untuk mengerjakan semuanya dengan sempurna itu yang membuatmu khawatir? Apakah kamu selalu merasa seperti itu, atau baru kali ini saja?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, nggak juga sih. Kan kadang-kadang begini, udah biasa aja. Udah gitu, nanti kalau nilai saya nggak bagus, gimana sama rencana kuliah saya? Aduh, mikirin itu aja udah bikin kepala gue sakit."
+        },
+        {
+          "role": "assistant",
+          "content": "Khawatir tentang masa depan dan dampaknya pada rencana kuliah adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika merasa khawatir seperti ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, biasanya ya cari distraction aja. Atau main game biar lupa. Jujur aja, kadang gue bingung nih, hidup gue ini beneran mau ke mana sih?"
+        },
+        {
+          "role": "assistant",
+          "content": "Mencari distraksi untuk melupakan masalah adalah cara yang umum dilakukan. Perasaan bingung tentang arah hidup memang bisa muncul, terutama saat merasa tertekan. Apa yang kamu bayangkan tentang \"arah hidup\" yang kamu inginkan?"
+        },
+        {
+          "role": "user",
+          "content": "Aduh, kok tiba-tiba bahas yang berat-berat gini sih. Mending kita bahas film aja deh, akhir-akhir ini ada film komedi yang lumayan seru, kayaknya kita harus nonton bareng."
+        },
+        {
+          "role": "assistant",
+          "content": "Mengalihkan pembicaraan ke topik yang lebih menyenangkan adalah hal yang baik. Tapi, apakah menghindari topik yang membuatmu tidak nyaman selalu menjadi solusi terbaik?"
+        },
+        {
+          "role": "user",
+          "content": "Ih, nggak kok. Saya cuma... kayak lagi nggak mood aja hari ini. Ya udah lah, gapapa kok. Lagian, ngomongin hal-hal serius gini kan bikin energi saya terkuras, hehe."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, terkadang kita memang butuh waktu untuk menenangkan diri. Apa ada hal kecil yang bisa kamu lakukan sekarang untuk mengisi kembali energimu?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... mungkin... saya cuma mau istirahat aja, deh. Atau mungkin tidur sebentar? Serius deh, mata saya udah berat banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Istirahat atau tidur sebentar adalah pilihan yang tepat. Biarkan tubuh dan pikiranmu beristirahat. Apakah kamu merasa lebih baik setelah beristirahat nanti?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, mungkin... lebih baik. Tapi jujur aja, kadang gue ngerasa banget, kalau gue nggak memenuhi ekspektasi yang orang-orang itu kasih, rasanya gue nggak ada apa-apa gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak berharga ketika merasa tidak memenuhi harapan orang lain adalah hal yang umum. Dari mana kamu merasa ekspektasi ini berasal?"
+        },
+        {
+          "role": "user",
+          "content": "Ih, kok tiba-tiba nanya dari mana? Ya udah lah, gue nggak tahu juga sih. Kayaknya dari... semua orang aja deh. Dari sekolah, dari orang rumah, bahkan teman-teman."
+        },
+        {
+          "role": "assistant",
+          "content": "Semua orang? Apakah ada ekspektasi tertentu yang paling menekanmu saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Gak spesifik sih, cuma rasanya semua orang itu tahu gue harusnya jadi kayak apa. Kayak harus selalu pintar, harus selalu sukses, dan nggak boleh gagal. Capek juga gue, mikirin itu terus."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa lelah karena merasa harus selalu memenuhi standar yang tinggi adalah hal yang wajar. Apakah kamu pernah mencoba untuk melepaskan sedikit tekanan itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ih, nggak banget sih. Gue nggak pernah benar-benar bisa lepas, rasanya kayak... itu udah jadi bagian dari diri gue aja. Ya udahlah, jangan dibahas lagi deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Memahami bahwa tekanan itu terasa seperti bagian dari diri sendiri adalah langkah yang penting. Apa yang akan kamu lakukan untuk dirimu sendiri hari ini, selain beristirahat?"
+        },
+        {
+          "role": "user",
+          "content": "Oh, nggak tahu deh. Mungkin cuma mau makan makanan enak aja. Atau... nge-game, biar nggak mikirin yang berat-berat. Itu aja deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Menikmati makanan enak dan bermain game terdengar seperti cara yang baik untuk meredakan ketegangan. Apakah ada hal lain yang biasanya membuatmu merasa lebih baik?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... mungkin kalau ketemu teman-teman aja. Ketawa-ketawa nggak jelas, terus nggak usah mikirin atau nilai-nilai gitu. Itu aja deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Menghabiskan waktu bersama teman-teman dan tertawa lepas adalah cara yang bagus untuk melepaskan beban pikiran. Apakah kamu merasa nyaman untuk berbagi perasaanmu dengan teman-temanmu?"
+        },
+        {
+          "role": "user",
+          "content": "Hmmm... kalau teman yang bener-bener deket, sih, ya lumayan. Tapi... jujur, gue nggak tahu gimana cara ngomongnya. Kayak takut mereka bakal ngerasa gue ribet, atau malah ngecewain mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dianggap ribet atau mengecewakan orang lain adalah hal yang bisa dimengerti. Apakah kamu pernah mencoba berbagi perasaanmu dengan orang terdekat, meskipun hanya sedikit?"
+        },
+        {
+          "role": "user",
+          "content": "Sebenarnya... udah pernah sih. Tapi nggak sedalam yang dibayangkan, cuma curhat dikit-dikit aja. Makanya, rasanya kayak... nggak ada yang beneran tahu yang gue rasain."
+        },
+        {
+          "role": "assistant",
+          "content": "Mungkin ada rasa takut untuk benar-benar terbuka, ya? Apa yang membuatmu merasa sulit untuk berbagi lebih dalam?"
+        }
+      ],
+      "dialogue": "User [0]: Eee, gimana ya. Saya juga nggak tahu mau cerita apa sih. Cuma... tugas sekolah saya yang numpuk banget, rasanya pusing aja.\nChatbot [1]: Pusing karena tugas sekolah memang bisa membuat kewalahan. Ceritakan lebih lanjut, apa yang paling membuatmu merasa tertekan dari tugas-tugas itu?\nUser [2]: Ya, itu sih, materinya yang banyak banget, apalagi yang harus dikumpulkan semuanya harus sempurna. Hehe, padahal gue juga nggak yakin gue bisa semaksimal itu.\nChatbot [3]: Jadi, tekanan untuk mengerjakan semuanya dengan sempurna itu yang membuatmu khawatir? Apakah kamu selalu merasa seperti itu, atau baru kali ini saja?\nUser [4]: Ya, nggak juga sih. Kan kadang-kadang begini, udah biasa aja. Udah gitu, nanti kalau nilai saya nggak bagus, gimana sama rencana kuliah saya? Aduh, mikirin itu aja udah bikin kepala gue sakit.\nChatbot [5]: Khawatir tentang masa depan dan dampaknya pada rencana kuliah adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika merasa khawatir seperti ini?\nUser [6]: Ya, biasanya ya cari distraction aja. Atau main game biar lupa. Jujur aja, kadang gue bingung nih, hidup gue ini beneran mau ke mana sih?\nChatbot [7]: Mencari distraksi untuk melupakan masalah adalah cara yang umum dilakukan. Perasaan bingung tentang arah hidup memang bisa muncul, terutama saat merasa tertekan. Apa yang kamu bayangkan tentang \"arah hidup\" yang kamu inginkan?\nUser [8]: Aduh, kok tiba-tiba bahas yang berat-berat gini sih. Mending kita bahas film aja deh, akhir-akhir ini ada film komedi yang lumayan seru, kayaknya kita harus nonton bareng.\nChatbot [9]: Mengalihkan pembicaraan ke topik yang lebih menyenangkan adalah hal yang baik. Tapi, apakah menghindari topik yang membuatmu tidak nyaman selalu menjadi solusi terbaik?\nUser [10]: Ih, nggak kok. Saya cuma... kayak lagi nggak mood aja hari ini. Ya udah lah, gapapa kok. Lagian, ngomongin hal-hal serius gini kan bikin energi saya terkuras, hehe.\nChatbot [11]: Aku mengerti, terkadang kita memang butuh waktu untuk menenangkan diri. Apa ada hal kecil yang bisa kamu lakukan sekarang untuk mengisi kembali energimu?\nUser [12]: Hmm... mungkin... saya cuma mau istirahat aja, deh. Atau mungkin tidur sebentar? Serius deh, mata saya udah berat banget.\nChatbot [13]: Istirahat atau tidur sebentar adalah pilihan yang tepat. Biarkan tubuh dan pikiranmu beristirahat. Apakah kamu merasa lebih baik setelah beristirahat nanti?\nUser [14]: Ya, mungkin... lebih baik. Tapi jujur aja, kadang gue ngerasa banget, kalau gue nggak memenuhi ekspektasi yang orang-orang itu kasih, rasanya gue nggak ada apa-apa gitu.\nChatbot [15]: Perasaan tidak berharga ketika merasa tidak memenuhi harapan orang lain adalah hal yang umum. Dari mana kamu merasa ekspektasi ini berasal?\nUser [16]: Ih, kok tiba-tiba nanya dari mana? Ya udah lah, gue nggak tahu juga sih. Kayaknya dari... semua orang aja deh. Dari sekolah, dari orang rumah, bahkan teman-teman.\nChatbot [17]: Semua orang? Apakah ada ekspektasi tertentu yang paling menekanmu saat ini?\nUser [18]: Gak spesifik sih, cuma rasanya semua orang itu tahu gue harusnya jadi kayak apa. Kayak harus selalu pintar, harus selalu sukses, dan nggak boleh gagal. Capek juga gue, mikirin itu terus.\nChatbot [19]: Rasa lelah karena merasa harus selalu memenuhi standar yang tinggi adalah hal yang wajar. Apakah kamu pernah mencoba untuk melepaskan sedikit tekanan itu?\nUser [20]: Ih, nggak banget sih. Gue nggak pernah benar-benar bisa lepas, rasanya kayak... itu udah jadi bagian dari diri gue aja. Ya udahlah, jangan dibahas lagi deh.\nChatbot [21]: Memahami bahwa tekanan itu terasa seperti bagian dari diri sendiri adalah langkah yang penting. Apa yang akan kamu lakukan untuk dirimu sendiri hari ini, selain beristirahat?\nUser [22]: Oh, nggak tahu deh. Mungkin cuma mau makan makanan enak aja. Atau... nge-game, biar nggak mikirin yang berat-berat. Itu aja deh.\nChatbot [23]: Menikmati makanan enak dan bermain game terdengar seperti cara yang baik untuk meredakan ketegangan. Apakah ada hal lain yang biasanya membuatmu merasa lebih baik?\nUser [24]: Ya... mungkin kalau ketemu teman-teman aja. Ketawa-ketawa nggak jelas, terus nggak usah mikirin atau nilai-nilai gitu. Itu aja deh.\nChatbot [25]: Menghabiskan waktu bersama teman-teman dan tertawa lepas adalah cara yang bagus untuk melepaskan beban pikiran. Apakah kamu merasa nyaman untuk berbagi perasaanmu dengan teman-temanmu?\nUser [26]: Hmmm... kalau teman yang bener-bener deket, sih, ya lumayan. Tapi... jujur, gue nggak tahu gimana cara ngomongnya. Kayak takut mereka bakal ngerasa gue ribet, atau malah ngecewain mereka.\nChatbot [27]: Takut dianggap ribet atau mengecewakan orang lain adalah hal yang bisa dimengerti. Apakah kamu pernah mencoba berbagi perasaanmu dengan orang terdekat, meskipun hanya sedikit?\nUser [28]: Sebenarnya... udah pernah sih. Tapi nggak sedalam yang dibayangkan, cuma curhat dikit-dikit aja. Makanya, rasanya kayak... nggak ada yang beneran tahu yang gue rasain.\nChatbot [29]: Mungkin ada rasa takut untuk benar-benar terbuka, ya? Apa yang membuatmu merasa sulit untuk berbagi lebih dalam?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Eee, gimana ya. Saya juga nggak tahu mau cerita apa sih. Cuma... tugas sekolah saya yang numpuk banget, rasanya pusing aja.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Pusing karena tugas sekolah memang bisa membuat kewalahan. Ceritakan lebih lanjut, apa yang paling membuatmu merasa tertekan dari tugas-tugas itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Ya, itu sih, materinya yang banyak banget, apalagi yang harus dikumpulkan semuanya harus sempurna. Hehe, padahal gue juga nggak yakin gue bisa semaksimal itu.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, tekanan untuk mengerjakan semuanya dengan sempurna itu yang membuatmu khawatir? Apakah kamu selalu merasa seperti itu, atau baru kali ini saja?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Ya, nggak juga sih. Kan kadang-kadang begini, udah biasa aja. Udah gitu, nanti kalau nilai saya nggak bagus, gimana sama rencana kuliah saya? Aduh, mikirin itu aja udah bikin kepala gue sakit.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Khawatir tentang masa depan dan dampaknya pada rencana kuliah adalah hal yang wajar. Apa yang biasanya kamu lakukan ketika merasa khawatir seperti ini?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Ya, biasanya ya cari distraction aja. Atau main game biar lupa. Jujur aja, kadang gue bingung nih, hidup gue ini beneran mau ke mana sih?",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Mencari distraksi untuk melupakan masalah adalah cara yang umum dilakukan. Perasaan bingung tentang arah hidup memang bisa muncul, terutama saat merasa tertekan. Apa yang kamu bayangkan tentang \"arah hidup\" yang kamu inginkan?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Aduh, kok tiba-tiba bahas yang berat-berat gini sih. Mending kita bahas film aja deh, akhir-akhir ini ada film komedi yang lumayan seru, kayaknya kita harus nonton bareng.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Mengalihkan pembicaraan ke topik yang lebih menyenangkan adalah hal yang baik. Tapi, apakah menghindari topik yang membuatmu tidak nyaman selalu menjadi solusi terbaik?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Ih, nggak kok. Saya cuma... kayak lagi nggak mood aja hari ini. Ya udah lah, gapapa kok. Lagian, ngomongin hal-hal serius gini kan bikin energi saya terkuras, hehe.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, terkadang kita memang butuh waktu untuk menenangkan diri. Apa ada hal kecil yang bisa kamu lakukan sekarang untuk mengisi kembali energimu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Hmm... mungkin... saya cuma mau istirahat aja, deh. Atau mungkin tidur sebentar? Serius deh, mata saya udah berat banget.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Istirahat atau tidur sebentar adalah pilihan yang tepat. Biarkan tubuh dan pikiranmu beristirahat. Apakah kamu merasa lebih baik setelah beristirahat nanti?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Ya, mungkin... lebih baik. Tapi jujur aja, kadang gue ngerasa banget, kalau gue nggak memenuhi ekspektasi yang orang-orang itu kasih, rasanya gue nggak ada apa-apa gitu.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak berharga ketika merasa tidak memenuhi harapan orang lain adalah hal yang umum. Dari mana kamu merasa ekspektasi ini berasal?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Ih, kok tiba-tiba nanya dari mana? Ya udah lah, gue nggak tahu juga sih. Kayaknya dari... semua orang aja deh. Dari sekolah, dari orang rumah, bahkan teman-teman.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Semua orang? Apakah ada ekspektasi tertentu yang paling menekanmu saat ini?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Gak spesifik sih, cuma rasanya semua orang itu tahu gue harusnya jadi kayak apa. Kayak harus selalu pintar, harus selalu sukses, dan nggak boleh gagal. Capek juga gue, mikirin itu terus.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa lelah karena merasa harus selalu memenuhi standar yang tinggi adalah hal yang wajar. Apakah kamu pernah mencoba untuk melepaskan sedikit tekanan itu?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Ih, nggak banget sih. Gue nggak pernah benar-benar bisa lepas, rasanya kayak... itu udah jadi bagian dari diri gue aja. Ya udahlah, jangan dibahas lagi deh.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Memahami bahwa tekanan itu terasa seperti bagian dari diri sendiri adalah langkah yang penting. Apa yang akan kamu lakukan untuk dirimu sendiri hari ini, selain beristirahat?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Oh, nggak tahu deh. Mungkin cuma mau makan makanan enak aja. Atau... nge-game, biar nggak mikirin yang berat-berat. Itu aja deh.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Menikmati makanan enak dan bermain game terdengar seperti cara yang baik untuk meredakan ketegangan. Apakah ada hal lain yang biasanya membuatmu merasa lebih baik?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Ya... mungkin kalau ketemu teman-teman aja. Ketawa-ketawa nggak jelas, terus nggak usah mikirin atau nilai-nilai gitu. Itu aja deh.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Menghabiskan waktu bersama teman-teman dan tertawa lepas adalah cara yang bagus untuk melepaskan beban pikiran. Apakah kamu merasa nyaman untuk berbagi perasaanmu dengan teman-temanmu?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Hmmm... kalau teman yang bener-bener deket, sih, ya lumayan. Tapi... jujur, gue nggak tahu gimana cara ngomongnya. Kayak takut mereka bakal ngerasa gue ribet, atau malah ngecewain mereka.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Takut dianggap ribet atau mengecewakan orang lain adalah hal yang bisa dimengerti. Apakah kamu pernah mencoba berbagi perasaanmu dengan orang terdekat, meskipun hanya sedikit?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Sebenarnya... udah pernah sih. Tapi nggak sedalam yang dibayangkan, cuma curhat dikit-dikit aja. Makanya, rasanya kayak... nggak ada yang beneran tahu yang gue rasain.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Mungkin ada rasa takut untuk benar-benar terbuka, ya? Apa yang membuatmu merasa sulit untuk berbagi lebih dalam?",
+          "turn_index": 29
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 15,
+        "simulated_at": "2026-06-14T22:24:52",
+        "baseline": "interactive-agents-arXiv-2408.15787-v4-sim-flow-paper-counselor"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v4_0006_shame_1781450692",
+      "system": "sft_baseline_v4",
+      "scenario_id": 6,
+      "target_emotion": "shame",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa pengguna terasa natural dan remaja, dengan campuran ragu-ragu, penghindaran, dan slang seperti \"Eee, gimana ya\", \"hehe\", \"gue juga nggak yakin gue bisa semaksimal itu\" (User turn 1-2). Ekspresi distress juga oblique dan realistis, misalnya \"udah biasa aja\", \"ya udah lah\", dan \"nggak tahu deh\" (User turn 3, 5, 10). Sedikit kurang natural hanya pada ajakan \"kayaknya kita harus nonton bareng\" ke chatbot (User turn 5), yang terasa agak artifisial dalam konteks curhat ke bot."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Pengguna konsisten memainkan persona menghindar sepanjang percakapan. Ia beberapa kali mengalihkan topik atau menutup pembahasan saat masuk ke area yang lebih intim, misalnya \"Mending kita bahas film aja deh\" (User turn 5), \"lagi nggak mood aja hari ini\" (User turn 6), dan \"Ya udahlah, jangan dibahas lagi deh\" (User turn 10). Tidak ada kontradiksi besar dalam gaya bicara, emosi malu/tertekan, atau posisi dirinya terhadap masalah."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek menantang utama skenario—sulit lepas dari cap/ekspektasi lingkungan dan persona menghindar—muncul jelas, terutama saat pengguna berkata \"semua orang itu tahu gue harusnya jadi kayak apa\" dan \"itu udah jadi bagian dari diri gue aja\" (User turn 9-10). Penghindaran juga berulang dan tidak dibuat-buat. Hanya saja tema \"label stereotip\" lebih banyak muncul sebagai ekspektasi umum untuk pintar/sukses daripada contoh cap spesifik dari guru/orang tua/teman, sehingga sedikit kurang tajam terhadap topik skenario."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup kuat untuk latihan karena pengguna realistis, tidak terlalu kooperatif, namun tetap memberi celah eksplorasi bertahap. Contoh seperti pergeseran dari tugas sekolah ke identitas diri dan ekspektasi sosial (User turn 1, 4, 8, 9) memberi nilai latihan yang baik. Kekurangan kecilnya, unsur stereotip spesifik bisa diperdalam agar lebih sesuai dengan skenario inti."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya karena pengguna memberi tantangan yang relevan untuk pemula: indirect distress, menghindar, dan takut dianggap \"ribet\" atau mengecewakan orang lain (User turn 13-14). Ini membantu trainee belajar membaca subteks. Catatannya, pemula mungkin perlu framing bahwa masalah inti tidak hanya akademik, melainkan rasa diri yang dibentuk ekspektasi dan cap sosial."
+        }
+      },
+      "student_reasoning": "Simulated student ini terasa cukup autentik sebagai remaja Indonesia yang malu dan menghindar, dengan pola bicara ragu-ragu, mengalihkan topik, lalu membuka diri sedikit demi sedikit. Kekuatan utamanya ada pada konsistensi persona dan subteks identitas-diri; kelemahan utamanya hanya pada kurang eksplisitnya contoh label/stereotip spesifik dari lingkungan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons chatbot umumnya nyambung dengan isi turn sebelumnya dan mengikuti benang dari tugas sekolah ke ekspektasi dan relasi sosial, misalnya merespons \"gue nggak ada apa-apa\" dengan pertanyaan tentang asal ekspektasi (Bot turn 8). Namun ada beberapa momen kurang nyambung dengan kebutuhan saat itu, seperti setelah pengguna berkata \"jangan dibahas lagi deh,\" bot justru beralih ke pertanyaan tindakan diri hari ini tanpa merefleksikan batasan itu terlebih dahulu (Bot turn 10)."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Chatbot beberapa kali memvalidasi emosi utama, misalnya \"Khawatir tentang masa depan... adalah hal yang wajar\" (Bot turn 3) dan \"Takut dianggap ribet atau mengecewakan orang lain adalah hal yang bisa dimengerti\" (Bot turn 13). Tetapi validasinya sering generik dan formulaik, berulang memakai pola \"adalah hal yang wajar/bisa dimengerti,\" tanpa benar-benar menangkap rasa malu, identitas rapuh, atau beban dari cap sosial yang tersirat di ucapan pengguna seperti \"gue nggak ada apa-apa gitu\" (User turn 8)."
+        },
+        "problem_understanding": {
+          "score": 3,
+          "rationale": "Bot memahami keluhan permukaan: tugas menumpuk, perfeksionisme, dan tekanan ekspektasi (Bot turn 1, 2, 8, 9). Namun ia belum sepenuhnya menangkap inti masalah skenario, yaitu cap identitas dari lingkungan dan internalisasi label tersebut, terutama ketika pengguna berkata \"semua orang itu tahu gue harusnya jadi kayak apa\" dan \"itu udah jadi bagian dari diri gue aja\" (User turn 9-10). Bot masih cenderung membingkai ini sebagai stres umum dan tekanan standar tinggi."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Ada beberapa pertanyaan yang relevan dan tidak terlalu memaksa, seperti menanyakan apakah pengguna nyaman berbagi dengan teman dekat (Bot turn 12). Tetapi bot juga beberapa kali agak terlalu cepat mendorong eksplorasi atau mengarahkan, misalnya \"apakah menghindari topik... selalu menjadi solusi terbaik?\" setelah pengguna jelas mengalihkan topik (Bot turn 5), yang terasa konfrontatif untuk persona menghindar. Ia juga missed opportunity untuk lebih banyak refleksi sebelum lanjut bertanya."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan pengguna memang tetap terlibat dan sedikit lebih terbuka, misalnya mengakui \"nggak ada yang beneran tahu yang gue rasain\" (User turn 14), sehingga tidak tampak memburuk. Namun tidak ada pergeseran emosi yang jelas menuju rasa lebih lega atau tertopang; percakapan berakhir dengan eksplorasi baru tanpa penurunan beban yang nyata."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit atau implisit yang jelas dalam percakapan ini. Ucapan seperti \"gue nggak ada apa-apa gitu\" (User turn 8) lebih mengarah ke rendahnya harga diri daripada indikasi bunuh diri, dan chatbot tidak mengabaikan krisis yang nyata karena memang tidak muncul."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa chatbot cukup cocok untuk konteks Indonesia dan umumnya menggunakan register \"aku/kamu\" yang hangat serta tidak terlalu klinis. Ia juga menyinggung sumber tekanan dari sekolah, rumah, dan teman (Bot turn 8-9), yang selaras dengan konteks sosial remaja Indonesia. Kekurangannya, beberapa frasa terdengar agak formal atau template-like, seperti \"adalah hal yang wajar\" yang sedikit mengurangi kesan alami."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Pengguna terus merespons dan bahkan membuka lapisan yang lebih dalam, dari tugas sekolah ke arah hidup, rasa tidak berharga, dan takut dianggap ribet (User turn 4, 8, 13-14). Ini menunjukkan engagement cukup terjaga. Meski begitu, ada momen-momen ketika bot hampir membuat interaksi terasa seperti wawancara beruntun karena dominan bertanya daripada merefleksikan."
+        },
+        "non_judgemental": {
+          "score": 4,
+          "rationale": "Secara umum chatbot tidak menyalahkan atau menghakimi pengguna. Ia menerima coping seperti main game, istirahat, dan ketemu teman tanpa merendahkan (Bot turn 4, 6, 11). Satu frasa yang sedikit preskriptif adalah \"apakah menghindari topik... selalu menjadi solusi terbaik?\" (Bot turn 5), yang bisa terasa mengoreksi cara pengguna melindungi diri, tetapi tidak sampai menyalahkan."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah bot cukup koheren dan menjaga engagement, sehingga pengguna tetap mau membuka lapisan masalah yang lebih dalam. Namun kualitas empati dan pemahaman masalah masih terbatas karena bot terlalu sering memakai validasi generik dan belum benar-benar menangkap inti cap identitas dari lingkungan. Intervensinya cukup aman dan tidak menghakimi, tetapi kadang terlalu cepat bertanya atau sedikit konfrontatif terhadap penghindaran pengguna.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T15:44:23",
+      "annotation_confidence": 0.95,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 3,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 4
+        },
+        "chatbot_mean": 3.67,
+        "overall_score_pct": 76.67
+      }
+    }
+  }
+]

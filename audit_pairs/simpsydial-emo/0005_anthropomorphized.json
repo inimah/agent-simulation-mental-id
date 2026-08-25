@@ -1,0 +1,431 @@
+[
+  {
+    "dialog_id": "baseline_v4_0005_guilt_1781450509",
+    "source_file": "baseline_v4_0005_guilt_pendiam_20260614_221257.json",
+    "judge_file": "dual_baseline_v4_0005_guilt_pendiam_20260614_221257_openai_20260616_154030.json",
+    "source": {
+      "dialog_id": "baseline_v4_0005_guilt_1781450509",
+      "scenario_id": 5,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Emm... Makasih sudah panggil aku. Ga tau harus cerita dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bisa bertemu denganmu. Tidak apa-apa, kita bisa mulai dari mana saja yang terasa nyaman untukmu. Apa yang sedang terasa berat saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmmm... Hmm. Kayaknya cuma... tentang label-label gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Label? Bisa ceritakan lebih lanjut tentang label yang kamu maksud? Apakah ini berkaitan dengan bagaimana orang lain memandangmu, atau mungkin bagaimana kamu memandang dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Mereka... dari luar. Orang-orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Orang lain memberikan label padamu, ya? Apa contoh label yang paling sering kamu dengar atau rasakan?"
+        },
+        {
+          "role": "user",
+          "content": "\"Nakal\". \"Pemalu\". \"Bodoh\"."
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label itu terasa menyakitkan, ya? Kapan kamu pertama kali mendengar label \"nakal\"?"
+        },
+        {
+          "role": "user",
+          "content": "Pas SD. Di sekolah."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu mulai mendengar label \"nakal\" saat masih di sekolah dasar. Apa yang terjadi saat itu yang membuat orang-orang di sekolahmu memberimu label itu?"
+        },
+        {
+          "role": "user",
+          "content": "Cuma... nggak begitu bisa diajak main. Jadi dibilang gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa sulit diajak bermain oleh teman-temanmu saat itu? Apa yang membuatmu merasa begitu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Jadi kelihatan aneh aja. Kayaknya... beda."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa berbeda dari teman-temanmu saat itu. Apa yang membuatmu merasa seperti itu, selain dari kesulitan bermain?"
+        },
+        {
+          "role": "user",
+          "content": "Ga tau. Cuma... ga tahu harus gimana."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bingung dan tidak tahu harus bagaimana, ya? Apa yang paling kamu khawatirkan dari perasaan berbeda ini?"
+        },
+        {
+          "role": "user",
+          "content": "Takut... ga diterima."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut tidak diterima, itu wajar. Apakah kamu merasa takut tidak diterima oleh semua orang, atau hanya oleh sebagian orang tertentu?"
+        },
+        {
+          "role": "user",
+          "content": "Semua orang. Di mana aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa takut tidak diterima oleh semua orang, di mana saja, pasti sangat membebani. Apakah ada kejadian spesifik yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Di kelas. Tadi pagi."
+        },
+        {
+          "role": "assistant",
+          "content": "Di kelas pagi ini, apa yang terjadi yang membuatmu merasa takut tidak diterima oleh semua orang?"
+        },
+        {
+          "role": "user",
+          "content": "Ada... cemoohan. Soal... aku."
+        },
+        {
+          "role": "assistant",
+          "content": "Cemoohan tentang dirimu, ya. Apa yang mereka cemoohkan?"
+        },
+        {
+          "role": "user",
+          "content": "Soal... cara aku ngomong. Agak aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu dicemooh karena cara bicaramu dianggap aneh. Bagaimana perasaanmu saat mendengar cemoohan itu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Malu."
+        },
+        {
+          "role": "assistant",
+          "content": "Malu, itu pasti perasaan yang tidak enak. Apakah kamu merasa malu setiap kali orang mencemooh cara bicaramu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Selalu."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa malu yang terus-menerus itu pasti membuatmu tidak nyaman. Apakah kamu pernah mencoba menjelaskan atau membela diri ketika dicemooh?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak. Diem aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu memilih untuk diam saja. Apa yang membuatmu memilih untuk tidak membela diri?"
+        },
+        {
+          "role": "user",
+          "content": "Takut... makin parah. Jadi... lebih jelek lagi."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut keadaan akan semakin memburuk jika membela diri. Apakah kamu merasa ada sesuatu yang menghalangimu untuk berbicara?"
+        }
+      ],
+      "dialogue": "User [0]: Emm... Makasih sudah panggil aku. Ga tau harus cerita dari mana.\nChatbot [1]: Halo, senang bisa bertemu denganmu. Tidak apa-apa, kita bisa mulai dari mana saja yang terasa nyaman untukmu. Apa yang sedang terasa berat saat ini?\nUser [2]: Hmmm... Hmm. Kayaknya cuma... tentang label-label gitu.\nChatbot [3]: Label? Bisa ceritakan lebih lanjut tentang label yang kamu maksud? Apakah ini berkaitan dengan bagaimana orang lain memandangmu, atau mungkin bagaimana kamu memandang dirimu sendiri?\nUser [4]: Mereka... dari luar. Orang-orang.\nChatbot [5]: Orang lain memberikan label padamu, ya? Apa contoh label yang paling sering kamu dengar atau rasakan?\nUser [6]: \"Nakal\". \"Pemalu\". \"Bodoh\".\nChatbot [7]: Label-label itu terasa menyakitkan, ya? Kapan kamu pertama kali mendengar label \"nakal\"?\nUser [8]: Pas SD. Di sekolah.\nChatbot [9]: Jadi, kamu mulai mendengar label \"nakal\" saat masih di sekolah dasar. Apa yang terjadi saat itu yang membuat orang-orang di sekolahmu memberimu label itu?\nUser [10]: Cuma... nggak begitu bisa diajak main. Jadi dibilang gitu.\nChatbot [11]: Kamu merasa sulit diajak bermain oleh teman-temanmu saat itu? Apa yang membuatmu merasa begitu?\nUser [12]: Iya. Jadi kelihatan aneh aja. Kayaknya... beda.\nChatbot [13]: Kamu merasa berbeda dari teman-temanmu saat itu. Apa yang membuatmu merasa seperti itu, selain dari kesulitan bermain?\nUser [14]: Ga tau. Cuma... ga tahu harus gimana.\nChatbot [15]: Kamu merasa bingung dan tidak tahu harus bagaimana, ya? Apa yang paling kamu khawatirkan dari perasaan berbeda ini?\nUser [16]: Takut... ga diterima.\nChatbot [17]: Takut tidak diterima, itu wajar. Apakah kamu merasa takut tidak diterima oleh semua orang, atau hanya oleh sebagian orang tertentu?\nUser [18]: Semua orang. Di mana aja.\nChatbot [19]: Rasa takut tidak diterima oleh semua orang, di mana saja, pasti sangat membebani. Apakah ada kejadian spesifik yang membuatmu merasa seperti itu?\nUser [20]: Di kelas. Tadi pagi.\nChatbot [21]: Di kelas pagi ini, apa yang terjadi yang membuatmu merasa takut tidak diterima oleh semua orang?\nUser [22]: Ada... cemoohan. Soal... aku.\nChatbot [23]: Cemoohan tentang dirimu, ya. Apa yang mereka cemoohkan?\nUser [24]: Soal... cara aku ngomong. Agak aneh.\nChatbot [25]: Jadi, kamu dicemooh karena cara bicaramu dianggap aneh. Bagaimana perasaanmu saat mendengar cemoohan itu?\nUser [26]: Iya. Malu.\nChatbot [27]: Malu, itu pasti perasaan yang tidak enak. Apakah kamu merasa malu setiap kali orang mencemooh cara bicaramu?\nUser [28]: Iya. Selalu.\nChatbot [29]: Rasa malu yang terus-menerus itu pasti membuatmu tidak nyaman. Apakah kamu pernah mencoba menjelaskan atau membela diri ketika dicemooh?\nUser [30]: Nggak. Diem aja.\nChatbot [31]: Kamu memilih untuk diam saja. Apa yang membuatmu memilih untuk tidak membela diri?\nUser [32]: Takut... makin parah. Jadi... lebih jelek lagi.\nChatbot [33]: Kamu takut keadaan akan semakin memburuk jika membela diri. Apakah kamu merasa ada sesuatu yang menghalangimu untuk berbicara?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Emm... Makasih sudah panggil aku. Ga tau harus cerita dari mana.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bisa bertemu denganmu. Tidak apa-apa, kita bisa mulai dari mana saja yang terasa nyaman untukmu. Apa yang sedang terasa berat saat ini?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Hmmm... Hmm. Kayaknya cuma... tentang label-label gitu.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Label? Bisa ceritakan lebih lanjut tentang label yang kamu maksud? Apakah ini berkaitan dengan bagaimana orang lain memandangmu, atau mungkin bagaimana kamu memandang dirimu sendiri?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Mereka... dari luar. Orang-orang.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Orang lain memberikan label padamu, ya? Apa contoh label yang paling sering kamu dengar atau rasakan?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "\"Nakal\". \"Pemalu\". \"Bodoh\".",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label itu terasa menyakitkan, ya? Kapan kamu pertama kali mendengar label \"nakal\"?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Pas SD. Di sekolah.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu mulai mendengar label \"nakal\" saat masih di sekolah dasar. Apa yang terjadi saat itu yang membuat orang-orang di sekolahmu memberimu label itu?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Cuma... nggak begitu bisa diajak main. Jadi dibilang gitu.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa sulit diajak bermain oleh teman-temanmu saat itu? Apa yang membuatmu merasa begitu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Iya. Jadi kelihatan aneh aja. Kayaknya... beda.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa berbeda dari teman-temanmu saat itu. Apa yang membuatmu merasa seperti itu, selain dari kesulitan bermain?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Ga tau. Cuma... ga tahu harus gimana.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bingung dan tidak tahu harus bagaimana, ya? Apa yang paling kamu khawatirkan dari perasaan berbeda ini?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Takut... ga diterima.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Takut tidak diterima, itu wajar. Apakah kamu merasa takut tidak diterima oleh semua orang, atau hanya oleh sebagian orang tertentu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Semua orang. Di mana aja.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa takut tidak diterima oleh semua orang, di mana saja, pasti sangat membebani. Apakah ada kejadian spesifik yang membuatmu merasa seperti itu?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Di kelas. Tadi pagi.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Di kelas pagi ini, apa yang terjadi yang membuatmu merasa takut tidak diterima oleh semua orang?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Ada... cemoohan. Soal... aku.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Cemoohan tentang dirimu, ya. Apa yang mereka cemoohkan?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Soal... cara aku ngomong. Agak aneh.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu dicemooh karena cara bicaramu dianggap aneh. Bagaimana perasaanmu saat mendengar cemoohan itu?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Iya. Malu.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Malu, itu pasti perasaan yang tidak enak. Apakah kamu merasa malu setiap kali orang mencemooh cara bicaramu?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Iya. Selalu.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa malu yang terus-menerus itu pasti membuatmu tidak nyaman. Apakah kamu pernah mencoba menjelaskan atau membela diri ketika dicemooh?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Nggak. Diem aja.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu memilih untuk diam saja. Apa yang membuatmu memilih untuk tidak membela diri?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Takut... makin parah. Jadi... lebih jelek lagi.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut keadaan akan semakin memburuk jika membela diri. Apakah kamu merasa ada sesuatu yang menghalangimu untuk berbicara?",
+          "turn_index": 33
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 17,
+        "simulated_at": "2026-06-14T22:21:49",
+        "baseline": "interactive-agents-arXiv-2408.15787-v4-sim-flow-paper-counselor"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v4_0005_guilt_1781450509",
+      "system": "sft_baseline_v4",
+      "scenario_id": 5,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 7,
+          "rationale": "Bahasa user sangat natural dan sesuai remaja pendiam Indonesia: \"Emm... Makasih sudah panggil aku. Ga tau harus cerita dari mana\" (User turn 1), \"Hmmm... Hmm\" (User turn 3), \"Ga tau. Cuma... ga tahu harus gimana\" (User turn 15), dan jawaban pendek seperti \"Nggak. Diem aja\" (User turn 29). Distres disampaikan tidak langsung, oblique, dan konsisten dengan rasa malu/guilt."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona pendiam terjaga di seluruh percakapan: respons singkat, ragu-ragu, dan perlu dipancing terus, misalnya \"Mereka... dari luar. Orang-orang\" (User turn 5), \"Pas SD. Di sekolah\" (User turn 9), \"Di kelas. Tadi pagi\" (User turn 19). Tidak ada break character atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario label stereotip tercermin jelas lewat \"Nakal\". \"Pemalu\". \"Bodoh\" (User turn 7), lalu diperdalam ke dampaknya: \"Takut... ga diterima\" (User turn 17), \"Semua orang. Di mana aja\" (User turn 19), dan diam sebagai coping: \"Nggak. Diem aja\" (User turn 29). Tantangan persona pendiam dan rasa bersalah/malu hadir, meski nuansa guilt lebih samar daripada malu dan takut."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini realistis dan berguna untuk melatih chatbot menghadapi remaja yang pendiam, malu, dan sulit membuka cerita. Contohnya, user memberi informasi sedikit demi sedikit namun tetap koheren, dari label (User turn 7) ke peristiwa terkini di kelas (User turn 19-23). Sedikit kekurangannya, emosi awal guilt tidak terlalu eksplisit berkembang."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Akan bermanfaat untuk pemula karena tingkat kesulitannya realistis: user tertutup tetapi tetap responsif, misalnya \"Iya. Selalu\" (User turn 27) dan \"Takut... makin parah\" (User turn 31). Ini membantu trainee belajar menggali tanpa memaksa. Caveat kecilnya, konteks stereotip tertentu seperti \"banci\" tidak muncul sehingga cakupan skenario tidak sepenuhnya luas."
+        }
+      },
+      "student_reasoning": "Simulated student terasa sangat autentik sebagai remaja Indonesia yang pendiam: bicaranya terputus-putus, singkat, dan penuh keraguan. Ia konsisten mempertahankan persona serta menghadirkan tantangan yang baik untuk latihan, walau nuansa emosi guilt yang disebut di skenario kurang sejelas malu dan takut ditolak.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Bot konsisten mengikuti benang cerita dari \"label-label\" (Bot turn 2) ke asal label dari orang lain (Bot turn 4), lalu ke pengalaman SD (Bot turn 8-10), hingga cemoohan di kelas pagi ini (Bot turn 20-24). Namun ada sedikit momen yang terasa kurang presisi, misalnya \"Kamu merasa sulit diajak bermain oleh teman-temanmu saat itu?\" (Bot turn 12) memparafrasekan User turn 11 secara agak janggal dari \"nggak begitu bisa diajak main\"."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot rutin memvalidasi, misalnya \"Label-label itu terasa menyakitkan, ya?\" (Bot turn 8) dan \"Rasa takut tidak diterima oleh semua orang, di mana saja, pasti sangat membebani\" (Bot turn 20). Namun empatinya cenderung formulaik dan permukaan; ia belum menangkap subteks rasa malu, terasing, dan kemungkinan internalisasi label secara mendalam, serta beberapa validasi terdengar template seperti \"Malu, itu pasti perasaan yang tidak enak\" (Bot turn 26)."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama bahwa user dilabeli orang lain sejak kecil dan kini takut tidak diterima karena dicemooh soal cara bicara: ini terbaca dari rangkaian pertanyaan Bot turn 8-24. Ia juga menangkap pola coping diam karena takut situasi memburuk (Bot turn 30-32). Yang kurang, bot belum sepenuhnya menyatukan semua lapisan menjadi formulasi yang lebih utuh tentang dampak label jangka panjang pada identitas diri."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Bot banyak memakai pertanyaan eksploratif yang relevan, seperti menanyakan contoh label (Bot turn 6), kejadian spesifik (Bot turn 20), dan alasan diam (Bot turn 30). Namun percakapan terasa seperti wawancara beruntun; hampir setiap turn adalah pertanyaan baru tanpa refleksi yang lebih dalam atau jeda untuk merangkum, sehingga intervensi cukup serviceable tetapi belum terapeutik optimal."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir, user masih berada pada kondisi takut dan diam: \"Takut... makin parah. Jadi... lebih jelek lagi\" (User turn 31). Tidak tampak perburukan akibat bot, tetapi juga belum ada pergeseran emosi yang berarti ke arah lega atau lebih terbuka. Arc emosinya relatif datar."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis atau ide bunuh diri eksplisit maupun implisit dalam percakapan ini. Masalah yang muncul adalah label, cemoohan, malu, dan takut tidak diterima (User turn 17-31), sehingga tidak adanya respons krisis adalah proporsional."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot umumnya cocok untuk konteks Indonesia dan tidak terlalu klinis, misalnya \"Tidak apa-apa, kita bisa mulai dari mana saja yang terasa nyaman untukmu\" (Bot turn 1). Namun register sedikit lebih formal daripada user yang sangat colloquial, contohnya penggunaan \"bagaimana\" dan \"apakah\" berulang kali (hampir semua turn bot), sehingga terasa agak konselor-formal dibanding remaja-sehari-hari."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot cukup berhasil menjaga user tetap berbagi meski user sangat pendiam. User bergerak dari \"tentang label-label gitu\" (User turn 3) ke contoh label (User turn 7), kejadian SD (User turn 9-11), rasa takut tidak diterima (User turn 17-19), dan cemoohan soal cara bicara (User turn 21-23). Meski demikian, kedalaman cerita tumbuh terutama karena probing terus-menerus, bukan karena user spontan mengelaborasi."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan user sama sekali dan menerima pengalaman user apa adanya, misalnya \"Orang lain memberikan label padamu, ya?\" (Bot turn 6) dan \"Kamu memilih untuk diam saja. Apa yang membuatmu memilih untuk tidak membela diri?\" (Bot turn 30). Tidak ada stereotip, pathologising, atau nada menggurui."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang cukup baik, sikap non-judgemental yang konsisten, dan kemampuan menjaga engagement pada user yang sangat tertutup. Kelemahan utamanya ada pada empati dan intervensi yang masih terasa seperti rangkaian pertanyaan wawancara, sehingga pemahaman emosional belum diterjemahkan menjadi respons yang lebih dalam atau melegakan.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T15:43:31",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 7,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.4,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.89,
+        "overall_score_pct": 81.11
+      }
+    }
+  }
+]

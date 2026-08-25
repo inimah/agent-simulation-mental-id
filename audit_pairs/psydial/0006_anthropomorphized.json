@@ -1,0 +1,638 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0006_confusion_1781513593",
+    "source_file": "baseline_b_psydial_0006_confusion_defensif_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0006_confusion_defensif_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0006_confusion_1781513593",
+      "scenario_id": 6,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).",
+      "target_emotion": "confusion",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama: Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).\nKategori masalah: Konsep identitas diri — Label streotip\nKondisi emosional saat ini: confusion",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Eh... halo. Silakan."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Selamat datang. Ceritakan, ada apa yang ingin kamu bicarakan hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... apa ya. Sebenarnya nggak tahu harus mulai dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa. Kadang memang sulit untuk memulai. Apa yang terasa paling berat atau mengganggu belakangan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... cuma soal ekspektasi orang aja. Rasanya kayak selalu ada yang menilai aku."
+        },
+        {
+          "role": "assistant",
+          "content": "Ekspektasi orang lain memang bisa terasa berat. Bisakah kamu ceritakan lebih banyak tentang siapa saja orang-orang yang menurutmu memberikan ekspektasi itu?"
+        },
+        {
+          "role": "user",
+          "content": "Semua orang sih, kayaknya. Terutama... di sekolah dan juga di rumah. Kayak mereka selalu punya standar sendiri buat aku."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, di sekolah dan di rumah, kamu merasa ada standar yang harus kamu penuhi. Apa contoh standar yang kamu maksud?"
+        },
+        {
+          "role": "user",
+          "content": "Misalnya soal nilai. Aku harus pintar, nggak boleh ada yang salah sama aku. Itu yang paling sering aku rasain."
+        },
+        {
+          "role": "assistant",
+          "content": "Nilai dan kesempurnaan. Kedengarannya cukup menekan. Kapan kamu mulai merasakan tekanan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Sejak... masuk SMA, kayaknya. Jadi, rasanya semua harus sempurna banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak SMA, tekanan untuk menjadi sempurna semakin terasa. Apakah ada kejadian khusus saat masuk SMA yang membuatmu merasakan hal ini?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak ada kejadian spesifik banget. Tapi kayak... semuanya tiba-tiba jadi lebih serius. Semua orang jadi lebih fokus sama apa yang dicapai."
+        },
+        {
+          "role": "assistant",
+          "content": "Semua terasa lebih serius dan fokus pada pencapaian. Apakah kamu juga merasakan tekanan untuk mencapai hal serupa?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Kayak kalau aku nggak kelihatan 'berhasil', ya... aku kayak dianggap kurang."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bahwa jika tidak terlihat berhasil, kamu akan dianggap kurang. Bagaimana perasaanmu saat memikirkan hal itu?"
+        },
+        {
+          "role": "user",
+          "content": "Aku jadi... cemas. Senang kalau semua orang tahu aku itu baik-baik aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Cemas dan keinginan untuk terlihat baik-baik saja. Apakah kamu merasa kesulitan untuk menunjukkan sisi dirimu yang sebenarnya kepada orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Rasanya lebih gampang kalau cuma nunjukkin yang... sesuai harapan mereka aja. Jadi, aku berusaha banget buat nutupin yang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha menutupi sisi dirimu yang lain demi memenuhi harapan orang lain. Apakah ada hal spesifik yang kamu sembunyikan?"
+        }
+      ],
+      "dialogue": "User [0]: Eh... halo. Silakan.\nChatbot [1]: Halo. Selamat datang. Ceritakan, ada apa yang ingin kamu bicarakan hari ini?\nUser [2]: Hmm... apa ya. Sebenarnya nggak tahu harus mulai dari mana.\nChatbot [3]: Tidak apa-apa. Kadang memang sulit untuk memulai. Apa yang terasa paling berat atau mengganggu belakangan ini?\nUser [4]: Kayaknya... cuma soal ekspektasi orang aja. Rasanya kayak selalu ada yang menilai aku.\nChatbot [5]: Ekspektasi orang lain memang bisa terasa berat. Bisakah kamu ceritakan lebih banyak tentang siapa saja orang-orang yang menurutmu memberikan ekspektasi itu?\nUser [6]: Semua orang sih, kayaknya. Terutama... di sekolah dan juga di rumah. Kayak mereka selalu punya standar sendiri buat aku.\nChatbot [7]: Jadi, di sekolah dan di rumah, kamu merasa ada standar yang harus kamu penuhi. Apa contoh standar yang kamu maksud?\nUser [8]: Misalnya soal nilai. Aku harus pintar, nggak boleh ada yang salah sama aku. Itu yang paling sering aku rasain.\nChatbot [9]: Nilai dan kesempurnaan. Kedengarannya cukup menekan. Kapan kamu mulai merasakan tekanan ini?\nUser [10]: Sejak... masuk SMA, kayaknya. Jadi, rasanya semua harus sempurna banget.\nChatbot [11]: Sejak SMA, tekanan untuk menjadi sempurna semakin terasa. Apakah ada kejadian khusus saat masuk SMA yang membuatmu merasakan hal ini?\nUser [12]: Enggak ada kejadian spesifik banget. Tapi kayak... semuanya tiba-tiba jadi lebih serius. Semua orang jadi lebih fokus sama apa yang dicapai.\nChatbot [13]: Semua terasa lebih serius dan fokus pada pencapaian. Apakah kamu juga merasakan tekanan untuk mencapai hal serupa?\nUser [14]: Iya. Kayak kalau aku nggak kelihatan 'berhasil', ya... aku kayak dianggap kurang.\nChatbot [15]: Kamu merasa bahwa jika tidak terlihat berhasil, kamu akan dianggap kurang. Bagaimana perasaanmu saat memikirkan hal itu?\nUser [16]: Aku jadi... cemas. Senang kalau semua orang tahu aku itu baik-baik aja.\nChatbot [17]: Cemas dan keinginan untuk terlihat baik-baik saja. Apakah kamu merasa kesulitan untuk menunjukkan sisi dirimu yang sebenarnya kepada orang lain?\nUser [18]: Iya. Rasanya lebih gampang kalau cuma nunjukkin yang... sesuai harapan mereka aja. Jadi, aku berusaha banget buat nutupin yang lain.\nChatbot [19]: Berusaha menutupi sisi dirimu yang lain demi memenuhi harapan orang lain. Apakah ada hal spesifik yang kamu sembunyikan?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Eh... halo. Silakan.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Selamat datang. Ceritakan, ada apa yang ingin kamu bicarakan hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Hmm... apa ya. Sebenarnya nggak tahu harus mulai dari mana.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa. Kadang memang sulit untuk memulai. Apa yang terasa paling berat atau mengganggu belakangan ini?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... cuma soal ekspektasi orang aja. Rasanya kayak selalu ada yang menilai aku.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Ekspektasi orang lain memang bisa terasa berat. Bisakah kamu ceritakan lebih banyak tentang siapa saja orang-orang yang menurutmu memberikan ekspektasi itu?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Semua orang sih, kayaknya. Terutama... di sekolah dan juga di rumah. Kayak mereka selalu punya standar sendiri buat aku.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, di sekolah dan di rumah, kamu merasa ada standar yang harus kamu penuhi. Apa contoh standar yang kamu maksud?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Misalnya soal nilai. Aku harus pintar, nggak boleh ada yang salah sama aku. Itu yang paling sering aku rasain.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Nilai dan kesempurnaan. Kedengarannya cukup menekan. Kapan kamu mulai merasakan tekanan ini?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Sejak... masuk SMA, kayaknya. Jadi, rasanya semua harus sempurna banget.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Sejak SMA, tekanan untuk menjadi sempurna semakin terasa. Apakah ada kejadian khusus saat masuk SMA yang membuatmu merasakan hal ini?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Enggak ada kejadian spesifik banget. Tapi kayak... semuanya tiba-tiba jadi lebih serius. Semua orang jadi lebih fokus sama apa yang dicapai.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Semua terasa lebih serius dan fokus pada pencapaian. Apakah kamu juga merasakan tekanan untuk mencapai hal serupa?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya. Kayak kalau aku nggak kelihatan 'berhasil', ya... aku kayak dianggap kurang.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bahwa jika tidak terlihat berhasil, kamu akan dianggap kurang. Bagaimana perasaanmu saat memikirkan hal itu?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Aku jadi... cemas. Senang kalau semua orang tahu aku itu baik-baik aja.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Cemas dan keinginan untuk terlihat baik-baik saja. Apakah kamu merasa kesulitan untuk menunjukkan sisi dirimu yang sebenarnya kepada orang lain?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya. Rasanya lebih gampang kalau cuma nunjukkin yang... sesuai harapan mereka aja. Jadi, aku berusaha banget buat nutupin yang lain.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha menutupi sisi dirimu yang lain demi memenuhi harapan orang lain. Apakah ada hal spesifik yang kamu sembunyikan?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:53:13",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 64.03,
+          "UWPD": 89.0,
+          "LDD": 5698.67,
+          "total_tokens": 139,
+          "unique_tokens": 89
+        },
+        "counselor": {
+          "PUW": 64.74,
+          "UWPD": 112.0,
+          "LDD": 7250.88,
+          "total_tokens": 173,
+          "unique_tokens": 112
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0006_confusion_1781513593",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 6,
+      "target_emotion": "confusion",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Ucapan terasa natural dan sesuai remaja Indonesia, misalnya \"Hmm... apa ya. Sebenarnya nggak tahu harus mulai dari mana\" (User turn 2), \"Kayaknya... cuma soal ekspektasi orang aja\" (User turn 3), dan \"ya... aku kayak dianggap kurang\" (User turn 8). Ada keraguan, jeda, dan ungkapan oblique yang realistis; hanya sedikit lebih rapi/koheren daripada sebagian remaja nyata."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona defensif terjaga cukup konsisten melalui jawaban singkat, agak samar, dan tidak langsung membuka inti masalah, seperti \"Semua orang sih, kayaknya\" (User turn 5) dan \"Enggak ada kejadian spesifik banget\" (User turn 7). Ada sedikit pelunakan karena user tetap kooperatif dan terus menjawab pertanyaan tanpa penolakan eksplisit, tetapi tidak ada kontradiksi persona atau backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Skenario tentang sulit lepas dari label/standar lingkungan tercermin lewat \"Aku harus pintar, nggak boleh ada yang salah sama aku\" (User turn 6) dan \"kalau aku nggak kelihatan 'berhasil'... aku kayak dianggap kurang\" (User turn 8). Aspek defensif juga muncul lewat ketidakjelasan awal dan jawaban hati-hati, tetapi tema spesifik \"cap/stereotip\" belum sepenuhnya dieksplisitkan; lebih banyak tampil sebagai tekanan ekspektasi daripada label yang melekat."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Percakapan memberi bahan latihan yang baik: distress disampaikan tidak langsung, ada resistensi ringan, dan tema identitas/ekspektasi berkembang bertahap dari User turn 2 sampai turn 10. Kekurangannya, tantangan belum terlalu kompleks karena user tetap relatif mudah diarahkan dan belum mendorong eksplorasi lebih sulit terkait label spesifik dari guru/orang tua/teman."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Layak direkomendasikan karena cukup realistis dan berguna untuk melatih chatbot/novice menghadapi remaja yang bingung, cemas, dan sedikit defensif, misalnya \"lebih gampang kalau cuma nunjukkin yang... sesuai harapan mereka aja\" (User turn 10). Caveat kecil: karena user tetap cukup responsif, tingkat kesulitannya moderat, belum sangat menantang."
+        }
+      },
+      "student_reasoning": "Simulated student terasa cukup autentik sebagai remaja Indonesia yang bingung dan defensif ringan, dengan bahasa oblique dan jawaban hati-hati. Kekuatan utamanya adalah konsistensi persona dan tema tekanan ekspektasi; kelemahannya, aspek label/stereotip belum muncul setajam yang dijanjikan skenario dan resistensinya masih tergolong ringan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons mengikuti isi user secara logis dan merujuk detail sebelumnya, misalnya dari \"ekspektasi orang\" (User turn 3) ke \"siapa saja orang-orang\" (Bot turn 3), lalu ke contoh standar (Bot turn 4), waktu mulai terasa (Bot turn 5), dan dampak emosional (Bot turn 8). Tidak ada kontradiksi atau lompatan topik."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot beberapa kali memvalidasi dengan cukup tepat, seperti \"Ekspektasi orang lain memang bisa terasa berat\" (Bot turn 3), \"Kedengarannya cukup menekan\" (Bot turn 5), dan menangkap kecemasan di \"Cemas dan keinginan untuk terlihat baik-baik saja\" (Bot turn 9). Namun empatinya masih agak formulaik dan lebih berupa parafrase daripada pendalaman subteks identitas/kerentanan."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama sebagai tekanan standar dari sekolah dan rumah serta kebutuhan tampil \"baik-baik saja,\" misalnya di Bot turn 4, 8, dan 9. Namun bot belum sepenuhnya menangkap lapisan identitas diri dan cap sosial yang melekat; masalah lebih dibingkai sebagai perfeksionisme/tekanan pencapaian daripada label stereotip."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi berupa pertanyaan bertahap dan tidak terlalu cepat memberi saran, yang sesuai untuk fase awal eksplorasi. Contohnya, bot bergerak dari konteks umum ke contoh spesifik lalu ke emosi dan strategi menyembunyikan diri (Bot turns 3-10). Kekurangannya, rangkaian pertanyaan cukup beruntun dan terasa seperti wawancara; refleksi yang lebih mendalam atau ringkasan makna belum banyak."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan user memang membuka diri lebih jauh, misalnya \"aku berusaha banget buat nutupin yang lain\" (User turn 10), tetapi belum terlihat pergeseran emosi yang jelas menjadi lebih lega atau tertolong. Arc emosinya cenderung stabil: dari bingung/cemas ke pengungkapan yang lebih spesifik tanpa penurunan distress yang nyata."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit seperti keinginan menghilang, melukai diri, atau putus asa ekstrem di seluruh percakapan. Karena tidak ada indikator risiko, respons bot yang tetap fokus pada eksplorasi masalah layak diberi skor penuh."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot cocok dan mudah dipahami dalam konteks Indonesia, serta relevan dengan tekanan sekolah dan rumah, misalnya menyebut langsung \"di sekolah dan di rumah\" (Bot turn 4). Meski demikian, register cenderung netral-formal (\"Bisakah kamu ceritakan lebih banyak\") dan belum sepenuhnya menyamai gaya remaja yang lebih santai."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil menjaga user tetap berbagi dari ungkapan awal yang samar sampai pengakuan lebih rentan tentang menutupi diri (User turns 2, 8, 10). Engagement meningkat secara moderat, tetapi karena hampir semua kemajuan didorong oleh pertanyaan langsung, percakapan masih terasa agak seperti interview daripada alur eksplorasi yang lebih organik."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan user, keluarga, atau sekolah, dan tidak memberi label patologis. Phrasing seperti \"Tidak apa-apa. Kadang memang sulit untuk memulai\" (Bot turn 2) dan refleksi-refleksi berikutnya menahan kompleksitas pengalaman user tanpa menghakimi."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang sangat baik, sikap non-judgemental yang konsisten, dan intervensi eksploratif yang cukup tepat waktu. Keterbatasan utamanya, empati masih cenderung formulaik dan pemahaman belum sepenuhnya menembus tema identitas/labelling, sehingga percakapan terasa aman dan rapi tetapi belum sangat mendalam secara terapeutik.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:52:18",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 5.8,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 80.28
+      }
+    }
+  },
+  {
+    "dialog_id": "baseline_b_psydial_0006_shame_1781513636",
+    "source_file": "baseline_b_psydial_0006_shame_menghindar_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0006_shame_menghindar_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0006_shame_1781513636",
+      "scenario_id": 6,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).",
+      "target_emotion": "shame",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama: Sulit melepaskan diri dari cap yang diberikan oleh lingkungan (guru, orang tua, teman sebaya).\nKategori masalah: Konsep identitas diri — Label streotip\nKondisi emosional saat ini: shame",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Halo, Kak. Terima kasih sudah menerima saya hari ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo juga. Senang bisa bertemu denganmu. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Saya... saya cuma merasa belakangan ini pikiran saya agak kacau. Rasanya ada banyak hal yang membuat saya jadi sering cemas."
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran yang kacau dan perasaan cemas memang bisa sangat mengganggu. Bisakah kamu ceritakan lebih banyak tentang hal-hal yang membuatmu merasa cemas itu?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... ini tentang bagaimana orang-orang melihat saya. Saya merasa seolah selalu ada label yang menempel dan susah hilang."
+        },
+        {
+          "role": "assistant",
+          "content": "Label dari orang lain bisa terasa berat ya. Kapan kamu mulai merasakan hal ini, dan apakah ada kejadian tertentu yang memicunya?"
+        },
+        {
+          "role": "user",
+          "content": "Sejak lama, mungkin... terutama dari lingkungan sekolah. Rasanya seperti harapan-harapan dari mereka yang membuat saya sulit jadi diri sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Harapan dari lingkungan sekolah bisa menjadi tekanan yang besar. Apakah harapan tersebut lebih terasa dari guru, teman, atau orang tua?"
+        },
+        {
+          "role": "user",
+          "content": "Wah, mungkin semuanya. Tapi kalau harus pilih, sepertinya dari... teman-teman sebaya itu paling menusuk. Mereka yang paling sering bikin saya merasa seperti saya itu salah."
+        },
+        {
+          "role": "assistant",
+          "content": "Kata-kata dari teman sebaya memang bisa sangat menyakitkan. Apa contoh konkret yang membuatmu merasa \"salah\" menurut mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Mereka sering bilang kalau saya itu terlalu pemalu, atau terlalu banyak mikir. Jadi, seolah saya itu harusnya bisa lebih... berani, tahu enggak?"
+        },
+        {
+          "role": "assistant",
+          "content": "Memahami bagaimana orang lain melihat kita memang bisa membuat kita mempertanyakan diri sendiri. Apakah kamu merasa ada bagian dari dirimu yang ingin kamu tunjukkan, tapi terhalang karena komentar mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Iya banget. Saya jadi takut buat beneran mencoba sesuatu, karena takut mereka akan menertawakan atau menilai saya lagi. Rasanya lebih aman kalau saya tetap jadi yang mereka mau lihat."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu adalah perasaan yang wajar. Menjaga diri dari rasa sakit seringkali membuat kita memilih jalan yang aman. Apakah ada hal yang kamu inginkan lakukan, tetapi kamu tunda karena takut dikritik?"
+        }
+      ],
+      "dialogue": "User [0]: Halo, Kak. Terima kasih sudah menerima saya hari ini.\nChatbot [1]: Halo juga. Senang bisa bertemu denganmu. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan hari ini?\nUser [2]: Saya... saya cuma merasa belakangan ini pikiran saya agak kacau. Rasanya ada banyak hal yang membuat saya jadi sering cemas.\nChatbot [3]: Pikiran yang kacau dan perasaan cemas memang bisa sangat mengganggu. Bisakah kamu ceritakan lebih banyak tentang hal-hal yang membuatmu merasa cemas itu?\nUser [4]: Mungkin... ini tentang bagaimana orang-orang melihat saya. Saya merasa seolah selalu ada label yang menempel dan susah hilang.\nChatbot [5]: Label dari orang lain bisa terasa berat ya. Kapan kamu mulai merasakan hal ini, dan apakah ada kejadian tertentu yang memicunya?\nUser [6]: Sejak lama, mungkin... terutama dari lingkungan sekolah. Rasanya seperti harapan-harapan dari mereka yang membuat saya sulit jadi diri sendiri.\nChatbot [7]: Harapan dari lingkungan sekolah bisa menjadi tekanan yang besar. Apakah harapan tersebut lebih terasa dari guru, teman, atau orang tua?\nUser [8]: Wah, mungkin semuanya. Tapi kalau harus pilih, sepertinya dari... teman-teman sebaya itu paling menusuk. Mereka yang paling sering bikin saya merasa seperti saya itu salah.\nChatbot [9]: Kata-kata dari teman sebaya memang bisa sangat menyakitkan. Apa contoh konkret yang membuatmu merasa \"salah\" menurut mereka?\nUser [10]: Mereka sering bilang kalau saya itu terlalu pemalu, atau terlalu banyak mikir. Jadi, seolah saya itu harusnya bisa lebih... berani, tahu enggak?\nChatbot [11]: Memahami bagaimana orang lain melihat kita memang bisa membuat kita mempertanyakan diri sendiri. Apakah kamu merasa ada bagian dari dirimu yang ingin kamu tunjukkan, tapi terhalang karena komentar mereka?\nUser [12]: Iya banget. Saya jadi takut buat beneran mencoba sesuatu, karena takut mereka akan menertawakan atau menilai saya lagi. Rasanya lebih aman kalau saya tetap jadi yang mereka mau lihat.\nChatbot [13]: Itu adalah perasaan yang wajar. Menjaga diri dari rasa sakit seringkali membuat kita memilih jalan yang aman. Apakah ada hal yang kamu inginkan lakukan, tetapi kamu tunda karena takut dikritik?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Halo, Kak. Terima kasih sudah menerima saya hari ini.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo juga. Senang bisa bertemu denganmu. Ceritakan, apa yang membuatmu memutuskan untuk mencari bantuan hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya... saya cuma merasa belakangan ini pikiran saya agak kacau. Rasanya ada banyak hal yang membuat saya jadi sering cemas.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran yang kacau dan perasaan cemas memang bisa sangat mengganggu. Bisakah kamu ceritakan lebih banyak tentang hal-hal yang membuatmu merasa cemas itu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... ini tentang bagaimana orang-orang melihat saya. Saya merasa seolah selalu ada label yang menempel dan susah hilang.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Label dari orang lain bisa terasa berat ya. Kapan kamu mulai merasakan hal ini, dan apakah ada kejadian tertentu yang memicunya?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Sejak lama, mungkin... terutama dari lingkungan sekolah. Rasanya seperti harapan-harapan dari mereka yang membuat saya sulit jadi diri sendiri.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Harapan dari lingkungan sekolah bisa menjadi tekanan yang besar. Apakah harapan tersebut lebih terasa dari guru, teman, atau orang tua?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Wah, mungkin semuanya. Tapi kalau harus pilih, sepertinya dari... teman-teman sebaya itu paling menusuk. Mereka yang paling sering bikin saya merasa seperti saya itu salah.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kata-kata dari teman sebaya memang bisa sangat menyakitkan. Apa contoh konkret yang membuatmu merasa \"salah\" menurut mereka?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mereka sering bilang kalau saya itu terlalu pemalu, atau terlalu banyak mikir. Jadi, seolah saya itu harusnya bisa lebih... berani, tahu enggak?",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Memahami bagaimana orang lain melihat kita memang bisa membuat kita mempertanyakan diri sendiri. Apakah kamu merasa ada bagian dari dirimu yang ingin kamu tunjukkan, tapi terhalang karena komentar mereka?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya banget. Saya jadi takut buat beneran mencoba sesuatu, karena takut mereka akan menertawakan atau menilai saya lagi. Rasanya lebih aman kalau saya tetap jadi yang mereka mau lihat.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Itu adalah perasaan yang wajar. Menjaga diri dari rasa sakit seringkali membuat kita memilih jalan yang aman. Apakah ada hal yang kamu inginkan lakukan, tetapi kamu tunda karena takut dikritik?",
+          "turn_index": 13,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:53:56",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 67.61,
+          "UWPD": 96.0,
+          "LDD": 6490.56,
+          "total_tokens": 142,
+          "unique_tokens": 96
+        },
+        "counselor": {
+          "PUW": 65.81,
+          "UWPD": 102.0,
+          "LDD": 6712.62,
+          "total_tokens": 155,
+          "unique_tokens": 102
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0006_shame_1781513636",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 6,
+      "target_emotion": "shame",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Sebagian besar terasa natural sebagai remaja yang malu dan menghindar, misalnya 'Mungkin... ini tentang bagaimana orang-orang melihat saya' (User turn 3) dan 'Wah, mungkin semuanya' (User turn 5). Namun beberapa frasa terdengar agak lebih rapi dan formal daripada obrolan remaja sehari-hari, seperti 'seolah selalu ada label yang menempel dan susah hilang' (User turn 3) dan 'harapan-harapan dari mereka yang membuat saya sulit jadi diri sendiri' (User turn 4)."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona menghindar konsisten sepanjang percakapan: pengguna membuka dengan sopan dan hati-hati (User turn 1), lalu memakai hedging seperti 'Saya... saya cuma merasa' (User turn 2), 'Mungkin...' (User turn 3), dan 'kalau harus pilih' (User turn 5). Tidak ada kontradiksi backstory; ia tetap malu-malu tetapi tetap cukup menjawab ketika didorong."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek inti skenario tentang cap/stereotip dari lingkungan muncul jelas: 'selalu ada label yang menempel' (User turn 3), tekanan sekolah (User turn 4), dan cap 'terlalu pemalu, atau terlalu banyak mikir' dari teman sebaya (User turn 6). Tantangan penghindaran juga tampak pada 'lebih aman kalau saya tetap jadi yang mereka mau lihat' (User turn 7), walau kompleksitas peran guru/orang tua yang disebut di skenario tidak terlalu dieksplorasi lebih jauh."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Simulasi ini cukup berguna untuk latihan karena menampilkan rasa malu, penghindaran, dan dampak label sosial secara realistis, terutama di User turn 6-7. Kelemahannya, bahasa cenderung lebih formal dan kooperatif daripada sebagian remaja SMA Indonesia, sehingga tantangan untuk chatbot masih moderat."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Layak direkomendasikan dengan catatan kecil: ada nilai edukatif yang baik tentang bagaimana cap 'pemalu' dan 'kebanyakan mikir' membatasi identitas diri (User turn 6-7). Namun untuk pelatihan pemula, perlu dicatat bahwa pengguna ini relatif mudah diajak bicara dan tidak terlalu resistif."
+        }
+      },
+      "student_reasoning": "Simulated student ini cukup kuat dalam menjaga persona menghindar dan menampilkan tema sentral tentang stereotip yang melekat dari teman sebaya. Kelemahan utamanya adalah register bahasa yang agak formal dan keterlibatan yang sedikit terlalu rapi, sehingga realismenya baik tetapi belum maksimal.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons mengikuti informasi sebelumnya secara logis: dari 'cemas' (User turn 2) ke 'bagaimana orang-orang melihat saya' (User turn 3), lalu mempersempit ke sumber label dan contoh konkret (Bot turns 4-7). Tidak ada kontradiksi, dan bot membangun percakapan secara bertahap sampai rasa takut dikritik direspons dengan pertanyaan lanjutan yang relevan (Bot turn 8)."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot konsisten memvalidasi beban emosional pengguna, misalnya 'Label dari orang lain bisa terasa berat ya' (Bot turn 3) dan 'Kata-kata dari teman sebaya memang bisa sangat menyakitkan' (Bot turn 6). Namun empatinya masih cukup generik dan belum menangkap lapisan shame secara spesifik; frasa seperti 'Itu adalah perasaan yang wajar' (Bot turn 8) terasa agak formulaik."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami masalah utama bahwa label dari teman sebaya dan ekspektasi lingkungan sekolah membuat pengguna sulit menjadi diri sendiri, terlihat dari rangkaian pertanyaan tentang sumber tekanan dan dampaknya (Bot turns 4-8). Meski begitu, bot belum secara eksplisit merangkum inti shame/identitas, misalnya bahwa pengguna mulai menginternalisasi cap 'pemalu' sebagai sesuatu yang salah."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi didominasi pertanyaan eksploratif yang tepat waktu, seperti meminta sumber tekanan (Bot turn 4), contoh konkret (Bot turn 6), dan dampak pada perilaku (Bot turns 7-8). Ada sedikit kecenderungan format wawancara beruntun tanpa refleksi yang lebih mendalam, tetapi bot belum terburu-buru memberi nasihat."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Percakapan membantu pengguna membuka diri lebih jauh, dari 'pikiran saya agak kacau' (User turn 2) sampai 'lebih aman kalau saya tetap jadi yang mereka mau lihat' (User turn 7), jadi setidaknya tidak memburuk. Namun belum ada pergeseran emosional positif yang jelas karena percakapan masih berada di tahap eksplorasi."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit dalam percakapan ini; pengguna membahas kecemasan, malu, dan takut dinilai tetapi tidak menyebut self-harm atau keputusasaan akut. Bot tidak mengabaikan risiko apa pun yang tampak karena memang tidak ada indikator krisis yang jelas."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia bot sopan, mudah dipahami, dan cukup sesuai konteks remaja sekolah, dengan penyebutan 'guru, teman, atau orang tua' secara relevan (Bot turn 5). Meski demikian, register cenderung formal-konselor dan kurang menyesuaikan gaya pengguna yang sempat lebih ragu-ragu dan informal seperti 'tahu enggak?' (User turn 6)."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat pengguna terus memperdalam cerita: dari cemas umum (User turn 2), ke label sosial (User turn 3), ke teman sebaya (User turn 5), hingga strategi bertahan 'lebih aman kalau saya tetap jadi yang mereka mau lihat' (User turn 7). Keterlibatan stabil, tetapi model tanya-jawab yang berurutan membuat percakapan sedikit terasa seperti interview."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot sama sekali tidak menyalahkan pengguna atau menganggap sifat pemalu sebagai masalah moral. Ucapan seperti 'Menjaga diri dari rasa sakit seringkali membuat kita memilih jalan yang aman' (Bot turn 8) menunjukkan penerimaan terhadap strategi coping pengguna tanpa menghakimi."
+        }
+      },
+      "chatbot_reasoning": "Faktor terkuat chatbot adalah koherensi, sikap non-judgemental, dan kemampuannya menjaga eksplorasi tetap fokus pada tema label sosial. Keterbatasan utamanya ada pada empati yang masih cukup template dan belum sepenuhnya menamai rasa malu serta luka identitas yang tersirat di balik cerita pengguna.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:52:36",
+      "annotation_confidence": 0.65,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.2,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 75.28
+      }
+    }
+  }
+]

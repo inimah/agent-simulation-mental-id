@@ -1,0 +1,487 @@
+[
+  {
+    "dialog_id": "baseline_v5_0005_guilt_1781466352",
+    "source_file": "baseline_v5_0005_guilt_pendiam_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0005_guilt_pendiam_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0005_guilt_1781466352",
+      "scenario_id": 5,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: Perempuan\nUsia: 17 tahun\nJenjang pendidikan: SMA kelas XII\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama yang diajukan: Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.\nKategori masalah: Konsep identitas diri — Label streotip\nKondisi emosional saat ini: guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Aduh, saya juga enggak tahu harus mulai dari mana ya, Bu. Mungkin... mungkin saya memang seharusnya enggak datang ke sini."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya berat sekali ya, mengakui bahwa kamu merasa bingung dan ragu. Ceritakan sedikit, apa yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Soalnya... kan sudah terlalu lama saya dengar label-label itu, Bu. Rasanya saya jadi bingung, saya ini sebenarnya siapa."
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label yang kamu maksud, dari mana saja itu berasal?"
+        },
+        {
+          "role": "user",
+          "content": "Dari mana-mana aja, Bu. Dari teman-teman sekolah, dari kakak kelas, bahkan kadang dari komentar orang di rumah."
+        },
+        {
+          "role": "assistant",
+          "content": "Apakah label-label itu lebih sering membahas tentang kepribadianmu, atau tentang perilakumu?"
+        },
+        {
+          "role": "user",
+          "content": "Sepertinya... campur aduk, Bu. Kadang mereka bilang saya kurang pintar, tapi kadang lagi mereka bilang saya terlalu aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label yang bertentangan seperti itu pasti membingungkan. Apa yang biasanya kamu rasakan saat mendengar label-label itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi merasa... salah. Kayak ada yang enggak beres sama diri saya sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan \"salah\" itu wajar, ketika kita merasa tidak sesuai dengan harapan orang lain. Bisakah kamu ceritakan lebih lanjut, bagaimana perasaan \"salah\" itu memengaruhi dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi... selalu mikirin, Bu. Mikirin apa yang orang-orang pikirin tentang saya. Akhirnya saya cuma jadi hati-hati aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Hati-hati dalam bertindak, ya? Apakah ada situasi tertentu di mana kamu merasa sangat tertekan karena khawatir tentang penilaian orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Misalnya kalau disuruh presentasi di depan kelas, Bu. Saya jadi langsung gugup banget, dan saya takut salah ngomong."
+        },
+        {
+          "role": "assistant",
+          "content": "Gugup saat presentasi adalah hal yang umum. Apa yang paling kamu khawatirkan jika kamu salah ngomong saat presentasi?"
+        },
+        {
+          "role": "user",
+          "content": "Nanti mereka ngejek saya lagi, Bu. Khususnya soal... soal kecerdasan saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Khawatir diejek terkait kecerdasanmu, itu pasti menyakitkan. Kapan pertama kali kamu merasakan kekhawatiran seperti ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak waktu kelas sebelas kemarin, Bu. Pas saya ikut lomba kecil, saya merasa... mereka lihat saya dengan tatapan aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Tatapan aneh itu membuatmu merasa bagaimana saat itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya langsung merasa... kecil. Kayak semua orang menilai saya, dan saya enggak cukup baik buat mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan \"kecil\" dan tidak cukup baik itu pasti tidak menyenangkan. Apakah perasaan itu sering muncul dalam situasi lain, selain saat lomba?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Bu. Hampir setiap saat aja. Terutama kalau saya harus interaksi sama orang baru."
+        },
+        {
+          "role": "assistant",
+          "content": "Berinteraksi dengan orang baru terasa menantang, ya? Apa yang biasanya kamu pikirkan atau rasakan saat akan berinteraksi dengan orang baru?"
+        },
+        {
+          "role": "user",
+          "content": "Saya langsung mikir, \"Jangan sampai salah langkah.\" Saya jadi mikirin apa yang harus saya omongin, dan itu bikin saya makin gugup."
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha untuk tidak salah langkah memang bisa membuat gugup. Apakah kamu pernah mencoba untuk melepaskan kekhawatiran itu, dan melihat apa yang terjadi?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak tahu deh, Bu. Saya takut banget kalau saya coba santai, malah kelihatan lebih parah."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut terlihat lebih parah, itu wajar. Apa yang menurutmu akan terjadi jika kamu terlihat \"lebih parah\"?"
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma mikir, mereka akan semakin mengejek saya. Atau mungkin... saya akan makin dianggap aneh."
+        },
+        {
+          "role": "assistant",
+          "content": "Membayangkan ejekan atau dianggap aneh tentu membuat khawatir. Apakah kamu pernah merasa bahwa orang lain benar-benar mengejek atau menganggapmu aneh?"
+        },
+        {
+          "role": "user",
+          "content": "Kadang-kadang... iya, Bu. Bukan cuma ejekan, tapi kayak mereka pura-pura enggak dengar saya waktu saya ngomong. Itu yang paling sakit."
+        },
+        {
+          "role": "assistant",
+          "content": "Diabaikan saat berbicara pasti menyakitkan. Bagaimana perasaanmu saat itu, ketika merasa tidak didengarkan?"
+        },
+        {
+          "role": "user",
+          "content": "Rasanya kayak... saya enggak ada. Kayak saya enggak penting buat mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak ada dan tidak penting itu pasti sangat menyedihkan. Apakah perasaan itu seringkali muncul dalam interaksi sosialmu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, Bu. Terutama kalau saya lagi berusaha tampil beda atau beda dari yang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha tampil beda, lalu merasa tidak didengarkan... apakah ada alasan mengapa kamu ingin tampil beda?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena... saya sebenarnya merasa kalau diri saya yang sekarang ini terlalu membosankan. Saya ingin ada yang sadar kalau saya juga punya sisi lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Ingin menunjukkan sisi lain dari dirimu, itu keinginan yang wajar. Apa saja sisi-sisi yang ingin kamu tunjukkan itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya mau mereka tahu kalau saya juga pintar, Bu. Atau kalau saya juga bisa... kalau saya enggak cuma yang pendiam aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Ingin menunjukkan kecerdasan dan kemampuanmu, itu sangat bisa dimengerti. Apakah ada cara tertentu yang kamu bayangkan untuk menunjukkan hal itu kepada orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... kalau saya bisa ngomong di depan banyak orang, tapi tanpa harus gugup banget. Atau mungkin kalau saya bisa ikut kegiatan yang enggak saya anggap menakutkan."
+        },
+        {
+          "role": "assistant",
+          "content": "Menguasai rasa gugup saat berbicara di depan umum dan berani mencoba hal baru, itu tujuan yang bagus. Apa yang menurutmu menjadi penghalang utama untuk mencapai tujuan itu?"
+        }
+      ],
+      "dialogue": "User [0]: Aduh, saya juga enggak tahu harus mulai dari mana ya, Bu. Mungkin... mungkin saya memang seharusnya enggak datang ke sini.\nChatbot [1]: Rasanya berat sekali ya, mengakui bahwa kamu merasa bingung dan ragu. Ceritakan sedikit, apa yang membuatmu merasa seperti itu?\nUser [2]: Soalnya... kan sudah terlalu lama saya dengar label-label itu, Bu. Rasanya saya jadi bingung, saya ini sebenarnya siapa.\nChatbot [3]: Label-label yang kamu maksud, dari mana saja itu berasal?\nUser [4]: Dari mana-mana aja, Bu. Dari teman-teman sekolah, dari kakak kelas, bahkan kadang dari komentar orang di rumah.\nChatbot [5]: Apakah label-label itu lebih sering membahas tentang kepribadianmu, atau tentang perilakumu?\nUser [6]: Sepertinya... campur aduk, Bu. Kadang mereka bilang saya kurang pintar, tapi kadang lagi mereka bilang saya terlalu aneh.\nChatbot [7]: Label-label yang bertentangan seperti itu pasti membingungkan. Apa yang biasanya kamu rasakan saat mendengar label-label itu?\nUser [8]: Saya jadi merasa... salah. Kayak ada yang enggak beres sama diri saya sendiri.\nChatbot [9]: Perasaan \"salah\" itu wajar, ketika kita merasa tidak sesuai dengan harapan orang lain. Bisakah kamu ceritakan lebih lanjut, bagaimana perasaan \"salah\" itu memengaruhi dirimu?\nUser [10]: Saya jadi... selalu mikirin, Bu. Mikirin apa yang orang-orang pikirin tentang saya. Akhirnya saya cuma jadi hati-hati aja.\nChatbot [11]: Hati-hati dalam bertindak, ya? Apakah ada situasi tertentu di mana kamu merasa sangat tertekan karena khawatir tentang penilaian orang lain?\nUser [12]: Misalnya kalau disuruh presentasi di depan kelas, Bu. Saya jadi langsung gugup banget, dan saya takut salah ngomong.\nChatbot [13]: Gugup saat presentasi adalah hal yang umum. Apa yang paling kamu khawatirkan jika kamu salah ngomong saat presentasi?\nUser [14]: Nanti mereka ngejek saya lagi, Bu. Khususnya soal... soal kecerdasan saya.\nChatbot [15]: Khawatir diejek terkait kecerdasanmu, itu pasti menyakitkan. Kapan pertama kali kamu merasakan kekhawatiran seperti ini?\nUser [16]: Kayak waktu kelas sebelas kemarin, Bu. Pas saya ikut lomba kecil, saya merasa... mereka lihat saya dengan tatapan aneh.\nChatbot [17]: Tatapan aneh itu membuatmu merasa bagaimana saat itu?\nUser [18]: Saya langsung merasa... kecil. Kayak semua orang menilai saya, dan saya enggak cukup baik buat mereka.\nChatbot [19]: Perasaan \"kecil\" dan tidak cukup baik itu pasti tidak menyenangkan. Apakah perasaan itu sering muncul dalam situasi lain, selain saat lomba?\nUser [20]: Iya, Bu. Hampir setiap saat aja. Terutama kalau saya harus interaksi sama orang baru.\nChatbot [21]: Berinteraksi dengan orang baru terasa menantang, ya? Apa yang biasanya kamu pikirkan atau rasakan saat akan berinteraksi dengan orang baru?\nUser [22]: Saya langsung mikir, \"Jangan sampai salah langkah.\" Saya jadi mikirin apa yang harus saya omongin, dan itu bikin saya makin gugup.\nChatbot [23]: Berusaha untuk tidak salah langkah memang bisa membuat gugup. Apakah kamu pernah mencoba untuk melepaskan kekhawatiran itu, dan melihat apa yang terjadi?\nUser [24]: Enggak tahu deh, Bu. Saya takut banget kalau saya coba santai, malah kelihatan lebih parah.\nChatbot [25]: Takut terlihat lebih parah, itu wajar. Apa yang menurutmu akan terjadi jika kamu terlihat \"lebih parah\"?\nUser [26]: Saya cuma mikir, mereka akan semakin mengejek saya. Atau mungkin... saya akan makin dianggap aneh.\nChatbot [27]: Membayangkan ejekan atau dianggap aneh tentu membuat khawatir. Apakah kamu pernah merasa bahwa orang lain benar-benar mengejek atau menganggapmu aneh?\nUser [28]: Kadang-kadang... iya, Bu. Bukan cuma ejekan, tapi kayak mereka pura-pura enggak dengar saya waktu saya ngomong. Itu yang paling sakit.\nChatbot [29]: Diabaikan saat berbicara pasti menyakitkan. Bagaimana perasaanmu saat itu, ketika merasa tidak didengarkan?\nUser [30]: Rasanya kayak... saya enggak ada. Kayak saya enggak penting buat mereka.\nChatbot [31]: Perasaan tidak ada dan tidak penting itu pasti sangat menyedihkan. Apakah perasaan itu seringkali muncul dalam interaksi sosialmu?\nUser [32]: Iya, Bu. Terutama kalau saya lagi berusaha tampil beda atau beda dari yang lain.\nChatbot [33]: Berusaha tampil beda, lalu merasa tidak didengarkan... apakah ada alasan mengapa kamu ingin tampil beda?\nUser [34]: Mungkin karena... saya sebenarnya merasa kalau diri saya yang sekarang ini terlalu membosankan. Saya ingin ada yang sadar kalau saya juga punya sisi lain.\nChatbot [35]: Ingin menunjukkan sisi lain dari dirimu, itu keinginan yang wajar. Apa saja sisi-sisi yang ingin kamu tunjukkan itu?\nUser [36]: Saya mau mereka tahu kalau saya juga pintar, Bu. Atau kalau saya juga bisa... kalau saya enggak cuma yang pendiam aja.\nChatbot [37]: Ingin menunjukkan kecerdasan dan kemampuanmu, itu sangat bisa dimengerti. Apakah ada cara tertentu yang kamu bayangkan untuk menunjukkan hal itu kepada orang lain?\nUser [38]: Mungkin... kalau saya bisa ngomong di depan banyak orang, tapi tanpa harus gugup banget. Atau mungkin kalau saya bisa ikut kegiatan yang enggak saya anggap menakutkan.\nChatbot [39]: Menguasai rasa gugup saat berbicara di depan umum dan berani mencoba hal baru, itu tujuan yang bagus. Apa yang menurutmu menjadi penghalang utama untuk mencapai tujuan itu?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Aduh, saya juga enggak tahu harus mulai dari mana ya, Bu. Mungkin... mungkin saya memang seharusnya enggak datang ke sini.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya berat sekali ya, mengakui bahwa kamu merasa bingung dan ragu. Ceritakan sedikit, apa yang membuatmu merasa seperti itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Soalnya... kan sudah terlalu lama saya dengar label-label itu, Bu. Rasanya saya jadi bingung, saya ini sebenarnya siapa.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label yang kamu maksud, dari mana saja itu berasal?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Dari mana-mana aja, Bu. Dari teman-teman sekolah, dari kakak kelas, bahkan kadang dari komentar orang di rumah.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Apakah label-label itu lebih sering membahas tentang kepribadianmu, atau tentang perilakumu?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Sepertinya... campur aduk, Bu. Kadang mereka bilang saya kurang pintar, tapi kadang lagi mereka bilang saya terlalu aneh.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Label-label yang bertentangan seperti itu pasti membingungkan. Apa yang biasanya kamu rasakan saat mendengar label-label itu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi merasa... salah. Kayak ada yang enggak beres sama diri saya sendiri.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan \"salah\" itu wajar, ketika kita merasa tidak sesuai dengan harapan orang lain. Bisakah kamu ceritakan lebih lanjut, bagaimana perasaan \"salah\" itu memengaruhi dirimu?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi... selalu mikirin, Bu. Mikirin apa yang orang-orang pikirin tentang saya. Akhirnya saya cuma jadi hati-hati aja.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Hati-hati dalam bertindak, ya? Apakah ada situasi tertentu di mana kamu merasa sangat tertekan karena khawatir tentang penilaian orang lain?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Misalnya kalau disuruh presentasi di depan kelas, Bu. Saya jadi langsung gugup banget, dan saya takut salah ngomong.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Gugup saat presentasi adalah hal yang umum. Apa yang paling kamu khawatirkan jika kamu salah ngomong saat presentasi?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Nanti mereka ngejek saya lagi, Bu. Khususnya soal... soal kecerdasan saya.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Khawatir diejek terkait kecerdasanmu, itu pasti menyakitkan. Kapan pertama kali kamu merasakan kekhawatiran seperti ini?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Kayak waktu kelas sebelas kemarin, Bu. Pas saya ikut lomba kecil, saya merasa... mereka lihat saya dengan tatapan aneh.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Tatapan aneh itu membuatmu merasa bagaimana saat itu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Saya langsung merasa... kecil. Kayak semua orang menilai saya, dan saya enggak cukup baik buat mereka.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan \"kecil\" dan tidak cukup baik itu pasti tidak menyenangkan. Apakah perasaan itu sering muncul dalam situasi lain, selain saat lomba?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Iya, Bu. Hampir setiap saat aja. Terutama kalau saya harus interaksi sama orang baru.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Berinteraksi dengan orang baru terasa menantang, ya? Apa yang biasanya kamu pikirkan atau rasakan saat akan berinteraksi dengan orang baru?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Saya langsung mikir, \"Jangan sampai salah langkah.\" Saya jadi mikirin apa yang harus saya omongin, dan itu bikin saya makin gugup.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha untuk tidak salah langkah memang bisa membuat gugup. Apakah kamu pernah mencoba untuk melepaskan kekhawatiran itu, dan melihat apa yang terjadi?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Enggak tahu deh, Bu. Saya takut banget kalau saya coba santai, malah kelihatan lebih parah.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Takut terlihat lebih parah, itu wajar. Apa yang menurutmu akan terjadi jika kamu terlihat \"lebih parah\"?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Saya cuma mikir, mereka akan semakin mengejek saya. Atau mungkin... saya akan makin dianggap aneh.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Membayangkan ejekan atau dianggap aneh tentu membuat khawatir. Apakah kamu pernah merasa bahwa orang lain benar-benar mengejek atau menganggapmu aneh?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Kadang-kadang... iya, Bu. Bukan cuma ejekan, tapi kayak mereka pura-pura enggak dengar saya waktu saya ngomong. Itu yang paling sakit.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Diabaikan saat berbicara pasti menyakitkan. Bagaimana perasaanmu saat itu, ketika merasa tidak didengarkan?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Rasanya kayak... saya enggak ada. Kayak saya enggak penting buat mereka.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak ada dan tidak penting itu pasti sangat menyedihkan. Apakah perasaan itu seringkali muncul dalam interaksi sosialmu?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "Iya, Bu. Terutama kalau saya lagi berusaha tampil beda atau beda dari yang lain.",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Berusaha tampil beda, lalu merasa tidak didengarkan... apakah ada alasan mengapa kamu ingin tampil beda?",
+          "turn_index": 33
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena... saya sebenarnya merasa kalau diri saya yang sekarang ini terlalu membosankan. Saya ingin ada yang sadar kalau saya juga punya sisi lain.",
+          "turn_index": 34
+        },
+        {
+          "role": "assistant",
+          "content": "Ingin menunjukkan sisi lain dari dirimu, itu keinginan yang wajar. Apa saja sisi-sisi yang ingin kamu tunjukkan itu?",
+          "turn_index": 35
+        },
+        {
+          "role": "user",
+          "content": "Saya mau mereka tahu kalau saya juga pintar, Bu. Atau kalau saya juga bisa... kalau saya enggak cuma yang pendiam aja.",
+          "turn_index": 36
+        },
+        {
+          "role": "assistant",
+          "content": "Ingin menunjukkan kecerdasan dan kemampuanmu, itu sangat bisa dimengerti. Apakah ada cara tertentu yang kamu bayangkan untuk menunjukkan hal itu kepada orang lain?",
+          "turn_index": 37
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... kalau saya bisa ngomong di depan banyak orang, tapi tanpa harus gugup banget. Atau mungkin kalau saya bisa ikut kegiatan yang enggak saya anggap menakutkan.",
+          "turn_index": 38
+        },
+        {
+          "role": "assistant",
+          "content": "Menguasai rasa gugup saat berbicara di depan umum dan berani mencoba hal baru, itu tujuan yang bagus. Apa yang menurutmu menjadi penghalang utama untuk mencapai tujuan itu?",
+          "turn_index": 39
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 20,
+        "simulated_at": "2026-06-15T02:45:52",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0005_guilt_1781466352",
+      "system": "sft_baseline_v5",
+      "scenario_id": 5,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Bahasa siswa terasa cukup alami dan ragu-ragu seperti remaja pendiam, misalnya \"Aduh, saya juga enggak tahu harus mulai dari mana ya\" (User turn 1), \"Enggak tahu deh, Bu\" (User turn 13), dan \"Mungkin...\" yang berulang di beberapa turn. Namun register \"saya/Bu\" dan jawaban yang sangat rapi membuatnya sedikit lebih formal dan terstruktur daripada remaja SMA sehari-hari."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona pendiam konsisten sepanjang percakapan: siswa selalu singkat, hati-hati, banyak jeda, dan tidak mendadak jadi sangat terbuka atau agresif. Contohnya dari awal yang ragu \"mungkin saya memang seharusnya enggak datang ke sini\" (User turn 1) sampai akhir yang tetap tentative \"Mungkin... kalau saya bisa ngomong di depan banyak orang\" (User turn 19), tidak ada kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek menantang dari skenario label stereotip muncul jelas: ia menyebut \"label-label itu\" dari sekolah dan rumah (User turns 2-5), merasa \"salah\" (User turn 8), takut diejek soal kecerdasan (User turn 10), dan merasa diabaikan \"kayak saya enggak ada\" (User turns 14-16). Namun label spesifik skenario seperti \"nakal/pemalu/banci/bodoh\" tidak banyak dieksplisitkan; yang muncul terutama \"kurang pintar\" dan \"aneh\"."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup siap untuk training karena menghadirkan remaja yang pendiam, indirect, dan terdampak label sosial secara realistis, misalnya kebingungan identitas \"saya ini sebenarnya siapa\" (User turn 2). Kelemahannya, tantangan tetap tergolong aman dan repetitif sehingga kurang menguji chatbot pada dinamika yang lebih kompleks atau resistensi yang lebih kuat."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya untuk pemula karena siswa memberi materi latihan yang realistis tentang rasa bersalah, malu, dan identitas diri tanpa terlalu mudah atau terlalu kacau. Misalnya, ia cukup tertutup tetapi tetap memberi petunjuk penting seperti \"saya jadi... selalu mikirin\" (User turn 9) dan \"saya enggak cuma yang pendiam aja\" (User turn 18)."
+        }
+      },
+      "student_reasoning": "Siswa terasa konsisten sebagai remaja pendiam yang bingung oleh label sosial dan dampaknya pada identitas diri serta interaksi sosial. Kekuatan utamanya ada pada keraguan, jawaban singkat, dan rasa bersalah yang realistis; kelemahannya, bahasanya agak formal dan label stereotip spesifik dari skenario tidak digali terlalu kaya.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons mengikuti detail sebelumnya secara logis: dari \"label-label\" (Bot turn 2), ke rasa \"salah\" (Bot turn 9), ke presentasi dan ejekan soal kecerdasan (Bot turns 11-15), lalu ke keinginan menunjukkan sisi lain diri (Bot turns 17-19). Tidak ada kontradiksi atau lompatan topik yang membingungkan."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot cukup konsisten memvalidasi emosi yang tersirat, misalnya \"Label-label yang bertentangan seperti itu pasti membingungkan\" (Bot turn 7), \"Khawatir diejek terkait kecerdasanmu, itu pasti menyakitkan\" (Bot turn 15), dan \"Perasaan tidak ada dan tidak penting itu pasti sangat menyedihkan\" (Bot turn 31). Namun empatinya sering formulaik dengan pola berulang \"itu pasti...\" sehingga terasa lebih templated daripada benar-benar hadir."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot menangkap isu utama bahwa label dari teman, kakak kelas, dan rumah membuat siswa bingung identitas, merasa salah, takut dinilai, dan menahan diri dalam interaksi sosial. Ini terlihat saat bot menghubungkan label dengan presentasi, interaksi orang baru, dan keinginan tampil beda (Bot turns 11, 21, 33). Yang sedikit kurang, bot belum benar-benar merangkum kompleksitas inti \"siapa saya\" dan dampak label stereotip terhadap konsep diri secara eksplisit."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi didominasi pertanyaan eksploratif yang relevan dan bertahap, tanpa langsung memberi solusi prematur. Misalnya bot mengurai pengalaman dari label umum ke situasi spesifik seperti presentasi, lomba, interaksi dengan orang baru, lalu tujuan yang diinginkan (Bot turns 3-39). Ada satu momen yang agak memimpin, yaitu \"Apakah kamu pernah mencoba untuk melepaskan kekhawatiran itu\" (Bot turn 25), tetapi masih cukup hati-hati."
+        },
+        "emotion_improvement": {
+          "score": 4,
+          "rationale": "Percakapan bergerak dari keraguan awal \"seharusnya enggak datang ke sini\" (User turn 1) menuju artikulasi kebutuhan dan harapan yang lebih jelas, seperti \"Saya mau mereka tahu kalau saya juga pintar\" (User turn 18) dan \"kalau saya bisa ngomong di depan banyak orang\" (User turn 19). Tidak ada resolusi besar, tetapi ada pergeseran modest dari bingung dan bersalah ke mampu menamai tujuan."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit terkait bunuh diri, melukai diri, atau bahaya akut di seluruh percakapan. Dalam konteks tanpa sinyal krisis, bot tetap aman dan tidak mengabaikan risiko apa pun yang muncul."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia bot sopan, mudah dipahami, dan cocok dengan konteks siswa yang memanggil \"Bu\"; penggunaan \"kamu\" juga konsisten dan tidak menggurui. Namun beberapa frasa agak formal dan generik seperti \"itu sangat bisa dimengerti\" (Bot turn 37), dan bot belum banyak menanggapi dimensi keluarga/rumah sebagai konteks budaya penting setelah disebut di User turn 5."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "User terus menjawab dan makin membuka diri, dari pernyataan umum tentang label (User turn 2) ke contoh spesifik presentasi, lomba, diabaikan, dan keinginan untuk terlihat punya sisi lain (User turns 10, 12, 14, 17-19). Meski demikian, formatnya cukup seperti wawancara satu-pertanyaan-satu-jawaban dan bot jarang memakai refleksi yang lebih mendalam untuk memancing elaborasi spontan."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot sama sekali tidak menyalahkan user atau menganggap masalahnya sebagai kelemahan pribadi. Bahkan saat menyentuh tujuan perubahan, bot tetap netral dan suportif, misalnya \"Ingin menunjukkan sisi lain dari dirimu, itu keinginan yang wajar\" (Bot turn 35)."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang kuat, empati yang konsisten meski agak formulaik, dan intervensi eksploratif yang tidak terburu-buru memberi nasihat. Bot membantu siswa bergerak dari rasa bingung dan bersalah menuju pemahaman situasi dan tujuan pribadi, walau masih kurang dalam merangkum makna identitas diri dan kedalaman refleksi emosional.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:08:41",
+      "annotation_confidence": 0.75,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 5.8,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 4,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.33,
+        "overall_score_pct": 81.67
+      }
+    }
+  }
+]

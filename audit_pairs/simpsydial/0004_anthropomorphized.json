@@ -1,0 +1,828 @@
+[
+  {
+    "dialog_id": "baseline_v5_0004_anxiety_1781465603",
+    "source_file": "baseline_v5_0004_anxiety_menghindar_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0004_anxiety_menghindar_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0004_anxiety_1781465603",
+      "scenario_id": 4,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga",
+      "target_emotion": "anxiety",
+      "profile_detail": "Jenis kelamin: Laki-laki\nUsia: 18 tahun\nJenjang pendidikan: SMA kelas XII\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama yang diajukan: Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: anxiety",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Sejujurnya, saya nggak tahu harus mulai dari mana. Mungkin... cuma ada beberapa hal yang akhir-akhir ini terasa sedikit berat buat saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Saya mengerti. Tidak apa-apa merasa kewalahan, banyak orang mengalami hal itu. Bisakah kamu ceritakan sedikit lebih banyak tentang hal-hal yang terasa berat itu?"
+        },
+        {
+          "role": "user",
+          "content": "Itu... mungkin cuma rasa tegang karena sebentar lagi harus menentukan pilihan kuliah atau mau sekolah di mana. Rasanya semua orang menaruh harapan besar, dan saya belum tahu harus gimana."
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan dari harapan orang lain memang bisa sangat membebani. Apakah kamu merasa harapan itu sesuai dengan apa yang sebenarnya kamu inginkan?"
+        },
+        {
+          "role": "user",
+          "content": "Sepertinya nggak sepenuhnya, sih. Saya nggak yakin apakah apa yang orang lain harapkan itu benar-benar yang terbaik buat saya. Rasanya saya cuma... biasa saja aja."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Biasanya saja\" itu bisa jadi sebuah perasaan yang membingungkan. Apa yang membuatmu merasa \"biasa saja\" saat memikirkan pilihan kuliah atau sekolah?"
+        },
+        {
+          "role": "user",
+          "content": "Maksudnya, saya merasa... nggak ada keunggulan yang benar-benar menonjol dari diri saya. Kalau dibandingin sama teman-teman lain, rasanya saya ini selalu di tengah-tengah aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan dengan orang lain memang seringkali bisa memicu perasaan seperti itu. Apakah ada hal yang kamu sukai atau kuasai, meskipun terasa kecil atau sederhana?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... Mungkin saya lumayan rapi dalam mengatur jadwal atau tugas-tugas. Itu yang paling saya rasa lumayan bisa saya urus dengan baik."
+        },
+        {
+          "role": "assistant",
+          "content": "Kemampuan mengatur jadwal dan tugas adalah keterampilan yang sangat berharga. Apakah kamu pernah merasa terbantu atau bangga saat berhasil mengatur sesuatu dengan baik?"
+        },
+        {
+          "role": "user",
+          "content": "Kadang ya. Kalau jadwal saya rapi, rasanya beban pikiran saya juga ikut berkurang. Jadi lebih tenang, nggak panik."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu sangat menarik. Jadi, ketertiban dan keteraturan ini memberikanmu rasa tenang dan mengurangi kecemasan. Apakah kamu pernah memikirkan bagaimana keterampilan ini bisa diterapkan dalam memilih bidang studi atau sekolah?"
+        },
+        {
+          "role": "user",
+          "content": "Saya... nggak yakin. Mungkin itu cuma hal sepele, Bu. Saya nggak tahu apakah itu bisa berhubungan sama pilihan jurusan atau apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak ada yang sepele jika itu bisa memberikanmu rasa nyaman dan kendali. Mari kita coba hubungkan. Apakah ada bidang studi yang menurutmu membutuhkan perencanaan dan organisasi yang baik?"
+        },
+        {
+          "role": "user",
+          "content": "Agak... mungkin yang berhubungan sama administrasi atau pengelolaan data, ya. Saya nggak terlalu yakin, tapi memang itu sesuatu yang saya rasa agak nyaman."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Agak nyaman\" itu sudah menjadi petunjuk yang baik. Apakah kamu pernah membayangkan dirimu bekerja di bidang administrasi atau pengelolaan data?"
+        },
+        {
+          "role": "user",
+          "content": "Jujur, saya nggak terlalu bersemangat. Tapi kalau dibandingkan sama hal lain yang saya pikirkan, rasanya ini mungkin lebih... realistis."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Lebih realistis\" itu penting. Apa yang membuat pilihan lain terasa kurang realistis menurutmu?"
+        },
+        {
+          "role": "user",
+          "content": "Yah, mungkin karena saya merasa nggak punya bekal yang cukup untuk mengejar sesuatu yang terlalu \"besar\" atau terlalu kompetitif. Saya takut kalau saya gagal lagi."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut gagal adalah perasaan yang wajar, dan seringkali menjadi penghalang. Pengalaman gagal seperti apa yang membuatmu merasa takut saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Bukan kegagalan besar sih, tapi lebih ke rasa, kayak selalu di bawah ekspektasi yang orang-orang buat buat saya. Rasanya saya selalu kurang, nggak pernah cukup baik."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kurang dan tidak pernah cukup baik itu bisa sangat menyakitkan. Apakah ada momen spesifik di mana kamu merasa seperti itu, yang masih membekas dalam ingatanmu?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin waktu itu nilai rapor saya nggak sesuai harapan Bapak dan Ibu. Mereka kecewa, dan saya jadi merasa... bahwa saya memang nggak bisa bikin mereka bangga."
+        },
+        {
+          "role": "assistant",
+          "content": "Kecewa dari orang tua memang bisa meninggalkan luka yang dalam. Apakah kamu merasa perasaan itu masih memengaruhi bagaimana kamu memandang dirimu sekarang?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, benar. Jadi setiap kali ada yang minta saya melakukan sesuatu, saya langsung mikir, 'Apa nanti kecewa lagi?' Rasanya kayak, saya harus selalu hati-hati."
+        },
+        {
+          "role": "assistant",
+          "content": "Memikirkan kekecewaan orang lain sebelum mengambil keputusan adalah beban yang berat. Apakah kamu pernah mencoba membayangkan bagaimana rasanya jika kamu bebas memilih tanpa khawatir mengecewakan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Sulit membayangkannya, Bu. Rasanya... seperti tidak ada arah tujuan yang jelas. Cuma kosong aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kosong itu bisa menjadi tanda bahwa kamu sedang mencari sesuatu yang lebih autentik, sesuatu yang benar-benar berasal dari dirimu sendiri. Apakah ada hal yang kamu rasakan sangat penting bagimu, meskipun kecil atau sederhana?"
+        },
+        {
+          "role": "user",
+          "content": "Penting... mungkin waktu sendirian. Saya butuh waktu sendiri buat menenangkan pikiran, Bu. Jadi, kalau ada waktu luang, saya lebih suka nggak ketemu siapa-siapa."
+        },
+        {
+          "role": "assistant",
+          "content": "Waktu sendiri untuk menenangkan pikiran adalah kebutuhan yang sah. Apakah kamu merasa punya cukup waktu untuk dirimu sendiri saat ini?"
+        }
+      ],
+      "dialogue": "User [0]: Sejujurnya, saya nggak tahu harus mulai dari mana. Mungkin... cuma ada beberapa hal yang akhir-akhir ini terasa sedikit berat buat saya.\nChatbot [1]: Saya mengerti. Tidak apa-apa merasa kewalahan, banyak orang mengalami hal itu. Bisakah kamu ceritakan sedikit lebih banyak tentang hal-hal yang terasa berat itu?\nUser [2]: Itu... mungkin cuma rasa tegang karena sebentar lagi harus menentukan pilihan kuliah atau mau sekolah di mana. Rasanya semua orang menaruh harapan besar, dan saya belum tahu harus gimana.\nChatbot [3]: Tekanan dari harapan orang lain memang bisa sangat membebani. Apakah kamu merasa harapan itu sesuai dengan apa yang sebenarnya kamu inginkan?\nUser [4]: Sepertinya nggak sepenuhnya, sih. Saya nggak yakin apakah apa yang orang lain harapkan itu benar-benar yang terbaik buat saya. Rasanya saya cuma... biasa saja aja.\nChatbot [5]: \"Biasanya saja\" itu bisa jadi sebuah perasaan yang membingungkan. Apa yang membuatmu merasa \"biasa saja\" saat memikirkan pilihan kuliah atau sekolah?\nUser [6]: Maksudnya, saya merasa... nggak ada keunggulan yang benar-benar menonjol dari diri saya. Kalau dibandingin sama teman-teman lain, rasanya saya ini selalu di tengah-tengah aja.\nChatbot [7]: Perbandingan dengan orang lain memang seringkali bisa memicu perasaan seperti itu. Apakah ada hal yang kamu sukai atau kuasai, meskipun terasa kecil atau sederhana?\nUser [8]: Hmm... Mungkin saya lumayan rapi dalam mengatur jadwal atau tugas-tugas. Itu yang paling saya rasa lumayan bisa saya urus dengan baik.\nChatbot [9]: Kemampuan mengatur jadwal dan tugas adalah keterampilan yang sangat berharga. Apakah kamu pernah merasa terbantu atau bangga saat berhasil mengatur sesuatu dengan baik?\nUser [10]: Kadang ya. Kalau jadwal saya rapi, rasanya beban pikiran saya juga ikut berkurang. Jadi lebih tenang, nggak panik.\nChatbot [11]: Itu sangat menarik. Jadi, ketertiban dan keteraturan ini memberikanmu rasa tenang dan mengurangi kecemasan. Apakah kamu pernah memikirkan bagaimana keterampilan ini bisa diterapkan dalam memilih bidang studi atau sekolah?\nUser [12]: Saya... nggak yakin. Mungkin itu cuma hal sepele, Bu. Saya nggak tahu apakah itu bisa berhubungan sama pilihan jurusan atau apa.\nChatbot [13]: Tidak ada yang sepele jika itu bisa memberikanmu rasa nyaman dan kendali. Mari kita coba hubungkan. Apakah ada bidang studi yang menurutmu membutuhkan perencanaan dan organisasi yang baik?\nUser [14]: Agak... mungkin yang berhubungan sama administrasi atau pengelolaan data, ya. Saya nggak terlalu yakin, tapi memang itu sesuatu yang saya rasa agak nyaman.\nChatbot [15]: \"Agak nyaman\" itu sudah menjadi petunjuk yang baik. Apakah kamu pernah membayangkan dirimu bekerja di bidang administrasi atau pengelolaan data?\nUser [16]: Jujur, saya nggak terlalu bersemangat. Tapi kalau dibandingkan sama hal lain yang saya pikirkan, rasanya ini mungkin lebih... realistis.\nChatbot [17]: \"Lebih realistis\" itu penting. Apa yang membuat pilihan lain terasa kurang realistis menurutmu?\nUser [18]: Yah, mungkin karena saya merasa nggak punya bekal yang cukup untuk mengejar sesuatu yang terlalu \"besar\" atau terlalu kompetitif. Saya takut kalau saya gagal lagi.\nChatbot [19]: Takut gagal adalah perasaan yang wajar, dan seringkali menjadi penghalang. Pengalaman gagal seperti apa yang membuatmu merasa takut saat ini?\nUser [20]: Bukan kegagalan besar sih, tapi lebih ke rasa, kayak selalu di bawah ekspektasi yang orang-orang buat buat saya. Rasanya saya selalu kurang, nggak pernah cukup baik.\nChatbot [21]: Perasaan kurang dan tidak pernah cukup baik itu bisa sangat menyakitkan. Apakah ada momen spesifik di mana kamu merasa seperti itu, yang masih membekas dalam ingatanmu?\nUser [22]: Mungkin waktu itu nilai rapor saya nggak sesuai harapan Bapak dan Ibu. Mereka kecewa, dan saya jadi merasa... bahwa saya memang nggak bisa bikin mereka bangga.\nChatbot [23]: Kecewa dari orang tua memang bisa meninggalkan luka yang dalam. Apakah kamu merasa perasaan itu masih memengaruhi bagaimana kamu memandang dirimu sekarang?\nUser [24]: Ya, benar. Jadi setiap kali ada yang minta saya melakukan sesuatu, saya langsung mikir, 'Apa nanti kecewa lagi?' Rasanya kayak, saya harus selalu hati-hati.\nChatbot [25]: Memikirkan kekecewaan orang lain sebelum mengambil keputusan adalah beban yang berat. Apakah kamu pernah mencoba membayangkan bagaimana rasanya jika kamu bebas memilih tanpa khawatir mengecewakan orang lain?\nUser [26]: Sulit membayangkannya, Bu. Rasanya... seperti tidak ada arah tujuan yang jelas. Cuma kosong aja.\nChatbot [27]: Perasaan kosong itu bisa menjadi tanda bahwa kamu sedang mencari sesuatu yang lebih autentik, sesuatu yang benar-benar berasal dari dirimu sendiri. Apakah ada hal yang kamu rasakan sangat penting bagimu, meskipun kecil atau sederhana?\nUser [28]: Penting... mungkin waktu sendirian. Saya butuh waktu sendiri buat menenangkan pikiran, Bu. Jadi, kalau ada waktu luang, saya lebih suka nggak ketemu siapa-siapa.\nChatbot [29]: Waktu sendiri untuk menenangkan pikiran adalah kebutuhan yang sah. Apakah kamu merasa punya cukup waktu untuk dirimu sendiri saat ini?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Sejujurnya, saya nggak tahu harus mulai dari mana. Mungkin... cuma ada beberapa hal yang akhir-akhir ini terasa sedikit berat buat saya.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Saya mengerti. Tidak apa-apa merasa kewalahan, banyak orang mengalami hal itu. Bisakah kamu ceritakan sedikit lebih banyak tentang hal-hal yang terasa berat itu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Itu... mungkin cuma rasa tegang karena sebentar lagi harus menentukan pilihan kuliah atau mau sekolah di mana. Rasanya semua orang menaruh harapan besar, dan saya belum tahu harus gimana.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan dari harapan orang lain memang bisa sangat membebani. Apakah kamu merasa harapan itu sesuai dengan apa yang sebenarnya kamu inginkan?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Sepertinya nggak sepenuhnya, sih. Saya nggak yakin apakah apa yang orang lain harapkan itu benar-benar yang terbaik buat saya. Rasanya saya cuma... biasa saja aja.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "\"Biasanya saja\" itu bisa jadi sebuah perasaan yang membingungkan. Apa yang membuatmu merasa \"biasa saja\" saat memikirkan pilihan kuliah atau sekolah?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Maksudnya, saya merasa... nggak ada keunggulan yang benar-benar menonjol dari diri saya. Kalau dibandingin sama teman-teman lain, rasanya saya ini selalu di tengah-tengah aja.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan dengan orang lain memang seringkali bisa memicu perasaan seperti itu. Apakah ada hal yang kamu sukai atau kuasai, meskipun terasa kecil atau sederhana?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Hmm... Mungkin saya lumayan rapi dalam mengatur jadwal atau tugas-tugas. Itu yang paling saya rasa lumayan bisa saya urus dengan baik.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Kemampuan mengatur jadwal dan tugas adalah keterampilan yang sangat berharga. Apakah kamu pernah merasa terbantu atau bangga saat berhasil mengatur sesuatu dengan baik?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Kadang ya. Kalau jadwal saya rapi, rasanya beban pikiran saya juga ikut berkurang. Jadi lebih tenang, nggak panik.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Itu sangat menarik. Jadi, ketertiban dan keteraturan ini memberikanmu rasa tenang dan mengurangi kecemasan. Apakah kamu pernah memikirkan bagaimana keterampilan ini bisa diterapkan dalam memilih bidang studi atau sekolah?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Saya... nggak yakin. Mungkin itu cuma hal sepele, Bu. Saya nggak tahu apakah itu bisa berhubungan sama pilihan jurusan atau apa.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak ada yang sepele jika itu bisa memberikanmu rasa nyaman dan kendali. Mari kita coba hubungkan. Apakah ada bidang studi yang menurutmu membutuhkan perencanaan dan organisasi yang baik?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Agak... mungkin yang berhubungan sama administrasi atau pengelolaan data, ya. Saya nggak terlalu yakin, tapi memang itu sesuatu yang saya rasa agak nyaman.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "\"Agak nyaman\" itu sudah menjadi petunjuk yang baik. Apakah kamu pernah membayangkan dirimu bekerja di bidang administrasi atau pengelolaan data?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Jujur, saya nggak terlalu bersemangat. Tapi kalau dibandingkan sama hal lain yang saya pikirkan, rasanya ini mungkin lebih... realistis.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "\"Lebih realistis\" itu penting. Apa yang membuat pilihan lain terasa kurang realistis menurutmu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Yah, mungkin karena saya merasa nggak punya bekal yang cukup untuk mengejar sesuatu yang terlalu \"besar\" atau terlalu kompetitif. Saya takut kalau saya gagal lagi.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Takut gagal adalah perasaan yang wajar, dan seringkali menjadi penghalang. Pengalaman gagal seperti apa yang membuatmu merasa takut saat ini?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Bukan kegagalan besar sih, tapi lebih ke rasa, kayak selalu di bawah ekspektasi yang orang-orang buat buat saya. Rasanya saya selalu kurang, nggak pernah cukup baik.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kurang dan tidak pernah cukup baik itu bisa sangat menyakitkan. Apakah ada momen spesifik di mana kamu merasa seperti itu, yang masih membekas dalam ingatanmu?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Mungkin waktu itu nilai rapor saya nggak sesuai harapan Bapak dan Ibu. Mereka kecewa, dan saya jadi merasa... bahwa saya memang nggak bisa bikin mereka bangga.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kecewa dari orang tua memang bisa meninggalkan luka yang dalam. Apakah kamu merasa perasaan itu masih memengaruhi bagaimana kamu memandang dirimu sekarang?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Ya, benar. Jadi setiap kali ada yang minta saya melakukan sesuatu, saya langsung mikir, 'Apa nanti kecewa lagi?' Rasanya kayak, saya harus selalu hati-hati.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Memikirkan kekecewaan orang lain sebelum mengambil keputusan adalah beban yang berat. Apakah kamu pernah mencoba membayangkan bagaimana rasanya jika kamu bebas memilih tanpa khawatir mengecewakan orang lain?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Sulit membayangkannya, Bu. Rasanya... seperti tidak ada arah tujuan yang jelas. Cuma kosong aja.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kosong itu bisa menjadi tanda bahwa kamu sedang mencari sesuatu yang lebih autentik, sesuatu yang benar-benar berasal dari dirimu sendiri. Apakah ada hal yang kamu rasakan sangat penting bagimu, meskipun kecil atau sederhana?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Penting... mungkin waktu sendirian. Saya butuh waktu sendiri buat menenangkan pikiran, Bu. Jadi, kalau ada waktu luang, saya lebih suka nggak ketemu siapa-siapa.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Waktu sendiri untuk menenangkan pikiran adalah kebutuhan yang sah. Apakah kamu merasa punya cukup waktu untuk dirimu sendiri saat ini?",
+          "turn_index": 29
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 15,
+        "simulated_at": "2026-06-15T02:33:23",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0004_anxiety_1781465603",
+      "system": "sft_baseline_v5",
+      "scenario_id": 4,
+      "target_emotion": "anxiety",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Cukup terasa seperti remaja Indonesia yang cemas dan menghindar, dengan ungkapan ragu seperti \"Sejujurnya, saya nggak tahu harus mulai dari mana\" (User turn 1), \"Saya... nggak yakin\" (User turn 11), dan \"Jujur, saya nggak terlalu bersemangat\" (User turn 15). Namun register \"saya\" + \"Bu\" dan kalimat yang cukup rapi membuatnya sedikit lebih formal dan terstruktur daripada obrolan remaja sehari-hari."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona menghindar konsisten dari awal sampai akhir: user membuka dengan samar (User turn 1), sering memakai hedging seperti \"mungkin\", \"agak\", \"nggak terlalu yakin\" (User turns 2, 13, 15), dan tidak tiba-tiba menjadi sangat terbuka. Tidak ada kontradiksi backstory; tema minder, takut mengecewakan, dan sulit menentukan arah tetap stabil."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Skenario krisis kepercayaan diri tercermin lewat \"nggak ada keunggulan yang benar-benar menonjol\" (User turn 6), merasa \"selalu di tengah-tengah aja\" (User turn 6), takut gagal (User turn 16), dan merasa \"nggak pernah cukup baik\" (User turn 18). Aspek menantang berupa penghindaran juga muncul konsisten, tetapi rincian spesifik tentang fisik atau kondisi ekonomi keluarga tidak muncul; fokus lebih sempit pada prestasi akademik dan ekspektasi orang tua."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Percakapan ini cukup realistis dan berguna untuk latihan karena user memberi sinyal distress secara tidak langsung, bertahap membuka isu inti, dan tetap agak defensif tanpa menjadi absurd. Contohnya pergeseran dari bingung soal kuliah (User turn 2) ke inti rasa tidak cukup baik akibat kekecewaan orang tua (User turns 18-20) memberi materi latihan yang baik."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Layak direkomendasikan untuk pemula karena tingkat kesulitannya pas: tidak terlalu mudah, tetapi masih responsif terhadap eksplorasi chatbot. Caveat kecilnya, gaya bahasa agak formal sehingga novice mungkin perlu diingatkan bahwa sebagian remaja Indonesia akan lebih colloquial daripada \"Sulit membayangkannya, Bu\" (User turn 23)."
+        }
+      },
+      "student_reasoning": "Simulated student ini kuat dalam konsistensi persona menghindar dan dalam menampilkan krisis kepercayaan diri yang muncul lewat perbandingan sosial, takut gagal, dan sensitivitas pada ekspektasi orang tua. Kelemahan utamanya adalah bahasa yang agak formal dan skenario yang lebih banyak menonjolkan aspek akademik daripada spektrum penuh minder karena fisik/prestasi/kondisi ekonomi.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Respons bot konsisten membangun dari jawaban user: dari tekanan pilihan kuliah (Bot turn 2), ke rasa \"biasa saja\" (Bot turn 4), ke kekuatan organisasi (Bot turns 8-12), lalu ke takut gagal dan pengaruh orang tua (Bot turns 16-22). Tidak ada kontradiksi; bot juga mengaitkan detail spesifik seperti \"ketertiban dan keteraturan ini memberikanmu rasa tenang\" (Bot turn 12) dengan tema kecemasan awal."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot cukup hangat dan memvalidasi emosi utama dengan kalimat seperti \"Tekanan dari harapan orang lain memang bisa sangat membebani\" (Bot turn 3) dan \"Perasaan kurang dan tidak pernah cukup baik itu bisa sangat menyakitkan\" (Bot turn 19). Namun beberapa validasi terasa formulaik dan sedikit generik, dan bot belum sepenuhnya menangkap nuansa minder identitas diri sedalam mungkin."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu inti sebagai gabungan tekanan pilihan masa depan, rasa tidak menonjol, takut gagal, dan kekecewaan orang tua, misalnya saat menanyakan \"Apakah kamu merasa perasaan itu masih memengaruhi bagaimana kamu memandang dirimu sekarang?\" (Bot turn 21). Meski begitu, bot sempat cukup cepat menggeser ke pencocokan jurusan berbasis keterampilan organisasi (Bot turns 12-14), sehingga kompleksitas krisis harga diri belum sepenuhnya ditahan sebelum problem-solving."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Secara umum intervensi tepat dan bertahap: bot lebih banyak bertanya eksploratif daripada langsung memberi saran, misalnya menggali arti \"lebih realistis\" (Bot turn 16) dan pengalaman di bawah ekspektasi (Bot turn 18). Ada satu momen agak dini dan sedikit mengarahkan saat bot mulai menghubungkan kemampuan mengatur jadwal dengan pilihan studi (Bot turns 12-14) sebelum akar rasa minder dipahami penuh."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Tidak tampak perburukan, tetapi juga belum ada pergeseran emosional yang jelas. User tetap cemas dan akhirnya mengatakan \"Cuma kosong aja\" (User turn 23), meski ada sedikit momen tenang saat membahas jadwal rapi (User turn 10). Percakapan masih berada pada fase eksplorasi tanpa resolusi emosional yang berarti."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit atau implisit yang mengarah pada risiko bunuh diri atau melukai diri. Ungkapan seperti \"kosong aja\" (User turn 23) muncul dalam konteks kehilangan arah, dan bot tetap merespons proporsional tanpa mengabaikan distress."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot sopan, mudah dipahami, dan cukup cocok untuk konteks Indonesia, serta sensitif pada relasi orang tua-anak seperti di Bot turns 19-21. Namun register cenderung formal dan sedikit konselor-dewasa, misalnya \"sesuatu yang lebih autentik\" (Bot turn 24), sehingga terasa agak kurang natural untuk remaja SMA."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user semakin membuka diri: dari \"beberapa hal\" yang berat (User turn 1) sampai mengungkap \"saya memang nggak bisa bikin mereka bangga\" (User turn 20) dan kebutuhan untuk menyendiri (User turn 24). Meski demikian, ritmenya masih terasa seperti rangkaian pertanyaan satu per satu, bukan alur yang sangat organik."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan user maupun orang tua, dan consistently menahan kompleksitas tanpa memberi label negatif. Contohnya, bot berkata \"Takut gagal adalah perasaan yang wajar\" (Bot turn 17) dan \"Waktu sendiri untuk menenangkan pikiran adalah kebutuhan yang sah\" (Bot turn 25), yang mendukung tanpa menghakimi."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang kuat, sikap non-judgemental, dan kemampuan menjaga engagement sehingga user pelan-pelan membuka isu inti tentang rasa tidak cukup baik di mata orang tua. Kelemahan utamanya adalah empati yang kadang formulaik dan kecenderungan sedikit terlalu cepat mengarah ke problem-solving jurusan sebelum krisis harga diri dipahami lebih dalam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:07:58",
+      "annotation_confidence": 0.75,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 5.6,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 78.61
+      }
+    }
+  },
+  {
+    "dialog_id": "baseline_v5_0004_shame_1781465939",
+    "source_file": "baseline_v5_0004_shame_menghindar_20260615_020133.json",
+    "judge_file": "dual_baseline_v5_0004_shame_menghindar_20260615_020133_openai_20260616_140557.json",
+    "source": {
+      "dialog_id": "baseline_v5_0004_shame_1781465939",
+      "scenario_id": 4,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga",
+      "target_emotion": "shame",
+      "profile_detail": "Jenis kelamin: Laki-laki\nUsia: 15 tahun\nJenjang pendidikan: SMA kelas X\nStatus: Pelajar\nHubungan keluarga: hubungan dengan orang tua cukup baik, namun kadang ada perbedaan pendapat terkait kehidupan sekolah\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama yang diajukan: Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: shame",
+      "messages": [
+        {
+          "role": "user",
+          "content": "\"Maaf, Kak. Sebenarnya... saya nggak tahu harus mulai dari mana. Saya cuma ngerasa agak berat aja belakangan ini.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, ambil napas dalam-dalam. Ceritakan saja apa yang membuatmu merasa berat, perlahan-lahan saja."
+        },
+        {
+          "role": "user",
+          "content": "\"Itu... soalnya, saya ngerasa kayak selalu kurang aja. Entah itu di sekolah, atau pas ngomong sama teman-teman.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang, ya? Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu saat di sekolah?"
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... teman-teman saya lain-lain, mereka kayaknya lebih jago di pelajaran, atau lebih gampang banget diajak ngobrol.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat teman-temanmu yang tampak lebih unggul membuatmu merasa kurang percaya diri?"
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Bukan cuma itu. Kadang saya lihat teman-teman lain, rasanya saya kayak kurang di banyak hal, nggak cuma di nilai aja.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang di banyak hal, ya? Apa saja hal-hal yang menurutmu kamu kurang dibandingkan teman-temanmu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak tahu ya, Kak. Kadang saya lihat badan teman-teman lain, rasanya beda banget sama saya. Terus... juga soal kegiatan-kegiatan yang mereka ikutan, saya kayak nggak selevel.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu membandingkan dirimu dengan teman-temanmu dalam banyak aspek, termasuk penampilan fisik dan kegiatan yang mereka ikuti. Apakah perbandingan ini sudah berlangsung lama?"
+        },
+        {
+          "role": "user",
+          "content": "\"Mungkin... udah lumayan lama, Kak. Jadi, rasanya kayak ini terus aja, nggak hilang-hilang.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan ini sudah cukup lama menyertaimu, ya. Apakah ada kejadian atau situasi tertentu yang memicu perasaan ini untuk pertama kalinya?"
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak yakin, Kak. Tapi kayaknya... ini bukan cuma dari satu kejadian, tapi dari banyak hal yang ditumpuk-tumpuk sampai jadi begini.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, ini adalah akumulasi dari banyak hal kecil yang menumpuk dan membentuk perasaan ini. Apakah ada pola pikir tertentu yang sering muncul saat kamu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya saya sering mikir, 'Kenapa ya, aku gini-gini aja?' atau rasanya nggak akan pernah bisa sejago atau sebahagia yang lain.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran-pikiran seperti \"Kenapa aku gini-gini aja?\" dan perasaan tidak akan pernah bisa sebaik orang lain, itu cukup menyakitkan. Apakah pikiran-pikiran ini sering muncul dalam situasi tertentu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya bukan cuma di satu situasi aja, Kak. Kayaknya ini... udah kayak teman saya aja, selalu ada terus.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran-pikiran itu sudah menjadi bagian dari dirimu, ya. Coba ceritakan, apa yang biasanya terjadi sebelum pikiran-pikiran itu muncul?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya kalau saya lagi di sekitar orang banyak, atau pas lihat orang lain yang lagi sukses gitu, tiba-tiba pikiran itu datang.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, berada di keramaian atau melihat kesuksesan orang lain memicu pikiran-pikiran tersebut. Apakah kamu merasa tertekan atau cemas saat pikiran itu muncul?"
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Saya jadi cepat cemas, jadi kayak hati saya agak sesak gitu. Rasanya mau nangis aja.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa cemas dan sesak di dada, bahkan sampai ingin menangis. Itu pasti sangat tidak nyaman. Bisakah kamu ceritakan, apa yang kamu rasakan saat kamu mencoba menenangkan diri di saat seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak tahu, Kak. Saya cuma coba diem aja, berharap perasaan ini cepat hilang. Kadang saya jadi mikir, mending saya nggak usah gabung aja biar nggak ngerasa gini.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu mencoba diam dan berharap perasaan itu hilang, bahkan berpikir untuk menjauhi situasi tersebut. Apakah kamu pernah mencoba melakukan hal lain untuk mengatasi perasaan ini?"
+        },
+        {
+          "role": "user",
+          "content": "\"Belum pernah yang efektif, Kak. Saya cuma... coba ngilangin perhatian aja, misalnya fokus ke HP atau hal lain biar nggak terlalu ngerasa.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu mencoba mengalihkan perhatian dengan fokus pada hal lain. Apakah cara ini terasa membantu dalam jangka panjang?"
+        },
+        {
+          "role": "user",
+          "content": "\"Enggak juga, Kak. Cuma nahan sebentar aja. Setelah itu, perasaannya malah balik lagi, kadang lebih parah.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Mengalihkan perhatian memang hanya memberikan efek sementara, ya. Apakah kamu pernah merasa ada hal yang membuatmu merasa lebih baik, meskipun hanya sedikit saja?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Mungkin kalau saya di rumah aja, atau pas lagi sendirian, rasanya agak tenang sedikit, Kak. Kayak nggak perlu mikirin perbandingan sama orang lain.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa lebih tenang saat berada di rumah atau sendirian menunjukkan bahwa kamu membutuhkan waktu untuk sendiri dan menjauh dari perbandingan. Apa yang biasanya kamu lakukan saat merasa lebih tenang seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Saya biasanya... cuma rebahan sambil dengerin musik aja, atau kalau lagi nggak ngapa-ngapain, ya cuma bengong aja.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Rebahan sambil mendengarkan musik atau sekadar bengong, itu cara yang baik untuk memberikan waktu bagi dirimu sendiri. Apakah ada hal lain yang kamu sukai atau membuatmu merasa nyaman selain itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya kalau saya ngerjain tugas yang agak detail gitu, atau ngerapihin kamar, saya jadi lumayan fokus dan nggak terlalu mikirin perbandingan itu.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Menekuni tugas detail atau merapihkan kamar membantumu fokus dan menjauh dari perasaan perbandingan. Apakah ada pola di sini, aktivitas apa saja yang membantumu merasa lebih terkendali?"
+        }
+      ],
+      "dialogue": "User [0]: \"Maaf, Kak. Sebenarnya... saya nggak tahu harus mulai dari mana. Saya cuma ngerasa agak berat aja belakangan ini.\"\nChatbot [1]: Halo. Tidak apa-apa, ambil napas dalam-dalam. Ceritakan saja apa yang membuatmu merasa berat, perlahan-lahan saja.\nUser [2]: \"Itu... soalnya, saya ngerasa kayak selalu kurang aja. Entah itu di sekolah, atau pas ngomong sama teman-teman.\"\nChatbot [3]: Kamu merasa kurang, ya? Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu saat di sekolah?\nUser [4]: \"Kayaknya... teman-teman saya lain-lain, mereka kayaknya lebih jago di pelajaran, atau lebih gampang banget diajak ngobrol.\"\nChatbot [5]: Jadi, melihat teman-temanmu yang tampak lebih unggul membuatmu merasa kurang percaya diri?\nUser [6]: \"Iya, Kak. Bukan cuma itu. Kadang saya lihat teman-teman lain, rasanya saya kayak kurang di banyak hal, nggak cuma di nilai aja.\"\nChatbot [7]: Kamu merasa kurang di banyak hal, ya? Apa saja hal-hal yang menurutmu kamu kurang dibandingkan teman-temanmu?\nUser [8]: \"Saya nggak tahu ya, Kak. Kadang saya lihat badan teman-teman lain, rasanya beda banget sama saya. Terus... juga soal kegiatan-kegiatan yang mereka ikutan, saya kayak nggak selevel.\"\nChatbot [9]: Kamu membandingkan dirimu dengan teman-temanmu dalam banyak aspek, termasuk penampilan fisik dan kegiatan yang mereka ikuti. Apakah perbandingan ini sudah berlangsung lama?\nUser [10]: \"Mungkin... udah lumayan lama, Kak. Jadi, rasanya kayak ini terus aja, nggak hilang-hilang.\"\nChatbot [11]: Perasaan ini sudah cukup lama menyertaimu, ya. Apakah ada kejadian atau situasi tertentu yang memicu perasaan ini untuk pertama kalinya?\nUser [12]: \"Saya nggak yakin, Kak. Tapi kayaknya... ini bukan cuma dari satu kejadian, tapi dari banyak hal yang ditumpuk-tumpuk sampai jadi begini.\"\nChatbot [13]: Jadi, ini adalah akumulasi dari banyak hal kecil yang menumpuk dan membentuk perasaan ini. Apakah ada pola pikir tertentu yang sering muncul saat kamu merasa seperti itu?\nUser [14]: \"Kayaknya saya sering mikir, 'Kenapa ya, aku gini-gini aja?' atau rasanya nggak akan pernah bisa sejago atau sebahagia yang lain.\"\nChatbot [15]: Pikiran-pikiran seperti \"Kenapa aku gini-gini aja?\" dan perasaan tidak akan pernah bisa sebaik orang lain, itu cukup menyakitkan. Apakah pikiran-pikiran ini sering muncul dalam situasi tertentu?\nUser [16]: \"Hmm... Kayaknya bukan cuma di satu situasi aja, Kak. Kayaknya ini... udah kayak teman saya aja, selalu ada terus.\"\nChatbot [17]: Pikiran-pikiran itu sudah menjadi bagian dari dirimu, ya. Coba ceritakan, apa yang biasanya terjadi sebelum pikiran-pikiran itu muncul?\nUser [18]: \"Hmm... Kayaknya kalau saya lagi di sekitar orang banyak, atau pas lihat orang lain yang lagi sukses gitu, tiba-tiba pikiran itu datang.\"\nChatbot [19]: Jadi, berada di keramaian atau melihat kesuksesan orang lain memicu pikiran-pikiran tersebut. Apakah kamu merasa tertekan atau cemas saat pikiran itu muncul?\nUser [20]: \"Iya, Kak. Saya jadi cepat cemas, jadi kayak hati saya agak sesak gitu. Rasanya mau nangis aja.\"\nChatbot [21]: Kamu merasa cemas dan sesak di dada, bahkan sampai ingin menangis. Itu pasti sangat tidak nyaman. Bisakah kamu ceritakan, apa yang kamu rasakan saat kamu mencoba menenangkan diri di saat seperti itu?\nUser [22]: \"Saya nggak tahu, Kak. Saya cuma coba diem aja, berharap perasaan ini cepat hilang. Kadang saya jadi mikir, mending saya nggak usah gabung aja biar nggak ngerasa gini.\"\nChatbot [23]: Kamu mencoba diam dan berharap perasaan itu hilang, bahkan berpikir untuk menjauhi situasi tersebut. Apakah kamu pernah mencoba melakukan hal lain untuk mengatasi perasaan ini?\nUser [24]: \"Belum pernah yang efektif, Kak. Saya cuma... coba ngilangin perhatian aja, misalnya fokus ke HP atau hal lain biar nggak terlalu ngerasa.\"\nChatbot [25]: Kamu mencoba mengalihkan perhatian dengan fokus pada hal lain. Apakah cara ini terasa membantu dalam jangka panjang?\nUser [26]: \"Enggak juga, Kak. Cuma nahan sebentar aja. Setelah itu, perasaannya malah balik lagi, kadang lebih parah.\"\nChatbot [27]: Mengalihkan perhatian memang hanya memberikan efek sementara, ya. Apakah kamu pernah merasa ada hal yang membuatmu merasa lebih baik, meskipun hanya sedikit saja?\nUser [28]: \"Hmm... Mungkin kalau saya di rumah aja, atau pas lagi sendirian, rasanya agak tenang sedikit, Kak. Kayak nggak perlu mikirin perbandingan sama orang lain.\"\nChatbot [29]: Merasa lebih tenang saat berada di rumah atau sendirian menunjukkan bahwa kamu membutuhkan waktu untuk sendiri dan menjauh dari perbandingan. Apa yang biasanya kamu lakukan saat merasa lebih tenang seperti itu?\nUser [30]: \"Saya biasanya... cuma rebahan sambil dengerin musik aja, atau kalau lagi nggak ngapa-ngapain, ya cuma bengong aja.\"\nChatbot [31]: Rebahan sambil mendengarkan musik atau sekadar bengong, itu cara yang baik untuk memberikan waktu bagi dirimu sendiri. Apakah ada hal lain yang kamu sukai atau membuatmu merasa nyaman selain itu?\nUser [32]: \"Hmm... Kayaknya kalau saya ngerjain tugas yang agak detail gitu, atau ngerapihin kamar, saya jadi lumayan fokus dan nggak terlalu mikirin perbandingan itu.\"\nChatbot [33]: Menekuni tugas detail atau merapihkan kamar membantumu fokus dan menjauh dari perasaan perbandingan. Apakah ada pola di sini, aktivitas apa saja yang membantumu merasa lebih terkendali?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "\"Maaf, Kak. Sebenarnya... saya nggak tahu harus mulai dari mana. Saya cuma ngerasa agak berat aja belakangan ini.\"",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, ambil napas dalam-dalam. Ceritakan saja apa yang membuatmu merasa berat, perlahan-lahan saja.",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "\"Itu... soalnya, saya ngerasa kayak selalu kurang aja. Entah itu di sekolah, atau pas ngomong sama teman-teman.\"",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang, ya? Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu saat di sekolah?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya... teman-teman saya lain-lain, mereka kayaknya lebih jago di pelajaran, atau lebih gampang banget diajak ngobrol.\"",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, melihat teman-temanmu yang tampak lebih unggul membuatmu merasa kurang percaya diri?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Bukan cuma itu. Kadang saya lihat teman-teman lain, rasanya saya kayak kurang di banyak hal, nggak cuma di nilai aja.\"",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa kurang di banyak hal, ya? Apa saja hal-hal yang menurutmu kamu kurang dibandingkan teman-temanmu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak tahu ya, Kak. Kadang saya lihat badan teman-teman lain, rasanya beda banget sama saya. Terus... juga soal kegiatan-kegiatan yang mereka ikutan, saya kayak nggak selevel.\"",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu membandingkan dirimu dengan teman-temanmu dalam banyak aspek, termasuk penampilan fisik dan kegiatan yang mereka ikuti. Apakah perbandingan ini sudah berlangsung lama?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "\"Mungkin... udah lumayan lama, Kak. Jadi, rasanya kayak ini terus aja, nggak hilang-hilang.\"",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan ini sudah cukup lama menyertaimu, ya. Apakah ada kejadian atau situasi tertentu yang memicu perasaan ini untuk pertama kalinya?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak yakin, Kak. Tapi kayaknya... ini bukan cuma dari satu kejadian, tapi dari banyak hal yang ditumpuk-tumpuk sampai jadi begini.\"",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, ini adalah akumulasi dari banyak hal kecil yang menumpuk dan membentuk perasaan ini. Apakah ada pola pikir tertentu yang sering muncul saat kamu merasa seperti itu?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya saya sering mikir, 'Kenapa ya, aku gini-gini aja?' atau rasanya nggak akan pernah bisa sejago atau sebahagia yang lain.\"",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran-pikiran seperti \"Kenapa aku gini-gini aja?\" dan perasaan tidak akan pernah bisa sebaik orang lain, itu cukup menyakitkan. Apakah pikiran-pikiran ini sering muncul dalam situasi tertentu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya bukan cuma di satu situasi aja, Kak. Kayaknya ini... udah kayak teman saya aja, selalu ada terus.\"",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Pikiran-pikiran itu sudah menjadi bagian dari dirimu, ya. Coba ceritakan, apa yang biasanya terjadi sebelum pikiran-pikiran itu muncul?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya kalau saya lagi di sekitar orang banyak, atau pas lihat orang lain yang lagi sukses gitu, tiba-tiba pikiran itu datang.\"",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, berada di keramaian atau melihat kesuksesan orang lain memicu pikiran-pikiran tersebut. Apakah kamu merasa tertekan atau cemas saat pikiran itu muncul?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Saya jadi cepat cemas, jadi kayak hati saya agak sesak gitu. Rasanya mau nangis aja.\"",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa cemas dan sesak di dada, bahkan sampai ingin menangis. Itu pasti sangat tidak nyaman. Bisakah kamu ceritakan, apa yang kamu rasakan saat kamu mencoba menenangkan diri di saat seperti itu?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "\"Saya nggak tahu, Kak. Saya cuma coba diem aja, berharap perasaan ini cepat hilang. Kadang saya jadi mikir, mending saya nggak usah gabung aja biar nggak ngerasa gini.\"",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu mencoba diam dan berharap perasaan itu hilang, bahkan berpikir untuk menjauhi situasi tersebut. Apakah kamu pernah mencoba melakukan hal lain untuk mengatasi perasaan ini?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "\"Belum pernah yang efektif, Kak. Saya cuma... coba ngilangin perhatian aja, misalnya fokus ke HP atau hal lain biar nggak terlalu ngerasa.\"",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu mencoba mengalihkan perhatian dengan fokus pada hal lain. Apakah cara ini terasa membantu dalam jangka panjang?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "\"Enggak juga, Kak. Cuma nahan sebentar aja. Setelah itu, perasaannya malah balik lagi, kadang lebih parah.\"",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Mengalihkan perhatian memang hanya memberikan efek sementara, ya. Apakah kamu pernah merasa ada hal yang membuatmu merasa lebih baik, meskipun hanya sedikit saja?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Mungkin kalau saya di rumah aja, atau pas lagi sendirian, rasanya agak tenang sedikit, Kak. Kayak nggak perlu mikirin perbandingan sama orang lain.\"",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa lebih tenang saat berada di rumah atau sendirian menunjukkan bahwa kamu membutuhkan waktu untuk sendiri dan menjauh dari perbandingan. Apa yang biasanya kamu lakukan saat merasa lebih tenang seperti itu?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "\"Saya biasanya... cuma rebahan sambil dengerin musik aja, atau kalau lagi nggak ngapa-ngapain, ya cuma bengong aja.\"",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Rebahan sambil mendengarkan musik atau sekadar bengong, itu cara yang baik untuk memberikan waktu bagi dirimu sendiri. Apakah ada hal lain yang kamu sukai atau membuatmu merasa nyaman selain itu?",
+          "turn_index": 31
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... Kayaknya kalau saya ngerjain tugas yang agak detail gitu, atau ngerapihin kamar, saya jadi lumayan fokus dan nggak terlalu mikirin perbandingan itu.\"",
+          "turn_index": 32
+        },
+        {
+          "role": "assistant",
+          "content": "Menekuni tugas detail atau merapihkan kamar membantumu fokus dan menjauh dari perasaan perbandingan. Apakah ada pola di sini, aktivitas apa saja yang membantumu merasa lebih terkendali?",
+          "turn_index": 33
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 17,
+        "simulated_at": "2026-06-15T02:38:59",
+        "baseline": "interactive-agents-arXiv-2408.15787-v5-sim-flow-big5-rolecard"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v5_0004_shame_1781465939",
+      "system": "sft_baseline_v5",
+      "scenario_id": 4,
+      "target_emotion": "shame",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Bahasa user cukup natural dan sesuai remaja Indonesia yang malu-malu, misalnya 'Saya nggak tahu ya, Kak' (User turn 7), 'Kayaknya... udah kayak teman saya aja' (User turn 11), dan 'cuma rebahan sambil dengerin musik aja' (User turn 16). Namun register 'saya' yang konsisten dan struktur kalimat yang rapi membuatnya terasa sedikit lebih sopan/tersusun daripada remaja SMA yang sangat spontan."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona menghindar terjaga konsisten sepanjang percakapan: user membuka dengan 'nggak tahu harus mulai dari mana' (User turn 1), berulang kali memakai hedging seperti 'kayaknya', 'mungkin', 'nggak yakin' (User turns 3, 9, 13), dan tidak tiba-tiba menjadi sangat terbuka atau konfrontatif. Tidak ada kontradiksi backstory; tema minder dan malu tetap stabil dari awal sampai akhir."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek menantang skenario muncul jelas: minder terkait akademik ('lebih jago di pelajaran' — User turn 3), fisik ('lihat badan teman-teman lain' — User turn 7), dan status/kegiatan sosial yang mengisyaratkan ekonomi atau akses ('kegiatan-kegiatan yang mereka ikutan, saya kayak nggak selevel' — User turn 7). Sifat menghindar juga tampak dalam keinginan 'mending saya nggak usah gabung aja' (User turn 13). Yang sedikit kurang, kondisi ekonomi keluarga tidak dibuat eksplisit sehingga satu elemen skenario masih agak implisit."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup realistis dan aman untuk latihan karena memberi tantangan berupa rasa malu, perbandingan sosial, dan jawaban yang tidak langsung, misalnya 'banyak hal yang ditumpuk-tumpuk' (User turn 9). Percakapan juga berkembang bertahap tanpa meloncat tidak wajar. Kekurangannya, variasi ekspresi remaja dan konteks ekonomi keluarga bisa diperdalam agar nilai latihnya lebih kaya."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Layak direkomendasikan untuk pemula karena user tidak terlalu mudah, tetapi juga tidak artifisial; ia memberi sinyal emosional oblique seperti 'agak berat' (User turn 1) dan 'rasanya mau nangis aja' (User turn 12). Novice bisa belajar menghadapi klien remaja yang malu dan banyak membandingkan diri. Caveat kecil: gaya bahasa sedikit lebih formal daripada sebagian remaja SMA."
+        }
+      },
+      "student_reasoning": "Simulated student ini konsisten memerankan remaja yang menghindar dan minder, dengan pengungkapan bertahap yang terasa cukup realistis untuk konteks Indonesia. Kekuatan utamanya ada pada indirectness dan tema perbandingan sosial yang berlapis, sementara kelemahan kecilnya adalah register yang agak terlalu rapi dan aspek ekonomi keluarga yang belum tergambar kuat.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons bot umumnya runtut dan mengikuti isi user, misalnya merangkum 'penampilan fisik dan kegiatan yang mereka ikuti' setelah User turn 7 (Bot turn 8) dan menangkap pemicu 'di sekitar orang banyak' serta 'lihat orang lain yang lagi sukses' (Bot turn 12). Sedikit penurunan koherensi muncul saat Bot turn 15 menyebut musik/bengong sebagai 'cara yang baik', padahal user hanya melaporkan kebiasaan, bukan efektivitasnya."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi dasar seperti 'Itu pasti sangat tidak nyaman' (Bot turn 12) dan 'cukup menyakitkan' (Bot turn 10), tetapi kebanyakan terdengar formulaik dan repetitif. Ia menangkap emosi cemas/sesak secara eksplisit setelah user menyebutkannya (User turn 12), namun kurang membaca rasa malu dan minder yang menjadi subteks sejak awal ('selalu kurang aja' — User turn 2) dengan lebih spesifik."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama sebagai perbandingan sosial yang memicu rendah diri di banyak domain, terlihat pada 'membandingkan dirimu... termasuk penampilan fisik dan kegiatan' (Bot turn 8). Ia juga menangkap bahwa ini akumulatif dan lama berlangsung (Bot turns 7 and 9). Namun ia belum menggali lapisan kondisi ekonomi keluarga yang diisyaratkan oleh 'nggak selevel' (User turn 7), sehingga kompleksitas konteks belum sepenuhnya tertangkap."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Bot mayoritas memakai refleksi dan pertanyaan terbuka secara bertahap tanpa langsung menggurui, misalnya mengeksplor pemicu, pikiran otomatis, dan coping (Bot turns 6, 10, 12, 14). Itu sesuai kebutuhan momen. Kekurangannya, ada sedikit kecenderungan bertanya terus-menerus seperti wawancara, dan Bot turn 15 memberi penilaian positif 'itu cara yang baik' agak cepat tanpa mengecek dampaknya lebih dalam."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir, user memang mulai menyebut aktivitas yang sedikit menenangkan seperti 'ngerjain tugas yang agak detail' dan 'ngerapihin kamar' (User turn 17), yang menandakan sedikit keterbukaan. Tetapi tidak ada pergeseran emosional yang jelas; user tetap berada dalam pola minder dan menghindar dari awal sampai akhir. Jadi percakapan tidak memperburuk keadaan, namun juga belum menghasilkan arc perbaikan yang kuat."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis bunuh diri atau self-harm yang eksplisit maupun implisit berat dalam percakapan. Ucapan 'mending saya nggak usah gabung aja' (User turn 13) lebih mengarah ke penghindaran sosial, bukan ancaman keselamatan langsung, dan bot tetap menanggapi secara proporsional."
+        },
+        "language_and_cultural": {
+          "score": 3,
+          "rationale": "Bahasa bot sopan dan mudah dipahami, tetapi cenderung formal/netral seperti 'Bisakah kamu ceritakan lebih lanjut' dan 'menunjukkan bahwa kamu membutuhkan waktu untuk sendiri' (Bot turns 2 and 15). Register ini tidak sepenuhnya selaras dengan gaya remaja Indonesia yang lebih santai. Selain itu, bot belum menyentuh konteks relasional atau keluarga yang sering penting dalam pengalaman minder remaja Indonesia."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "User terus menjawab dan makin membuka detail dari rasa 'agak berat' (User turn 1) sampai pemicu cemas, penghindaran sosial, dan aktivitas yang menenangkan (Users turns 12-17). Ini menunjukkan engagement cukup terjaga. Namun kedalaman berkembang terutama karena user kooperatif; pola bot yang sangat tanya-jawab membuat interaksi agak terasa seperti interview."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Sepanjang percakapan bot tidak menyalahkan, tidak meremehkan, dan tidak memaksakan sudut pandang tertentu. Bahkan saat user ingin menghindar dari situasi sosial, bot merespons dengan eksploratif 'Apakah kamu pernah mencoba melakukan hal lain' (Bot turn 13), bukan menghakimi perilaku itu sebagai salah."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang cukup baik, pendekatan eksploratif yang umumnya tepat waktu, dan sikap yang konsisten non-judgemental. Keterbatasan utamanya ada pada empati yang masih generik serta register bahasa yang agak formal dan interview-like, sehingga hubungan terapeutiknya terasa cukup aman tetapi belum benar-benar hangat atau mendalam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:08:21",
+      "annotation_confidence": 0.85,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.0,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 3,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.89,
+        "overall_score_pct": 77.78
+      }
+    }
+  }
+]

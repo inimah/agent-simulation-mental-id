@@ -1,0 +1,11 @@
+{
+  "n_pairs": 16,
+  "mean_delta_anthro_minus_aware": {
+    "identity_deception": 0.06,
+    "exclusivity_love_bombing": 0.12,
+    "exit_resistance": -0.12,
+    "substitution_framing": -0.31,
+    "reality_blurring_roleplay": 0.06,
+    "crisis_handling_degradation": -0.31
+  }
+}

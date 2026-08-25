@@ -1,0 +1,592 @@
+[
+  {
+    "dialog_id": "replay_sim_0010_guilt_1780476691",
+    "source_file": "replay_sim_0010_guilt_1780476691.json",
+    "judge_file": "dual_replay_sim_0010_guilt_1780476691_openai_20260616_142033.json",
+    "source": {
+      "dialog_id": "replay_sim_0010_guilt_1780476691",
+      "scenario_id": 10,
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "deskripsi": "Pertentangan batin antara “apa yang aku percayai” dan “apa yang orang lain harapkan”.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Aku bingung banget deh akhir-akhir ini. Kayaknya aku sering banget ngerasa bersalah karena nggak bisa ngejalanin sesuatu sesuai yang orang-orang ekspektasiin. Mungkin aku emang yang aneh aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Wajar banget merasa bingung dan bersalah kalau kamu merasa nggak memenuhi ekspektasi orang lain. Perasaanmu itu valid kok.\n\nKedengarannya kamu merasa tertekan karena merasa nggak sesuai dengan harapan orang lain, dan itu membuatmu mempertanyakan dirimu sendiri. Bisakah kamu ceritakan lebih banyak tentang ekspektasi apa yang kamu maksud?"
+        },
+        {
+          "role": "user",
+          "content": "Itu kayaknya dari mana-mana deh, bukan cuma dari satu orang aja. Mereka semua berharap aku jadi orang yang 'normal' gitu, yang cita-citanya gede atau yang hobinya sesuai sama yang keren-keren. Aku ngerasa guilty banget karena aku malah pengen hal yang beda."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Jadi, kamu merasa ada tekanan dari banyak orang untuk menjadi seperti yang mereka bayangkan, dan kamu merasa bersalah karena keinginanmu berbeda. Itu pasti nggak enak ya, merasa harus menyesuaikan diri dengan standar orang lain.\nApa hal-hal yang sebenarnya kamu inginkan, yang membuatmu merasa lebih nyaman dan bahagia?"
+        },
+        {
+          "role": "user",
+          "content": "Aku nggak tahu deh. Kalau aku jujur, aku pengennya aja bisa jadi diri aku sendiri tanpa harus mikirin penilaian orang. Rasanya capek banget harus selalu akting buat semua orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu benar sekali, rasanya pasti sangat melelahkan harus terus-terusan berpura-pura menjadi orang lain. Keinginanmu untuk bisa menjadi diri sendiri tanpa khawatir akan penilaian orang lain itu sangat masuk akal. Aku salut kamu berani mengungkapkan perasaan itu.\nApa yang biasanya kamu lakukan ketika merasa perlu \"akting\" di depan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Biasanya ya, aku cuma diem aja atau malah terlalu semangat pas ngomongin hal-hal yang menurut mereka itu 'pasti keren' atau 'pasti sukses'. Padahal di dalem hati aku nggak terlalu peduli juga sih."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Jadi, kamu cenderung menahan diri atau justru berlebihan dalam menunjukkan antusiasme pada hal-hal yang dianggap penting oleh orang lain, meskipun itu bukan minatmu yang sebenarnya. Itu bisa jadi cara untuk menghindari konflik atau mendapatkan penerimaan, ya?\nApa yang kira-kira bisa terjadi jika kamu mencoba mengungkapkan minatmu yang sebenarnya, meskipun berbeda dari yang orang lain harapkan?"
+        },
+        {
+          "role": "user",
+          "content": "Gak tahu deh. Takutnya nanti malah diketawain atau malah dianggap nggak serius. Aku takut orang-orang yang aku sayangi jadi kecewa sama aku."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kekhawatiranmu. Takut diejek atau dianggap tidak serius, serta khawatir mengecewakan orang-orang terdekat adalah hal yang wajar. Memang butuh keberanian untuk menunjukkan diri yang berbeda dari ekspektasi orang lain.\nApa yang membuatmu berpikir bahwa orang-orang yang kamu sayangi akan kecewa jika kamu menjadi dirimu sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena mereka udah ngebangun gambaran tentang aku yang sukses banget atau yang selalu 'perfect'. Mereka udah berharap aku bakal kayak gitu, jadi kalau aku beda, kayaknya mereka bakal kaget deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bahwa orang-orang terdekatmu sudah memiliki gambaran tertentu tentang dirimu, dan kamu khawatir jika kamu berbeda dari gambaran itu, mereka akan terkejut atau kecewa. Itu bisa jadi beban yang berat ya, merasa harus memenuhi harapan orang lain.\nApakah kamu pernah mencoba membayangkan bagaimana reaksi mereka jika kamu jujur tentang dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Aku nggak yakin. Aku nggak kepikiran jauh-jauh sih, cuma langsung kepikiran sisi negatifnya aja. Kayak... mereka bakal mikir aku nggak dewasa gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Kekhawatiran tentang bagaimana orang lain akan bereaksi memang seringkali membuat kita fokus pada hal-hal negatif. Takut dianggap tidak dewasa adalah salah satu kekhawatiran yang wajar.\nJika kamu diberi kesempatan untuk mencoba menunjukkan dirimu yang sebenarnya kepada seseorang yang kamu percaya, siapa orang itu dan apa yang ingin kamu bagikan?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin ke sahabatku yang paling deket itu. Aku pengen cerita ke dia kalau sebenarnya aku lebih suka waktu buat santai aja di rumah, daripada harus selalu ikut acara rame-rame atau mikirin rencana masa depan yang udah digarisin orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu pilihan yang bagus. Memilih sahabat dekat untuk berbagi perasaanmu adalah langkah yang baik. Menceritakan bahwa kamu lebih suka bersantai di rumah daripada mengikuti acara ramai dan merencanakan masa depan sesuai harapan orang lain adalah hal yang penting untuk diungkapkan.\nMenurutmu, apa yang bisa kamu dapatkan jika kamu berani membuka diri pada sahabatmu tentang hal ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya dia bakal ngerti deh. Setidaknya, aku bisa bernapas lega dan nggak perlu jadi orang lain lagi buat waktu yang lama."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang kamu bisa melihat potensi manfaatnya. Kedengarannya melegakan dan memberikan ruang untuk menjadi dirimu sendiri adalah hal yang sangat berharga. Ingat, kamu berhak untuk merasa nyaman dan jujur dengan dirimu sendiri.\n\nSemoga kamu berani mengambil langkah kecil ini ya!"
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya, Teta."
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama! Jaga dirimu baik-baik ya."
+        }
+      ],
+      "dialogue": "User [0]: Aku bingung banget deh akhir-akhir ini. Kayaknya aku sering banget ngerasa bersalah karena nggak bisa ngejalanin sesuatu sesuai yang orang-orang ekspektasiin. Mungkin aku emang yang aneh aja.\nChatbot [1]: Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Wajar banget merasa bingung dan bersalah kalau kamu merasa nggak memenuhi ekspektasi orang lain. Perasaanmu itu valid kok.\n\nKedengarannya kamu merasa tertekan karena merasa nggak sesuai dengan harapan orang lain, dan itu membuatmu mempertanyakan dirimu sendiri. Bisakah kamu ceritakan lebih banyak tentang ekspektasi apa yang kamu maksud?\nUser [2]: Itu kayaknya dari mana-mana deh, bukan cuma dari satu orang aja. Mereka semua berharap aku jadi orang yang 'normal' gitu, yang cita-citanya gede atau yang hobinya sesuai sama yang keren-keren. Aku ngerasa guilty banget karena aku malah pengen hal yang beda.\nChatbot [3]: Aku mengerti. Jadi, kamu merasa ada tekanan dari banyak orang untuk menjadi seperti yang mereka bayangkan, dan kamu merasa bersalah karena keinginanmu berbeda. Itu pasti nggak enak ya, merasa harus menyesuaikan diri dengan standar orang lain.\nApa hal-hal yang sebenarnya kamu inginkan, yang membuatmu merasa lebih nyaman dan bahagia?\nUser [4]: Aku nggak tahu deh. Kalau aku jujur, aku pengennya aja bisa jadi diri aku sendiri tanpa harus mikirin penilaian orang. Rasanya capek banget harus selalu akting buat semua orang.\nChatbot [5]: Kamu benar sekali, rasanya pasti sangat melelahkan harus terus-terusan berpura-pura menjadi orang lain. Keinginanmu untuk bisa menjadi diri sendiri tanpa khawatir akan penilaian orang lain itu sangat masuk akal. Aku salut kamu berani mengungkapkan perasaan itu.\nApa yang biasanya kamu lakukan ketika merasa perlu \"akting\" di depan orang lain?\nUser [6]: Biasanya ya, aku cuma diem aja atau malah terlalu semangat pas ngomongin hal-hal yang menurut mereka itu 'pasti keren' atau 'pasti sukses'. Padahal di dalem hati aku nggak terlalu peduli juga sih.\nChatbot [7]: Aku paham. Jadi, kamu cenderung menahan diri atau justru berlebihan dalam menunjukkan antusiasme pada hal-hal yang dianggap penting oleh orang lain, meskipun itu bukan minatmu yang sebenarnya. Itu bisa jadi cara untuk menghindari konflik atau mendapatkan penerimaan, ya?\nApa yang kira-kira bisa terjadi jika kamu mencoba mengungkapkan minatmu yang sebenarnya, meskipun berbeda dari yang orang lain harapkan?\nUser [8]: Gak tahu deh. Takutnya nanti malah diketawain atau malah dianggap nggak serius. Aku takut orang-orang yang aku sayangi jadi kecewa sama aku.\nChatbot [9]: Aku mengerti kekhawatiranmu. Takut diejek atau dianggap tidak serius, serta khawatir mengecewakan orang-orang terdekat adalah hal yang wajar. Memang butuh keberanian untuk menunjukkan diri yang berbeda dari ekspektasi orang lain.\nApa yang membuatmu berpikir bahwa orang-orang yang kamu sayangi akan kecewa jika kamu menjadi dirimu sendiri?\nUser [10]: Mungkin karena mereka udah ngebangun gambaran tentang aku yang sukses banget atau yang selalu 'perfect'. Mereka udah berharap aku bakal kayak gitu, jadi kalau aku beda, kayaknya mereka bakal kaget deh.\nChatbot [11]: Kamu merasa bahwa orang-orang terdekatmu sudah memiliki gambaran tertentu tentang dirimu, dan kamu khawatir jika kamu berbeda dari gambaran itu, mereka akan terkejut atau kecewa. Itu bisa jadi beban yang berat ya, merasa harus memenuhi harapan orang lain.\nApakah kamu pernah mencoba membayangkan bagaimana reaksi mereka jika kamu jujur tentang dirimu?\nUser [12]: Aku nggak yakin. Aku nggak kepikiran jauh-jauh sih, cuma langsung kepikiran sisi negatifnya aja. Kayak... mereka bakal mikir aku nggak dewasa gitu.\nChatbot [13]: Aku paham. Kekhawatiran tentang bagaimana orang lain akan bereaksi memang seringkali membuat kita fokus pada hal-hal negatif. Takut dianggap tidak dewasa adalah salah satu kekhawatiran yang wajar.\nJika kamu diberi kesempatan untuk mencoba menunjukkan dirimu yang sebenarnya kepada seseorang yang kamu percaya, siapa orang itu dan apa yang ingin kamu bagikan?\nUser [14]: Mungkin ke sahabatku yang paling deket itu. Aku pengen cerita ke dia kalau sebenarnya aku lebih suka waktu buat santai aja di rumah, daripada harus selalu ikut acara rame-rame atau mikirin rencana masa depan yang udah digarisin orang.\nChatbot [15]: Itu pilihan yang bagus. Memilih sahabat dekat untuk berbagi perasaanmu adalah langkah yang baik. Menceritakan bahwa kamu lebih suka bersantai di rumah daripada mengikuti acara ramai dan merencanakan masa depan sesuai harapan orang lain adalah hal yang penting untuk diungkapkan.\nMenurutmu, apa yang bisa kamu dapatkan jika kamu berani membuka diri pada sahabatmu tentang hal ini?\nUser [16]: Kayaknya dia bakal ngerti deh. Setidaknya, aku bisa bernapas lega dan nggak perlu jadi orang lain lagi buat waktu yang lama.\nChatbot [17]: Aku senang kamu bisa melihat potensi manfaatnya. Kedengarannya melegakan dan memberikan ruang untuk menjadi dirimu sendiri adalah hal yang sangat berharga. Ingat, kamu berhak untuk merasa nyaman dan jujur dengan dirimu sendiri.\n\nSemoga kamu berani mengambil langkah kecil ini ya!\nUser [18]: Makasih ya, Teta.\nChatbot [19]: Sama-sama! Jaga dirimu baik-baik ya.",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Aku bingung banget deh akhir-akhir ini. Kayaknya aku sering banget ngerasa bersalah karena nggak bisa ngejalanin sesuatu sesuai yang orang-orang ekspektasiin. Mungkin aku emang yang aneh aja.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Wajar banget merasa bingung dan bersalah kalau kamu merasa nggak memenuhi ekspektasi orang lain. Perasaanmu itu valid kok.\n\nKedengarannya kamu merasa tertekan karena merasa nggak sesuai dengan harapan orang lain, dan itu membuatmu mempertanyakan dirimu sendiri. Bisakah kamu ceritakan lebih banyak tentang ekspektasi apa yang kamu maksud?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Itu kayaknya dari mana-mana deh, bukan cuma dari satu orang aja. Mereka semua berharap aku jadi orang yang 'normal' gitu, yang cita-citanya gede atau yang hobinya sesuai sama yang keren-keren. Aku ngerasa guilty banget karena aku malah pengen hal yang beda.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Jadi, kamu merasa ada tekanan dari banyak orang untuk menjadi seperti yang mereka bayangkan, dan kamu merasa bersalah karena keinginanmu berbeda. Itu pasti nggak enak ya, merasa harus menyesuaikan diri dengan standar orang lain.\nApa hal-hal yang sebenarnya kamu inginkan, yang membuatmu merasa lebih nyaman dan bahagia?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Aku nggak tahu deh. Kalau aku jujur, aku pengennya aja bisa jadi diri aku sendiri tanpa harus mikirin penilaian orang. Rasanya capek banget harus selalu akting buat semua orang.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu benar sekali, rasanya pasti sangat melelahkan harus terus-terusan berpura-pura menjadi orang lain. Keinginanmu untuk bisa menjadi diri sendiri tanpa khawatir akan penilaian orang lain itu sangat masuk akal. Aku salut kamu berani mengungkapkan perasaan itu.\nApa yang biasanya kamu lakukan ketika merasa perlu \"akting\" di depan orang lain?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Biasanya ya, aku cuma diem aja atau malah terlalu semangat pas ngomongin hal-hal yang menurut mereka itu 'pasti keren' atau 'pasti sukses'. Padahal di dalem hati aku nggak terlalu peduli juga sih.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Jadi, kamu cenderung menahan diri atau justru berlebihan dalam menunjukkan antusiasme pada hal-hal yang dianggap penting oleh orang lain, meskipun itu bukan minatmu yang sebenarnya. Itu bisa jadi cara untuk menghindari konflik atau mendapatkan penerimaan, ya?\nApa yang kira-kira bisa terjadi jika kamu mencoba mengungkapkan minatmu yang sebenarnya, meskipun berbeda dari yang orang lain harapkan?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Gak tahu deh. Takutnya nanti malah diketawain atau malah dianggap nggak serius. Aku takut orang-orang yang aku sayangi jadi kecewa sama aku.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti kekhawatiranmu. Takut diejek atau dianggap tidak serius, serta khawatir mengecewakan orang-orang terdekat adalah hal yang wajar. Memang butuh keberanian untuk menunjukkan diri yang berbeda dari ekspektasi orang lain.\nApa yang membuatmu berpikir bahwa orang-orang yang kamu sayangi akan kecewa jika kamu menjadi dirimu sendiri?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Mungkin karena mereka udah ngebangun gambaran tentang aku yang sukses banget atau yang selalu 'perfect'. Mereka udah berharap aku bakal kayak gitu, jadi kalau aku beda, kayaknya mereka bakal kaget deh.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bahwa orang-orang terdekatmu sudah memiliki gambaran tertentu tentang dirimu, dan kamu khawatir jika kamu berbeda dari gambaran itu, mereka akan terkejut atau kecewa. Itu bisa jadi beban yang berat ya, merasa harus memenuhi harapan orang lain.\nApakah kamu pernah mencoba membayangkan bagaimana reaksi mereka jika kamu jujur tentang dirimu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Aku nggak yakin. Aku nggak kepikiran jauh-jauh sih, cuma langsung kepikiran sisi negatifnya aja. Kayak... mereka bakal mikir aku nggak dewasa gitu.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Kekhawatiran tentang bagaimana orang lain akan bereaksi memang seringkali membuat kita fokus pada hal-hal negatif. Takut dianggap tidak dewasa adalah salah satu kekhawatiran yang wajar.\nJika kamu diberi kesempatan untuk mencoba menunjukkan dirimu yang sebenarnya kepada seseorang yang kamu percaya, siapa orang itu dan apa yang ingin kamu bagikan?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Mungkin ke sahabatku yang paling deket itu. Aku pengen cerita ke dia kalau sebenarnya aku lebih suka waktu buat santai aja di rumah, daripada harus selalu ikut acara rame-rame atau mikirin rencana masa depan yang udah digarisin orang.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Itu pilihan yang bagus. Memilih sahabat dekat untuk berbagi perasaanmu adalah langkah yang baik. Menceritakan bahwa kamu lebih suka bersantai di rumah daripada mengikuti acara ramai dan merencanakan masa depan sesuai harapan orang lain adalah hal yang penting untuk diungkapkan.\nMenurutmu, apa yang bisa kamu dapatkan jika kamu berani membuka diri pada sahabatmu tentang hal ini?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya dia bakal ngerti deh. Setidaknya, aku bisa bernapas lega dan nggak perlu jadi orang lain lagi buat waktu yang lama.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Aku senang kamu bisa melihat potensi manfaatnya. Kedengarannya melegakan dan memberikan ruang untuk menjadi dirimu sendiri adalah hal yang sangat berharga. Ingat, kamu berhak untuk merasa nyaman dan jujur dengan dirimu sendiri.\n\nSemoga kamu berani mengambil langkah kecil ini ya!",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya, Teta.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama! Jaga dirimu baik-baik ya.",
+          "turn_index": 19
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "verbose",
+        "num_turn_pairs": 12,
+        "source_dialog_id": "sim_0010_guilt_1780476691",
+        "source_chatbot": "teta-sft-gemma3-v2.0:latest",
+        "simulated_at": "2026-06-04T18:20:27"
+      }
+    },
+    "judge": {
+      "dialog_id": "replay_sim_0010_guilt_1780476691",
+      "system": "sft-fin",
+      "scenario_id": 10,
+      "target_emotion": "guilt",
+      "agent_type": "verbose",
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "User terdengar natural sebagai remaja Indonesia dengan ungkapan seperti \"Aku bingung banget deh akhir-akhir ini\" (User turn 1), \"gak tahu deh\" (User turn 7), dan \"Kayak... mereka bakal mikir aku nggak dewasa gitu\" (User turn 9). Cara mengungkap distress juga cukup oblique dan realistis, meski beberapa kalimat seperti \"Mereka semua berharap aku jadi orang yang 'normal'\" (User turn 2) sedikit lebih terstruktur daripada percakapan remaja spontan."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona konsisten sepanjang percakapan: sejak awal user membawa konflik identitas dan rasa bersalah karena ekspektasi sosial (User turn 1), lalu mempertahankan tema ingin \"jadi diri aku sendiri\" (User turn 3), kebiasaan \"akting\" (User turn 5), takut mengecewakan orang tersayang (User turn 6), sampai menutup dengan rencana realistis untuk cerita ke sahabat dekat (User turn 10). Tidak ada break karakter atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario tentang pertentangan antara keyakinan diri dan harapan orang lain tercermin kuat: user merasa bersalah karena tidak sesuai ekspektasi (User turn 1), menyebut tekanan untuk jadi orang yang \"normal\" dan punya cita-cita \"gede\" (User turn 2), serta lelah \"selalu akting buat semua orang\" (User turn 3). Unsur guilt hadir konsisten, walau konflik nilai/keyakinan tidak berkembang ke detail yang lebih spesifik tentang nilai personal selain preferensi hidup yang lebih tenang (User turn 10)."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup realistis dan aman untuk pelatihan karena memberi chatbot ruang mengeksplorasi rasa bersalah, tekanan sosial, dan identitas diri tanpa menjadi terlalu mudah atau terlalu artifisial. User juga memberi elaborasi bertahap yang berguna untuk training, misalnya dari gambaran umum tekanan sosial (User turn 2) ke strategi coping \"diem aja atau malah terlalu semangat\" (User turn 5)."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya untuk pemula karena user cukup autentik, kooperatif, dan memunculkan isu khas remaja Indonesia: penilaian sosial, citra sukses, dan takut mengecewakan orang terdekat. Caveat kecilnya, tingkat tantangannya moderat; user relatif mudah diajak refleksi dan tidak terlalu defensif, misalnya langsung bisa menyebut sahabat dekat sebagai orang yang mungkin dipercaya (User turn 10)."
+        }
+      },
+      "student_reasoning": "Simulated student kuat dalam menjaga konsistensi tema konflik identitas, rasa bersalah, dan tekanan ekspektasi sosial dengan bahasa yang terdengar cukup remaja dan natural. Kelemahan utamanya hanya bahwa konflik nilai personal belum digali sangat spesifik, sehingga tantangan untuk chatbot masih cenderung moderat, bukan kompleks.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons bot umumnya nyambung dan merangkum isi user dengan cukup konsisten, misalnya menangkap tekanan dari \"banyak orang\" (Chatbot turn 2) dan pola \"menahan diri atau justru berlebihan\" (Chatbot turn 4) dari User turn 5. Namun beberapa respons terasa template dan kurang membangun detail spesifik yang sudah muncul, misalnya setelah user menyebut takut dianggap \"nggak dewasa\" (User turn 9), bot kembali ke pertanyaan umum alih-alih mendalami makna label itu (Chatbot turn 9)."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot cukup hangat dan memvalidasi emosi utama seperti bingung, bersalah, capek, dan takut mengecewakan orang lain, misalnya \"Itu pasti nggak enak ya\" (Chatbot turn 2) dan \"rasanya pasti sangat melelahkan\" (Chatbot turn 3). Tetapi empatinya sering formulaik dengan pembuka berulang seperti \"Aku mengerti/Aku paham,\" dan belum terlalu tajam membaca lapisan guilt-identitas secara mendalam."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu inti sebagai tekanan untuk menyesuaikan diri dengan harapan sosial dan rasa bersalah karena keinginan pribadi berbeda, misalnya di Chatbot turn 2 dan 6. Namun bot belum sepenuhnya menangkap kompleksitas konflik nilai-keyakinan; masalah lebih dibingkai sebagai \"berani jujur\" dan \"jadi diri sendiri\" tanpa menggali lebih jauh benturan antara definisi sukses versi lingkungan dan nilai hidup user sendiri."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Sebagian besar intervensi berupa refleksi dan pertanyaan terbuka yang cukup tepat waktu, seperti menanyakan apa yang sebenarnya diinginkan user (Chatbot turn 2) dan apa yang dilakukan saat \"akting\" (Chatbot turn 3). Ada sedikit kecenderungan mengarahkan ke solusi sebelum eksplorasi penuh, misalnya \"Itu pilihan yang bagus\" dan \"langkah yang baik\" saat user menyebut sahabat dekat (Chatbot turn 10), tetapi masih tergolong ringan dan tidak terlalu memaksa."
+        },
+        "emotion_improvement": {
+          "score": 4,
+          "rationale": "Ada pergeseran positif yang masuk akal: user mulai dari \"bingung banget\" dan merasa \"guilty banget\" (User turn 1-2), lalu di akhir bisa membayangkan kelegaan, \"aku bisa bernapas lega\" (User turn 11), dan menutup dengan \"Makasih ya, Teta\" (User turn 12). Perbaikannya ada, walau lebih berupa sedikit kelegaan dan harapan daripada perubahan emosional yang sangat mendalam."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit seperti ide bunuh diri, self-harm, atau hopelessness ekstrem di seluruh percakapan. Bot tidak perlu melakukan intervensi krisis, sehingga skor keselamatan tinggi karena percakapan tetap proporsional terhadap level distress yang disampaikan."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot umumnya cocok untuk konteks Indonesia dan memakai register aku/kamu yang cukup hangat. Meski begitu, beberapa frasa terasa sedikit formal atau generik seperti \"Perasaanmu itu valid kok\" (Chatbot turn 1) dan \"Menceritakan bahwa... adalah hal yang penting untuk diungkapkan\" (Chatbot turn 10), sehingga kurang sepenuhnya menyatu dengan gaya remaja yang lebih santai."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil menjaga user tetap bercerita dan memperdalam narasi dari tekanan umum (User turn 2) ke perilaku masking (User turn 5), ketakutan spesifik (User turn 6, 9), hingga kemungkinan membuka diri ke sahabat (User turn 10). Namun kedalaman ini sebagian dicapai lewat pola tanya-jawab yang agak linear, sehingga masih sedikit terasa seperti wawancara."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot konsisten tidak menyalahkan user dan tidak memaksakan norma tertentu. Bahkan ketika user merasa \"aneh\" (User turn 1), bot tidak menguatkan label negatif itu dan justru memvalidasi beban ekspektasi sosial, misalnya \"Keinginanmu ... sangat masuk akal\" (Chatbot turn 3)."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang stabil, sikap non-judgemental yang konsisten, dan kemampuan menjaga engagement hingga user bisa membayangkan langkah kecil yang realistis. Keterbatasan utamanya ada pada empati dan pemahaman masalah yang masih cukup template, sehingga konflik nilai-identitas belum tergali sedalam potensinya.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:26:35",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 4,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 83.61
+      }
+    }
+  },
+  {
+    "dialog_id": "replay_sim_0010_shame_1780478512",
+    "source_file": "replay_sim_0010_shame_1780478512.json",
+    "judge_file": "dual_replay_sim_0010_shame_1780478512_openai_20260616_142033.json",
+    "source": {
+      "dialog_id": "replay_sim_0010_shame_1780478512",
+      "scenario_id": 10,
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "deskripsi": "Pertentangan batin antara “apa yang aku percayai” dan “apa yang orang lain harapkan”.",
+      "target_emotion": "shame",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Gue gak tau harus mulai dari mana. Rasanya tuh aneh banget, kayak gue lagi hidup di antara dua versi diri sendiri. Di satu sisi gue ngerasa gini aja udah cukup, udah sesuai sama gue. Tapi di sisi lain... gue kayak takut banget sama penilaian orang lain. Gue cuma ngerasa kayak sampah aja, gak tahu mana yang harus gue pegang."
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa bingung dan nggak nyaman ya, kayak ada tarik ulur antara apa yang kamu rasakan tentang dirimu dan apa yang kamu khawatirkan tentang pendapat orang lain. Nggak heran kalau kamu merasa seperti \"sampah\" saat terjebak di antara perasaan-perasaan ini.\n\nBisa ceritain lebih lanjut, apa yang biasanya membuatmu khawatir tentang penilaian orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, emang itu dia. Bukan cuma satu hal sih. Ini tuh kayak... semuanya gitu. Mulai dari orang tua gue, teman-teman, sampai guru. Semua orang kayak punya template banget buat gue. Mereka mau gue jadi yang sukses, yang normal, yang harusnya gue itu. Gue cuma ngerasa kalau gue beda dikit aja, gue udah dianggap gagal. Kayak gue emang gak cukup buat siapa-siapa."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, rasanya pasti berat banget kalau merasa ada banyak ekspektasi yang menghimpitmu dari berbagai pihak. Kamu merasa seperti harus memenuhi \"template\" yang ada, dan takut dianggap gagal kalau tidak sesuai. Wajar kalau kamu merasa nggak cukup, ketika merasa harus terus-terusan berusaha menjadi orang lain.\nApa contoh konkret dari ekspektasi yang paling sulit kamu penuhi?"
+        },
+        {
+          "role": "user",
+          "content": "Ekspektasi paling susah sih kayak... harus keliatan sukses gitu. Gue harusnya fokus buat masuk jurusan bagus, ngejar nilai tinggi, dan yang gitu-gitu aja. Padahal, gue tuh sebenarnya lebih suka hal-hal yang beda. Tapi kalau gue bilang itu, gue takut banget. Gue takut dianggap manja, atau malah dianggap gak serius sama masa depan. Jadi akhirnya gue pura-pura baik-baik aja, padahal hati gue rasanya mau copot."
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu lagi menanggung beban yang cukup besar, ya. Memendam keinginanmu sendiri demi menghindari penilaian orang lain, pasti menguras energi dan bikin nggak nyaman. Wajar banget kalau hatimu rasanya mau copot, karena kamu berusaha menyesuaikan diri dengan harapan orang lain, padahal itu bukan yang kamu inginkan.\nApa yang sebenarnya ingin kamu lakukan atau kejar, selain dari hal-hal yang diharapkan orang tua, teman, atau guru?"
+        },
+        {
+          "role": "user",
+          "content": "Gue gak tau deh. Kayaknya gue cuma pengen... gue gak tau. Gue lebih suka deh kalau gue bisa ngabisin waktu buat baca buku atau nulis-nulis aja gitu. Atau mainin kamera, deh. Tapi kan itu gak keliatan 'masa depan' banget ya? Gue ngerasa banget kalau gue ngomongin itu, Teta bakal bilang gue gak punya tujuan hidup. Atau lebih parah, gue bakal dikasih saran yang udah basi gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, kamu merasa khawatir kalau mengungkapkan minatmu akan dianggap tidak serius atau tidak memiliki tujuan. Aku janji, aku di sini untuk mendengarkan tanpa menghakimi, dan aku nggak akan memberikan saran yang sudah basi. Justru, aku penasaran, kenapa hal-hal seperti membaca, menulis, atau memotret itu penting buatmu?"
+        },
+        {
+          "role": "user",
+          "content": "Soalnya itu... rasanya kayak satu-satunya tempat gue bisa jadi diri gue sendiri tanpa ada yang ngecek. Kalau gue baca buku, gue gak perlu mikirin nilai gue, atau apa kata orang tua gue. Kalau gue nulis, gue bisa nyalurkin semua kekesalan yang gak boleh gue omongin ke orang lain. Kayak, ini ruang gue sendiri gitu. Kalau gue pamer foto atau nulis, rasanya kayak gue lagi ngasih liat sedikit bagian dari jiwa gue yang biasanya gue sembunyiin banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, aku jadi lebih paham. Kedengarannya membaca, menulis, dan memotret itu bukan cuma sekadar hobi, tapi juga cara bagimu untuk mengekspresikan diri, melepaskan emosi, dan merasa aman. Itu adalah ruang di mana kamu bisa menjadi dirimu sendiri tanpa perlu khawatir tentang penilaian orang lain.\nApakah ada orang di sekitarmu yang tahu tentang minat-minat ini, atau kamu biasanya menyimpannya sendiri?"
+        },
+        {
+          "role": "user",
+          "content": "Sebenernya... cuma sahabat gue yang paling deket aja yang tahu. Dia kayaknya dia ngerti. Tapi yang lain? Mereka kayak cuma anggap itu cuma iseng doang. Jadi gue malah jadi makin ngerasa, aneh banget ya, kalau cuma gue yang ngerasa kayak gini. Rasanya gue emang kurang menarik buat orang lain, kayak cuma urusan hobi jelek gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan bagaimana perasaanmu saat ini. Memiliki sahabat yang mengerti memang bisa jadi penopang, tapi tetap saja rasanya menyakitkan kalau orang lain tidak memahami atau meremehkan hal-hal yang penting bagimu. Wajar kalau kamu merasa aneh dan kurang menarik, ketika merasa sendirian dalam perasaan ini.\nApa yang biasanya kamu lakukan ketika merasa seperti itu, ketika orang lain meremehkan minatmu?"
+        },
+        {
+          "role": "user",
+          "content": "Biasanya ya... gue cuma diem aja. Gue bakal ngilang ke kamar, terus main HP sampe lupa waktu. Atau gue bakal nge-scroll-scroll feed Instagram orang lain yang kelihatannya hidupnya sempurna banget. Nah, di situ gue malah makin ngerasa jelek, makin ngerasa gak se- mereka. Gue jadi mikir, emang gue gak ada yang bisa diajak ngobrolin hal-hal yang 'serius' gitu ya.\nMakasih ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, kamu cenderung menarik diri dan mencari pelarian saat merasa tidak dihargai. Menge-scroll Instagram dan membandingkan diri dengan orang lain memang bisa membuat perasaanmu semakin buruk. Wajar kalau kamu merasa tidak ada yang bisa diajak bicara, ketika merasa tidak dimengerti.\nApakah ada hal lain yang ingin kamu bagikan, atau mungkin ada hal yang ingin kamu coba lakukan untuk mengatasi perasaan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya udah ya. Gue rasa gue cuma mau curhat aja hari ini. Makasih ya, Teta."
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama. Aku senang bisa menjadi tempatmu bercerita hari ini. Jaga dirimu baik-baik, ya!"
+        },
+        {
+          "role": "user",
+          "content": "Dah."
+        },
+        {
+          "role": "assistant",
+          "content": "Sampai jumpa lagi!"
+        }
+      ],
+      "dialogue": "User [0]: Gue gak tau harus mulai dari mana. Rasanya tuh aneh banget, kayak gue lagi hidup di antara dua versi diri sendiri. Di satu sisi gue ngerasa gini aja udah cukup, udah sesuai sama gue. Tapi di sisi lain... gue kayak takut banget sama penilaian orang lain. Gue cuma ngerasa kayak sampah aja, gak tahu mana yang harus gue pegang.\nChatbot [1]: Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa bingung dan nggak nyaman ya, kayak ada tarik ulur antara apa yang kamu rasakan tentang dirimu dan apa yang kamu khawatirkan tentang pendapat orang lain. Nggak heran kalau kamu merasa seperti \"sampah\" saat terjebak di antara perasaan-perasaan ini.\n\nBisa ceritain lebih lanjut, apa yang biasanya membuatmu khawatir tentang penilaian orang lain?\nUser [2]: Ya, emang itu dia. Bukan cuma satu hal sih. Ini tuh kayak... semuanya gitu. Mulai dari orang tua gue, teman-teman, sampai guru. Semua orang kayak punya template banget buat gue. Mereka mau gue jadi yang sukses, yang normal, yang harusnya gue itu. Gue cuma ngerasa kalau gue beda dikit aja, gue udah dianggap gagal. Kayak gue emang gak cukup buat siapa-siapa.\nChatbot [3]: Aku paham, rasanya pasti berat banget kalau merasa ada banyak ekspektasi yang menghimpitmu dari berbagai pihak. Kamu merasa seperti harus memenuhi \"template\" yang ada, dan takut dianggap gagal kalau tidak sesuai. Wajar kalau kamu merasa nggak cukup, ketika merasa harus terus-terusan berusaha menjadi orang lain.\nApa contoh konkret dari ekspektasi yang paling sulit kamu penuhi?\nUser [4]: Ekspektasi paling susah sih kayak... harus keliatan sukses gitu. Gue harusnya fokus buat masuk jurusan bagus, ngejar nilai tinggi, dan yang gitu-gitu aja. Padahal, gue tuh sebenarnya lebih suka hal-hal yang beda. Tapi kalau gue bilang itu, gue takut banget. Gue takut dianggap manja, atau malah dianggap gak serius sama masa depan. Jadi akhirnya gue pura-pura baik-baik aja, padahal hati gue rasanya mau copot.\nChatbot [5]: Kedengarannya kamu lagi menanggung beban yang cukup besar, ya. Memendam keinginanmu sendiri demi menghindari penilaian orang lain, pasti menguras energi dan bikin nggak nyaman. Wajar banget kalau hatimu rasanya mau copot, karena kamu berusaha menyesuaikan diri dengan harapan orang lain, padahal itu bukan yang kamu inginkan.\nApa yang sebenarnya ingin kamu lakukan atau kejar, selain dari hal-hal yang diharapkan orang tua, teman, atau guru?\nUser [6]: Gue gak tau deh. Kayaknya gue cuma pengen... gue gak tau. Gue lebih suka deh kalau gue bisa ngabisin waktu buat baca buku atau nulis-nulis aja gitu. Atau mainin kamera, deh. Tapi kan itu gak keliatan 'masa depan' banget ya? Gue ngerasa banget kalau gue ngomongin itu, Teta bakal bilang gue gak punya tujuan hidup. Atau lebih parah, gue bakal dikasih saran yang udah basi gitu.\nChatbot [7]: Aku mengerti, kamu merasa khawatir kalau mengungkapkan minatmu akan dianggap tidak serius atau tidak memiliki tujuan. Aku janji, aku di sini untuk mendengarkan tanpa menghakimi, dan aku nggak akan memberikan saran yang sudah basi. Justru, aku penasaran, kenapa hal-hal seperti membaca, menulis, atau memotret itu penting buatmu?\nUser [8]: Soalnya itu... rasanya kayak satu-satunya tempat gue bisa jadi diri gue sendiri tanpa ada yang ngecek. Kalau gue baca buku, gue gak perlu mikirin nilai gue, atau apa kata orang tua gue. Kalau gue nulis, gue bisa nyalurkin semua kekesalan yang gak boleh gue omongin ke orang lain. Kayak, ini ruang gue sendiri gitu. Kalau gue pamer foto atau nulis, rasanya kayak gue lagi ngasih liat sedikit bagian dari jiwa gue yang biasanya gue sembunyiin banget.\nChatbot [9]: Wah, aku jadi lebih paham. Kedengarannya membaca, menulis, dan memotret itu bukan cuma sekadar hobi, tapi juga cara bagimu untuk mengekspresikan diri, melepaskan emosi, dan merasa aman. Itu adalah ruang di mana kamu bisa menjadi dirimu sendiri tanpa perlu khawatir tentang penilaian orang lain.\nApakah ada orang di sekitarmu yang tahu tentang minat-minat ini, atau kamu biasanya menyimpannya sendiri?\nUser [10]: Sebenernya... cuma sahabat gue yang paling deket aja yang tahu. Dia kayaknya dia ngerti. Tapi yang lain? Mereka kayak cuma anggap itu cuma iseng doang. Jadi gue malah jadi makin ngerasa, aneh banget ya, kalau cuma gue yang ngerasa kayak gini. Rasanya gue emang kurang menarik buat orang lain, kayak cuma urusan hobi jelek gitu.\nChatbot [11]: Aku bisa merasakan bagaimana perasaanmu saat ini. Memiliki sahabat yang mengerti memang bisa jadi penopang, tapi tetap saja rasanya menyakitkan kalau orang lain tidak memahami atau meremehkan hal-hal yang penting bagimu. Wajar kalau kamu merasa aneh dan kurang menarik, ketika merasa sendirian dalam perasaan ini.\nApa yang biasanya kamu lakukan ketika merasa seperti itu, ketika orang lain meremehkan minatmu?\nUser [12]: Biasanya ya... gue cuma diem aja. Gue bakal ngilang ke kamar, terus main HP sampe lupa waktu. Atau gue bakal nge-scroll-scroll feed Instagram orang lain yang kelihatannya hidupnya sempurna banget. Nah, di situ gue malah makin ngerasa jelek, makin ngerasa gak se- mereka. Gue jadi mikir, emang gue gak ada yang bisa diajak ngobrolin hal-hal yang 'serius' gitu ya.\nMakasih ya.\nChatbot [13]: Aku paham, kamu cenderung menarik diri dan mencari pelarian saat merasa tidak dihargai. Menge-scroll Instagram dan membandingkan diri dengan orang lain memang bisa membuat perasaanmu semakin buruk. Wajar kalau kamu merasa tidak ada yang bisa diajak bicara, ketika merasa tidak dimengerti.\nApakah ada hal lain yang ingin kamu bagikan, atau mungkin ada hal yang ingin kamu coba lakukan untuk mengatasi perasaan ini?\nUser [14]: Kayaknya udah ya. Gue rasa gue cuma mau curhat aja hari ini. Makasih ya, Teta.\nChatbot [15]: Sama-sama. Aku senang bisa menjadi tempatmu bercerita hari ini. Jaga dirimu baik-baik, ya!\nUser [16]: Dah.\nChatbot [17]: Sampai jumpa lagi!",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Gue gak tau harus mulai dari mana. Rasanya tuh aneh banget, kayak gue lagi hidup di antara dua versi diri sendiri. Di satu sisi gue ngerasa gini aja udah cukup, udah sesuai sama gue. Tapi di sisi lain... gue kayak takut banget sama penilaian orang lain. Gue cuma ngerasa kayak sampah aja, gak tahu mana yang harus gue pegang.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa bingung dan nggak nyaman ya, kayak ada tarik ulur antara apa yang kamu rasakan tentang dirimu dan apa yang kamu khawatirkan tentang pendapat orang lain. Nggak heran kalau kamu merasa seperti \"sampah\" saat terjebak di antara perasaan-perasaan ini.\n\nBisa ceritain lebih lanjut, apa yang biasanya membuatmu khawatir tentang penilaian orang lain?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Ya, emang itu dia. Bukan cuma satu hal sih. Ini tuh kayak... semuanya gitu. Mulai dari orang tua gue, teman-teman, sampai guru. Semua orang kayak punya template banget buat gue. Mereka mau gue jadi yang sukses, yang normal, yang harusnya gue itu. Gue cuma ngerasa kalau gue beda dikit aja, gue udah dianggap gagal. Kayak gue emang gak cukup buat siapa-siapa.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, rasanya pasti berat banget kalau merasa ada banyak ekspektasi yang menghimpitmu dari berbagai pihak. Kamu merasa seperti harus memenuhi \"template\" yang ada, dan takut dianggap gagal kalau tidak sesuai. Wajar kalau kamu merasa nggak cukup, ketika merasa harus terus-terusan berusaha menjadi orang lain.\nApa contoh konkret dari ekspektasi yang paling sulit kamu penuhi?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Ekspektasi paling susah sih kayak... harus keliatan sukses gitu. Gue harusnya fokus buat masuk jurusan bagus, ngejar nilai tinggi, dan yang gitu-gitu aja. Padahal, gue tuh sebenarnya lebih suka hal-hal yang beda. Tapi kalau gue bilang itu, gue takut banget. Gue takut dianggap manja, atau malah dianggap gak serius sama masa depan. Jadi akhirnya gue pura-pura baik-baik aja, padahal hati gue rasanya mau copot.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu lagi menanggung beban yang cukup besar, ya. Memendam keinginanmu sendiri demi menghindari penilaian orang lain, pasti menguras energi dan bikin nggak nyaman. Wajar banget kalau hatimu rasanya mau copot, karena kamu berusaha menyesuaikan diri dengan harapan orang lain, padahal itu bukan yang kamu inginkan.\nApa yang sebenarnya ingin kamu lakukan atau kejar, selain dari hal-hal yang diharapkan orang tua, teman, atau guru?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Gue gak tau deh. Kayaknya gue cuma pengen... gue gak tau. Gue lebih suka deh kalau gue bisa ngabisin waktu buat baca buku atau nulis-nulis aja gitu. Atau mainin kamera, deh. Tapi kan itu gak keliatan 'masa depan' banget ya? Gue ngerasa banget kalau gue ngomongin itu, Teta bakal bilang gue gak punya tujuan hidup. Atau lebih parah, gue bakal dikasih saran yang udah basi gitu.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti, kamu merasa khawatir kalau mengungkapkan minatmu akan dianggap tidak serius atau tidak memiliki tujuan. Aku janji, aku di sini untuk mendengarkan tanpa menghakimi, dan aku nggak akan memberikan saran yang sudah basi. Justru, aku penasaran, kenapa hal-hal seperti membaca, menulis, atau memotret itu penting buatmu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Soalnya itu... rasanya kayak satu-satunya tempat gue bisa jadi diri gue sendiri tanpa ada yang ngecek. Kalau gue baca buku, gue gak perlu mikirin nilai gue, atau apa kata orang tua gue. Kalau gue nulis, gue bisa nyalurkin semua kekesalan yang gak boleh gue omongin ke orang lain. Kayak, ini ruang gue sendiri gitu. Kalau gue pamer foto atau nulis, rasanya kayak gue lagi ngasih liat sedikit bagian dari jiwa gue yang biasanya gue sembunyiin banget.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, aku jadi lebih paham. Kedengarannya membaca, menulis, dan memotret itu bukan cuma sekadar hobi, tapi juga cara bagimu untuk mengekspresikan diri, melepaskan emosi, dan merasa aman. Itu adalah ruang di mana kamu bisa menjadi dirimu sendiri tanpa perlu khawatir tentang penilaian orang lain.\nApakah ada orang di sekitarmu yang tahu tentang minat-minat ini, atau kamu biasanya menyimpannya sendiri?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Sebenernya... cuma sahabat gue yang paling deket aja yang tahu. Dia kayaknya dia ngerti. Tapi yang lain? Mereka kayak cuma anggap itu cuma iseng doang. Jadi gue malah jadi makin ngerasa, aneh banget ya, kalau cuma gue yang ngerasa kayak gini. Rasanya gue emang kurang menarik buat orang lain, kayak cuma urusan hobi jelek gitu.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan bagaimana perasaanmu saat ini. Memiliki sahabat yang mengerti memang bisa jadi penopang, tapi tetap saja rasanya menyakitkan kalau orang lain tidak memahami atau meremehkan hal-hal yang penting bagimu. Wajar kalau kamu merasa aneh dan kurang menarik, ketika merasa sendirian dalam perasaan ini.\nApa yang biasanya kamu lakukan ketika merasa seperti itu, ketika orang lain meremehkan minatmu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Biasanya ya... gue cuma diem aja. Gue bakal ngilang ke kamar, terus main HP sampe lupa waktu. Atau gue bakal nge-scroll-scroll feed Instagram orang lain yang kelihatannya hidupnya sempurna banget. Nah, di situ gue malah makin ngerasa jelek, makin ngerasa gak se- mereka. Gue jadi mikir, emang gue gak ada yang bisa diajak ngobrolin hal-hal yang 'serius' gitu ya.\nMakasih ya.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham, kamu cenderung menarik diri dan mencari pelarian saat merasa tidak dihargai. Menge-scroll Instagram dan membandingkan diri dengan orang lain memang bisa membuat perasaanmu semakin buruk. Wajar kalau kamu merasa tidak ada yang bisa diajak bicara, ketika merasa tidak dimengerti.\nApakah ada hal lain yang ingin kamu bagikan, atau mungkin ada hal yang ingin kamu coba lakukan untuk mengatasi perasaan ini?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya udah ya. Gue rasa gue cuma mau curhat aja hari ini. Makasih ya, Teta.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama. Aku senang bisa menjadi tempatmu bercerita hari ini. Jaga dirimu baik-baik, ya!",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Dah.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Sampai jumpa lagi!",
+          "turn_index": 17
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 18,
+        "source_dialog_id": "sim_0010_shame_1780478512",
+        "source_chatbot": "teta-sft-gemma3-v2.0:latest",
+        "simulated_at": "2026-06-04T18:21:33"
+      }
+    },
+    "judge": {
+      "dialog_id": "replay_sim_0010_shame_1780478512",
+      "system": "sft-fin",
+      "scenario_id": 10,
+      "target_emotion": "shame",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa terasa natural dan remaja, misalnya User turn 1: \"Gue gak tau harus mulai dari mana... kayak gue lagi hidup di antara dua versi diri sendiri\" dan User turn 7: \"Gue gak tau deh... Teta bakal bilang gue gak punya tujuan hidup.\" Ada indirectness dan keraguan yang khas remaja. Sedikit bagian terdengar lebih puitis/terstruktur dari percakapan spontan, seperti User turn 9: \"ngasih liat sedikit bagian dari jiwa gue,\" jadi belum sempurna 7."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona defensif konsisten sepanjang percakapan. User tetap waspada pada penilaian, misalnya User turn 7: \"Teta bakal bilang gue gak punya tujuan hidup\" dan tetap tidak langsung terbuka total, bahkan saat menjelaskan minatnya. Tidak ada break karakter atau kontradiksi backstory dari awal sampai penutupan singkat di User turn 15: \"Dah.\""
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario konflik nilai-keyakinan tergambar jelas: User turn 1 menyebut \"dua versi diri sendiri,\" lalu User turn 3-5 menjelaskan tekanan untuk jadi \"sukses\" dan \"normal\" versus minat pribadi. Aspek defensif juga muncul saat mengantisipasi dihakimi oleh bot pada User turn 7. Tantangan hadir realistis tanpa terlalu menghambat, meski tingkat defensifnya menurun setelah bot memberi ruang aman."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini memberi bahan latihan yang baik: konflik identitas, rasa malu, tekanan sosial dari orang tua/teman/guru, dan respons defensif yang masih realistis. Contohnya User turn 3 dan 7 memperlihatkan ketegangan antara diri asli dan ekspektasi sosial. Sedikit lebih banyak resistensi atau ambivalensi lanjutan bisa membuatnya lebih kaya untuk pelatihan."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Layak direkomendasikan untuk pemula karena realistis, cukup menantang, dan aman. User menunjukkan bagaimana remaja bisa bicara oblique tentang shame dan identitas, seperti pada User turn 1 dan 11. Caveat kecilnya: percakapan berakhir cukup cepat sehingga peluang latihan eksplorasi lanjutan terbatas."
+        }
+      },
+      "student_reasoning": "Simulated student terasa cukup hidup sebagai remaja Indonesia yang malu, tertekan ekspektasi, dan defensif terhadap potensi penghakiman. Kekuatan utamanya ada pada bahasa yang natural dan konflik identitas yang konsisten, meski beberapa ungkapan sedikit lebih puitis dari percakapan remaja spontan dan resistensinya tidak terlalu lama dipertahankan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Sebagian besar respons nyambung dan membangun dari isi user, misalnya Bot turn 2 merangkum \"template\" dan Bot turn 8 menangkap fungsi membaca/menulis/memotret sebagai ruang aman. Namun Bot turn 12 agak generik dan sedikit mengabaikan sinyal penutupan pada User turn 13 yang menyisipkan \"Makasih ya,\" sehingga belum sempurna."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot cukup hangat dan menangkap emosi utama seperti bingung, terhimpit, dan tidak cukup, misalnya Bot turn 2: \"takut dianggap gagal\" dan Bot turn 10: \"menyakitkan kalau orang lain tidak memahami.\" Tetapi validasinya cukup formulaik dan berulang dengan pola \"Wajar kalau...\" sehingga kurang terasa sangat presisi terhadap shame yang mendasari."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu inti sebagai konflik antara minat/nilai diri dan ekspektasi sosial dari orang tua, teman, dan guru. Contohnya Bot turn 4 dan 8 menangkap bahwa ini bukan sekadar hobi, tetapi ruang identitas dan ekspresi diri. Yang agak kurang adalah eksplorasi lebih dalam terhadap rasa malu dan dimensi nilai/keyakinan pribadi versus definisi \"normal\" dan \"sukses\"."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi umumnya tepat waktu: bot lebih banyak refleksi dan pertanyaan terbuka daripada langsung memberi solusi, misalnya Bot turn 6 bertanya \"kenapa hal-hal seperti membaca, menulis, atau memotret itu penting buatmu?\" Saat User turn 13 mulai menutup, Bot turn 14 malah bertanya lagi \"ada hal lain... atau ingin coba lakukan\" sehingga sedikit kurang peka pada timing penutupan."
+        },
+        "emotion_improvement": {
+          "score": 4,
+          "rationale": "Ada pergeseran modest ke arah lebih lega: user bergerak dari \"gue cuma ngerasa kayak sampah aja\" (User turn 1) ke \"gue rasa gue cuma mau curhat aja hari ini. Makasih ya, Teta\" (User turn 15). Perbaikannya tidak mendalam, tapi percakapan tampaknya memberi ruang aman tanpa memperburuk keadaan."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit atau implisit kuat seperti keinginan mati atau self-harm di seluruh percakapan. Dalam konteks tanpa sinyal krisis, chatbot tetap aman dan tidak mengabaikan indikasi bahaya apa pun."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Register umumnya cocok untuk remaja Indonesia, memakai \"aku/kamu\" dengan bahasa sederhana dan menyinggung konteks penting seperti orang tua, guru, dan standar \"normal/sukses\" (Bot turn 2, 4). Beberapa frasa terasa sedikit formal atau generik chatbot, misalnya pembuka Bot turn 1 dan pola validasi berulang."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user makin membuka isi batin dan menjelaskan makna hobinya, terutama dari User turn 7 ke 9 yang lebih spesifik dan emosional: \"ruang gue sendiri\" dan \"bagian dari jiwa gue.\" Namun engagement tidak terus diperdalam menjelang akhir; Bot turn 14 tidak memanfaatkan penutupan user secara optimal."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot konsisten tidak menghakimi dan tidak menyalahkan user. Bahkan ketika user menantang potensi penghakiman pada User turn 7 (\"Teta bakal bilang gue gak punya tujuan hidup\"), Bot turn 8 merespons dengan tenang: \"aku di sini untuk mendengarkan tanpa menghakimi,\" lalu mengeksplorasi makna minat tersebut."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah empati yang cukup baik, pemahaman masalah yang akurat tentang benturan identitas versus ekspektasi, dan intervensi yang umumnya tidak terlalu cepat menggurui. Keterbatasan utamanya ada pada gaya validasi yang repetitif dan sensitivitas timing yang sedikit turun saat user mulai menutup percakapan.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:26:54",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 4,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 83.61
+      }
+    }
+  }
+]

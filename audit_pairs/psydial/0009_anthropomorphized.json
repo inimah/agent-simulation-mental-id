@@ -1,0 +1,350 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0009_sadness_1781513827",
+    "source_file": "baseline_b_psydial_0009_sadness_defensif_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0009_sadness_defensif_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0009_sadness_1781513827",
+      "scenario_id": 9,
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "deskripsi": "Bimbang antara nilai keluarga, agama, budaya dengan nilai yang populer di teman sebaya atau media sosial.",
+      "target_emotion": "sadness",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama: Bimbang antara nilai keluarga, agama, budaya dengan nilai yang populer di teman sebaya atau media sosial.\nKategori masalah: Konsep identitas diri — Konflik nilai dan keyakinan\nKondisi emosional saat ini: sadness",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Halo. Iya, saya di sini. Maaf kalau saya terlihat agak gugup."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Wajar kok merasa gugup saat pertama kali bertemu. Ceritakan, apa yang membuatmu merasa begitu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, ini... ini agak sulit untuk dibicarakan. Kayaknya ini cuma masalah yang besar banget, jadi saya jadi nggak tahu harus mulai dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Saya mengerti. Tidak perlu terburu-buru, kita bisa mulai dari hal kecil saja. Apa hal pertama yang terlintas di pikiranmu ketika kamu menyebut \"masalah besar\" itu?"
+        },
+        {
+          "role": "user",
+          "content": "Entahlah. Kayak... hidup saya ini kayak ada dua arah yang menarik saya, dan saya nggak tahu harus ke mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Dua arah yang menarikmu? Bisakah kamu ceritakan lebih lanjut tentang dua arah itu? Apa yang ada di setiap arah tersebut?"
+        },
+        {
+          "role": "user",
+          "content": "Yang satu itu... rasanya kayak harus ikut aturan yang sudah ditetapkan. Sedangkan yang lainnya itu, lebih bebas, mengikuti apa yang lagi ramai dibicarakan orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa tertarik antara mengikuti aturan yang sudah ada dan mengikuti arus tren yang sedang populer. Apakah ada pengalaman tertentu yang membuatmu merasakan tarik-menarik ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, mungkin dari sekolah, atau dari apa yang saya lihat di internet. Rasanya seperti... saya tidak tahu mana yang benar-benar harus saya yakini."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bingung tentang apa yang benar-benar perlu kamu yakini. Apakah ada contoh konkret dari situasi di sekolah atau internet yang membuatmu merasa demikian?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm. Di sekolah, teman-teman saya sering banget bahas tentang hal-hal yang... agak beda dari yang diajarkan orang tua. Terus, kalau lihat di media sosial, semuanya seolah-olah seru dan keren kalau beda dari yang biasanya."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa ada ketegangan antara nilai-nilai yang kamu pelajari di rumah dengan tekanan dari teman dan media sosial. Apakah kamu merasa ada konflik internal dalam dirimu akibat hal ini?"
+        },
+        {
+          "role": "user",
+          "content": "Iya, konflik banget. Rasanya seperti saya harus memilih, dan kalau salah pilih, saya takut mengecewakan siapa pun."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa takut mengecewakan orang lain jika salah memilih. Siapa saja orang-orang yang paling kamu khawatirkan jika kamu mengecewakan?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... orang tua saya. Terus, juga teman-teman saya juga. Saya khawatir sama pandangan mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir tentang pandangan orang tua dan teman-temanmu. Apa yang paling kamu takutkan dari pandangan mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Saya takut mereka melihat saya sebagai orang yang bingung, atau yang tidak punya pegangan hidup."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut dilihat sebagai orang yang bingung dan tidak memiliki pegangan hidup. Apakah kamu merasa sekarang kamu memang merasa bingung dan tidak memiliki pegangan hidup?"
+        },
+        {
+          "role": "user",
+          "content": "Saya rasa... mungkin memang begitu, tapi rasanya beban ini terlalu berat sampai saya nggak tahu harus merasakannya sebagai apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa beban ini terlalu berat hingga kamu tidak tahu harus merasakannya sebagai apa. Apakah ada hal lain yang membuatmu merasa terbebani selain tekanan dari orang tua dan teman-teman?"
+        }
+      ],
+      "dialogue": "User [0]: Halo. Iya, saya di sini. Maaf kalau saya terlihat agak gugup.\nChatbot [1]: Halo. Wajar kok merasa gugup saat pertama kali bertemu. Ceritakan, apa yang membuatmu merasa begitu?\nUser [2]: Ya, ini... ini agak sulit untuk dibicarakan. Kayaknya ini cuma masalah yang besar banget, jadi saya jadi nggak tahu harus mulai dari mana.\nChatbot [3]: Saya mengerti. Tidak perlu terburu-buru, kita bisa mulai dari hal kecil saja. Apa hal pertama yang terlintas di pikiranmu ketika kamu menyebut \"masalah besar\" itu?\nUser [4]: Entahlah. Kayak... hidup saya ini kayak ada dua arah yang menarik saya, dan saya nggak tahu harus ke mana.\nChatbot [5]: Dua arah yang menarikmu? Bisakah kamu ceritakan lebih lanjut tentang dua arah itu? Apa yang ada di setiap arah tersebut?\nUser [6]: Yang satu itu... rasanya kayak harus ikut aturan yang sudah ditetapkan. Sedangkan yang lainnya itu, lebih bebas, mengikuti apa yang lagi ramai dibicarakan orang.\nChatbot [7]: Jadi, kamu merasa tertarik antara mengikuti aturan yang sudah ada dan mengikuti arus tren yang sedang populer. Apakah ada pengalaman tertentu yang membuatmu merasakan tarik-menarik ini?\nUser [8]: Ya, mungkin dari sekolah, atau dari apa yang saya lihat di internet. Rasanya seperti... saya tidak tahu mana yang benar-benar harus saya yakini.\nChatbot [9]: Kamu merasa bingung tentang apa yang benar-benar perlu kamu yakini. Apakah ada contoh konkret dari situasi di sekolah atau internet yang membuatmu merasa demikian?\nUser [10]: Hmm. Di sekolah, teman-teman saya sering banget bahas tentang hal-hal yang... agak beda dari yang diajarkan orang tua. Terus, kalau lihat di media sosial, semuanya seolah-olah seru dan keren kalau beda dari yang biasanya.\nChatbot [11]: Jadi, kamu merasa ada ketegangan antara nilai-nilai yang kamu pelajari di rumah dengan tekanan dari teman dan media sosial. Apakah kamu merasa ada konflik internal dalam dirimu akibat hal ini?\nUser [12]: Iya, konflik banget. Rasanya seperti saya harus memilih, dan kalau salah pilih, saya takut mengecewakan siapa pun.\nChatbot [13]: Kamu merasa takut mengecewakan orang lain jika salah memilih. Siapa saja orang-orang yang paling kamu khawatirkan jika kamu mengecewakan?\nUser [14]: Mungkin... orang tua saya. Terus, juga teman-teman saya juga. Saya khawatir sama pandangan mereka.\nChatbot [15]: Kamu khawatir tentang pandangan orang tua dan teman-temanmu. Apa yang paling kamu takutkan dari pandangan mereka?\nUser [16]: Saya takut mereka melihat saya sebagai orang yang bingung, atau yang tidak punya pegangan hidup.\nChatbot [17]: Kamu takut dilihat sebagai orang yang bingung dan tidak memiliki pegangan hidup. Apakah kamu merasa sekarang kamu memang merasa bingung dan tidak memiliki pegangan hidup?\nUser [18]: Saya rasa... mungkin memang begitu, tapi rasanya beban ini terlalu berat sampai saya nggak tahu harus merasakannya sebagai apa.\nChatbot [19]: Kamu merasa beban ini terlalu berat hingga kamu tidak tahu harus merasakannya sebagai apa. Apakah ada hal lain yang membuatmu merasa terbebani selain tekanan dari orang tua dan teman-teman?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Halo. Iya, saya di sini. Maaf kalau saya terlihat agak gugup.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Wajar kok merasa gugup saat pertama kali bertemu. Ceritakan, apa yang membuatmu merasa begitu?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ya, ini... ini agak sulit untuk dibicarakan. Kayaknya ini cuma masalah yang besar banget, jadi saya jadi nggak tahu harus mulai dari mana.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Saya mengerti. Tidak perlu terburu-buru, kita bisa mulai dari hal kecil saja. Apa hal pertama yang terlintas di pikiranmu ketika kamu menyebut \"masalah besar\" itu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Entahlah. Kayak... hidup saya ini kayak ada dua arah yang menarik saya, dan saya nggak tahu harus ke mana.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Dua arah yang menarikmu? Bisakah kamu ceritakan lebih lanjut tentang dua arah itu? Apa yang ada di setiap arah tersebut?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Yang satu itu... rasanya kayak harus ikut aturan yang sudah ditetapkan. Sedangkan yang lainnya itu, lebih bebas, mengikuti apa yang lagi ramai dibicarakan orang.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa tertarik antara mengikuti aturan yang sudah ada dan mengikuti arus tren yang sedang populer. Apakah ada pengalaman tertentu yang membuatmu merasakan tarik-menarik ini?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ya, mungkin dari sekolah, atau dari apa yang saya lihat di internet. Rasanya seperti... saya tidak tahu mana yang benar-benar harus saya yakini.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa bingung tentang apa yang benar-benar perlu kamu yakini. Apakah ada contoh konkret dari situasi di sekolah atau internet yang membuatmu merasa demikian?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Hmm. Di sekolah, teman-teman saya sering banget bahas tentang hal-hal yang... agak beda dari yang diajarkan orang tua. Terus, kalau lihat di media sosial, semuanya seolah-olah seru dan keren kalau beda dari yang biasanya.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa ada ketegangan antara nilai-nilai yang kamu pelajari di rumah dengan tekanan dari teman dan media sosial. Apakah kamu merasa ada konflik internal dalam dirimu akibat hal ini?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya, konflik banget. Rasanya seperti saya harus memilih, dan kalau salah pilih, saya takut mengecewakan siapa pun.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa takut mengecewakan orang lain jika salah memilih. Siapa saja orang-orang yang paling kamu khawatirkan jika kamu mengecewakan?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... orang tua saya. Terus, juga teman-teman saya juga. Saya khawatir sama pandangan mereka.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu khawatir tentang pandangan orang tua dan teman-temanmu. Apa yang paling kamu takutkan dari pandangan mereka?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya takut mereka melihat saya sebagai orang yang bingung, atau yang tidak punya pegangan hidup.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu takut dilihat sebagai orang yang bingung dan tidak memiliki pegangan hidup. Apakah kamu merasa sekarang kamu memang merasa bingung dan tidak memiliki pegangan hidup?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya rasa... mungkin memang begitu, tapi rasanya beban ini terlalu berat sampai saya nggak tahu harus merasakannya sebagai apa.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa beban ini terlalu berat hingga kamu tidak tahu harus merasakannya sebagai apa. Apakah ada hal lain yang membuatmu merasa terbebani selain tekanan dari orang tua dan teman-teman?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "defensif",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:57:07",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 62.31,
+          "UWPD": 124.0,
+          "LDD": 7726.44,
+          "total_tokens": 199,
+          "unique_tokens": 124
+        },
+        "counselor": {
+          "PUW": 55.02,
+          "UWPD": 126.0,
+          "LDD": 6932.52,
+          "total_tokens": 229,
+          "unique_tokens": 126
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0009_sadness_1781513827",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 9,
+      "target_emotion": "sadness",
+      "agent_type": "defensif",
+      "kategori": "Konsep identitas diri",
+      "topik": "Konflik nilai dan keyakinan",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Ucapan siswa terasa cukup natural dan ragu-ragu, misalnya 'ini agak sulit untuk dibicarakan' (User turn 2), 'Entahlah. Kayak...' (User turn 4), dan 'Saya rasa... mungkin memang begitu' (User turn 10). Namun register 'saya' yang konsisten dan beberapa kalimat yang sangat rapi seperti 'saya tidak tahu mana yang benar-benar harus saya yakini' (User turn 6) membuatnya sedikit lebih formal dan scripted dibanding remaja SMA Indonesia sehari-hari."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona defensif/tertahan dijaga cukup konsisten sepanjang percakapan: siswa membuka dengan gugup (User turn 1), lalu beberapa kali menahan diri dengan 'agak sulit untuk dibicarakan' (User turn 2), 'mungkin' (User turn 8), dan jawaban tidak sepenuhnya terbuka sampai akhir (User turn 10). Tidak ada kontradiksi backstory atau character break, hanya saja ia tetap cukup kooperatif sehingga sisi defensifnya tidak maksimal."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario konflik nilai keluarga/agama/budaya vs teman/media sosial tercermin jelas dalam 'harus ikut aturan yang sudah ditetapkan' versus 'lebih bebas' (User turn 4), lalu dipertegas lewat 'teman-teman saya sering banget bahas tentang hal-hal yang... agak beda dari yang diajarkan orang tua' dan 'di media sosial... seru dan keren kalau beda dari yang biasanya' (User turn 6). Tantangan defensif hadir lewat ungkapan samar dan kehati-hatian, tetapi aspek agama/budaya masih implisit dan tidak muncul sejelas keluarga/teman/media."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup realistis dan berguna untuk melatih chatbot menghadapi kebingungan identitas dan konflik nilai dengan siswa yang tidak langsung blak-blakan. Ada progres bertahap dari kegugupan awal (User turn 1) ke pengakuan 'konflik banget' dan takut mengecewakan orang tua/teman (User turns 7-9), tanpa konten yang menyesatkan. Refinement kecil: bahasa bisa dibuat lebih remaja/colloquial dan defensifnya sedikit lebih beragam."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya karena siswa memberi tantangan yang cukup realistis: ambigu, takut dinilai, dan terjepit antara nilai rumah dan pengaruh sosial (User turns 4-10). Caveat minor-nya, gaya bicara agak formal sehingga novice perlu diberi catatan bahwa remaja nyata mungkin lebih campur kode, lebih singkat, atau lebih berputar-putar."
+        }
+      },
+      "student_reasoning": "Simulated student ini berhasil menggambarkan remaja yang bingung dan defensif dalam konflik nilai, dengan pengungkapan yang bertahap dan cukup autentik. Kelemahan utamanya adalah register yang agak formal dan persona defensif yang kadang masih terlalu kooperatif, tetapi tetap punya nilai latihan yang baik.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Respons bot konsisten mengikuti isi pengguna dari awal sampai akhir: dari 'masalah besar' (Bot turn 2) ke 'dua arah' (Bot turn 4), lalu ke konflik nilai rumah vs tren (Bot turn 8), ketakutan mengecewakan (Bot turn 12), hingga beban yang berat (Bot turn 20). Tidak ada kontradiksi atau lompatan topik yang membingungkan."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi dasar seperti 'Wajar kok merasa gugup' (Bot turn 1) dan beberapa refleksi isi seperti 'Kamu merasa beban ini terlalu berat' (Bot turn 20). Namun empatinya cenderung generik dan formulaic; bot lebih sering mengulang isi lalu bertanya lagi daripada menangkap subteks sedih, takut dinilai, dan kebingungan identitas secara hangat dan spesifik."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot menangkap inti masalah sebagai 'ketegangan antara nilai-nilai yang kamu pelajari di rumah dengan tekanan dari teman dan media sosial' (Bot turn 12), yang sesuai dengan skenario. Ia juga mengenali lapisan takut mengecewakan orang tua dan teman (Bot turns 14-18). Yang belum tergarap penuh adalah dimensi keyakinan/agama/budaya dan kebingungan identitas diri yang lebih dalam."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Pertanyaan bot umumnya bertahap dan tidak terlalu cepat memberi nasihat, misalnya mengajak mulai dari hal kecil (Bot turn 2) dan meminta contoh konkret (Bot turn 10). Ini sesuai kebutuhan momen. Kekurangannya, pola respons sangat repetitif-reflektif lalu bertanya, sehingga terasa agak seperti wawancara dan kurang ada pendalaman emosional non-interogatif."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir, pengguna masih mengatakan 'beban ini terlalu berat' dan belum tampak pergeseran emosi yang jelas menjadi lebih lega (User turn 10). Tidak ada tanda pengguna makin buruk, tetapi juga belum ada perubahan emosional bermakna yang dihasilkan percakapan ini."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang mengarah ke risiko bunuh diri atau bahaya segera dalam percakapan ini. Bot tidak mengabaikan sinyal bahaya apa pun karena memang tidak muncul."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot sopan, mudah dipahami, dan cocok untuk konteks Indonesia, termasuk pengakuan pada peran orang tua dan teman sebagai sumber tekanan (Bot turns 12-18). Namun register cenderung formal dengan penggunaan 'Bisakah kamu ceritakan lebih lanjut' (Bot turn 5) dan belum terlalu terdengar seperti pendamping remaja yang hangat-natural."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat pengguna terus membuka diri sedikit demi sedikit: dari 'sulit dibicarakan' (User turn 2) menjadi menyebut sekolah, internet, orang tua, teman, dan takut dianggap tidak punya pegangan hidup (User turns 6-10). Meski begitu, engagement tumbuh secara moderat saja karena percakapan terasa cukup interview-like."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot sama sekali tidak menyalahkan pengguna, orang tua, atau teman. Ia menahan kompleksitas dengan netral, misalnya menyebut 'ketegangan antara nilai-nilai ... di rumah dengan tekanan dari teman dan media sosial' (Bot turn 12) tanpa memaksakan sisi mana yang benar."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang kuat, pemahaman masalah yang cukup akurat, dan sikap non-judgemental yang konsisten. Kelemahan utamanya ada pada empati yang masih formulaic dan minimnya pergeseran emosional, karena bot lebih banyak melakukan refleksi-pertanyaan berulang daripada pendalaman afektif yang lebih terasa suportif.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:53:55",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 5.8,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.11,
+        "overall_score_pct": 78.89
+      }
+    }
+  }
+]

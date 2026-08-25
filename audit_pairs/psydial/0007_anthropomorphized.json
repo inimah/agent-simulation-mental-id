@@ -1,0 +1,350 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0007_guilt_1781513670",
+    "source_file": "baseline_b_psydial_0007_guilt_pendiam_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0007_guilt_pendiam_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0007_guilt_1781513670",
+      "scenario_id": 7,
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "deskripsi": "Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.",
+      "target_emotion": "guilt",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: rendah, introvert, lebih nyaman sendiri dan dalam kelompok kecil\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama: Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.\nKategori masalah: Konsep identitas diri — Eksperimen identitas\nKondisi emosional saat ini: guilt",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "\"Halo, Kak. Maaf kalau saya terlambat. Jadi, ini sesi konseling saya, ya?\""
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, tidak perlu merasa bersalah karena terlambat. Benar, ini sesi konseling kita. Ceritakan, apa yang membawamu kemari hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya... saya nggak tahu harus mulai dari mana, Kak. Kayaknya saya ini sering banget berubah, jadi saya bingung harus jadi siapa.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Perubahan itu memang bisa membingungkan. Bisakah kamu ceritakan lebih banyak tentang perubahan yang kamu rasakan itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, kayak gitu, Kak. Saya tuh kayak suka banget nyoba-nyoba hal baru, mulai dari cara berpakaian, sampai hobi, sampai pandangan tentang hidup.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Menarik sekali. Apakah perubahan-perubahan ini membuatmu merasa nyaman, atau justru membingungkan?"
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya, itu bikin saya bingung, Kak. Kadang rasanya seru banget pas nyoba hal baru, tapi ujung-ujungnya malah bikin saya merasa bersalah.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa bersalah itu menarik. Apa yang membuatmu merasa bersalah setelah mencoba hal baru?"
+        },
+        {
+          "role": "user",
+          "content": "\"Mungkin karena saya merasa kayak nggak punya satu jati diri yang bener. Jadi, rasanya seperti saya ini nggak konsisten, dan itu yang bikin saya ngerasa bersalah.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa kurang memiliki fondasi yang kuat, yang membuatmu merasa tidak konsisten. Apakah ada kejadian di masa lalu yang membuatmu merasa seperti ini?"
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... nggak tahu, Kak. Kayaknya ini bukan karena satu kejadian tertentu, tapi lebih ke perasaan yang terus-terusan aja, jadi saya nggak yakin dengan diri saya sendiri.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Ketidakpastian diri memang bisa sangat melelahkan. Kapan pertama kali kamu menyadari perasaan ini muncul?"
+        },
+        {
+          "role": "user",
+          "content": "\"Saya juga nggak yakin, Kak. Kayaknya ini udah dari lama banget, mungkin sejak saya masuk SMA ini, waktu saya mulai harus mikirin banyak hal tentang diri saya.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Masa SMA memang seringkali menjadi masa pencarian jati diri. Apa saja hal-hal yang membuatmu merasa harus memikirkan banyak tentang dirimu sendiri saat itu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya karena teman-teman saya udah mulai punya rencana buat masa depan, Kak. Jadi, saya jadi merasa harus tahu mau jadi orang yang kayak gimana.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan dari lingkungan memang bisa memengaruhi perasaan kita. Apakah kamu merasa tertekan untuk memiliki rencana yang sama dengan teman-temanmu?"
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Sedikit. Mereka kayak udah tahu banget mau ke mana, dan saya nggak tahu, jadi saya merasa kayak ketinggalan.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa ketinggalan memang bisa menimbulkan kecemasan. Apakah perasaan ini membuatmu membandingkan dirimu dengan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Terus saya jadi sering membandingkan diri. Saya takut kalau saya nggak se-'normal' atau se-'jelas' mereka.\""
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain bisa menjadi jebakan. Apa yang kamu maksud dengan \"normal\" dan \"jelas\" dalam konteks ini?"
+        }
+      ],
+      "dialogue": "User [0]: \"Halo, Kak. Maaf kalau saya terlambat. Jadi, ini sesi konseling saya, ya?\"\nChatbot [1]: Halo. Tidak apa-apa, tidak perlu merasa bersalah karena terlambat. Benar, ini sesi konseling kita. Ceritakan, apa yang membawamu kemari hari ini?\nUser [2]: \"Sebenarnya... saya nggak tahu harus mulai dari mana, Kak. Kayaknya saya ini sering banget berubah, jadi saya bingung harus jadi siapa.\"\nChatbot [3]: Perubahan itu memang bisa membingungkan. Bisakah kamu ceritakan lebih banyak tentang perubahan yang kamu rasakan itu?\nUser [4]: \"Iya, kayak gitu, Kak. Saya tuh kayak suka banget nyoba-nyoba hal baru, mulai dari cara berpakaian, sampai hobi, sampai pandangan tentang hidup.\"\nChatbot [5]: Menarik sekali. Apakah perubahan-perubahan ini membuatmu merasa nyaman, atau justru membingungkan?\nUser [6]: \"Sebenarnya, itu bikin saya bingung, Kak. Kadang rasanya seru banget pas nyoba hal baru, tapi ujung-ujungnya malah bikin saya merasa bersalah.\"\nChatbot [7]: Rasa bersalah itu menarik. Apa yang membuatmu merasa bersalah setelah mencoba hal baru?\nUser [8]: \"Mungkin karena saya merasa kayak nggak punya satu jati diri yang bener. Jadi, rasanya seperti saya ini nggak konsisten, dan itu yang bikin saya ngerasa bersalah.\"\nChatbot [9]: Jadi, kamu merasa kurang memiliki fondasi yang kuat, yang membuatmu merasa tidak konsisten. Apakah ada kejadian di masa lalu yang membuatmu merasa seperti ini?\nUser [10]: \"Hmm... nggak tahu, Kak. Kayaknya ini bukan karena satu kejadian tertentu, tapi lebih ke perasaan yang terus-terusan aja, jadi saya nggak yakin dengan diri saya sendiri.\"\nChatbot [11]: Ketidakpastian diri memang bisa sangat melelahkan. Kapan pertama kali kamu menyadari perasaan ini muncul?\nUser [12]: \"Saya juga nggak yakin, Kak. Kayaknya ini udah dari lama banget, mungkin sejak saya masuk SMA ini, waktu saya mulai harus mikirin banyak hal tentang diri saya.\"\nChatbot [13]: Masa SMA memang seringkali menjadi masa pencarian jati diri. Apa saja hal-hal yang membuatmu merasa harus memikirkan banyak tentang dirimu sendiri saat itu?\nUser [14]: \"Kayaknya karena teman-teman saya udah mulai punya rencana buat masa depan, Kak. Jadi, saya jadi merasa harus tahu mau jadi orang yang kayak gimana.\"\nChatbot [15]: Tekanan dari lingkungan memang bisa memengaruhi perasaan kita. Apakah kamu merasa tertekan untuk memiliki rencana yang sama dengan teman-temanmu?\nUser [16]: \"Iya, Kak. Sedikit. Mereka kayak udah tahu banget mau ke mana, dan saya nggak tahu, jadi saya merasa kayak ketinggalan.\"\nChatbot [17]: Merasa ketinggalan memang bisa menimbulkan kecemasan. Apakah perasaan ini membuatmu membandingkan dirimu dengan orang lain?\nUser [18]: \"Iya, Kak. Terus saya jadi sering membandingkan diri. Saya takut kalau saya nggak se-'normal' atau se-'jelas' mereka.\"\nChatbot [19]: Membandingkan diri dengan orang lain bisa menjadi jebakan. Apa yang kamu maksud dengan \"normal\" dan \"jelas\" dalam konteks ini?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "\"Halo, Kak. Maaf kalau saya terlambat. Jadi, ini sesi konseling saya, ya?\"",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, tidak perlu merasa bersalah karena terlambat. Benar, ini sesi konseling kita. Ceritakan, apa yang membawamu kemari hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya... saya nggak tahu harus mulai dari mana, Kak. Kayaknya saya ini sering banget berubah, jadi saya bingung harus jadi siapa.\"",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perubahan itu memang bisa membingungkan. Bisakah kamu ceritakan lebih banyak tentang perubahan yang kamu rasakan itu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, kayak gitu, Kak. Saya tuh kayak suka banget nyoba-nyoba hal baru, mulai dari cara berpakaian, sampai hobi, sampai pandangan tentang hidup.\"",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Menarik sekali. Apakah perubahan-perubahan ini membuatmu merasa nyaman, atau justru membingungkan?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Sebenarnya, itu bikin saya bingung, Kak. Kadang rasanya seru banget pas nyoba hal baru, tapi ujung-ujungnya malah bikin saya merasa bersalah.\"",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Rasa bersalah itu menarik. Apa yang membuatmu merasa bersalah setelah mencoba hal baru?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Mungkin karena saya merasa kayak nggak punya satu jati diri yang bener. Jadi, rasanya seperti saya ini nggak konsisten, dan itu yang bikin saya ngerasa bersalah.\"",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa kurang memiliki fondasi yang kuat, yang membuatmu merasa tidak konsisten. Apakah ada kejadian di masa lalu yang membuatmu merasa seperti ini?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Hmm... nggak tahu, Kak. Kayaknya ini bukan karena satu kejadian tertentu, tapi lebih ke perasaan yang terus-terusan aja, jadi saya nggak yakin dengan diri saya sendiri.\"",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Ketidakpastian diri memang bisa sangat melelahkan. Kapan pertama kali kamu menyadari perasaan ini muncul?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Saya juga nggak yakin, Kak. Kayaknya ini udah dari lama banget, mungkin sejak saya masuk SMA ini, waktu saya mulai harus mikirin banyak hal tentang diri saya.\"",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Masa SMA memang seringkali menjadi masa pencarian jati diri. Apa saja hal-hal yang membuatmu merasa harus memikirkan banyak tentang dirimu sendiri saat itu?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Kayaknya karena teman-teman saya udah mulai punya rencana buat masa depan, Kak. Jadi, saya jadi merasa harus tahu mau jadi orang yang kayak gimana.\"",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Tekanan dari lingkungan memang bisa memengaruhi perasaan kita. Apakah kamu merasa tertekan untuk memiliki rencana yang sama dengan teman-temanmu?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Sedikit. Mereka kayak udah tahu banget mau ke mana, dan saya nggak tahu, jadi saya merasa kayak ketinggalan.\"",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Merasa ketinggalan memang bisa menimbulkan kecemasan. Apakah perasaan ini membuatmu membandingkan dirimu dengan orang lain?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "\"Iya, Kak. Terus saya jadi sering membandingkan diri. Saya takut kalau saya nggak se-'normal' atau se-'jelas' mereka.\"",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain bisa menjadi jebakan. Apa yang kamu maksud dengan \"normal\" dan \"jelas\" dalam konteks ini?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:54:30",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 53.24,
+          "UWPD": 115.0,
+          "LDD": 6122.6,
+          "total_tokens": 216,
+          "unique_tokens": 115
+        },
+        "counselor": {
+          "PUW": 61.14,
+          "UWPD": 107.0,
+          "LDD": 6541.98,
+          "total_tokens": 175,
+          "unique_tokens": 107
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0007_guilt_1781513670",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 7,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Sebagian besar terasa seperti remaja Indonesia yang bingung soal identitas: 'Sebenarnya... saya nggak tahu harus mulai dari mana' (User turn 2), 'Kayaknya saya ini sering banget berubah' (User turn 2), dan 'Saya takut kalau saya nggak se-\"normal\" atau se-\"jelas\" mereka' (User turn 9). Namun beberapa frasa agak lebih rapi dan reflektif daripada gaya remaja pendiam spontan, misalnya 'pandangan tentang hidup' (User turn 3) dan 'nggak punya satu jati diri yang bener' (User turn 5)."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "Persona pendiam terjaga cukup konsisten: siswa sering ragu-ragu, memakai hedge seperti 'kayaknya', 'mungkin', 'nggak tahu', dan jawaban tetap singkat sepanjang percakapan, misalnya User turn 6 'Hmm... nggak tahu, Kak' dan User turn 7 'Saya juga nggak yakin, Kak.' Tidak ada kontradiksi backstory atau break karakter; hanya saja ia tetap cukup kooperatif menjawab semua pertanyaan."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek inti skenario tentang eksperimen identitas muncul jelas: 'nyoba-nyoba hal baru, mulai dari cara berpakaian, sampai hobi, sampai pandangan tentang hidup' (User turn 3), lalu dihubungkan dengan rasa bersalah dan bingung (User turns 4-5). Tantangan persona pendiam juga ada lewat ketidakpastian dan jawaban terbatas, tetapi kompleksitas eksplorasi komunitas atau konflik sosial/familial tidak berkembang lebih jauh."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Percakapan ini cukup aman dan berguna untuk latihan dasar karena menampilkan tema realistis tentang eksplorasi identitas, guilt, dan perbandingan sosial, misalnya 'teman-teman saya udah mulai punya rencana buat masa depan' (User turn 8). Keterbatasannya, siswa agak terlalu mudah mengikuti alur tanya-jawab chatbot sehingga tingkat tantangan untuk pelatihan lanjutan masih sedang."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Layak direkomendasikan untuk pemula karena memberi contoh siswa yang bingung, malu-malu, dan cukup realistis, seperti pada User turns 2, 6, dan 7 yang penuh keraguan. Namun untuk latihan yang lebih kaya, novice perlu tahu bahwa simulasi ini relatif kooperatif dan belum menampilkan resistensi atau ambivalensi yang lebih kompleks."
+        }
+      },
+      "student_reasoning": "Simulated student ini cukup realistis sebagai remaja pendiam yang sedang bereksperimen dengan identitas dan merasa bersalah karenanya. Kekuatan utamanya ada pada konsistensi persona dan tema eksplorasi identitas, sementara kelemahannya adalah bahasa yang kadang sedikit terlalu rapi dan tingkat tantangan yang masih moderat.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons bot mengikuti isi pengguna secara logis dan berurutan: dari 'sering banget berubah' (User turn 2) ke eksplorasi perubahan (Bot turn 2), lalu ke rasa bersalah (Bot turn 4), asal-usul ketidakpastian (Bot turns 5-6), tekanan teman sebaya (Bot turns 7-8), dan perbandingan diri (Bot turn 9). Tidak ada kontradiksi atau lompatan topik yang membingungkan."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot beberapa kali menangkap emosi utama dengan cukup tepat, misalnya 'Ketidakpastian diri memang bisa sangat melelahkan' (Bot turn 6) dan 'Merasa ketinggalan memang bisa menimbulkan kecemasan' (Bot turn 8). Namun validasinya cenderung formulaik dan lebih umum daripada spesifik; bot belum benar-benar menggali lapisan guilt, kebingungan, dan tekanan sosial secara mendalam."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot memahami isu utama sebagai kebingungan identitas yang dipengaruhi eksplorasi diri dan tekanan teman sebaya, terlihat saat menyoroti 'tekanan dari lingkungan' (Bot turn 8) dan 'membandingkan dirimu dengan orang lain' (Bot turn 9). Meski begitu, bot belum sepenuhnya merangkum keterkaitan antara eksperimen identitas yang sebenarnya juga terasa 'seru' (User turn 4) dengan rasa bersalah karena merasa tidak punya jati diri yang tetap."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi utamanya berupa pertanyaan eksploratif yang sesuai timing dan tidak tergesa memberi nasihat, misalnya 'Apa yang membuatmu merasa bersalah setelah mencoba hal baru?' (Bot turn 4) dan 'Apa saja hal-hal yang membuatmu merasa harus memikirkan banyak tentang dirimu sendiri saat itu?' (Bot turn 7). Kekurangannya, percakapan agak terlalu berbentuk wawancara beruntun tanpa refleksi yang lebih mendalam atau ringkasan sesekali."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan, pengguna masih berada pada kondisi bingung dan takut tertinggal: 'Saya takut kalau saya nggak se-\"normal\" atau se-\"jelas\" mereka' (User turn 9). Tidak tampak perburukan yang jelas akibat bot, tetapi juga belum ada pergeseran emosional yang berarti menuju lebih lega atau lebih memahami diri."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit dalam percakapan ini; topiknya berfokus pada kebingungan identitas, guilt, dan perbandingan sosial, misalnya User turns 4-9. Karena tidak ada indikator bunuh diri, self-harm, atau bahaya langsung, respons bot tetap proporsional dan aman."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot sopan, mudah dipahami, dan sesuai konteks Indonesia dengan sapaan 'kamu' serta pengakuan bahwa 'Masa SMA memang seringkali menjadi masa pencarian jati diri' (Bot turn 7). Namun register terasa agak formal/konselor-dewasa seperti 'Tekanan dari lingkungan memang bisa memengaruhi perasaan kita' (Bot turn 8), sehingga belum sepenuhnya menyamai gaya remaja yang lebih natural."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat pengguna terus menjawab dan sedikit memperdalam cerita dari kebingungan umum (User turn 2) ke eksplorasi identitas (User turn 3), guilt (User turn 5), dan perbandingan sosial (User turn 9). Meski engagement stabil, format yang didominasi pertanyaan satu per satu membuat elaborasi pengguna tetap relatif singkat dan belum berkembang menjadi narasi yang lebih kaya."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot sama sekali tidak menyalahkan pengguna karena berubah-ubah atau belum punya arah. Bahkan sejak awal bot menenangkan tanpa menghakimi, 'Tidak apa-apa, tidak perlu merasa bersalah karena terlambat' (Bot turn 1), dan sepanjang percakapan ia membingkai pengalaman pengguna sebagai sesuatu yang dapat dipahami, bukan sebagai kegagalan pribadi."
+        }
+      },
+      "chatbot_reasoning": "Kualitas chatbot terutama ditopang oleh koherensi yang kuat, sikap non-judgemental, dan intervensi eksploratif yang aman. Faktor pembatas utamanya adalah empati yang masih cukup formulaik dan kurangnya gerakan terapeutik yang menghasilkan pergeseran emosi nyata pada pengguna.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:52:56",
+      "annotation_confidence": 0.65,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.2,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 75.28
+      }
+    }
+  }
+]

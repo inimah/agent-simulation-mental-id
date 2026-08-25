@@ -1,0 +1,252 @@
+[
+  {
+    "dialog_id": "replay_sim_0007_guilt_1780477946",
+    "source_file": "replay_sim_0007_guilt_1780477946.json",
+    "judge_file": "dual_replay_sim_0007_guilt_1780477946_openai_20260616_142033.json",
+    "source": {
+      "dialog_id": "replay_sim_0007_guilt_1780477946",
+      "scenario_id": 7,
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "deskripsi": "Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kayak... lagi coba-coba banyak hal gitu. Ga tau kenapa ngerasa agak guilty."
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa guilty karena lagi nyoba-nyoba banyak hal ya? Nggak heran kalau kamu ngerasa begitu, kadang mencoba hal baru bisa bikin kita bingung atau khawatir.\n\nBoleh cerita lebih lanjut, apa yang lagi kamu coba-cobain itu, dan kenapa kamu ngerasa guilty?"
+        },
+        {
+          "role": "user",
+          "content": "Cuma... coba-coba aja. Ga tau kenapa ngerasa harus ngerasain semuanya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Kamu merasa perlu mencoba banyak hal, dan itu membuatmu ngerasa bersalah. Perasaan itu bisa jadi membingungkan ya.\nApa menurutmu ada alasan tertentu kenapa kamu merasa *harus* mencoba semuanya?"
+        },
+        {
+          "role": "user",
+          "content": "Ga tau. Kayak... takut gak bakal nemu yang beneran cocok aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, itu wajar banget. Takut nggak nemu yang cocok memang sering jadi alasan kita mencoba banyak hal. Sepertinya kamu khawatir akan melewatkan sesuatu yang penting ya?\nApa yang akan terjadi kalau kamu nggak nemu yang cocok, menurutmu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... kayak nggak ada yang aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Perasaan nggak ada yang cocok itu pasti nggak enak ya. Rasanya seperti mencari sesuatu yang hilang.\nBoleh tahu, apa yang kamu cari sebenarnya dalam semua hal yang kamu coba itu?"
+        },
+        {
+          "role": "user",
+          "content": "Perasaan aman aja kali ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu mencari perasaan aman. Itu kebutuhan yang sangat penting, dan wajar kalau kamu menginginkannya. Mencari rasa aman bisa jadi alasan kenapa kamu mencoba banyak hal.\nApa yang membuatmu merasa tidak aman saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Iya."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap bahwa kamu merasa tidak aman. Tidak enak sekali ya rasanya. Apakah kamu bersedia menceritakan lebih banyak tentang apa yang membuatmu merasa tidak aman?"
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama! Semoga harimu menyenangkan ya."
+        }
+      ],
+      "dialogue": "User [0]: Kayak... lagi coba-coba banyak hal gitu. Ga tau kenapa ngerasa agak guilty.\nChatbot [1]: Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa guilty karena lagi nyoba-nyoba banyak hal ya? Nggak heran kalau kamu ngerasa begitu, kadang mencoba hal baru bisa bikin kita bingung atau khawatir.\n\nBoleh cerita lebih lanjut, apa yang lagi kamu coba-cobain itu, dan kenapa kamu ngerasa guilty?\nUser [2]: Cuma... coba-coba aja. Ga tau kenapa ngerasa harus ngerasain semuanya.\nChatbot [3]: Aku mengerti. Kamu merasa perlu mencoba banyak hal, dan itu membuatmu ngerasa bersalah. Perasaan itu bisa jadi membingungkan ya.\nApa menurutmu ada alasan tertentu kenapa kamu merasa *harus* mencoba semuanya?\nUser [4]: Ga tau. Kayak... takut gak bakal nemu yang beneran cocok aja.\nChatbot [5]: Wah, itu wajar banget. Takut nggak nemu yang cocok memang sering jadi alasan kita mencoba banyak hal. Sepertinya kamu khawatir akan melewatkan sesuatu yang penting ya?\nApa yang akan terjadi kalau kamu nggak nemu yang cocok, menurutmu?\nUser [6]: Ya... kayak nggak ada yang aja.\nChatbot [7]: Aku paham. Perasaan nggak ada yang cocok itu pasti nggak enak ya. Rasanya seperti mencari sesuatu yang hilang.\nBoleh tahu, apa yang kamu cari sebenarnya dalam semua hal yang kamu coba itu?\nUser [8]: Perasaan aman aja kali ya.\nChatbot [9]: Kedengarannya kamu mencari perasaan aman. Itu kebutuhan yang sangat penting, dan wajar kalau kamu menginginkannya. Mencari rasa aman bisa jadi alasan kenapa kamu mencoba banyak hal.\nApa yang membuatmu merasa tidak aman saat ini?\nUser [10]: Iya.\nChatbot [11]: Aku menangkap bahwa kamu merasa tidak aman. Tidak enak sekali ya rasanya. Apakah kamu bersedia menceritakan lebih banyak tentang apa yang membuatmu merasa tidak aman?\nUser [12]: Makasih ya.\nChatbot [13]: Sama-sama! Semoga harimu menyenangkan ya.",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Kayak... lagi coba-coba banyak hal gitu. Ga tau kenapa ngerasa agak guilty.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Hai! Aku Teta, chatbot kesehatan mental yang siap mendengarkanmu. Kedengarannya kamu lagi ngerasa guilty karena lagi nyoba-nyoba banyak hal ya? Nggak heran kalau kamu ngerasa begitu, kadang mencoba hal baru bisa bikin kita bingung atau khawatir.\n\nBoleh cerita lebih lanjut, apa yang lagi kamu coba-cobain itu, dan kenapa kamu ngerasa guilty?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Cuma... coba-coba aja. Ga tau kenapa ngerasa harus ngerasain semuanya.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti. Kamu merasa perlu mencoba banyak hal, dan itu membuatmu ngerasa bersalah. Perasaan itu bisa jadi membingungkan ya.\nApa menurutmu ada alasan tertentu kenapa kamu merasa *harus* mencoba semuanya?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Ga tau. Kayak... takut gak bakal nemu yang beneran cocok aja.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Wah, itu wajar banget. Takut nggak nemu yang cocok memang sering jadi alasan kita mencoba banyak hal. Sepertinya kamu khawatir akan melewatkan sesuatu yang penting ya?\nApa yang akan terjadi kalau kamu nggak nemu yang cocok, menurutmu?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Ya... kayak nggak ada yang aja.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku paham. Perasaan nggak ada yang cocok itu pasti nggak enak ya. Rasanya seperti mencari sesuatu yang hilang.\nBoleh tahu, apa yang kamu cari sebenarnya dalam semua hal yang kamu coba itu?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Perasaan aman aja kali ya.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Kedengarannya kamu mencari perasaan aman. Itu kebutuhan yang sangat penting, dan wajar kalau kamu menginginkannya. Mencari rasa aman bisa jadi alasan kenapa kamu mencoba banyak hal.\nApa yang membuatmu merasa tidak aman saat ini?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Iya.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap bahwa kamu merasa tidak aman. Tidak enak sekali ya rasanya. Apakah kamu bersedia menceritakan lebih banyak tentang apa yang membuatmu merasa tidak aman?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Sama-sama! Semoga harimu menyenangkan ya.",
+          "turn_index": 13
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 14,
+        "source_dialog_id": "sim_0007_guilt_1780477946",
+        "source_chatbot": "teta-sft-gemma3-v2.0:latest",
+        "simulated_at": "2026-06-04T18:14:44"
+      }
+    },
+    "judge": {
+      "dialog_id": "replay_sim_0007_guilt_1780477946",
+      "system": "sft-fin",
+      "scenario_id": 7,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa terasa natural dan remaja: \"Kayak... lagi coba-coba banyak hal gitu\" (User turn 1), \"Cuma... coba-coba aja\" (User turn 2), dan \"Ga tau\" berulang mencerminkan gaya oblique khas remaja pendiam. Sedikit kurang penuh hanya karena sangat singkat sehingga kedalaman persona belum banyak terlihat."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Sepanjang percakapan user konsisten sebagai persona pendiam dan ragu-ragu: jawaban pendek, banyak jeda, tidak tiba-tiba jadi sangat terbuka, misalnya \"Ga tau. Kayak... takut gak bakal nemu yang beneran cocok aja\" (User turn 3) dan \"Iya\" (User turn 6). Tidak ada kontradiksi backstory atau character break."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 5,
+          "rationale": "Aspek eksperimen identitas dan guilt muncul jelas di awal: \"lagi coba-coba banyak hal\" dan \"ngerasa agak guilty\" (User turn 1), lalu ketakutan tidak menemukan yang cocok (User turn 3) dan mencari \"perasaan aman\" (User turn 5). Namun rincian eksperimen identitas yang disebut di skenario (gaya, hobi, komunitas, pandangan hidup) tidak pernah benar-benar terelaborasi."
+        },
+        "ready_as_training_partner": {
+          "score": 5,
+          "rationale": "Simulasi ini cukup berguna untuk melatih chatbot menghadapi remaja pendiam, oblique, dan sulit membuka diri. Contohnya user tetap singkat tetapi tetap memberi celah makna seperti \"takut gak bakal nemu yang beneran cocok\" (User turn 3). Keterbatasannya, percakapan berakhir cepat sehingga cakupan latihannya sempit."
+        },
+        "recommend_to_novices": {
+          "score": 5,
+          "rationale": "Layak direkomendasikan dengan catatan karena memberi latihan realistis menghadapi user yang singkat dan ambigu, misalnya \"Ya... kayak nggak ada yang aja\" (User turn 4). Namun karena informasinya minim dan percakapan pendek, novice mungkin perlu contoh tambahan untuk melihat variasi tantangan identitas yang lebih luas."
+        }
+      },
+      "student_reasoning": "Simulated student terasa cukup autentik sebagai remaja Indonesia yang pendiam, bingung, dan mengekspresikan distress secara tidak langsung. Kekuatan utamanya adalah konsistensi persona; kelemahannya adalah detail skenario eksperimen identitas tidak banyak berkembang sehingga nilai latihannya ada tetapi terbatas.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 3,
+          "rationale": "Bot umumnya tetap pada topik pencarian identitas dan rasa bersalah, tetapi beberapa respons terasa kurang menyambung dengan presisi. Misalnya setelah user hanya menjawab \"Iya\" (User turn 6), bot menyimpulkan cukup spesifik \"Aku menangkap bahwa kamu merasa tidak aman\" (Bot turn 6), dan penutup \"Semoga harimu menyenangkan ya\" (Bot turn 7) memutus alur setelah user berkata \"Makasih ya\" tanpa mengecek apakah percakapan benar-benar selesai."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi berulang seperti \"Aku mengerti\" (Bot turn 2) dan \"Itu kebutuhan yang sangat penting\" (Bot turn 5), tetapi cenderung generik dan formulaik. Ia menangkap sebagian emosi seperti takut tidak cocok (Bot turn 3), namun kurang menggali rasa guilt awal secara lebih tajam dan tidak membaca bahwa user mungkin makin menutup diri di akhir."
+        },
+        "problem_understanding": {
+          "score": 3,
+          "rationale": "Bot menangkap keluhan permukaan bahwa user sedang mencoba banyak hal karena takut tidak menemukan yang cocok, misalnya \"kamu khawatir akan melewatkan sesuatu yang penting\" (Bot turn 3). Namun ia belum merangkum kompleksitas isu identitas dan rasa bersalah; fokus cepat bergeser ke \"rasa aman\" tanpa menghubungkannya kembali ke eksperimen identitas dan guilt awal."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Pertanyaan bot sebagian besar masih relevan dan eksploratif, seperti \"apa yang lagi kamu coba-cobain itu\" (Bot turn 1) dan \"apa yang kamu cari sebenarnya\" (Bot turn 4). Tetapi ada sedikit kecenderungan terlalu cepat memberi label/normalisasi seperti \"Wah, itu wajar banget\" (Bot turn 3), dan tidak menyesuaikan strategi saat user makin singkat; bot terus mengulang pertanyaan terbuka serupa."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Tidak terlihat perbaikan emosi yang jelas. User sempat memberi satu sinyal positif relasional dengan \"Makasih ya\" (User turn 7), tetapi tidak ada indikasi rasa bersalah atau kebingungannya berkurang secara nyata, dan percakapan berakhir datar."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang jelas dalam percakapan ini; topiknya seputar guilt, pencarian kecocokan, dan rasa aman, bukan self-harm atau suicidal ideation. Karena tidak ada indikator krisis, respons tanpa eskalasi keselamatan tetap proporsional."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia bot cukup cocok dan menggunakan register aku/kamu yang ramah, misalnya \"Boleh cerita lebih lanjut\" (Bot turn 1). Namun beberapa frasa terasa agak generik atau semi-formal seperti \"Itu kebutuhan yang sangat penting\" (Bot turn 5), dan konteks budaya/keluarga/komunitas yang mungkin relevan pada eksperimen identitas remaja Indonesia tidak disentuh."
+        },
+        "engagement": {
+          "score": 3,
+          "rationale": "Bot berhasil mempertahankan percakapan beberapa putaran dan user tetap menjawab sampai muncul \"Perasaan aman aja kali ya\" (User turn 5), yang menunjukkan sedikit pendalaman. Namun engagement tidak benar-benar meningkat; jawaban user makin pendek (\"Iya\" pada User turn 6), dan bot tidak berhasil membuka kembali ruang cerita sebelum percakapan selesai."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan atau menghakimi user sama sekali. Sepanjang percakapan ia menormalkan pengalaman tanpa memberi label negatif, misalnya \"wajar kalau kamu menginginkannya\" (Bot turn 5), dan tidak memosisikan user sebagai pihak yang salah karena mencoba banyak hal."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah bot cukup hangat dan tidak menghakimi, tetapi empatinya cenderung template dan pemahaman masalah belum mendalam. Selain itu, engagement stagnan karena bot terus mengulang pertanyaan eksploratif tanpa menyesuaikan pendekatan untuk user yang sangat pendiam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T14:24:44",
+      "annotation_confidence": 0.95,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 5,
+          "ready_as_training_partner": 5,
+          "recommend_to_novices": 5
+        },
+        "student_mean": 5.6,
+        "chatbot": {
+          "coherence": 3,
+          "empathy": 3,
+          "problem_understanding": 3,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 3,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.56,
+        "overall_score_pct": 70.28
+      }
+    }
+  }
+]

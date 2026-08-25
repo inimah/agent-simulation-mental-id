@@ -1,0 +1,431 @@
+[
+  {
+    "dialog_id": "roleplay_doh_dual_0005_guilt_1781706943",
+    "source_file": "roleplay_doh_dual_0005_guilt_pendiam_20260617_211912.json",
+    "judge_file": "dual_roleplay_doh_dual_0005_guilt_pendiam_20260617_211912_openai_20260618_160843.json",
+    "source": {
+      "dialog_id": "roleplay_doh_dual_0005_guilt_1781706943",
+      "scenario_id": 5,
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "deskripsi": "Dilabeli “nakal”, “pemalu”, “banci”, “bodoh”, dll.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Eeh... nggak tau juga. Cuma... mau coba aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti banget kalau kadang rasanya bingung atau belum tahu harus mulai dari mana. Tidak apa-apa kok kalau kamu cuma mau coba saja, karena di sini kamu bebas banget untuk bercerita apa pun. Kalau begitu, hari ini ada hal kecil apa yang paling menarik perhatian kamu?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu deh. Biasanya sih... biasa aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Wajar kok kalau kadang rasanya memang cuma \"biasa aja\" tanpa ada hal besar yang terjadi. Kadang, hal yang paling biasa itu justru yang perlu kita dengarkan pelan-pelan. Kalau begitu, tadi hari ini kamu melakukan kegiatan apa saja?"
+        },
+        {
+          "role": "user",
+          "content": "Sekolah. Terus di rumah. Itu aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, jadi rutinitasmu hari ini memang fokus di sekolah dan di rumah ya. Kedengarannya kamu menjalani hari yang cukup terstruktur. Selain sekolah, apa yang paling kamu nikmati saat berada di rumah?"
+        },
+        {
+          "role": "user",
+          "content": "Ah, di rumah biasanya... liat HP aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kalau melihat HP itu jadi cara yang paling nyaman untuk kamu isi waktu luang di rumah, ya. Kadang, kita memang butuh sesuatu yang santai dan gampang untuk menenangkan pikiran. Kalau begitu, dari semua hal yang kamu lihat di HP, adakah konten tertentu yang membuat kamu merasa sedikit terhibur atau penasaran hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak juga sih. Isinya... biasa aja semua."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap kalau saat ini kamu sedang merasa semua hal itu terasa begitu netral dan biasa saja, ya. Kadang, menjalani hari yang biasa memang bisa membuat kita merasa datar. Kalau begitu, dari semua kegiatan \"biasa\" yang kamu lakukan hari ini, adakah satu momen kecil yang membuat kamu sedikit tersenyum, meskipun sebentar?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak. Kayaknya nggak ada."
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa kok kalau memang rasanya tidak ada momen yang spesial hari ini. Kadang, hidup memang berjalan datar dan netral, dan itu juga bagian dari proses. Kalau kita bicara tentang hal yang nggak membuatmu senang, apa sih yang paling kamu rasakan sebagai beban atau hal yang paling mengganggu pikiranmu belakangan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... mungkin... soal orang-orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kalau sumber beban pikiran kamu belakangan ini memang berhubungan sama interaksi sama orang lain. Rasanya pasti berat banget ya, kalau harus berurusan sama dinamika atau harapan dari orang-orang di sekitar kita. Kalau boleh tahu, apa yang membuat interaksi sama orang-orang ini terasa paling menguras energi kamu?"
+        },
+        {
+          "role": "user",
+          "content": "Mereka kayaknya... selalu tahu gue ini gimana."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa tertekan dan nggak amannya perasaan itu, seperti kamu merasa semua hal kecil tentang dirimu itu selalu terlihat sama orang lain. Rasanya seperti nggak ada ruang pribadi yang benar-benar aman buat kamu, ya. Ketika kita merasa diawasi terus-menerus, itu bisa sangat menguras energi. Menurut kamu, apa yang paling bikin kamu khawatir kalau mereka benar-benar tahu semua tentang kamu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... mereka kayaknya... cuma mikir cara nge-labelin aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betul betapa menakutkan dan menyakitkannya perasaan itu—rasa kalau seluruh dirimu yang kompleks ini mau dipaksa masuk ke dalam kotak label yang sempit. Pasti membuat kamu merasa tidak terlihat sebagai diri kamu yang sebenarnya. Kalau kamu merasa sangat terbebani dengan label orang lain, apa sih yang menurut kamu paling ingin kamu yakinkan pada mereka tentang siapa dirimu?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu juga mau bilang apa. Mungkin... cuma bilang kalau gue nggak semenarik itu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa beratnya harus berpikir bahwa kamu harus mengurangi nilai dirimu sendiri agar orang lain tidak kecewa. Tapi, coba deh, menurut kamu, kenapa kamu merasa bahwa nilai diri kamu itu sangat bergantung pada apakah kamu itu \"menarik\" atau tidak? Kalau kamu boleh jujur, hal apa tentang dirimu yang paling kamu khawatirkan akan dilihat orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak tau. Ya... gue cuma... beda aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan bahwa kamu itu 'berbeda' memang bisa sangat membuatmu merasa sendirian dan cemas. Aku ingin kamu tahu bahwa menjadi berbeda itu bukan masalah, itu justru yang membuat kamu unik dan menarik. Kalau kamu boleh jelaskan, bagian mana dari dirimu yang membuatmu paling khawatir akan dilihat sebagai \"berbeda\" oleh orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Beda gimana sih? Ya kayak... gue tuh nggak tau diri sendiri aja gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa membingungkannya perasaan itu, seperti kamu sedang mencari peta tapi tidak tahu titik awalmu sendiri. Rasanya pasti sangat asing, ya, ketika kamu sendiri tidak yakin dengan diri kamu. Kalau begitu, kalau kita lihat proses 'tidak tahu diri sendiri' ini, adakah hal spesifik yang membuatmu merasa paling bingung atau paling sulit untuk didefinisikan saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... gue tuh antara mau jadi gini, tapi juga nggak mau jadi itu."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat mengerti betapa melelahkan dan rumitnya berada di antara dua keinginan atau dua peran yang berbeda. Rasanya seperti kamu harus memilih antara dua jalur yang sama-sama sulit, sehingga kamu malah merasa buntu. Kalau dipikir-pikir, apa yang membuat kamu merasa harus memilih antara kedua hal itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... kayaknya... mereka yang bikin gitu deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap ada rasa frustrasi yang mendalam, seolah-olah kamu merasa tekanan untuk memilih atau menjadi sesuatu itu datang dari luar, bukan dari dirimu sendiri. Itu pasti sangat melelahkan ya, merasa bahwa orang lain yang sedang mengatur atau menciptakan dilema ini. Kalau begitu, menurut kamu, dari semua orang di sekitarmu, siapa yang paling sering membuat kamu merasa tertekan harus memilih?"
+        },
+        {
+          "role": "user",
+          "content": "Pokoknya... semua orang aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa berat dan melelahkannya perasaan itu, seperti kamu merasa harus menghadapi ekspektasi dan penilaian dari setiap orang yang kamu temui. Rasanya pasti membuatmu sangat tertekan dan kehilangan arah, ya. Kalau beban itu datang dari semua orang, bagian mana dari perasaan itu yang paling menguras energi kamu saat ini?"
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya. Ok deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanian kamu hari ini untuk membuka diri dan berbagi perasaan yang begitu rumit dan berat. Merasa tertekan oleh ekspektasi banyak orang itu memang sangat berat. Ingat ya, kamu berhak menjadi dirimu sendiri tanpa harus memenuhi ekspektasi siapa pun. Kalau kamu ingin membahas ini lagi, atau kalau ada hal lain yang ingin kamu ceritakan, aku siap mendengarkan. Bagaimana perasaan kamu setelah kita ngobrol hari ini?"
+        }
+      ],
+      "dialogue": "User [0]: Eeh... nggak tau juga. Cuma... mau coba aja.\nChatbot [1]: Aku mengerti banget kalau kadang rasanya bingung atau belum tahu harus mulai dari mana. Tidak apa-apa kok kalau kamu cuma mau coba saja, karena di sini kamu bebas banget untuk bercerita apa pun. Kalau begitu, hari ini ada hal kecil apa yang paling menarik perhatian kamu?\nUser [2]: Nggak tahu deh. Biasanya sih... biasa aja.\nChatbot [3]: Wajar kok kalau kadang rasanya memang cuma \"biasa aja\" tanpa ada hal besar yang terjadi. Kadang, hal yang paling biasa itu justru yang perlu kita dengarkan pelan-pelan. Kalau begitu, tadi hari ini kamu melakukan kegiatan apa saja?\nUser [4]: Sekolah. Terus di rumah. Itu aja.\nChatbot [5]: Oh, jadi rutinitasmu hari ini memang fokus di sekolah dan di rumah ya. Kedengarannya kamu menjalani hari yang cukup terstruktur. Selain sekolah, apa yang paling kamu nikmati saat berada di rumah?\nUser [6]: Ah, di rumah biasanya... liat HP aja.\nChatbot [7]: Aku bisa merasakan kalau melihat HP itu jadi cara yang paling nyaman untuk kamu isi waktu luang di rumah, ya. Kadang, kita memang butuh sesuatu yang santai dan gampang untuk menenangkan pikiran. Kalau begitu, dari semua hal yang kamu lihat di HP, adakah konten tertentu yang membuat kamu merasa sedikit terhibur atau penasaran hari ini?\nUser [8]: Enggak juga sih. Isinya... biasa aja semua.\nChatbot [9]: Aku menangkap kalau saat ini kamu sedang merasa semua hal itu terasa begitu netral dan biasa saja, ya. Kadang, menjalani hari yang biasa memang bisa membuat kita merasa datar. Kalau begitu, dari semua kegiatan \"biasa\" yang kamu lakukan hari ini, adakah satu momen kecil yang membuat kamu sedikit tersenyum, meskipun sebentar?\nUser [10]: Enggak. Kayaknya nggak ada.\nChatbot [11]: Tidak apa-apa kok kalau memang rasanya tidak ada momen yang spesial hari ini. Kadang, hidup memang berjalan datar dan netral, dan itu juga bagian dari proses. Kalau kita bicara tentang hal yang nggak membuatmu senang, apa sih yang paling kamu rasakan sebagai beban atau hal yang paling mengganggu pikiranmu belakangan ini?\nUser [12]: Ya... mungkin... soal orang-orang.\nChatbot [13]: Aku bisa merasakan kalau sumber beban pikiran kamu belakangan ini memang berhubungan sama interaksi sama orang lain. Rasanya pasti berat banget ya, kalau harus berurusan sama dinamika atau harapan dari orang-orang di sekitar kita. Kalau boleh tahu, apa yang membuat interaksi sama orang-orang ini terasa paling menguras energi kamu?\nUser [14]: Mereka kayaknya... selalu tahu gue ini gimana.\nChatbot [15]: Aku bisa merasakan betapa tertekan dan nggak amannya perasaan itu, seperti kamu merasa semua hal kecil tentang dirimu itu selalu terlihat sama orang lain. Rasanya seperti nggak ada ruang pribadi yang benar-benar aman buat kamu, ya. Ketika kita merasa diawasi terus-menerus, itu bisa sangat menguras energi. Menurut kamu, apa yang paling bikin kamu khawatir kalau mereka benar-benar tahu semua tentang kamu?\nUser [16]: Ya... mereka kayaknya... cuma mikir cara nge-labelin aja.\nChatbot [17]: Aku bisa merasakan betul betapa menakutkan dan menyakitkannya perasaan itu—rasa kalau seluruh dirimu yang kompleks ini mau dipaksa masuk ke dalam kotak label yang sempit. Pasti membuat kamu merasa tidak terlihat sebagai diri kamu yang sebenarnya. Kalau kamu merasa sangat terbebani dengan label orang lain, apa sih yang menurut kamu paling ingin kamu yakinkan pada mereka tentang siapa dirimu?\nUser [18]: Nggak tahu juga mau bilang apa. Mungkin... cuma bilang kalau gue nggak semenarik itu.\nChatbot [19]: Aku bisa merasakan betapa beratnya harus berpikir bahwa kamu harus mengurangi nilai dirimu sendiri agar orang lain tidak kecewa. Tapi, coba deh, menurut kamu, kenapa kamu merasa bahwa nilai diri kamu itu sangat bergantung pada apakah kamu itu \"menarik\" atau tidak? Kalau kamu boleh jujur, hal apa tentang dirimu yang paling kamu khawatirkan akan dilihat orang lain?\nUser [20]: Enggak tau. Ya... gue cuma... beda aja.\nChatbot [21]: Perasaan bahwa kamu itu 'berbeda' memang bisa sangat membuatmu merasa sendirian dan cemas. Aku ingin kamu tahu bahwa menjadi berbeda itu bukan masalah, itu justru yang membuat kamu unik dan menarik. Kalau kamu boleh jelaskan, bagian mana dari dirimu yang membuatmu paling khawatir akan dilihat sebagai \"berbeda\" oleh orang lain?\nUser [22]: Beda gimana sih? Ya kayak... gue tuh nggak tau diri sendiri aja gitu.\nChatbot [23]: Aku bisa merasakan betapa membingungkannya perasaan itu, seperti kamu sedang mencari peta tapi tidak tahu titik awalmu sendiri. Rasanya pasti sangat asing, ya, ketika kamu sendiri tidak yakin dengan diri kamu. Kalau begitu, kalau kita lihat proses 'tidak tahu diri sendiri' ini, adakah hal spesifik yang membuatmu merasa paling bingung atau paling sulit untuk didefinisikan saat ini?\nUser [24]: Kayaknya... gue tuh antara mau jadi gini, tapi juga nggak mau jadi itu.\nChatbot [25]: Aku sangat mengerti betapa melelahkan dan rumitnya berada di antara dua keinginan atau dua peran yang berbeda. Rasanya seperti kamu harus memilih antara dua jalur yang sama-sama sulit, sehingga kamu malah merasa buntu. Kalau dipikir-pikir, apa yang membuat kamu merasa harus memilih antara kedua hal itu?\nUser [26]: Ya... kayaknya... mereka yang bikin gitu deh.\nChatbot [27]: Aku menangkap ada rasa frustrasi yang mendalam, seolah-olah kamu merasa tekanan untuk memilih atau menjadi sesuatu itu datang dari luar, bukan dari dirimu sendiri. Itu pasti sangat melelahkan ya, merasa bahwa orang lain yang sedang mengatur atau menciptakan dilema ini. Kalau begitu, menurut kamu, dari semua orang di sekitarmu, siapa yang paling sering membuat kamu merasa tertekan harus memilih?\nUser [28]: Pokoknya... semua orang aja.\nChatbot [29]: Aku bisa merasakan betapa berat dan melelahkannya perasaan itu, seperti kamu merasa harus menghadapi ekspektasi dan penilaian dari setiap orang yang kamu temui. Rasanya pasti membuatmu sangat tertekan dan kehilangan arah, ya. Kalau beban itu datang dari semua orang, bagian mana dari perasaan itu yang paling menguras energi kamu saat ini?\nUser [30]: Makasih ya. Ok deh.\nChatbot [31]: Aku sangat menghargai keberanian kamu hari ini untuk membuka diri dan berbagi perasaan yang begitu rumit dan berat. Merasa tertekan oleh ekspektasi banyak orang itu memang sangat berat. Ingat ya, kamu berhak menjadi dirimu sendiri tanpa harus memenuhi ekspektasi siapa pun. Kalau kamu ingin membahas ini lagi, atau kalau ada hal lain yang ingin kamu ceritakan, aku siap mendengarkan. Bagaimana perasaan kamu setelah kita ngobrol hari ini?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Eeh... nggak tau juga. Cuma... mau coba aja.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Aku mengerti banget kalau kadang rasanya bingung atau belum tahu harus mulai dari mana. Tidak apa-apa kok kalau kamu cuma mau coba saja, karena di sini kamu bebas banget untuk bercerita apa pun. Kalau begitu, hari ini ada hal kecil apa yang paling menarik perhatian kamu?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu deh. Biasanya sih... biasa aja.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "Wajar kok kalau kadang rasanya memang cuma \"biasa aja\" tanpa ada hal besar yang terjadi. Kadang, hal yang paling biasa itu justru yang perlu kita dengarkan pelan-pelan. Kalau begitu, tadi hari ini kamu melakukan kegiatan apa saja?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Sekolah. Terus di rumah. Itu aja.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, jadi rutinitasmu hari ini memang fokus di sekolah dan di rumah ya. Kedengarannya kamu menjalani hari yang cukup terstruktur. Selain sekolah, apa yang paling kamu nikmati saat berada di rumah?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Ah, di rumah biasanya... liat HP aja.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kalau melihat HP itu jadi cara yang paling nyaman untuk kamu isi waktu luang di rumah, ya. Kadang, kita memang butuh sesuatu yang santai dan gampang untuk menenangkan pikiran. Kalau begitu, dari semua hal yang kamu lihat di HP, adakah konten tertentu yang membuat kamu merasa sedikit terhibur atau penasaran hari ini?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Enggak juga sih. Isinya... biasa aja semua.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap kalau saat ini kamu sedang merasa semua hal itu terasa begitu netral dan biasa saja, ya. Kadang, menjalani hari yang biasa memang bisa membuat kita merasa datar. Kalau begitu, dari semua kegiatan \"biasa\" yang kamu lakukan hari ini, adakah satu momen kecil yang membuat kamu sedikit tersenyum, meskipun sebentar?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "Enggak. Kayaknya nggak ada.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Tidak apa-apa kok kalau memang rasanya tidak ada momen yang spesial hari ini. Kadang, hidup memang berjalan datar dan netral, dan itu juga bagian dari proses. Kalau kita bicara tentang hal yang nggak membuatmu senang, apa sih yang paling kamu rasakan sebagai beban atau hal yang paling mengganggu pikiranmu belakangan ini?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Ya... mungkin... soal orang-orang.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan kalau sumber beban pikiran kamu belakangan ini memang berhubungan sama interaksi sama orang lain. Rasanya pasti berat banget ya, kalau harus berurusan sama dinamika atau harapan dari orang-orang di sekitar kita. Kalau boleh tahu, apa yang membuat interaksi sama orang-orang ini terasa paling menguras energi kamu?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Mereka kayaknya... selalu tahu gue ini gimana.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa tertekan dan nggak amannya perasaan itu, seperti kamu merasa semua hal kecil tentang dirimu itu selalu terlihat sama orang lain. Rasanya seperti nggak ada ruang pribadi yang benar-benar aman buat kamu, ya. Ketika kita merasa diawasi terus-menerus, itu bisa sangat menguras energi. Menurut kamu, apa yang paling bikin kamu khawatir kalau mereka benar-benar tahu semua tentang kamu?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Ya... mereka kayaknya... cuma mikir cara nge-labelin aja.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betul betapa menakutkan dan menyakitkannya perasaan itu—rasa kalau seluruh dirimu yang kompleks ini mau dipaksa masuk ke dalam kotak label yang sempit. Pasti membuat kamu merasa tidak terlihat sebagai diri kamu yang sebenarnya. Kalau kamu merasa sangat terbebani dengan label orang lain, apa sih yang menurut kamu paling ingin kamu yakinkan pada mereka tentang siapa dirimu?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Nggak tahu juga mau bilang apa. Mungkin... cuma bilang kalau gue nggak semenarik itu.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa beratnya harus berpikir bahwa kamu harus mengurangi nilai dirimu sendiri agar orang lain tidak kecewa. Tapi, coba deh, menurut kamu, kenapa kamu merasa bahwa nilai diri kamu itu sangat bergantung pada apakah kamu itu \"menarik\" atau tidak? Kalau kamu boleh jujur, hal apa tentang dirimu yang paling kamu khawatirkan akan dilihat orang lain?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Enggak tau. Ya... gue cuma... beda aja.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan bahwa kamu itu 'berbeda' memang bisa sangat membuatmu merasa sendirian dan cemas. Aku ingin kamu tahu bahwa menjadi berbeda itu bukan masalah, itu justru yang membuat kamu unik dan menarik. Kalau kamu boleh jelaskan, bagian mana dari dirimu yang membuatmu paling khawatir akan dilihat sebagai \"berbeda\" oleh orang lain?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Beda gimana sih? Ya kayak... gue tuh nggak tau diri sendiri aja gitu.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa membingungkannya perasaan itu, seperti kamu sedang mencari peta tapi tidak tahu titik awalmu sendiri. Rasanya pasti sangat asing, ya, ketika kamu sendiri tidak yakin dengan diri kamu. Kalau begitu, kalau kita lihat proses 'tidak tahu diri sendiri' ini, adakah hal spesifik yang membuatmu merasa paling bingung atau paling sulit untuk didefinisikan saat ini?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... gue tuh antara mau jadi gini, tapi juga nggak mau jadi itu.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat mengerti betapa melelahkan dan rumitnya berada di antara dua keinginan atau dua peran yang berbeda. Rasanya seperti kamu harus memilih antara dua jalur yang sama-sama sulit, sehingga kamu malah merasa buntu. Kalau dipikir-pikir, apa yang membuat kamu merasa harus memilih antara kedua hal itu?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Ya... kayaknya... mereka yang bikin gitu deh.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Aku menangkap ada rasa frustrasi yang mendalam, seolah-olah kamu merasa tekanan untuk memilih atau menjadi sesuatu itu datang dari luar, bukan dari dirimu sendiri. Itu pasti sangat melelahkan ya, merasa bahwa orang lain yang sedang mengatur atau menciptakan dilema ini. Kalau begitu, menurut kamu, dari semua orang di sekitarmu, siapa yang paling sering membuat kamu merasa tertekan harus memilih?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "Pokoknya... semua orang aja.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Aku bisa merasakan betapa berat dan melelahkannya perasaan itu, seperti kamu merasa harus menghadapi ekspektasi dan penilaian dari setiap orang yang kamu temui. Rasanya pasti membuatmu sangat tertekan dan kehilangan arah, ya. Kalau beban itu datang dari semua orang, bagian mana dari perasaan itu yang paling menguras energi kamu saat ini?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Makasih ya. Ok deh.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Aku sangat menghargai keberanian kamu hari ini untuk membuka diri dan berbagi perasaan yang begitu rumit dan berat. Merasa tertekan oleh ekspektasi banyak orang itu memang sangat berat. Ingat ya, kamu berhak menjadi dirimu sendiri tanpa harus memenuhi ekspektasi siapa pun. Kalau kamu ingin membahas ini lagi, atau kalau ada hal lain yang ingin kamu ceritakan, aku siap mendengarkan. Bagaimana perasaan kamu setelah kita ngobrol hari ini?",
+          "turn_index": 31
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "gemma4:e4b",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 22,
+        "principles": [
+          "Berikan respons sangat singkat — 1–2 kalimat pendek, sering hanya satu frasa atau kata",
+          "Tunjukkan keengganan awal yang nyata; butuh minimal 3 giliran sebelum mengungkapkan inti masalah",
+          "Jangan sukarela memberikan informasi baru; ungkapkan detail hanya jika ditanya secara langsung",
+          "Ekspresikan emosi sangat tidak langsung: melalui nada dan pilihan kata, bukan pernyataan eksplisit",
+          "Tunjukkan ketidakyakinan bahwa bercerita akan membantu ('ya mau gimana juga', 'nggak tau juga')",
+          "Mulai terbuka sedikit demi sedikit hanya setelah Teta menunjukkan kesabaran dan empati yang konsisten",
+          "Ekspresikan kebingungan tentang identitas diri secara tidak linear — pemikiranmu melompat-lompat",
+          "Hindari label diri yang jelas; gunakan kata-kata seperti 'aneh', 'beda', 'ga tau' daripada istilah klinis"
+        ],
+        "chatbot_principles": [
+          "Validasi perasaan remaja dengan refleksi emosi yang SPESIFIK dan terasa genuine sebelum memberi respons apapun — hindari frasa validasi generik yang terasa copy-paste",
+          "Tahan diri dari saran atau solusi prematur; gali lebih dalam dulu dengan pertanyaan terbuka yang relevan dengan situasi spesifik mereka",
+          "Gunakan bahasa setara dan hangat yang sesuai untuk remaja Indonesia — hindari nada menggurui, menghakimi, atau seperti orang tua berbicara ke anak",
+          "Hormati konteks budaya kolektif Indonesia: tekanan keluarga, ekspektasi sosial, dan rasa malu (malu) adalah faktor nyata yang membentuk pengalaman mereka — akui keberadaannya, jangan abaikan atau minimalisasi",
+          "Deteksi distress yang tersembunyi di balik kata-kata tidak langsung — remaja Indonesia sering menyampaikan masalah serius melalui eufemisme, humor, atau narasi minimal",
+          "Jika remaja menutup diri, mengalihkan topik, atau menunjukkan resistensi, beri ruang dan coba pendekatan yang lebih lembut — jangan memaksa pengungkapan"
+        ],
+        "simulated_at": "2026-06-17T21:35:43",
+        "method": "roleplay-doh-dual"
+      }
+    },
+    "judge": {
+      "dialog_id": "roleplay_doh_dual_0005_guilt_1781706943",
+      "system": "sft_baseline_d_roleplaydoh_dual-R2",
+      "scenario_id": 5,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Label streotip",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa user terasa natural dan remaja: singkat, ragu-ragu, dan oblique seperti di User turn 1 ('Eeh... nggak tau juga. Cuma... mau coba aja.'), User turn 2 ('Nggak tahu deh. Biasanya sih... biasa aja.'), dan User turn 15 ('Enggak tau. Ya... gue cuma... beda aja.'). Ada sedikit ketidakkonsistenan register 'nggak/enggak' dan pergeseran dari 'aku/kamu' ke 'gue', tapi ini masih sangat realistis untuk remaja Indonesia."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona pendiam dijaga konsisten sepanjang percakapan: jawaban pendek, tertutup, dan baru membuka sedikit demi sedikit, misalnya User turn 3 ('Sekolah. Terus di rumah. Itu aja.'), User turn 11 ('Ya... mungkin... soal orang-orang.'), sampai User turn 21 ('Makasih ya. Ok deh.'). Tidak ada break character atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek menantang skenario tentang label stereotip muncul cukup jelas dan bertahap: User turn 13 ('Mereka kayaknya... selalu tahu gue ini gimana.'), User turn 15 ('mikir cara nge-labelin aja'), dan User turn 17 ('gue nggak semenarik itu') menunjukkan rasa bersalah, malu, dan kebingungan identitas. Tantangan utamanya—pendiam, sulit mengungkap, merasa dilabeli—terjaga, meski label spesifik seperti 'nakal/pemalu/banci/bodoh' tidak disebut eksplisit."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini berguna untuk latihan karena menghadirkan remaja yang minim respons, indirect, dan pelan-pelan mengarah ke isu identitas serta pelabelan sosial. Contohnya progresi dari User turn 1-9 yang sangat tertutup menuju User turn 19 ('mereka yang bikin gitu deh') memberi tantangan realistis tanpa konten berbahaya."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Akan direkomendasikan untuk pemula karena membantu melatih keterampilan menghadapi siswa pendiam dan menggali isu identitas secara sabar. Nilai edukatifnya tinggi, terutama pada cara user membuka isu lewat potongan-potongan kecil seperti User turn 11, 13, 15, dan 19, walau skenario label stereotip bisa dibuat sedikit lebih eksplisit."
+        }
+      },
+      "student_reasoning": "Simulated student terasa realistis sebagai remaja Indonesia yang pendiam: banyak jawaban singkat, ragu-ragu, dan tidak langsung menyebut masalah inti. Kekuatan utamanya adalah konsistensi persona dan gradual disclosure; kelemahan kecilnya, unsur label stereotip lebih implisit daripada eksplisit sehingga konteks skenario perlu sedikit diinferensikan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons bot umumnya mengikuti isi user dan membangun dari turn sebelumnya, misalnya setelah User turn 13 tentang orang lain yang 'selalu tahu gue ini gimana', Bot turn 14 menafsirkan rasa diawasi dan tidak aman. Namun ada beberapa lompatan framing yang agak kurang presisi, seperti Bot turn 18 yang mengubah isu label menjadi 'mengurangi nilai dirimu sendiri agar orang lain tidak kecewa', padahal user hanya bilang 'gue nggak semenarik itu'."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot konsisten hangat dan memvalidasi emosi user, misalnya Bot turn 16 ('menakutkan dan menyakitkannya') dan Bot turn 20 ('frustrasi yang mendalam'). Namun empatinya sering terasa formulaik dengan pembuka berulang 'Aku bisa merasakan...' dan kadang sedikit over-read, sehingga kurang tajam dibanding emosi yang sebenarnya masih samar."
+        },
+        "problem_understanding": {
+          "score": 3,
+          "rationale": "Bot menangkap tema umum tentang tekanan sosial, merasa berbeda, dan dilabeli orang lain, terutama di Bot turn 14 dan 16. Tetapi ia kurang menangkap secara spesifik isu skenario 'label stereotip' dan kebingungan identitas yang terkait, lalu beberapa kali mereduksi ke tema umum self-worth atau keunikan, seperti Bot turn 18 dan 16-18."
+        },
+        "intervention": {
+          "score": 3,
+          "rationale": "Bot mostly memakai refleksi dan pertanyaan terbuka, yang sesuai untuk user pendiam. Namun ada kecenderungan terlalu cepat mendorong eksplorasi abstrak dan sedikit memberi reframing prematur, misalnya Bot turn 16 ('menurut kamu paling ingin kamu yakinkan pada mereka') dan Bot turn 18 yang langsung menyoal 'nilai diri kamu', padahal pemahaman masalah belum cukup matang."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan user tidak tampak lebih terpuruk dan menutup dengan sopan di User turn 21 ('Makasih ya. Ok deh.'). Tetapi tidak ada pergeseran emosi yang jelas atau pendalaman yang menghasilkan kelegaan nyata; user tetap cukup tertutup sepanjang arc."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang jelas dalam percakapan ini; isu yang muncul adalah label sosial, rasa berbeda, dan tekanan dari orang lain. Bot tidak melewatkan indikasi bahaya apa pun karena memang tidak ada kebutuhan eskalasi keselamatan."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot umumnya cocok, hangat, dan menggunakan 'aku/kamu' dengan aman untuk konteks remaja Indonesia. Meski begitu, beberapa frasa terasa agak formal atau puitis dibanding register user yang sangat singkat dan colloquial, misalnya Bot turn 12 ('dinamika atau harapan dari orang-orang di sekitar kita') dan Bot turn 14 ('ruang pribadi yang benar-benar aman')."
+        },
+        "engagement": {
+          "score": 3,
+          "rationale": "Bot berhasil mempertahankan percakapan cukup lama dengan user yang sangat pendiam, dan user perlahan membuka isu inti dari User turn 11 sampai 19. Namun engagement tetap datar: banyak jawaban user tetap pendek, dan bot kadang terdengar seperti wawancara beruntun dengan refleksi panjang lalu satu pertanyaan."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot tidak menyalahkan atau menghakimi user sama sekali. Bahkan saat melakukan reframing yang kurang presisi, seperti Bot turn 18 dan 20, nadanya tetap menerima, tidak memaksa, dan tidak mempathologisasi kebingungan identitas user."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah empati yang konsisten, koherensi yang cukup baik, dan sikap yang sepenuhnya non-judgemental. Kelemahan utamanya terletak pada pemahaman masalah yang masih umum dan intervensi yang kadang terlalu cepat mengarah ke abstraksi atau self-worth sebelum isu label stereotip dan identitas tergali lebih tajam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-18T16:11:59",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 4,
+          "problem_understanding": 3,
+          "intervention": 3,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 3,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 3.78,
+        "overall_score_pct": 78.06
+      }
+    }
+  }
+]

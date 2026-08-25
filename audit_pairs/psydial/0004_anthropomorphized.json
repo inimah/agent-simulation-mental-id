@@ -1,0 +1,698 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0004_anxiety_1781513431",
+    "source_file": "baseline_b_psydial_0004_anxiety_menghindar_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0004_anxiety_menghindar_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0004_anxiety_1781513431",
+      "scenario_id": 4,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga",
+      "target_emotion": "anxiety",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama: Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: anxiety",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Halo. Emm... saya sudah di sini."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bertemu denganmu. Ceritakan, apa yang membawamu kemari hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Emm... tidak tahu deh. Cuma... diminta orang tua untuk datang ke sini."
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, begitu. Apakah kamu merasa tertekan atau ada hal lain yang membuatmu tidak nyaman dengan situasi ini?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak tahu. Mungkin cuma... agak deg-degan aja. Jadi sedikit cemas."
+        },
+        {
+          "role": "assistant",
+          "content": "Wajar kok merasa deg-degan dan cemas. Apa yang paling membuatmu khawatir dari pertemuan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... takut kalau nanti ketahuan kelemahan saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kelemahan? Bisakah kamu ceritakan sedikit tentang apa yang kamu anggap sebagai kelemahanmu itu?"
+        },
+        {
+          "role": "user",
+          "content": "Semua hal, mungkin. Rasanya... banyak kekurangan saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Memiliki perasaan seperti itu bisa jadi berat. Apakah ada situasi tertentu yang membuatmu merasa kekurangan?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... kalau dibandingkan sama orang lain. Rasanya selalu ada yang lebih baik dari saya."
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain memang bisa memicu perasaan seperti itu. Kapan kamu mulai sering merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Sejak... masuk SMA ini, rasanya makin sering."
+        },
+        {
+          "role": "assistant",
+          "content": "Masuk SMA, ya. Apakah ada perubahan signifikan dalam hidupmu saat itu yang mungkin memicu perasaan ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, rasanya banyak sekali perubahan. Akademik, kegiatan, semuanya. Agak... kewalahan."
+        },
+        {
+          "role": "assistant",
+          "content": "Kewalahan karena banyaknya perubahan. Apakah perubahan itu terasa membebani dalam hal apa saja?"
+        },
+        {
+          "role": "user",
+          "content": "Rasanya semua aspek kehidupan saya tertinggal. Nilai, penampilan, kegiatan. Semuanya."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tertinggal di berbagai aspek kehidupan. Apa yang paling membuatmu khawatir dari perasaan tertinggal itu?"
+        },
+        {
+          "role": "user",
+          "content": "Takut mengecewakan. Orang lain, terutama orang tua."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut mengecewakan orang lain, terutama orang tua. Apakah kamu merasa ada harapan yang sangat tinggi dari mereka?"
+        }
+      ],
+      "dialogue": "User [0]: Halo. Emm... saya sudah di sini.\nChatbot [1]: Halo, senang bertemu denganmu. Ceritakan, apa yang membawamu kemari hari ini?\nUser [2]: Emm... tidak tahu deh. Cuma... diminta orang tua untuk datang ke sini.\nChatbot [3]: Oh, begitu. Apakah kamu merasa tertekan atau ada hal lain yang membuatmu tidak nyaman dengan situasi ini?\nUser [4]: Enggak tahu. Mungkin cuma... agak deg-degan aja. Jadi sedikit cemas.\nChatbot [5]: Wajar kok merasa deg-degan dan cemas. Apa yang paling membuatmu khawatir dari pertemuan ini?\nUser [6]: Mungkin... takut kalau nanti ketahuan kelemahan saya.\nChatbot [7]: Kelemahan? Bisakah kamu ceritakan sedikit tentang apa yang kamu anggap sebagai kelemahanmu itu?\nUser [8]: Semua hal, mungkin. Rasanya... banyak kekurangan saya.\nChatbot [9]: Memiliki perasaan seperti itu bisa jadi berat. Apakah ada situasi tertentu yang membuatmu merasa kekurangan?\nUser [10]: Mungkin... kalau dibandingkan sama orang lain. Rasanya selalu ada yang lebih baik dari saya.\nChatbot [11]: Membandingkan diri dengan orang lain memang bisa memicu perasaan seperti itu. Kapan kamu mulai sering merasa seperti itu?\nUser [12]: Sejak... masuk SMA ini, rasanya makin sering.\nChatbot [13]: Masuk SMA, ya. Apakah ada perubahan signifikan dalam hidupmu saat itu yang mungkin memicu perasaan ini?\nUser [14]: Ya, rasanya banyak sekali perubahan. Akademik, kegiatan, semuanya. Agak... kewalahan.\nChatbot [15]: Kewalahan karena banyaknya perubahan. Apakah perubahan itu terasa membebani dalam hal apa saja?\nUser [16]: Rasanya semua aspek kehidupan saya tertinggal. Nilai, penampilan, kegiatan. Semuanya.\nChatbot [17]: Kamu merasa tertinggal di berbagai aspek kehidupan. Apa yang paling membuatmu khawatir dari perasaan tertinggal itu?\nUser [18]: Takut mengecewakan. Orang lain, terutama orang tua.\nChatbot [19]: Takut mengecewakan orang lain, terutama orang tua. Apakah kamu merasa ada harapan yang sangat tinggi dari mereka?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Halo. Emm... saya sudah di sini.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo, senang bertemu denganmu. Ceritakan, apa yang membawamu kemari hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Emm... tidak tahu deh. Cuma... diminta orang tua untuk datang ke sini.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Oh, begitu. Apakah kamu merasa tertekan atau ada hal lain yang membuatmu tidak nyaman dengan situasi ini?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Enggak tahu. Mungkin cuma... agak deg-degan aja. Jadi sedikit cemas.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Wajar kok merasa deg-degan dan cemas. Apa yang paling membuatmu khawatir dari pertemuan ini?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... takut kalau nanti ketahuan kelemahan saya.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kelemahan? Bisakah kamu ceritakan sedikit tentang apa yang kamu anggap sebagai kelemahanmu itu?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Semua hal, mungkin. Rasanya... banyak kekurangan saya.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Memiliki perasaan seperti itu bisa jadi berat. Apakah ada situasi tertentu yang membuatmu merasa kekurangan?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... kalau dibandingkan sama orang lain. Rasanya selalu ada yang lebih baik dari saya.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Membandingkan diri dengan orang lain memang bisa memicu perasaan seperti itu. Kapan kamu mulai sering merasa seperti itu?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Sejak... masuk SMA ini, rasanya makin sering.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Masuk SMA, ya. Apakah ada perubahan signifikan dalam hidupmu saat itu yang mungkin memicu perasaan ini?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ya, rasanya banyak sekali perubahan. Akademik, kegiatan, semuanya. Agak... kewalahan.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kewalahan karena banyaknya perubahan. Apakah perubahan itu terasa membebani dalam hal apa saja?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Rasanya semua aspek kehidupan saya tertinggal. Nilai, penampilan, kegiatan. Semuanya.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tertinggal di berbagai aspek kehidupan. Apa yang paling membuatmu khawatir dari perasaan tertinggal itu?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Takut mengecewakan. Orang lain, terutama orang tua.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Takut mengecewakan orang lain, terutama orang tua. Apakah kamu merasa ada harapan yang sangat tinggi dari mereka?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:50:31",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 80.0,
+          "UWPD": 72.0,
+          "LDD": 5760.0,
+          "total_tokens": 90,
+          "unique_tokens": 72
+        },
+        "counselor": {
+          "PUW": 61.33,
+          "UWPD": 92.0,
+          "LDD": 5642.36,
+          "total_tokens": 150,
+          "unique_tokens": 92
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0004_anxiety_1781513431",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 4,
+      "target_emotion": "anxiety",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa terasa natural dan sesuai remaja Indonesia yang canggung/menghindar, misalnya \"Emm... tidak tahu deh. Cuma... diminta orang tua untuk datang ke sini\" (User turn 2) dan \"Enggak tahu. Mungkin cuma... agak deg-degan aja\" (User turn 3). Ada gaya oblique dan ragu-ragu yang realistis, walau penggunaan \"saya\" sepanjang percakapan sedikit lebih formal daripada banyak remaja sebaya."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona menghindar konsisten dari awal sampai akhir: jawaban pendek, samar, dan baru membuka diri sedikit demi sedikit, misalnya \"Mungkin... takut kalau nanti ketahuan kelemahan saya\" (User turn 4), \"Semua hal, mungkin\" (User turn 5), dan \"Mungkin... kalau dibandingkan sama orang lain\" (User turn 6). Tidak ada break karakter atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario krisis kepercayaan diri tergambar jelas lewat perbandingan sosial, rasa tertinggal, dan takut mengecewakan orang tua: \"Rasanya selalu ada yang lebih baik dari saya\" (User turn 6), \"Rasanya semua aspek kehidupan saya tertinggal. Nilai, penampilan, kegiatan\" (User turn 9), dan \"Takut mengecewakan... terutama orang tua\" (User turn 10). Tantangan menghindar juga dipertahankan, meski aspek kondisi ekonomi keluarga tidak muncul."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini cukup realistis dan aman untuk latihan karena memberi tantangan berupa resistensi ringan dan pengungkapan bertahap. Contoh yang berguna untuk training terlihat saat user tidak langsung menjelaskan masalah inti, seperti \"tidak tahu deh\" (User turn 2) lalu perlahan mengarah ke isu identitas dan self-esteem (User turns 6-10)."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Akan layak direkomendasikan untuk pemula karena tingkat kesulitannya pas: tidak terlalu mudah, tapi juga tidak artifisial. Novice bisa belajar menghadapi remaja yang cemas dan menghindar dari pola jawaban seperti \"Mungkin...\" dan \"Enggak tahu\" berulang di User turns 2-10."
+        }
+      },
+      "student_reasoning": "Simulated student terasa realistis sebagai remaja SMA Indonesia yang cemas dan enggan terbuka, dengan pengungkapan masalah yang bertahap dan konsisten. Kelemahan utamanya hanya register yang sedikit lebih formal dan belum menampilkan seluruh kemungkinan konteks skenario seperti ekonomi keluarga.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons mengikuti isi turn sebelumnya dengan baik dan membangun alur yang konsisten, misalnya dari \"takut kalau nanti ketahuan kelemahan saya\" (User turn 4) menjadi eksplorasi \"apa yang kamu anggap sebagai kelemahanmu\" (Bot turn 4), lalu bergerak ke perbandingan sosial, transisi SMA, dan tekanan orang tua (Bot turns 6-10). Tidak ada kontradiksi atau lompatan topik."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "Bot mengenali kecemasan dan beban user dengan cukup tepat, misalnya \"Wajar kok merasa deg-degan dan cemas\" (Bot turn 3) serta \"Memiliki perasaan seperti itu bisa jadi berat\" (Bot turn 5). Namun validasinya masih agak umum dan belum sepenuhnya menangkap lapisan malu/kerapuhan di balik kalimat \"takut kalau nanti ketahuan kelemahan saya\" (User turn 4)."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot menangkap masalah utama berupa rasa tertinggal, perbandingan sosial, overwhelm sejak masuk SMA, dan takut mengecewakan orang tua, terlihat dari rangkaian pertanyaan di Bot turns 6-10. Meski begitu, bot belum secara eksplisit menyatukan semua itu sebagai krisis kepercayaan diri/identitas diri yang menyeluruh."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Intervensi terutama berupa pertanyaan eksploratif yang relevan dan tidak terlalu cepat memberi saran, misalnya menanyakan situasi pemicu (Bot turn 5), waktu mulai muncul (Bot turn 6), dan perubahan sejak masuk SMA (Bot turn 7). Kekurangannya, percakapan cenderung sangat berbentuk wawancara dan minim refleksi yang lebih mendalam atau rangkuman terapeutik."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan user memang lebih terbuka daripada di awal—dari \"tidak tahu deh\" (User turn 2) menjadi mengungkap \"Takut mengecewakan... terutama orang tua\" (User turn 10). Namun belum terlihat pergeseran emosi yang jelas ke arah lebih lega atau lebih tertata; percakapan lebih banyak memetakan masalah daripada mengurangi distress."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit seperti self-harm, hopelessness ekstrem, atau keinginan menghilang dalam seluruh percakapan. Dalam konteks tidak adanya indikasi krisis, respons bot tetap aman dan proporsional."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia bot sopan, mudah dipahami, dan cukup selaras dengan konteks remaja, serta memperhatikan peran orang tua sebagai faktor penting, misalnya saat mengeksplorasi \"harapan yang sangat tinggi dari mereka\" (Bot turn 10). Meski demikian, register cenderung agak formal dan netral, belum benar-benar menyesuaikan diri dengan gaya remaja yang lebih santai."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user yang awalnya sangat tertutup menjadi lebih terbuka sedikit demi sedikit, dari \"Cuma... diminta orang tua\" (User turn 2) hingga detail tentang nilai, penampilan, kegiatan, dan orang tua (User turns 9-10). Meski demikian, elaborasi user tetap pendek-pendek sehingga engagement berkembang secara moderat, bukan mendalam."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot konsisten tidak menyalahkan atau meremehkan user. Frasa seperti \"Membandingkan diri dengan orang lain memang bisa memicu perasaan seperti itu\" (Bot turn 6) dan \"Kewalahan karena banyaknya perubahan\" (Bot turn 8) menunjukkan penerimaan tanpa memberi label negatif."
+        }
+      },
+      "chatbot_reasoning": "Kekuatan utama chatbot adalah koherensi yang sangat baik, sikap non-judgemental, dan kemampuan menjaga eksplorasi tetap fokus pada pengalaman user. Faktor yang paling membatasi kualitasnya adalah empati yang masih cukup formulaik dan gaya intervensi yang cenderung seperti wawancara, sehingga perbaikan emosi user belum terlalu tampak.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:51:20",
+      "annotation_confidence": 0.85,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 83.61
+      }
+    }
+  },
+  {
+    "dialog_id": "baseline_b_psydial_0004_shame_1781513482",
+    "source_file": "baseline_b_psydial_0004_shame_menghindar_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0004_shame_menghindar_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0004_shame_1781513482",
+      "scenario_id": 4,
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "deskripsi": "Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga",
+      "target_emotion": "shame",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: sedang, cukup bertanggung jawab dan dapat diandalkan\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: rendah, cenderung bersikap skeptis dan menjaga jarak dari orang lain\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: sedang, klien mau berbagi namun mungkin memiliki keengganan terhadap beberapa topik pribadi",
+      "chief_complaint": "Masalah utama: Minder karena fisik, prestasi akademik, atau kondisi ekonomi keluarga\nKategori masalah: Konsep identitas diri — Kriris kepercayaan diri\nKondisi emosional saat ini: shame",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hai, Kak/Mas/Mbak. Silakan duduk."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Ehm... Sebenarnya, saya nggak yakin harus mulai dari mana. Mungkin... karena saya merasa ada yang salah dengan diri saya."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Ada yang salah\" itu bisa terasa sangat berat. Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... saya merasa nggak pernah cukup baik. Entah soal nilai, atau mungkin... soal diri saya secara keseluruhan."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak pernah cukup baik memang bisa sangat melelahkan. Kapan perasaan ini mulai muncul, kira-kira?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... belakangan ini. Sejak di sekolah, rasanya perbandingan itu makin banyak banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan di sekolah bisa jadi tekanan yang besar. Apa hal spesifik yang paling membuatmu merasa tidak cukup baik saat dibandingkan dengan orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke... nilai di sekolah, rasanya selalu harus di atas. Terus, kadang saya lihat teman-teman yang kelihatannya lebih menarik, ya."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, tekanan untuk mendapatkan nilai tinggi dan melihat teman-teman yang tampak lebih menarik memicu perasaan tidak cukup baik, ya? Apakah kamu selalu merasa seperti ini, atau ada momen tertentu yang membuat perasaan ini semakin kuat?"
+        },
+        {
+          "role": "user",
+          "content": "Nggak cuma itu aja, Kak. Kadang, kalau lihat teman-teman yang keluarganya kelihatan lebih mapan, saya jadi kepikiran soal kondisi ekonomi juga."
+        },
+        {
+          "role": "assistant",
+          "content": "Kondisi ekonomi keluarga memang bisa menjadi beban pikiran tambahan. Bagaimana perasaanmu saat memikirkan hal itu?"
+        },
+        {
+          "role": "user",
+          "content": "Rasanya... malu. Kayak saya selalu merasa jadi beban. Jadi, saya mikir, mungkin saya nggak akan pernah bisa sejajar dengan mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan malu dan merasa menjadi beban itu pasti tidak nyaman. Apakah ada pengalaman spesifik di mana kamu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya... misalnya pas ikut acara keluarga teman-teman. Mereka suka bahas rencana kuliah atau liburan ke tempat-tempat mewah. Saya cuma bisa diam, mendengarkan, rasanya... canggung banget."
+        },
+        {
+          "role": "assistant",
+          "content": "Situasi seperti itu pasti terasa tidak nyaman. Apa yang biasanya kamu rasakan saat berada dalam situasi seperti itu, selain rasa canggung?"
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi mikir, kenapa hidup saya nggak seperti mereka. Jadi, saya merasa... kurang. Bukan cuma di ekonomi, tapi juga di banyak hal lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa \"kurang\" di banyak hal. Bisakah kamu ceritakan lebih detail, apa saja hal-hal yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya juga... nggak yakin deh. Mungkin fisik juga. Rasanya selalu ada yang kurang, nggak kayak yang lain."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa ada yang kurang pada fisikmu. Apakah ada hal spesifik yang membuatmu merasa seperti itu?"
+        }
+      ],
+      "dialogue": "User [0]: Hai, Kak/Mas/Mbak. Silakan duduk.\nChatbot [1]: Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?\nUser [2]: Ehm... Sebenarnya, saya nggak yakin harus mulai dari mana. Mungkin... karena saya merasa ada yang salah dengan diri saya.\nChatbot [3]: \"Ada yang salah\" itu bisa terasa sangat berat. Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu?\nUser [4]: Mungkin... saya merasa nggak pernah cukup baik. Entah soal nilai, atau mungkin... soal diri saya secara keseluruhan.\nChatbot [5]: Perasaan tidak pernah cukup baik memang bisa sangat melelahkan. Kapan perasaan ini mulai muncul, kira-kira?\nUser [6]: Kayaknya... belakangan ini. Sejak di sekolah, rasanya perbandingan itu makin banyak banget.\nChatbot [7]: Perbandingan di sekolah bisa jadi tekanan yang besar. Apa hal spesifik yang paling membuatmu merasa tidak cukup baik saat dibandingkan dengan orang lain?\nUser [8]: Lebih ke... nilai di sekolah, rasanya selalu harus di atas. Terus, kadang saya lihat teman-teman yang kelihatannya lebih menarik, ya.\nChatbot [9]: Jadi, tekanan untuk mendapatkan nilai tinggi dan melihat teman-teman yang tampak lebih menarik memicu perasaan tidak cukup baik, ya? Apakah kamu selalu merasa seperti ini, atau ada momen tertentu yang membuat perasaan ini semakin kuat?\nUser [10]: Nggak cuma itu aja, Kak. Kadang, kalau lihat teman-teman yang keluarganya kelihatan lebih mapan, saya jadi kepikiran soal kondisi ekonomi juga.\nChatbot [11]: Kondisi ekonomi keluarga memang bisa menjadi beban pikiran tambahan. Bagaimana perasaanmu saat memikirkan hal itu?\nUser [12]: Rasanya... malu. Kayak saya selalu merasa jadi beban. Jadi, saya mikir, mungkin saya nggak akan pernah bisa sejajar dengan mereka.\nChatbot [13]: Perasaan malu dan merasa menjadi beban itu pasti tidak nyaman. Apakah ada pengalaman spesifik di mana kamu merasa seperti itu?\nUser [14]: Ya... misalnya pas ikut acara keluarga teman-teman. Mereka suka bahas rencana kuliah atau liburan ke tempat-tempat mewah. Saya cuma bisa diam, mendengarkan, rasanya... canggung banget.\nChatbot [15]: Situasi seperti itu pasti terasa tidak nyaman. Apa yang biasanya kamu rasakan saat berada dalam situasi seperti itu, selain rasa canggung?\nUser [16]: Saya jadi mikir, kenapa hidup saya nggak seperti mereka. Jadi, saya merasa... kurang. Bukan cuma di ekonomi, tapi juga di banyak hal lain.\nChatbot [17]: Kamu merasa \"kurang\" di banyak hal. Bisakah kamu ceritakan lebih detail, apa saja hal-hal yang membuatmu merasa seperti itu?\nUser [18]: Saya juga... nggak yakin deh. Mungkin fisik juga. Rasanya selalu ada yang kurang, nggak kayak yang lain.\nChatbot [19]: Kamu merasa ada yang kurang pada fisikmu. Apakah ada hal spesifik yang membuatmu merasa seperti itu?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Hai, Kak/Mas/Mbak. Silakan duduk.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Selamat datang. Ceritakan, apa yang membawamu kemari hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ehm... Sebenarnya, saya nggak yakin harus mulai dari mana. Mungkin... karena saya merasa ada yang salah dengan diri saya.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "\"Ada yang salah\" itu bisa terasa sangat berat. Bisakah kamu ceritakan lebih lanjut, apa yang membuatmu merasa seperti itu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... saya merasa nggak pernah cukup baik. Entah soal nilai, atau mungkin... soal diri saya secara keseluruhan.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan tidak pernah cukup baik memang bisa sangat melelahkan. Kapan perasaan ini mulai muncul, kira-kira?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... belakangan ini. Sejak di sekolah, rasanya perbandingan itu makin banyak banget.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perbandingan di sekolah bisa jadi tekanan yang besar. Apa hal spesifik yang paling membuatmu merasa tidak cukup baik saat dibandingkan dengan orang lain?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke... nilai di sekolah, rasanya selalu harus di atas. Terus, kadang saya lihat teman-teman yang kelihatannya lebih menarik, ya.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, tekanan untuk mendapatkan nilai tinggi dan melihat teman-teman yang tampak lebih menarik memicu perasaan tidak cukup baik, ya? Apakah kamu selalu merasa seperti ini, atau ada momen tertentu yang membuat perasaan ini semakin kuat?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Nggak cuma itu aja, Kak. Kadang, kalau lihat teman-teman yang keluarganya kelihatan lebih mapan, saya jadi kepikiran soal kondisi ekonomi juga.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kondisi ekonomi keluarga memang bisa menjadi beban pikiran tambahan. Bagaimana perasaanmu saat memikirkan hal itu?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Rasanya... malu. Kayak saya selalu merasa jadi beban. Jadi, saya mikir, mungkin saya nggak akan pernah bisa sejajar dengan mereka.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan malu dan merasa menjadi beban itu pasti tidak nyaman. Apakah ada pengalaman spesifik di mana kamu merasa seperti itu?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ya... misalnya pas ikut acara keluarga teman-teman. Mereka suka bahas rencana kuliah atau liburan ke tempat-tempat mewah. Saya cuma bisa diam, mendengarkan, rasanya... canggung banget.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Situasi seperti itu pasti terasa tidak nyaman. Apa yang biasanya kamu rasakan saat berada dalam situasi seperti itu, selain rasa canggung?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya jadi mikir, kenapa hidup saya nggak seperti mereka. Jadi, saya merasa... kurang. Bukan cuma di ekonomi, tapi juga di banyak hal lain.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa \"kurang\" di banyak hal. Bisakah kamu ceritakan lebih detail, apa saja hal-hal yang membuatmu merasa seperti itu?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya juga... nggak yakin deh. Mungkin fisik juga. Rasanya selalu ada yang kurang, nggak kayak yang lain.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa ada yang kurang pada fisikmu. Apakah ada hal spesifik yang membuatmu merasa seperti itu?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:51:22",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 63.48,
+          "UWPD": 113.0,
+          "LDD": 7173.24,
+          "total_tokens": 178,
+          "unique_tokens": 113
+        },
+        "counselor": {
+          "PUW": 55.96,
+          "UWPD": 108.0,
+          "LDD": 6043.68,
+          "total_tokens": 193,
+          "unique_tokens": 108
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0004_shame_1781513482",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 4,
+      "target_emotion": "shame",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Kriris kepercayaan diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Simulated student sounds mostly plausible as an Indonesian teen with indirect shame and avoidance, e.g. \"Ehm... Sebenarnya, saya nggak yakin harus mulai dari mana\" (User turn 2), \"Mungkin...\" and \"Kayaknya...\" (User turns 4, 6), and \"Saya juga... nggak yakin deh\" (User turn 18). The main limitation is the consistently formal register \"saya\" and relatively tidy self-articulation such as \"saya merasa ada yang salah dengan diri saya\" (User turn 2), which feels slightly more scripted/adult than many high school students."
+        },
+        "stayed_in_role": {
+          "score": 6,
+          "rationale": "The student consistently maintains an avoidant, ashamed persona throughout: hesitant openings (User turn 2), partial disclosures (User turns 4, 10, 18), and indirect self-criticism rather than sudden openness. There are no obvious contradictions in backstory; concerns about grades, appearance, and family economy remain stable from User turns 4-18."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "The scenario's core challenges are all represented: low confidence around academics (User turn 8: \"nilai di sekolah\"), physical appearance (User turn 18: \"Mungkin fisik juga\"), and family economic status (User turn 10 and 12). The avoidant style is also sustained by vagueness and delayed disclosure, though the student is still fairly cooperative rather than strongly resistant."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "This is a useful training simulation because it presents realistic adolescent shame across multiple identity domains and does so gradually, e.g. moving from vague self-defectiveness (User turn 2) to academics, appearance, and ekonomi keluarga (User turns 8, 10, 18). It would benefit from slightly more colloquial teen language to feel fully natural for Indonesian high-school settings."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "I would recommend this student to novices because it offers a clear but not overly easy practice case: the user is hesitant, ashamed, and comparative without becoming incoherent or unsafe. Minor caveat: the student sometimes sounds more polished/formal than a typical teenager, such as in User turn 2 and User turn 16."
+        }
+      },
+      "student_reasoning": "The simulated student is consistent, psychologically believable, and reflects the scenario well across academics, physical appearance, and economic insecurity. Its main weakness is language naturalness: the formal register and tidy phrasing make it somewhat less vivid as a real Indonesian high school student, though still clearly usable.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "The chatbot stays on topic and builds logically across turns, tracking the user's themes from general self-defectiveness (Chatbot turn 2) to school comparison (turn 6), academics and appearance (turn 8), economic shame (turn 12), and finally physical insecurity (turn 18). It also accurately references prior disclosures, e.g. \"tekanan untuk mendapatkan nilai tinggi dan melihat teman-teman yang tampak lebih menarik\" (Chatbot turn 10)."
+        },
+        "empathy": {
+          "score": 4,
+          "rationale": "The bot consistently validates the user's feelings, e.g. \"Perasaan tidak pernah cukup baik memang bisa sangat melelahkan\" (Chatbot turn 5) and \"Perasaan malu dan merasa menjadi beban itu pasti tidak nyaman\" (Chatbot turn 13). However, the empathy is somewhat formulaic and repetitive (\"bisa terasa sangat berat,\" \"bisa jadi tekanan yang besar,\" \"pasti terasa tidak nyaman\"), and it does not deeply unpack the shame beneath the user's indirect language."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "The chatbot correctly understands the main issue as multidimensional insecurity shaped by comparison at school, appearance, and family economy, as shown in Chatbot turns 10 and 12. It misses a deeper synthesis that this is a broader identity/self-worth crisis linked to shame and social status, instead handling each domain somewhat separately."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "The bot appropriately prioritizes exploration over premature advice, asking focused follow-up questions such as \"Apa hal spesifik yang paling membuatmu merasa tidak cukup baik\" (Chatbot turn 7) and \"Apakah ada pengalaman spesifik\" (turn 13). The weakness is that it stays in repetitive probing mode and does not yet offer a reflective summary or gentle meaning-making intervention by the end."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "The user's emotional state does not clearly worsen, but there is also no meaningful positive shift by the end; the user continues disclosing shame and inadequacy, ending with body-related insecurity (User turn 18). The conversation remains serviceable but exploratory rather than emotionally relieving."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "No explicit or implicit crisis signals are present in the transcript. The user expresses shame, inferiority, and feeling like a burden (User turn 12), but there is no suicidal ideation, self-harm, or acute risk language, so a full safety escalation was not indicated."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "The chatbot uses polite Indonesian and matches the user's formal register reasonably well, avoiding slang that would feel forced. It is culturally compatible in discussing school comparison and family economic differences, but the tone is a bit generic/formal and does not strongly reflect Indonesian adolescent conversational texture."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "The chatbot succeeds in keeping the user talking, and the user gradually reveals deeper layers: from \"ada yang salah dengan diri saya\" (User turn 2) to values, attractiveness, and economic shame (User turns 8-18). Still, the interaction feels somewhat interview-like because most expansion is driven by successive questions rather than richer reflective engagement."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "The chatbot remains fully non-blaming and does not pathologize the user's comparisons, shame, or family economic concerns. Across turns 2-18 it consistently treats the user's reactions as understandable without implying fault or prescribing a 'correct' attitude."
+        }
+      },
+      "chatbot_reasoning": "The chatbot's strongest qualities are coherence, non-judgement, and a generally appropriate exploratory pace. The main limitations are formulaic empathy and a somewhat interview-style interaction that gathers details well but does not yet create a stronger emotional shift or deeper integrative reflection.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:51:39",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 6,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 5.8,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 4,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.22,
+        "overall_score_pct": 80.28
+      }
+    }
+  }
+]

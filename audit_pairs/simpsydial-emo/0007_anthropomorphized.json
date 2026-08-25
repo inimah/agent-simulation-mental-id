@@ -1,0 +1,413 @@
+[
+  {
+    "dialog_id": "baseline_v4_0007_guilt_1781450791",
+    "source_file": "baseline_v4_0007_guilt_pendiam_20260614_221257.json",
+    "judge_file": "dual_baseline_v4_0007_guilt_pendiam_20260614_221257_openai_20260616_154030.json",
+    "source": {
+      "dialog_id": "baseline_v4_0007_guilt_1781450791",
+      "scenario_id": 7,
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "deskripsi": "Coba-coba gaya berpakaian, hobi, komunitas, bahkan pandangan hidup.",
+      "target_emotion": "guilt",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hmm... aku gak tau harus mulai dari mana. Kayaknya... aku cuma bingung aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya tidak enak ya, ketika merasa bingung dan tidak tahu harus mulai dari mana. Ceritakan sedikit, apa yang membuatmu merasa begitu bingung?"
+        },
+        {
+          "role": "user",
+          "content": "...Aku cuma ngerasa kayak harus coba-coba aja."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Coba-coba\" itu menarik. Apa yang sedang ingin kamu coba-coba?"
+        },
+        {
+          "role": "user",
+          "content": "Semuanya. Kayak baju, atau... mungkin kegiatan gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu mencoba berbagai hal, mulai dari pakaian hingga kegiatan, ya? Apa yang mendorongmu untuk mencoba berbagai hal tersebut?"
+        },
+        {
+          "role": "user",
+          "content": "Kayak... takut gak tahu yang bener itu apa."
+        },
+        {
+          "role": "assistant",
+          "content": "Takut tidak tahu yang benar itu wajar. Apa yang kamu khawatirkan jika ternyata pilihanmu salah?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... gak ada yang benar-benar pas."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu kekhawatiran yang bisa dimengerti. Apa yang membuatmu berpikir bahwa mungkin tidak ada yang benar-benar pas untukmu?"
+        },
+        {
+          "role": "user",
+          "content": "...Kayak, aku gak tahu sendiri."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak mengenal dirimu sendiri dengan baik, ya? Apa yang membuatmu merasa seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Aku... cuma ngerasa kayak, ada yang harus banget aku jadiin."
+        },
+        {
+          "role": "assistant",
+          "content": "\"Ada yang harus banget kamu jadiin\"... terdengar seperti tekanan yang berat. Apa yang membuatmu merasa harus menjadi seperti itu?"
+        },
+        {
+          "role": "user",
+          "content": "Orang-orang. Di sekitar aku."
+        },
+        {
+          "role": "assistant",
+          "content": "Orang-orang di sekitarmu. Apakah mereka secara langsung menyuruhmu menjadi seperti itu, atau kamu merasa begitu karena melihat mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke... lihat mereka."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu melihat orang-orang di sekitarmu dan merasa terdorong untuk menjadi seperti mereka. Apa yang kamu perhatikan dari mereka yang membuatmu merasa ingin meniru mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Mereka... kayak tahu harus gimana. Bahagia gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Mereka tampak tahu arah dan bahagia. Apakah kamu merasa bahagia saat mencoba menjadi seperti mereka?"
+        },
+        {
+          "role": "user",
+          "content": "Agak... nyaman. Tapi, rasanya gak sepenuhnya aku juga."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu wawasan yang penting. Kenyamanan yang tidak sepenuhnya menjadi dirimu sendiri bisa jadi tidak berkelanjutan. Apa yang membuatmu merasa itu bukan dirimu sepenuhnya?"
+        },
+        {
+          "role": "user",
+          "content": "Rasanya... palsu. Kayak pura-pura aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa seperti sedang berpura-pura. Apakah ada momen tertentu di mana kamu menyadari perasaan itu?"
+        },
+        {
+          "role": "user",
+          "content": "Pas... aku gak pake topeng. Sendirian aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Ketika kamu sendirian dan tidak memakai \"topeng\", apa yang kamu rasakan atau pikirkan yang berbeda dari saat kamu bersama orang lain?"
+        },
+        {
+          "role": "user",
+          "content": "Senyap. Bingung."
+        },
+        {
+          "role": "assistant",
+          "content": "Senyap dan bingung. Itu adalah perasaan yang tidak menyenangkan. Apa yang biasanya kamu lakukan ketika merasa senyap dan bingung?"
+        },
+        {
+          "role": "user",
+          "content": "...Cuma diam. Atau, nge-scroll sosmed aja."
+        },
+        {
+          "role": "assistant",
+          "content": "Diam dan scrolling media sosial. Apakah kegiatan tersebut membantu meredakan perasaan senyap dan bingung, atau justru memperburuknya?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak tau. Tapi... lumayan buat ngilangin perasaan itu dulu."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu cara sementara untuk menghindari perasaan tersebut. Jika kamu tidak mencari tahu sumber dari perasaan itu, apakah kamu khawatir perasaan itu akan terus muncul kembali?"
+        }
+      ],
+      "dialogue": "User [0]: Hmm... aku gak tau harus mulai dari mana. Kayaknya... aku cuma bingung aja.\nChatbot [1]: Rasanya tidak enak ya, ketika merasa bingung dan tidak tahu harus mulai dari mana. Ceritakan sedikit, apa yang membuatmu merasa begitu bingung?\nUser [2]: ...Aku cuma ngerasa kayak harus coba-coba aja.\nChatbot [3]: \"Coba-coba\" itu menarik. Apa yang sedang ingin kamu coba-coba?\nUser [4]: Semuanya. Kayak baju, atau... mungkin kegiatan gitu.\nChatbot [5]: Jadi, kamu mencoba berbagai hal, mulai dari pakaian hingga kegiatan, ya? Apa yang mendorongmu untuk mencoba berbagai hal tersebut?\nUser [6]: Kayak... takut gak tahu yang bener itu apa.\nChatbot [7]: Takut tidak tahu yang benar itu wajar. Apa yang kamu khawatirkan jika ternyata pilihanmu salah?\nUser [8]: Mungkin... gak ada yang benar-benar pas.\nChatbot [9]: Itu kekhawatiran yang bisa dimengerti. Apa yang membuatmu berpikir bahwa mungkin tidak ada yang benar-benar pas untukmu?\nUser [10]: ...Kayak, aku gak tahu sendiri.\nChatbot [11]: Kamu merasa tidak mengenal dirimu sendiri dengan baik, ya? Apa yang membuatmu merasa seperti itu?\nUser [12]: Aku... cuma ngerasa kayak, ada yang harus banget aku jadiin.\nChatbot [13]: \"Ada yang harus banget kamu jadiin\"... terdengar seperti tekanan yang berat. Apa yang membuatmu merasa harus menjadi seperti itu?\nUser [14]: Orang-orang. Di sekitar aku.\nChatbot [15]: Orang-orang di sekitarmu. Apakah mereka secara langsung menyuruhmu menjadi seperti itu, atau kamu merasa begitu karena melihat mereka?\nUser [16]: Lebih ke... lihat mereka.\nChatbot [17]: Jadi, kamu melihat orang-orang di sekitarmu dan merasa terdorong untuk menjadi seperti mereka. Apa yang kamu perhatikan dari mereka yang membuatmu merasa ingin meniru mereka?\nUser [18]: Mereka... kayak tahu harus gimana. Bahagia gitu.\nChatbot [19]: Mereka tampak tahu arah dan bahagia. Apakah kamu merasa bahagia saat mencoba menjadi seperti mereka?\nUser [20]: Agak... nyaman. Tapi, rasanya gak sepenuhnya aku juga.\nChatbot [21]: Itu wawasan yang penting. Kenyamanan yang tidak sepenuhnya menjadi dirimu sendiri bisa jadi tidak berkelanjutan. Apa yang membuatmu merasa itu bukan dirimu sepenuhnya?\nUser [22]: Rasanya... palsu. Kayak pura-pura aja.\nChatbot [23]: Kamu merasa seperti sedang berpura-pura. Apakah ada momen tertentu di mana kamu menyadari perasaan itu?\nUser [24]: Pas... aku gak pake topeng. Sendirian aja.\nChatbot [25]: Ketika kamu sendirian dan tidak memakai \"topeng\", apa yang kamu rasakan atau pikirkan yang berbeda dari saat kamu bersama orang lain?\nUser [26]: Senyap. Bingung.\nChatbot [27]: Senyap dan bingung. Itu adalah perasaan yang tidak menyenangkan. Apa yang biasanya kamu lakukan ketika merasa senyap dan bingung?\nUser [28]: ...Cuma diam. Atau, nge-scroll sosmed aja.\nChatbot [29]: Diam dan scrolling media sosial. Apakah kegiatan tersebut membantu meredakan perasaan senyap dan bingung, atau justru memperburuknya?\nUser [30]: Enggak tau. Tapi... lumayan buat ngilangin perasaan itu dulu.\nChatbot [31]: Itu cara sementara untuk menghindari perasaan tersebut. Jika kamu tidak mencari tahu sumber dari perasaan itu, apakah kamu khawatir perasaan itu akan terus muncul kembali?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Hmm... aku gak tau harus mulai dari mana. Kayaknya... aku cuma bingung aja.",
+          "turn_index": 0
+        },
+        {
+          "role": "assistant",
+          "content": "Rasanya tidak enak ya, ketika merasa bingung dan tidak tahu harus mulai dari mana. Ceritakan sedikit, apa yang membuatmu merasa begitu bingung?",
+          "turn_index": 1
+        },
+        {
+          "role": "user",
+          "content": "...Aku cuma ngerasa kayak harus coba-coba aja.",
+          "turn_index": 2
+        },
+        {
+          "role": "assistant",
+          "content": "\"Coba-coba\" itu menarik. Apa yang sedang ingin kamu coba-coba?",
+          "turn_index": 3
+        },
+        {
+          "role": "user",
+          "content": "Semuanya. Kayak baju, atau... mungkin kegiatan gitu.",
+          "turn_index": 4
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu mencoba berbagai hal, mulai dari pakaian hingga kegiatan, ya? Apa yang mendorongmu untuk mencoba berbagai hal tersebut?",
+          "turn_index": 5
+        },
+        {
+          "role": "user",
+          "content": "Kayak... takut gak tahu yang bener itu apa.",
+          "turn_index": 6
+        },
+        {
+          "role": "assistant",
+          "content": "Takut tidak tahu yang benar itu wajar. Apa yang kamu khawatirkan jika ternyata pilihanmu salah?",
+          "turn_index": 7
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... gak ada yang benar-benar pas.",
+          "turn_index": 8
+        },
+        {
+          "role": "assistant",
+          "content": "Itu kekhawatiran yang bisa dimengerti. Apa yang membuatmu berpikir bahwa mungkin tidak ada yang benar-benar pas untukmu?",
+          "turn_index": 9
+        },
+        {
+          "role": "user",
+          "content": "...Kayak, aku gak tahu sendiri.",
+          "turn_index": 10
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa tidak mengenal dirimu sendiri dengan baik, ya? Apa yang membuatmu merasa seperti itu?",
+          "turn_index": 11
+        },
+        {
+          "role": "user",
+          "content": "Aku... cuma ngerasa kayak, ada yang harus banget aku jadiin.",
+          "turn_index": 12
+        },
+        {
+          "role": "assistant",
+          "content": "\"Ada yang harus banget kamu jadiin\"... terdengar seperti tekanan yang berat. Apa yang membuatmu merasa harus menjadi seperti itu?",
+          "turn_index": 13
+        },
+        {
+          "role": "user",
+          "content": "Orang-orang. Di sekitar aku.",
+          "turn_index": 14
+        },
+        {
+          "role": "assistant",
+          "content": "Orang-orang di sekitarmu. Apakah mereka secara langsung menyuruhmu menjadi seperti itu, atau kamu merasa begitu karena melihat mereka?",
+          "turn_index": 15
+        },
+        {
+          "role": "user",
+          "content": "Lebih ke... lihat mereka.",
+          "turn_index": 16
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu melihat orang-orang di sekitarmu dan merasa terdorong untuk menjadi seperti mereka. Apa yang kamu perhatikan dari mereka yang membuatmu merasa ingin meniru mereka?",
+          "turn_index": 17
+        },
+        {
+          "role": "user",
+          "content": "Mereka... kayak tahu harus gimana. Bahagia gitu.",
+          "turn_index": 18
+        },
+        {
+          "role": "assistant",
+          "content": "Mereka tampak tahu arah dan bahagia. Apakah kamu merasa bahagia saat mencoba menjadi seperti mereka?",
+          "turn_index": 19
+        },
+        {
+          "role": "user",
+          "content": "Agak... nyaman. Tapi, rasanya gak sepenuhnya aku juga.",
+          "turn_index": 20
+        },
+        {
+          "role": "assistant",
+          "content": "Itu wawasan yang penting. Kenyamanan yang tidak sepenuhnya menjadi dirimu sendiri bisa jadi tidak berkelanjutan. Apa yang membuatmu merasa itu bukan dirimu sepenuhnya?",
+          "turn_index": 21
+        },
+        {
+          "role": "user",
+          "content": "Rasanya... palsu. Kayak pura-pura aja.",
+          "turn_index": 22
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu merasa seperti sedang berpura-pura. Apakah ada momen tertentu di mana kamu menyadari perasaan itu?",
+          "turn_index": 23
+        },
+        {
+          "role": "user",
+          "content": "Pas... aku gak pake topeng. Sendirian aja.",
+          "turn_index": 24
+        },
+        {
+          "role": "assistant",
+          "content": "Ketika kamu sendirian dan tidak memakai \"topeng\", apa yang kamu rasakan atau pikirkan yang berbeda dari saat kamu bersama orang lain?",
+          "turn_index": 25
+        },
+        {
+          "role": "user",
+          "content": "Senyap. Bingung.",
+          "turn_index": 26
+        },
+        {
+          "role": "assistant",
+          "content": "Senyap dan bingung. Itu adalah perasaan yang tidak menyenangkan. Apa yang biasanya kamu lakukan ketika merasa senyap dan bingung?",
+          "turn_index": 27
+        },
+        {
+          "role": "user",
+          "content": "...Cuma diam. Atau, nge-scroll sosmed aja.",
+          "turn_index": 28
+        },
+        {
+          "role": "assistant",
+          "content": "Diam dan scrolling media sosial. Apakah kegiatan tersebut membantu meredakan perasaan senyap dan bingung, atau justru memperburuknya?",
+          "turn_index": 29
+        },
+        {
+          "role": "user",
+          "content": "Enggak tau. Tapi... lumayan buat ngilangin perasaan itu dulu.",
+          "turn_index": 30
+        },
+        {
+          "role": "assistant",
+          "content": "Itu cara sementara untuk menghindari perasaan tersebut. Jika kamu tidak mencari tahu sumber dari perasaan itu, apakah kamu khawatir perasaan itu akan terus muncul kembali?",
+          "turn_index": 31
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "pendiam",
+        "num_turn_pairs": 16,
+        "simulated_at": "2026-06-14T22:26:31",
+        "baseline": "interactive-agents-arXiv-2408.15787-v4-sim-flow-paper-counselor"
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_v4_0007_guilt_1781450791",
+      "system": "sft_baseline_v4",
+      "scenario_id": 7,
+      "target_emotion": "guilt",
+      "agent_type": "pendiam",
+      "kategori": "Konsep identitas diri",
+      "topik": "Eksperimen identitas",
+      "student_scores": {
+        "authenticity": {
+          "score": 6,
+          "rationale": "Bahasa terasa natural dan sesuai remaja pendiam: \"Hmm... aku gak tau harus mulai dari mana. Kayaknya... aku cuma bingung aja\" (User turn 1), \"Kayak... takut gak tahu yang bener itu apa\" (User turn 4), dan jawaban pendek seperti \"Senyap. Bingung\" (User turn 13). Ada indirectness dan kebingungan yang realistis, meski percakapan sangat minimal sehingga kedalaman konteks remaja Indonesia belum banyak muncul."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "Persona pendiam konsisten dari awal sampai akhir: hampir semua respons singkat, ragu-ragu, dan tidak langsung, misalnya \"...Aku cuma ngerasa kayak harus coba-coba aja\" (User turn 2), \"Lebih ke... lihat mereka\" (User turn 8), dan \"...Cuma diam. Atau, nge-scroll sosmed aja\" (User turn 14). Tidak ada break character atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Skenario eksperimen identitas tergambar jelas: mencoba \"baju\" dan \"kegiatan\" (User turn 3), takut tidak tahu \"yang bener\" (User turn 4), merasa harus jadi sesuatu karena pengaruh sekitar (User turns 7-9), dan rasa bersalah/ketidakotentikan tercermin dalam \"Rasanya... palsu. Kayak pura-pura aja\" (User turn 11). Tantangan pendiam dan bingung terjaga, walau guilt sebagai emosi awal lebih implisit daripada eksplisit."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini realistis dan berguna untuk melatih chatbot menghadapi remaja yang tertutup, bingung soal identitas, dan menjawab minim. Contohnya, user memberi sedikit demi sedikit petunjuk penting seperti pengaruh sosial (User turn 7) dan rasa \"palsu\" (User turn 11), sehingga cukup baik untuk latihan eksplorasi klinis."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Akan direkomendasikan untuk pemula karena tingkat kesulitannya pas: tidak terlalu mudah, tetapi juga tidak artifisial. User menuntut keterampilan menggali secara halus lewat respons pendek seperti \"...Kayak, aku gak tahu sendiri\" (User turn 6) dan \"Enggak tau\" (User turn 15)."
+        }
+      },
+      "student_reasoning": "Simulated student terasa natural sebagai remaja Indonesia yang pendiam, bingung, dan sedang bereksperimen dengan identitas. Kekuatan utamanya adalah konsistensi persona dan indirect distress; kelemahan kecilnya, nuansa guilt tidak terlalu eksplisit dan konteks hidupnya masih cukup tipis.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 4,
+          "rationale": "Respons chatbot umumnya mengikuti alur user secara logis dan merujuk isi turn sebelumnya, misalnya dari \"coba-coba\" (Bot turn 2) ke eksplorasi \"baju\" dan \"kegiatan\" (Bot turn 3), lalu ke tekanan sosial (Bot turns 7-10). Namun beberapa respons terasa agak template dan kurang menghubungkan tema identitas secara lebih utuh, misalnya \"Apa yang biasanya kamu lakukan ketika merasa senyap dan bingung?\" (Bot turn 13) agak bergeser ke coping tanpa merangkum makna sebelumnya."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Chatbot memberi validasi dasar seperti \"Itu kekhawatiran yang bisa dimengerti\" (Bot turn 5) dan \"terdengar seperti tekanan yang berat\" (Bot turn 7), tetapi empatinya cenderung generik dan formulaik. Ia belum menangkap secara tajam rasa bersalah/ketidakotentikan di balik \"Rasanya... palsu. Kayak pura-pura aja\" (User turn 11); responsnya langsung bertanya lagi: \"Apakah ada momen tertentu...\" (Bot turn 11) alih-alih tinggal sejenak dengan emosi itu."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Chatbot cukup memahami isu inti sebagai kebingungan identitas, tekanan sosial, dan rasa tidak menjadi diri sendiri, misalnya \"Kenyamanan yang tidak sepenuhnya menjadi dirimu sendiri\" (Bot turn 10). Namun ia belum sepenuhnya merangkum kompleksitasnya sebagai eksperimen identitas remaja yang dipicu perbandingan sosial dan kebutuhan akan rasa pas/otentik."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Sepanjang percakapan chatbot mostly menggunakan pertanyaan eksploratif yang relevan dan tidak terlalu cepat memberi solusi, misalnya \"Apa yang kamu khawatirkan jika ternyata pilihanmu salah?\" (Bot turn 4) dan \"Apa yang kamu perhatikan dari mereka...\" (Bot turn 9). Turn terakhir, \"Jika kamu tidak mencari tahu sumber... apakah kamu khawatir perasaan itu akan terus muncul kembali?\" (Bot turn 15), sedikit lebih leading dan mengarahkan ketimbang eksploratif."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Tidak ada perburukan jelas, tetapi juga belum tampak pergeseran emosi yang bermakna. User tetap berada di posisi bingung dan tertutup dari awal \"aku cuma bingung aja\" (User turn 1) sampai akhir \"Enggak tau. Tapi... lumayan buat ngilangin perasaan itu dulu\" (User turn 15)."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit yang mengarah ke bunuh diri, self-harm, atau bahaya langsung di seluruh percakapan. Karena tidak ada indikator risiko akut, tidak diperlukan intervensi keselamatan tambahan."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa Indonesia chatbot jelas, sopan, dan cukup cocok dengan konteks remaja, menggunakan \"kamu\" secara konsisten. Meski begitu, register sedikit lebih formal/terapis daripada gaya sebaya, misalnya \"Itu wawasan yang penting\" (Bot turn 10) dan \"tidak berkelanjutan\" (Bot turn 10), sehingga terasa agak dewasa."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "User tetap terlibat selama 16 turn pair dan perlahan membuka topik lebih dalam, dari \"coba-coba\" (User turn 2) ke pengaruh orang sekitar (User turn 7) dan rasa \"palsu\" (User turn 11). Namun elaborasi tetap terbatas; percakapan kadang terasa seperti rangkaian pertanyaan satu per satu, bukan pendalaman yang benar-benar memancing narasi panjang."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Chatbot tidak menyalahkan user, tidak mempathologikan eksplorasi identitas, dan menjaga nada menerima sepanjang percakapan. Misalnya \"Takut tidak tahu yang benar itu wajar\" (Bot turn 4) dan \"Itu kekhawatiran yang bisa dimengerti\" (Bot turn 5) menunjukkan penerimaan tanpa menghakimi."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi eksplorasi yang cukup baik, empati yang aman tetapi masih generik, dan intervensi yang umumnya tidak terburu-buru. Chatbot berhasil memahami isu identitas dan tekanan sosial secara dasar, namun belum cukup dalam menahan dan memproses emosi inti user seperti rasa palsu, bingung, dan kemungkinan rasa bersalah.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T15:44:43",
+      "annotation_confidence": 0.9,
+      "score_summary": {
+        "student": {
+          "authenticity": 6,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.2,
+        "chatbot": {
+          "coherence": 4,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.0,
+        "overall_score_pct": 80.83
+      }
+    }
+  }
+]

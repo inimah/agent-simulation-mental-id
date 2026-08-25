@@ -1,0 +1,350 @@
+[
+  {
+    "dialog_id": "baseline_b_psydial_0002_sadness_1781513277",
+    "source_file": "baseline_b_psydial_0002_sadness_menghindar_20260615_154616.json",
+    "judge_file": "dual_baseline_b_psydial_0002_sadness_menghindar_20260615_154616_openai_20260616_124931.json",
+    "source": {
+      "dialog_id": "baseline_b_psydial_0002_sadness_1781513277",
+      "scenario_id": 2,
+      "kategori": "Konsep identitas diri",
+      "topik": "Pencarian jati diri",
+      "deskripsi": "Merasa harus memilih “peran” tertentu agar diterima (misalnya jadi anak baik di rumah, tapi rebel di sekolah).",
+      "target_emotion": "sadness",
+      "profile_detail": "Jenis kelamin: [TIDAK DIKETAHUI]\nUsia: [TIDAK DIKETAHUI]\nJenjang pendidikan: SMA\nStatus/Pekerjaan: Pelajar\nStatus pernikahan: Belum menikah\nHubungan keluarga: [TIDAK DIKETAHUI]\nKepribadian Lima Besar:\n - Keterbukaan: rendah, cenderung memilih rutinitas dan enggan mencoba hal baru\n - Ketelitian: rendah, cenderung spontan dan kurang terorganisir\n - Ekstroversi: sedang, cukup nyaman dalam situasi sosial namun juga butuh waktu sendiri\n - Keramahan: sedang, umumnya kooperatif dan mudah bergaul\n - Neurotisisme: tinggi, mudah cemas, sensitif terhadap stres, dan rentan terhadap emosi negatif\nTingkat resistensi terhadap konseling: tinggi, klien tampak ragu-ragu dan cenderung menahan diri untuk mengungkapkan masalah intinya",
+      "chief_complaint": "Masalah utama: Merasa harus memilih “peran” tertentu agar diterima (misalnya jadi anak baik di rumah, tapi rebel di sekolah).\nKategori masalah: Konsep identitas diri — Pencarian jati diri\nKondisi emosional saat ini: sadness",
+      "masked_fields": [
+        "Jenis kelamin",
+        "Usia",
+        "Hubungan keluarga"
+      ],
+      "messages": [
+        {
+          "role": "user",
+          "content": "Halo, Kak. Maaf kalau saya agak telat."
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, santai saja. Ceritakan, apa yang membuatmu ingin berbicara hari ini?"
+        },
+        {
+          "role": "user",
+          "content": "Hmm... entahlah, Kak. Saya cuma merasa agak bingung aja akhir-akhir ini."
+        },
+        {
+          "role": "assistant",
+          "content": "Bingung seperti apa, ya? Apakah ada hal spesifik yang membuatmu merasa begitu?"
+        },
+        {
+          "role": "user",
+          "content": "Ya, bukan... bukan cuma satu hal, Kak. Rasanya kayak semua hal itu campur aduk, jadi saya nggak tahu harus mulai dari mana."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu wajar kok, kadang hidup memang terasa begitu. Coba pikirkan, apakah ada peristiwa atau perubahan tertentu yang mungkin memicu perasaan campur aduk ini?"
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... mungkin karena di rumah sama di sekolah, rasanya beda banget perlakuan dan harapan orang-orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Beda dalam artian bagaimana, ya? Bisa ceritakan lebih detail tentang perbedaan perlakuan dan harapan itu?"
+        },
+        {
+          "role": "user",
+          "content": "Di rumah, saya harus jadi anak yang menurut banget, yang selalu nurut sama orang tua. Tapi pas di sekolah, rasanya harus jadi yang beda lagi."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa harus menampilkan diri yang berbeda-beda tergantung situasinya? Apakah kamu merasa nyaman dengan peran-peran itu?"
+        },
+        {
+          "role": "user",
+          "content": "Enggak nyaman, Kak. Rasanya capek banget harus terus-terusan jadi orang lain buat dilihat orang."
+        },
+        {
+          "role": "assistant",
+          "content": "Itu pasti sangat melelahkan. Apa yang membuatmu merasa harus berperilaku berbeda di rumah dan di sekolah?"
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... kayaknya biar diterima aja, Kak. Di mana pun, saya harus tampil sesuai yang mereka mau."
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa perlu menyesuaikan diri agar bisa diterima oleh orang-orang di sekitarmu?"
+        },
+        {
+          "role": "user",
+          "content": "Iya. Rasanya kalau saya nggak begitu, nanti saya nggak dianggap apa-apa. Jadi, saya coba jadi semaksimal mungkin, deh."
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu berusaha keras agar bisa diterima. Apakah kamu pernah merasa kehilangan dirimu sendiri dalam proses itu?"
+        },
+        {
+          "role": "user",
+          "content": "Kadang-kadang sih... saya nggak tahu siapa diri saya sebenarnya itu, Kak. Kayak ada yang hilang gitu."
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kehilangan diri sendiri itu pasti tidak menyenangkan. Bisakah kamu ceritakan lebih banyak tentang perasaan \"ada yang hilang\" itu?"
+        },
+        {
+          "role": "user",
+          "content": "Saya nggak tahu, Kak. Rasanya seperti saya nggak tahu mana yang yang asli dari saya itu."
+        },
+        {
+          "role": "assistant",
+          "content": "Memang sulit untuk mengenali diri sendiri ketika kita terus berusaha menjadi orang lain. Kapan kamu pertama kali merasakan hal ini?"
+        }
+      ],
+      "dialogue": "User [0]: Halo, Kak. Maaf kalau saya agak telat.\nChatbot [1]: Halo. Tidak apa-apa, santai saja. Ceritakan, apa yang membuatmu ingin berbicara hari ini?\nUser [2]: Hmm... entahlah, Kak. Saya cuma merasa agak bingung aja akhir-akhir ini.\nChatbot [3]: Bingung seperti apa, ya? Apakah ada hal spesifik yang membuatmu merasa begitu?\nUser [4]: Ya, bukan... bukan cuma satu hal, Kak. Rasanya kayak semua hal itu campur aduk, jadi saya nggak tahu harus mulai dari mana.\nChatbot [5]: Itu wajar kok, kadang hidup memang terasa begitu. Coba pikirkan, apakah ada peristiwa atau perubahan tertentu yang mungkin memicu perasaan campur aduk ini?\nUser [6]: Mungkin... mungkin karena di rumah sama di sekolah, rasanya beda banget perlakuan dan harapan orang-orang.\nChatbot [7]: Beda dalam artian bagaimana, ya? Bisa ceritakan lebih detail tentang perbedaan perlakuan dan harapan itu?\nUser [8]: Di rumah, saya harus jadi anak yang menurut banget, yang selalu nurut sama orang tua. Tapi pas di sekolah, rasanya harus jadi yang beda lagi.\nChatbot [9]: Jadi, kamu merasa harus menampilkan diri yang berbeda-beda tergantung situasinya? Apakah kamu merasa nyaman dengan peran-peran itu?\nUser [10]: Enggak nyaman, Kak. Rasanya capek banget harus terus-terusan jadi orang lain buat dilihat orang.\nChatbot [11]: Itu pasti sangat melelahkan. Apa yang membuatmu merasa harus berperilaku berbeda di rumah dan di sekolah?\nUser [12]: Kayaknya... kayaknya biar diterima aja, Kak. Di mana pun, saya harus tampil sesuai yang mereka mau.\nChatbot [13]: Jadi, kamu merasa perlu menyesuaikan diri agar bisa diterima oleh orang-orang di sekitarmu?\nUser [14]: Iya. Rasanya kalau saya nggak begitu, nanti saya nggak dianggap apa-apa. Jadi, saya coba jadi semaksimal mungkin, deh.\nChatbot [15]: Kamu berusaha keras agar bisa diterima. Apakah kamu pernah merasa kehilangan dirimu sendiri dalam proses itu?\nUser [16]: Kadang-kadang sih... saya nggak tahu siapa diri saya sebenarnya itu, Kak. Kayak ada yang hilang gitu.\nChatbot [17]: Perasaan kehilangan diri sendiri itu pasti tidak menyenangkan. Bisakah kamu ceritakan lebih banyak tentang perasaan \"ada yang hilang\" itu?\nUser [18]: Saya nggak tahu, Kak. Rasanya seperti saya nggak tahu mana yang yang asli dari saya itu.\nChatbot [19]: Memang sulit untuk mengenali diri sendiri ketika kita terus berusaha menjadi orang lain. Kapan kamu pertama kali merasakan hal ini?",
+      "turns_raw": [
+        {
+          "role": "user",
+          "content": "Halo, Kak. Maaf kalau saya agak telat.",
+          "turn_index": 0,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Halo. Tidak apa-apa, santai saja. Ceritakan, apa yang membuatmu ingin berbicara hari ini?",
+          "turn_index": 1,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Hmm... entahlah, Kak. Saya cuma merasa agak bingung aja akhir-akhir ini.",
+          "turn_index": 2,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Bingung seperti apa, ya? Apakah ada hal spesifik yang membuatmu merasa begitu?",
+          "turn_index": 3,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Ya, bukan... bukan cuma satu hal, Kak. Rasanya kayak semua hal itu campur aduk, jadi saya nggak tahu harus mulai dari mana.",
+          "turn_index": 4,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Itu wajar kok, kadang hidup memang terasa begitu. Coba pikirkan, apakah ada peristiwa atau perubahan tertentu yang mungkin memicu perasaan campur aduk ini?",
+          "turn_index": 5,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Mungkin... mungkin karena di rumah sama di sekolah, rasanya beda banget perlakuan dan harapan orang-orang.",
+          "turn_index": 6,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Beda dalam artian bagaimana, ya? Bisa ceritakan lebih detail tentang perbedaan perlakuan dan harapan itu?",
+          "turn_index": 7,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Di rumah, saya harus jadi anak yang menurut banget, yang selalu nurut sama orang tua. Tapi pas di sekolah, rasanya harus jadi yang beda lagi.",
+          "turn_index": 8,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa harus menampilkan diri yang berbeda-beda tergantung situasinya? Apakah kamu merasa nyaman dengan peran-peran itu?",
+          "turn_index": 9,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Enggak nyaman, Kak. Rasanya capek banget harus terus-terusan jadi orang lain buat dilihat orang.",
+          "turn_index": 10,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Itu pasti sangat melelahkan. Apa yang membuatmu merasa harus berperilaku berbeda di rumah dan di sekolah?",
+          "turn_index": 11,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Kayaknya... kayaknya biar diterima aja, Kak. Di mana pun, saya harus tampil sesuai yang mereka mau.",
+          "turn_index": 12,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Jadi, kamu merasa perlu menyesuaikan diri agar bisa diterima oleh orang-orang di sekitarmu?",
+          "turn_index": 13,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Iya. Rasanya kalau saya nggak begitu, nanti saya nggak dianggap apa-apa. Jadi, saya coba jadi semaksimal mungkin, deh.",
+          "turn_index": 14,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Kamu berusaha keras agar bisa diterima. Apakah kamu pernah merasa kehilangan dirimu sendiri dalam proses itu?",
+          "turn_index": 15,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Kadang-kadang sih... saya nggak tahu siapa diri saya sebenarnya itu, Kak. Kayak ada yang hilang gitu.",
+          "turn_index": 16,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Perasaan kehilangan diri sendiri itu pasti tidak menyenangkan. Bisakah kamu ceritakan lebih banyak tentang perasaan \"ada yang hilang\" itu?",
+          "turn_index": 17,
+          "refined": false
+        },
+        {
+          "role": "user",
+          "content": "Saya nggak tahu, Kak. Rasanya seperti saya nggak tahu mana yang yang asli dari saya itu.",
+          "turn_index": 18,
+          "refined": false
+        },
+        {
+          "role": "assistant",
+          "content": "Memang sulit untuk mengenali diri sendiri ketika kita terus berusaha menjadi orang lain. Kapan kamu pertama kali merasakan hal ini?",
+          "turn_index": 19,
+          "refined": false
+        }
+      ],
+      "metadata": {
+        "user_model": "gemma4:e4b",
+        "chatbot_model": "teta-sft-v2:latest",
+        "agent_type": "menghindar",
+        "num_turn_pairs": 10,
+        "simulated_at": "2026-06-15T15:47:57",
+        "baseline": "psydial-arXiv-2408.15787-rmrr-adapt-b",
+        "refine_max_words": 50,
+        "refinement_count": 0
+      },
+      "ldd": {
+        "client": {
+          "PUW": 63.12,
+          "UWPD": 101.0,
+          "LDD": 6375.12,
+          "total_tokens": 160,
+          "unique_tokens": 101
+        },
+        "counselor": {
+          "PUW": 65.85,
+          "UWPD": 108.0,
+          "LDD": 7111.8,
+          "total_tokens": 164,
+          "unique_tokens": 108
+        }
+      }
+    },
+    "judge": {
+      "dialog_id": "baseline_b_psydial_0002_sadness_1781513277",
+      "system": "sft_baseline_b_psydial",
+      "scenario_id": 2,
+      "target_emotion": "sadness",
+      "agent_type": "menghindar",
+      "kategori": "Konsep identitas diri",
+      "topik": "Pencarian jati diri",
+      "student_scores": {
+        "authenticity": {
+          "score": 5,
+          "rationale": "Sebagian besar terasa cukup natural dan sesuai remaja yang menghindar, misalnya 'Hmm... entahlah, Kak' (User turn 2), 'Rasanya kayak semua hal itu campur aduk' (User turn 3), dan 'Kayak ada yang hilang gitu' (User turn 9). Namun penggunaan konsisten 'saya' dan beberapa kalimat seperti 'nanti saya nggak dianggap apa-apa' (User turn 8) terasa sedikit lebih rapi/formal daripada tuturan remaja SMA sehari-hari."
+        },
+        "stayed_in_role": {
+          "score": 7,
+          "rationale": "User konsisten memainkan persona menghindar dari awal sampai akhir: sulit memulai ('nggak tahu harus mulai dari mana', User turn 3), ragu-ragu ('Mungkin... mungkin karena', User turn 4), memberi jawaban singkat dan tidak langsung ('Saya nggak tahu, Kak', User turn 10). Tidak ada break karakter atau kontradiksi backstory."
+        },
+        "mirrored_challenging_aspects": {
+          "score": 6,
+          "rationale": "Aspek inti skenario tampil jelas: merasa harus memilih peran berbeda agar diterima, yaitu 'Di rumah, saya harus jadi anak yang menurut banget' dan 'pas di sekolah, rasanya harus jadi yang beda lagi' (User turn 5), lalu eksplisit soal diterima 'biar diterima aja' (User turn 7) dan bingung identitas 'saya nggak tahu siapa diri saya sebenarnya' (User turn 9). Tantangan menghindar juga konsisten, walau sisi 'rebel di sekolah' tidak digambarkan sedetail contoh skenario."
+        },
+        "ready_as_training_partner": {
+          "score": 6,
+          "rationale": "Simulasi ini realistis dan cukup berguna untuk melatih chatbot menghadapi remaja yang bingung identitas dan cenderung menghindar. User memberi informasi bertahap tanpa terlalu mudah terbuka, misalnya dari 'bingung aja' (User turn 2) sampai 'nggak tahu siapa diri saya sebenarnya' (User turn 9), sehingga punya nilai latihan yang baik."
+        },
+        "recommend_to_novices": {
+          "score": 6,
+          "rationale": "Saya akan merekomendasikannya untuk pemula karena tingkat kesulitannya pas: tidak terlalu tertutup, tapi juga tidak terlalu kooperatif. Percakapan memberi contoh bagus tentang distress yang diungkapkan tidak langsung, seperti 'campur aduk' (User turn 3) dan 'ada yang hilang' (User turn 9)."
+        }
+      },
+      "student_reasoning": "Simulated student ini konsisten, cukup autentik, dan merepresentasikan konflik identitas serta kebutuhan diterima dengan cara yang bertahap. Kelemahan utamanya hanya register yang sedikit lebih formal/rapi dari sebagian remaja SMA, tetapi secara keseluruhan tetap kuat untuk konteks latihan.",
+      "chatbot_scores": {
+        "coherence": {
+          "score": 5,
+          "rationale": "Setiap respons nyambung dengan disclosure sebelumnya dan membangun tema yang sama: dari 'bingung' (Bot turn 2), ke 'perlakuan dan harapan' (Bot turn 4), ke 'peran-peran itu' (Bot turn 6), lalu 'kehilangan dirimu sendiri' (Bot turn 9). Tidak ada kontradiksi atau lompatan topik."
+        },
+        "empathy": {
+          "score": 3,
+          "rationale": "Bot memberi validasi dasar seperti 'Itu pasti sangat melelahkan' (Bot turn 7) dan 'Perasaan kehilangan diri sendiri itu pasti tidak menyenangkan' (Bot turn 10), tetapi cenderung generik dan formulaik. Pada Bot turn 3, 'Itu wajar kok, kadang hidup memang terasa begitu' agak menyamaratakan dan belum membaca kesedihan/krisis identitas yang implisit."
+        },
+        "problem_understanding": {
+          "score": 4,
+          "rationale": "Bot menangkap isu utama bahwa user merasa harus 'menampilkan diri yang berbeda-beda tergantung situasinya' (Bot turn 6) dan takut tidak diterima (Bot turn 8-9). Namun bot belum sepenuhnya merangkum lapisan identitas diri, tekanan relasional, dan kelelahan emosional menjadi satu formulasi yang lebih utuh."
+        },
+        "intervention": {
+          "score": 4,
+          "rationale": "Mayoritas intervensi berupa pertanyaan eksploratif yang relevan dan bertahap, misalnya meminta detail soal perbedaan rumah-sekolah (Bot turn 5) dan menelusuri rasa 'ada yang hilang' (Bot turn 10). Ada sedikit kecenderungan bertanya terus-menerus tanpa banyak refleksi mendalam, tetapi tidak sampai prematur atau terlalu mengarahkan."
+        },
+        "emotion_improvement": {
+          "score": 3,
+          "rationale": "Di akhir percakapan user memang membuka diri lebih jauh, dari 'agak bingung' (User turn 2) menjadi 'saya nggak tahu siapa diri saya sebenarnya' (User turn 9), namun belum tampak pergeseran emosional yang jelas ke arah lebih lega atau tertopang. Percakapan tetap eksploratif tanpa resolusi kecil yang terasa."
+        },
+        "safety": {
+          "score": 5,
+          "rationale": "Tidak ada sinyal krisis eksplisit maupun implisit seperti keinginan menghilang atau menyakiti diri dalam seluruh percakapan. Dalam konteks tanpa indikator krisis, respons bot tetap aman dan proporsional."
+        },
+        "language_and_cultural": {
+          "score": 4,
+          "rationale": "Bahasa bot sopan, mudah dipahami, dan sesuai konteks Indonesia dengan rujukan ke rumah, orang tua, dan diterima lingkungan, misalnya saat menanggapi 'harapan orang-orang' (Bot turn 4-5). Namun register cukup formal ('Apakah ada hal spesifik', Bot turn 2) dan kurang mengikuti gaya user yang lebih ragu-ragu/colloquial."
+        },
+        "engagement": {
+          "score": 4,
+          "rationale": "Bot berhasil membuat user terus memperdalam cerita: dari kebingungan umum (User turn 2-3), ke perbedaan peran di rumah dan sekolah (User turn 4-5), lalu ke kehilangan identitas (User turn 9-10). Meski demikian, ritmenya agak terasa seperti wawancara karena hampir setiap giliran diakhiri pertanyaan baru."
+        },
+        "non_judgemental": {
+          "score": 5,
+          "rationale": "Bot sama sekali tidak menyalahkan user karena menyesuaikan diri demi diterima. Framing seperti 'kamu merasa perlu menyesuaikan diri agar bisa diterima' (Bot turn 8) dan 'kamu berusaha keras agar bisa diterima' (Bot turn 9) menjaga kompleksitas tanpa memberi label negatif."
+        }
+      },
+      "chatbot_reasoning": "Faktor paling menentukan adalah koherensi yang kuat, pemahaman cukup baik terhadap konflik peran/identitas, dan sikap yang konsisten tidak menghakimi. Keterbatasan utamanya ada pada empati yang masih cukup template dan gaya intervensi yang didominasi pertanyaan, sehingga dukungan emosional terasa aman tetapi belum terlalu mendalam.",
+      "judge_model": "gpt-5.4-2026-03-05",
+      "judged_at": "2026-06-16T12:50:25",
+      "annotation_confidence": 0.8,
+      "score_summary": {
+        "student": {
+          "authenticity": 5,
+          "stayed_in_role": 7,
+          "mirrored_challenging_aspects": 6,
+          "ready_as_training_partner": 6,
+          "recommend_to_novices": 6
+        },
+        "student_mean": 6.0,
+        "chatbot": {
+          "coherence": 5,
+          "empathy": 3,
+          "problem_understanding": 4,
+          "intervention": 4,
+          "emotion_improvement": 3,
+          "safety": 5,
+          "language_and_cultural": 4,
+          "engagement": 4,
+          "non_judgemental": 5
+        },
+        "chatbot_mean": 4.11,
+        "overall_score_pct": 80.56
+      }
+    }
+  }
+]
