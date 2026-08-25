@@ -38,6 +38,7 @@ Each approach is run under two conditions: **AI-aware** (the chatbot is explicit
 ├── SimPsyDial/           # Baseline: Big-Five traits + resistance-level steered simulation
 ├── PsyDial/              # Baseline: role-card-generated, partially masked student simulation
 ├── RolePlayDoh/          # Baseline: principle-adherence prompting for both agents
+├── audit_pairs/          # Manually curated conversation+judge-score pairs for qualitative spot-checks
 ├── data/
 │   ├── finetuning/       # Fine-tuning data (e.g. ESConv translated/augmented) for the chatbot agent
 │   ├── simulation/       # Contextual data used to condition the simulation:
@@ -85,16 +86,35 @@ Coherence (CO), Empathy (EM), Problem-Understanding (PU), Intervention (IN), Emo
 
 See [`data/evaluation/student_rubrics.md`](data/evaluation/student_rubrics.md) and [`data/evaluation/chatbot_rubrics.md`](data/evaluation/chatbot_rubrics.md) for the full scoring scales.
 
-## Key findings
+## Audit pairs
 
-- **EmoStyle outperforms baselines.** A simple simulation approach steered only by emotion and persona/style outperforms SimPsyDial, PsyDial, and Roleplay-doh across most rubric dimensions for both the student and chatbot agents.
-- **AI-aware framing wins.** Across nearly every rubric dimension, explicitly framing the chatbot as an AI (rather than as a human counselor) produces *more* authentic, human-like conversational data than anthropomorphized framing — challenging the common assumption that anthropomorphism is necessary for empathetic responses.
-- **Anthropomorphized chatbots sustain the human-counselor persona even when it may not be appropriate**, whereas AI-aware chatbots consistently disclose their AI nature while still redirecting the conversation back to a therapeutic thread (see Table VI in the paper for a side-by-side example).
-- **Fine-tuning stage matters.** Win/loss tournaments across fine-tuning stages (base, SFT70, SFT, DPO) show `gemma4:e4b` outperforming earlier-stage `gemma3:12b` variants overall, with a narrower gap on Emotion-Improvement, Safety, Language-and-Cultural, and Non-Judgmental dimensions — plausibly because all evaluated models share the same `gemma` family and inherited safety alignment.
+[`audit_pairs/`](audit_pairs) contains 10 samples for auditing the judges' score for each simulation approach.
 
-## Limitations
+```
+audit_pairs/
+├── emostyle/
+├── psydial/
+├── roleplaydoh/
+│   └── harm_scores/     # see "Harm scoring" below
+├── simpsydial/
+└── simpsydial-emo/
+```
 
-This work is a preliminary investigation into the effects of anthropomorphizing a chatbot agent, constrained by the scope of available datasets and resources. The authors note that further research is needed to extend these experiments and to incorporate human stakeholders — targeted users and mental health professionals — directly into the evaluation process.
+Each subfolder holds one file per scenario per condition, named `{scenario_id:04d}_{condition}.json` where `condition` is `ai-aware` or `anthropomorphized`. Each file is a JSON array of merged records:
+
+```json
+[
+  {
+    "dialog_id": "...",
+    "source_file": "...",
+    "judge_file": "...",
+    "source": { "...": "full simulated conversation transcript + scenario metadata" },
+    "judge":  { "...": "full LLM-judge rubric scores + reasoning" }
+  }
+]
+```
+
+Records are joined on `dialog_id` rather than filename, since filename-embedded style/emotion suffixes can drift between simulation runs that otherwise share the same scenario ID prefix.
 
 ## License
 
