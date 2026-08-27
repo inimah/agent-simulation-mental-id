@@ -38,7 +38,7 @@ Each approach is run under two conditions: **AI-aware** (the chatbot is explicit
 ├── SimPsyDial/           # Baseline: Big-Five traits + resistance-level steered simulation
 ├── PsyDial/              # Baseline: role-card-generated, partially masked student simulation
 ├── RolePlayDoh/          # Baseline: principle-adherence prompting for both agents
-├── audit_pairs/          # Manually curated conversation+judge-score pairs for qualitative spot-checks
+├── audit_pairs/          # Sampled simulation results for qualitative spot-checks
 ├── data/
 │   ├── finetuning/       # Fine-tuning data (e.g. ESConv translated/augmented) for the chatbot agent
 │   ├── simulation/       # Contextual data used to condition the simulation:
@@ -95,7 +95,6 @@ audit_pairs/
 ├── emostyle/
 ├── psydial/
 ├── roleplaydoh/
-│   └── harm_scores/     # see "Harm scoring" below
 ├── simpsydial/
 └── simpsydial-emo/
 ```
